@@ -1,0 +1,11 @@
+{
+    "name": "CDB13",
+    "description": "Cleaned and edited version of the CDB90 battle dataset",
+    "version": "0.0.1",
+    "maintainers": [
+	{"name": "Jeffrey B. Arnold",
+	 "email": "jeffrey.arnold@gmail.com"}
+	]
+    "resources": {
+    }
+}
