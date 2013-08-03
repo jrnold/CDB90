@@ -6,6 +6,27 @@
 	{"name": "Jeffrey B. Arnold",
 	 "email": "jeffrey.arnold@gmail.com"}
 	]
-    "resources": {
-    }
+    "resources": [
+	{"path": "data/cdb90_battles.csv",
+	 "schema": {
+	     "fields": [
+		 {
+		     "description": "battle sequence (line or serial) number",
+		     "id": "isqno"
+		 },
+		 {
+		     "id": "war",
+		     "description": "war in which battle/engagement was fought",
+		 },
+		 {
+		     "id": "name",
+		     "description": "name of the battle/engagement"
+		 },
+	     }
+	 },
+	 {"path": "data/cdb90_combatants.csv"},
+	 {"path": "data/cdb90_terrain.csv"},
+	 {"path": "data/cdb90_weather.csv"},
+	 {"path": "data/cdb90_active_periods.csv"},
+	]
 }

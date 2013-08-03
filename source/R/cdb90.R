@@ -206,7 +206,7 @@ make_active_period <- function(x, i) {
     end_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda,
                               HH1, MM1)
     data.frame(atp_number = i,
-               start_time_min = start_time$min,
+               start_time_min = start_time$min, 
                start_time_max = start_time$max,
                end_time_min = end_time$min,
                end_time_max = end_time$max,
@@ -275,6 +275,18 @@ wx_data <- function(cdb90) {
   
 }
 
+writer <- function(x, file) {
+  for (i in names(x)) {
+    if (is(i, "factor")) {
+      x[[i]] <- as.character(x[[i]])
+    } else if (is(i, "date")) {
+      x[[i]] <- format(x[[i]], "%Y-%m-%d")
+    } else if (is(i, "POSIXct")) {
+      x[[i]] <- format(x[[i]], "%Y-%m-%dT%H%m%s")
+    }
+  }
+  write.csv(x, file = file, row.names = FALSE, na = "")
+}
 
 main <- function() {
   ## Raw datasets
@@ -295,16 +307,13 @@ main <- function() {
   cdb90_combatants <- combatant_data(cdb90, misc)
   cdb90_weather <- wx_data(cdb90)
   cdb90_terrain <- terra_data(cdb90)
-
-
-  writer <- function(x, file) {
-    write.csv(x, file = file, row.names = FALSE, na = "")
-  }
+  cdb90_active_periods <- atp_data(cdb90)
 
   writer(cdb90_battles, file.path(DATA_DIR, "cdb90_battles.csv"))
   writer(cdb90_combatants, file.path(DATA_DIR, "cdb90_combatants.csv"))
   writer(cdb90_weather, file.path(DATA_DIR, "cdb90_weather.csv"))
   writer(cdb90_terrain, file.path(DATA_DIR, "cdb90_terrain.csv"))
+  writer(cdb90_active_periods, file.path(DATA_DIR, "cdb90_active_periods.csv"))
   
 }
 
