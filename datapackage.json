@@ -2,13 +2,22 @@
     "name": "CDB13",
     "title": "CDB13 Battle Dataset"
     "version": "0.0.1",
+    "licenses": [{
+	"id": "odc-by",
+	"url": "http://opendatacommons.org/licenses/by/"
+    }],
     "maintainers": [
 	{"name": "Jeffrey B. Arnold",
 	 "email": "jeffrey.arnold@gmail.com"}
     ],
     "description": "Battle level data from CDB90 + revisions and additional data. 
 
-Fixes errors in the original CDB90, adds some new variables, and makes the data easier to use. It does not add any new battles to the data"
+Fixes errors in the original CDB90, adds some new variables, and makes the data easier to use. It does not add any new battles to the data",
+    "homepage": "https://github.com/jrnold/CDB13",
+    "sources": [
+	"name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991."
+	"web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121"
+    ],
     "resources": [
 	{"path": "data/cdb90_battles.csv",
 	 "schema": {
