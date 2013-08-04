@@ -1,4 +1,4 @@
-CDB90 Dataset of Battle
+CDB13 Battle Dataset
 ========================
 
 Revised and cleaned version of the CDB90 database of battles [helmbold93]_,
