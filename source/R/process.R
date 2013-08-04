@@ -287,12 +287,12 @@ wx_data <- function(cdb90) {
 
 writer <- function(x, file) {
   for (i in names(x)) {
-    if (is(i, "factor")) {
+    if (is(x[[i]], "factor")) {
       x[[i]] <- as.character(x[[i]])
-    } else if (is(i, "date")) {
+    } else if (is(x[[i]], "Date")) {
       x[[i]] <- format(x[[i]], "%Y-%m-%d")
-    } else if (is(i, "POSIXct")) {
-      x[[i]] <- format(x[[i]], "%Y-%m-%dT%H%m%s")
+    } else if (is(x[[i]], "POSIXt")) {
+      x[[i]] <- format(x[[i]], "%Y-%m-%dT%H:%M:%S")
     }
   }
   write.csv(x, file = file, row.names = FALSE, na = "")
