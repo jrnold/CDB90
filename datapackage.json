@@ -324,21 +324,6 @@
                         "description": "commander of the forces"
                     },
                     {
-                        "id": "wof1",
-                        "type": "number",
-                        "description": "width of front at start of battle (in kilometers)"
-                    },
-                    {
-                        "id": "wof2",
-                        "type": "number",
-                        "description": "second width of front (in kilometers)"
-                    },
-                    {
-                        "id": "wof3",
-                        "type": "number",
-                        "description": "third width of front (in kilometers)"
-                    },
-                    {
                         "id": "str",
                         "type": "integer",
                         "description": "total personnel strength"
@@ -566,12 +551,59 @@
                         "description": "Active time period end time (max)"
                     },
                     {
-                        "id": "duration",
+                        "id": "duration_min",
                         "type": "number",
-                        "description": "Active time period duration"
+                        "description": "Active time period duration (min)"
+                    },
+                    {
+                        "id": "duration_min",
+                        "type": "number",
+                        "description": "Active time period duration (max)"
+                    },
+                    {
+                        "id": "duration_only",
+                        "type": "boolean",
+                        "description": "Duration given, but start and end times are unknown.\nFor some battles CDB90 indicates an exact duration without indicating the hours and minutes of the start and end times. If this variable is true, then the `duration_*` will not be a function of `start_time_*` and `end_time_*`."
                     }
                 ]
             }
+	},
+	{
+	    "path": "data/front_widths",
+	    "description": "Widths of fronts",
+	    "schema": {
+		"fields": [
+		    {
+			"id": "isqno",
+			"type": "integer"
+		    },
+		    {
+			"id": "front_number",
+			"type": "integer",
+			"description": "Front observation number. \"1\" is the front at the start of the battle."
+		    },
+		    {
+			"id": "wofa",
+			"type": "number",
+			"description": "Width of attacker's front (in km)"
+		    },
+		    {
+			"id": "wofd",
+			"type": "number",
+			"description": "Width of defenders's front (in km)"
+		    },
+		    {
+			"id": "time_min",
+			"type": "datetimes",
+			"description": "Start time of front (min)"
+		    },
+		    {
+			"id": "time_max",
+			"type": "datetimes",
+			"description": "Start time of front (max)"
+		    }
+		]
+	    }
         },
 	{
 	    "path": "data/variable_levels.json",

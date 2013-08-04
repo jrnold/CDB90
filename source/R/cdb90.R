@@ -17,7 +17,7 @@ expand.paste <- function(..., sep='') {
 combatant_col_names <- function(attacker) {
   if (attacker) postfix <- "a" else postfix <- "d"
   template <-
-    c("nam%s", "co%s", paste0("wof%s", 1:3),
+    c("nam%s", "co%s",
       "str%s", "code%s", "intst%s", "rerp%s",
       "cas%s", "finst%s", "cav%s", "tank%s",
       "lt%s", "mbt%s", "arty%s", "fly%s", "ctank%s",
@@ -95,9 +95,6 @@ combatant_data_0 <- function(cdb90, attacker, misc) {
   # Missing commanders and names
   for (i in c("co", "nam")) {
     x[[i]] <- tomissing(x[[i]], "?")
-  }
-  for (i in paste0("wof", 1:3)) {
-    x[[i]] <- tomissing(x[[i]], -1)
   }
   x[["surp"]] <- tomissing(x[[i]], 9)
   x[["code"]] <- tomissing(x[[i]], 0)
@@ -188,12 +185,14 @@ make_active_period <- function(x, i) {
     NULL
   } else {
     duration_min <- duration_max <- NA
+    duration_only <- FALSE
     if (is.na(x$atpbhr)) {
       HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else if (x$atpbhr == 5000) {
       endhr <- (x$atpehr %/% 100) - 50
       endmn <- x$atpehr %% 100
       duration_min <- duration_max <- endhr * 60 + endmn
+      duration_only <- TRUE
       HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else {
       HH1 <- x$atpbhr %/% 100
@@ -203,11 +202,14 @@ make_active_period <- function(x, i) {
     }
     start_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda,
                                 HH1, MM1)
-    end_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda,
-                              HH1, MM1)
+    end_time <- datetimerange(x$atpeyr, x$atpemn, x$atpeda,
+                              HH2, MM2)
     if (is.na(duration_min)) {
-      duration_min <- difftime(end_time$min, start_time$max)
-      duration_max <- difftime(end_time$max, start_time$min)
+      duration_min <-
+        pmax(0, as.numeric(difftime(end_time$min, start_time$max,
+                                    units = "mins")))
+      duration_max <- as.numeric(difftime(end_time$max, start_time$min,
+                                          units = "mins"))
     }
     
     data.frame(atp_number = i,
@@ -216,7 +218,8 @@ make_active_period <- function(x, i) {
                end_time_min = end_time$min,
                end_time_max = end_time$max,
                duration_max = duration_max,
-               duration_min = duration_min)
+               duration_min = duration_min,
+               duration_only = duration_only)
                
   }
 }
@@ -295,6 +298,45 @@ writer <- function(x, file) {
   write.csv(x, file = file, row.names = FALSE, na = "")
 }
 
+front_width_data <- function(cdb90) {
+
+  make_front <- function(x, i) {
+    vars <- sprintf(c("yr%d", "mo%d", "da%d", "hr%d",
+                      "wofa%d", "wofd%d"), i)
+    ret <- x[ , vars]
+    names(ret) <- c("yr", "mo", "da", "hr", "wofa", "wofd")
+    for (j in paste0("wof", c("a", "d"))) {
+      ret[[j]] <- tomissing(ret[[j]], -1)
+    }
+    if (is.na(ret[["wofa"]]) & is.na(ret[["wofd"]])) {
+      NULL
+    } else {
+      ret$front_number <- i
+      times <- datetimerange(tomissing(ret$yr, 9999),
+                             tomissing(ret$mo, 99),
+                             tomissing(ret$da, 99),
+                             tomissing(ret$hr %/% 100, 99),
+                             tomissing(ret$hr %% 100, 99))
+      for (j in c("yr", "mo", "da", "hr")) {
+        ret[[j]] <- NULL
+      }
+      ret$time_min <- times$min
+      ret$time_max <- times$max
+      ret
+    }
+  }
+
+  make_all_front <- function(x) {
+    ldply(1:3, function(i) make_front(x, i = i))
+  }
+  
+  ret <- ddply(cdb90, "isqno", make_all_front)
+  for (i in c("time_min", "time_max")) {
+    ret[[i]] <- as.POSIXct(ret[[i]], origin = as.Date("1970-1-1"))
+  }
+  ret
+}
+
 main <- function() {
   ## Raw datasets
   cdb90 <- read.delim("../data/CDB90/CDB90.csv")
@@ -315,6 +357,7 @@ main <- function() {
   cdb90_weather <- wx_data(cdb90)
   cdb90_terrain <- terra_data(cdb90)
   cdb90_active_periods <- atp_data(cdb90)
+  front_widths <- front_width_data(cdb90)
 
   cat("Writing battles.csv\n")
   writer(cdb90_battles, file.path(DATA_DIR, "battles.csv"))
@@ -326,6 +369,8 @@ main <- function() {
   writer(cdb90_terrain, file.path(DATA_DIR, "terrain.csv"))
   cat("Writing active_periods.csv\n")
   writer(cdb90_active_periods, file.path(DATA_DIR, "active_periods.csv"))
+  cat("Writing front_widths.csv\n")
+  writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
   
 }
 
