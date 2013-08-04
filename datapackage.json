@@ -1,32 +1,560 @@
 {
     "name": "CDB13",
-    "description": "Cleaned and edited version of the CDB90 battle dataset",
+    "title": "CDB13 Battle Dataset"
     "version": "0.0.1",
     "maintainers": [
 	{"name": "Jeffrey B. Arnold",
 	 "email": "jeffrey.arnold@gmail.com"}
-	]
+    ],
+    "description": "Battle level data from CDB90 + revisions and additional data. 
+
+Fixes errors in the original CDB90, adds some new variables, and makes the data easier to use. It does not add any new battles to the data"
     "resources": [
 	{"path": "data/cdb90_battles.csv",
 	 "schema": {
 	     "fields": [
 		 {
-		     "description": "battle sequence (line or serial) number",
-		     "id": "isqno"
+		     "id": "isqno",
+		     "type": "integer",
+		     "description": "battle sequence (line or serial) number"
 		 },
 		 {
 		     "id": "war",
-		     "description": "war in which battle/engagement was fought",
+		     "type": "string",
+		     "description": "war in which battle/engagement was fought"
 		 },
 		 {
 		     "id": "name",
-		     "description": "name of the battle/engagement"
+		     "type": "string",
 		 },
-	     }
+		 {
+		     "id": "locn",
+		     "type": "string",
+		     "description": "location where battle was fought"
+		 },
+		 {
+		     "id": "campgn",
+		     "type": "string",
+		     "description": "campaign in which battle was fought"
+		 },
+		 {
+		     "id": "postype",
+		     "type": "integer",
+		     "description": "defender's posture type descriptor"
+		 },
+		 {
+		     "id": "post1",
+		     "type": "string",
+		     "description": "defender's primary defensive posture"
+		 },
+		 {
+		     "id": "post2",
+		     "type": "string",
+		     "description": "defender's secondary defensive posture"
+		 },
+		 {
+		     "id": "front",
+		     "type": "integer",
+		     "description": "did defender's posture change along the front?"
+		 },
+		 {
+		     "id": "depth",
+		     "type": "integer",
+		     "description": "did defender's posture change with depth?"
+		 },
+		 {
+		     "id": "time",
+		     "type": "integer",
+		     "description": "did defender's posture change over time?"
+		 },
+		 {
+		     "id": "cea",
+		     "type": "integer",
+		     "description": "attacker's relative leadership advantage"
+		 },
+		 {
+		     "id": "surpa",
+		     "type": "integer",
+		     "description": "attacker's relative surprise advantage"
+		 },
+		 {
+		     "id": "aeroa",
+		     "type": "integer",
+		     "description": "attacker's relative air superority in theater"
+		 },
+		 {
+		     "id": "leada",
+		     "type": "integer",
+		     "description": "attacker's relative leadership advantage"
+		 },
+		 {
+		     "id": "trnga",
+		     "type": "integer",
+		     "description": "attacker's relative training advantage"
+		 },
+		 {
+		     "id": "morala",
+		     "type": "integer",
+		     "description", "attacker's relative morale advantage"
+		 },
+		 {
+		     "id": "logsa",
+		     "type": "integer",
+		     "description": "attacker's relative logistics advantage"
+		 },
+		 {
+		     "id": "momnta",
+		     "type": "integer",
+		     "description": "attacker's relative momentum advantage"
+		 },
+		 {
+		     "id": "intela",
+		     "type": "integer",
+		     "description": "attacker's relative intelligence advantage"
+		 },
+		 {
+		     "id": "techa",
+		     "type": "integer",
+		     "description": "attacker's relative technology advantage"
+		 },
+		 {
+		     "id": "inita",
+		     "type": "integer",
+		     "description": "attacker's relative initiative advantage"
+		 },
+		 {
+		     "id": "wina",
+		     "type": "integer",
+		     "description": "attacker's win/draw/lose"
+		 },
+		 {
+		     "id": "kmda",
+		     "type": "number",
+		     "description": "distance attacker advanced/retreated, in kilometers."
+		 },
+		 {
+		     "id": "crit",
+		     "type": "integer",
+		     "description": "criterion for assigning wina"
+		 },
+		 {
+		     "id": "quala",
+		     "type": "integer",
+		     "description": "degree of influence of force quality"
+		 },
+		 {
+		     "id": "resa",
+		     "type": "integer",
+		     "description": "degree of influence of reserves"
+		 },
+		 {
+		     "id": "mobila",
+		     "type": "integer",
+		     "description": "degreee of influence of mobility"
+		 },
+		 {
+		     "id": "aira",
+		     "type": "integer",
+		     "description": "degree of influence of air superiority"
+		 },
+		 {
+		     "id": "fprepa",
+		     "type": "integer",
+		     "description": "degree of influence of weather"
+		 },
+		 {
+		     "id": "wxa",
+		     "type": "integer",
+		     "description": "degree of influence of terrain"
+		 },
+		 {
+		     "id": "terra",
+		     "type": "integer",
+		     "description": "degree of influence of terrain"
+		 },
+		 {
+		     "id": "leadaa",
+		     "type": "integer",
+		     "description": "degree of influence of leadership"
+		 },
+		 {
+		     "id": "plana",
+		     "type": "integer",
+		     "description": "degree of influence of planning"
+		 },
+		 {
+		     "id": "surpaa",
+		     "type": "integer",
+		     "description": "degree of influence of surprise"
+		 },
+		 {
+		     "id": "mana",
+		     "type": "integer",
+		     "description": "degree of influence of manueverability"
+		 },
+		 {
+		     "id": "logsaa",
+		     "type": "integer",
+		     "description": "degree of influence of logistics"
+		 },
+		 {
+		     "id": "fortsa",
+		     "type": "integer",
+		     "description": "degree of influence of fortifications"
+		 },
+		 {
+		     "id": "deepa",
+		     "type": "integer",
+		     "description": "degree of influence of depth of position"
+		 },
+		 {
+		     "id": "is_hero",
+		     "type": "boolean",
+		     "description": "Battle from original HERO (1984) data; if
+false, then from the LFW Management Associates, Inc. Report \"Independent
+    Review/Reassessment of Anomalous Data (IR/RAD),\" 22 June 1987."
+		 },
+		 {
+		     "id": "war2",
+		     "type": "integer",
+		     "description": "War as per the original HERO (1984) data"
+		 },
+		 {
+		     "id": "war3",
+		     "type": "integer",
+		     "description": "War, aggregating WWI, WWI, Napoleonic Wars, and the Arab-Israeli 1967 and 1973 wars"
+		 },
+		 {
+		     "id": "cow_warno",
+		     "type": "integer",
+		     "description": "Correlates of War war number (if any)"
+		 },
+		 {
+		     "id": "cow_warname",
+		     "type": "string",
+		     "description": "Correlates of War war name (if any)"
+		 },
+		 {
+		     "id": "bdb_war",
+		     "type": "string",
+		     "description": "New war classification. Follows the wars in COW and Wikipedia as closely as possible."
+		 },
+		 {
+		     "id": "bdb_theater",
+		     "type": "string",
+		     "description": "New war theater classification. Only used for the larger wars."
+		 },
+		 {
+		     "id": "dbpedia",
+		     "type": "string",
+		     "description": "URI for associated dbpedia resource"
+		 },
+		 {
+		     "id": "parent",
+		     "type": "integer" 
+		     "description": "isqno of a parent battle in the data. If not null, then the observation is a duplicated battle."
+		 } 
+	     ]
 	 },
-	 {"path": "data/cdb90_combatants.csv"},
-	 {"path": "data/cdb90_terrain.csv"},
-	 {"path": "data/cdb90_weather.csv"},
-	 {"path": "data/cdb90_active_periods.csv"},
+	 {"path": "data/cdb90_terrain.csv",
+	  "description": "CDB90 battles' local terrain",
+	  "schema": {
+	      "fields": [
+		  {
+		      "id": "isqno",
+		      "type": "integer",
+		      "description": "battle sequence number"
+		  },
+		  {
+		      "id": "terrano",
+		      "type": "integer",
+		      "description": "local terrain description number"
+		  },
+		  {
+		      "id": "terra1",
+		      "type": "string",
+		      "description": "Terrain description: rugged, rolling, flat"
+		  },
+		  {
+		      "id": "terra2",
+		      "type": "string",
+		      "description": "Terrain description: wooded, mixed, bare, desert"
+		  },
+		  {
+		      "id": "terra3",
+		      "type": "string",
+		      "description": "Terrain description: urban, marsh, dunes"
+		  } 
+	      ] 
+	  }
+	 },
+	 {"path": "data/cdb90_combatants.csv",
+	  "description": "CDB90 battles' combatants (attacker, defender)",
+	  "schema": {
+	      "fields": [
+		  {
+		      "id": "isqno",
+		      "type": "integer",
+		      "description": "battle sequence number"
+		  },
+		  {
+		      "id": "nam",
+		      "type": "string",
+		      "description": "designation of the forces"
+		  },
+		  {
+		      "id": "co",
+		      "type": "string" ,
+		      "description": "commander of the forces"
+		  },
+		  {
+		      "id": "wof1",
+		      "type": "number",
+		      "description": "width of front at start of battle (in kilometers)"
+		  },
+		  {
+		      "id": "wof2",
+		      "type": "number",
+		      "description": "second width of front (in kilometers)"
+		  },
+		  {
+		      "id": "wof3",
+		      "type": "number",
+		      "description": "third width of front (in kilometers)"
+		  },
+		  {
+		      "id": "str",
+		      "type": "integer",
+		      "description": "total personnel strength"
+		  },
+		  {
+		      "id": "code",
+		      "type": "number",
+		      "description": "indicates interpretation of total pers strength"
+		  },
+		  {
+		      "id": "intst",
+		      "type": "integer",
+		      "description": "initial personnel strength"
+		  },
+		  {
+		      "id": "rerp",
+		      "type": "integer",
+		      "description": "personnel reinf/repl during battle"
+		  },
+		  {
+		      "id": "cas",
+		      "type": "integer",
+		      "description": "battle casualties"
+		  },
+		  {
+		      "id": "finst",
+		      "type": "integer",
+		      "description": "personnel strength at battle's end"
+		  },
+		  {
+		      "id": "cav",
+		      "type": "integer",
+		      "description": "horse cavalry strength"
+		  },
+		  {
+		      "id": "tank",
+		      "type": "integer",
+		      "description": "total number of tanks"
+		  },
+		  {
+		      "id": "lt",
+		      "type": "integer",
+		      "description": "number of light tanks"
+		  },
+		  {
+		      "id": "mbt",
+		      "type": "integer",
+		      "description": "number of main battle tanks"
+		  },
+		  {
+		      "id": "arty",
+		      "type": "integer",
+		      "description": "number of artillery tubes"
+		  },
+		  {
+		      "id": "fly",
+		      "type": "integer",
+		      "description": "number of close air support sorties"
+		  },
+		  {
+		      "id": "ctank",
+		      "type": "integer",
+		      "description": "armor losses"
+		  },
+		  {
+		      "id": "carty",
+		      "type": "integer",
+		      "description": "artillery losses"
+		  },
+		  {
+		      "id": "cfly",
+		      "type": "integer",
+		      "description": "close air support aircraft losses"
+		  },
+		  {
+		      "id": "pri1",
+		      "type": "string",
+		      "description": "primary tactical scheme, part 1"
+		  },
+		  {
+		      "id": "pri2",
+		      "type": "string",
+		      "description": "primary tactical scheme, part 2"
+		  },
+		  {
+		      "id": "pri3",
+		      "type": "string",
+		      "description": "primary tactical scheme, part 3"
+		  },
+		  {
+		      "id": "sec1",
+		      "type": "string",
+		      "description": "secondary tactical scheme, part 1"
+		  },
+		  {
+		      "id": "sec2",
+		      "type": "string",
+		      "description": "secondary tactical scheme, part 2"
+		  },
+		  {
+		      "id": "sec3",
+		      "type": "string",
+		      "description": "secondary tactical scheme, part 3"
+		  },
+		  {
+		      "id": "reso1",
+		      "type": "string",
+		      "description": "primary resolution/outcome, part 1"
+		  },
+		  {
+		      "id": "reso2",
+		      "type": "string",
+		      "description": "primary resolution/outcome, part 2"
+		  },
+		  {
+		      "id": "reso3",
+		      "type": "string",
+		      "description": "primary resolution/outcome, part 3"
+		  },
+		  {
+		      "id": "strpl",
+		      "type": "integer",
+		      "description": "strength error, plus percent"
+		  },
+		  {
+		      "id": "strmi",
+		      "type": "integer",
+		      "description": "strength error, minus percent"
+		  },
+		  {
+		      "id": "caspl",
+		      "type": "integer",
+		      "description": "casualty error, plus percent"
+		  },
+		  {
+		      "id": "casmi",
+		      "type": "integer",
+		      "description": "casualty error, minus percent"
+		  },
+		  {
+		      "id": "ach",
+		      "type": "integer",
+		      "description": "mission accomplishment score; on scale of 1 to 10, 1=low"
+		  },
+		  {
+		      "id": "attacker",
+		      "type": "boolean",
+		      "description": "Attacker or defender in the battle"
+		  },
+		  {
+		      "id": "countries",
+		      "type": "string" 
+		  } 
+	      ] 
+	  }
+	 },
+	 {"path": "data/cdb90_weather.csv",
+	  "schema":  {
+	      "fields": 
+	      [
+		  {
+		      "id": "isqno",
+		      "type": "integer" 
+		  },
+		  {
+		      "id": "wxno",
+		      "type": "integer" 
+		  },
+		  {
+		      "id": "wx1",
+		      "type": "string" 
+		  },
+		  {
+		      "id": "wx2",
+		      "type": "string" 
+		  },
+		  {
+		      "id": "wx3",
+		      "type": "string" 
+		  },
+		  {
+		      "id": "wx4",
+		      "type": "string" 
+		  },
+		  {
+		      "id": "wx5",
+		      "type": "string" 
+		  } 
+	      ] 
+	  }
+	 },
+	 {"path": "data/cdb90_active_periods.csv",
+	  "schema": {
+	      "fields": [
+		  {
+		      "id": "isqno",
+		      "type": "integer",
+		      "description": "battle sequence number"
+		  },
+		  {
+		      "id": "atp_number",
+		      "type": "integer",
+		      "description": "Active time period number"
+		  },
+		  {
+		      "id": "start_time_min",
+		      "type": "datetime",
+		      "description": "Active time period start time (min)"
+		  },
+		  {
+		      "id": "start_time_max",
+		      "type": "datetime",
+		      "description": "Active time period start time (max)"
+		  },
+		  {
+		      "id": "end_time_min",
+		      "type": "datetime",
+		      "description": "Active time period end time (min)"
+		  },
+		  {
+		      "id": "end_time_max",
+		      "type": "datetime",
+		      "description": "Active time period end time (max)"
+		  },
+		  {
+		      "id": "duration",
+		      "type": "number",
+		      "description": "Active time period duration"
+		  } 
+	      ] 
+	  }
+	 },
 	]
+    }
 }

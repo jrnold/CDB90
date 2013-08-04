@@ -41,9 +41,9 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
                 paste0("post", 1:2),
                 "front",
                 "depth",
-                "time", 
-                "cea", "leada", "trnga",
-                "morala", "logsa", "momnta", "intela",
+                "time",
+                "aeroa", "surpa",
+                "cea", "leada", "trnga", "morala", "logsa", "momnta", "intela",
                 "techa", "inita", "wina", "kmda",
                 "crit", "quala", "resa", "mobila", "aira",
                 "fprepa", "wxa", "terra", "leadaa", "plana", "surpaa",
@@ -57,7 +57,7 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
     x[[i]] <- tomissing(x[[i]], 9)
   }
   for (i in c('quala', 'resa', 'mobila', 'aira', 'fprepa', 'wxa', 'terra',
-              'leadaa', 'plana', 'surpaa', 'mana',
+              'leadaa', 'plana', 'surpaa', 'mana', "aeroa", "surpa",
               'logsaa', 'fortsa', 'deepa')) {
     x[[i]] <- tomissing(x[[i]], -9)
   }
@@ -309,10 +309,15 @@ main <- function() {
   cdb90_terrain <- terra_data(cdb90)
   cdb90_active_periods <- atp_data(cdb90)
 
+  cat("Writing cdb90_battles.csv\n")
   writer(cdb90_battles, file.path(DATA_DIR, "cdb90_battles.csv"))
+  cat("Writing cdb90_combatants.csv\n")
   writer(cdb90_combatants, file.path(DATA_DIR, "cdb90_combatants.csv"))
+  cat("Writing cdb90_weather.csv\n")
   writer(cdb90_weather, file.path(DATA_DIR, "cdb90_weather.csv"))
+  cat("Writing cdb90_terrain.csv\n")
   writer(cdb90_terrain, file.path(DATA_DIR, "cdb90_terrain.csv"))
+  cat("Writing cdb90_active_periods.csv\n")
   writer(cdb90_active_periods, file.path(DATA_DIR, "cdb90_active_periods.csv"))
   
 }
