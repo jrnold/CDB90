@@ -187,30 +187,37 @@ make_active_period <- function(x, i) {
   if (is.na(x$atpbyr)) {
     NULL
   } else {
+    duration_min <- duration_max <- NA
     if (is.na(x$atpbhr)) {
-      HH1 <- MM1 <- HH2 <- MM2 <- duration <- NA
+      HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else if (x$atpbhr == 5000) {
       endhr <- (x$atpehr %/% 100) - 50
       endmn <- x$atpehr %% 100
-      duration <- endhr * 60 + endmn
+      duration_min <- duration_max <- endhr * 60 + endmn
       HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else {
       HH1 <- x$atpbhr %/% 100
       MM1 <- x$atpbhr %% 100
       HH2 <- x$atpehr %/% 100
       MM2 <- x$atpehr %% 100
-      duration <- NA
     }
     start_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda,
                                 HH1, MM1)
     end_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda,
                               HH1, MM1)
+    if (is.na(duration_min)) {
+      duration_min <- difftime(end_time$min, start_time$max)
+      duration_max <- difftime(end_time$max, start_time$min)
+    }
+    
     data.frame(atp_number = i,
                start_time_min = start_time$min, 
                start_time_max = start_time$max,
                end_time_min = end_time$min,
                end_time_max = end_time$max,
-               duration = duration)
+               duration_max = duration_max,
+               duration_min = duration_min)
+               
   }
 }
 
@@ -309,16 +316,16 @@ main <- function() {
   cdb90_terrain <- terra_data(cdb90)
   cdb90_active_periods <- atp_data(cdb90)
 
-  cat("Writing cdb90_battles.csv\n")
-  writer(cdb90_battles, file.path(DATA_DIR, "cdb90_battles.csv"))
-  cat("Writing cdb90_combatants.csv\n")
-  writer(cdb90_combatants, file.path(DATA_DIR, "cdb90_combatants.csv"))
-  cat("Writing cdb90_weather.csv\n")
-  writer(cdb90_weather, file.path(DATA_DIR, "cdb90_weather.csv"))
-  cat("Writing cdb90_terrain.csv\n")
-  writer(cdb90_terrain, file.path(DATA_DIR, "cdb90_terrain.csv"))
-  cat("Writing cdb90_active_periods.csv\n")
-  writer(cdb90_active_periods, file.path(DATA_DIR, "cdb90_active_periods.csv"))
+  cat("Writing battles.csv\n")
+  writer(cdb90_battles, file.path(DATA_DIR, "battles.csv"))
+  cat("Writing combatants.csv\n")
+  writer(cdb90_combatants, file.path(DATA_DIR, "combatants.csv"))
+  cat("Writing weather.csv\n")
+  writer(cdb90_weather, file.path(DATA_DIR, "weather.csv"))
+  cat("Writing terrain.csv\n")
+  writer(cdb90_terrain, file.path(DATA_DIR, "terrain.csv"))
+  cat("Writing active_periods.csv\n")
+  writer(cdb90_active_periods, file.path(DATA_DIR, "active_periods.csv"))
   
 }
 

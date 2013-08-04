@@ -1,7 +1,7 @@
 {
     "name": "CDB13",
     "title": "CDB13 Battle Dataset",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "licenses": [
         {
             "id": "odc-by",
@@ -24,7 +24,7 @@
     ],
     "resources": [
         {
-            "path": "data/cdb90_battles.csv",
+            "path": "data/battles.csv",
             "schema": {
                 "fields": [
                     {
@@ -271,7 +271,7 @@
             }
         },
         {
-            "path": "data/cdb90_terrain.csv",
+            "path": "data/terrain.csv",
             "description": "CDB90 battles' local terrain",
             "schema": {
                 "fields": [
@@ -304,7 +304,7 @@
             }
         },
         {
-            "path": "data/cdb90_combatants.csv",
+            "path": "data/combatants.csv",
             "description": "CDB90 battles' combatants (attacker, defender)",
             "schema": {
                 "fields": [
@@ -496,7 +496,7 @@
             }
         },
         {
-            "path": "data/cdb90_weather.csv",
+            "path": "data/weather.csv",
             "schema": {
                 "fields": [
                     {
@@ -531,7 +531,8 @@
             }
         },
         {
-            "path": "data/cdb90_active_periods.csv",
+            "path": "data/active_periods.csv",
+	    "description": "Start and end times of active time periods of the battle",
             "schema": {
                 "fields": [
                     {
@@ -571,6 +572,10 @@
                     }
                 ]
             }
-        }
+        },
+	{
+	    "path": "data/variable_levels.json",
+	    "description": "Descriptions of the levels of factor-like variables in the data"
+	}
     ]
 }
