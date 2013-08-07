@@ -65,38 +65,6 @@ class Version(Base, Mixin):
 
 class Cdb90Battle(Base, Mixin):
     __tablename__ = "cdb90_battles"
-    __table_args__ = (
-        # Total tanks = light tanks + MBT
-        sa.CheckConstraint('lta + mbta = tanka'),
-        sa.CheckConstraint('ltd + mbtd = tankd'),
-        # Cavalry < personnel
-        sa.CheckConstraint('cava <= stra'),
-        sa.CheckConstraint('cavd <= strd'),        
-        # Casualties < available weaponry
-        # Tanks
-        sa.CheckConstraint('ctanka <= tanka'),
-        sa.CheckConstraint('ctankd <= tankd'),
-        # artillery
-        sa.CheckConstraint('cartya <= artya'),
-        sa.CheckConstraint('cartyd <= artyd'),
-        # Air support
-        sa.CheckConstraint('cflya <= flya'),
-        sa.CheckConstraint('cflyd <= flyd'),
-        # Casualties and strength
-        # Initial + Reinforcements - Casualties = Final
-        sa.CheckConstraint('intsta + rerpa - casa = finsta'),
-        sa.CheckConstraint('intstd + rerpd - casd = finstd'),
-        # Strength >= casualties (only if str[ad] is not total strength)
-        sa.CheckConstraint('stra >= casa or codea != 3'),
-        sa.CheckConstraint('strd >= casd or coded != 3'),
-        sa.CheckConstraint('(intsta = stra) or (codea != 1)'),
-        sa.CheckConstraint('(intsta is not null) or (codea != 1)'),
-        sa.CheckConstraint('(intstd = strd) or (coded != 1)'),
-        sa.CheckConstraint('(intstd is not null) or (coded != 1)'),                
-        sa.CheckConstraint('(intsta + rerpa = stra) or (codea != 3)'),
-        sa.CheckConstraint('(intstd + rerpd = strd) or (coded != 3)'),
-        sa.CheckConstraint('(finsta + casa = stra) or (codea != 3)'),
-        sa.CheckConstraint('(finstd + casd = strd) or (coded != 3)'),
         # Cannot be parent of oneself
         sa.CheckConstraint('isqno != parent')
         )
@@ -138,75 +106,10 @@ class Cdb90Battle(Base, Mixin):
     front = sa.Column(sa.Boolean)
     depth = sa.Column(sa.Boolean)
     time = sa.Column(sa.Boolean)
-    # terra1 = sa.Column(sa.Unicode)
-    # terra2 = sa.Column(sa.Unicode)
-    # wx1 = sa.Column(sa.Unicode(5))
-    # wx2 = sa.Column(sa.Unicode(5))
-    # wx3 = sa.Column(sa.Unicode(5))
     surpa = sa.Column(sa.Integer,
                       ForeignKey(Cdb90Surpa.__table__.c.value))
     aeroa = sa.Column(sa.Integer,
                       ForeignKey(Cdb90Aeroa.__table__.c.value))
-    stra = sa.Column(sa.Integer,
-                     sa.CheckConstraint('stra > 0'))
-    codea = sa.Column(sa.Integer,
-                      ForeignKey(Cdb90CodeAD.__table__.c.value))
-    intsta = sa.Column(sa.Integer,
-                       sa.CheckConstraint('intsta > 0'))
-    rerpa = sa.Column(sa.Integer,
-                      sa.CheckConstraint('rerpa >= 0'))
-    casa = sa.Column(sa.Integer,
-                     sa.CheckConstraint('casa > 0'))
-    finsta = sa.Column(sa.Integer,
-                       sa.CheckConstraint('finsta > 0'))
-    strd = sa.Column(sa.Integer,
-                     sa.CheckConstraint('strd > 0'))
-    coded = sa.Column(sa.Integer,
-                      ForeignKey(Cdb90CodeAD.__table__.c.value))
-    intstd = sa.Column(sa.Integer,
-                       sa.CheckConstraint('intstd > 0'))
-    rerpd = sa.Column(sa.Integer,
-                      sa.CheckConstraint('rerpd >= 0'))
-    casd = sa.Column(sa.Integer,
-                     sa.CheckConstraint('casd > 0'))
-    finstd = sa.Column(sa.Integer,
-                       sa.CheckConstraint('finstd >= 0'))
-    cava = sa.Column(sa.Integer,
-                     sa.CheckConstraint('cava >= 0'))
-    tanka = sa.Column(sa.Integer,
-                      sa.CheckConstraint('tanka >= 0'))
-    lta = sa.Column(sa.Integer,
-                    sa.CheckConstraint('lta >= 0'))
-    mbta = sa.Column(sa.Integer,
-                     sa.CheckConstraint('mbta >= 0'))
-    artya = sa.Column(sa.Integer,
-                      sa.CheckConstraint('artya >= 0'))
-    flya = sa.Column(sa.Integer,
-                     sa.CheckConstraint('flya >= 0'))
-    ctanka = sa.Column(sa.Integer,
-                       sa.CheckConstraint('ctanka >= 0'))
-    cartya = sa.Column(sa.Integer,
-                       sa.CheckConstraint('cartya >= 0'))
-    cflya = sa.Column(sa.Integer,
-                      sa.CheckConstraint('cflya >= 0'))
-    cavd = sa.Column(sa.Integer,
-                     sa.CheckConstraint('cavd >= 0'))
-    tankd = sa.Column(sa.Integer,
-                      sa.CheckConstraint('tankd >= 0'))
-    ltd = sa.Column(sa.Integer,
-                    sa.CheckConstraint('ltd >= 0'))
-    mbtd = sa.Column(sa.Integer,
-                     sa.CheckConstraint('mbtd >= 0'))
-    artyd = sa.Column(sa.Integer,
-                      sa.CheckConstraint('artyd >= 0'))
-    flyd = sa.Column(sa.Integer,
-                     sa.CheckConstraint('flyd >= 0'))
-    ctankd = sa.Column(sa.Integer,
-                       sa.CheckConstraint('ctankd >= 0'))
-    cartyd = sa.Column(sa.Integer,
-                       sa.CheckConstraint('cartyd >= 0'))
-    cflyd = sa.Column(sa.Integer,
-                      sa.CheckConstraint('cflyd >= 0'))
     cea = sa.Column(sa.Integer,
                     ForeignKey(Cdb90Cea.__table__.c.value))
     leada = sa.Column(sa.Integer,
@@ -262,58 +165,6 @@ class Cdb90Battle(Base, Mixin):
                        ForeignKey(Cdb90Cea.__table__.c.value))
     deepa = sa.Column(sa.Integer,
                       ForeignKey(Cdb90Cea.__table__.c.value))
-    pria1 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    pria2 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    pria3 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    seca1 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    seca2 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    seca3 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    resoa1 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    resoa2 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    resoa3 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    prid1 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    prid2 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    prid3 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    secd1 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    secd2 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    secd3 = sa.Column(sa.Unicode,
-                      ForeignKey(Cdb90Pri.__table__.c.value))
-    resod1 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    resod2 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    resod3 = sa.Column(sa.Unicode,
-                       ForeignKey(Cdb90Reso.__table__.c.value))
-    strapl = sa.Column(sa.Integer,
-                       sa.CheckConstraint('strapl >= 0'))
-    strami = sa.Column(sa.Integer,
-                       sa.CheckConstraint('strami <= 0'))                       
-    casapl = sa.Column(sa.Integer,
-                       sa.CheckConstraint('casapl >= 0'))
-    casami = sa.Column(sa.Integer,
-                       sa.CheckConstraint('casami <= 0'))                       
-    strdpl = sa.Column(sa.Integer,
-                       sa.CheckConstraint('strdpl >= 0'))
-    strdmi = sa.Column(sa.Integer,
-                       sa.CheckConstraint('strdmi <= 0'))
-    casdpl = sa.Column(sa.Integer,
-                       sa.CheckConstraint('casdpl >= 0'))
-    casdmi = sa.Column(sa.Integer,
-                       sa.CheckConstraint('casdmi <= 0'))
     parent = sa.Column(sa.Integer,
                        ForeignKey('cdb90_battles.isqno'))
     war2 = sa.Column(sa.Unicode)
