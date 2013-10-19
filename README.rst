@@ -16,3 +16,6 @@ Description from [helmbold93]_,
    Battles-Version 1990 (Computer Diskette)", DTIC ADM-000121, April
    30, 1991. http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121
 
+This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/data-packages.html) standard.
+
+The directory ``M000121`` contains the original data from CDB90; the directory ``data`` contains the revised data.
