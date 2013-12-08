@@ -10,6 +10,11 @@ tomissing <- function(x, value=NA) {
   x
 }
 
+tomissing_neg <- function(x) {
+  x[x < 0] <- NA
+  x
+}
+
 expand.paste <- function(..., sep='') {
   apply(expand.grid(...), 1, paste, collapse = sep)
 }
@@ -53,19 +58,20 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
   for (i in paste0("post", 1:2)) {
     x[[i]] <- tomissing(x[[i]], c("00", "OO"))
   }
-  for (i in c("front", "depth", "time")) {
+  for (i in c("front", "depth", "time", "aeroa")) {
     x[[i]] <- tomissing(x[[i]], 9)
   }
   for (i in c('quala', 'resa', 'mobila', 'aira', 'fprepa', 'wxa', 'terra',
               'leadaa', 'plana', 'surpaa', 'mana', "aeroa", "surpa",
-              'logsaa', 'fortsa', 'deepa')) {
-    x[[i]] <- tomissing(x[[i]], -9)
+              'cea', 'leada', 'trnga', 'morala', 'logsa', 'momnta', 'intela', 'techa', 'inita', 'wina',
+              'logsaa', 'fortsa', 'deepa', "kmda")) {
+    x[[i]] <- tomissing_neg(x[[i]])
   }
 
   ## add new wars
   x <- mutate(merge(x, war2[ , c("isqno", "war2", "war3")], all.x=TRUE),
               war2 = ifelse(is.na(war2), war, war2),
-              war3 = ifelse(is.na(war2), war, war3))
+              war3 = ifelse(is.na(war3), war, war3))
 
   # Add cdb90_wars
   x <- merge(x, cdb90_to_cow[ , c("isqno", "cow_warno", "cow_warname")],
@@ -73,7 +79,7 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
 
   # Add new wars
   misc <- misc[ , c("isqno", "war", "theater", "dbpedia")]
-  names(misc) <- c("isqno", "bdb_war", "bdb_theater", "dbpedia")
+  names(misc) <- c("isqno", "cdb13_war", "cdb13_theater", "dbpedia")
   misc[["dbpedia"]] <-
     ifelse(misc[["dbpedia"]] != "",
            paste0("http://dbpedia.org/resource/",
@@ -339,13 +345,18 @@ front_width_data <- function(cdb90) {
 
 main <- function() {
   ## Raw datasets
-  cdb90 <- read.delim("../data/CDB90/CDB90.csv")
+  cdb90 <- read.delim("../data/CDB90/CDB90.tsv",
+                      stringsAsFactors = FALSE)
   names(cdb90) <- tolower(names(cdb90))
-  war2 <- read.csv("../data/local/war2.csv")
-  misc <- read.delim("../data/local/misc.tsv")
-  cdb90_to_cow <- read.delim("../data/local/cdb90_to_cow.csv")
+  war2 <- read.csv("../data/local/war2.csv",
+                   stringsAsFactors = FALSE)
+  misc <- read.delim("../data/local/misc.tsv",
+                     stringsAsFactors = FALSE)
+  cdb90_to_cow <- read.delim("../data/local/cdb90_to_cow.csv",
+                             stringsAsFactors = FALSE)
   duplicates <-
-    mutate(subset(mutate(read.csv("../data/local/duplicates.csv"),
+    mutate(subset(mutate(read.csv("../data/local/duplicates.csv",
+                                  stringsAsFactors = FALSE),
                          match = as.logical(match)),
                   match),
            isqno = isqno.x,
