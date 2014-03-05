@@ -350,7 +350,7 @@ main <- function() {
   names(cdb90) <- tolower(names(cdb90))
   war2 <- read.csv("../data/local/war2.csv",
                    stringsAsFactors = FALSE)
-  misc <- read.delim("../data/local/misc.tsv",
+  misc <- read.csv("../data/local/misc.csv",
                      stringsAsFactors = FALSE)
   cdb90_to_cow <- read.delim("../data/local/cdb90_to_cow.csv",
                              stringsAsFactors = FALSE)
