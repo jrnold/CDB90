@@ -2,7 +2,8 @@ library(plyr)
 library(stringr)
 library(lubridate)
 
-DATA_DIR = "../../data"
+DATA_DIR = "data"
+SRC_DATA = "source/data"
 
 ## TODO: output battle, combatant, atp
 tomissing <- function(x, value=NA) {
@@ -102,8 +103,7 @@ combatant_data_0 <- function(cdb90, attacker, misc) {
   for (i in c("co", "nam")) {
     x[[i]] <- tomissing(x[[i]], "?")
   }
-  x[["surp"]] <- tomissing(x[[i]], 9)
-  x[["code"]] <- tomissing(x[[i]], 0)
+  x[["code"]] <- tomissing(x[["code"]], 0)
   for (i in c("str", "intst", "rerp", "cas", "finst",
               "cav", "tank", "lt", "mbt", "arty", "fly",
               "ctank", "carty", "cfly")) {
@@ -345,17 +345,17 @@ front_width_data <- function(cdb90) {
 
 main <- function() {
   ## Raw datasets
-  cdb90 <- read.delim("../data/CDB90/CDB90.tsv",
+  cdb90 <- read.delim(file.path(SRC_DATA, "/CDB90/CDB90.tsv"),
                       stringsAsFactors = FALSE)
   names(cdb90) <- tolower(names(cdb90))
-  war2 <- read.csv("../data/local/war2.csv",
+  war2 <- read.csv(file.path(SRC_DATA, "/local/war2.csv"),
                    stringsAsFactors = FALSE)
-  misc <- read.csv("../data/local/misc.csv",
+  misc <- read.csv(file.path(SRC_DATA, "/local/misc.csv"),
                      stringsAsFactors = FALSE)
-  cdb90_to_cow <- read.delim("../data/local/cdb90_to_cow.csv",
+  cdb90_to_cow <- read.delim(file.path(SRC_DATA, "/local/cdb90_to_cow.csv"),
                              stringsAsFactors = FALSE)
   duplicates <-
-    mutate(subset(mutate(read.csv("../data/local/duplicates.csv",
+    mutate(subset(mutate(read.csv(file.path(SRC_DATA, "/local/duplicates.csv"),
                                   stringsAsFactors = FALSE),
                          match = as.logical(match)),
                   match),
