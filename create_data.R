@@ -1,12 +1,12 @@
-#' Convert
+#!/usr/bin/env Rscript
+# Create the database
 suppressPackageStartupMessages({
     library("dplyr")
     library("stringr")
     library("lubridate")
 })
-
 DATA_DIR = "data"
-SRC_DATA = "source/data"
+SRC_DATA = "src-data"
 
 ## TODO: output battle, belligerent, atp
 tomissing <- function(x, value=NA) {
@@ -130,8 +130,8 @@ belligerent_data_0 <- function(cdb90, attacker, misc) {
 }
 
 belligerent_data <- function(cdb90, misc) {
-  rbind(belligerent_data_0(cdb90, TRUE, misc),
-        belligerent_data_0(cdb90, FALSE, misc))
+  rbind(belligerent_data_0(cdb90, 1L, misc),
+        belligerent_data_0(cdb90, 0L, misc))
 }
 
 daterange <- function(yyyy, mm, dd) {
