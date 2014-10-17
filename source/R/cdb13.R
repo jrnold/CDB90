@@ -1,11 +1,14 @@
-library(plyr)
-library(stringr)
-library(lubridate)
+#' Convert
+suppressPackageStartupMessages({
+    library("dplyr")
+    library("stringr")
+    library("lubridate")
+})
 
 DATA_DIR = "data"
 SRC_DATA = "source/data"
 
-## TODO: output battle, combatant, atp
+## TODO: output battle, belligerent, atp
 tomissing <- function(x, value=NA) {
   x[x %in% value] <- NA
   x
@@ -20,7 +23,7 @@ expand.paste <- function(..., sep='') {
   apply(expand.grid(...), 1, paste, collapse = sep)
 }
 
-combatant_col_names <- function(attacker) {
+belligerent_col_names <- function(attacker) {
   if (attacker) postfix <- "a" else postfix <- "d"
   template <-
     c("nam%s", "co%s",
@@ -94,8 +97,8 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
   x
 }
 
-combatant_data_0 <- function(cdb90, attacker, misc) {
-  varnames <- combatant_col_names(attacker)
+belligerent_data_0 <- function(cdb90, attacker, misc) {
+  varnames <- belligerent_col_names(attacker)
   x <- cdb90[ , c("isqno", varnames)]
   names(x) <- c("isqno", names(varnames))
   x[["attacker"]] <- attacker
@@ -120,15 +123,15 @@ combatant_data_0 <- function(cdb90, attacker, misc) {
   } else {
     misc <- misc[ , c("isqno", "belligerentd")]
   }
-  names(misc) <- c("isqno", "countries")
+  names(misc) <- c("isqno", "actors")
   x <- merge(x, misc, all.x=TRUE)
   
   x
 }
 
-combatant_data <- function(cdb90, misc) {
-  rbind(combatant_data_0(cdb90, TRUE, misc),
-        combatant_data_0(cdb90, FALSE, misc))
+belligerent_data <- function(cdb90, misc) {
+  rbind(belligerent_data_0(cdb90, TRUE, misc),
+        belligerent_data_0(cdb90, FALSE, misc))
 }
 
 daterange <- function(yyyy, mm, dd) {
@@ -151,26 +154,27 @@ daterange <- function(yyyy, mm, dd) {
 
 datetimerange <- function(yyyy, mm=NA, dd=NA, HH=NA, MM=NA) {
   if (is.na(yyyy)) {
-    list(min = NA, max = NA)
+    list(min = as.POSIXct(NA, origin = as.Date("1970-1-1"), tz = "UTC"),
+         max = as.POSIXct(NA, origin = as.Date("1970-1-1"), tz = "UTC"))
   } else {
     if (is.na(mm)) {
-      list(min = ymd_hm(sprintf("%d-1-1-00-00", yyyy), quiet=TRUE),
-           max = ymd_hm(sprintf("%d-1-1-00-00", yyyy + 1, quiet=TRUE)))
+      list(min = ymd_hm(sprintf("%d-1-1-00-00", yyyy), tz = "UTC", quiet=TRUE),
+           max = ymd_hm(sprintf("%d-1-1-00-00", yyyy + 1, tz = "UTC", quiet=TRUE)))
     } else {
       if(is.na(dd)) {
-        day <- ymd_hm(sprintf("%d-%d-1-00-00", yyyy, mm), quiet=TRUE)
+        day <- ymd_hm(sprintf("%d-%d-1-00-00", yyyy, mm), tz = "UTC", quiet=TRUE)
         list(min = day, max = day + months(1))
       } else {
         if (is.na(HH)) {
-          day <- ymd_hm(sprintf("%d-%d-%d-00-00", yyyy, mm, dd), quiet=TRUE)
+          day <- ymd_hm(sprintf("%d-%d-%d-00-00", yyyy, mm, dd), tz = "UTC", quiet=TRUE)
           list(min = day, max = day + days(1))
         } else {
           if (is.na(MM)) {
-            tm <- ymd_hm(sprintf("%d-%d-%d-%d-00", yyyy, mm, dd, HH), quiet=TRUE)
+            tm <- ymd_hm(sprintf("%d-%d-%d-%d-00", yyyy, mm, dd, HH), tz = "UTC", quiet=TRUE)
             list(min = tm, max = tm + hours(1))
           } else {
             tm <- ymd_hm(sprintf("%d-%d-%d-%d-%d",
-                                 yyyy, mm, dd, HH, MM), quiet=TRUE)
+                                 yyyy, mm, dd, HH, MM), tz = "UTC", quiet=TRUE)
               list(min = tm, max = tm)
           }
         }
@@ -231,7 +235,7 @@ make_active_period <- function(x, i) {
 }
 
 make_all_active_periods <- function(x) {
-  ldply(1:10, function(i) make_active_period(x, i = i))
+  plyr::ldply(1:10, function(i) make_active_period(x, i = i))
 }
 
 atp_data <- function(cdb90) {
@@ -240,7 +244,7 @@ atp_data <- function(cdb90) {
                          sep="")) {
     cdb90[[i]] <- tomissing(cdb90[[i]], c(99, 9999))
   }
-  ddply(cdb90, "isqno", make_all_active_periods)
+  group_by(cdb90, isqno) %>% do(make_all_active_periods(.))
 }
 
 terra_data <- function(cdb90) {
@@ -260,10 +264,10 @@ terra_data <- function(cdb90) {
   }
 
   make_all_terra <- function(x) {
-    ldply(1:2, function(i) make_terra(x, i = i))
+    plyr::ldply(1:2, function(i) make_terra(x, i = i))
   }
 
-  ddply(cdb90, "isqno", make_all_terra)
+  group_by(cdb90, isqno) %>% do(make_all_terra(.))
   
 }
 
@@ -284,10 +288,10 @@ wx_data <- function(cdb90) {
   }
 
   make_all_wx <- function(x) {
-    ldply(1:3, function(i) make_wx(x, i = i))
+    plyr::ldply(1:3, function(i) make_wx(x, i = i))
   }
 
-  ddply(cdb90, "isqno", make_all_wx)
+  group_by(cdb90, isqno) %>% do(make_all_wx(.))
   
 }
 
@@ -314,33 +318,54 @@ front_width_data <- function(cdb90) {
     for (j in paste0("wof", c("a", "d"))) {
       ret[[j]] <- tomissing(ret[[j]], -1)
     }
-    if (is.na(ret[["wofa"]]) & is.na(ret[["wofd"]])) {
-      NULL
-    } else {
-      ret$front_number <- i
-      times <- datetimerange(tomissing(ret$yr, 9999),
-                             tomissing(ret$mo, 99),
-                             tomissing(ret$da, 99),
-                             tomissing(ret$hr %/% 100, 99),
-                             tomissing(ret$hr %% 100, 99))
-      for (j in c("yr", "mo", "da", "hr")) {
-        ret[[j]] <- NULL
-      }
-      ret$time_min <- times$min
-      ret$time_max <- times$max
-      ret
-    }
+    ret$front_number <- i
+    times <- datetimerange(tomissing(ret$yr, 9999),
+                           tomissing(ret$mo, 99),
+                           tomissing(ret$da, 99),
+                           tomissing(ret$hr %/% 100, 99),
+                           tomissing(ret$hr %% 100, 99))
+    ret$time_min <- times$min
+    ret$time_max <- times$max
+    select(ret, front_number, wofa, wofd, time_min, time_max)
   }
 
-  make_all_front <- function(x) {
-    ldply(1:3, function(i) make_front(x, i = i))
+  make_all_fronts <- function(x) {
+    plyr::ldply(1:3, function(i) make_front(x, i = i))
   }
-  
-  ret <- ddply(cdb90, "isqno", make_all_front)
-  for (i in c("time_min", "time_max")) {
-    ret[[i]] <- as.POSIXct(ret[[i]], origin = as.Date("1970-1-1"))
-  }
+
+  ret <-
+      filter(plyr::ddply(cdb90, "isqno", make_all_fronts),
+             ! is.na(wofa) | ! is.na(wofd))
   ret
+}
+
+#' x = active period data
+make_battle_durations <- function(x) {
+    for (i in c("start_time_min", "start_time_max",
+                "end_time_min", "end_time_max")) {
+        x[[i]] <- as.POSIXct(x[[i]], tz="UTC", format = "%Y-%m-%dT%H:%M:%S")
+    }
+    x <- mutate(x, duration = 0.5 * (duration_min + duration_max))
+    (group_by(x, isqno)
+     %>% summarise(datetime_min = min(start_time_min),
+                   datetime_max = max(end_time_max),
+                   datetime = mean(c(min(start_time_min), max(end_time_max))),
+                   duration_day = as.integer(difftime(max(end_time_max),
+                       min(end_time_min), units = "secs")) / 86400 + 1L,
+                   duration = min(sum(duration) / 1200, duration_day)
+                   )
+     )
+}
+
+make_battle_actors <- function(x) {
+    f <- function(x) {
+        actors <- as.character(str_split(x$actors, pattern = fixed("|")))
+        data_frame(isqno = x$isqno,
+                   attacker = x$attacker,
+                   n = seq_along(actors),
+                   actor = actors)
+    }
+    rowwise(x) %>% do(f(.))
 }
 
 main <- function() {
@@ -362,26 +387,31 @@ main <- function() {
            isqno = isqno.x,
            parent = isqno.y)[ , c("isqno", "parent")]
   
-  cdb90_battles <- battle_data(cdb90, war2, cdb90_to_cow, misc,
-                               duplicates)
-  cdb90_combatants <- combatant_data(cdb90, misc)
-  cdb90_weather <- wx_data(cdb90)
-  cdb90_terrain <- terra_data(cdb90)
-  cdb90_active_periods <- atp_data(cdb90)
+  battles <- battle_data(cdb90, war2, cdb90_to_cow, misc, duplicates)
+  belligerents <- belligerent_data(cdb90, misc)
+  weather <- wx_data(cdb90)
+  terrain <- terra_data(cdb90)
+  active_periods <- atp_data(cdb90)
   front_widths <- front_width_data(cdb90)
+  battle_durations <- make_battle_durations(active_periods)
+  battle_actors <- make_battle_actors(belligerents)
 
   cat("Writing battles.csv\n")
-  writer(cdb90_battles, file.path(DATA_DIR, "battles.csv"))
-  cat("Writing combatants.csv\n")
-  writer(cdb90_combatants, file.path(DATA_DIR, "combatants.csv"))
+  writer(battles, file.path(DATA_DIR, "battles.csv"))
+  cat("Writing belligerents.csv\n")
+  writer(belligerents, file.path(DATA_DIR, "belligerents.csv"))
   cat("Writing weather.csv\n")
-  writer(cdb90_weather, file.path(DATA_DIR, "weather.csv"))
+  writer(weather, file.path(DATA_DIR, "weather.csv"))
   cat("Writing terrain.csv\n")
-  writer(cdb90_terrain, file.path(DATA_DIR, "terrain.csv"))
+  writer(terrain, file.path(DATA_DIR, "terrain.csv"))
   cat("Writing active_periods.csv\n")
-  writer(cdb90_active_periods, file.path(DATA_DIR, "active_periods.csv"))
+  writer(active_periods, file.path(DATA_DIR, "active_periods.csv"))
   cat("Writing front_widths.csv\n")
   writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
+  cat("Writing battle_durations.csv\n")
+  writer(front_widths, file.path(DATA_DIR, "battle_durations.csv"))  
+  cat("Writing battle_actors.csv\n")
+  writer(front_widths, file.path(DATA_DIR, "battle_actors.csv"))  
   
 }
 
