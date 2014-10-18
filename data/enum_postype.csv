@@ -1,0 +1,5 @@
+"value","description"
+"0","At most one defensive posture is given (so, e.g., POST2 : ""OO"")"
+"1","A combination posture involving two distinct/separate postures"
+"2","An average or intermixture of two or more postures"
+"9","More than one posture, but whether separate or intermixed is not available"

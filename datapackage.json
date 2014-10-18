@@ -604,10 +604,6 @@
 		    }
 		]
 	    }
-        },
-	{
-	    "path": "data/variable_levels.json",
-	    "description": "Descriptions of the levels of factor-like variables in the data"
-	}
+        }
     ]
 }

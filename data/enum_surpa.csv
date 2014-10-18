@@ -1,0 +1,8 @@
+"value","description"
+"0","Neither side achieved surprise, or it did not affect the outcome"
+"1","Minor surprise achieved by attacker"
+"2","Substantial surprise achieved by attacker"
+"3","Complete surprise achieved by attacker"
+"-1","Minor surprise achieved by defender"
+"-3","Complete surprise achieved by defender"
+"-2","Substantial surprise achieved by defender"

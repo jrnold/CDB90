@@ -1,0 +1,123 @@
+{
+    "codead": {
+        "1": "Total strength is also initial strength",
+        "2": "Total strength is an average daily strength",
+        "3": "Total strength is the total strength engaged"
+    },
+    "aeroa": {
+        "0": "Neither side had theater air superiority",
+        "1": "Attacker had air superiority in the theater",
+        "-1": "Defender had air superiority in the theater"
+    },
+    "pri": {
+        "LF": "Left flank",
+        "DO": "Defensive/offensive plan",
+        "PP": "Penetration",
+        "RR": "Right rear",
+        "EE": "Single envelopment",
+        "DD": "Defensive plan",
+        "DE": "Double envelopment",
+        "RF": "Right flank",
+        "LR": "Left rear",
+        "FE": "Feint, demonstration, or holding attack",
+        "FF": "Frontal attack",
+        "RC": "River crossing"
+    },
+    "wx2": {
+        "H": "Heavy Precipitatiion",
+        "S": "Sunny (no precipitation)",
+        "L": "Light Precipitation",
+        "O": "Overcast (no precipitation)"
+    },
+    "postype": {
+        "0": "At most one defensive posture is given (so, e.g., POST2 : \"OO\")",
+        "1": "A combination posture involving two distinct/separate postures",
+        "2": "An average or intermixture of two or more postures",
+        "9": "More than one posture, but whether separate or intermixed is not available"
+    },
+    "terra3": {
+        "0": "Other or not available",
+        "M": "Marsh or swamp",
+        "U": "Urban",
+        "D": "Dunes"
+    },
+    "surpa": {
+        "0": "Neither side achieved surprise, or it did not affect the outcome",
+        "1": "Minor surprise achieved by attacker",
+        "2": "Substantial surprise achieved by attacker",
+        "3": "Complete surprise achieved by attacker",
+        "-1": "Minor surprise achieved by defender",
+        "-3": "Complete surprise achieved by defender",
+        "-2": "Substantial surprise achieved by defender"
+    },
+    "wx5": {
+        "E": "Tropical (i.e., \"Equatorial\")",
+        "D": "Desert",
+        "T": "Temperate"
+    },
+    "wx4": {
+        "S": "Summer",
+        "$": "Spring",
+        "W": "Winter",
+        "F": "Fall"
+    },
+    "crit": {
+        "1": "clear cut",
+        "2": "not clear cut"
+    },
+    "wx1": {
+        "D": "Dry",
+        "W": "Wet"
+    },
+    "wx3": {
+        "H": "Hot",
+        "C": "Cold",
+        "T": "Temperate"
+    },
+    "cea": {
+        "0": "Favors neither side",
+        "1": "Somwhat favors the attacker",
+        "2": "Favors the attacker",
+        "3": "Strongly favors the attacker",
+        "4": "Very strongly favors the attacker",
+        "-1": "Somewhat favors the defender",
+        "-4": "Very strongly favors the defender",
+        "-3": "Strongly favors the defender",
+        "-2": "Favors the defender"
+    },
+    "wina": {
+        "0": "draw",
+        "1": "attacker win",
+        "-1": "attacker loss"
+    },
+    "terra2": {
+        "0": "Other or not available",
+        "B": "Bare",
+        "M": "Mixed",
+        "D": "Desert",
+        "W": "Heavily Wooded"
+    },
+    "terra1": {
+        "0": "Other or not available",
+        "R": "Rolling",
+        "G": "Rugged",
+        "F": "Flat"
+    },
+    "post": {
+        "DL": "Delaying action adopted",
+        "WD": "Withdrawal adopted",
+        "FD": "Fortified defense",
+        "HD": "Hasty defense",
+        "PD": "Prepared defense"
+    },
+    "reso": {
+        "AA": "Annihilated",
+        "PS": "Pursued",
+        "PP": "Penetration",
+        "WD": "Withdrew",
+        "RR": "Repulse",
+        "BB": "Breakthrough",
+        "SS": "Stalemate",
+        "WL": "Withdrew with heavy losses"
+    }
+}
