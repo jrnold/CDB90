@@ -4,6 +4,7 @@ suppressPackageStartupMessages({
     library("dplyr")
     library("stringr")
     library("lubridate")
+    library("jsonlite")
 })
 DATA_DIR = "data"
 SRC_DATA = "src-data"
@@ -195,14 +196,14 @@ make_active_period <- function(x, i) {
     NULL
   } else {
     duration_min <- duration_max <- NA
-    duration_only <- FALSE
+    duration_only <- 0
     if (is.na(x$atpbhr)) {
       HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else if (x$atpbhr == 5000) {
       endhr <- (x$atpehr %/% 100) - 50
       endmn <- x$atpehr %% 100
       duration_min <- duration_max <- endhr * 60 + endmn
-      duration_only <- TRUE
+      duration_only <- 1
       HH1 <- MM1 <- HH2 <- MM2 <- NA
     } else {
       HH1 <- x$atpbhr %/% 100
@@ -303,6 +304,8 @@ writer <- function(x, file) {
       x[[i]] <- format(x[[i]], "%Y-%m-%d")
     } else if (is(x[[i]], "POSIXt")) {
       x[[i]] <- format(x[[i]], "%Y-%m-%dT%H:%M:%S")
+    } else if (is(x[[i]], "logical")) {
+      x[[i]] <- as.integer(x[[i]])
     }
   }
   write.csv(x, file = file, row.names = FALSE, na = "")
@@ -341,20 +344,21 @@ front_width_data <- function(cdb90) {
 
 #' x = active period data
 make_battle_durations <- function(x) {
-    for (i in c("start_time_min", "start_time_max",
-                "end_time_min", "end_time_max")) {
-        x[[i]] <- as.POSIXct(x[[i]], tz="UTC", format = "%Y-%m-%dT%H:%M:%S")
-    }
-    x <- mutate(x, duration = 0.5 * (duration_min + duration_max))
-    (group_by(x, isqno)
-     %>% summarise(datetime_min = min(start_time_min),
-                   datetime_max = max(end_time_max),
-                   datetime = mean(c(min(start_time_min), max(end_time_max))),
-                   duration_day = as.integer(difftime(max(end_time_max),
-                       min(end_time_min), units = "secs")) / 86400 + 1L,
-                   duration = min(sum(duration) / 1200, duration_day)
+    ret <- (mutate(x, duration = 0.5 * (duration_min + duration_max))
+     %>% group_by(isqno)
+     %>% summarise(datetime_min = min(start_time_min)
+                   , datetime_max = max(end_time_max)
+                   , datetime = as.POSIXct(0.5 * (as.numeric(datetime_min) + as.numeric(datetime_max)), tz = "UTC", origin = as.Date("1970-1-1"))
+                   , duration1 = as.numeric(difftime(max(start_time_max), min(start_time_min), units = "secs")) / 86400 + 1
+                   , duration2 = min(sum(duration) / 1200, duration1)
                    )
      )
+
+
+
+     )
+
+
 }
 
 make_battle_actors <- function(x) {
@@ -366,6 +370,18 @@ make_battle_actors <- function(x) {
                    actor = actors)
     }
     rowwise(x) %>% do(f(.))
+}
+
+make_enum_tables <- function(filepath) {
+    x <- fromJSON(filepath)
+    ret <- list()
+    for (i in names(x)) {
+        xi <- x[[i]]
+        ret[[i]] <-
+            data_frame(value = names(xi),
+                       description = as.character(xi))
+    }
+    ret
 }
 
 main <- function() {
@@ -409,10 +425,19 @@ main <- function() {
   cat("Writing front_widths.csv\n")
   writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
   cat("Writing battle_durations.csv\n")
-  writer(front_widths, file.path(DATA_DIR, "battle_durations.csv"))  
+  writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))  
   cat("Writing battle_actors.csv\n")
-  writer(front_widths, file.path(DATA_DIR, "battle_actors.csv"))  
+  writer(front_widths, file.path(DATA_DIR, "battle_actors.csv"))
+
+  # Writing out variable levels
+  enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))
+  for (i in names(enums)) {
+      outfile <- file.path(DATA_DIR, sprintf("enum_%s.csv", i))
+      cat(sprintf("writing %s\n", outfile))
+      writer(enums[[i]], outfile)
+  }
   
 }
 
 main()
+
