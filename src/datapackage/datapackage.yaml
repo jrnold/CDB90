@@ -1,0 +1,14 @@
+"name": "CDB13",
+"title": "CDB13 Battle Dataset",
+"version": "2.0.0",
+"licenses":
+  - "id": "odc-by",
+    "url": "http://opendatacommons.org/licenses/by/"
+"maintainers":
+  - "name": "Jeffrey B. Arnold",
+    "email": "jeffrey.arnold@gmail.com"
+description:  "A database of over 600 battles that were fought between 1600AD and 1973AD. Descriptive data include battle name, date, and location; the strengths and losses on each side; identification of the victor; temporal duration of the battle; and selected environmental and tactical environment descriptors (such as type of fortifications, type of tactical scheme, weather conditions, width of front, etc.)\nThis dataset is a revised, cleaned, expanded and packaged version of Helmbold's CDB90 data. However, it does not add any new battles to the data."
+"homepage": "https://github.com/jrnold/CDB13",
+"sources":
+  - "name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991.",
+    "web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121"

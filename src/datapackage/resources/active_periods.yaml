@@ -1,0 +1,36 @@
+description: Start and end times of active time periods of the battle
+path: data/active_periods.csv
+schema:
+  fields:
+  - description: battle sequence number
+    id: isqno
+    type: integer
+  - description: Active time period number
+    id: atp_number
+    type: integer
+  - description: Active time period start time (min)
+    id: start_time_min
+    type: datetime
+  - description: Active time period start time (max)
+    id: start_time_max
+    type: datetime
+  - description: Active time period end time (min)
+    id: end_time_min
+    type: datetime
+  - description: Active time period end time (max)
+    id: end_time_max
+    type: datetime
+  - description: Active time period duration (min)
+    id: duration_min
+    type: number
+  - description: Active time period duration (max)
+    id: duration_max
+    type: number
+  - description: 'Duration given, but start and end times are unknown.
+
+      For some battles CDB90 indicates an exact duration without indicating the hours
+      and minutes of the start and end times. If this variable is true, then the `duration_*`
+      will not be a function of `start_time_*` and `end_time_*`.'
+
+    id: duration_only
+    type: boolean

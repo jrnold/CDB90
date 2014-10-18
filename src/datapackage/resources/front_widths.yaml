@@ -1,0 +1,21 @@
+description: Widths of fronts
+path: data/front_widths
+schema:
+  fields:
+  - id: isqno
+    type: integer
+  - description: Front observation number. "1" is the front at the start of the battle.
+    id: front_number
+    type: integer
+  - description: "Width of attacker's front (in km)"
+    id: wofa
+    type: number
+  - description: "Width of defenders's front (in km)"
+    id: wofd
+    type: number
+  - description: Start time of front (min)
+    id: time_min
+    type: datetimes
+  - description: Start time of front (max)
+    id: time_max
+    type: datetimes

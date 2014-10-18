@@ -1,0 +1,105 @@
+description: CDB90 battles' combatants (attacker, defender)
+path: data/combatants.csv
+schema:
+  fields:
+  - description: battle sequence number
+    id: isqno
+    type: integer
+  - description: designation of the forces
+    id: nam
+    type: string
+  - description: commander of the forces
+    id: co
+    type: string
+  - description: total personnel strength
+    id: str
+    type: integer
+  - description: indicates interpretation of total pers strength
+    id: code
+    type: number
+  - description: initial personnel strength
+    id: intst
+    type: integer
+  - description: personnel reinf/repl during battle
+    id: rerp
+    type: integer
+  - description: battle casualties
+    id: cas
+    type: integer
+  - description: personnel strength at battle's end
+    id: finst
+    type: integer
+  - description: horse cavalry strength
+    id: cav
+    type: integer
+  - description: total number of tanks
+    id: tank
+    type: integer
+  - description: number of light tanks
+    id: lt
+    type: integer
+  - description: number of main battle tanks
+    id: mbt
+    type: integer
+  - description: number of artillery tubes
+    id: arty
+    type: integer
+  - description: number of close air support sorties
+    id: fly
+    type: integer
+  - description: armor losses
+    id: ctank
+    type: integer
+  - description: artillery losses
+    id: carty
+    type: integer
+  - description: close air support aircraft losses
+    id: cfly
+    type: integer
+  - description: primary tactical scheme, part 1
+    id: pri1
+    type: string
+  - description: primary tactical scheme, part 2
+    id: pri2
+    type: string
+  - description: primary tactical scheme, part 3
+    id: pri3
+    type: string
+  - description: secondary tactical scheme, part 1
+    id: sec1
+    type: string
+  - description: secondary tactical scheme, part 2
+    id: sec2
+    type: string
+  - description: secondary tactical scheme, part 3
+    id: sec3
+    type: string
+  - description: primary resolution/outcome, part 1
+    id: reso1
+    type: string
+  - description: primary resolution/outcome, part 2
+    id: reso2
+    type: string
+  - description: primary resolution/outcome, part 3
+    id: reso3
+    type: string
+  - description: strength error, plus percent
+    id: strpl
+    type: integer
+  - description: strength error, minus percent
+    id: strmi
+    type: integer
+  - description: casualty error, plus percent
+    id: caspl
+    type: integer
+  - description: casualty error, minus percent
+    id: casmi
+    type: integer
+  - description: mission accomplishment score; on scale of 1 to 10, 1=low
+    id: ach
+    type: integer
+  - description: Attacker or defender in the battle
+    id: attacker
+    type: boolean
+  - id: countries
+    type: string

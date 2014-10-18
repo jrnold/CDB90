@@ -1,0 +1,19 @@
+description: "CDB90 battles' local terrain"
+path: data/terrain.csv
+schema:
+  fields:
+  - description: battle sequence number
+    id: isqno
+    type: integer
+  - description: local terrain description number
+    id: terrano
+    type: integer
+  - description: 'Terrain description: rugged, rolling, flat'
+    id: terra1
+    type: string
+  - description: 'Terrain description: wooded, mixed, bare, desert'
+    id: terra2
+    type: string
+  - description: 'Terrain description: urban, marsh, dunes'
+    id: terra3
+    type: string

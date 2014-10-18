@@ -1,0 +1,40 @@
+path: data/weather.csv
+schema:
+  fields:
+  - id: isqno
+    type: integer
+  - id: wxno
+    type: integer
+  - id: wx1
+    description: "Precipitation"
+    type: string
+  - id: wx2
+    description: "Cloudiness"
+    type: string
+  - id: wx3
+    description: "Temperature"
+    type: string
+  - id: wx4
+    description: >
+      
+      Season
+
+      For Northern Hemisphere
+
+      - Spring: Mar, Apr, May
+      - Summer: Jun, Jul, Aug
+      - Fall: Sep, Oct, Nov
+      - Winter: Dec, Jan, Feb
+
+      For Southern Hemisphere
+
+      - Fall: Mar, Apr, May
+      - Winter: Jun, Jul, Aug
+      - Spring: Sep, Oct, Nov
+      - Summer: Dec, Jan, Feb
+
+    type: string
+
+  - id: wx5
+    description: Climate (temperate, desert, tropical)
+    type: string

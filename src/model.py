@@ -191,7 +191,6 @@ class Cdb90Forces(Base, Mixin):
         # Strength >= casualties (only if str[ad] is not total strength)
         sa.CheckConstraint('str >= cas or code != 3'),
         sa.CheckConstraint('(intst = str) or (code != 1)'),
-        sa.CheckConstraint('(intst = str) or (code != 1)'),
         sa.CheckConstraint('(intst + rerp = str) or (code != 3)'),
         sa.CheckConstraint('(finst + cas = str) or (code != 3)'),
         )

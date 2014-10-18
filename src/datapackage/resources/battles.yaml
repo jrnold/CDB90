@@ -1,0 +1,191 @@
+path: data/battles.csv
+schema:
+  fields:
+  - description: battle sequence (line or serial) number
+    id: isqno
+    type: integer
+  - description: war in which battle/engagement was fought
+    id: war
+    type: string
+  - description: name of battle
+    id: name
+    type: string
+  - description: location where battle was fought
+    id: locn
+    type: string
+  - description: campaign in which battle was fought
+    id: campgn
+    type: string
+  - description: "defender's posture type descriptor"
+    id: postype
+    type: integer
+  - description: "defender's primary defensive posture"
+    id: post1
+    type: string
+  - description: "defender's secondary defensive posture"
+    id: post2
+    type: string
+  - description: "did defender's posture change along the front?"
+    id: front
+    type: integer
+  - description: did defender's posture change with depth?
+    id: depth
+    type: integer
+  - description: did defender's posture change over time?
+    id: time
+    type: integer
+  - description: attacker's relative leadership advantage
+    id: cea
+    type: integer
+  - description: attacker's relative surprise advantage
+    id: surpa
+    type: integer
+  - description: attacker's relative air superority in theater
+    id: aeroa
+    type: integer
+  - description: attacker's relative leadership advantage
+    id: leada
+    type: integer
+  - description: attacker's relative training advantage
+    id: trnga
+    type: integer
+  - description: attacker's relative morale advantage
+    id: morala
+    type: integer
+  - description: attacker's relative logistics advantage
+    id: logsa
+    type: integer
+  - description: attacker's relative momentum advantage
+    id: momnta
+    type: integer
+  - description: attacker's relative intelligence advantage
+    id: intela
+    type: integer
+  - description: attacker's relative technology advantage
+    id: techa
+    type: integer
+  - description: attacker's relative initiative advantage
+    id: inita
+    type: integer
+  - description: attacker's win/draw/lose
+    id: wina
+    type: integer
+  - description: distance attacker advanced/retreated, in kilometers.
+    id: kmda
+    type: number
+  - description: criterion for assigning wina
+    id: crit
+    type: integer
+  - description: degree of influence of force quality
+    id: quala
+    type: integer
+  - description: degree of influence of reserves
+    id: resa
+    type: integer
+  - description: degreee of influence of mobility
+    id: mobila
+    type: integer
+  - description: degree of influence of air superiority
+    id: aira
+    type: integer
+  - description: degree of influence of weather
+    id: fprepa
+    type: integer
+  - description: degree of influence of terrain
+    id: wxa
+    type: integer
+  - description: degree of influence of terrain
+    id: terra
+    type: integer
+  - description: degree of influence of leadership
+    id: leadaa
+    type: integer
+  - description: degree of influence of planning
+    id: plana
+    type: integer
+  - description: degree of influence of surprise
+    id: surpaa
+    type: integer
+  - description: degree of influence of manueverability
+    id: mana
+    type: integer
+  - description: degree of influence of logistics
+    id: logsaa
+    type: integer
+  - description: degree of influence of fortifications
+    id: fortsa
+    type: integer
+  - description: degree of influence of depth of position
+    id: deepa
+    type: integer
+  - description: >
+
+      Battle from original HERO (1984) data; if false, then from the LFW
+      Management Associates, Inc. Report "Independent Review/Reassessment of Anomalous
+      Data (IR/RAD)," 22 June 1987.  CDB90 combined the 600 battles from 
+      HERO (1984) with an additional 60 battles from the LWF (1987).
+
+    id: is_hero
+    type: boolean
+
+  - description: > 
+
+      War name as indicated in HERO (1984) data
+      For battles 600-660, they are assigned to the wars in the HERO 1984, or use
+      the cdb90 war.
+
+    id: war2
+    type: integer
+
+  - description: >
+
+      War, aggregating WWI, WWI, Napoleonic Wars, and the Arab-Israeli
+      1967 and 1973 wars
+
+    id: war3
+    type: integer
+    source: Arnold
+
+  - description: Correlates of War (COW) war number of the war in which the battle occured.
+    id: cow_warno
+    type: integer
+    source: Arnold, COW
+
+  - description: Correlates of War (COW) war name of the war in which the battle occured.
+    id: cow_warname
+    type: string
+    source: Arnold, COW
+
+  - description: >
+  
+      New war classification. Follows the wars in COW for battles after 1816, 
+      and the Wikipedia classification of wars for battles prior to that.
+      Names are in the style of COW wars.
+
+    id: cdb13_war
+    type: string
+    source: Arnold
+
+  - description: War theater. Only used for the larger wars: 
+    id: cdb13_theater
+    type: string
+    source: Arnold
+
+  - description: >
+
+       URI for associated `dbpedia <http://dbpedia.org>`__ resource.
+       These are easy to find for battles in the wars prior to WWI. It was harder to 
+       find these for WWI and later wars, and especially for the Arab-Israeli wars.
+
+    label: Dbpedia URI
+    id: dbpedia
+    type: string
+    source: Arnold
+
+  - description: >
+
+      ``isqno`` of a parent battle in the data. If not null, then the observation
+      is a duplicated battle.
+
+    id: parent
+    type: integer
