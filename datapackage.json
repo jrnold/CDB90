@@ -1,86 +1,95 @@
 {
-  "title": "CDB13 Battle Dataset",
-  "sources": [
-    {
-      "web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121",
-      "name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991."
-    }
-  ],
+  "name": "CDB13",
   "resources": [
     {
+      "path": "data/version.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "version",
+            "description": "Version number of the data",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "battle_durations",
+      "path": "data/battle_durations.csv",
+      "description": "\nBattle start and end times and durations.\nThe data in this table are derived from ``active_time_periods``.\n",
       "schema": {
         "fields": [
           {
             "id": "isqno",
-            "type": "integer",
-            "description": "battle sequence (line or serial) number"
+            "description": "battle sequence (line or serial) number",
+            "type": "integer"
           },
           {
             "id": "datetime_min",
-            "type": "datetime",
-            "description": "Battle start time (minimum)"
+            "description": "Battle start time (minimum)",
+            "type": "datetime"
           },
           {
             "id": "datetime_max",
-            "type": "datetime",
-            "description": "Battle end time (minimum)"
+            "description": "Battle end time (minimum)",
+            "type": "datetime"
           },
           {
             "id": "datetime",
-            "type": "datetime",
-            "description": "\nBattle date and time (mid-point). This is simply the midpoint of ``datetime_min`` and ``datetime_max``.\n"
+            "description": "\nBattle date and time (mid-point). This is simply the midpoint of ``datetime_min`` and ``datetime_max``.\n",
+            "type": "datetime"
           },
           {
             "id": "duration1",
-            "type": "number",
-            "description": "Battle duration (in days) calculated from ``datetime_min`` and ``datetime_max``."
+            "description": "Battle duration (in days) calculated from ``datetime_min`` and ``datetime_max``.",
+            "type": "number"
           },
           {
             "id": "duration2",
-            "type": "number",
-            "description": "Battle duration (in days) calculated using durations in ``active_time_periods``."
+            "description": "Battle duration (in days) calculated using durations in ``active_time_periods``.",
+            "type": "number"
           }
         ]
-      },
-      "description": "\nBattle start and end times and durations.\nThe data in this table are derived from ``active_time_periods``.\n",
-      "name": "battle_durations",
-      "path": "data/battle_durations.csv"
+      }
     },
     {
+      "path": "data/terrain.csv",
+      "description": "CDB90 battles' local terrain",
+      "name": "terrain",
       "schema": {
         "fields": [
           {
             "id": "isqno",
-            "type": "integer",
-            "description": "battle sequence number"
+            "description": "battle sequence number",
+            "type": "integer"
           },
           {
             "id": "terrano",
-            "type": "integer",
-            "description": "local terrain description number"
+            "description": "local terrain description number",
+            "type": "integer"
           },
           {
             "id": "terra1",
-            "type": "string",
-            "description": "Terrain description: rugged, rolling, flat"
+            "description": "Terrain description: rugged, rolling, flat",
+            "type": "string"
           },
           {
             "id": "terra2",
-            "type": "string",
-            "description": "Terrain description: wooded, mixed, bare, desert"
+            "description": "Terrain description: wooded, mixed, bare, desert",
+            "type": "string"
           },
           {
             "id": "terra3",
-            "type": "string",
-            "description": "Terrain description: urban, marsh, dunes"
+            "description": "Terrain description: urban, marsh, dunes",
+            "type": "string"
           }
         ]
-      },
-      "description": "CDB90 battles' local terrain",
-      "name": "terrain",
-      "path": "data/terrain.csv"
+      }
     },
     {
+      "path": "data/front_widths.csv",
+      "description": "Widths of fronts",
+      "name": "front_widths",
       "schema": {
         "fields": [
           {
@@ -89,470 +98,470 @@
           },
           {
             "id": "front_number",
-            "type": "integer",
-            "description": "Front observation number. \"1\" is the front at the start of the battle."
+            "description": "Front observation number. \"1\" is the front at the start of the battle.",
+            "type": "integer"
           },
           {
             "id": "wofa",
-            "type": "number",
-            "description": "Width of attacker's front (in km)"
+            "description": "Width of attacker's front (in km)",
+            "type": "number"
           },
           {
             "id": "wofd",
-            "type": "number",
-            "description": "Width of defenders's front (in km)"
+            "description": "Width of defenders's front (in km)",
+            "type": "number"
           },
           {
             "id": "time_min",
-            "type": "datetime",
-            "description": "Start time of front (min)"
+            "description": "Start time of front (min)",
+            "type": "datetime"
           },
           {
             "id": "time_max",
-            "type": "datetime",
-            "description": "Start time of front (max)"
+            "description": "Start time of front (max)",
+            "type": "datetime"
           }
         ]
-      },
-      "description": "Widths of fronts",
-      "name": "front_widths",
-      "path": "data/front_widths.csv"
+      }
     },
     {
+      "path": "data/belligerents.csv",
+      "description": "CDB90 battles' belligerents (attacker, defender)",
+      "name": "belligerents",
       "schema": {
         "fields": [
           {
             "id": "isqno",
-            "type": "integer",
-            "description": "battle sequence number"
+            "description": "battle sequence number",
+            "type": "integer"
           },
           {
             "id": "nam",
-            "type": "string",
-            "description": "designation of the forces"
+            "description": "designation of the forces",
+            "type": "string"
           },
           {
             "id": "co",
-            "type": "string",
-            "description": "commander of the forces"
+            "description": "commander of the forces",
+            "type": "string"
           },
           {
             "id": "str",
-            "type": "integer",
-            "description": "total personnel strength"
+            "description": "total personnel strength",
+            "type": "integer"
           },
           {
             "id": "code",
-            "type": "number",
-            "description": "indicates interpretation of total personnel strength"
+            "description": "indicates interpretation of total personnel strength",
+            "type": "number"
           },
           {
             "id": "intst",
-            "type": "integer",
-            "description": "initial personnel strength"
+            "description": "initial personnel strength",
+            "type": "integer"
           },
           {
             "id": "rerp",
-            "type": "integer",
-            "description": "personnel reinf/repl during battle"
+            "description": "personnel reinf/repl during battle",
+            "type": "integer"
           },
           {
             "id": "cas",
-            "type": "integer",
-            "description": "battle casualties"
+            "description": "battle casualties",
+            "type": "integer"
           },
           {
             "id": "finst",
-            "type": "integer",
-            "description": "personnel strength at battle's end"
+            "description": "personnel strength at battle's end",
+            "type": "integer"
           },
           {
             "id": "cav",
-            "type": "integer",
-            "description": "horse cavalry strength"
+            "description": "horse cavalry strength",
+            "type": "integer"
           },
           {
             "id": "tank",
-            "type": "integer",
-            "description": "total number of tanks"
+            "description": "total number of tanks",
+            "type": "integer"
           },
           {
             "id": "lt",
-            "type": "integer",
-            "description": "number of light tanks"
+            "description": "number of light tanks",
+            "type": "integer"
           },
           {
             "id": "mbt",
-            "type": "integer",
-            "description": "number of main battle tanks"
+            "description": "number of main battle tanks",
+            "type": "integer"
           },
           {
             "id": "arty",
-            "type": "integer",
-            "description": "number of artillery tubes"
+            "description": "number of artillery tubes",
+            "type": "integer"
           },
           {
             "id": "fly",
-            "type": "integer",
-            "description": "number of close air support sorties"
+            "description": "number of close air support sorties",
+            "type": "integer"
           },
           {
             "id": "ctank",
-            "type": "integer",
-            "description": "armor losses"
+            "description": "armor losses",
+            "type": "integer"
           },
           {
             "id": "carty",
-            "type": "integer",
-            "description": "artillery losses"
+            "description": "artillery losses",
+            "type": "integer"
           },
           {
             "id": "cfly",
-            "type": "integer",
-            "description": "close air support aircraft losses"
+            "description": "close air support aircraft losses",
+            "type": "integer"
           },
           {
             "id": "pri1",
-            "type": "string",
-            "description": "primary tactical scheme, part 1"
+            "description": "primary tactical scheme, part 1",
+            "type": "string"
           },
           {
             "id": "pri2",
-            "type": "string",
-            "description": "primary tactical scheme, part 2"
+            "description": "primary tactical scheme, part 2",
+            "type": "string"
           },
           {
             "id": "pri3",
-            "type": "string",
-            "description": "primary tactical scheme, part 3"
+            "description": "primary tactical scheme, part 3",
+            "type": "string"
           },
           {
             "id": "sec1",
-            "type": "string",
-            "description": "secondary tactical scheme, part 1"
+            "description": "secondary tactical scheme, part 1",
+            "type": "string"
           },
           {
             "id": "sec2",
-            "type": "string",
-            "description": "secondary tactical scheme, part 2"
+            "description": "secondary tactical scheme, part 2",
+            "type": "string"
           },
           {
             "id": "sec3",
-            "type": "string",
-            "description": "secondary tactical scheme, part 3"
+            "description": "secondary tactical scheme, part 3",
+            "type": "string"
           },
           {
             "id": "reso1",
-            "type": "string",
-            "description": "primary resolution/outcome, part 1"
+            "description": "primary resolution/outcome, part 1",
+            "type": "string"
           },
           {
             "id": "reso2",
-            "type": "string",
-            "description": "primary resolution/outcome, part 2"
+            "description": "primary resolution/outcome, part 2",
+            "type": "string"
           },
           {
             "id": "reso3",
-            "type": "string",
-            "description": "primary resolution/outcome, part 3"
+            "description": "primary resolution/outcome, part 3",
+            "type": "string"
           },
           {
             "id": "strpl",
-            "type": "integer",
-            "description": "strength error, plus percent"
+            "description": "strength error, plus percent",
+            "type": "integer"
           },
           {
             "id": "strmi",
-            "type": "integer",
-            "description": "strength error, minus percent"
+            "description": "strength error, minus percent",
+            "type": "integer"
           },
           {
             "id": "caspl",
-            "type": "integer",
-            "description": "casualty error, plus percent"
+            "description": "casualty error, plus percent",
+            "type": "integer"
           },
           {
             "id": "casmi",
-            "type": "integer",
-            "description": "casualty error, minus percent"
+            "description": "casualty error, minus percent",
+            "type": "integer"
           },
           {
             "id": "ach",
-            "type": "integer",
-            "description": "mission accomplishment score; on scale of 1 to 10, 1=low"
+            "description": "mission accomplishment score; on scale of 1 to 10, 1=low",
+            "type": "integer"
           },
           {
             "id": "attacker",
-            "type": "boolean",
-            "description": "Attacker or defender in the battle"
+            "description": "Attacker or defender in the battle",
+            "type": "boolean"
           },
           {
             "id": "actors",
-            "type": "string",
-            "description": "Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by a \"|\"."
+            "description": "Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by a \"|\".",
+            "type": "string"
           }
         ]
-      },
-      "description": "CDB90 battles' belligerents (attacker, defender)",
-      "name": "belligerents",
-      "path": "data/belligerents.csv"
+      }
     },
     {
+      "path": "data/battles.csv",
+      "name": "battles",
       "schema": {
         "fields": [
           {
             "id": "isqno",
-            "type": "integer",
-            "description": "battle sequence (line or serial) number"
+            "description": "battle sequence (line or serial) number",
+            "type": "integer"
           },
           {
             "id": "war",
-            "type": "string",
-            "description": "war in which battle/engagement was fought"
+            "description": "war in which battle/engagement was fought",
+            "type": "string"
           },
           {
             "id": "name",
-            "type": "string",
-            "description": "name of battle"
+            "description": "name of battle",
+            "type": "string"
           },
           {
             "id": "locn",
-            "type": "string",
-            "description": "location where battle was fought"
+            "description": "location where battle was fought",
+            "type": "string"
           },
           {
             "id": "campgn",
-            "type": "string",
-            "description": "campaign in which battle was fought"
+            "description": "campaign in which battle was fought",
+            "type": "string"
           },
           {
             "id": "postype",
-            "type": "integer",
-            "description": "defender's posture type descriptor"
+            "description": "defender's posture type descriptor",
+            "type": "integer"
           },
           {
             "id": "post1",
-            "type": "string",
-            "description": "defender's primary defensive posture"
+            "description": "defender's primary defensive posture",
+            "type": "string"
           },
           {
             "id": "post2",
-            "type": "string",
-            "description": "defender's secondary defensive posture"
+            "description": "defender's secondary defensive posture",
+            "type": "string"
           },
           {
             "id": "front",
-            "type": "integer",
-            "description": "did defender's posture change along the front?"
+            "description": "did defender's posture change along the front?",
+            "type": "integer"
           },
           {
             "id": "depth",
-            "type": "integer",
-            "description": "did defender's posture change with depth?"
+            "description": "did defender's posture change with depth?",
+            "type": "integer"
           },
           {
             "id": "time",
-            "type": "integer",
-            "description": "did defender's posture change over time?"
+            "description": "did defender's posture change over time?",
+            "type": "integer"
           },
           {
             "id": "cea",
-            "type": "integer",
-            "description": "attacker's relative leadership advantage"
+            "description": "attacker's relative leadership advantage",
+            "type": "integer"
           },
           {
             "id": "surpa",
-            "type": "integer",
-            "description": "attacker's relative surprise advantage"
+            "description": "attacker's relative surprise advantage",
+            "type": "integer"
           },
           {
             "id": "aeroa",
-            "type": "integer",
-            "description": "attacker's relative air superority in theater"
+            "description": "attacker's relative air superority in theater",
+            "type": "integer"
           },
           {
             "id": "leada",
-            "type": "integer",
-            "description": "attacker's relative leadership advantage"
+            "description": "attacker's relative leadership advantage",
+            "type": "integer"
           },
           {
             "id": "trnga",
-            "type": "integer",
-            "description": "attacker's relative training advantage"
+            "description": "attacker's relative training advantage",
+            "type": "integer"
           },
           {
             "id": "morala",
-            "type": "integer",
-            "description": "attacker's relative morale advantage"
+            "description": "attacker's relative morale advantage",
+            "type": "integer"
           },
           {
             "id": "logsa",
-            "type": "integer",
-            "description": "attacker's relative logistics advantage"
+            "description": "attacker's relative logistics advantage",
+            "type": "integer"
           },
           {
             "id": "momnta",
-            "type": "integer",
-            "description": "attacker's relative momentum advantage"
+            "description": "attacker's relative momentum advantage",
+            "type": "integer"
           },
           {
             "id": "intela",
-            "type": "integer",
-            "description": "attacker's relative intelligence advantage"
+            "description": "attacker's relative intelligence advantage",
+            "type": "integer"
           },
           {
             "id": "techa",
-            "type": "integer",
-            "description": "attacker's relative technology advantage"
+            "description": "attacker's relative technology advantage",
+            "type": "integer"
           },
           {
             "id": "inita",
-            "type": "integer",
-            "description": "attacker's relative initiative advantage"
+            "description": "attacker's relative initiative advantage",
+            "type": "integer"
           },
           {
             "id": "wina",
-            "type": "integer",
-            "description": "attacker's win/draw/lose"
+            "description": "attacker's win/draw/lose",
+            "type": "integer"
           },
           {
             "id": "kmda",
-            "type": "number",
-            "description": "distance attacker advanced/retreated, in kilometers."
+            "description": "distance attacker advanced/retreated, in kilometers.",
+            "type": "number"
           },
           {
             "id": "crit",
-            "type": "integer",
-            "description": "criterion for assigning wina"
+            "description": "criterion for assigning wina",
+            "type": "integer"
           },
           {
             "id": "quala",
-            "type": "integer",
-            "description": "degree of influence of force quality"
+            "description": "degree of influence of force quality",
+            "type": "integer"
           },
           {
             "id": "resa",
-            "type": "integer",
-            "description": "degree of influence of reserves"
+            "description": "degree of influence of reserves",
+            "type": "integer"
           },
           {
             "id": "mobila",
-            "type": "integer",
-            "description": "degreee of influence of mobility"
+            "description": "degreee of influence of mobility",
+            "type": "integer"
           },
           {
             "id": "aira",
-            "type": "integer",
-            "description": "degree of influence of air superiority"
+            "description": "degree of influence of air superiority",
+            "type": "integer"
           },
           {
             "id": "fprepa",
-            "type": "integer",
-            "description": "degree of influence of weather"
+            "description": "degree of influence of weather",
+            "type": "integer"
           },
           {
             "id": "wxa",
-            "type": "integer",
-            "description": "degree of influence of terrain"
+            "description": "degree of influence of terrain",
+            "type": "integer"
           },
           {
             "id": "terra",
-            "type": "integer",
-            "description": "degree of influence of terrain"
+            "description": "degree of influence of terrain",
+            "type": "integer"
           },
           {
             "id": "leadaa",
-            "type": "integer",
-            "description": "degree of influence of leadership"
+            "description": "degree of influence of leadership",
+            "type": "integer"
           },
           {
             "id": "plana",
-            "type": "integer",
-            "description": "degree of influence of planning"
+            "description": "degree of influence of planning",
+            "type": "integer"
           },
           {
             "id": "surpaa",
-            "type": "integer",
-            "description": "degree of influence of surprise"
+            "description": "degree of influence of surprise",
+            "type": "integer"
           },
           {
             "id": "mana",
-            "type": "integer",
-            "description": "degree of influence of manueverability"
+            "description": "degree of influence of manueverability",
+            "type": "integer"
           },
           {
             "id": "logsaa",
-            "type": "integer",
-            "description": "degree of influence of logistics"
+            "description": "degree of influence of logistics",
+            "type": "integer"
           },
           {
             "id": "fortsa",
-            "type": "integer",
-            "description": "degree of influence of fortifications"
+            "description": "degree of influence of fortifications",
+            "type": "integer"
           },
           {
             "id": "deepa",
-            "type": "integer",
-            "description": "degree of influence of depth of position"
+            "description": "degree of influence of depth of position",
+            "type": "integer"
           },
           {
             "id": "is_hero",
-            "type": "boolean",
-            "description": "\nBattle from original HERO (1984) data; if false, then from the LFW Management Associates, Inc. Report \"Independent Review/Reassessment of Anomalous Data (IR/RAD),\" 22 June 1987.  CDB90 combined the 600 battles from  HERO (1984) with an additional 60 battles from the LWF (1987).\n"
+            "description": "\nBattle from original HERO (1984) data; if false, then from the LFW Management Associates, Inc. Report \"Independent Review/Reassessment of Anomalous Data (IR/RAD),\" 22 June 1987.  CDB90 combined the 600 battles from  HERO (1984) with an additional 60 battles from the LWF (1987).\n",
+            "type": "boolean"
           },
           {
             "id": "war2",
-            "type": "integer",
-            "description": "\nWar name as indicated in HERO (1984) data For battles 600-660, they are assigned to the wars in the HERO 1984, or use the cdb90 war.\n"
+            "description": "\nWar name as indicated in HERO (1984) data For battles 600-660, they are assigned to the wars in the HERO 1984, or use the cdb90 war.\n",
+            "type": "integer"
           },
           {
             "id": "war3",
-            "type": "integer",
             "description": "\nWar, aggregating WWI, WWI, Napoleonic Wars, and the Arab-Israeli 1967 and 1973 wars\n",
+            "type": "integer",
             "source": "Arnold"
           },
           {
             "id": "cow_warno",
-            "type": "integer",
             "description": "Correlates of War (COW) war number of the war in which the battle occured.",
+            "type": "integer",
             "source": "Arnold, COW"
           },
           {
             "id": "cow_warname",
-            "type": "string",
             "description": "Correlates of War (COW) war name of the war in which the battle occured.",
+            "type": "string",
             "source": "Arnold, COW"
           },
           {
             "id": "cdb13_war",
-            "type": "string",
             "description": "\nNew war classification. Follows the wars in COW for battles after 1816,  and the Wikipedia classification of wars for battles prior to that. Names are in the style of COW wars.\n",
+            "type": "string",
             "source": "Arnold"
           },
           {
             "id": "cdb13_theater",
-            "type": "string",
             "description": "War theater. Only used for the larger wars.",
+            "type": "string",
             "source": "Arnold"
           },
           {
             "id": "dbpedia",
-            "type": "string",
             "description": "\nURI for associated `dbpedia <http://dbpedia.org>`__ resource. These are easy to find for battles in the wars prior to WWI. It was harder to  find these for WWI and later wars, and especially for the Arab-Israeli wars.\n",
-            "source": "Arnold",
-            "label": "Dbpedia URI"
+            "type": "string",
+            "label": "Dbpedia URI",
+            "source": "Arnold"
           },
           {
             "id": "parent",
-            "type": "integer",
-            "description": "\n``isqno`` of a parent battle in the data. If not null, then the observation is a duplicated battle.\n"
+            "description": "\n``isqno`` of a parent battle in the data. If not null, then the observation is a duplicated battle.\n",
+            "type": "integer"
           }
         ]
-      },
-      "name": "battles",
-      "path": "data/battles.csv"
+      }
     },
     {
+      "name": "battle_actors",
+      "path": "data/battle_actors.csv",
+      "description": "\nThe actors associated with belligerents in each battle. Each side of a battle (belligerent) can include forces from one or more actors, which can be states or non-states. This table lists those actors. The names of the actors  don't correspond to any particular list of state or non-state actors since no list that I am aware of goes back to the 17th century. However, an effort is made to use the COW names of states for state actors in battles after 1816.\n",
       "schema": {
         "fields": [
           {
@@ -561,26 +570,25 @@
           },
           {
             "id": "attacker",
-            "type": "boolean",
-            "description": "Was actor on the attacking side?"
+            "description": "Was actor on the attacking side?",
+            "type": "boolean"
           },
           {
             "id": "n",
-            "type": "integer",
-            "description": "Number of actor, for battle/belligerent combinations."
+            "description": "Number of actor, for battle/belligerent combinations.",
+            "type": "integer"
           },
           {
             "id": "actor",
-            "type": "string",
-            "description": "Name of actor"
+            "description": "Name of actor",
+            "type": "string"
           }
         ]
-      },
-      "description": "\nThe actors associated with belligerents in each battle. Each side of a battle (belligerent) can include forces from one or more actors, which can be states or non-states. This table lists those actors. The names of the actors  don't correspond to any particular list of state or non-state actors since no list that I am aware of goes back to the 17th century. However, an effort is made to use the COW names of states for state actors in battles after 1816.\n",
-      "name": "battle_actors",
-      "path": "data/battle_actors.csv"
+      }
     },
     {
+      "path": "data/weather.csv",
+      "name": "weather",
       "schema": {
         "fields": [
           {
@@ -593,427 +601,431 @@
           },
           {
             "id": "wx1",
-            "type": "string",
-            "description": "Precipitation"
+            "description": "Precipitation",
+            "type": "string"
           },
           {
             "id": "wx2",
-            "type": "string",
-            "description": "Cloudiness"
+            "description": "Cloudiness",
+            "type": "string"
           },
           {
             "id": "wx3",
-            "type": "string",
-            "description": "Temperature"
+            "description": "Temperature",
+            "type": "string"
           },
           {
             "id": "wx4",
-            "type": "string",
-            "description": "\nSeason\nFor Northern Hemisphere\n- Spring: Mar, Apr, May - Summer: Jun, Jul, Aug - Fall: Sep, Oct, Nov - Winter: Dec, Jan, Feb\nFor Southern Hemisphere\n- Fall: Mar, Apr, May - Winter: Jun, Jul, Aug - Spring: Sep, Oct, Nov - Summer: Dec, Jan, Feb\n"
+            "description": "\nSeason\nFor Northern Hemisphere\n- Spring: Mar, Apr, May - Summer: Jun, Jul, Aug - Fall: Sep, Oct, Nov - Winter: Dec, Jan, Feb\nFor Southern Hemisphere\n- Fall: Mar, Apr, May - Winter: Jun, Jul, Aug - Spring: Sep, Oct, Nov - Summer: Dec, Jan, Feb\n",
+            "type": "string"
           },
           {
             "id": "wx5",
-            "type": "string",
-            "description": "Climate (temperate, desert, tropical)"
+            "description": "Climate (temperate, desert, tropical)",
+            "type": "string"
           }
         ]
-      },
-      "name": "weather",
-      "path": "data/weather.csv"
+      }
     },
     {
+      "path": "data/active_periods.csv",
+      "description": "Start and end times of active time periods of the battle",
+      "name": "active_periods",
       "schema": {
         "fields": [
           {
             "id": "isqno",
-            "type": "integer",
-            "description": "battle sequence number"
+            "description": "battle sequence number",
+            "type": "integer"
           },
           {
             "id": "atp_number",
-            "type": "integer",
-            "description": "Active time period number"
+            "description": "Active time period number",
+            "type": "integer"
           },
           {
             "id": "start_time_min",
-            "type": "datetime",
-            "description": "Active time period start time (min)"
+            "description": "Active time period start time (min)",
+            "type": "datetime"
           },
           {
             "id": "start_time_max",
-            "type": "datetime",
-            "description": "Active time period start time (max)"
+            "description": "Active time period start time (max)",
+            "type": "datetime"
           },
           {
             "id": "end_time_min",
-            "type": "datetime",
-            "description": "Active time period end time (min)"
+            "description": "Active time period end time (min)",
+            "type": "datetime"
           },
           {
             "id": "end_time_max",
-            "type": "datetime",
-            "description": "Active time period end time (max)"
+            "description": "Active time period end time (max)",
+            "type": "datetime"
           },
           {
             "id": "duration_min",
-            "type": "number",
-            "description": "Active time period duration (min)"
+            "description": "Active time period duration (min)",
+            "type": "number"
           },
           {
             "id": "duration_max",
-            "type": "number",
-            "description": "Active time period duration (max)"
+            "description": "Active time period duration (max)",
+            "type": "number"
           },
           {
             "id": "duration_only",
-            "type": "boolean",
-            "description": "Duration given, but start and end times are unknown.\nFor some battles CDB90 indicates an exact duration without indicating the hours and minutes of the start and end times. If this variable is true, then the `duration_*` will not be a function of `start_time_*` and `end_time_*`."
+            "description": "Duration given, but start and end times are unknown.\nFor some battles CDB90 indicates an exact duration without indicating the hours and minutes of the start and end times. If this variable is true, then the `duration_*` will not be a function of `start_time_*` and `end_time_*`.",
+            "type": "boolean"
           }
         ]
-      },
-      "description": "Start and end times of active time periods of the battle",
-      "name": "active_periods",
-      "path": "data/active_periods.csv"
+      }
     },
     {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "integer",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Defender's defense posture type in ``battles.postype``.",
-      "path": "data/enum_postype.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Weather codes used in ``weather.wx2``",
-      "path": "data/enum_wx2.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "integer",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
+      "path": "data/enum_aeroa.csv",
       "description": "Relative air superiority codes used in ``battles.aeroa``.",
-      "path": "data/enum_aeroa.csv"
-    },
-    {
       "schema": {
         "fields": [
           {
-            "id": "value",
             "type": "integer",
-            "description": "variable value"
+            "description": "variable value",
+            "id": "value"
           },
           {
-            "id": "description",
             "type": "string",
-            "description": "description of the value"
+            "description": "description of the value",
+            "id": "description"
           }
         ]
-      },
-      "description": "Code for criteria for assigning battle victory (``battles.crit``).",
-      "path": "data/enum_crit.csv"
+      }
     },
     {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Terrain description (hilliness) in ``terrain.terra1``.",
-      "path": "data/enum_terra1.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Defender's defense posture type in ``battles.post[12]``.",
-      "path": "data/enum_post.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Primary resolution / outcome comes used in ``belligerents.reso[123]``.",
-      "path": "data/enum_reso.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "integer",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Leader advantage codes used in ``battles.cea``.",
-      "path": "data/enum_cea.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "integer",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Surprise advantage codes used in ``battles.surpa``.",
-      "path": "data/enum_surpa.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "integer",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Win / lose / draw codes used in ``battles.wina``.",
-      "path": "data/enum_wina.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Weather codes used in ``weather.wx4``",
-      "path": "data/enum_wx4.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Weather codes used in ``weather.wx5``",
-      "path": "data/enum_wx5.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Terrain description (cover) in ``terrain.terra2``.",
-      "path": "data/enum_terra2.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Tactical scheme codes used in ``belligerents.pri[1-3]``.",
-      "path": "data/enum_pri.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
-      "description": "Terrain description in ``terrain.terra3``",
-      "path": "data/enum_terra3.csv"
-    },
-    {
-      "schema": {
-        "fields": [
-          {
-            "id": "value",
-            "type": "string",
-            "description": "variable value"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "description of the value"
-          }
-        ]
-      },
+      "path": "data/enum_wx3.csv",
       "description": "Weather codes used in ``weather.wx3``",
-      "path": "data/enum_wx3.csv"
-    },
-    {
       "schema": {
         "fields": [
           {
-            "id": "value",
             "type": "string",
-            "description": "variable value"
+            "description": "variable value",
+            "id": "value"
           },
           {
-            "id": "description",
             "type": "string",
-            "description": "description of the value"
+            "description": "description of the value",
+            "id": "description"
           }
         ]
-      },
-      "description": "Interpretation of total personnel strength in ``belligerents.code``.",
-      "path": "data/enum_codead.csv"
+      }
     },
     {
+      "path": "data/enum_wx4.csv",
+      "description": "Weather codes used in ``weather.wx4``",
       "schema": {
         "fields": [
           {
-            "id": "value",
             "type": "string",
-            "description": "variable value"
+            "description": "variable value",
+            "id": "value"
           },
           {
-            "id": "description",
             "type": "string",
-            "description": "description of the value"
+            "description": "description of the value",
+            "id": "description"
           }
         ]
-      },
+      }
+    },
+    {
+      "path": "data/enum_cea.csv",
+      "description": "Leader advantage codes used in ``battles.cea``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "integer",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_terra3.csv",
+      "description": "Terrain description in ``terrain.terra3``",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_crit.csv",
+      "description": "Code for criteria for assigning battle victory (``battles.crit``).",
+      "schema": {
+        "fields": [
+          {
+            "type": "integer",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_wx1.csv",
       "description": "Weather codes used in ``weather.wx1``",
-      "path": "data/enum_wx1.csv"
-    }
-  ],
-  "maintainers": [
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
     {
-      "name": "Jeffrey B. Arnold",
-      "email": "jeffrey.arnold@gmail.com"
+      "path": "data/enum_codead.csv",
+      "description": "Interpretation of total personnel strength in ``belligerents.code``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_terra2.csv",
+      "description": "Terrain description (cover) in ``terrain.terra2``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_reso.csv",
+      "description": "Primary resolution / outcome comes used in ``belligerents.reso[123]``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_post.csv",
+      "description": "Defender's defense posture type in ``battles.post[12]``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_wx2.csv",
+      "description": "Weather codes used in ``weather.wx2``",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_postype.csv",
+      "description": "Defender's defense posture type in ``battles.postype``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "integer",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_wx5.csv",
+      "description": "Weather codes used in ``weather.wx5``",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_terra1.csv",
+      "description": "Terrain description (hilliness) in ``terrain.terra1``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_surpa.csv",
+      "description": "Surprise advantage codes used in ``battles.surpa``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "integer",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_pri.csv",
+      "description": "Tactical scheme codes used in ``belligerents.pri[1-3]``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/enum_wina.csv",
+      "description": "Win / lose / draw codes used in ``battles.wina``.",
+      "schema": {
+        "fields": [
+          {
+            "type": "integer",
+            "description": "variable value",
+            "id": "value"
+          },
+          {
+            "type": "string",
+            "description": "description of the value",
+            "id": "description"
+          }
+        ]
+      }
     }
   ],
-  "homepage": "https://github.com/jrnold/CDB13",
-  "version": "2.0.0",
-  "description": "A database of over 600 battles that were fought between 1600AD and 1973AD. Descriptive data include battle name, date, and location; the strengths and losses on each side; identification of the victor; temporal duration of the battle; and selected environmental and tactical environment descriptors (such as type of fortifications, type of tactical scheme, weather conditions, width of front, etc.)\nThis dataset is a revised, cleaned, expanded and packaged version of Helmbold's CDB90 data. However, it does not add any new battles to the data.",
-  "name": "CDB13",
   "licenses": [
     {
       "id": "odc-by",
       "url": "http://opendatacommons.org/licenses/by/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991.",
+      "web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121"
+    }
+  ],
+  "homepage": "https://github.com/jrnold/CDB13",
+  "title": "CDB13 Battle Dataset",
+  "description": "A database of over 600 battles that were fought between 1600AD and 1973AD. Descriptive data include battle name, date, and location; the strengths and losses on each side; identification of the victor; temporal duration of the battle; and selected environmental and tactical environment descriptors (such as type of fortifications, type of tactical scheme, weather conditions, width of front, etc.)\nThis dataset is a revised, cleaned, expanded and packaged version of Helmbold's CDB90 data. However, it does not add any new battles to the data.",
+  "version": "3.0.0",
+  "maintainers": [
+    {
+      "email": "jeffrey.arnold@gmail.com",
+      "name": "Jeffrey B. Arnold"
     }
   ]
 }

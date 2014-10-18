@@ -379,6 +379,11 @@ make_enum_tables <- function(filepath) {
 }
 
 main <- function() {
+  ## writing version
+  version <- read.table(file.path(SRC_DATA, "version.txt"), col.names = "version")
+  cat("Writing version.csv\n")
+  writer(version, file.path(DATA_DIR, "version.csv"))
+
   ## Raw datasets
   cdb90 <- read.delim(file.path(SRC_DATA, "/CDB90/CDB90.tsv"),
                       stringsAsFactors = FALSE)
@@ -396,7 +401,7 @@ main <- function() {
                   match),
            isqno = isqno.x,
            parent = isqno.y)[ , c("isqno", "parent")]
-  
+
   battles <- battle_data(cdb90, war2, cdb90_to_cow, misc, duplicates)
   belligerents <- belligerent_data(cdb90, misc)
   weather <- wx_data(cdb90)

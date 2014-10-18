@@ -20,8 +20,8 @@ Usage
 
 To rebuild the data and documentation
 ```
-$ ./create_data.sh
 $ python make_datapackage.py
+$ ./create_data.sh
 ```
 
 To create a ``sqlite3`` database with the data:

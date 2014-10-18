@@ -1,6 +1,5 @@
 "name": "CDB13"
 "title": "CDB13 Battle Dataset"
-"version": "2.0.0"
 "licenses":
   - "id": "odc-by"
     "url": "http://opendatacommons.org/licenses/by/"
@@ -12,3 +11,11 @@ description:  "A database of over 600 battles that were fought between 1600AD an
 "sources":
   - "name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991."
     "web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121"
+"resources":
+  - path: data/version.csv
+    schema:
+      fields:
+        - id: version
+          type: string
+          description: Version number of the data
+          

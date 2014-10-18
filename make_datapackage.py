@@ -21,7 +21,9 @@ def create_enum_resource(k, v):
 with open(path.join(SRC_DIR, "datapackage.yaml"), 'r') as f:
     data = yaml.load(f)
 
-data['resources'] = []
+with open(path.join(SRC_DIR, "..", "version.txt"), 'r') as f:
+    data['version'] = f.read().strip()
+
 for file in os.listdir(path.join(SRC_DIR, "resources")):
     if path.splitext(file)[1] == ".yaml":
         with open(path.join(SRC_DIR, "resources", file)) as f:
