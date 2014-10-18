@@ -1,5 +1,5 @@
-description: CDB90 battles' combatants (attacker, defender)
-path: data/combatants.csv
+description: CDB90 battles' belligerents (attacker, defender)
+path: data/belligerents.csv
 schema:
   fields:
   - description: battle sequence number
@@ -14,7 +14,7 @@ schema:
   - description: total personnel strength
     id: str
     type: integer
-  - description: indicates interpretation of total pers strength
+  - description: indicates interpretation of total personnel strength
     id: code
     type: number
   - description: initial personnel strength
@@ -101,5 +101,6 @@ schema:
   - description: Attacker or defender in the battle
     id: attacker
     type: boolean
-  - id: countries
+  - id: actors
+    description: Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by a "|".
     type: string

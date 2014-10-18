@@ -344,21 +344,15 @@ front_width_data <- function(cdb90) {
 
 #' x = active period data
 make_battle_durations <- function(x) {
-    ret <- (mutate(x, duration = 0.5 * (duration_min + duration_max))
+    (mutate(x, duration = 0.5 * (duration_min + duration_max))
      %>% group_by(isqno)
      %>% summarise(datetime_min = min(start_time_min)
-                   , datetime_max = max(end_time_max)
-                   , datetime = as.POSIXct(0.5 * (as.numeric(datetime_min) + as.numeric(datetime_max)), tz = "UTC", origin = as.Date("1970-1-1"))
-                   , duration1 = as.numeric(difftime(max(start_time_max), min(start_time_min), units = "secs")) / 86400 + 1
-                   , duration2 = min(sum(duration) / 1200, duration1)
+                 , datetime_max = max(end_time_max)
+                 , datetime = as.POSIXct(0.5 * (as.numeric(datetime_min) + as.numeric(datetime_max)), tz = "UTC", origin = as.Date("1970-1-1"))
+                 , duration1 = as.numeric(difftime(max(start_time_max), min(start_time_min), units = "secs")) / 86400 + 1
+                 , duration2 = min(sum(duration) / 1200, duration1)
                    )
      )
-
-
-
-     )
-
-
 }
 
 make_battle_actors <- function(x) {
@@ -427,7 +421,7 @@ main <- function() {
   cat("Writing battle_durations.csv\n")
   writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))  
   cat("Writing battle_actors.csv\n")
-  writer(front_widths, file.path(DATA_DIR, "battle_actors.csv"))
+  writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
 
   # Writing out variable levels
   enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))

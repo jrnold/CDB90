@@ -1,0 +1,54 @@
+codead: 
+  description: "Interpretation of total personnel strength in ``belligerents.code``."
+  type: string
+aeroa: 
+  description: Relative air superiority codes used in ``battles.aeroa``. 
+  type: integer
+pri: 
+  description: Tactical scheme codes used in ``belligerents.pri[1-3]``.
+  type: string
+wx1: 
+  description: Weather codes used in ``weather.wx1``
+  type: string
+wx2: 
+  description: Weather codes used in ``weather.wx2``
+  type: string
+wx3:
+  description: Weather codes used in ``weather.wx3``
+  type: string
+wx4:
+  description: Weather codes used in ``weather.wx4``
+  type: string
+wx5:
+  description: Weather codes used in ``weather.wx5``
+  type: string
+terra1:
+  description: Terrain description (hilliness) in ``terrain.terra1``.
+  type: string
+terra2:
+  description: Terrain description (cover) in ``terrain.terra2``.
+  type: string
+terra3:
+  description: Terrain description in ``terrain.terra3``
+  type: string
+postype:
+  description: "Defender's defense posture type in ``battles.postype``."
+  type: integer
+surpa:
+  description: Surprise advantage codes used in ``battles.surpa``.
+  type: integer
+crit:
+  description: Code for criteria for assigning battle victory (``battles.crit``).
+  type: integer
+cea:
+  description: Leader advantage codes used in ``battles.cea``.
+  type: integer
+wina:
+  description: Win / lose / draw codes used in ``battles.wina``.
+  type: integer
+post:
+  description: "Defender's defense posture type in ``battles.post[12]``."
+  type: string
+reso:
+  description: Primary resolution / outcome comes used in ``belligerents.reso[123]``.
+  type: string

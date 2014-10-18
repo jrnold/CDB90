@@ -1,5 +1,5 @@
 description: Widths of fronts
-path: data/front_widths
+path: data/front_widths.csv
 schema:
   fields:
   - id: isqno
@@ -15,7 +15,7 @@ schema:
     type: number
   - description: Start time of front (min)
     id: time_min
-    type: datetimes
+    type: datetime
   - description: Start time of front (max)
     id: time_max
-    type: datetimes
+    type: datetime

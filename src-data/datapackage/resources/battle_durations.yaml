@@ -1,0 +1,32 @@
+path: data/battle_durations.csv
+description: > 
+
+  Battle start and end times and durations.
+
+  The data in this table are derived from ``active_time_periods``.
+
+schema:
+  fields:
+  - description: battle sequence (line or serial) number
+    id: isqno
+    type: integer
+  - id: datetime_min
+    description: Battle start time (minimum)
+    type: datetime
+  - id: datetime_max
+    description: Battle end time (minimum)
+    type: datetime
+  - id: datetime
+    description: >
+
+      Battle date and time (mid-point).
+      This is simply the midpoint of ``datetime_min`` and ``datetime_max``.
+      
+    type: datetime
+  - id: duration1
+    description: Battle duration (in days) calculated from ``datetime_min`` and ``datetime_max``.
+    type: number
+  - id: duration2
+    description: Battle duration (in days) calculated using durations in ``active_time_periods``.
+    type: number
+

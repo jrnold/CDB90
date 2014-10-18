@@ -166,7 +166,7 @@ schema:
     type: string
     source: Arnold
 
-  - description: War theater. Only used for the larger wars: 
+  - description: War theater. Only used for the larger wars.
     id: cdb13_theater
     type: string
     source: Arnold
