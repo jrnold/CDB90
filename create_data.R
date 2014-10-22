@@ -76,8 +76,11 @@ battle_data <- function(cdb90, wars, duplicates) {
   ## add new wars
   x <- merge(x, select(wars, -name, -war, -comment),
              by = "isqno")
-  x <- mutate(x, dbpedia = ifelse(dbpedia != "",
-                     str_c("http://dbpedia.org/resource/", dbpedia), NA))
+  x <- (mutate(x,
+               dbpedia = ifelse(dbpedia != "",
+                   str_c("http://dbpedia.org/resource/", dbpedia), NA),
+               war_initiator = (sidea == "A"))
+        %>% select(-sidea))
   # mark duplicates
   x <- merge(x, duplicates, all.x = TRUE)
   # return data

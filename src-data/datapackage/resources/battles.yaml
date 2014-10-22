@@ -182,6 +182,14 @@ schema:
     type: string
     source: Arnold
 
+  - id: war_initiator
+    description: >
+      Was attacker in the battle on the side of the war initiator. This uses the COW
+      war initiator coding for battles in COW wars, and the author's coding for battles
+      not in COW wars.
+    type: boolean
+    source: COW, Arnold
+    
   - description: >
 
       ``isqno`` of a parent battle in the data. If not null, then the observation
