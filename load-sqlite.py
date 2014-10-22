@@ -60,7 +60,6 @@ def process_resource(finfo, dbpath):
     else:
         _fname = urllib.parse.urlparse(finfo.get('url', ''))[2].split('/')[-1]
         tablename = os.path.splitext(_fname)[0]
-    print(tablename)
     fields = finfo['schema']['fields']
     _columns = ','.join(
             ['"%s" %s' % (field['id'], mappings[field['type']])

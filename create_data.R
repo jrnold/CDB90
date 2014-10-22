@@ -362,9 +362,10 @@ make_enum_tables <- function(filepath) {
 }
 
 main <- function() {
+  cat(sprintf("Writing files to %s\n", DATA_DIR))
   ## writing version
   version <- read.table(file.path(SRC_DATA, "version.txt"), col.names = "version")
-  cat("Writing version.csv\n")
+  cat("... Writing version.csv\n")
   writer(version, file.path(DATA_DIR, "version.csv"))
 
   ## Raw datasets
@@ -395,28 +396,28 @@ main <- function() {
   battle_durations <- make_battle_durations(active_periods)
   battle_actors <- make_battle_actors(belligerents)
 
-  cat("Writing battles.csv\n")
+  cat("... Writing battles.csv\n")
   writer(battles, file.path(DATA_DIR, "battles.csv"))
-  cat("Writing belligerents.csv\n")
+  cat("... Writing belligerents.csv\n")
   writer(belligerents, file.path(DATA_DIR, "belligerents.csv"))
-  cat("Writing weather.csv\n")
+  cat("... Writing weather.csv\n")
   writer(weather, file.path(DATA_DIR, "weather.csv"))
-  cat("Writing terrain.csv\n")
+  cat("... Writing terrain.csv\n")
   writer(terrain, file.path(DATA_DIR, "terrain.csv"))
-  cat("Writing active_periods.csv\n")
+  cat("... Writing active_periods.csv\n")
   writer(active_periods, file.path(DATA_DIR, "active_periods.csv"))
-  cat("Writing front_widths.csv\n")
+  cat("... Writing front_widths.csv\n")
   writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
-  cat("Writing battle_durations.csv\n")
+  cat("... Writing battle_durations.csv\n")
   writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))  
-  cat("Writing battle_actors.csv\n")
+  cat("... Writing battle_actors.csv\n")
   writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
 
   # Writing out variable levels
   enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))
   for (i in names(enums)) {
       outfile <- file.path(DATA_DIR, sprintf("enum_%s.csv", i))
-      cat(sprintf("writing %s\n", outfile))
+      cat(sprintf("... writing %s\n", outfile))
       writer(enums[[i]], outfile)
   }
   
