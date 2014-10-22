@@ -43,7 +43,7 @@ belligerent_col_names <- function(attacker) {
   newnames
 }
 
-battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
+battle_data <- function(cdb90, wars, duplicates) {
   varnames <- c("isqno", "war",
                 "name", "locn",
                 "campgn",
@@ -74,27 +74,13 @@ battle_data <- function(cdb90, war2, cdb90_to_cow, misc, duplicates) {
   }
 
   ## add new wars
-  x <- mutate(merge(x, war2[ , c("isqno", "war2", "war3")], all.x=TRUE),
-              war2 = ifelse(is.na(war2), war, war2),
-              war3 = ifelse(is.na(war3), war, war3))
-
-  # Add cdb90_wars
-  x <- merge(x, cdb90_to_cow[ , c("isqno", "cow_warno", "cow_warname")],
-             all.x = TRUE)
-
-  # Add new wars
-  misc <- misc[ , c("isqno", "war", "theater", "dbpedia")]
-  names(misc) <- c("isqno", "cdb13_war", "cdb13_theater", "dbpedia")
-  misc[["dbpedia"]] <-
-    ifelse(misc[["dbpedia"]] != "",
-           paste0("http://dbpedia.org/resource/",
-                  as.character(misc[["dbpedia"]])),
-           NA)
-  x <- merge(x, misc, all.x = TRUE)
-
+  x <- merge(x, select(wars, -name, -war, -comment),
+             by = "isqno")
+  x <- mutate(x, dbpedia = ifelse(dbpedia != "",
+                     str_c("http://dbpedia.org/resource/", dbpedia), NA))
   # mark duplicates
   x <- merge(x, duplicates, all.x = TRUE)
-
+  # return data
   x
 }
 
@@ -118,21 +104,15 @@ belligerent_data_0 <- function(cdb90, attacker, misc) {
               paste0("reso", 1:3))) {
     x[[i]] <- as.factor(tomissing(x[[i]], '00'))
   }
-
-  if (attacker) {
-    misc <- misc[ , c("isqno", "belligerenta")]
-  } else {
-    misc <- misc[ , c("isqno", "belligerentd")]
-  }
-  names(misc) <- c("isqno", "actors")
-  x <- merge(x, misc, all.x=TRUE)
-  
+  # return data
   x
 }
 
-belligerent_data <- function(cdb90, misc) {
-  rbind(belligerent_data_0(cdb90, 1L, misc),
-        belligerent_data_0(cdb90, 0L, misc))
+belligerent_data <- function(cdb90, new_belligerents) {
+  merge(select(rbind(belligerent_data_0(cdb90, 1L),
+                     belligerent_data_0(cdb90, 0L)),
+               - co),
+        new_belligerents)
 }
 
 daterange <- function(yyyy, mm, dd) {
@@ -357,7 +337,7 @@ make_battle_durations <- function(x) {
 
 make_battle_actors <- function(x) {
     f <- function(x) {
-        actors <- as.character(str_split(x$actors, pattern = fixed("|")))
+        actors <- str_split(x$cdb13_actors, pattern = "\\s*&\\s*")[[1]]
         data_frame(isqno = x$isqno,
                    attacker = x$attacker,
                    n = seq_along(actors),
@@ -388,12 +368,13 @@ main <- function() {
   cdb90 <- read.delim(file.path(SRC_DATA, "/CDB90/CDB90.tsv"),
                       stringsAsFactors = FALSE)
   names(cdb90) <- tolower(names(cdb90))
-  war2 <- read.csv(file.path(SRC_DATA, "/local/war2.csv"),
+  wars <- read.csv(file.path(SRC_DATA, "/local/wars.csv"),
                    stringsAsFactors = FALSE)
-  misc <- read.csv(file.path(SRC_DATA, "/local/misc.csv"),
-                     stringsAsFactors = FALSE)
-  cdb90_to_cow <- read.delim(file.path(SRC_DATA, "/local/cdb90_to_cow.csv"),
-                             stringsAsFactors = FALSE)
+  new_belligerents <-
+      (read.csv(file.path(SRC_DATA, "/local/belligerents.csv"),
+                stringsAsFactors = FALSE)
+       %>% select(isqno, attacker, co, cdb13_actors)
+       %>% mutate(attacker = as.logical(attacker)))
   duplicates <-
     mutate(subset(mutate(read.csv(file.path(SRC_DATA, "/local/duplicates.csv"),
                                   stringsAsFactors = FALSE),
@@ -402,8 +383,8 @@ main <- function() {
            isqno = isqno.x,
            parent = isqno.y)[ , c("isqno", "parent")]
 
-  battles <- battle_data(cdb90, war2, cdb90_to_cow, misc, duplicates)
-  belligerents <- belligerent_data(cdb90, misc)
+  battles <- battle_data(cdb90, wars, duplicates)
+  belligerents <- belligerent_data(cdb90, new_belligerents)
   weather <- wx_data(cdb90)
   terrain <- terra_data(cdb90)
   active_periods <- atp_data(cdb90)
