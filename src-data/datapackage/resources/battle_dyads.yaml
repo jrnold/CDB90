@@ -1,0 +1,19 @@
+path: data/battle_dyads.csv
+description: >
+
+  The actor dyads associated with each battle. The members of the dyads are the actors in the ``battle_actors`` table.
+  
+schema:
+  fields:
+    - id: isqno
+      type: integer
+    - id: attacker
+      type: boolean
+      description: Attacking actor.
+    - id: df
+      type: integer
+      description: Number of actor, for battle/belligerent combinations.
+    - id: actor
+      type: string
+      description: Name of actor
+  

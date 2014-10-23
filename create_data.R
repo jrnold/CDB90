@@ -362,7 +362,7 @@ make_enum_tables <- function(filepath) {
 }
 
 main <- function() {
-  cat(sprintf("Writing files to %s\n", DATA_DIR))
+  cat(sprintf("Writing files to %s", DATA_DIR))
   ## writing version
   version <- read.table(file.path(SRC_DATA, "version.txt"), col.names = "version")
   cat("... Writing version.csv\n")
@@ -394,7 +394,35 @@ main <- function() {
   active_periods <- atp_data(cdb90)
   front_widths <- front_width_data(cdb90)
   battle_durations <- make_battle_durations(active_periods)
+  
   battle_actors <- make_battle_actors(belligerents)
+  make_dyads <- function(x) {
+      attackers <-
+          str_split(filter(x, as.logical(attacker))$cdb13_actors, "\\s*&\\s*")[[1]]
+      defenders <-
+          str_split(filter(x, ! as.logical(attacker))$cdb13_actors, "\\s*&\\s*")[[1]]
+      dyads <- expand.grid(attacker = attackers, defender = defenders)
+      for (i in c("attacker", "defender")) dyads[[i]] <- as.character(dyads[[i]])
+      dyads$wt <- 1 / nrow(dyads)
+      dyads$dyad <- ""
+      dyads$direction <- 1
+      for (i in nrow(dyads)) {
+          if (dyads[i, "attacker"] < dyads[i, "defender"]) {
+              dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "attacker"],
+                                                             dyads[i, "defender"], sep = "|"),
+                                                       1)
+          } else {
+              dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "defender"],
+                                                             dyads[i, "attacker"], sep = "|"),
+                                                       -1)
+          }
+      }
+      dyads$primary <- c(TRUE, rep(FALSE, nrow(dyads) - 1))
+      dyads
+  }
+  dyads <-
+      (group_by(belligerents, isqno)
+       %>% do(make_dyads(.)))
 
   cat("... Writing battles.csv\n")
   writer(battles, file.path(DATA_DIR, "battles.csv"))
@@ -412,6 +440,8 @@ main <- function() {
   writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))  
   cat("... Writing battle_actors.csv\n")
   writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
+  cat("... Writing battle_dyads.csv\n")
+  writer(dyads, file.path(DATA_DIR, "battle_dyads.csv"))
 
   # Writing out variable levels
   enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))
@@ -423,5 +453,5 @@ main <- function() {
   
 }
 
-main()
+#main()
 
