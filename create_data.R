@@ -112,9 +112,8 @@ belligerent_data_0 <- function(cdb90, attacker, misc) {
 }
 
 belligerent_data <- function(cdb90, new_belligerents) {
-  merge(select(rbind(belligerent_data_0(cdb90, 1L),
+  merge(rbind(belligerent_data_0(cdb90, 1L),
                      belligerent_data_0(cdb90, 0L)),
-               - co),
         new_belligerents)
 }
 
@@ -377,7 +376,12 @@ main <- function() {
   new_belligerents <-
       (read.csv(file.path(SRC_DATA, "/local/belligerents.csv"),
                 stringsAsFactors = FALSE)
-       %>% select(isqno, attacker, co, cdb13_actors)
+       %>% select(isqno, attacker, cdb13_actors)
+       %>% mutate(attacker = as.logical(attacker)))
+  commanders <-
+      (read.csv(file.path(SRC_DATA, "/local/commanders.csv"),
+                stringsAsFactors = FALSE)
+       %>% select(isqno, attacker, cdb13_actors, commanders, uri)
        %>% mutate(attacker = as.logical(attacker)))
   duplicates <-
     mutate(subset(mutate(read.csv(file.path(SRC_DATA, "/local/duplicates.csv"),
@@ -442,6 +446,8 @@ main <- function() {
   writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
   cat("... Writing battle_dyads.csv\n")
   writer(dyads, file.path(DATA_DIR, "battle_dyads.csv"))
+  cat("... Writing commanders.csv\n")
+  writer(commanders, file.path(DATA_DIR, "commanders.csv"))
 
   # Writing out variable levels
   enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))
@@ -453,5 +459,5 @@ main <- function() {
   
 }
 
-#main()
+main()
 

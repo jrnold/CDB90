@@ -8,6 +8,9 @@ schema:
   - description: designation of the forces
     id: nam
     type: string
+  - id: co
+    description: commanders
+    type: string
   - description: total personnel strength
     id: str
     type: integer
@@ -98,9 +101,6 @@ schema:
   - description: Attacker or defender in the battle
     id: attacker
     type: boolean
-  - description: commanders of the forces. If more than one commander, commanders are separated by  " & ".
-    id: co
-    type: string
   - id: cdb13_actors
     description: Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by " & ".
     type: string

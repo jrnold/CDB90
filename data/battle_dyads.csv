@@ -1,0 +1,679 @@
+"isqno","attacker","defender","wt","dyad","direction","primary"
+1,"Spain","Dutch Republic",1,"Dutch Republic|Spain",-1,1
+2,"Holy Roman Empire","Bohemia",1,"Bohemia|Holy Roman Empire",-1,1
+3,"Holy Roman Empire","Protestant Union",0.5,"",1,1
+3,"Spain","Protestant Union",0.5,"Protestant Union|Spain",-1,0
+4,"Protestant Union","Holy Roman Empire",1,"Holy Roman Empire|Protestant Union",-1,1
+5,"Holy Roman Empire","Denmark",1,"Denmark|Holy Roman Empire",-1,1
+6,"Holy Roman Empire","Sweden",1,"Holy Roman Empire|Sweden",1,1
+7,"Sweden","Holy Roman Empire",1,"Holy Roman Empire|Sweden",-1,1
+8,"Sweden","Holy Roman Empire",1,"Holy Roman Empire|Sweden",-1,1
+9,"Sweden","Holy Roman Empire",1,"Holy Roman Empire|Sweden",-1,1
+10,"Sweden","Spain",0.5,"",1,1
+10,"Sweden","Holy Roman Empire",0.5,"Holy Roman Empire|Sweden",-1,0
+11,"Sweden","Holy Roman Empire",0.5,"",1,1
+11,"Sweden","Saxony",0.5,"Saxony|Sweden",-1,0
+12,"Sweden","Holy Roman Empire",1,"Holy Roman Empire|Sweden",-1,1
+13,"France","Spain",1,"France|Spain",1,1
+14,"Holy Roman Empire","France",1,"France|Holy Roman Empire",-1,1
+15,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+16,"Holy Roman Empire","Sweden",1,"Holy Roman Empire|Sweden",1,1
+17,"Holy Roman Empire","France",1,"France|Holy Roman Empire",-1,1
+18,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+19,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+20,"Royalist","Parliamentarian",1,"Parliamentarian|Royalist",-1,1
+21,"Royalist","Royalist",1,"Royalist|Royalist",-1,1
+22,"Parliamentarian","Royalist",1,"Parliamentarian|Royalist",1,1
+23,"Royalist","Parliamentarian",1,"Parliamentarian|Royalist",-1,1
+24,"Parliamentarian","Royalist",1,"Parliamentarian|Royalist",1,1
+25,"Royalist","Parliamentarian",1,"Parliamentarian|Royalist",-1,1
+26,"English Parliament","Scottish Royalist",1,"English Parliament|Scottish Royalist",1,1
+27,"English Parliament","Scottish Royalist",1,"English Parliament|Scottish Royalist",1,1
+28,"English Parliament","Scottish Royalist",1,"English Parliament|Scottish Royalist",1,1
+29,"France","Conde Rebels",1,"Conde Rebels|France",-1,1
+30,"France","Spain",1,"France|Spain",1,1
+31,"Ottoman Empire","Holy Roman Empire",1,"Holy Roman Empire|Ottoman Empire",-1,1
+32,"Holy Roman Empire","Ottoman Empire",1,"Holy Roman Empire|Ottoman Empire",1,1
+33,"Poland","Ottoman Empire",1,"Ottoman Empire|Poland",-1,1
+34,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+35,"France","Dutch Republic",1,"Dutch Republic|France",-1,1
+36,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+37,"France","Holy Roman Empire",1,"France|Holy Roman Empire",1,1
+38,"Prussia","Sweden",1,"Prussia|Sweden",1,1
+39,"English Rebels","England",1,"England|English Rebels",-1,1
+40,"Jacobites","England",1,"England|Jacobites",-1,1
+41,"France","Dutch Republic",1,"Dutch Republic|France",-1,1
+42,"France","Dutch Republic",1,"Dutch Republic|France",-1,1
+43,"England","Jacobites",1,"England|Jacobites",1,1
+44,"England","Jacobites",1,"England|Jacobites",1,1
+45,"England","France",1,"England|France",1,1
+46,"France","England",1,"England|France",-1,1
+47,"France","Savoy",1,"France|Savoy",1,1
+48,"Holy Roman Empire","Ottoman Empire",1,"Holy Roman Empire|Ottoman Empire",1,1
+49,"Sweden","Russia",1,"Russia|Sweden",-1,1
+50,"England","France",0.25,"",1,1
+50,"Holy Roman Empire","France",0.25,"",1,0
+50,"England","Bavaria",0.25,"",1,0
+50,"Holy Roman Empire","Bavaria",0.25,"Bavaria|Holy Roman Empire",-1,0
+51,"England","France",0.5,"",1,1
+51,"England","Bavaria",0.5,"Bavaria|England",-1,0
+52,"England","France",0.5,"",1,1
+52,"Holy Roman Empire","France",0.5,"France|Holy Roman Empire",-1,0
+53,"England","France",0.5,"",1,1
+53,"Holy Roman Empire","France",0.5,"France|Holy Roman Empire",-1,0
+54,"Habsburg Empire","Ottoman Empire",1,"Habsburg Empire|Ottoman Empire",1,1
+55,"Habsburg Empire","Prussia",1,"Habsburg Empire|Prussia",1,1
+56,"Habsburg Empire","Prussia",1,"Habsburg Empire|Prussia",1,1
+57,"Great Britain","France",1,"France|Great Britain",-1,1
+58,"Great Britain","France",1,"France|Great Britain",-1,1
+59,"Prussia","Habsburg Empire",1,"Habsburg Empire|Prussia",-1,1
+60,"Prussia","Habsburg Empire",1,"Habsburg Empire|Prussia",-1,1
+61,"Prussia","Saxony",1,"Prussia|Saxony",1,1
+62,"Jacobites","Great Britain",1,"Great Britain|Jacobites",-1,1
+63,"Jacobites","Great Britain",1,"Great Britain|Jacobites",-1,1
+64,"Prussia","Austria",1,"Austria|Prussia",-1,1
+65,"Prussia","Austria",1,"Austria|Prussia",-1,1
+66,"Bengal","Great Britain",1,"Bengal|Great Britain",1,1
+67,"Prussia","Austria",1,"Austria|Prussia",-1,1
+68,"France","Great Britain",1,"France|Great Britain",1,1
+69,"France","Prussia",0.5,"",1,1
+69,"Austria","Prussia",0.5,"Austria|Prussia",1,0
+70,"Prussia","Austria",1,"Austria|Prussia",-1,1
+71,"Hanover","France",1,"France|Hanover",-1,1
+72,"Prussia","Russia",1,"Prussia|Russia",1,1
+73,"Austria","Prussia",1,"Austria|Prussia",1,1
+74,"Hanover","France",1,"France|Hanover",-1,1
+75,"Hanover","France",1,"France|Hanover",-1,1
+76,"Prussia","Russia",1,"Prussia|Russia",1,1
+77,"France","Great Britain",1,"France|Great Britain",1,1
+78,"Austria","Prussia",1,"Austria|Prussia",1,1
+79,"Hanover","France",1,"France|Hanover",-1,1
+80,"Austria","Prussia",1,"Austria|Prussia",1,1
+81,"Prussia","Austria",1,"Austria|Prussia",-1,1
+82,"Great Britain","USA",1,"Great Britain|USA",1,1
+83,"USA","Great Britain",1,"Great Britain|USA",-1,1
+84,"Great Britain","USA",1,"Great Britain|USA",1,1
+85,"USA","Great Britain",1,"Great Britain|USA",-1,1
+86,"USA","Great Britain",1,"Great Britain|USA",-1,1
+87,"Great Britain","USA",1,"Great Britain|USA",1,1
+88,"USA","Great Britain",1,"Great Britain|USA",-1,1
+89,"Great Britain","USA",1,"Great Britain|USA",1,1
+90,"Great Britain","USA",1,"Great Britain|USA",1,1
+91,"Great Britain","USA",1,"Great Britain|USA",1,1
+92,"Great Britain","USA",1,"Great Britain|USA",1,1
+93,"Great Britain","USA",1,"Great Britain|USA",1,1
+94,"Great Britain","USA",1,"Great Britain|USA",1,1
+95,"USA","Great Britain",1,"Great Britain|USA",-1,1
+96,"Prussia","France",1,"France|Prussia",-1,1
+97,"France","Austria",1,"Austria|France",-1,1
+98,"France","Austria",1,"Austria|France",-1,1
+99,"France","Great Britain",1,"France|Great Britain",1,1
+100,"France","Austria",1,"Austria|France",-1,1
+101,"Austria","France",1,"Austria|France",1,1
+102,"France","Austria",1,"Austria|France",-1,1
+103,"France","Austria",1,"Austria|France",-1,1
+104,"Austria","France",1,"Austria|France",1,1
+105,"Austria","France",1,"Austria|France",1,1
+106,"France","Austria",1,"Austria|France",-1,1
+107,"Austria","France",1,"Austria|France",1,1
+108,"France","Ottoman Empire",1,"France|Ottoman Empire",1,1
+109,"France","Austria",1,"Austria|France",-1,1
+110,"Ottoman Empire","France",1,"France|Ottoman Empire",-1,1
+111,"Austria","France",1,"Austria|France",1,1
+112,"Russia","France",1,"France|Russia",-1,1
+113,"France","Russia",1,"France|Russia",1,1
+114,"France","Austria",1,"Austria|France",-1,1
+115,"Austria","France",1,"Austria|France",1,1
+116,"Austria","France",1,"Austria|France",1,1
+117,"Russia","France",1,"France|Russia",-1,1
+118,"France","Prussia",1,"France|Prussia",1,1
+119,"Prussia","France",1,"France|Prussia",-1,1
+120,"France","Russia",1,"France|Russia",1,1
+121,"France","Russia",1,"France|Russia",1,1
+122,"France","Great Britain",1,"France|Great Britain",1,1
+123,"France","Great Britain",1,"France|Great Britain",1,1
+124,"Austria","France",1,"Austria|France",1,1
+125,"Austria","France",1,"Austria|France",1,1
+126,"France","Austria",1,"Austria|France",-1,1
+127,"France","Austria",1,"Austria|France",-1,1
+128,"France","Great Britain",0.5,"",1,1
+128,"France","Spain",0.5,"France|Spain",1,0
+129,"France","Great Britain",1,"France|Great Britain",1,1
+130,"France","Great Britain",1,"France|Great Britain",1,1
+131,"France","Great Britain",1,"France|Great Britain",1,1
+132,"Great Britain","France",1,"France|Great Britain",-1,1
+133,"Great Britain","France",1,"France|Great Britain",-1,1
+134,"France","Russia",1,"France|Russia",1,1
+135,"Russia","France",0.5,"",1,1
+135,"Prussia","France",0.5,"France|Prussia",-1,0
+136,"France","Prussia",0.5,"",1,1
+136,"France","Russia",0.5,"France|Russia",1,0
+137,"Austria","France",1,"Austria|France",1,1
+138,"Austria","France",1,"Austria|France",1,1
+139,"France","Bavaria",1,"Bavaria|France",-1,1
+140,"Prussia","France",1,"France|Prussia",-1,1
+141,"France","Prussia",1,"France|Prussia",1,1
+142,"Austria","France",1,"Austria|France",1,1
+143,"France","Prussia",1,"France|Prussia",1,1
+144,"France","Great Britain",1,"France|Great Britain",1,1
+145,"France","Great Britain",0.5,"",1,1
+145,"France","Prussia",0.5,"France|Prussia",1,0
+146,"USA","Great Britain",1,"Great Britain|USA",-1,1
+147,"Great Britain","USA",1,"Great Britain|USA",1,1
+148,"USA","Great Britain",1,"Great Britain|USA",-1,1
+149,"Great Britain","USA",1,"Great Britain|USA",1,1
+150,"Independentalists","Spain",1,"Independentalists|Spain",1,1
+151,"Independentalists","Spain",1,"Independentalists|Spain",1,1
+152,"Independentalists","Spain",1,"Independentalists|Spain",1,1
+153,"Spain","Independentalists",1,"Independentalists|Spain",-1,1
+154,"Independentalists","Spain",1,"Independentalists|Spain",1,1
+155,"Spain","Independentalists",1,"Independentalists|Spain",-1,1
+156,"Texas","Mexico",1,"Mexico|Texas",-1,1
+157,"USA","Mexico",1,"Mexico|USA",-1,1
+158,"USA","Mexico",1,"Mexico|USA",-1,1
+159,"Mexico","USA",1,"Mexico|USA",1,1
+160,"USA","Mexico",1,"Mexico|USA",-1,1
+161,"USA","Mexico",1,"Mexico|USA",-1,1
+162,"USA","Mexico",1,"Mexico|USA",-1,1
+163,"USA","Mexico",1,"Mexico|USA",-1,1
+164,"USA","Mexico",1,"Mexico|USA",-1,1
+165,"Great Britain","Russia",0.5,"",1,1
+165,"France","Russia",0.5,"France|Russia",1,0
+166,"Russia","Great Britain",0.5,"",1,1
+166,"Russia","France",0.5,"France|Russia",-1,0
+167,"France","Austria",1,"Austria|France",-1,1
+168,"France","Austria",1,"Austria|France",-1,1
+169,"Prussia","Austria",1,"Austria|Prussia",-1,1
+170,"Italy","Austria",1,"Austria|Italy",-1,1
+171,"USA","Confederacy",1,"Confederacy|USA",-1,1
+172,"USA","Confederacy",1,"Confederacy|USA",-1,1
+173,"USA","Confederacy",1,"Confederacy|USA",-1,1
+174,"Confederacy","USA",1,"Confederacy|USA",1,1
+175,"Confederacy","USA",1,"Confederacy|USA",1,1
+176,"Confederacy","USA",1,"Confederacy|USA",1,1
+177,"Confederacy","USA",1,"Confederacy|USA",1,1
+178,"Confederacy","USA",1,"Confederacy|USA",1,1
+179,"Confederacy","USA",1,"Confederacy|USA",1,1
+180,"Confederacy","USA",1,"Confederacy|USA",1,1
+181,"USA","Confederacy",1,"Confederacy|USA",-1,1
+182,"Confederacy","USA",1,"Confederacy|USA",1,1
+183,"Confederacy","USA",1,"Confederacy|USA",1,1
+184,"Confederacy","USA",1,"Confederacy|USA",1,1
+185,"Confederacy","USA",1,"Confederacy|USA",1,1
+186,"Confederacy","USA",1,"Confederacy|USA",1,1
+187,"Confederacy","USA",1,"Confederacy|USA",1,1
+188,"USA","Confederacy",1,"Confederacy|USA",-1,1
+189,"USA","Confederacy",1,"Confederacy|USA",-1,1
+190,"USA","Confederacy",1,"Confederacy|USA",-1,1
+191,"USA","Confederacy",1,"Confederacy|USA",-1,1
+192,"USA","Confederacy",1,"Confederacy|USA",-1,1
+193,"USA","Confederacy",1,"Confederacy|USA",-1,1
+194,"USA","Confederacy",1,"Confederacy|USA",-1,1
+195,"Confederacy","USA",1,"Confederacy|USA",1,1
+196,"USA","Confederacy",1,"Confederacy|USA",-1,1
+197,"USA","Confederacy",1,"Confederacy|USA",-1,1
+198,"USA","Confederacy",1,"Confederacy|USA",-1,1
+199,"Confederacy","USA",1,"Confederacy|USA",1,1
+200,"Confederacy","USA",1,"Confederacy|USA",1,1
+201,"USA","Confederacy",1,"Confederacy|USA",-1,1
+202,"USA","Confederacy",1,"Confederacy|USA",-1,1
+203,"USA","Confederacy",1,"Confederacy|USA",-1,1
+204,"Confederacy","USA",1,"Confederacy|USA",1,1
+205,"USA","Confederacy",1,"Confederacy|USA",-1,1
+206,"USA","Confederacy",1,"Confederacy|USA",-1,1
+207,"Confederacy","USA",1,"Confederacy|USA",1,1
+208,"Confederacy","USA",1,"Confederacy|USA",1,1
+209,"USA","Confederacy",1,"Confederacy|USA",-1,1
+210,"USA","Confederacy",1,"Confederacy|USA",-1,1
+211,"USA","Confederacy",1,"Confederacy|USA",-1,1
+212,"Confederacy","USA",1,"Confederacy|USA",1,1
+213,"Confederacy","USA",1,"Confederacy|USA",1,1
+214,"USA","Confederacy",1,"Confederacy|USA",-1,1
+215,"Confederacy","USA",1,"Confederacy|USA",1,1
+216,"USA","Confederacy",1,"Confederacy|USA",-1,1
+217,"USA","Confederacy",1,"Confederacy|USA",-1,1
+218,"USA","Confederacy",1,"Confederacy|USA",-1,1
+219,"USA","Confederacy",1,"Confederacy|USA",-1,1
+220,"Germany","France",1,"France|Germany",-1,1
+221,"Germany","France",1,"France|Germany",-1,1
+222,"Germany","France",1,"France|Germany",-1,1
+223,"Germany","France",1,"France|Germany",-1,1
+224,"Germany","France",1,"France|Germany",-1,1
+225,"Germany","France",1,"France|Germany",-1,1
+226,"France","Germany",1,"France|Germany",1,1
+227,"Germany","France",1,"France|Germany",-1,1
+228,"Germany","France",1,"France|Germany",-1,1
+229,"France","Germany",1,"France|Germany",1,1
+230,"Zulu","Great Britain",1,"Great Britain|Zulu",-1,1
+231,"Zulu","Great Britain",1,"Great Britain|Zulu",-1,1
+232,"South African Republic","Great Britain",1,"Great Britain|South African Republic",-1,1
+233,"Great Britain","Egypt",1,"Egypt|Great Britain",-1,1
+234,"Mahdists","Great Britain",1,"Great Britain|Mahdists",-1,1
+235,"Ethiopia","Italy",1,"Ethiopia|Italy",1,1
+236,"Great Britain","South African Republic",1,"Great Britain|South African Republic",1,1
+237,"Great Britain","South African Republic",1,"Great Britain|South African Republic",1,1
+238,"Great Britain","South African Republic",1,"Great Britain|South African Republic",1,1
+239,"Great Britain","South African Republic",1,"Great Britain|South African Republic",1,1
+240,"Great Britain","South African Republic",1,"Great Britain|South African Republic",1,1
+241,"USA","Spain",1,"Spain|USA",-1,1
+242,"Japan","Russia",1,"Japan|Russia",1,1
+243,"Japan","Russia",1,"Japan|Russia",1,1
+244,"Japan","Russia",1,"Japan|Russia",1,1
+245,"Russia","Japan",1,"Japan|Russia",-1,1
+246,"Russia","Japan",1,"Japan|Russia",-1,1
+247,"Japan","Russia",1,"Japan|Russia",1,1
+248,"Serbia","Ottoman Empire",1,"Ottoman Empire|Serbia",-1,1
+249,"Bulgaria","Ottoman Empire",1,"Bulgaria|Ottoman Empire",1,1
+250,"Serbia","Ottoman Empire",1,"Ottoman Empire|Serbia",-1,1
+251,"Serbia","Ottoman Empire",1,"Ottoman Empire|Serbia",-1,1
+252,"Bulgaria","Ottoman Empire",1,"Bulgaria|Ottoman Empire",1,1
+253,"Poland","USSR",1,"Poland|USSR",1,1
+254,"Poland","USSR",1,"Poland|USSR",1,1
+255,"Italy","Spanish Republic",1,"Italy|Spanish Republic",1,1
+256,"Japan","USSR",1,"Japan|USSR",1,1
+257,"USSR","Japan",1,"Japan|USSR",-1,1
+258,"USSR","Japan",1,"Japan|USSR",-1,1
+259,"Japan","USSR",1,"Japan|USSR",1,1
+260,"USSR","Japan",1,"Japan|USSR",-1,1
+261,"Finland","USSR",1,"Finland|USSR",1,1
+262,"France","Germany",1,"France|Germany",1,1
+263,"Germany","France",1,"France|Germany",-1,1
+264,"France","Germany",1,"France|Germany",1,1
+265,"Germany","France",1,"France|Germany",-1,1
+266,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+267,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+268,"Germany","France",1,"France|Germany",-1,1
+269,"Germany","France",1,"France|Germany",-1,1
+270,"France","Germany",1,"France|Germany",1,1
+271,"France","Germany",1,"France|Germany",1,1
+272,"France","Germany",1,"France|Germany",1,1
+273,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+274,"Germany","France",1,"France|Germany",-1,1
+275,"Germany","France",1,"France|Germany",-1,1
+276,"Germany","France",1,"France|Germany",-1,1
+277,"France","Germany",1,"France|Germany",1,1
+278,"Russia","Germany",1,"Germany|Russia",-1,1
+279,"Germany","Russia",1,"Germany|Russia",1,1
+280,"Germany","Russia",1,"Germany|Russia",1,1
+281,"Germany","Russia",1,"Germany|Russia",1,1
+282,"Austria","Russia",1,"Austria|Russia",1,1
+283,"Austria","Russia",1,"Austria|Russia",1,1
+284,"Austria","Russia",1,"Austria|Russia",1,1
+285,"Austria","Russia",1,"Austria|Russia",1,1
+286,"Germany","Russia",1,"Germany|Russia",1,1
+287,"Austria","Serbia",1,"Austria|Serbia",1,1
+288,"Serbia","Austria",1,"Austria|Serbia",-1,1
+289,"France","Germany",1,"France|Germany",1,1
+290,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+291,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+292,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+293,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+294,"Germany","Russia",1,"Germany|Russia",1,1
+295,"Germany","Russia",1,"Germany|Russia",1,1
+296,"Italy","Austria",1,"Austria|Italy",-1,1
+297,"Italy","Austria",1,"Austria|Italy",-1,1
+298,"Italy","Austria",1,"Austria|Italy",-1,1
+299,"Italy","Austria",1,"Austria|Italy",-1,1
+300,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+301,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+302,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+303,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+304,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+305,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+306,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+307,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+308,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+309,"Russia","Ottoman Empire",1,"Ottoman Empire|Russia",-1,1
+310,"Russia","Germany",1,"Germany|Russia",-1,1
+311,"Russia","Austria",1,"Austria|Russia",-1,1
+312,"Italy","Austria",1,"Austria|Italy",-1,1
+313,"Austria","Italy",1,"Austria|Italy",1,1
+314,"Italy","Austria",1,"Austria|Italy",-1,1
+315,"Italy","Austria",1,"Austria|Italy",-1,1
+316,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+317,"France","Germany",1,"France|Germany",1,1
+318,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+319,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+320,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+321,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+322,"Italy","Austria",1,"Austria|Italy",-1,1
+323,"Italy","Austria",1,"Austria|Italy",-1,1
+324,"Germany","Italy",0.5,"",1,1
+324,"Austria","Italy",0.5,"Austria|Italy",1,0
+325,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+326,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+327,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+328,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+329,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+330,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+331,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+332,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+333,"Germany","USA",1,"Germany|USA",1,1
+334,"Germany","France",1,"France|Germany",-1,1
+335,"USA","Germany",1,"Germany|USA",-1,1
+336,"USA","Germany",1,"Germany|USA",-1,1
+337,"USA","Germany",1,"Germany|USA",-1,1
+338,"USA","Germany",1,"Germany|USA",-1,1
+339,"USA","Germany",1,"Germany|USA",-1,1
+340,"USA","Germany",1,"Germany|USA",-1,1
+341,"USA","Germany",1,"Germany|USA",-1,1
+342,"USA","Germany",1,"Germany|USA",-1,1
+343,"Germany","USA",1,"Germany|USA",1,1
+344,"USA","Germany",1,"Germany|USA",-1,1
+345,"USA","Germany",1,"Germany|USA",-1,1
+346,"USA","Germany",1,"Germany|USA",-1,1
+347,"USA","Germany",1,"Germany|USA",-1,1
+348,"USA","Germany",1,"Germany|USA",-1,1
+349,"USA","Germany",1,"Germany|USA",-1,1
+350,"Germany","France",1,"France|Germany",-1,1
+351,"Germany","France",1,"France|Germany",-1,1
+352,"France","Germany",1,"France|Germany",1,1
+353,"USA","Germany",1,"Germany|USA",-1,1
+354,"USA","Germany",1,"Germany|USA",-1,1
+355,"USA","Germany",1,"Germany|USA",-1,1
+356,"USA","Germany",1,"Germany|USA",-1,1
+357,"USA","Germany",1,"Germany|USA",-1,1
+358,"USA","Germany",1,"Germany|USA",-1,1
+359,"USA","Germany",1,"Germany|USA",-1,1
+360,"USA","Germany",1,"Germany|USA",-1,1
+361,"USA","Germany",1,"Germany|USA",-1,1
+362,"USA","Germany",1,"Germany|USA",-1,1
+363,"USA","Germany",1,"Germany|USA",-1,1
+364,"USA","Germany",1,"Germany|USA",-1,1
+365,"USA","Germany",1,"Germany|USA",-1,1
+366,"USA","Germany",1,"Germany|USA",-1,1
+367,"USA","Germany",1,"Germany|USA",-1,1
+368,"USA","Germany",1,"Germany|USA",-1,1
+369,"USA","Germany",1,"Germany|USA",-1,1
+370,"USA","Germany",1,"Germany|USA",-1,1
+371,"USA","Germany",1,"Germany|USA",-1,1
+372,"USA","Germany",1,"Germany|USA",-1,1
+373,"USA","Germany",1,"Germany|USA",-1,1
+374,"USA","Germany",1,"Germany|USA",-1,1
+375,"USA","Germany",1,"Germany|USA",-1,1
+376,"USA","Germany",1,"Germany|USA",-1,1
+377,"USA","Germany",1,"Germany|USA",-1,1
+378,"USA","Germany",1,"Germany|USA",-1,1
+379,"USA","Germany",1,"Germany|USA",-1,1
+380,"USA","Germany",1,"Germany|USA",-1,1
+381,"France","Germany",1,"France|Germany",1,1
+382,"USA","Germany",1,"Germany|USA",-1,1
+383,"USA","Germany",1,"Germany|USA",-1,1
+384,"Austria","Italy",1,"Austria|Italy",1,1
+385,"Great Britain","Ottoman Empire",1,"Great Britain|Ottoman Empire",1,1
+386,"Germany","Great Britain",0.5,"",1,1
+386,"Italy","Great Britain",0.5,"Great Britain|Italy",-1,0
+387,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+388,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+389,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+390,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+391,"Germany","USA",1,"Germany|USA",1,1
+392,"Germany","USA",1,"Germany|USA",1,1
+393,"USA","Germany",1,"Germany|USA",-1,1
+394,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+395,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+396,"USA","Germany",1,"Germany|USA",-1,1
+397,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+398,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+399,"Germany","USA",1,"Germany|USA",1,1
+400,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+401,"USA","Germany",1,"Germany|USA",-1,1
+402,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+403,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+404,"USA","Germany",1,"Germany|USA",-1,1
+405,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+406,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+407,"USA","Germany",1,"Germany|USA",-1,1
+408,"USA","Germany",1,"Germany|USA",-1,1
+409,"USA","Germany",1,"Germany|USA",-1,1
+410,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+411,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+412,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+413,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+414,"USA","Germany",1,"Germany|USA",-1,1
+415,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+416,"USA","Germany",1,"Germany|USA",-1,1
+417,"USA","Germany",1,"Germany|USA",-1,1
+418,"Germany","Germany",1,"Germany|Germany",-1,1
+419,"USA","Germany",1,"Germany|USA",-1,1
+420,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+421,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+422,"USA","Germany",1,"Germany|USA",-1,1
+423,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+424,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+425,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+426,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+427,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+428,"Germany","USA",1,"Germany|USA",1,1
+429,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+430,"USA","Germany",1,"Germany|USA",-1,1
+431,"Germany","USA",1,"Germany|USA",1,1
+432,"Germany","Great Britain",1,"Germany|Great Britain",1,1
+433,"Germany","USA",1,"Germany|USA",1,1
+434,"USA","Germany",1,"Germany|USA",-1,1
+435,"USA","Germany",1,"Germany|USA",-1,1
+436,"USA","Germany",1,"Germany|USA",-1,1
+437,"USA","Germany",1,"Germany|USA",-1,1
+438,"USA","Germany",1,"Germany|USA",-1,1
+439,"USA","Germany",1,"Germany|USA",-1,1
+440,"USA","Germany",1,"Germany|USA",-1,1
+441,"USA","Germany",1,"Germany|USA",-1,1
+442,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+443,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+444,"USA","Germany",1,"Germany|USA",-1,1
+445,"USA","Germany",1,"Germany|USA",-1,1
+446,"USA","Germany",1,"Germany|USA",-1,1
+447,"USA","Germany",1,"Germany|USA",-1,1
+448,"USA","Germany",1,"Germany|USA",-1,1
+449,"USA","Germany",1,"Germany|USA",-1,1
+450,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+451,"USA","Germany",1,"Germany|USA",-1,1
+452,"USA","Germany",1,"Germany|USA",-1,1
+453,"USA","Germany",1,"Germany|USA",-1,1
+454,"USA","Germany",1,"Germany|USA",-1,1
+455,"USA","Germany",1,"Germany|USA",-1,1
+456,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+457,"USA","Germany",1,"Germany|USA",-1,1
+458,"USA","Germany",1,"Germany|USA",-1,1
+459,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+460,"USA","Germany",1,"Germany|USA",-1,1
+461,"Germany","USA",1,"Germany|USA",1,1
+462,"USA","Germany",1,"Germany|USA",-1,1
+463,"USA","Germany",1,"Germany|USA",-1,1
+464,"USA","Germany",1,"Germany|USA",-1,1
+465,"USA","Germany",1,"Germany|USA",-1,1
+466,"USA","Germany",1,"Germany|USA",-1,1
+467,"Germany","USA",1,"Germany|USA",1,1
+468,"USA","Germany",1,"Germany|USA",-1,1
+469,"USA","Germany",1,"Germany|USA",-1,1
+470,"USA","Germany",1,"Germany|USA",-1,1
+471,"USA","Germany",1,"Germany|USA",-1,1
+472,"USA","Germany",1,"Germany|USA",-1,1
+473,"USA","Germany",1,"Germany|USA",-1,1
+474,"USA","Germany",1,"Germany|USA",-1,1
+475,"USA","Germany",1,"Germany|USA",-1,1
+476,"USA","Germany",1,"Germany|USA",-1,1
+477,"USA","Germany",1,"Germany|USA",-1,1
+478,"USA","Germany",1,"Germany|USA",-1,1
+479,"USA","Germany",1,"Germany|USA",-1,1
+480,"USA","Germany",1,"Germany|USA",-1,1
+481,"USA","Germany",1,"Germany|USA",-1,1
+482,"USA","Germany",1,"Germany|USA",-1,1
+483,"Germany","USA",1,"Germany|USA",1,1
+484,"Germany","USA",1,"Germany|USA",1,1
+485,"Germany","USA",1,"Germany|USA",1,1
+486,"Germany","France",1,"France|Germany",-1,1
+487,"Japan","Great Britain",1,"Great Britain|Japan",-1,1
+488,"Germany","USSR",1,"Germany|USSR",1,1
+489,"Germany","USSR",1,"Germany|USSR",1,1
+490,"USSR","Germany",1,"Germany|USSR",-1,1
+491,"USSR","Germany",1,"Germany|USSR",-1,1
+492,"USSR","Germany",1,"Germany|USSR",-1,1
+493,"Germany","USSR",1,"Germany|USSR",1,1
+494,"Germany","USSR",1,"Germany|USSR",1,1
+495,"Germany","USSR",1,"Germany|USSR",1,1
+496,"Germany","USSR",1,"Germany|USSR",1,1
+497,"USSR","Germany",1,"Germany|USSR",-1,1
+498,"USSR","Germany",1,"Germany|USSR",-1,1
+499,"USSR","Germany",1,"Germany|USSR",-1,1
+500,"USSR","Germany",1,"Germany|USSR",-1,1
+501,"USSR","Germany",1,"Germany|USSR",-1,1
+502,"USSR","Germany",1,"Germany|USSR",-1,1
+503,"USSR","Germany",1,"Germany|USSR",-1,1
+504,"USSR","Germany",1,"Germany|USSR",-1,1
+505,"USSR","Germany",1,"Germany|USSR",-1,1
+506,"USSR","Germany",1,"Germany|USSR",-1,1
+507,"USSR","Germany",1,"Germany|USSR",-1,1
+508,"USSR","Germany",1,"Germany|USSR",-1,1
+509,"USSR","Germany",1,"Germany|USSR",-1,1
+510,"USSR","Germany",1,"Germany|USSR",-1,1
+511,"USSR","Germany",1,"Germany|USSR",-1,1
+512,"USSR","Germany",1,"Germany|USSR",-1,1
+513,"USSR","Germany",1,"Germany|USSR",-1,1
+514,"USSR","Germany",1,"Germany|USSR",-1,1
+515,"USSR","Germany",1,"Germany|USSR",-1,1
+516,"USSR","Japan",1,"Japan|USSR",-1,1
+517,"USA","Japan",1,"Japan|USA",-1,1
+518,"USA","Japan",1,"Japan|USA",-1,1
+519,"USA","Japan",1,"Japan|USA",-1,1
+520,"USA","Japan",1,"Japan|USA",-1,1
+521,"USA","Japan",1,"Japan|USA",-1,1
+522,"USA","Japan",1,"Japan|USA",-1,1
+523,"USA","Japan",1,"Japan|USA",-1,1
+524,"USA","Japan",1,"Japan|USA",-1,1
+525,"USA","Japan",1,"Japan|USA",-1,1
+526,"USA","Japan",1,"Japan|USA",-1,1
+527,"USA","Japan",1,"Japan|USA",-1,1
+528,"Japan","USA",1,"Japan|USA",1,1
+529,"USA","Japan",1,"Japan|USA",-1,1
+530,"USA","Japan",1,"Japan|USA",-1,1
+531,"Japan","USA",1,"Japan|USA",1,1
+532,"USA","Japan",1,"Japan|USA",-1,1
+533,"USA","Japan",1,"Japan|USA",-1,1
+534,"USA","Japan",1,"Japan|USA",-1,1
+535,"USA","Japan",1,"Japan|USA",-1,1
+536,"USA","Japan",1,"Japan|USA",-1,1
+537,"USA","Japan",1,"Japan|USA",-1,1
+538,"USA","Japan",1,"Japan|USA",-1,1
+539,"USA","Japan",1,"Japan|USA",-1,1
+540,"USA","Japan",1,"Japan|USA",-1,1
+541,"USA","Japan",1,"Japan|USA",-1,1
+542,"USA","Japan",1,"Japan|USA",-1,1
+543,"USA","Japan",1,"Japan|USA",-1,1
+544,"USA","Japan",1,"Japan|USA",-1,1
+545,"USA","Japan",1,"Japan|USA",-1,1
+546,"USA","Japan",1,"Japan|USA",-1,1
+547,"USA","Japan",1,"Japan|USA",-1,1
+548,"USA","Japan",1,"Japan|USA",-1,1
+549,"Israel","Jordan",1,"Israel|Jordan",1,1
+550,"Israel","Jordan",1,"Israel|Jordan",1,1
+551,"Israel","Jordan",1,"Israel|Jordan",1,1
+552,"Israel","Jordan",1,"Israel|Jordan",1,1
+553,"Israel","Jordan",1,"Israel|Jordan",1,1
+554,"Israel","Egypt",1,"Egypt|Israel",-1,1
+555,"Israel","Egypt",1,"Egypt|Israel",-1,1
+556,"Israel","Egypt",1,"Egypt|Israel",-1,1
+557,"Israel","Egypt",1,"Egypt|Israel",-1,1
+558,"Israel","Egypt",1,"Egypt|Israel",-1,1
+559,"Israel","Palestine",1,"Israel|Palestine",1,1
+560,"Israel","Egypt",1,"Egypt|Israel",-1,1
+561,"Egypt","Israel",1,"Egypt|Israel",1,1
+562,"Israel","Egypt",1,"Egypt|Israel",-1,1
+563,"Israel","Egypt",1,"Egypt|Israel",-1,1
+564,"Egypt","Israel",1,"Egypt|Israel",1,1
+565,"Israel","Syria",1,"Israel|Syria",1,1
+566,"Israel","Syria",1,"Israel|Syria",1,1
+567,"Israel","Syria",1,"Israel|Syria",1,1
+568,"Israel","Jordan",1,"Israel|Jordan",1,1
+569,"Egypt","Israel",1,"Egypt|Israel",1,1
+570,"Egypt","Israel",1,"Egypt|Israel",1,1
+571,"Egypt","Israel",1,"Egypt|Israel",1,1
+572,"Egypt","Israel",1,"Egypt|Israel",1,1
+573,"Israel","Egypt",1,"Egypt|Israel",-1,1
+574,"Egypt","Israel",1,"Egypt|Israel",1,1
+575,"Egypt","Israel",1,"Egypt|Israel",1,1
+576,"Israel","Egypt",1,"Egypt|Israel",-1,1
+577,"Israel","Egypt",1,"Egypt|Israel",-1,1
+578,"Israel","Egypt",1,"Egypt|Israel",-1,1
+579,"Israel","Egypt",1,"Egypt|Israel",-1,1
+580,"Israel","Egypt",1,"Egypt|Israel",-1,1
+581,"Israel","Egypt",1,"Egypt|Israel",-1,1
+582,"Israel","Egypt",1,"Egypt|Israel",-1,1
+583,"Israel","Egypt",1,"Egypt|Israel",-1,1
+584,"Israel","Egypt",1,"Egypt|Israel",-1,1
+585,"Syria","Israel",1,"Israel|Syria",-1,1
+586,"Syria","Israel",1,"Israel|Syria",-1,1
+587,"Syria","Israel",1,"Israel|Syria",-1,1
+588,"Syria","Israel",1,"Israel|Syria",-1,1
+589,"Syria","Israel",1,"Israel|Syria",-1,1
+590,"Israel","Syria",1,"Israel|Syria",1,1
+591,"Israel","Syria",1,"Israel|Syria",1,1
+592,"Syria","Israel",1,"Israel|Syria",-1,1
+593,"Israel","Syria",1,"Israel|Syria",1,1
+594,"Israel","Syria",1,"Israel|Syria",1,1
+595,"Israel","Syria",1,"Israel|Syria",1,1
+596,"Iraq","Israel",1,"Iraq|Israel",1,1
+597,"Israel","Israel",1,"Israel|Israel",-1,1
+598,"Jordan","Israel",1,"Israel|Jordan",-1,1
+599,"Syria","Israel",1,"Israel|Syria",-1,1
+600,"Israel","Syria",1,"Israel|Syria",1,1
+601,"Israel","Syria",1,"Israel|Syria",1,1
+602,"Germany","USA",1,"Germany|USA",1,1
+603,"USA","Germany",1,"Germany|USA",-1,1
+604,"Germany","USA",1,"Germany|USA",1,1
+605,"USA","Germany",1,"Germany|USA",-1,1
+606,"USA","Germany",1,"Germany|USA",-1,1
+607,"USA","Germany",1,"Germany|USA",-1,1
+608,"USA","Germany",1,"Germany|USA",-1,1
+609,"Germany","USA",1,"Germany|USA",1,1
+610,"Germany","USA",1,"Germany|USA",1,1
+611,"Germany","USA",1,"Germany|USA",1,1
+612,"Germany","USA",1,"Germany|USA",1,1
+613,"Germany","USA",1,"Germany|USA",1,1
+614,"USA","Germany",1,"Germany|USA",-1,1
+615,"USA","Germany",1,"Germany|USA",-1,1
+616,"USA","Germany",1,"Germany|USA",-1,1
+617,"USA","Germany",1,"Germany|USA",-1,1
+618,"Germany","USA",1,"Germany|USA",1,1
+619,"Germany","USA",1,"Germany|USA",1,1
+620,"Germany","USA",1,"Germany|USA",1,1
+621,"Germany","USA",1,"Germany|USA",1,1
+622,"Germany","USA",1,"Germany|USA",1,1
+623,"Germany","USA",1,"Germany|USA",1,1
+624,"Germany","USA",1,"Germany|USA",1,1
+625,"Germany","USA",1,"Germany|USA",1,1
+626,"North Korea","USA",1,"North Korea|USA",1,1
+627,"USA","North Korea",1,"North Korea|USA",-1,1
+628,"USA","North Korea",1,"North Korea|USA",-1,1
+629,"USA","North Korea",1,"North Korea|USA",-1,1
+630,"USA","North Korea",1,"North Korea|USA",-1,1
+631,"USA","North Korea",1,"North Korea|USA",-1,1
+632,"USA","North Korea",1,"North Korea|USA",-1,1
+633,"USA","North Korea",1,"North Korea|USA",-1,1
+634,"North Korea","USA",1,"North Korea|USA",1,1
+635,"North Korea","USA",1,"North Korea|USA",1,1
+636,"USA","North Korea",1,"North Korea|USA",-1,1
+637,"USSR","Germany",1,"Germany|USSR",-1,1
+638,"Syria","Israel",1,"Israel|Syria",-1,1
+639,"Syria","Israel",1,"Israel|Syria",-1,1
+640,"Israel","Syria",1,"Israel|Syria",1,1
+641,"Israel","Syria",1,"Israel|Syria",1,1
+642,"Israel","Syria",1,"Israel|Syria",1,1
+643,"Israel","Syria",1,"Israel|Syria",1,1
+644,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+645,"Israel","Syria",1,"Israel|Syria",1,1
+646,"Israel","Egypt",1,"Egypt|Israel",-1,1
+647,"Israel","Egypt",1,"Egypt|Israel",-1,1
+648,"Israel","Egypt",1,"Egypt|Israel",-1,1
+649,"Israel","Egypt",1,"Egypt|Israel",-1,1
+650,"Israel","Egypt",1,"Egypt|Israel",-1,1
+651,"Israel","Egypt",1,"Egypt|Israel",-1,1
+652,"Israel","Egypt",1,"Egypt|Israel",-1,1
+653,"Israel","Egypt",1,"Egypt|Israel",-1,1
+654,"North Vietnam","South Vietnam",1,"North Vietnam|South Vietnam",1,1
+655,"Israel","Jordan",1,"Israel|Jordan",1,1
+656,"Israel","Jordan",1,"Israel|Jordan",1,1
+657,"Germany","France",1,"France|Germany",-1,1
+658,"Germany","France",1,"France|Germany",-1,1
+659,"Great Britain","Germany",1,"Germany|Great Britain",-1,1
+660,"France","Germany",1,"France|Germany",1,1

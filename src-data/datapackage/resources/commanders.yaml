@@ -1,0 +1,21 @@
+description: CDB90 battles' commanders
+path: data/commanders.csv
+schema:
+  fields:
+  - description: battle sequence number
+    id: isqno
+    type: integer
+  - description: Attacker or defender in the battle
+    id: attacker
+    type: boolean
+  - id: cdb13_actors
+    description: Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by " & ".
+    type: string
+  - id: commanders
+    type: string
+    description: >-
+      Commander's name.
+  - id: uri
+    type: string
+    description: >-
+      URL of the commander's article in Wikipedia (if any). This column is incomplete.

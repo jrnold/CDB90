@@ -1,0 +1,1359 @@
+,isqno,attacker,war,battle,name,cdb13_actors,commanders,uri
+1,1,0,NETHERLAND'S WAR OF INDEPENDENCE,NIEUPORT,DU ARMY OF THE STATES GENERAL,Dutch Republic,MAURICE OF NASSAU,http://en.wikipedia.org/wiki/Maurits_of_Nassau
+2,1,1,NETHERLAND'S WAR OF INDEPENDENCE,NIEUPORT,SP NETHERLANDS ARMY,Spain,ALBERT OF AUSTRIA,http://en.wikipedia.org/wiki/Archduke_Albert_(1559-1621)
+3,2,0,THIRTY YEAR'S WAR,WHITE MOUNTAIN,BOH REB ARMY,Bohemia,CHRISTIAN OF ANHALT-BERNBERG,http://en.wikipedia.org/wiki/Christian_of_Anhalt
+4,2,1,THIRTY YEAR'S WAR,WHITE MOUNTAIN,IMP & HOLY LEAGUE ARMY,Holy Roman Empire,BUCQUOI,"http://en.wikipedia.org/wiki/Charles_Bonaventure_de_Longueval,_Count_of_Bucquoy"
+5,3,0,THIRTY YEAR'S WAR,WIMPFEN,PROT UNION ARMY,Protestant Union,BADEN-DURLACH,http://en.wikipedia.org/wiki/Georg_Friedrich_of_Baden-Durlach
+6,3,1,THIRTY YEAR'S WAR,WIMPFEN,HOLY LEAGUE & SP ARMY,Holy Roman Empire & Spain,TILLY,"http://en.wikipedia.org/wiki/Johann_Tserclaes,_Count_of_Tilly"
+7,3,1,THIRTY YEAR'S WAR,WIMPFEN,HOLY LEAGUE & SP ARMY,Holy Roman Empire & Spain,CORDOVA,http://en.wikipedia.org/wiki/Gonzalo_Fern%C3%A1ndez_de_C%C3%B3rdoba_(1585%E2%80%931645)
+8,4,0,THIRTY YEAR'S WAR,DESSAU BRIDGE,IMP ARMY,Holy Roman Empire,WALLENSTEIN,http://en.wikipedia.org/wiki/Albrecht_von_Wallenstein
+9,4,1,THIRTY YEAR'S WAR,DESSAU BRIDGE,PROT UNION ARMY,Protestant Union,MANSFIELD,http://en.wikipedia.org/wiki/Ernst_von_Mansfeld
+10,5,0,THIRTY YEAR'S WAR,LUTTER,DAN ARMY,Denmark,CHRISTIAN IV,http://en.wikipedia.org/wiki/Christian_IV_of_Denmark
+11,5,1,THIRTY YEAR'S WAR,LUTTER,HOLY LEAGUE ARMY,Holy Roman Empire,TILLY,"http://en.wikipedia.org/wiki/Johan_Tzerclaes,_Count_of_Tilly"
+12,6,0,THIRTY YEAR'S WAR,BREITENFELD I,SW & SAX ARMY,Sweden,GUSTAVUS ADOLPHUS,http://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden
+13,6,1,THIRTY YEAR'S WAR,BREITENFELD I,IMP & HOLY LEAGUE ARMY,Holy Roman Empire,TILLY,"http://en.wikipedia.org/wiki/Johan_Tzerclaes,_Count_of_Tilly"
+14,7,0,THIRTY YEAR'S WAR,THE LECH,IMP ARMY,Holy Roman Empire,TILLY,"http://en.wikipedia.org/wiki/Johan_Tzerclaes,_Count_of_Tilly"
+15,7,1,THIRTY YEAR'S WAR,THE LECH,SW ARMY,Sweden,GUSTAVUS ADOLPHUS,http://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden
+16,8,0,THIRTY YEAR'S WAR,ALTE VESTE,IMP ARMY,Holy Roman Empire,WALLENSTEIN,http://en.wikipedia.org/wiki/Albrecht_von_Wallenstein
+17,8,1,THIRTY YEAR'S WAR,ALTE VESTE,SW ARMY,Sweden,GUSTAVUS ADOLPHUS,http://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden
+18,9,0,THIRTY YEAR'S WAR,LUETZEN,IMP ARMY,Holy Roman Empire,WALLENSTEIN,http://en.wikipedia.org/wiki/Albrecht_von_Wallenstein
+19,9,1,THIRTY YEAR'S WAR,LUETZEN,SW ARMY,Sweden,GUSTAVUS ADOLPHUS,http://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden
+20,10,0,THIRTY YEAR'S WAR,NORDLINGEN I,SP & IMP ARMY,Spain & Holy Roman Empire,CARDINAL-INFANTE,http://en.wikipedia.org/wiki/Cardinal-Infante_Ferdinand
+21,10,0,THIRTY YEAR'S WAR,NORDLINGEN I,SP & IMP ARMY,Spain & Holy Roman Empire,FERDINAND,"http://en.wikipedia.org/wiki/Ferdinand_III,_Holy_Roman_Emperor"
+22,10,1,THIRTY YEAR'S WAR,NORDLINGEN I,SW ARMY,Sweden,SAXE-WEIMAR,"http://en.wikipedia.org/wiki/Gustav_Horn,_Count_of_Pori"
+23,10,1,THIRTY YEAR'S WAR,NORDLINGEN I,SW ARMY,Sweden,HORN,http://en.wikipedia.org/wiki/Bernhard_of_Saxe-Weimar
+24,11,0,THIRTY YEAR'S WAR,WITTSTOCK,IMP & SAXON ARMY,Holy Roman Empire & Saxony,HATZFELD,?
+25,11,0,THIRTY YEAR'S WAR,WITTSTOCK,IMP & SAXON ARMY,Holy Roman Empire & Saxony,JOHN GEORGE,"http://en.wikipedia.org/wiki/John_George_I,_Elector_of_Saxony"
+26,11,1,THIRTY YEAR'S WAR,WITTSTOCK,SW ARMY,Sweden,BANER,http://en.wikipedia.org/wiki/Johan_Ban%C3%A9r
+27,12,0,THIRTY YEAR'S WAR,BREITENFELD II,IMP ARMY,Holy Roman Empire,LEOPOLD WILLIAM,http://en.wikipedia.org/wiki/Archduke_Leopold_Wilhelm_of_Austria
+28,12,1,THIRTY YEAR'S WAR,BREITENFELD II,SW ARMY,Sweden,TORTENSSON,http://en.wikipedia.org/wiki/Lennart_Torstenson
+29,13,0,THIRTY YEAR'S WAR,ROCROI,SP NETHERLANDS ARMY,Spain,MELLO,http://en.wikipedia.org/wiki/Francisco_de_Melo
+30,13,1,THIRTY YEAR'S WAR,ROCROI,FR ARMY,France,ENGHIEN,"http://en.wikipedia.org/wiki/Louis_II_de_Bourbon,_Prince_de_Cond%C3%A9"
+31,14,0,THIRTY YEAR'S WAR,TUTTLINGEN,FR ARMY OF GERMANY,France,RANTZAU,?
+32,14,1,THIRTY YEAR'S WAR,TUTTLINGEN,IMP ARMY,Holy Roman Empire,MERCY,http://en.wikipedia.org/wiki/Franz_von_Mercy
+33,15,0,THIRTY YEAR'S WAR,FREIBURG,IMP ARMY,Holy Roman Empire,MERCY,http://en.wikipedia.org/wiki/Franz_von_Mercy
+34,15,1,THIRTY YEAR'S WAR,FREIBURG,FR ARMY,France,CONDE,"http://en.wikipedia.org/wiki/Louis_II_de_Bourbon,_Prince_de_Cond%C3%A9"
+35,15,1,THIRTY YEAR'S WAR,FREIBURG,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+36,16,0,THIRTY YEAR'S WAR,JANKAU,SW ARMY,Sweden,TORSTENSSON,http://en.wikipedia.org/wiki/Lennart_Torstenson
+37,16,1,THIRTY YEAR'S WAR,JANKAU,IMP ARMY,Holy Roman Empire,HATZFELD,?
+38,17,0,THIRTY YEAR'S WAR,MERGENTHEIM,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+39,17,1,THIRTY YEAR'S WAR,MERGENTHEIM,IMP ARMY,Holy Roman Empire,MERCY,http://en.wikipedia.org/wiki/Franz_von_Mercy
+40,17,1,THIRTY YEAR'S WAR,MERGENTHEIM,IMP ARMY,Holy Roman Empire,WERTH,http://en.wikipedia.org/wiki/Johann_von_Werth
+41,18,0,THIRTY YEAR'S WAR,ALLERHEIM (NORDLINGEN II),IMP ARMY,Holy Roman Empire,MERCY,http://en.wikipedia.org/wiki/Franz_von_Mercy
+42,18,0,THIRTY YEAR'S WAR,ALLERHEIM (NORDLINGEN II),IMP ARMY,Holy Roman Empire,WERTH,http://en.wikipedia.org/wiki/Johann_von_Werth
+43,18,1,THIRTY YEAR'S WAR,ALLERHEIM (NORDLINGEN II),FR ARMY,France,CONDE,"http://en.wikipedia.org/wiki/Louis_II_de_Bourbon,_Prince_de_Cond%C3%A9"
+44,19,0,THIRTY YEAR'S WAR,LENS,IMP ARMY,Holy Roman Empire,LEOPOLD WILLIAM,http://en.wikipedia.org/wiki/Archduke_Leopold_Wilhelm_of_Austria
+45,19,1,THIRTY YEAR'S WAR,LENS,FR ARMY,France,CONDE,"http://en.wikipedia.org/wiki/Louis_II_de_Bourbon,_Prince_de_Cond%C3%A9"
+46,20,0,ENGLISH CIVIL WAR,EDGEHILL,ENG PARL ARMY,Parliamentarian,ESSEX,"http://en.wikipedia.org/wiki/Robert_Devereux,_3rd_Earl_of_Essex"
+47,20,1,ENGLISH CIVIL WAR,EDGEHILL,ENG ROY ARMY,Royalist,CHARLES I,http://en.wikipedia.org/wiki/Charles_I_of_England
+48,21,0,ENGLISH CIVIL WAR,MARSTON MOOR,ENG ROY ARMY,Royalist,RUPERT,http://en.wikipedia.org/wiki/Prince_Rupert_of_the_Rhine
+49,21,1,ENGLISH CIVIL WAR,MARSTON MOOR,ENG PARL ARMY,Royalist,MANCHESTER,"http://en.wikipedia.org/wiki/Edward_Montagu,_2nd_Earl_of_Manchester"
+50,22,0,ENGLISH CIVIL WAR,TIPPERMUIR,SCOT ROY ARMY,Royalist,MONTROSE,"http://en.wikipedia.org/wiki/James_Graham,_1st_Marquess_of_Montrose"
+51,22,1,ENGLISH CIVIL WAR,TIPPERMUIR,SCOT COV ARMY,Parliamentarian,ELCHO,http://en.wikipedia.org/wiki/Earl_of_Wemyss
+52,23,0,ENGLISH CIVIL WAR,KILSYTH,SCOT COV ARMY,Parliamentarian,BAILLIE,http://en.wikipedia.org/wiki/William_Baillie_(soldier)
+53,23,1,ENGLISH CIVIL WAR,KILSYTH,SCOT ROY ARMY,Royalist,MONTROSE,"http://en.wikipedia.org/wiki/James_Graham,_1st_Marquess_of_Montrose"
+54,24,0,ENGLISH CIVIL WAR,NEWBURY II,ENG ROY ARMY,Royalist,CHARLES I,http://en.wikipedia.org/wiki/Charles_I_of_England
+55,24,1,ENGLISH CIVIL WAR,NEWBURY II,ENG PARL ARMY,Parliamentarian,MANCHESTER,"http://en.wikipedia.org/wiki/Edward_Montagu,_2nd_Earl_of_Manchester"
+56,25,0,ENGLISH CIVIL WAR,NASEBY,ENG PARL ARMY,Parliamentarian,FAIRFAX,"http://en.wikipedia.org/wiki/Thomas_Fairfax,_3rd_Lord_Fairfax_of_Cameron"
+57,25,1,ENGLISH CIVIL WAR,NASEBY,ENG ROY ARMY,Royalist,CHARLES I,http://en.wikipedia.org/wiki/Charles_I_of_England
+58,26,0,SECOND ENGLISH CIVIL WAR,PRESTON,SCOT ROY ARMY,Scottish Royalist,HAMILTON,"http://en.wikipedia.org/wiki/James_Hamilton,_3rd_Marquess_and_1st_Duke_of_Hamilton"
+59,26,1,SECOND ENGLISH CIVIL WAR,PRESTON,ENG PARL ARMY,English Parliament,CROMWELL,http://en.wikipedia.org/wiki/Oliver_Cromwell
+60,27,0,SECOND ENGLISH CIVIL WAR,DUNBAR,SCOT ROY ARMY,Scottish Royalist,LESLIE,http://en.wikipedia.org/wiki/David_Leslie_(Scottish_general)
+61,27,1,SECOND ENGLISH CIVIL WAR,DUNBAR,ENG PARL ARMY,English Parliament,CROMWELL,http://en.wikipedia.org/wiki/Oliver_Cromwell
+62,28,0,SECOND ENGLISH CIVIL WAR,WORCESTER,SCOT ROY ARMY,Scottish Royalist,CHARLES II,http://en.wikipedia.org/wiki/Charles_II_of_England
+63,28,1,SECOND ENGLISH CIVIL WAR,WORCESTER,ENG PARL ARMY,English Parliament,CROMWELL,http://en.wikipedia.org/wiki/Oliver_Cromwell
+64,29,0,THE FRONDE,ST. ANTOINE,FR REB ARMY,Conde Rebels,CONDE,"http://en.wikipedia.org/wiki/Louis,_Grand_Cond%C3%A9"
+65,29,1,THE FRONDE,ST. ANTOINE,FR ROY ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+66,30,0,FRANCO-SPANISH WAR,THE DUNES,SP ARMY,Spain,DON JUAN,http://en.wikipedia.org/wiki/Juan_Jos%C3%A9_de_Austria
+67,30,1,FRANCO-SPANISH WAR,THE DUNES,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+68,31,0,AUSTRO-TURKISH WAR,THE RAAB,IMP ALLIED ARMY,Holy Roman Empire,MONTECUCCOLI,http://en.wikipedia.org/wiki/Raimondo_Montecuccoli
+69,31,1,AUSTRO-TURKISH WAR,THE RAAB,TURK ARMY,Ottoman Empire,AHMED KOPRULU,http://en.wikipedia.org/wiki/Ahmed_K%C3%B6pr%C3%BCl%C3%BC
+70,32,0,AUSTRO-TURKISH WAR,VIENNA,TURK ARMY,Ottoman Empire,KARA MUSTAFA,http://en.wikipedia.org/wiki/Kara_Mustafa_Pasha
+71,32,1,AUSTRO-TURKISH WAR,VIENNA,IMP ALLIED ARMY,Holy Roman Empire,LORRAINE,http://en.wikipedia.org/wiki/Jan_III_Sobieski
+72,32,1,AUSTRO-TURKISH WAR,VIENNA,IMP ALLIED ARMY,Holy Roman Empire,SOBIESKI,"http://en.wikipedia.org/wiki/Charles_V,_Duke_of_Lorraine"
+73,33,0,POLISH-TURKISH WAR,CHOCIM II,TURK ARMY,Ottoman Empire,HUSSEIN PASHA,?
+74,33,1,POLISH-TURKISH WAR,CHOCIM II,POL ARMY,Poland,SOBIESKI,http://en.wikipedia.org/wiki/John_III_Sobieski
+75,34,0,DUTCH WAR,SINSHEIM,IMP ALLIED ARMY,Holy Roman Empire,CAPARA,http://en.wikipedia.org/wiki/Aeneas_de_Caprara
+76,34,1,DUTCH WAR,SINSHEIM,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+77,35,0,DUTCH WAR,SENEF,DU ALLIED ARMY,Dutch Republic,ORANGE,http://en.wikipedia.org/wiki/William_III_of_England
+78,35,1,DUTCH WAR,SENEF,FR ARMY,France,CONDE,"http://en.wikipedia.org/wiki/Louis_II_de_Bourbon,_Prince_de_Cond%C3%A9"
+79,36,0,DUTCH WAR,ENZHEIM,IMP ALLIED ARMY,Holy Roman Empire,BOURNONVILLE,http://en.wikipedia.org/wiki/Alexander_von_Bournonville
+80,36,1,DUTCH WAR,ENZHEIM,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+81,37,0,DUTCH WAR,TURCKHEIM,IMP ALLIED ARMY,Holy Roman Empire,BOURNONVILLE,http://en.wikipedia.org/wiki/Alexander_von_Bournonville
+82,37,1,DUTCH WAR,TURCKHEIM,FR ARMY,France,TURENNE,"http://en.wikipedia.org/wiki/Henri_de_la_Tour_d%27Auvergne,_Vicomte_de_Turenne"
+83,38,0,DUTCH WAR,FEHRBELLIN,SW ARMY,Sweden,WRANGEL,?
+84,38,1,DUTCH WAR,FEHRBELLIN,PR ARMY,Prussia,FREDERICK WILLIAM,"http://en.wikipedia.org/wiki/Frederick_William,_Elector_of_Brandenburg"
+85,39,0,MONMOUTH'S REBELLION,SEDGEMOOR,ENG ARMY,England,FEVERSHAM,"http://en.wikipedia.org/wiki/Louis_de_Duras,_2nd_Earl_of_Feversham"
+86,39,1,MONMOUTH'S REBELLION,SEDGEMOOR,ENG REB ARMY,English Rebels,MONMOUTH,"http://en.wikipedia.org/wiki/James_Scott,_1st_Duke_of_Monmouth"
+87,40,0,KING WILLIAM'S WAR,KILLIECRANKIE,ENG ARMY,England,MACKAY,http://en.wikipedia.org/wiki/Hugh_Mackay
+88,40,1,KING WILLIAM'S WAR,KILLIECRANKIE,SCOTS REB ARMY,Jacobites,DUNDEE,"http://en.wikipedia.org/wiki/John_Graham,_1st_Viscount_of_Dundee"
+89,41,0,KING WILLIAM'S WAR,WALCOURT,ALLIED ARMY,Dutch Republic,WALDECK,http://en.wikipedia.org/wiki/Prince_Georg_Friedrich_of_Waldeck
+90,41,1,KING WILLIAM'S WAR,WALCOURT,FR ARMY,France,D'HUMIERES,"http://en.wikipedia.org/wiki/Louis_de_Crevant,_Duke_of_Humi%C3%A8res"
+91,42,0,KING WILLIAM'S WAR,FLEURUS,ALLIED ARMY,Dutch Republic,WALDECK,http://en.wikipedia.org/wiki/Prince_Georg_Friedrich_of_Waldeck
+92,42,1,KING WILLIAM'S WAR,FLEURUS,FR ARMY,France,LUXEMBOURG,"http://en.wikipedia.org/wiki/Fran%C3%A7ois-Henri_de_Montmorency,_duc_de_Luxembourg"
+93,43,0,KING WILLIAM'S WAR,THE BOYNE,ENG & IRISH REB ARMY,Jacobites,JAMES II,http://en.wikipedia.org/wiki/James_II_of_England
+94,43,1,KING WILLIAM'S WAR,THE BOYNE,ENG ARMY,England,WILLIAM III,http://en.wikipedia.org/wiki/William_III_of_England
+95,44,0,KING WILLIAM'S WAR,AUGHRIM,ENG & IRISH REB ARMY,Jacobites,ST. RUTH,http://en.wikipedia.org/wiki/Marquis_de_St_Ruth
+96,44,1,KING WILLIAM'S WAR,AUGHRIM,ENG ARMY,England,GINCKEL,"http://en.wikipedia.org/wiki/Godert_de_Ginkell,_1st_Earl_of_Athlone"
+97,45,0,KING WILLIAM'S WAR,STEENKERKE,FR ARMY,France,LUXEMBOURG,"http://en.wikipedia.org/wiki/Fran%C3%A7ois-Henri_de_Montmorency,_duc_de_Luxembourg"
+98,45,1,KING WILLIAM'S WAR,STEENKERKE,ALLIED ARMY,England,WILLIAM III,http://en.wikipedia.org/wiki/William_III_of_England
+99,46,0,KING WILLIAM'S WAR,NEERWINDEN (LANDEN),ALLIED ARMY,England,WILLIAM III,http://en.wikipedia.org/wiki/William_III_of_England
+100,46,1,KING WILLIAM'S WAR,NEERWINDEN (LANDEN),FR ARMY,France,LUXEMBOURG,"http://en.wikipedia.org/wiki/Fran%C3%A7ois-Henri_de_Montmorency,_duc_de_Luxembourg"
+101,47,0,KING WILLIAM'S WAR,MARSAGLIA,ALLIED ARMY,Savoy,DUKE OF SAVOY,http://en.wikipedia.org/wiki/Victor_Amadeus_II_of_Savoy
+102,47,1,KING WILLIAM'S WAR,MARSAGLIA,FR ARMY,France,CATINAT,http://en.wikipedia.org/wiki/Nicolas_Catinat
+103,48,0,AUSTRO-TURKISH WAR,ZENTA,TURK ARMY,Ottoman Empire,MUSTAFA II,http://en.wikipedia.org/wiki/Mustafa_II
+104,48,1,AUSTRO-TURKISH WAR,ZENTA,AUS ARMY,Holy Roman Empire,EUGENE,http://en.wikipedia.org/wiki/Prince_Eugene_of_Savoy
+105,49,0,GREAT NORTHERN WAR,POLTAVA,RUSS ARMY,Russia,PETER THE GREAT,http://en.wikipedia.org/wiki/Peter_the_Great
+106,49,1,GREAT NORTHERN WAR,POLTAVA,SW ARMY,Sweden,CHARLES XII,http://en.wikipedia.org/wiki/Charles_XII
+107,50,0,WAR OF THE SPANISH SUCCESSION,BLENHEIM,FR & BAV ARMY,France & Bavaria,TALLARD,"http://en.wikipedia.org/wiki/Camille_d%27Hostun,_duc_de_Tallard"
+108,50,0,WAR OF THE SPANISH SUCCESSION,BLENHEIM,FR & BAV ARMY,France & Bavaria,MARSIN,http://en.wikipedia.org/wiki/Ferdinand_de_Marsin
+109,50,0,WAR OF THE SPANISH SUCCESSION,BLENHEIM,FR & BAV ARMY,France & Bavaria,MAX EMMANUEL OF BAVARIA,"http://en.wikipedia.org/wiki/Maximilian_II_Emanuel,_Elector_of_Bavaria"
+110,50,1,WAR OF THE SPANISH SUCCESSION,BLENHEIM,ALLIED ARMY,England & Holy Roman Empire,MARLBOROUGH,"http://en.wikipedia.org/wiki/John_Churchill,_1st_Duke_of_Marlborough"
+111,50,1,WAR OF THE SPANISH SUCCESSION,BLENHEIM,ALLIED ARMY,England & Holy Roman Empire,EUGENE,http://en.wikipedia.org/wiki/Prince_Eugene_of_Savoy
+112,51,0,WAR OF THE SPANISH SUCCESSION,RAMILLIES,FR & BAV ARMY,France & Bavaria,VILLEROY,"http://en.wikipedia.org/wiki/Fran%C3%A7ois_de_Neufville,_duc_de_Villeroi"
+113,51,0,WAR OF THE SPANISH SUCCESSION,RAMILLIES,FR & BAV ARMY,France & Bavaria,MAX EMMANUEL OF BAVARIA,"http://en.wikipedia.org/wiki/Maximilian_II_Emanuel,_Elector_of_Bavaria"
+114,51,1,WAR OF THE SPANISH SUCCESSION,RAMILLIES,ALLIED ARMY,England,MARLBOROUGH,"http://en.wikipedia.org/wiki/John_Churchill,_1st_Duke_of_Marlborough"
+115,52,0,WAR OF THE SPANISH SUCCESSION,OUDENARDE,FR & BAV ARMY,France,VENDOME,"http://en.wikipedia.org/wiki/Louis_Joseph,_duc_de_Vend%C3%B4me"
+116,52,0,WAR OF THE SPANISH SUCCESSION,OUDENARDE,FR & BAV ARMY,France,BURGUNDY,"http://en.wikipedia.org/wiki/Louis,_Dauphin_of_France_(1682-1712)"
+117,52,1,WAR OF THE SPANISH SUCCESSION,OUDENARDE,ALLIED ARMY,England & Holy Roman Empire,MARLBOROUGH,"http://en.wikipedia.org/wiki/John_Churchill,_1st_Duke_of_Marlborough"
+118,52,1,WAR OF THE SPANISH SUCCESSION,OUDENARDE,ALLIED ARMY,England & Holy Roman Empire,EUGENE,http://en.wikipedia.org/wiki/Prince_Eugene_of_Savoy
+119,53,0,WAR OF THE SPANISH SUCCESSION,MALPLAQUET,FR & BAV ARMY,France,VILLARS,http://en.wikipedia.org/wiki/Claude-Louis-Hector_de_Villars
+120,53,0,WAR OF THE SPANISH SUCCESSION,MALPLAQUET,FR & BAV ARMY,France,BOUFFLERS,http://en.wikipedia.org/wiki/Louis_Fran%C3%A7ois_Boufflers
+121,53,1,WAR OF THE SPANISH SUCCESSION,MALPLAQUET,ALLIED ARMY,England & Holy Roman Empire,MARLBOROUGH,"http://en.wikipedia.org/wiki/John_Churchill,_1st_Duke_of_Marlborough"
+122,53,1,WAR OF THE SPANISH SUCCESSION,MALPLAQUET,ALLIED ARMY,England & Holy Roman Empire,EUGENE,http://en.wikipedia.org/wiki/Prince_Eugene_of_Savoy
+123,54,0,AUSTRO-TURKISH WAR,PETERWARDEIN,TURK ARMY,Ottoman Empire,ALI PASHA,http://en.wikipedia.org/wiki/Silahdar_Damat_Ali_Pasha
+124,54,1,AUSTRO-TURKISH WAR,PETERWARDEIN,AUS ARMY,Habsburg Empire,EUGENE,http://en.wikipedia.org/wiki/Prince_Eugene_of_Savoy
+125,55,0,WAR OF THE AUSTRIAN SUCCESSION,MOLLWITZ,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_II_of_Prussia
+126,55,1,WAR OF THE AUSTRIAN SUCCESSION,MOLLWITZ,AUS ARMY,Habsburg Empire,NEIPPERG,http://en.wikipedia.org/wiki/Wilhelm_Reinhard_von_Neipperg
+127,56,0,WAR OF THE AUSTRIAN SUCCESSION,CHOTUSITZ,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_II_of_Prussia
+128,56,1,WAR OF THE AUSTRIAN SUCCESSION,CHOTUSITZ,AUS ARMY,Habsburg Empire,LORRAINE,http://en.wikipedia.org/wiki/Prince_Charles_Alexander_of_Lorraine
+129,57,0,WAR OF THE AUSTRIAN SUCCESSION,DETTINGEN,FR ARMY,France,NOAILLES,"http://en.wikipedia.org/wiki/Adrien-Maurice,_3rd_duc_de_Noailles"
+130,57,1,WAR OF THE AUSTRIAN SUCCESSION,DETTINGEN,BR & HAN ARMY,Great Britain,GEORGE II,http://en.wikipedia.org/wiki/George_II_of_Great_Britain
+131,58,0,WAR OF THE AUSTRIAN SUCCESSION,FONTENOY,FR ARMY,France,SAXE,http://en.wikipedia.org/wiki/Maurice_de_Saxe
+132,58,1,WAR OF THE AUSTRIAN SUCCESSION,FONTENOY,BR ALLIED ARMY,Great Britain,CUMBERLAND,"http://en.wikipedia.org/wiki/Prince_William,_Duke_of_Cumberland"
+133,59,0,WAR OF THE AUSTRIAN SUCCESSION,HOHENFRIEDBERG,AUS & SAX ARMY,Habsburg Empire,LORRAINE,http://en.wikipedia.org/wiki/Prince_Charles_Alexander_of_Lorraine
+134,59,1,WAR OF THE AUSTRIAN SUCCESSION,HOHENFRIEDBERG,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+135,60,0,WAR OF THE AUSTRIAN SUCCESSION,SOOR,AUS & SAX ARMY,Habsburg Empire,LORRAINE,http://en.wikipedia.org/wiki/Prince_Charles_Alexander_of_Lorraine
+136,60,1,WAR OF THE AUSTRIAN SUCCESSION,SOOR,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+137,61,0,WAR OF THE AUSTRIAN SUCCESSION,KESSELDORF,SAX ARMY,Saxony,RUTKOWSKI,http://en.wikipedia.org/wiki/Frederick_Augustus_Rutowsky
+138,61,1,WAR OF THE AUSTRIAN SUCCESSION,KESSELDORF,PR ARMY,Prussia,ANHALT-DESSAU,"http://en.wikipedia.org/wiki/Leopold_I,_Prince_of_Anhalt-Dessau"
+139,62,0,JACOBITE REBELLION,PRESTONPANS,BR ARMY,Great Britain,COPE,http://en.wikipedia.org/wiki/John_Cope_(British_Army_officer)
+140,62,1,JACOBITE REBELLION,PRESTONPANS,SCOT REB ARMY,Jacobites,PRINCE CHARLES EDWARD,http://en.wikipedia.org/wiki/Charles_Edward_Stuart
+141,63,0,JACOBITE REBELLION,CULLODEN,BR ARMY,Great Britain,CUMBERLAND,"http://en.wikipedia.org/wiki/Prince_William,_Duke_of_Cumberland"
+142,63,1,JACOBITE REBELLION,CULLODEN,SCOT REB ARMY,Jacobites,PRINCE CHARLES EDWARD,http://en.wikipedia.org/wiki/Charles_Edward_Stuart
+143,64,0,THE SEVEN YEAR'S WAR,LOBOSITZ,AUS ARMY,Austria,BROWNE,http://en.wikipedia.org/wiki/Maximilian_Ulysses_Reichsgraf_von_Browne
+144,64,1,THE SEVEN YEAR'S WAR,LOBOSITZ,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+145,65,0,THE SEVEN YEAR'S WAR,PRAGUE,AUS ARMY,Austria,LORRAINE,http://en.wikipedia.org/wiki/Prince_Charles_Alexander_of_Lorraine
+146,65,1,THE SEVEN YEAR'S WAR,PRAGUE,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+147,66,0,THE SEVEN YEAR'S WAR,PLASSEY,BR ARMY,Great Britain,CLIVE,"http://en.wikipedia.org/wiki/Robert_Clive,_1st_Baron_Clive"
+148,66,1,THE SEVEN YEAR'S WAR,PLASSEY,BENGALI ARMY,Bengal,SIRAJ UD-DAULA,http://en.wikipedia.org/wiki/Siraj_ud-Daulah
+149,67,0,THE SEVEN YEAR'S WAR,KOLIN,AUS ARMY,Austria,DAUN,http://en.wikipedia.org/wiki/Leopold_Josef_Graf_Daun
+150,67,1,THE SEVEN YEAR'S WAR,KOLIN,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+151,68,0,THE SEVEN YEAR'S WAR,HASTENBECK,BR ARMY,Great Britain,DUKE OF CUMBERLAND,"http://en.wikipedia.org/wiki/Prince_William,_Duke_of_Cumberland"
+152,68,1,THE SEVEN YEAR'S WAR,HASTENBECK,FR ARMY,France,ESTREES,http://en.wikipedia.org/wiki/Louis_Charles_d%27Estr%C3%A9es
+153,69,0,THE SEVEN YEAR'S WAR,ROSSBACH,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+154,69,1,THE SEVEN YEAR'S WAR,ROSSBACH,FR & GER ARMY,France & Austria,SOUBISE,"http://en.wikipedia.org/wiki/Charles_de_Rohan,_prince_de_Soubise"
+155,69,1,THE SEVEN YEAR'S WAR,ROSSBACH,FR & GER ARMY,France & Austria,SAXE-HILDBURGHAUSEN,http://en.wikipedia.org/wiki/Prince_Joseph_of_Saxe-Hildburghausen
+156,70,0,THE SEVEN YEAR'S WAR,LEUTHEN,AUS ARMY,Austria,LORRAINE,http://en.wikipedia.org/wiki/Prince_Charles_Alexander_of_Lorraine
+157,70,1,THE SEVEN YEAR'S WAR,LEUTHEN,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+158,71,0,THE SEVEN YEAR'S WAR,CREFELD,FR ARMY,France,CLERMONT,http://en.wikipedia.org/wiki/Louis_de_Bourbon_(1709%E2%80%931771)
+159,71,1,THE SEVEN YEAR'S WAR,CREFELD,PR ALLIED ARMY,Hanover,FERDINAND,http://en.wikipedia.org/wiki/Duke_Ferdinand_of_Brunswick
+160,72,0,THE SEVEN YEAR'S WAR,ZORNDORF,RUSS ARMY,Russia,FERMOR,http://en.wikipedia.org/wiki/William_Fermor
+161,72,1,THE SEVEN YEAR'S WAR,ZORNDORF,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+162,73,0,THE SEVEN YEAR'S WAR,HOCHKIRCH,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+163,73,1,THE SEVEN YEAR'S WAR,HOCHKIRCH,AUS ARMY,Austria,DAUN,http://en.wikipedia.org/wiki/Count_Leopold_Joseph_von_Daun
+164,74,0,THE SEVEN YEAR'S WAR,BERGEN,FR ARMY,France,BROGLIE,"http://en.wikipedia.org/wiki/Victor-Fran%C3%A7ois,_2nd_duc_de_Broglie"
+165,74,1,THE SEVEN YEAR'S WAR,BERGEN,PR & ALLIED ARMY,Hanover,BRUNSWICK,http://en.wikipedia.org/wiki/Duke_Ferdinand_of_Brunswick
+166,75,0,THE SEVEN YEAR'S WAR,MINDEN,FR ARMY,France,CONTADES,http://en.wikipedia.org/wiki/Louis_Georges_%C3%89rasme_de_Contades
+167,75,1,THE SEVEN YEAR'S WAR,MINDEN,PR & ALLIED ARMY,Hanover,BRUNSWICK,http://en.wikipedia.org/wiki/Duke_Ferdinand_of_Brunswick
+168,76,0,THE SEVEN YEAR'S WAR,KUNERSDORF,RUSS & AUS ARMY,Russia,SALTYKOV,http://en.wikipedia.org/wiki/Pyotr_Saltykov
+169,76,1,THE SEVEN YEAR'S WAR,KUNERSDORF,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+170,77,0,THE SEVEN YEAR'S WAR,PLAINS OF ABRAHAM (QUEBEC),BR ARMY,Great Britain,WOLFE,http://en.wikipedia.org/wiki/James_Wolfe
+171,77,1,THE SEVEN YEAR'S WAR,PLAINS OF ABRAHAM (QUEBEC),FR ARMY,France,MONTCALM,http://en.wikipedia.org/wiki/Louis-Joseph_de_Montcalm
+172,78,0,THE SEVEN YEAR'S WAR,MAXEN,PR ARMY,Prussia,FINCK,http://en.wikipedia.org/wiki/Friedrich_August_von_Finck
+173,78,1,THE SEVEN YEAR'S WAR,MAXEN,AUS ARMY,Austria,DAUN,http://en.wikipedia.org/wiki/Count_Leopold_Joseph_von_Daun
+174,79,0,THE SEVEN YEAR'S WAR,WARBURG,FR ARMY,France,MUY,
+175,79,1,THE SEVEN YEAR'S WAR,WARBURG,PR & ALLIED ARMY,Hanover,BRUNSWICK,http://en.wikipedia.org/wiki/Duke_Ferdinand_of_Brunswick
+176,80,0,THE SEVEN YEAR'S WAR,LIEGNITZ,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+177,80,1,THE SEVEN YEAR'S WAR,LIEGNITZ,AUS & RUSS ARMY,Austria,DAUN,http://en.wikipedia.org/wiki/Ernst_Gideon_Freiherr_von_Laudon
+178,80,1,THE SEVEN YEAR'S WAR,LIEGNITZ,AUS & RUSS ARMY,Austria,LAUDON,http://en.wikipedia.org/wiki/Count_Leopold_Joseph_von_Daun
+179,81,0,THE SEVEN YEAR'S WAR,TORGAU,AUS ARMY,Austria,DAUN,http://en.wikipedia.org/wiki/Count_Leopold_Joseph_von_Daun
+180,81,1,THE SEVEN YEAR'S WAR,TORGAU,PR ARMY,Prussia,FREDERICK II,http://en.wikipedia.org/wiki/Frederick_the_Great
+181,82,0,AMERICAN REVOLUTION,BUNKER HILL,AM PATRIOTS,USA,PRESCOTT,http://en.wikipedia.org/wiki/William_Prescott
+182,82,1,AMERICAN REVOLUTION,BUNKER HILL,BR ARMY,Great Britain,GAGE,http://en.wikipedia.org/wiki/Thomas_Gage
+183,83,0,AMERICAN REVOLUTION,QUEBEC,BR ARMY,Great Britain,CARLETON,"http://en.wikipedia.org/wiki/Guy_Carleton,_1st_Baron_Dorchester"
+184,83,1,AMERICAN REVOLUTION,QUEBEC,AM ARMY,USA,MONTGOMERY,http://en.wikipedia.org/wiki/Richard_Montgomery
+185,84,0,AMERICAN REVOLUTION,WHITE PLAINS,AM ARMY,USA,WASHINGTON,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+186,84,1,AMERICAN REVOLUTION,WHITE PLAINS,BR ARMY,Great Britain,HOWE,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+187,85,0,AMERICAN REVOLUTION,TRENTON,RALL'S HESSIAN BDE,Great Britain,RALL,http://en.wikipedia.org/wiki/Johann_Rall
+188,85,1,AMERICAN REVOLUTION,TRENTON,AM ARMY,USA,WASHINGTON,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+189,86,0,AMERICAN REVOLUTION,PRINCETON,BR ARMY (DET.),Great Britain,MAWHOOD,http://en.wikipedia.org/wiki/Charles_Mawhood
+190,86,1,AMERICAN REVOLUTION,PRINCETON,AM ARMY,USA,WASHINGTON,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+191,87,0,AMERICAN REVOLUTION,FREEMAN'S FARM,AM ARMY,USA,GATES,http://en.wikipedia.org/wiki/Horatio_Gates
+192,87,1,AMERICAN REVOLUTION,FREEMAN'S FARM,BR ARMY,Great Britain,BURGOYNE,http://en.wikipedia.org/wiki/John_Burgoyne
+193,88,0,AMERICAN REVOLUTION,GERMANTOWN,BR ARMY,Great Britain,HOWE,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+194,88,1,AMERICAN REVOLUTION,GERMANTOWN,AM ARMY,USA,WASHINGTON,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+195,89,0,AMERICAN REVOLUTION,BEMIS HEIGHTS,AM ARMY,USA,GATES,http://en.wikipedia.org/wiki/Horatio_Gates
+196,89,1,AMERICAN REVOLUTION,BEMIS HEIGHTS,BR ARMY,Great Britain,BURGOYNE,http://en.wikipedia.org/wiki/John_Burgoyne
+197,90,0,AMERICAN REVOLUTION,MONMOUTH COURT HOUSE,AM ARMY,USA,WASHINGTON,"http://en.wikipedia.org/wiki/William_Howe,_5th_Viscount_Howe"
+198,90,1,AMERICAN REVOLUTION,MONMOUTH COURT HOUSE,BR ARMY,Great Britain,CLINTON,http://en.wikipedia.org/wiki/Henry_Clinton_(American_War_of_Independence)
+199,91,0,AMERICAN REVOLUTION,CAMDEN,AM ARMY,USA,GATES,http://en.wikipedia.org/wiki/Horatio_Gates
+200,91,1,AMERICAN REVOLUTION,CAMDEN,BR ARMY,Great Britain,CORNWALLIS,http://en.wikipedia.org/wiki/Charles_Cornwallis
+201,92,0,AMERICAN REVOLUTION,COWPENS,AM ARMY,USA,MORGAN,
+202,92,1,AMERICAN REVOLUTION,COWPENS,BR ARMY,Great Britain,TARLETON,http://en.wikipedia.org/wiki/Banastre_Tarleton
+203,93,0,AMERICAN REVOLUTION,GUILFORD COURT HOUSE,AM ARMY,USA,GREENE,http://en.wikipedia.org/wiki/Nathanael_Greene
+204,93,1,AMERICAN REVOLUTION,GUILFORD COURT HOUSE,BR ARMY,Great Britain,CORNWALLIS,http://en.wikipedia.org/wiki/Charles_Cornwallis
+205,94,0,AMERICAN REVOLUTION,HOBKIRK'S HILL,AM ARMY,USA,GREENE,http://en.wikipedia.org/wiki/Nathanael_Greene
+206,94,1,AMERICAN REVOLUTION,HOBKIRK'S HILL,BR ARMY,Great Britain,RAWDON,"http://en.wikipedia.org/wiki/Francis_Rawdon-Hastings,_1st_Marquess_of_Hastings"
+207,95,0,AMERICAN REVOLUTION,EUTAW SPRINGS,BR ARMY,Great Britain,STEWART,
+208,95,1,AMERICAN REVOLUTION,EUTAW SPRINGS,AM ARMY,USA,GREENE,http://en.wikipedia.org/wiki/Nathanael_Greene
+209,96,0,WAR OF THE FIRST COALITION,VALMY,ARMIES OF NORTH & CENTER,France,DUMOURIEZ,http://en.wikipedia.org/wiki/Charles_Fran%C3%A7ois_Dumouriez
+210,96,1,WAR OF THE FIRST COALITION,VALMY,ALLIED ARMY,Prussia,BRUNSWICK,"http://en.wikipedia.org/wiki/Charles_William_Ferdinand,_Duke_of_Brunswick"
+211,97,0,WAR OF THE FIRST COALITION,JEMAPPES,ALLIED ARMY,Austria,TESCHEN,http://en.wikipedia.org/wiki/Albert_of_Saxe-Teschen
+212,97,1,WAR OF THE FIRST COALITION,JEMAPPES,FRENCH ARMY OF THE NORTH,France,DUMOURIEZ,http://en.wikipedia.org/wiki/Charles_Fran%C3%A7ois_Dumouriez
+213,98,0,WAR OF THE FIRST COALITION,NEERWINDEN,AUSTRIAN ARMY,Austria,SAXE-COBURG,http://en.wikipedia.org/wiki/Prince_Josias_of_Coburg
+214,98,1,WAR OF THE FIRST COALITION,NEERWINDEN,FRENCH ARMY OF THE NORTH,France,DUMOURIEZ,http://en.wikipedia.org/wiki/Charles_Fran%C3%A7ois_Dumouriez
+215,99,0,WAR OF THE FIRST COALITION,HONDSCHOOTE,BR & HAN ARMY,Great Britain,YORK,"http://en.wikipedia.org/wiki/Prince_Frederick,_Duke_of_York_and_Albany"
+216,99,1,WAR OF THE FIRST COALITION,HONDSCHOOTE,FRENCH ARMY OF THE NORTH,France,HOUCHARD,http://en.wikipedia.org/wiki/Jean_Nicolas_Houchard
+217,100,0,WAR OF THE FIRST COALITION,WATTIGNIES,AUSTRIAN ARMY,Austria,SAXE-COBURG,http://en.wikipedia.org/wiki/Prince_Josias_of_Coburg
+218,100,1,WAR OF THE FIRST COALITION,WATTIGNIES,FRENCH ARMY OF THE NORTH,France,JOURDAN,http://en.wikipedia.org/wiki/Jean-Baptiste_Jourdan
+219,101,0,WAR OF THE FIRST COALITION,FLEURUS,FRENCH ARMY OF THE NORTH,France,JOURDAN,http://en.wikipedia.org/wiki/Jean-Baptiste_Jourdan
+220,101,1,WAR OF THE FIRST COALITION,FLEURUS,AUSTRIAN ARMY,Austria,SAXE-COBURG,http://en.wikipedia.org/wiki/Prince_Josias_of_Coburg
+221,102,0,WAR OF THE FIRST COALITION,LODI,AUSTRIAN ARMY,Austria,BEAULIEU,http://en.wikipedia.org/wiki/Johann_Peter_Beaulieu
+222,102,1,WAR OF THE FIRST COALITION,LODI,FRENCH ARMY OF ITALY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+223,103,0,WAR OF THE FIRST COALITION,CASTIGLIONE,AUSTRIAN ARMY,Austria,WURMSER,http://en.wikipedia.org/wiki/Dagobert_Sigmund_von_Wurmser
+224,103,1,WAR OF THE FIRST COALITION,CASTIGLIONE,FRENCH ARMY OF ITALY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+225,104,0,WAR OF THE FIRST COALITION,NERESHEIM,FR ARMY OF THE RHINE AND MOSELLE,France,MOREAU,http://en.wikipedia.org/wiki/Jean_Victor_Marie_Moreau
+226,104,1,WAR OF THE FIRST COALITION,NERESHEIM,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+227,105,0,WAR OF THE FIRST COALITION,WUERZBURG,FR ARMY OF THE SAMBRE AND MEUSE,France,JOURDAN,http://en.wikipedia.org/wiki/Jean-Baptiste_Jourdan
+228,105,1,WAR OF THE FIRST COALITION,WUERZBURG,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+229,106,0,WAR OF THE FIRST COALITION,ARCOLA,AUS ARMY,Austria,ALVINTZI,http://en.wikipedia.org/wiki/Jozsef_Alvinczi
+230,106,1,WAR OF THE FIRST COALITION,ARCOLA,FR ARMY OF ITALY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+231,107,0,WAR OF THE FIRST COALITION,RIVOLI,FR ARMY OF ITALY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+232,107,1,WAR OF THE FIRST COALITION,RIVOLI,AUS ARMY,Austria,ALVINTZI,http://en.wikipedia.org/wiki/Jozsef_Alvinczi
+233,108,0,WAR OF THE FIRST COALITION,PYRAMIDS,MAMELUKE ARMY,Ottoman Empire,MURAD BEY,http://en.wikipedia.org/wiki/Murad_Bey
+234,108,1,WAR OF THE FIRST COALITION,PYRAMIDS,FR ARMY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+235,109,0,WAR OF THE SECOND COALITION,STOCKACH I,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+236,109,1,WAR OF THE SECOND COALITION,STOCKACH I,FR ARMY,France,JOURDAN,http://en.wikipedia.org/wiki/Jean-Baptiste_Jourdan
+237,110,0,WAR OF THE FIRST COALITION,MOUNT TABOR,FR ARMY,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+238,110,1,WAR OF THE FIRST COALITION,MOUNT TABOR,TURK ARMY,Ottoman Empire,ABDALLAH PASHA,http://en.wikipedia.org/wiki/Jezzar_Pasha
+239,111,0,WAR OF THE SECOND COALITION,ZURICH I,FR ARMY,France,MASSENA,http://en.wikipedia.org/wiki/Andr%C3%A9_Mass%C3%A9na
+240,111,1,WAR OF THE SECOND COALITION,ZURICH I,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+241,112,0,WAR OF THE SECOND COALITION,NOVI,FR ARMY OF ITALY,France,JOUBERT,http://en.wikipedia.org/wiki/Barth%C3%A9lemy_Catherine_Joubert
+242,112,0,WAR OF THE SECOND COALITION,NOVI,FR ARMY OF ITALY,France,MOREAU,http://en.wikipedia.org/wiki/Jean_Victor_Marie_Moreau
+243,112,1,WAR OF THE SECOND COALITION,NOVI,ALLIED ARMY,Russia,SUVAROV,http://en.wikipedia.org/wiki/Alexander_Suvorov
+244,113,0,WAR OF THE SECOND COALITION,ZURICH III,ALLIED ARMY,Russia,KORSAKOV,http://en.wikipedia.org/wiki/Alexander_Korsakov
+245,113,1,WAR OF THE SECOND COALITION,ZURICH III,FR ARMY,France,MASSENA,http://en.wikipedia.org/wiki/Andr%C3%A9_Mass%C3%A9na
+246,114,0,WAR OF THE SECOND COALITION,MOESKIRCH,AUS ARMY,Austria,KRAY,
+247,114,1,WAR OF THE SECOND COALITION,MOESKIRCH,FR ARMY,France,MOREAU,http://en.wikipedia.org/wiki/Jean_Victor_Marie_Moreau
+248,115,0,WAR OF THE SECOND COALITION,MARENGO,FR ARMY OF THE RESERVE,France,BONAPARTE,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+249,115,1,WAR OF THE SECOND COALITION,MARENGO,AUS ARMY,Austria,MELAS,http://en.wikipedia.org/wiki/Michael_von_Melas
+250,116,0,WAR OF THE SECOND COALITION,HOHENLINDEN,FR ARMY,France,MOREAU,http://en.wikipedia.org/wiki/Jean_Victor_Marie_Moreau
+251,116,1,WAR OF THE SECOND COALITION,HOHENLINDEN,AUS ARMY,Austria,ARCHDUKE JOHN,http://en.wikipedia.org/wiki/Archduke_John_of_Austria
+252,117,0,THE NAPOLEONIC WARS,AUSTERLITZ,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+253,117,1,THE NAPOLEONIC WARS,AUSTERLITZ,ALLIED ARMY,Russia,KUTUZOV,http://en.wikipedia.org/wiki/Mikhail_Kutuzov
+254,118,0,THE NAPOLEONIC WARS,JENA,PR ARMY,Prussia,HOHENLOHE,"http://en.wikipedia.org/wiki/Frederick_Louis,_Prince_of_Hohenlohe-Ingelfingen"
+255,118,1,THE NAPOLEONIC WARS,JENA,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+256,119,0,THE NAPOLEONIC WARS,AUERSTADT,FR III CORPS,France,DAVOUT,http://en.wikipedia.org/wiki/Louis_Nicolas_Davout
+257,119,1,THE NAPOLEONIC WARS,AUERSTADT,PR ARMY,Prussia,BRUNSWICK,"http://en.wikipedia.org/wiki/Charles_William_Ferdinand,_Duke_of_Brunswick"
+258,120,0,THE NAPOLEONIC WARS,EYLAU,RUSS ARMY,Russia,BENNIGSEN,"http://en.wikipedia.org/wiki/Levin_August,_Count_von_Bennigsen"
+259,120,1,THE NAPOLEONIC WARS,EYLAU,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+260,121,0,THE NAPOLEONIC WARS,FRIEDLAND,RUSS ARMY,Russia,BENNIGSEN,"http://en.wikipedia.org/wiki/Levin_August,_Count_von_Bennigsen"
+261,121,1,THE NAPOLEONIC WARS,FRIEDLAND,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+262,122,0,THE NAPOLEONIC WARS,VIMIERO,BR & PORT ARMY,Great Britain,WELLESLEY,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+263,122,1,THE NAPOLEONIC WARS,VIMIERO,FR ARMY,France,JUNOT,http://en.wikipedia.org/wiki/Jean-Andoche_Junot
+264,123,0,THE NAPOLEONIC WARS,CORUNNA,BR ARMY,Great Britain,MOORE,http://en.wikipedia.org/wiki/John_Moore_(British_soldier)
+265,123,1,THE NAPOLEONIC WARS,CORUNNA,FR ARMY,France,SOULT,http://en.wikipedia.org/wiki/Nicolas_Jean-de-Dieu_Soult
+266,124,0,THE NAPOLEONIC WARS,ECKMUEHL,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+267,124,1,THE NAPOLEONIC WARS,ECKMUEHL,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+268,125,0,THE NAPOLEONIC WARS,ASPERN-ESSLING,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+269,125,1,THE NAPOLEONIC WARS,ASPERN-ESSLING,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+270,126,0,THE NAPOLEONIC WARS,THE RAAB,AUS ARMY,Austria,JOHN,http://en.wikipedia.org/wiki/Archduke_John_of_Austria
+271,126,1,THE NAPOLEONIC WARS,THE RAAB,FR ARMY,France,EUGENE,http://en.wikipedia.org/wiki/Eug%C3%A8ne_de_Beauharnais
+272,127,0,THE NAPOLEONIC WARS,WAGRAM,AUS ARMY,Austria,ARCHDUKE CHARLES,"http://en.wikipedia.org/wiki/Archduke_Charles,_Duke_of_Teschen"
+273,127,1,THE NAPOLEONIC WARS,WAGRAM,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+274,128,0,THE NAPOLEONIC WARS,TALAVERA,BR & SP ARMIES,Great Britain & Spain,WELLESLLEY,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+275,128,0,THE NAPOLEONIC WARS,TALAVERA,BR & SP ARMIES,Great Britain & Spain,CUESTA,
+276,128,1,THE NAPOLEONIC WARS,TALAVERA,FR ARMY,France,JOSEPH BONAPARTE,http://en.wikipedia.org/wiki/Joseph_Bonaparte
+277,129,0,THE NAPOLEONIC WARS,BUSSACO,BR & PORT ARMIES,Great Britain,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+278,129,1,THE NAPOLEONIC WARS,BUSSACO,FR ARMY OF PORTUGAL,France,MASSENA,http://en.wikipedia.org/wiki/Andr%C3%A9_Mass%C3%A9na
+279,130,0,THE NAPOLEONIC WARS,FUENTES DE ONORO,BR & PORT ARMIES,Great Britain,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+280,130,1,THE NAPOLEONIC WARS,FUENTES DE ONORO,FR ARMY,France,MASSENA,http://en.wikipedia.org/wiki/Andr%C3%A9_Mass%C3%A9na
+281,131,0,THE NAPOLEONIC WARS,ALBUERA,"BR, PORT & SP ARMIES",Great Britain,BERESFORD,"http://en.wikipedia.org/wiki/William_Carr_Beresford,_1st_Viscount_Beresford"
+282,131,1,THE NAPOLEONIC WARS,ALBUERA,FR ARMY,France,SOULT,http://en.wikipedia.org/wiki/Jean_de_Dieu_Soult
+283,132,0,THE NAPOLEONIC WARS,SALAMANCA,FR ARMY,France,MARMONT,Battle_of_Salamanca
+284,132,1,THE NAPOLEONIC WARS,SALAMANCA,BR ALLIED ARMY,Great Britain,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+285,133,0,THE NAPOLEONIC WARS,VITTORIA,FR ARMY,France,JOSEPH BONAPARTE,http://en.wikipedia.org/wiki/Joseph_Bonaparte
+286,133,0,THE NAPOLEONIC WARS,VITTORIA,FR ARMY,France,JOURDAN,http://en.wikipedia.org/wiki/Jean-Baptiste_Jourdan
+287,133,1,THE NAPOLEONIC WARS,VITTORIA,BR ALLIED ARMY,Great Britain,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+288,134,0,THE NAPOLEONIC WARS,BORODINO,RUSS ARMY,Russia,KUTUSOV,http://en.wikipedia.org/wiki/Mikhail_Kutuzov
+289,134,1,THE NAPOLEONIC WARS,BORODINO,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+290,135,0,THE NAPOLEONIC WARS,LUETZEN,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+291,135,1,THE NAPOLEONIC WARS,LUETZEN,RUSS & PR ARMIES,Russia & Prussia,WITTGENSTEIN,http://en.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher
+292,135,1,THE NAPOLEONIC WARS,LUETZEN,RUSS & PR ARMIES,Russia & Prussia,BLUECHER,http://en.wikipedia.org/wiki/Peter_Wittgenstein
+293,136,0,THE NAPOLEONIC WARS,BAUTZEN,PR & RUSS ARMIES,Prussia & Russia,WITTGENSTEIN,http://en.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher
+294,136,0,THE NAPOLEONIC WARS,BAUTZEN,PR & RUSS ARMIES,Prussia & Russia,BLUECHER,http://en.wikipedia.org/wiki/Peter_Wittgenstein
+295,136,1,THE NAPOLEONIC WARS,BAUTZEN,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+296,137,0,THE NAPOLEONIC WARS,DRESDEN,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+297,137,1,THE NAPOLEONIC WARS,DRESDEN,"ALLIED (AUS, RUSS, PR)",Austria,SCHWARZENBERG,http://en.wikipedia.org/wiki/Karl_Philipp_F%C3%BCrst_zu_Schwarzenberg
+298,138,0,THE NAPOLEONIC WARS,LEIPZIG,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+299,138,1,THE NAPOLEONIC WARS,LEIPZIG,"ALLIED (AUS, RUSS, PR, SW) ARMY",Austria,SCHWARZENBERG,http://en.wikipedia.org/wiki/Karl_Philipp_F%C3%BCrst_zu_Schwarzenberg
+300,139,0,THE NAPOLEONIC WARS,HANAU,BAV ARMY,Bavaria,WREDE,http://en.wikipedia.org/wiki/Karl_Philipp_von_Wrede
+301,139,1,THE NAPOLEONIC WARS,HANAU,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+302,140,0,THE NAPOLEONIC WARS,LA ROTHIERE,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+303,140,1,THE NAPOLEONIC WARS,LA ROTHIERE,ALLIED ARMY OF SILESIA,Prussia,BLUECHER,http://en.wikipedia.org/wiki/Gebhard_von_Bl%C3%BCcher
+304,141,0,THE NAPOLEONIC WARS,LAON,ALLIED ARMY OF SILESIA,Prussia,BLUECHER,http://en.wikipedia.org/wiki/Gebhard_von_Bl%C3%BCcher
+305,141,1,THE NAPOLEONIC WARS,LAON,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+306,142,0,THE NAPOLEONIC WARS,ARCIS-SUR-AUBE,FR ARMY,France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+307,142,1,THE NAPOLEONIC WARS,ARCIS-SUR-AUBE,ALLIED ARMY OF BOHEMIA,Austria,SCHWARZENBERG,"http://en.wikipedia.org/wiki/Karl_Philipp,_Prince_of_Schwarzenberg"
+308,143,0,THE NAPOLEONIC WARS,LIGNY,PR ARMY (ELMS),Prussia,BLUECHER,http://en.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher
+309,143,1,THE NAPOLEONIC WARS,LIGNY,FR ARMY OF NORTH (ELEMENTS OF),France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+310,144,0,THE NAPOLEONIC WARS,QUATRE BRAS,BR & DU ARMY (ELMS),Great Britain,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+311,144,1,THE NAPOLEONIC WARS,QUATRE BRAS,FR ARMY OF NORTH (ELEMENTS OF),France,NEY,http://en.wikipedia.org/wiki/Michel_Ney
+312,145,0,THE NAPOLEONIC WARS,WATERLOO,"ALLIED (BR, DU, PR) ARMIES",Great Britain & Prussia,WELLINGTON,"http://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"
+313,145,0,THE NAPOLEONIC WARS,WATERLOO,"ALLIED (BR, DU, PR) ARMIES",Great Britain & Prussia,BLUECHER,http://en.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher
+314,145,1,THE NAPOLEONIC WARS,WATERLOO,FR ARMY OF NORTH (ELEMENTS OF),France,NAPOLEON I,http://en.wikipedia.org/wiki/Napoleon_I_of_France
+315,146,0,WAR OF 1812,THE THAMES,BR ARMY,Great Britain,PROCTOR,http://en.wikipedia.org/wiki/Henry_Procter_(British_Army_officer)
+316,146,1,WAR OF 1812,THE THAMES,US ARMY,USA,HARRISON,Battle_of_the_Thames
+317,147,0,WAR OF 1812,CHIPPEWA,US ARMY,USA,BROWN,http://en.wikipedia.org/wiki/Jacob_Brown
+318,147,1,WAR OF 1812,CHIPPEWA,BR ARMY,Great Britain,RIALL,http://en.wikipedia.org/wiki/Phineas_Riall
+319,148,0,WAR OF 1812,LUNDY'S LANE,BR ARMY,Great Britain,DRUMMOND,http://en.wikipedia.org/wiki/Gordon_Drummond
+320,148,1,WAR OF 1812,LUNDY'S LANE,US ARMY,USA,BROWN,http://en.wikipedia.org/wiki/Jacob_Brown
+321,149,0,WAR OF 1812,NEW ORLEANS,US ARMY,USA,JACKSON,http://en.wikipedia.org/wiki/Andrew_Jackson
+322,149,1,WAR OF 1812,NEW ORLEANS,BR ARMY,Great Britain,PAKENHAM,http://en.wikipedia.org/wiki/Edward_Pakenham
+323,150,0,LATIN AMERICAN WARS OF INDEPENDENCE,BOYACA,SP ARMY,Spain,BARREIRO,
+324,150,1,LATIN AMERICAN WARS OF INDEPENDENCE,BOYACA,PATRIOT ARMY,Independentalists,BOLIVAR,http://en.wikipedia.org/wiki/Sim%C3%B3n_Antonio_Bol%C3%ADvar
+325,151,0,LATIN AMERICAN WARS OF INDEPENDENCE,CARABOBO,SP ARMY,Spain,LA TORRE,http://en.wikipedia.org/wiki/Miguel_de_la_Torre
+326,151,1,LATIN AMERICAN WARS OF INDEPENDENCE,CARABOBO,PATRIOT ARMY,Independentalists,BOLIVAR,http://en.wikipedia.org/wiki/Sim%C3%B3n_Antonio_Bol%C3%ADvar
+327,152,0,LATIN AMERICAN WARS OF INDEPENDENCE,BOMBONA,SP ARMY,Spain,GARCIA,
+328,152,1,LATIN AMERICAN WARS OF INDEPENDENCE,BOMBONA,PATRIOT ARMY,Independentalists,BOLIVAR,http://en.wikipedia.org/wiki/Sim%C3%B3n_Antonio_Bol%C3%ADvar
+329,153,0,LATIN AMERICAN WARS OF INDEPENDENCE,PICHINCHA,PATRIOT ARMY,Independentalists,SUCRE,http://en.wikipedia.org/wiki/Antonio_Jos%C3%A9_de_Sucre
+330,153,1,LATIN AMERICAN WARS OF INDEPENDENCE,PICHINCHA,SP ARMY,Spain,AYMERICH,http://en.wikipedia.org/wiki/Melchor_Aymerich
+331,154,0,LATIN AMERICAN WARS OF INDEPENDENCE,JUNIN,SP ARMY,Spain,CANTERAC,http://en.wikipedia.org/wiki/Jos%C3%A9_de_Canterac
+332,154,1,LATIN AMERICAN WARS OF INDEPENDENCE,JUNIN,PATRIOT ARMY,Independentalists,BOLIVAR,http://en.wikipedia.org/wiki/Sim%C3%B3n_Antonio_Bol%C3%ADvar
+333,155,0,LATIN AMERICAN WARS OF INDEPENDENCE,AYACUCHO,PATRIOT ARMY,Independentalists,SUCRE,http://en.wikipedia.org/wiki/Antonio_Jos%C3%A9_de_Sucre
+334,155,1,LATIN AMERICAN WARS OF INDEPENDENCE,AYACUCHO,SP ARMY,Spain,LA SERNA,http://en.wikipedia.org/wiki/Jos%C3%A9_de_la_Serna
+335,156,0,WAR OF TEXAN INDEPENDENCE,SAN JACINTO,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+336,156,1,WAR OF TEXAN INDEPENDENCE,SAN JACINTO,TEXAN VOL ARMY,Texas,HOUSTON,http://en.wikipedia.org/wiki/Sam_Houston
+337,157,0,US-MEXICAN WAR,PALO ALTO,MEX ARMY,Mexico,ARISTA,http://en.wikipedia.org/wiki/Mariano_Arista
+338,157,1,US-MEXICAN WAR,PALO ALTO,US ARMY,USA,TAYLOR,http://en.wikipedia.org/wiki/Zachary_Taylor
+339,158,0,US-MEXICAN WAR,RESACA DE LA PALMA,MEX ARMY,Mexico,ARISTA,http://en.wikipedia.org/wiki/Mariano_Arista
+340,158,1,US-MEXICAN WAR,RESACA DE LA PALMA,US ARMY,USA,TAYLOR,http://en.wikipedia.org/wiki/Zachary_Taylor
+341,159,0,US-MEXICAN WAR,BUENA VISTA,US ARMY,USA,TAYLOR,http://en.wikipedia.org/wiki/Zachary_Taylor
+342,159,1,US-MEXICAN WAR,BUENA VISTA,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+343,160,0,US-MEXICAN WAR,CERRO GORDO,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+344,160,1,US-MEXICAN WAR,CERRO GORDO,US ARMY,USA,SCOTT,http://en.wikipedia.org/wiki/Winfield_Scott
+345,161,0,US-MEXICAN WAR,CONTRERAS,MEX ARMY,Mexico,VALENCIA,http://en.wikipedia.org/wiki/Gabriel_Valencia
+346,161,1,US-MEXICAN WAR,CONTRERAS,US ARMY,USA,PILLOW,http://en.wikipedia.org/wiki/Gideon_Johnson_Pillow
+347,162,0,US-MEXICAN WAR,CHURUBUSCO,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+348,162,1,US-MEXICAN WAR,CHURUBUSCO,US ARMY,USA,SCOTT,http://en.wikipedia.org/wiki/Winfield_Scott
+349,163,0,US-MEXICAN WAR,MOLINO DEL REY,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+350,163,1,US-MEXICAN WAR,MOLINO DEL REY,US ARMY,USA,WORTH,http://en.wikipedia.org/wiki/William_J._Worth
+351,164,0,US-MEXICAN WAR,CHAPULTEPEC,MEX ARMY,Mexico,SANTA ANNA,http://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna
+352,164,1,US-MEXICAN WAR,CHAPULTEPEC,US ARMY,USA,SCOTT,http://en.wikipedia.org/wiki/Winfield_Scott
+353,165,0,CRIMEAN WAR,THE ALMA,RUSS ARMY,Russia,MENSHIKOV,http://en.wikipedia.org/wiki/Aleksandr_Sergeyevich_Menshikov
+354,165,1,CRIMEAN WAR,THE ALMA,"BR, FR & TURK ARMIES",Great Britain & France,RAGLAN,http://en.wikipedia.org/wiki/Jacques_Leroy_de_Saint_Arnaud
+355,165,1,CRIMEAN WAR,THE ALMA,"BR, FR & TURK ARMIES",Great Britain & France,SAINT-ARNAUD,"http://en.wikipedia.org/wiki/Fitzroy_Somerset,_1st_Lord_Raglan"
+356,166,0,CRIMEAN WAR,INKERMAN,BR & FR ARMY,Great Britain & France,RAGLAN,http://en.wikipedia.org/wiki/Jacques_Leroy_de_Saint_Arnaud
+357,166,0,CRIMEAN WAR,INKERMAN,BR & FR ARMY,Great Britain & France,CANROBERT,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Certain_Canrobert
+358,166,1,CRIMEAN WAR,INKERMAN,RUSS ARMY,Russia,MENSHIKOV,http://en.wikipedia.org/wiki/Aleksandr_Sergeyevich_Menshikov
+359,167,0,WAR OF AUSTRIA WITH FRANCE AND PIEDMONT,MAGENTA,AUS ARMY,Austria,GYULAI,http://en.wikipedia.org/wiki/Ferenc_Gyulay
+360,167,1,WAR OF AUSTRIA WITH FRANCE AND PIEDMONT,MAGENTA,FR & PIED ARMY,France,NAPOLEON III,http://en.wikipedia.org/wiki/Napoleon_III_of_France
+361,168,0,WAR OF AUSTRIA WITH FRANCE AND PIEDMONT,SOLFERINO,AUS ARMY,Austria,FRANZ JOSEPH I,http://en.wikipedia.org/wiki/Franz_Joseph_of_Austria
+362,168,1,WAR OF AUSTRIA WITH FRANCE AND PIEDMONT,SOLFERINO,FR & PIED ARMY,France,NAPOLEON III,http://en.wikipedia.org/wiki/Napoleon_III_of_France
+363,169,0,AUSTRO-PRUSSIAN (SEVEN WEEK'S) WAR,SADOWA (KOENIGGRATZ),AUS & SAX ARMY,Austria,BENEDEK,http://en.wikipedia.org/wiki/Ludwig_von_Benedek
+364,169,1,AUSTRO-PRUSSIAN (SEVEN WEEK'S) WAR,SADOWA (KOENIGGRATZ),PR ARMY GROUP,Prussia,MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+365,170,0,AUSTRO-ITALIAN WAR,CUSTOZZA II,AUS ARMY,Austria,ARCHDUKE ALBERT,http://en.wikipedia.org/wiki/Archduke_Albert_(1817-1895)
+366,170,1,AUSTRO-ITALIAN WAR,CUSTOZZA II,ITAL ARMY,Italy,LA MARMORA,http://en.wikipedia.org/wiki/Alfonso_Ferrero_la_Marmora
+367,171,0,AMERICAN CIVIL WAR,FIRST BULL RUN (MANASSAS),CS ARMY,Confederacy,BEAUREGARD,http://en.wikipedia.org/wiki/P._G._T._Beauregard
+368,171,0,AMERICAN CIVIL WAR,FIRST BULL RUN (MANASSAS),CS ARMY,Confederacy,JOHNSTON,http://en.wikipedia.org/wiki/Joseph_E._Johnstonhttp://en.wikipedia.org/wiki/Joseph_E._Johnstonhttp://en.wikipedia.org/wiki/Joseph_E._Johnston
+369,171,1,AMERICAN CIVIL WAR,FIRST BULL RUN (MANASSAS),US ARMY,USA,MACDOWELL,http://en.wikipedia.org/wiki/Irvin_McDowell
+370,172,0,AMERICAN CIVIL WAR,WILSON'S CREEK,CS ARMY,Confederacy,MCCULLOCH,http://en.wikipedia.org/wiki/Ben_McCulloch
+371,172,1,AMERICAN CIVIL WAR,WILSON'S CREEK,US ARMY,USA,LYON,http://en.wikipedia.org/wiki/Nathaniel_Lyon
+372,173,0,AMERICAN CIVIL WAR,BELMONT,CS ARMY,Confederacy,POLK,http://en.wikipedia.org/wiki/Leonidas_Polk
+373,173,1,AMERICAN CIVIL WAR,BELMONT,US ARMY,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+374,174,0,AMERICAN CIVIL WAR,MILL SPRINGS,US ARMY,USA,THOMAS,http://en.wikipedia.org/wiki/George_B._Crittenden
+375,174,1,AMERICAN CIVIL WAR,MILL SPRINGS,CS ARMY,Confederacy,ZOLLICOFFER,http://en.wikipedia.org/wiki/Felix_Zollicoffer
+376,175,0,AMERICAN CIVIL WAR,FORT DONELSON,US ARMY,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+377,175,1,AMERICAN CIVIL WAR,FORT DONELSON,CS ARMY,Confederacy,FLOYD,http://en.wikipedia.org/wiki/John_B._Floyd
+378,176,0,AMERICAN CIVIL WAR,PEA RIDGE,US ARMY OF THE SOUTHWEST,USA,CURTIS,http://en.wikipedia.org/wiki/Samuel_Ryan_Curtis
+379,176,1,AMERICAN CIVIL WAR,PEA RIDGE,CS ARMY,Confederacy,VAN DORN,http://en.wikipedia.org/wiki/Earl_Van_Dorn
+380,177,0,AMERICAN CIVIL WAR,KERNSTOWN,US ARMY,USA,SHIELDS,http://en.wikipedia.org/wiki/James_Shields
+381,177,1,AMERICAN CIVIL WAR,KERNSTOWN,CS ARMY,Confederacy,JACKSON,http://en.wikipedia.org/wiki/Stonewall_Jackson
+382,178,0,AMERICAN CIVIL WAR,SHILOH,US ARMIES OF THE TENNESSEE AND OHIO,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+383,178,1,AMERICAN CIVIL WAR,SHILOH,CS ARMY OF MISSISSIPPI,Confederacy,A. S. JOHNSTON,http://en.wikipedia.org/wiki/Albert_Sidney_Johnston
+384,179,0,AMERICAN CIVIL WAR,FRONT ROYAL,US 1ST MARYLAND REGIMENT,USA,KENLY,http://en.wikipedia.org/wiki/John_Reese_Kenly
+385,179,1,AMERICAN CIVIL WAR,FRONT ROYAL,CS VALLEY ARMY,Confederacy,JACKSON,http://en.wikipedia.org/wiki/Robert_E._Lee
+386,180,0,AMERICAN CIVIL WAR,FIRST WINCHESTER,US V CORPS,USA,BANKS,http://en.wikipedia.org/wiki/Nathaniel_P._Banks
+387,180,1,AMERICAN CIVIL WAR,FIRST WINCHESTER,CS VALLEY ARMY,Confederacy,JACKSON,http://en.wikipedia.org/wiki/Stonewall_Jackson
+388,181,0,AMERICAN CIVIL WAR,CROSS KEYS,CS VALLEY ARMY,Confederacy,EWELL,http://en.wikipedia.org/wiki/John_C._Fr%C3%A9mont
+389,181,1,AMERICAN CIVIL WAR,CROSS KEYS,US ARMY OF W. VA.,USA,FREMONT,http://en.wikipedia.org/wiki/John_C._Fr%C3%A9mont
+390,182,0,AMERICAN CIVIL WAR,PORT REPUBLIC,US V CORPS,USA,TYLER,http://en.wikipedia.org/wiki/Erastus_B._Tyler
+391,182,1,AMERICAN CIVIL WAR,PORT REPUBLIC,CS VALLEY ARMY,Confederacy,JACKSON,http://en.wikipedia.org/wiki/Stonewall_Jackson
+392,183,0,AMERICAN CIVIL WAR,SEVEN PINES (FAIR OAKS),US ARMY OF THE POTOMAC,USA,MCCLELLAN,http://en.wikipedia.org/wiki/George_B._McClellan
+393,183,1,AMERICAN CIVIL WAR,SEVEN PINES (FAIR OAKS),CS ARMY,Confederacy,J. E. JOHNSTON,http://en.wikipedia.org/wiki/Joseph_E._Johnston
+394,183,1,AMERICAN CIVIL WAR,SEVEN PINES (FAIR OAKS),CS ARMY,Confederacy,SMITH,http://en.wikipedia.org/wiki/Gustavus_Woodson_Smith
+395,184,0,AMERICAN CIVIL WAR,MECHANICSVILLE,US ARMY OF THE POTOMAC,USA,PORTER,http://en.wikipedia.org/wiki/Fitz_John_Porter
+396,184,1,AMERICAN CIVIL WAR,MECHANICSVILLE,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+397,185,0,AMERICAN CIVIL WAR,GAINES'S MILL,US ARMY OF THE POTOMAC,USA,PORTER,http://en.wikipedia.org/wiki/Fitz_John_Porter
+398,185,1,AMERICAN CIVIL WAR,GAINES'S MILL,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+399,186,0,AMERICAN CIVIL WAR,GLENDALE-FRAYSER'S FARM,US ARMY OF THE POTOMAC,USA,SUMNER,http://en.wikipedia.org/wiki/Edwin_V._Sumner
+400,186,0,AMERICAN CIVIL WAR,GLENDALE-FRAYSER'S FARM,US ARMY OF THE POTOMAC,USA,HEINTZELMAN,http://en.wikipedia.org/wiki/Samuel_P._Heintzelman
+401,186,0,AMERICAN CIVIL WAR,GLENDALE-FRAYSER'S FARM,US ARMY OF THE POTOMAC,USA,PORTER,http://en.wikipedia.org/wiki/Fitz_John_Porter
+402,186,1,AMERICAN CIVIL WAR,GLENDALE-FRAYSER'S FARM,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+403,187,0,AMERICAN CIVIL WAR,MALVERN HILL,US ARMY OF THE POTOMAC,USA,MCCLELLAN,http://en.wikipedia.org/wiki/George_B._McClellan
+404,187,1,AMERICAN CIVIL WAR,MALVERN HILL,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+405,188,0,AMERICAN CIVIL WAR,CEDAR MOUNTAIN,CS ARMY OF NORTHERN VIRGINIA,Confederacy,JACKSON,http://en.wikipedia.org/wiki/Stonewall_Jackson
+406,188,1,AMERICAN CIVIL WAR,CEDAR MOUNTAIN,US ARMY OF VIRGINIA(-),USA,BANKS,http://en.wikipedia.org/wiki/Nathaniel_P._Banks
+407,189,0,AMERICAN CIVIL WAR,SECOND BULL RUN (MANASSAS),CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+408,189,1,AMERICAN CIVIL WAR,SECOND BULL RUN (MANASSAS),US ARMY OF VIRGINIA(+),USA,POPE,http://en.wikipedia.org/wiki/John_Pope_(military_officer)
+409,190,0,AMERICAN CIVIL WAR,SOUTH MOUNTAIN,CS ARMY OF NORTHERN VIRGINIA (-),Confederacy,D. H. HILL,http://en.wikipedia.org/wiki/D.H._Hill
+410,190,1,AMERICAN CIVIL WAR,SOUTH MOUNTAIN,US ARMY OF THE POTOMAC,USA,MCCLELLAN,http://en.wikipedia.org/wiki/George_B._McClellan
+411,191,0,AMERICAN CIVIL WAR,ANTIETAM (SHARPSBURG),CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+412,191,1,AMERICAN CIVIL WAR,ANTIETAM (SHARPSBURG),US ARMY OF THE POTOMAC,USA,MCCLELLAN,http://en.wikipedia.org/wiki/George_B._McClellan
+413,192,0,AMERICAN CIVIL WAR,CORINTH,CS ARMY OF WESTERN TENNESSEE,Confederacy,VAN DORN,http://en.wikipedia.org/wiki/Earl_Van_Dorn
+414,192,1,AMERICAN CIVIL WAR,CORINTH,US ARMY OF THE MISSISSIPPI,USA,ROSECRANS,http://en.wikipedia.org/wiki/William_Rosecrans
+415,193,0,AMERICAN CIVIL WAR,PERRYVILLE,CS ARMY OF TENNESSEE (-),Confederacy,BRAGG,http://en.wikipedia.org/wiki/Braxton_Bragg
+416,193,1,AMERICAN CIVIL WAR,PERRYVILLE,US ARMY OF THE OHIO,USA,BUELL,http://en.wikipedia.org/wiki/Battle_of_Perryville
+417,194,0,AMERICAN CIVIL WAR,FREDERICKSBURG,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+418,194,1,AMERICAN CIVIL WAR,FREDERICKSBURG,US ARMY OF THE POTOMAC,USA,BURNSIDE,http://en.wikipedia.org/wiki/Ambrose_Burnside
+419,195,0,AMERICAN CIVIL WAR,MURFREESBORO (STONE'S RIVER),US ARMY OF THE CUMBERLAND,USA,ROSECRANS,http://en.wikipedia.org/wiki/William_Rosecrans
+420,195,1,AMERICAN CIVIL WAR,MURFREESBORO (STONE'S RIVER),CS ARMY OF TENNESSEE,Confederacy,BRAGG,http://en.wikipedia.org/wiki/Braxton_Bragg
+421,196,0,AMERICAN CIVIL WAR,CHANCELLORSVILLE,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+422,196,1,AMERICAN CIVIL WAR,CHANCELLORSVILLE,US ARMY OF THE POTOMAC,USA,HOOKER,http://en.wikipedia.org/wiki/Joseph_Hooker
+423,197,0,AMERICAN CIVIL WAR,CHAMPION'S HILL,CS ARMY,Confederacy,PEMBERTON,http://en.wikipedia.org/wiki/John_C._Pemberton
+424,197,1,AMERICAN CIVIL WAR,CHAMPION'S HILL,US ARMY,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+425,198,0,AMERICAN CIVIL WAR,BRANDY STATION,CS CAVALRY CORPS,Confederacy,STUART,http://en.wikipedia.org/wiki/J.E.B._Stuart
+426,198,1,AMERICAN CIVIL WAR,BRANDY STATION,US CAVALRY CORPS,USA,PLEASANTON,http://en.wikipedia.org/wiki/Alfred_Pleasonton
+427,199,0,AMERICAN CIVIL WAR,GETTYSBURG,US ARMY OF THE POTOMAC,USA,MEADE,http://en.wikipedia.org/wiki/George_G._Meade
+428,199,1,AMERICAN CIVIL WAR,GETTYSBURG,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+429,200,0,AMERICAN CIVIL WAR,CHICKAMAUGA,US ARMY OF THE CUMBERLAND,USA,ROSECRANS,http://en.wikipedia.org/wiki/William_Rosecrans
+430,200,1,AMERICAN CIVIL WAR,CHICKAMAUGA,CS ARMY OF TENNESSEE,Confederacy,BRAGG,http://en.wikipedia.org/wiki/Braxton_Bragg
+431,201,0,AMERICAN CIVIL WAR,CHATTANOOGA,CS ARMY OF TENNESSEE,Confederacy,BRAGG,http://en.wikipedia.org/wiki/Braxton_Bragg
+432,201,1,AMERICAN CIVIL WAR,CHATTANOOGA,US ARMY OF THE CUMBERLAND,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+433,202,0,AMERICAN CIVIL WAR,THE WILDERNESS,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+434,202,1,AMERICAN CIVIL WAR,THE WILDERNESS,US ARMY OF THE POTOMAC,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+435,203,0,AMERICAN CIVIL WAR,SPOTSYLVANIA,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+436,203,1,AMERICAN CIVIL WAR,SPOTSYLVANIA,US ARMY OF THE POTOMAC,USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+437,204,0,AMERICAN CIVIL WAR,NEW MARKET,US ARMY OF THE POTOMAC,USA,SIGEL,http://en.wikipedia.org/wiki/Franz_Sigel
+438,204,1,AMERICAN CIVIL WAR,NEW MARKET,CS ARMY OF NORTHERN VIRGINIA,Confederacy,BRECKINRIDGE,http://en.wikipedia.org/wiki/John_C._Breckinridge
+439,205,0,AMERICAN CIVIL WAR,COLD HARBOR,CS ARMY OF NORTHERN VIRGINIA,Confederacy,LEE,http://en.wikipedia.org/wiki/Robert_E._Lee
+440,205,1,AMERICAN CIVIL WAR,COLD HARBOR,US ARMY OF THE POTOMAC(+),USA,GRANT,http://en.wikipedia.org/wiki/Ulysses_S._Grant
+441,206,0,AMERICAN CIVIL WAR,KENESAW MOUNTAIN,CS ARMY OF TENNESSEE,Confederacy,JOHNSTON,http://en.wikipedia.org/wiki/Joseph_E._Johnston
+442,206,1,AMERICAN CIVIL WAR,KENESAW MOUNTAIN,US ARMY OF THE CUMBERLAND,USA,SHERMAN,
+443,207,0,AMERICAN CIVIL WAR,PEACHTREE CREEK,US ARMY OF THE CUMBERLAND,USA,THOMAS,http://en.wikipedia.org/wiki/George_Henry_Thomas
+444,207,1,AMERICAN CIVIL WAR,PEACHTREE CREEK,CS ARMY OF TENNESSEE,Confederacy,HOOD,http://en.wikipedia.org/wiki/John_Bell_Hood
+445,208,0,AMERICAN CIVIL WAR,ATLANTA,US ARMY OF THE TENNESSEE,USA,MCPHERSON,http://en.wikipedia.org/wiki/James_B._McPherson
+446,208,1,AMERICAN CIVIL WAR,ATLANTA,CS ARMY OF TENNESSEE,Confederacy,HOOD,http://en.wikipedia.org/wiki/John_Bell_Hood
+447,209,0,AMERICAN CIVIL WAR,PETERSBURG,CS PETERSBURG GARRISSON (+),Confederacy,BEAUREGARD,http://en.wikipedia.org/wiki/P.G.T._Beauregard
+448,209,1,AMERICAN CIVIL WAR,PETERSBURG,US ARMY OF THE JAMES,USA,BUTLER,http://en.wikipedia.org/wiki/Benjamin_Franklin_Butler_(politician)
+449,210,0,AMERICAN CIVIL WAR,GLOBE TAVERN,CS III CORPS (+),Confederacy,HILL,http://en.wikipedia.org/wiki/A._P._Hill
+450,210,1,AMERICAN CIVIL WAR,GLOBE TAVERN,US V CORPS(+),USA,WARREN,http://en.wikipedia.org/wiki/Gouverneur_K._Warren
+451,211,0,AMERICAN CIVIL WAR,OPEQUON CREEK (THIRD WINCHESTER),CS II CORPS,Confederacy,EARLY,http://en.wikipedia.org/wiki/Jubal_Early
+452,211,1,AMERICAN CIVIL WAR,OPEQUON CREEK (THIRD WINCHESTER),US ARMY OF THE SHENANDOAH,USA,SHERIDAN,http://en.wikipedia.org/wiki/Philip_Sheridan
+453,212,0,AMERICAN CIVIL WAR,CEDAR CREEK,US ARMY OF THE SHENANDOAH,USA,SHERIDAN,http://en.wikipedia.org/wiki/Philip_Sheridan
+454,212,1,AMERICAN CIVIL WAR,CEDAR CREEK,CS II CORPS,Confederacy,EARLY,
+455,213,0,AMERICAN CIVIL WAR,FRANKLIN,US 4TH & 23RD ARMY CORPS(+),USA,SCHOFIELD,http://en.wikipedia.org/wiki/John_M._Schofield
+456,213,1,AMERICAN CIVIL WAR,FRANKLIN,CS ARMY OF TENNESSEE,Confederacy,HOOD,http://en.wikipedia.org/wiki/John_Bell_Hood
+457,214,0,AMERICAN CIVIL WAR,NASHVILLE,CS ARMY OF TENNESSEE,Confederacy,HOOD,http://en.wikipedia.org/wiki/John_Bell_Hood
+458,214,1,AMERICAN CIVIL WAR,NASHVILLE,US ARMY OF THE CUMBERLAND(-)(+),USA,THOMAS,http://en.wikipedia.org/wiki/George_Henry_Thomas
+459,215,0,AMERICAN CIVIL WAR,BENTONVILLE,US ARMY OF GEORGIA (-),USA,SHERMAN,http://en.wikipedia.org/wiki/William_Tecumseh_Sherman
+460,215,1,AMERICAN CIVIL WAR,BENTONVILLE,CS ARMY OF TENNESSEE,Confederacy,JOHNSTON,http://en.wikipedia.org/wiki/Joseph_E._Johnston
+461,216,0,AMERICAN CIVIL WAR,DINWIDDIE COURTHOUSE & WHITE OAK ROAD,CS ARMY OF NORTHERN VIRGINIA (ELMS),Confederacy,PICKETT,http://en.wikipedia.org/wiki/George_Pickett
+462,216,1,AMERICAN CIVIL WAR,DINWIDDIE COURTHOUSE & WHITE OAK ROAD,US ARMY OF THE POTOMAC(+),USA,SHERIDAN,http://en.wikipedia.org/wiki/Philip_Sheridan
+463,217,0,AMERICAN CIVIL WAR,FIVE FORKS,CS PICKETT'S DIV (+),Confederacy,PICKETT,http://en.wikipedia.org/wiki/George_Pickett
+464,217,1,AMERICAN CIVIL WAR,FIVE FORKS,US V CORPS,USA,SHERIDAN,http://en.wikipedia.org/wiki/Philip_Sheridan
+465,218,0,AMERICAN CIVIL WAR,SELMA,CS CAV CORPS (ELMS),Confederacy,FORREST,http://en.wikipedia.org/wiki/Nathan_Bedford_Forrest
+466,218,1,AMERICAN CIVIL WAR,SELMA,US CAV CORPS MIL DIV MISSISSIPPI,USA,WILSON,http://en.wikipedia.org/wiki/James_H._Wilson
+467,219,0,AMERICAN CIVIL WAR,SAYLOR'S CREEK,CS ARMY OF NORTHERN VIRGINIA (ELMS),Confederacy,EWELL,http://en.wikipedia.org/wiki/Richard_S._Ewell
+468,219,0,AMERICAN CIVIL WAR,SAYLOR'S CREEK,CS ARMY OF NORTHERN VIRGINIA (ELMS),Confederacy,ANDERSON,
+469,219,1,AMERICAN CIVIL WAR,SAYLOR'S CREEK,US VI CORPS(+),USA,SHERIDAN,http://en.wikipedia.org/wiki/Philip_Sheridan
+470,219,1,AMERICAN CIVIL WAR,SAYLOR'S CREEK,US VI CORPS(+),USA,WRIGHT,
+471,220,0,FRANCO-PRUSSIAN WAR,WEISSENBURG,FR I CORPS (-),France,DOUAY,http://en.wikipedia.org/wiki/Abel_Douay
+472,220,1,FRANCO-PRUSSIAN WAR,WEISSENBURG,GER 3RD ARMY,Germany,FRIEDRICH WILHELM,"http://en.wikipedia.org/wiki/Frederick_III,_German_Emperor"
+473,221,0,FRANCO-PRUSSIAN WAR,FROESCHWILLER,FR ARMY OF ALSACE,France,MACMAHON,http://en.wikipedia.org/wiki/Patrice_de_Mac-Mahon
+474,221,1,FRANCO-PRUSSIAN WAR,FROESCHWILLER,GER 3RD ARMY,Germany,FRIEDRICH WILHELM,"http://en.wikipedia.org/wiki/Frederick_III,_German_Emperor"
+475,222,0,FRANCO-PRUSSIAN WAR,SPICHERN,FR 2ND CORPS,France,FROSSARD,http://en.wikipedia.org/wiki/Charles_Auguste_Frossard
+476,222,1,FRANCO-PRUSSIAN WAR,SPICHERN,GER 1ST ARMY(+),Germany,STEINMETZ,http://en.wikipedia.org/wiki/Karl_Friedrich_von_Steinmetz
+477,223,0,FRANCO-PRUSSIAN WAR,MARS LA TOUR,FR ARMY OF LORRAINE,France,BAZAINE,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Achille_Bazaine
+478,223,1,FRANCO-PRUSSIAN WAR,MARS LA TOUR,GER 1ST & 2ND ARMIES,Germany,MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+479,224,0,FRANCO-PRUSSIAN WAR,GRAVELOTTE-ST. PRIVAT,FR ARMY OF LORRAINE,France,BAZAINE,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Achille_Bazaine
+480,224,1,FRANCO-PRUSSIAN WAR,GRAVELOTTE-ST. PRIVAT,GER 1ST & 2ND ARMIES,Germany,MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+481,225,0,FRANCO-PRUSSIAN WAR,SEDAN,FR ARMY OF ALSACE,France,MACMAHON (WIMPFEN),"http://en.wikipedia.org/wiki/Patrice_de_Mac-Mahon,_duc_de_Magenta"
+482,225,1,FRANCO-PRUSSIAN WAR,SEDAN,GER 2ND & 3RD ARMIES,Germany,MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+483,226,0,FRANCO-PRUSSIAN WAR,COULMIERS,BAV I CORPS,Germany,VON DER TANN,http://en.wikipedia.org/wiki/Ludwig_Freiherr_von_und_zu_der_Tann-Rathsamhausen
+484,226,1,FRANCO-PRUSSIAN WAR,COULMIERS,FR ARMY OF THE LOIRE,France,AURELLE,http://en.wikipedia.org/wiki/Louis_Jean-Baptiste_d%27Aurelle_de_Paladines
+485,227,0,FRANCO-PRUSSIAN WAR,ORLEANS,FR ARMY OF THE LOIRE,France,AURELLE,http://en.wikipedia.org/wiki/Louis_Jean-Baptiste_d%27Aurelle_de_Paladines
+486,227,1,FRANCO-PRUSSIAN WAR,ORLEANS,GER 2ND ARMY,Germany,FRIEDRICH KARL,http://en.wikipedia.org/wiki/Prince_Friedrich_Karl_of_Prussia_(1828-1885)
+487,228,0,FRANCO-PRUSSIAN WAR,LE MANS,FR ARMY OF THE LOIRE,France,CHANZY,http://en.wikipedia.org/wiki/Antoine_Chanzy
+488,228,1,FRANCO-PRUSSIAN WAR,LE MANS,GER 2ND ARMY,Germany,FRIEDRICK KARL,http://en.wikipedia.org/wiki/Prince_Friedrich_Karl_of_Prussia_(1828-1885)
+489,229,0,FRANCO-PRUSSIAN WAR,BELFORT,GER ARMY OF THE SOUTH,Germany,WERDER,http://en.wikipedia.org/wiki/August_von_Werder
+490,229,1,FRANCO-PRUSSIAN WAR,BELFORT,FR ARMY OF THE EAST,France,BOURBAKI,http://en.wikipedia.org/wiki/Charles_Denis_Bourbaki
+491,230,0,ZULU WAR,ISANDHLWANA,BR 24TH REGT. (+),Great Britain,PULLEINE,http://en.wikipedia.org/wiki/Henry_Pulleine
+492,230,1,ZULU WAR,ISANDHLWANA,ZULU ARMY,Zulu,MAVUMENGWANA,http://en.wikipedia.org/wiki/Ntshingwayo_Khoza
+493,230,1,ZULU WAR,ISANDHLWANA,ZULU ARMY,Zulu,TSHINGWAYO,
+494,231,0,ZULU WAR,ULUNDI,BR ARMY,Great Britain,CHELMSFORD,"http://en.wikipedia.org/wiki/Frederic_Augustus_Thesiger,_2nd_Baron_Chelmsford"
+495,231,1,ZULU WAR,ULUNDI,ZULU ARMY,Zulu,CETEWAYO,
+496,232,0,TRANSVAAL REVOLT,MAJUBA HILL,BR ARMY,Great Britain,COLLEY,http://en.wikipedia.org/wiki/George_Pomeroy_Colley
+497,232,1,TRANSVAAL REVOLT,MAJUBA HILL,BOER ARMY,South African Republic,SMIDT,http://en.wikipedia.org/wiki/Nicolas_Smit
+498,233,0,EGYPT AND THE SUDAN,TEL EL-KEBIR,EG ARMY,Egypt,ARABI,http://en.wikipedia.org/wiki/Ahmed_Urabi
+499,233,1,EGYPT AND THE SUDAN,TEL EL-KEBIR,BR ARMY,Great Britain,WOLSELEY,"http://en.wikipedia.org/wiki/Garnet_Wolseley,_1st_Viscount_Wolseley"
+500,234,0,EGYPT AND THE SUDAN,OMDURMAN,BR ARMY,Great Britain,KITCHENER,"http://en.wikipedia.org/wiki/Herbert_Kitchener,_1st_Earl_Kitchener"
+501,234,1,EGYPT AND THE SUDAN,OMDURMAN,MAHDISTS,Mahdists,ABDULLAHINI,http://en.wikipedia.org/wiki/Abdullah_al-Taashi
+502,235,0,ITALO-ETHIOPIAN WAR,ADOWA,IT ARMY,Italy,BARATIERI,http://en.wikipedia.org/wiki/Oreste_Baratieri
+503,235,1,ITALO-ETHIOPIAN WAR,ADOWA,ETH ARMY,Ethiopia,MENELIK II,http://en.wikipedia.org/wiki/Menelik_II_of_Ethiopia
+504,236,0,BOER WAR,MODDER RIVER,BOER ARMY,South African Republic,CRONJE,http://en.wikipedia.org/wiki/Piet_Cronje
+505,236,0,BOER WAR,MODDER RIVER,BOER ARMY,South African Republic,DE LA REY,http://en.wikipedia.org/wiki/Koos_de_la_Rey
+506,236,1,BOER WAR,MODDER RIVER,BR ARMY,Great Britain,METHUEN,"http://en.wikipedia.org/wiki/Paul_Sanford_Methuen,_3rd_Baron_Methuen"
+507,237,0,BOER WAR,MAGERSFONTEIN,BOER ARMY,South African Republic,CRONJE,http://en.wikipedia.org/wiki/Piet_Cronje
+508,237,1,BOER WAR,MAGERSFONTEIN,BR ARMY,Great Britain,METHUEN,"http://en.wikipedia.org/wiki/Paul_Sanford_Methuen,_3rd_Baron_Methuen"
+509,238,0,BOER WAR,COLENSO,BOER ARMY,South African Republic,BOTHA,http://en.wikipedia.org/wiki/Louis_Botha
+510,238,1,BOER WAR,COLENSO,BR ARMY,Great Britain,BULLER,http://en.wikipedia.org/wiki/Redvers_Buller
+511,239,0,BOER WAR,SPION KOP,BOER ARMY,South African Republic,JOUBERT,
+512,239,1,BOER WAR,SPION KOP,BR ARMY,Great Britain,BULLER,http://en.wikipedia.org/wiki/Redvers_Buller
+513,240,0,BOER WAR,PAARDEBURG,BOER ARMY,South African Republic,CRONJE,http://en.wikipedia.org/wiki/Piet_Cronje
+514,240,1,BOER WAR,PAARDEBURG,BR ARMY,Great Britain,ROBERTS,"http://en.wikipedia.org/wiki/Frederick_Roberts,_1st_Earl_Roberts"
+515,241,0,SPANISH-AMERICAN WAR,SAN JUAN HILL AND EL CANEY,SP ARMY,Spain,LINARES,http://en.wikipedia.org/wiki/Arsenio_Linares
+516,241,1,SPANISH-AMERICAN WAR,SAN JUAN HILL AND EL CANEY,US V CORPS,USA,SHAFTER,http://en.wikipedia.org/wiki/William_Rufus_Shafter
+517,242,0,RUSSO-JAPANESE WAR,THE YALU,RUSS ARMY,Russia,ZASULICH,http://en.wikipedia.org/wiki/Mikhail_Zasulich
+518,242,1,RUSSO-JAPANESE WAR,THE YALU,JAP 1ST ARMY,Japan,TAMEMOTO KUROKI,http://en.wikipedia.org/wiki/Kuroki_Tamemoto
+519,243,0,RUSSO-JAPANESE WAR,TELISSU,RUSS ARMY,Russia,STAKELBERG,http://en.wikipedia.org/wiki/Georgii_Stackelberg
+520,243,1,RUSSO-JAPANESE WAR,TELISSU,JAP 2ND ARMY,Japan,OKU,http://en.wikipedia.org/wiki/Yasukata_Oku
+521,244,0,RUSSO-JAPANESE WAR,LIAOYANG,RUSS ARMY GROUP,Russia,KUROPATKIN,http://en.wikipedia.org/wiki/Aleksey_Kuropatkin
+522,244,1,RUSSO-JAPANESE WAR,LIAOYANG,JAP ARMY GROUP,Japan,OYAMA,http://en.wikipedia.org/wiki/%C5%8Cyama_Iwao
+523,245,0,RUSSO-JAPANESE WAR,THE SHA-HO,JAP ARMY GROUP,Japan,OYAMA,http://en.wikipedia.org/wiki/%C5%8Cyama_Iwao
+524,245,1,RUSSO-JAPANESE WAR,THE SHA-HO,RUSS ARMY GROUP,Russia,KUROPATKIN,http://en.wikipedia.org/wiki/Aleksey_Kuropatkin
+525,246,0,RUSSO-JAPANESE WAR,SANDEPU,JAP ARMY GROUP,Japan,OYAMA,http://en.wikipedia.org/wiki/%C5%8Cyama_Iwao
+526,246,1,RUSSO-JAPANESE WAR,SANDEPU,RUSS ARMY,Russia,GRIPPENBERG,http://en.wikipedia.org/wiki/Oskar-Ferdinand_Kazimirovich_Grippenberg
+527,247,0,RUSSO-JAPANESE WAR,MUKDEN,RUSS ARMY GROUP,Russia,KUROPATKIN,http://en.wikipedia.org/wiki/Aleksey_Kuropatkin
+528,247,1,RUSSO-JAPANESE WAR,MUKDEN,JAP ARMY GROUP,Japan,OYAMA,http://en.wikipedia.org/wiki/%C5%8Cyama_Iwao
+529,248,0,THE BALKAN WARS,KUMANOVO,TK ARMY OF MACEDONIA,Ottoman Empire,ZEHKI PASHA,http://en.wikipedia.org/wiki/Zekki_Pasha
+530,248,1,THE BALKAN WARS,KUMANOVO,SERB 1ST ARMY,Serbia,GEN PUTNIK,http://en.wikipedia.org/wiki/Radomir_Putnik
+531,249,0,THE BALKAN WARS,LULE BURGAS,TK ARMY OF THE EAST,Ottoman Empire,ABDALLA PASHA,http://en.wikipedia.org/wiki/Abdullah_Pasha
+532,249,1,THE BALKAN WARS,LULE BURGAS,BUL ARMY GROUP,Bulgaria,GEN DIMITRIEV,http://en.wikipedia.org/wiki/Radko_Dimitriev
+533,250,0,THE BALKAN WARS,PRELIP,TK ARMY OF MACEDONIA,Ottoman Empire,,
+534,250,1,THE BALKAN WARS,PRELIP,SERB 1ST ARMY,Serbia,GEN PUTNIK,http://en.wikipedia.org/wiki/Radomir_Putnik
+535,251,0,THE BALKAN WARS,MONASTIR,TK ARMY OF MACEDONIA,Ottoman Empire,KARA SAID PASHA,
+536,251,1,THE BALKAN WARS,MONASTIR,SERB ARMY GROUP,Serbia,GEN PUTNIK,http://en.wikipedia.org/wiki/Radomir_Putnik
+537,252,0,THE BALKAN WARS,ADRIANOPLE,TK ADRIANOPLE GARRISON,Ottoman Empire,SHUKRI PASHA,
+538,252,1,THE BALKAN WARS,ADRIANOPLE,BUL 2ND ARMY(+),Bulgaria,GEN IVANHOFF,http://en.wikipedia.org/wiki/Nikola_Ivanov
+539,253,0,RUSSO-POLISH WAR (1920),WARSAW,SOV ARMY GROUP,USSR,TUKHACHEVSKI,http://en.wikipedia.org/wiki/Mikhail_Tukhachevsky
+540,253,1,RUSSO-POLISH WAR (1920),WARSAW,POL ARMY GROUP,Poland,PILSUDSKI,http://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski
+541,254,0,RUSSO-POLISH WAR (1920),THE NIEMAN,SOV ARMY GROUP,USSR,TUKHACHEVSKI,http://en.wikipedia.org/wiki/Mikhail_Tukhachevsky
+542,254,1,RUSSO-POLISH WAR (1920),THE NIEMAN,POL ARMY GROUP,Poland,PILSUDSKI,http://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski
+543,255,0,THE SPANISH CIVIL WAR,GUADALAJARA-BRIHUEGA,SP REPUBLICAN FORCES,Spanish Republic,GEN MIAJA,http://en.wikipedia.org/wiki/Jos%C3%A9_Miaja
+544,255,1,THE SPANISH CIVIL WAR,GUADALAJARA-BRIHUEGA,IT VOL CORPS,Italy,GEN ROATTA,http://en.wikipedia.org/wiki/Mario_Roatta
+545,256,0,THE MANCHURIAN INCIDENT (1938-1939),CHANGKUFENG-SHACHAOFENG,SOV 59TH BORDER GUARD UNIT(-),USSR,COL GREBENNIK,?
+546,256,1,THE MANCHURIAN INCIDENT (1938-1939),CHANGKUFENG-SHACHAOFENG,JAP I/75TH INF REGT(+),Japan,COL SATO,http://en.wikipedia.org/wiki/Kotoku_Sato
+547,257,0,THE MANCHURIAN INCIDENT (1938-1939),HILL 52-SHACHAOFENG,JAP 19TH INF DIV(-),Japan,LG SUETAKA,?
+548,257,1,THE MANCHURIAN INCIDENT (1938-1939),HILL 52-SHACHAOFENG,SOV 40TH RIFLE DIV(-)(+),USSR,MARSHAL BLUCHER,http://en.wikipedia.org/wiki/Vasily_Bl%C3%BCcher
+549,258,0,THE MANCHURIAN INCIDENT (1938-1939),CHANGKUFENG-HILL 52,JAP 19TH INF DIV(+),Japan,LG SUETAKA,?
+550,258,1,THE MANCHURIAN INCIDENT (1938-1939),CHANGKUFENG-HILL 52,SOV SPECIAL FAR EASTERN ARMY(-),USSR,MARSHAL BLUCHER,http://en.wikipedia.org/wiki/Vasily_Bl%C3%BCcher
+551,259,0,THE MANCHURIAN INCIDENT (1938-1939),NOMONHAN-OPENING ENGAGEMENT,SOV 11TH TK BDE(-)(+),USSR,MAJ BYKOV,?
+552,259,1,THE MANCHURIAN INCIDENT (1938-1939),NOMONHAN-OPENING ENGAGEMENT,JAP 64TH INF REGT(-)(+),Japan,COL YAMAGATA,?
+553,260,0,THE MANCHURIAN INCIDENT (1938-1939),NOMONHAN-SOVIET COUNTEROFFENSIVE,JAP 6TH ARMY(-),Japan,LG OGISU,
+554,260,1,THE MANCHURIAN INCIDENT (1938-1939),NOMONHAN-SOVIET COUNTEROFFENSIVE,SOV 1ST ARMY GROUP,USSR,GEN ZHUKOV,http://en.wikipedia.org/wiki/Georgy_Zhukov
+555,261,0,RUSSO-FINISH WAR (1939-1940),SUOMUSSALMI,SOV 163RD UKRANIAN DIV & 44TH MOTORIZED DIV,USSR,GEN SELENTSOV,
+556,261,1,RUSSO-FINISH WAR (1939-1940),SUOMUSSALMI,FIN 9TH INF DIV,Finland,COL SIILASVUO,http://en.wikipedia.org/wiki/Hjalmar_Siilasvuo
+557,262,0,WORLD WAR I (WESTERN FRONT 1914),ALSACE-LORRAINE I,GER 6TH &7TH ARMIES,Germany,GEN MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+558,262,1,WORLD WAR I (WESTERN FRONT 1914),ALSACE-LORRAINE I,"FR 1ST & 2ND ARMIES, ARMY OF ALSACE",France,GEN JOFFRE,http://en.wikipedia.org/wiki/Joseph_Joffre
+559,263,0,WORLD WAR I (WESTERN FRONT 1914),ALSACE-LORRAINE II,FR 1ST & 2ND ARMIES & ARMY OF ALSACE,France,GEN JOFFRE,http://en.wikipedia.org/wiki/Joseph_Joffre
+560,263,1,WORLD WAR I (WESTERN FRONT 1914),ALSACE-LORRAINE II,GER 6TH & 7TH ARMIES,Germany,GEN MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+561,264,0,WORLD WAR I (WESTERN FRONT 1914),THE ARDENNES,GER 4TH &5TH ARMIES,Germany,GEN MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+562,264,1,WORLD WAR I (WESTERN FRONT 1914),THE ARDENNES,FR 3RD & 4TH ARMIES,France,GEN JOFFRE,http://en.wikipedia.org/wiki/Joseph_Joffre
+563,265,0,WORLD WAR I (WESTERN FRONT 1914),THE SAMBRE,FR 5TH ARMY,France,GEN LANREZAC,http://en.wikipedia.org/wiki/Charles_Lanrezac
+564,265,1,WORLD WAR I (WESTERN FRONT 1914),THE SAMBRE,GER 2ND & 3RD ARMIES,Germany,GEN BUELOW,http://en.wikipedia.org/wiki/Karl_von_B%C3%BClow
+565,266,0,WORLD WAR I (WESTERN FRONT 1914),MONS,BR EXPED FORCE,Great Britain,FM FRENCH,"http://en.wikipedia.org/wiki/John_French,_1st_Earl_of_Ypres"
+566,266,1,WORLD WAR I (WESTERN FRONT 1914),MONS,GER 1ST ARMY,Germany,GEN KLUCK,http://en.wikipedia.org/wiki/Alexander_von_Kluck
+567,267,0,WORLD WAR I (WESTERN FRONT 1914),LE CATEAU,BR EXPED FORCE,Great Britain,FM FRENCH,"http://en.wikipedia.org/wiki/John_French,_1st_Earl_of_Ypres"
+568,267,1,WORLD WAR I (WESTERN FRONT 1914),LE CATEAU,GER 1ST ARMY,Germany,GEN KLUCK,http://en.wikipedia.org/wiki/Alexander_von_Kluck
+569,268,0,WORLD WAR I (WESTERN FRONT 1914),GUISE,FR 5TH ARMY,France,GEN LANREZAC,http://en.wikipedia.org/wiki/Charles_Lanrezac
+570,268,1,WORLD WAR I (WESTERN FRONT 1914),GUISE,GER 2ND ARMY,Germany,GEN BUELOW,http://en.wikipedia.org/wiki/Karl_von_B%C3%BClow
+571,269,0,WORLD WAR I (WESTERN FRONT 1914),HEIGHTS OF NANCY,FR 1ST & 2ND ARMIES,France,GEN JOFFRE,http://en.wikipedia.org/wiki/Joseph_Joffre
+572,269,1,WORLD WAR I (WESTERN FRONT 1914),HEIGHTS OF NANCY,GER 6TH & 7TH ARMIES,Germany,GEN MOLTKE,http://en.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke
+573,270,0,WORLD WAR I (WESTERN FRONT 1914),OURCQ I,GER 4TH RESERVE CORPS,Germany,GEN GRONAU,http://en.wikipedia.org/wiki/Hans_von_Gronau
+574,270,1,WORLD WAR I (WESTERN FRONT 1914),OURCQ I,FR 6TH ARMY,France,GEN MOUNOURY,http://en.wikipedia.org/wiki/Michel-Joseph_Maunoury
+575,271,0,WORLD WAR I (WESTERN FRONT 1914),OURCQ II,GER 1ST ARMY(-)(+),Germany,GEN KLUCK,http://en.wikipedia.org/wiki/Alexander_von_Kluck
+576,271,1,WORLD WAR I (WESTERN FRONT 1914),OURCQ II,FR 6TH ARMY,France,GEN MAUNOURY,http://en.wikipedia.org/wiki/Michel-Joseph_Maunoury
+577,272,0,WORLD WAR I (WESTERN FRONT 1914),PETIT MORIN,GER 2ND ARMY,Germany,GEN BUELOW,http://en.wikipedia.org/wiki/Karl_von_B%C3%BClow
+578,272,1,WORLD WAR I (WESTERN FRONT 1914),PETIT MORIN,FR 5TH ARMY,France,GEN FRANCHET D'ESPEREY,http://en.wikipedia.org/wiki/Louis_Franchet_d%27Esperey
+579,273,0,WORLD WAR I (WESTERN FRONT 1914),TWO MORINS,GER 1ST ARMY,Germany,GEN KLUCK,http://en.wikipedia.org/wiki/Alexander_von_Kluck
+580,273,1,WORLD WAR I (WESTERN FRONT 1914),TWO MORINS,BR EXPED FORCE,Great Britain,FM FRENCH,"http://en.wikipedia.org/wiki/John_French,_1st_Earl_of_Ypres"
+581,274,0,WORLD WAR I (WESTERN FRONT 1914),MARSHES OF ST.GOND,FR 9TH ARMY,France,GEN FOCH,http://en.wikipedia.org/wiki/Ferdinand_Foch
+582,274,1,WORLD WAR I (WESTERN FRONT 1914),MARSHES OF ST.GOND,GER 2ND(-) & 3RD ARMIES,Germany,GEN HAUSEN,http://en.wikipedia.org/wiki/Max_von_Hausen
+583,275,0,WORLD WAR I (WESTERN FRONT 1914),VITRY LE FRANCOIS,FR 4TH ARMY,France,GEN LANGLE DE CARY,http://en.wikipedia.org/wiki/Fernand_de_Langle_de_Cary
+584,275,1,WORLD WAR I (WESTERN FRONT 1914),VITRY LE FRANCOIS,GER 3RD(-) & 4TH ARMIES,Germany,DK OF WUERTTEMBURG,"http://en.wikipedia.org/wiki/Albrecht,_Duke_of_W%C3%BCrttemberg"
+585,276,0,WORLD WAR I (WESTERN FRONT 1914),GAP OF REVIGNY,FR 3RD ARMY,France,GEN SARRAIL,http://en.wikipedia.org/wiki/Maurice_Sarrail
+586,276,1,WORLD WAR I (WESTERN FRONT 1914),GAP OF REVIGNY,GER 5TH ARMY,Germany,CR PR WILHELM,"http://en.wikipedia.org/wiki/Wilhelm,_German_Crown_Prince"
+587,277,0,WORLD WAR I (WESTERN FRONT 1914),THE AISNE,"GER 1ST, 7TH & 2ND ARMIES",Germany,GEN FALKENHAYN,http://en.wikipedia.org/wiki/Erich_von_Falkenhayn
+588,277,1,WORLD WAR I (WESTERN FRONT 1914),THE AISNE,"FR 5TH & 6TH ARMIES, BR EXPED FORCE",France,GEN JOFFRE,http://en.wikipedia.org/wiki/Joseph_Joffre
+589,278,0,WORLD WAR I (EASTERN FRONT 1914),STALLUPONEN,GER 1ST CORPS,Germany,GEN VON FRANCOIS,http://en.wikipedia.org/wiki/Hermann_von_Fran%C3%A7ois
+590,278,1,WORLD WAR I (EASTERN FRONT 1914),STALLUPONEN,RUS 3RD CORPS,Russia,GEN RENNENKAMPF,http://en.wikipedia.org/wiki/Paul_von_Rennenkampf
+591,279,0,WORLD WAR I (EASTERN FRONT 1914),GUMBINNEN,RUS 1ST ARMY,Russia,GEN RENNENKAMPF,http://en.wikipedia.org/wiki/Paul_von_Rennenkampf
+592,279,1,WORLD WAR I (EASTERN FRONT 1914),GUMBINNEN,GER 8TH ARMY,Germany,GEN VON PRITTWITZ,http://en.wikipedia.org/wiki/Maximilian_von_Prittwitz
+593,280,0,WORLD WAR I (EASTERN FRONT 1914),TANNENBERG,RUS 2ND ARMY,Russia,GEN SAMSONOV,http://en.wikipedia.org/wiki/Alexander_Samsonov
+594,280,1,WORLD WAR I (EASTERN FRONT 1914),TANNENBERG,GER 8TH ARMY,Germany,GEN VON HINDENBURG,http://en.wikipedia.org/wiki/Paul_von_Hindenburg
+595,281,0,WORLD WAR I (EASTERN FRONT 1914),MASURIAN LAKES,RUS 1ST ARMY,Russia,GEN RENNENKAMPF,http://en.wikipedia.org/wiki/Paul_von_Rennenkampf
+596,281,1,WORLD WAR I (EASTERN FRONT 1914),MASURIAN LAKES,GER 8TH ARMY,Germany,GEN VON HINDENBURG,http://en.wikipedia.org/wiki/Paul_von_Hindenburg
+597,282,0,WORLD WAR I (EASTERN FRONT 1914),KRASNIK,RUS 4TH ARMY,Russia,GEN SALZA,http://en.wikipedia.org/wiki/Anton_von_Saltza
+598,282,1,WORLD WAR I (EASTERN FRONT 1914),KRASNIK,AUS 1ST ARMY,Austria,GEN DANKL,http://en.wikipedia.org/wiki/Viktor_Dankl_von_Krasnik
+599,283,0,WORLD WAR I (EASTERN FRONT 1914),KOMAROV,RUS 5TH ARMY,Russia,GEN PLEHVE,http://en.wikipedia.org/wiki/Pavel_Plehve
+600,283,1,WORLD WAR I (EASTERN FRONT 1914),KOMAROV,AUS 4TH ARMY(+),Austria,GEN AUFFENBERG,http://en.wikipedia.org/wiki/Moritz_von_Auffenberg
+601,284,0,WORLD WAR I (EASTERN FRONT 1914),GNILA LIPA,RUS 3RD & 8TH ARMIES,Russia,GEN IVANOV,http://en.wikipedia.org/wiki/Nikolai_Judovich_Ivanov
+602,284,1,WORLD WAR I (EASTERN FRONT 1914),GNILA LIPA,AUS 3RD ARMY(+),Austria,GEN BRUDERMAN,
+603,285,0,WORLD WAR I (EASTERN FRONT 1914),RAVA RUSSKA,"RUS 3RD, 5TH & 8TH ARMIES",Russia,GEN IVANOV,http://en.wikipedia.org/wiki/Nikolai_Judovich_Ivanov
+604,285,1,WORLD WAR I (EASTERN FRONT 1914),RAVA RUSSKA,"AUS 2ND, 3RD & 4TH ARMIES",Austria,GEN CONRAD,http://en.wikipedia.org/wiki/Franz_Conrad_von_H%C3%B6tzendorf
+605,286,0,WORLD WAR I (EASTERN FRONT 1914),LODZ,RUS NORTHWEST ARMY GROUP,Russia,GRAND DK NICHOLAS,http://en.wikipedia.org/wiki/Grand_Duke_Nicholas_Nikolaevich_of_Russia_(1856%E2%80%931929)
+606,286,1,WORLD WAR I (EASTERN FRONT 1914),LODZ,GER 9TH ARMY,Germany,GEN MACKENSEN,http://en.wikipedia.org/wiki/August_von_Mackensen
+607,287,0,WORLD WAR I (SERBIAN FRONT 1914),THE JADAR,"SERB 1ST, 2ND & 3RD ARMIES",Serbia,FM PUTNIK,http://en.wikipedia.org/wiki/Radomir_Putnik
+608,287,1,WORLD WAR I (SERBIAN FRONT 1914),THE JADAR,AUS 2ND(-) & 5TH ARMIES,Austria,GEN POTIAREK,http://en.wikipedia.org/wiki/Oskar_Potiorek
+609,288,0,WORLD WAR I (SERBIAN FRONT 1914),THE KOLUBRA,AUS 5TH & 6TH ARMIES,Austria,GEN POTIOREK,http://en.wikipedia.org/wiki/Oskar_Potiorek
+610,288,1,WORLD WAR I (SERBIAN FRONT 1914),THE KOLUBRA,"SERB 1ST, 2ND & 3RD ARMIES",Serbia,FM PUTNIK,http://en.wikipedia.org/wiki/Radomir_Putnik
+611,289,0,WORLD WAR I,EASTERN CHAMPAGNE,GER 3RD ARMY,Germany,GEN HAUSEN,http://en.wikipedia.org/wiki/Max_von_Hausen
+612,289,1,WORLD WAR I,EASTERN CHAMPAGNE,FR 4TH ARMY,France,GEN LANGLE DE CARY,http://en.wikipedia.org/wiki/Fernand_de_Langle_de_Cary
+613,290,0,WORLD WAR I,NEUVE CHAPELLE,GER 6TH ARMY(-),Germany,CR PR RUPPRECHT,"http://en.wikipedia.org/wiki/Rupprecht,_Crown_Prince_of_Bavaria"
+614,290,1,WORLD WAR I,NEUVE CHAPELLE,BR 1ST ARMY,Great Britain,GEN HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+615,291,0,WORLD WAR I,YPRES II,BR 2ND ARMY(-)(+),Great Britain,GEN SMITH-DORRIEN,http://en.wikipedia.org/wiki/Horace_Smith-Dorrien
+616,291,1,WORLD WAR I,YPRES II,GER 4TH ARMY(-),Germany,DK OF WUERTTEMBERG,"http://en.wikipedia.org/wiki/Albrecht,_Duke_of_W%C3%BCrttemberg"
+617,292,0,WORLD WAR I,FESTUBERT,GER 6TH ARMY(-),Germany,CR PR RUPPRECHT,"http://en.wikipedia.org/wiki/Rupprecht,_Crown_Prince_of_Bavaria"
+618,292,1,WORLD WAR I,FESTUBERT,BR 1ST ARMY(-),Great Britain,GEN HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+619,293,0,WORLD WAR I,LOOS,GER 6TH ARMY(-),Germany,CR PR RUPPRECHT,"http://en.wikipedia.org/wiki/Rupprecht,_Crown_Prince_of_Bavaria"
+620,293,1,WORLD WAR I,LOOS,BR 1ST ARMY,Great Britain,GEN HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+621,294,0,WORLD WAR I,WINTER BATTLE (MASURIA),RUS 10TH ARMY,Russia,GEN SIEVERS,http://en.wikipedia.org/wiki/Thadeus_von_Sievers
+622,294,1,WORLD WAR I,WINTER BATTLE (MASURIA),GER 8TH & 10TH ARMIES,Germany,GEN HINDENBURG,http://en.wikipedia.org/wiki/Paul_von_Hindenburg
+623,295,0,WORLD WAR I,GOLICE-TARNOW (OPENING PHASE),RUS 3RD ARMY,Russia,GEN DIMITRIEV,http://en.wikipedia.org/wiki/Radko_Dimitriev
+624,295,1,WORLD WAR I,GOLICE-TARNOW (OPENING PHASE),"GER 11TH ARMY, AUS 3RD(-) & 4TH ARMIES",Germany,GEN MACKENSEN,http://en.wikipedia.org/wiki/August_von_Mackensen
+625,296,0,WORLD WAR I (ITALIAN FRONT 1915),FIRST ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+626,296,1,WORLD WAR I (ITALIAN FRONT 1915),FIRST ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+627,297,0,WORLD WAR I (ITALIAN FRONT 1915),SECOND ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+628,297,1,WORLD WAR I (ITALIAN FRONT 1915),SECOND ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+629,298,0,WORLD WAR I (ITALIAN FRONT 1915),THIRD ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+630,298,1,WORLD WAR I (ITALIAN FRONT 1915),THIRD ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+631,299,0,WORLD WAR I (ITALIAN FRONT 1915),FOURTH ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+632,299,1,WORLD WAR I (ITALIAN FRONT 1915),FOURTH ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+633,300,0,WORLD WAR I (TURKISH FRONTS 1915),FIRST DARDANELLES LANDING,TK 5TH ARMY,Ottoman Empire,GEN LIMAN VON SANDERS,
+634,300,1,WORLD WAR I (TURKISH FRONTS 1915),FIRST DARDANELLES LANDING,ALLIED ARMY,Great Britain,GEN HAMILTON,
+635,301,0,WORLD WAR I (TURKISH FRONTS 1915),SUVLA BAY,TK 7TH & 12TH DIVS,Ottoman Empire,GEN LIMAN VON SANDERS,
+636,301,1,WORLD WAR I (TURKISH FRONTS 1915),SUVLA BAY,"BR 7TH, 10TH, 11TH, & 12TH DIVS",Great Britain,LG STOPFORD,
+637,302,0,WORLD WAR I (TURKISH FRONTS 1915),KUT-EL-AMARA,TK ARMY,Ottoman Empire,NUR-UD-DIN PASHA,
+638,302,1,WORLD WAR I (TURKISH FRONTS 1915),KUT-EL-AMARA,BR MESOPOTAMIAN FIELD FORCE,Great Britain,MG TOWNSHEND,
+639,303,0,WORLD WAR I (TURKISH FRONTS 1915),CTESIPHON,TK ARMY,Ottoman Empire,NUR-UD-DIN PASHA,
+640,303,1,WORLD WAR I (TURKISH FRONTS 1915),CTESIPHON,BR MESOPOTAMIAN FIELD FORCE,Great Britain,MG TOWNSHEND,
+641,304,0,WORLD WAR I,FIRST SOMME,GER 2ND ARMY,Germany,GEN BELOW,http://en.wikipedia.org/wiki/Fritz_von_Below
+642,304,1,WORLD WAR I,FIRST SOMME,BR 4TH & 6TH ARMIES,Great Britain,GEN RAWLINSON,
+643,304,1,WORLD WAR I,FIRST SOMME,BR 4TH & 6TH ARMIES,Great Britain,GEN FAYOLLE,
+644,305,0,WORLD WAR I,SOMME-FOURTH ARMY ATTACK,GER 2ND ARMY,Germany,GEN BELOW,http://en.wikipedia.org/wiki/Fritz_von_Below
+645,305,1,WORLD WAR I,SOMME-FOURTH ARMY ATTACK,BR 4TH ARMY,Great Britain,GEN RAWLINSON,
+646,306,0,WORLD WAR I,SOMME-OVILLERS,GER 180TH INF RGT,Germany,,
+647,306,1,WORLD WAR I,SOMME-OVILLERS,BR 8TH DIV,Great Britain,MG HUDSON,
+648,307,0,WORLD WAR I,SOMME-BAZENTIN RIDGE,GER 3RD GUARDS DIV,Germany,GEN BELOW,http://en.wikipedia.org/wiki/Fritz_von_Below
+649,307,1,WORLD WAR I,SOMME-BAZENTIN RIDGE,BR 4TH ARMY(-),Great Britain,GEN RAWLINSON,
+650,308,0,WORLD WAR I,SOMME-FLERS-COURCELETTE,GER 1ST ARMY,Germany,GEN BELOW,http://en.wikipedia.org/wiki/Fritz_von_Below
+651,308,1,WORLD WAR I,SOMME-FLERS-COURCELETTE,BR 4TH AND RESERVE ARMIES,Great Britain,GEN HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+652,309,0,WORLD WAR I,CAUCASUS WINTER OFFENSIVE,TK 3RD ARMY,Ottoman Empire,ABDUL KERIM PASHA,
+653,309,1,WORLD WAR I,CAUCASUS WINTER OFFENSIVE,RUSS ARMY,Russia,GEN YUDENICH,
+654,310,0,WORLD WAR I,LAKE NAROTCH,GER 10TH ARMY,Germany,GEN EICHHORN,
+655,310,1,WORLD WAR I,LAKE NAROTCH,RUSS 2ND ARMY,Russia,GEN SMIRNOV,
+656,311,0,WORLD WAR I,1916 BRUSILOV OFFENSIVE,"AUS 2ND, 4TH & 7TH, & SUD ARMIES",Austria,GEN CONRAD,http://en.wikipedia.org/wiki/Franz_Conrad_von_H%C3%B6tzendorf
+657,311,1,WORLD WAR I,1916 BRUSILOV OFFENSIVE,RUSS SOUTHWEST ARMY GROUP,Russia,GEN BRUSILOV,
+658,312,0,WORLD WAR I,FIFTH ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+659,312,1,WORLD WAR I,FIFTH ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+660,313,0,WORLD WAR I,ASIAGO,IT 1ST ARMY,Italy,GEN PECORI-GIRALDI,
+661,313,1,WORLD WAR I,ASIAGO,AUS 3RD & 11TH ARMIES,Austria,GEN CONRAD,http://en.wikipedia.org/wiki/Franz_Conrad_von_H%C3%B6tzendorf
+662,314,0,WORLD WAR I,TRENTINO COUNTER-OFFENSIVE,AUS 3RD & 11TH ARMIES,Austria,GEN CONRAD,http://en.wikipedia.org/wiki/Franz_Conrad_von_H%C3%B6tzendorf
+663,314,1,WORLD WAR I,TRENTINO COUNTER-OFFENSIVE,IT 5TH ARMY,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+664,315,0,WORLD WAR I,SIXTH ISONZO (GORIZIA),AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+665,315,1,WORLD WAR I,SIXTH ISONZO (GORIZIA),IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+666,316,0,WORLD WAR I,ARRAS,GER 6TH ARMY,Germany,GEN FALKENHAUSEN,
+667,316,1,WORLD WAR I,ARRAS,"BR 1ST, 3RD & 5TH ARMIES",Great Britain,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+668,317,0,WORLD WAR I,AISNE II,GER 1ST & 7TH ARMIES,Germany,GENS BOEHN,
+669,317,0,WORLD WAR I,AISNE II,GER 1ST & 7TH ARMIES,Germany,BELOW,
+670,317,1,WORLD WAR I,AISNE II,FR 5TH & 6TH ARMIES,France,GEN NIVELLE,
+671,318,0,WORLD WAR I,MESSINES,GER 4TH ARMY,Germany,GEN ARNIM,
+672,318,1,WORLD WAR I,MESSINES,BR 2ND ARMY,Great Britain,GEN PLUMER,
+673,319,0,WORLD WAR I,YPRES III,GER 4TH ARMY,Germany,GEN ARNIM,
+674,319,1,WORLD WAR I,YPRES III,BR 2ND & 5TH ARMIES & FR 1ST ARMY,Great Britain,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+675,320,0,WORLD WAR I,CAMBRAI I,GER 2ND ARMY,Germany,GEN MARWITZ,
+676,320,1,WORLD WAR I,CAMBRAI I,BR 3RD ARMY,Great Britain,GEN BYNG,"http://en.wikipedia.org/wiki/Julian_Byng,_1st_Viscount_Byng_of_Vimy"
+677,321,0,WORLD WAR I,CAMBRAI II,BR 3RD ARMY,Great Britain,GEN BYNG,"http://en.wikipedia.org/wiki/Julian_Byng,_1st_Viscount_Byng_of_Vimy"
+678,321,1,WORLD WAR I,CAMBRAI II,GER 2ND ARMY,Germany,GEN MARWITZ,
+679,322,0,WORLD WAR I,TENTH ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+680,322,1,WORLD WAR I,TENTH ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+681,323,0,WORLD WAR I,ELEVENTH ISONZO,AUS 5TH ARMY,Austria,GEN BOROJEVIC,http://en.wikipedia.org/wiki/Svetozar_Boroevi%C4%87
+682,323,1,WORLD WAR I,ELEVENTH ISONZO,IT 2ND & 3RD ARMIES,Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+683,324,0,WORLD WAR I,CAPORETTO (TWELFTH ISONZO),"IT 2ND, 3RD & 4TH ARMIES",Italy,GEN CADORNA,http://en.wikipedia.org/wiki/Luigi_Cadorna
+684,324,1,WORLD WAR I,CAPORETTO (TWELFTH ISONZO),"GER-AUS 5TH, 10TH & 14TH ARMIES",Germany & Austria,GEN CONRAD,http://en.wikipedia.org/wiki/Franz_Conrad_von_H%C3%B6tzendorf
+685,325,0,WORLD WAR I (TURKISH FRONTS 1917),TIGRIS CROSSING,TK U/I TASK FORCE,Ottoman Empire,NUR-UD-DIN PASHA,
+686,325,1,WORLD WAR I (TURKISH FRONTS 1917),TIGRIS CROSSING,"BR 1ST & 3RD CORPS, & U/I CAV DIV",Great Britain,GEN MAUDE,
+687,326,0,WORLD WAR I (TURKISH FRONTS 1917),GAZA I,TK 8TH ARMY,Ottoman Empire,GEN KRESS VON KRESSENSTEIN,http://en.wikipedia.org/wiki/Friedrich_Freiherr_Kress_von_Kressenstein
+688,326,1,WORLD WAR I (TURKISH FRONTS 1917),GAZA I,BR ARMY OF EGYPT,Great Britain,GEN MURRAY,http://en.wikipedia.org/wiki/Archibald_Murray
+689,327,0,WORLD WAR I (TURKISH FRONTS 1917),GAZA II,TK ARMY OF PALESTINE,Ottoman Empire,GEN KRESS VON KRESSENSTEIN,http://en.wikipedia.org/wiki/Friedrich_Freiherr_Kress_von_Kressenstein
+690,327,1,WORLD WAR I (TURKISH FRONTS 1917),GAZA II,BR ARMY OF EGYPT,Great Britain,GEN MURRAY,http://en.wikipedia.org/wiki/Archibald_Murray
+691,328,0,WORLD WAR I (TURKISH FRONTS 1917),GAZA III,TK 7TH & 8TH ARMIES,Ottoman Empire,GEN KRESS VON KRESSENSTEIN,http://en.wikipedia.org/wiki/Friedrich_Freiherr_Kress_von_Kressenstein
+692,328,1,WORLD WAR I (TURKISH FRONTS 1917),GAZA III,BR ARMY OF EGYPT,Great Britain,GEN ALLENBY,http://en.wikipedia.org/wiki/Edmund_Allenby
+693,329,0,WORLD WAR I (TURKISH FRONTS 1917),JUNCTION STATION,TK 8TH ARMY,Ottoman Empire,GEN KRESS VON KRESSENSTEIN,http://en.wikipedia.org/wiki/Friedrich_Freiherr_Kress_von_Kressenstein
+694,329,1,WORLD WAR I (TURKISH FRONTS 1917),JUNCTION STATION,BR ARMY OF EGYPT,Great Britain,GEN ALLENBY,http://en.wikipedia.org/wiki/Edmund_Allenby
+695,330,0,WORLD WAR I (WESTERN FRONT 1918),SECOND SOMME-PHASE I (SOMME-PERONNE),"BR 1ST(-), 3RD & 5TH (4TH) ARMIES",Great Britain,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+696,330,1,WORLD WAR I (WESTERN FRONT 1918),SECOND SOMME-PHASE I (SOMME-PERONNE),"GER 2ND, 17TH & 18TH ARMIES",Germany,GEN LUDENDORFF,http://en.wikipedia.org/wiki/Erich_Ludendorff
+697,331,0,WORLD WAR I (WESTERN FRONT 1918),SECOND SOMME-PHASE II (SOMME-MONTDIDIER),"BR 1ST(-), 3RD & 5TH (4TH) ARMIES",Great Britain,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+698,331,1,WORLD WAR I (WESTERN FRONT 1918),SECOND SOMME-PHASE II (SOMME-MONTDIDIER),"GER 2ND, 17TH & 18TH ARMIES",Germany,GEN LUDENDORFF,http://en.wikipedia.org/wiki/Erich_Ludendorff
+699,332,0,WORLD WAR I (WESTERN FRONT 1918),LYS,BR 1ST & 2ND ARMIES,Great Britain,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+700,332,1,WORLD WAR I (WESTERN FRONT 1918),LYS,GER 4TH & 6TH ARMIES,Germany,GEN LUDENDORFF,http://en.wikipedia.org/wiki/Erich_Ludendorff
+701,333,0,WORLD WAR I (WESTERN FRONT 1918),YVONNE & ODETTE POSITIONS (SECTOR TOULON),"US COS I & L OF 3RD BN, 9TH INF RGT",USA,COL UPTON,
+702,333,1,WORLD WAR I (WESTERN FRONT 1918),YVONNE & ODETTE POSITIONS (SECTOR TOULON),GER SPEC ASSLT GRP 'VON GROTHE' & 272ND RES INF RGT,Germany,MAJ GROTHE,
+703,334,0,WORLD WAR I (WESTERN FRONT 1918),CHEMIN-DES-DAMES,FR 6TH ARMY,France,GEN DOUCHENE,?
+704,334,1,WORLD WAR I (WESTERN FRONT 1918),CHEMIN-DES-DAMES,GER 1ST & 7TH ARMIES,Germany,CR PR WILHELM,http://en.wikipedia.org/wiki/Crown_Prince_Wilhelm_of_Germany
+705,335,0,WORLD WAR I (WESTERN FRONT 1918),CANTIGNY,"GER 82ND RES DIV, 1ST BN, 272ND RES INF RGT",Germany,COL FREDERICHS,?
+706,335,1,WORLD WAR I (WESTERN FRONT 1918),CANTIGNY,US 1ST DIV & 28TH INF RGT,USA,COL ELY,?
+707,336,0,WORLD WAR I (WESTERN FRONT 1918),BELLEAU WOOD,GER 4TH RES CORPS(-),Germany,GEN CONTA,?
+708,336,1,WORLD WAR I (WESTERN FRONT 1918),BELLEAU WOOD,US 4TH BDE(+),USA,BG HARBORD,http://en.wikipedia.org/wiki/James_Harbord
+709,337,0,WORLD WAR I (WESTERN FRONT 1918),HILL 142,GER 2/273RD RGT(+),Germany,,?
+710,337,1,WORLD WAR I (WESTERN FRONT 1918),HILL 142,US 5TH MAR RGT(-),USA,MAJ TURRILL,?
+711,338,0,WORLD WAR I (WESTERN FRONT 1918),WEST WOOD I,GER 1/461ST RGT,Germany,MAJ HARTLIEB,?
+712,338,1,WORLD WAR I (WESTERN FRONT 1918),WEST WOOD I,US 3/5TH MAR RGT(-),USA,MAJ BERRY,?
+713,339,0,WORLD WAR I (WESTERN FRONT 1918),BOURESCHES I,GER 2/461ST RGT,Germany,MAJ BISCHOFF,?
+714,339,1,WORLD WAR I (WESTERN FRONT 1918),BOURESCHES I,US 6TH MAR RGT(-),USA,MAJ SIBLEY,?
+715,340,0,WORLD WAR I (WESTERN FRONT 1918),HILL 192,GER 1/47TH INF RGT(+),Germany,LCOL ROTENBUCHER,?
+716,340,1,WORLD WAR I (WESTERN FRONT 1918),HILL 192,US 23RD INF RGT,USA,COL MALONE,?
+717,341,0,WORLD WAR I (WESTERN FRONT 1918),WEST WOOD II,GER 1/461ST RGT(+),Germany,MAJ HARTLIEB,?
+718,341,1,WORLD WAR I (WESTERN FRONT 1918),WEST WOOD II,US 2/5TH MAR RGT(+),USA,MAJ WISE,?
+719,342,0,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD I (HUNTING LODGE),GER 2/110TH GREN RGT,Germany,MAJ HARTLIEB,?
+720,342,1,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD I (HUNTING LODGE),US 2/5TH MAR RGT,USA,MAJ WISE,?
+721,343,0,WORLD WAR I (WESTERN FRONT 1918),BOURESCHES II,US 3/5TH MAR RGT(+),USA,MAJ SHEARER,http://en.wikipedia.org/wiki/Maurice_E._Shearer
+722,343,1,WORLD WAR I (WESTERN FRONT 1918),BOURESCHES II,GER 109TH RGT(-)(+),Germany,,?
+723,344,0,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD II,GER 3/347TH RGT(+),Germany,,?
+724,344,1,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD II,US 1/7TH INF RGT,USA,LCOL ADAMS,?
+725,345,0,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD III,GER 1/347TH RGT,Germany,CPT KARLBERG,?
+726,345,1,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD III,US 3/5TH MAR RGT,USA,MAJ SHEARER,http://en.wikipedia.org/wiki/Maurice_E._Shearer
+727,346,0,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD IV (FINAL ASSAULT),GER 1/347TH RGT,Germany,CPT KARLBERG,?
+728,346,1,WORLD WAR I (WESTERN FRONT 1918),NORTH WOOD IV (FINAL ASSAULT),US 3/5TH MAR RGT,USA,MAJ SHEARER,http://en.wikipedia.org/wiki/Maurice_E._Shearer
+729,347,0,WORLD WAR I (WESTERN FRONT 1918),VAUX,GER 201ST INF DIV(-),Germany,,?
+730,347,1,WORLD WAR I (WESTERN FRONT 1918),VAUX,"US 3RD BDE, 2ND INF DIV",USA,BG LEWIS,?
+731,348,0,WORLD WAR I (WESTERN FRONT 1918),LA ROCHE WOOD EAST,GER 1/402ND INF RGT(-),Germany,,?
+732,348,1,WORLD WAR I (WESTERN FRONT 1918),LA ROCHE WOOD EAST,US 2/9TH INF RGT,USA,MAJ BOUTON,?
+733,349,0,WORLD WAR I (WESTERN FRONT 1918),LA ROCHE WOOD WEST,GER 2/402ND INF RGT(+),Germany,,?
+734,349,1,WORLD WAR I (WESTERN FRONT 1918),LA ROCHE WOOD WEST,US 3/33RD INF RGT,USA,MAJ ELLIOT,?
+735,350,0,WORLD WAR I (WESTERN FRONT 1918),NOYON-MONTDIDIER,FR 3RD & 10TH ARMIES,France,GEN FRANCHET D'ESPEREY,http://en.wikipedia.org/wiki/Louis_Franchet_d%27Esp%C3%A8rey
+736,350,1,WORLD WAR I (WESTERN FRONT 1918),NOYON-MONTDIDIER,GER 18TH & 7TH ARMIES,Germany,CR PR WILHELM,http://en.wikipedia.org/wiki/Crown_Prince_Wilhelm_of_Germany
+737,351,0,WORLD WAR I (WESTERN FRONT 1918),CHAMPAGNE-MARNE,"FR 6TH, 9TH, 5TH & 4TH ARMIES",France,GEN FRANCHET D'ESPEREY,http://en.wikipedia.org/wiki/Louis_Franchet_d%27Esp%C3%A8rey
+738,351,1,WORLD WAR I (WESTERN FRONT 1918),CHAMPAGNE-MARNE,"GER 7TH, 1ST & 3RD ARMIES",Germany,CR PR WILHELM,http://en.wikipedia.org/wiki/Crown_Prince_Wilhelm_of_Germany
+739,352,0,WORLD WAR I (WESTERN FRONT 1918),AISNE-MARNE I,GER 9TH ARMY,Germany,GEN EBEN,
+740,352,1,WORLD WAR I (WESTERN FRONT 1918),AISNE-MARNE I,FR 10TH ARMY(+),France,GEN MANGIN,
+741,353,0,WORLD WAR I (WESTERN FRONT 1918),MISSY AUX BOIS RAVINE,GER 13TH BAV RES INF RGT(+),Germany,LG KNEUSSL,
+742,353,1,WORLD WAR I (WESTERN FRONT 1918),MISSY AUX BOIS RAVINE,US 26TH INF RGT(+),USA,COL SMITH,
+743,354,0,WORLD WAR I (WESTERN FRONT 1918),BREUIL,GER 22ND BAV INF RGT(+),Germany,COL CARL,
+744,354,1,WORLD WAR I (WESTERN FRONT 1918),BREUIL,US 28TH INF RGT(+),USA,COL BABCOCK,
+745,355,0,WORLD WAR I (WESTERN FRONT 1918),ST. AMAND FARM,GER 2/396TH INF RGT,Germany,LG KNEUSSL,
+746,355,1,WORLD WAR I (WESTERN FRONT 1918),ST. AMAND FARM,US 2/28TH INF RGT,USA,MAJ HUEBNER,
+747,356,0,WORLD WAR I (WESTERN FRONT 1918),BEAUREPAIRE FARM,GER 3/219TH RES INF RGT,Germany,CPT STOCKMAR,
+748,356,1,WORLD WAR I (WESTERN FRONT 1918),BEAUREPAIRE FARM,US 2/23RD INF RGT(+),USA,MAJ WADDILL,
+749,357,0,WORLD WAR I (WESTERN FRONT 1918),CRAVANCON FERME-CHAUDUN,GER 3RD BAV INF RGT(+),Germany,COL STENGEL,
+750,357,1,WORLD WAR I (WESTERN FRONT 1918),CRAVANCON FERME-CHAUDUN,US 1ST INF BDE(+),USA,BG HINES,
+751,358,0,WORLD WAR I (WESTERN FRONT 1918),CHAUDUN,GER 2/109TH B GREN RGT(+),Germany,COL BUCHHOLTZ,
+752,358,1,WORLD WAR I (WESTERN FRONT 1918),CHAUDUN,US 3/18TH INF RGT(+),USA,COL PARKER,
+753,359,0,WORLD WAR I (WESTERN FRONT 1918),AISNE-MARNE II,GER 7TH & 9TH ARMIES,Germany,CR PR WILHELM,http://en.wikipedia.org/wiki/Crown_Prince_Wilhelm_of_Germany
+754,359,1,WORLD WAR I (WESTERN FRONT 1918),AISNE-MARNE II,"FR 5TH, 6TH, 9TH & 10TH ARMIES",USA,GEN FOCH,http://en.wikipedia.org/wiki/Ferdinand_Foch
+755,360,0,WORLD WAR I (WESTERN FRONT 1918),BERZY LE SEC,GER 109TH INF RGT(-)(+),Germany,BARON VON TOLL,
+756,360,1,WORLD WAR I (WESTERN FRONT 1918),BERZY LE SEC,US 28TH INF RGT(-)(+),USA,GEN SUMMERALL,http://en.wikipedia.org/wiki/Charles_Pelot_Summerall
+757,361,0,WORLD WAR I (WESTERN FRONT 1918),BUZANCY RIDGE,GER 2/52ND JAEGER RGT,Germany,COL OTTO,
+758,361,1,WORLD WAR I (WESTERN FRONT 1918),BUZANCY RIDGE,US 18TH INF RGT(-)(+),USA,GEN SUMMERALL,http://en.wikipedia.org/wiki/Charles_Pelot_Summerall
+759,362,0,WORLD WAR I (WESTERN FRONT 1918),"PICARDY 1918, I",GER 2ND & 18TH ARMIES,Germany,CR PR RUPPRECHT,"http://en.wikipedia.org/wiki/Rupprecht,_Crown_Prince_of_Bavaria"
+760,362,1,WORLD WAR I (WESTERN FRONT 1918),"PICARDY 1918, I","BR 1ST, 3RD, 4TH ARMIES",USA,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+761,363,0,WORLD WAR I (WESTERN FRONT 1918),"PICARDY 1918, II","GER 2ND, 9TH & 17TH ARMIES(+)",Germany,CR PR RUPPRECHT,"http://en.wikipedia.org/wiki/Rupprecht,_Crown_Prince_of_Bavaria"
+762,363,1,WORLD WAR I (WESTERN FRONT 1918),"PICARDY 1918, II",BR 1ST ARMY(+) & FR 1ST ARMY(+),USA,FM HAIG,"http://en.wikipedia.org/wiki/Douglas_Haig,_1st_Earl_Haig"
+763,364,0,WORLD WAR I (WESTERN FRONT 1918),ST. MIHIEL,GER ARMY DET C,Germany,GEN FUCHS,
+764,364,1,WORLD WAR I (WESTERN FRONT 1918),ST. MIHIEL,US 1ST ARMY,USA,GEN PERSHING,http://en.wikipedia.org/wiki/John_J._Pershing
+765,365,0,WORLD WAR I (WESTERN FRONT 1918),LAHAYVILLE-BOIS DE LAMARCHE,GER 47TH INF RGT(-),Germany,CPT GERLACH,
+766,365,1,WORLD WAR I (WESTERN FRONT 1918),LAHAYVILLE-BOIS DE LAMARCHE,US 2ND INF BDE(+),USA,BG BAMFORD,
+767,366,0,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE I,GER 3RD ARMY(+),Germany,GEN EINEM,
+768,366,1,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE I,US 1ST ARMY(+),USA,GEN PERSHING,http://en.wikipedia.org/wiki/John_J._Pershing
+769,367,0,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT I,GER 12TH SAXON ARMY CORPS(-),Germany,GEN NIDDA,
+770,367,1,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT I,US 2ND DIV(+),USA,MG LEJEUNE,
+771,368,0,WORLD WAR I (WESTERN FRONT 1918),MEDEAH FARM,GER 1/235TH RES INF RGT,Germany,MAJ DOERSTLING,
+772,368,1,WORLD WAR I (WESTERN FRONT 1918),MEDEAH FARM,US 2/9TH INF RGT,USA,LCOL ARNOLD,
+773,369,0,WORLD WAR I (WESTERN FRONT 1918),ESSEN HOOK,"GER 2ND CO, 2ND COLOGNE LANDSTURM BN",Germany,MAJ WEBENDOERFER,
+774,369,1,WORLD WAR I (WESTERN FRONT 1918),ESSEN HOOK,US 1/5TH MAR RGT(-),USA,COL HUNT,
+775,370,0,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT RIDGE,GER 2/149TH INF RGT(+),Germany,MAJ GRUNDELL,
+776,370,1,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT RIDGE,US 2/6TH MAR RGT,USA,COL LEE,
+777,371,0,WORLD WAR I (WESTERN FRONT 1918),SOMMEPY WOOD,GER 2/235TH RES INF RGT,Germany,MAJ DOERSTLING,
+778,371,1,WORLD WAR I (WESTERN FRONT 1918),SOMMEPY WOOD,US 4TH MAR BDE(-),USA,NA,
+779,372,0,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT II,GER 213TH INF DIV,Germany,MG HAMMERSTEIN,
+780,372,1,WORLD WAR I (WESTERN FRONT 1918),BLANC MONT II,US 36TH DIV(-)(+),USA,MG SMITH,
+781,373,0,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE II,GER 3RD ARMY(+),Germany,GEN LUDENDORFF,http://en.wikipedia.org/wiki/Erich_Ludendorff
+782,373,1,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE II,FR 4TH ARMY(+),USA,GEN FOCH,http://en.wikipedia.org/wiki/Ferdinand_Foch
+783,374,0,WORLD WAR I (WESTERN FRONT 1918),EXERMONT-MONTREFAGNE,GER 3RD GUARDS FT RGT(+),Germany,COL SCHONSTADT,
+784,374,1,WORLD WAR I (WESTERN FRONT 1918),EXERMONT-MONTREFAGNE,US 18TH INF RGT,USA,COL HUNT,
+785,375,0,WORLD WAR I (WESTERN FRONT 1918),MAYACHE RAVINE,"GER 2ND BN, 170TH INF RGT(+)",Germany,CPT KAESBACH,
+786,375,1,WORLD WAR I (WESTERN FRONT 1918),MAYACHE RAVINE,US 26TH INF RGT(+),USA,COL ERICKSON,
+787,376,0,WORLD WAR I (WESTERN FRONT 1918),LA NEUVILLE LE COMTE FERME,GER 1/111TH INF RGT(+),Germany,CPT GACKENHOLZ,
+788,376,1,WORLD WAR I (WESTERN FRONT 1918),LA NEUVILLE LE COMTE FERME,US 28TH INF RGT(+),USA,COL BARNHARDT,
+789,377,0,WORLD WAR I (WESTERN FRONT 1918),FERME DES GRANGES-FLEVILLE,GER 3RD GUARDS GREN RGT(+),Germany,MAJ PLEHWE,
+790,377,1,WORLD WAR I (WESTERN FRONT 1918),FERME DES GRANGES-FLEVILLE,US 16TH INF RGT(+),USA,LCOL COPPOCK,
+791,378,0,WORLD WAR I (WESTERN FRONT 1918),HILL 212,GER 170TH INF RGT(+),Germany,LCOL IHLENFELD,
+792,378,1,WORLD WAR I (WESTERN FRONT 1918),HILL 212,US 26TH INF RGT(+),USA,COL ERICKSON,
+793,379,0,WORLD WAR I (WESTERN FRONT 1918),BOIS DE BOYON-MONTREFAGNE,GER 150TH INF RGT(-)(+),Germany,MAJ BRUNS,
+794,379,1,WORLD WAR I (WESTERN FRONT 1918),BOIS DE BOYON-MONTREFAGNE,US 18TH INF RGT(+),USA,COL HUNT,
+795,380,0,WORLD WAR I (WESTERN FRONT 1918),HILL 272,GER 147TH INF RGT(+),Germany,MAJ KRAUSE,
+796,380,1,WORLD WAR I (WESTERN FRONT 1918),HILL 272,US 1/16TH INF RGT(+),USA,MAJ RYDER,
+797,381,0,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE III,GER 3RD ARMY(+),Germany,GEN GALLWITZ,
+798,381,1,WORLD WAR I (WESTERN FRONT 1918),MEUSE-ARGONNE III,FR 4TH ARMY(+),France,GEN PERSHING,http://en.wikipedia.org/wiki/John_J._Pershing
+799,382,0,WORLD WAR I (WESTERN FRONT 1918),REMILLY-AILLICOURT,GER 6TH RES JAEGER BN(+),Germany,LG LEWINSKI,
+800,382,1,WORLD WAR I (WESTERN FRONT 1918),REMILLY-AILLICOURT,US 1/16TH INF RGT,USA,MAJ RYDER,
+801,383,0,WORLD WAR I (WESTERN FRONT 1918),HILL 252-PONT MAUGIS,GER 14TH RES DIV(-),Germany,GEN HANSTEIN,
+802,383,1,WORLD WAR I (WESTERN FRONT 1918),HILL 252-PONT MAUGIS,US 16TH INF RGT(-)(+),USA,COL HARREL,
+803,384,0,WORLD WAR I,THE PIAVE,IT ARMY GROUP,Italy,GEN DIEZ,
+804,384,1,WORLD WAR I,THE PIAVE,AUS CONRAD & BOROJEVIC GROUPS,Austria,ARCHDUKE EUGENE,
+805,385,0,WORLD WAR I,MEGIDDO,TK 8TH ARMY,Ottoman Empire,GEN LIMAN VON SANDERS,
+806,385,1,WORLD WAR I,MEGIDDO,BR 21ST CORPS(+),Great Britain,GEN ALLENBY,
+807,386,0,WORLD WAR II (NORTH AFRICA 1942-1943),ALAM HALFA,BR 8TH ARMY,Great Britain,LG MONTGOMERY,"http://en.wikipedia.org/wiki/Bernard_Montgomery,_1st_Viscount_Montgomery_of_Alamein"
+808,386,1,WORLD WAR II (NORTH AFRICA 1942-1943),ALAM HALFA,GER & ITAL PZ ARMY AFRICA,Germany & Italy,GFM ROMMEL,http://en.wikipedia.org/wiki/Erwin_Rommel
+809,387,0,WORLD WAR II (NORTH AFRICA 1942-1943),EL ALAMEIN II,GER & ITAL PZ ARMY,Germany,GFM ROMMEL,http://en.wikipedia.org/wiki/Erwin_Rommel
+810,387,1,WORLD WAR II (NORTH AFRICA 1942-1943),EL ALAMEIN II,BR 8TH ARMY,Great Britain,LG MONTGOMERY,"http://en.wikipedia.org/wiki/Bernard_Montgomery,_1st_Viscount_Montgomery_of_Alamein"
+811,388,0,WORLD WAR II (NORTH AFRICA 1942-1943),OPERATION LIGHTFOOT,GER & IT PZ ARMY,Germany,GENS STUMM,
+812,388,0,WORLD WAR II (NORTH AFRICA 1942-1943),OPERATION LIGHTFOOT,GER & IT PZ ARMY,Germany,THOMA,
+813,388,1,WORLD WAR II (NORTH AFRICA 1942-1943),OPERATION LIGHTFOOT,BR 8TH ARMY,Great Britain,LG MONTGOMERY,"http://en.wikipedia.org/wiki/Bernard_Montgomery,_1st_Viscount_Montgomery_of_Alamein"
+814,389,0,WORLD WAR II (NORTH AFRICA 1942-1943),ALAMEIN BRIDGEHEAD EXPANSION,GER & IT PZ ARMY,Germany,FM ROMMEL,http://en.wikipedia.org/wiki/Erwin_Rommel
+815,389,1,WORLD WAR II (NORTH AFRICA 1942-1943),ALAMEIN BRIDGEHEAD EXPANSION,BR 8TH ARMY,Great Britain,LG MONTGOMERY,"http://en.wikipedia.org/wiki/Bernard_Montgomery,_1st_Viscount_Montgomery_of_Alamein"
+816,390,0,WORLD WAR II (NORTH AFRICA 1942-1943),OPERATION SUPERCHARGE,GER & IT PZ ARMY,Germany,FM ROMMEL,http://en.wikipedia.org/wiki/Erwin_Rommel
+817,390,1,WORLD WAR II (NORTH AFRICA 1942-1943),OPERATION SUPERCHARGE,BR 8TH ARMY,Great Britain,LG MONTGOMERY,"http://en.wikipedia.org/wiki/Bernard_Montgomery,_1st_Viscount_Montgomery_of_Alamein"
+818,391,0,WORLD WAR II (NORTH AFRICA 1942-1943),CHOUIGUI PASS,US 1ST ARMD DIV (ELMS),USA,LCOL WATERS,
+819,391,1,WORLD WAR II (NORTH AFRICA 1942-1943),CHOUIGUI PASS,"GER 190TH PZ BN, 10TH PZ DIV (ELMS)(+)",Germany,COL BROICH,http://en.wikipedia.org/wiki/Friedrich_Freiherr_von_Broich
+820,392,0,WORLD WAR II (NORTH AFRICA 1942-1943),EL GUETTAR,US 1ST INF DIV(+),USA,MG ALLEN,
+821,392,1,WORLD WAR II (NORTH AFRICA 1942-1943),EL GUETTAR,GER 10TH PZ DIV(+),Germany,GEN BROICH,http://en.wikipedia.org/wiki/Friedrich_Freiherr_von_Broich
+822,393,0,WORLD WAR II (NORTH AFRICA 1942-1943),SEDJANNE-BIZERTE,GER VON MANTUEFFEL DIV(2/3),Germany,LG BULOVIUS,
+823,393,1,WORLD WAR II (NORTH AFRICA 1942-1943),SEDJANNE-BIZERTE,US 9TH INF DIV(+),USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+824,394,0,WORLD WAR II (ITALY 1943-1944),AMPHITHEATER,GER 16TH PZ DIV (ELMS),Germany,MG SIKENIUS,
+825,394,1,WORLD WAR II (ITALY 1943-1944),AMPHITHEATER,BR 56TH INF DIV,Great Britain,MG GRAHAM,
+826,395,0,WORLD WAR II (ITALY 1943-1944),PORT OF SALERNO,GER 16TH PZ DIV (ELMS),Germany,MG SIKENIUS,
+827,395,1,WORLD WAR II (ITALY 1943-1944),PORT OF SALERNO,BR 46TH INF DIV,Great Britain,MG HAWKESWORTH,
+828,396,0,WORLD WAR II (ITALY 1943-1944),SELE-CALORE CORRIDOR,GER 16TH PZ DIV (ELMS),Germany,MG SIKENIUS,
+829,396,1,WORLD WAR II (ITALY 1943-1944),SELE-CALORE CORRIDOR,US 45TH INF DIV,USA,MG MIDDLETON,http://en.wikipedia.org/wiki/Troy_H._Middleton
+830,397,0,WORLD WAR II (ITALY 1943-1944),BATTIPAGLIA I,BR 56TH IND DIV(+),Great Britain,MG GRAHAM,
+831,397,1,WORLD WAR II (ITALY 1943-1944),BATTIPAGLIA I,GER 16TH PZ DIV(-)(+),Germany,MG SICKENIUS,
+832,398,0,WORLD WAR II (ITALY 1943-1944),VIETRI,BR 46TH INF DIV(+),Great Britain,MG HAWKESWORTH,
+833,398,1,WORLD WAR II (ITALY 1943-1944),VIETRI,GER HERMANN GOERING PZ DIV(+),Germany,MG SCHMALTZ,
+834,399,0,WORLD WAR II (ITALY 1943-1944),TOBACCO FACTORY,US 45TH INF DIV(+),USA,MG MIDDLETON,http://en.wikipedia.org/wiki/Troy_H._Middleton
+835,399,1,WORLD WAR II (ITALY 1943-1944),TOBACCO FACTORY,GER 16TH PZ DIV(-)(+),Germany,MG SICKENIUS,
+836,400,0,WORLD WAR II (ITALY 1943-1944),BATTIPAGLIA II,GER 26TH PZ DIV (ELMS) & 16TH PZ DIV (ELMS),Germany,MG LUETTWITZ,
+837,400,1,WORLD WAR II (ITALY 1943-1944),BATTIPAGLIA II,BR 56TH INF DIV(+),Great Britain,MG TEMPLER,
+838,401,0,WORLD WAR II (ITALY 1943-1944),EBOLI,GER 26TH PZ DIV(+)(-),Germany,MG LUETTWITZ,
+839,401,1,WORLD WAR II (ITALY 1943-1944),EBOLI,US 45TH INF DIV(+),USA,MG MIDDLETON,http://en.wikipedia.org/wiki/Troy_H._Middleton
+840,402,0,WORLD WAR II (ITALY 1943-1944),VIETRI II,BR 46TH INF DIV(+),Great Britain,MG HAWKESWORTH,
+841,402,1,WORLD WAR II (ITALY 1943-1944),VIETRI II,GER HERMANN GOERING PZ DIV(+),Germany,MG SCHMALTZ,
+842,403,0,WORLD WAR II (ITALY 1943-1944),GRAZZANISE,GER 15TH PZ GR DIV(-),Germany,MG RODT,
+843,403,1,WORLD WAR II (ITALY 1943-1944),GRAZZANISE,BR 7TH ARMD DIV(-),Great Britain,MG ERSKINE,
+844,404,0,WORLD WAR II (ITALY 1943-1944),CAIAZZO,GER 3RD PZ GR DIV(+),Germany,MG BAADE,
+845,404,1,WORLD WAR II (ITALY 1943-1944),CAIAZZO,US 34TH INF DIV(+),USA,MG RYDER,http://en.wikipedia.org/wiki/Charles_W._Ryder
+846,405,0,WORLD WAR II (ITALY 1943-1944),CAPUA,GER HERMANN GOERING PZ DIV(-),Germany,MG SCHMALTZ,
+847,405,1,WORLD WAR II (ITALY 1943-1944),CAPUA,BR 56TH INF DIV(+),Great Britain,BG LYNE,
+848,406,0,WORLD WAR II (ITALY 1943-1944),CASTEL VOLTURNO,GER 15TH PZ GR DIV(1/2),Germany,MG RODT,
+849,406,1,WORLD WAR II (ITALY 1943-1944),CASTEL VOLTURNO,BR 46TH INF DIV(+),Great Britain,MG HAWKESWORTH,
+850,407,0,WORLD WAR II (ITALY 1943-1944),MONTE ACERO,GER 3RD PZ GR DIV(-)(+),Germany,MG LUETTWITZ,
+851,407,1,WORLD WAR II (ITALY 1943-1944),MONTE ACERO,US 45TH INF DIV(+),USA,MG MIDDLETON,http://en.wikipedia.org/wiki/Troy_H._Middleton
+852,408,0,WORLD WAR II (ITALY 1943-1944),TRIFLISCO,GER HERMANN GOERING PZ DIV(-),Germany,MG SCHMALTZ,
+853,408,1,WORLD WAR II (ITALY 1943-1944),TRIFLISCO,US 3RD INF DIV,USA,MG TRUSCOTT,http://en.wikipedia.org/wiki/Lucian_Truscott
+854,409,0,WORLD WAR II (ITALY 1943-1944),DRAGONI,GER 3RD PZ GR DIV(-),Germany,MG BAADE,
+855,409,1,WORLD WAR II (ITALY 1943-1944),DRAGONI,US 34TH INF DIV(+),USA,MG RYDER,http://en.wikipedia.org/wiki/Charles_W._Ryder
+856,410,0,WORLD WAR II (ITALY 1943-1944),CANAL I,GER 15TH PZ GR DIV (-),Germany,MG RODT,
+857,410,1,WORLD WAR II (ITALY 1943-1944),CANAL I,BR 7TH ARMD DIV,Great Britain,MG ERSKINE,
+858,411,0,WORLD WAR II (ITALY 1943-1944),MONTE GRANDE (VOLTURNO),GER HERMANN GOERING PZ DIV(1/2),Germany,MG SCHMALTZ,
+859,411,1,WORLD WAR II (ITALY 1943-1944),MONTE GRANDE (VOLTURNO),BR 56TH INF DIV (ELMS),Great Britain,MG TEMPLER,
+860,412,0,WORLD WAR II (ITALY 1943-1944),CANAL II,GER 15TH PZ GR DIV(1/2),Germany,MG RODT,
+861,412,1,WORLD WAR II (ITALY 1943-1944),CANAL II,BR 46TH INF DIV(+),Great Britain,MG HAWKESWORTH,
+862,413,0,WORLD WAR II (ITALY 1943-1944),FRANCOLISE,GER 15TH PZ GR DIV(1/2),Germany,MG RODT,
+863,413,1,WORLD WAR II (ITALY 1943-1944),FRANCOLISE,BR 7TH ARMD DIV,Great Britain,MG ERSKINE,
+864,414,0,WORLD WAR II (ITALY 1943-1944),SANTA MARIA OLIVETO,GER 3RD PZ GR DIV(-)(+),Germany,MG BAADE,
+865,414,1,WORLD WAR II (ITALY 1943-1944),SANTA MARIA OLIVETO,US 34TH INF DIV(+),USA,MG RYDER,http://en.wikipedia.org/wiki/Charles_W._Ryder
+866,415,0,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO I,GER 15TH PZ GR DIV(1/2),Germany,MG RODT,
+867,415,1,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO I,BR 56TH INF DIV,Great Britain,MG TEMPLER,
+868,416,0,WORLD WAR II (ITALY 1943-1944),MONTE LUNGO,GER 3RD PZ GR DIV(1/2),Germany,MG BAADE,
+869,416,1,WORLD WAR II (ITALY 1943-1944),MONTE LUNGO,US 3RD INF DIV,USA,MG TRUSCOTT,http://en.wikipedia.org/wiki/Lucian_Truscott
+870,417,0,WORLD WAR II (ITALY 1943-1944),POZZILLI,GER 3RD PZ GR DIV,Germany,MG BAADE,
+871,417,1,WORLD WAR II (ITALY 1943-1944),POZZILLI,US 45TH INF DIV,USA,MG MIDDLETON,http://en.wikipedia.org/wiki/Troy_H._Middleton
+872,418,0,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO II,BR 56TH INF DIV(1/3),Germany,MG TEMPLER,
+873,418,1,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO II,GER 15TH PZ GR DIV(1/2),Germany,MG RODT,
+874,419,0,WORLD WAR II (ITALY 1943-1944),MONTE ROTONDO,GER 3RD PZ GR DIV(1/2),Germany,MG BAADE,
+875,419,1,WORLD WAR II (ITALY 1943-1944),MONTE ROTONDO,US 3RD INF DIV(-),USA,MG TRUSCOTT,http://en.wikipedia.org/wiki/Lucian_Truscott
+876,420,0,WORLD WAR II (ITALY 1943-1944),CALABRITTO,GER 15TH PZ GR DIV(-)(+),Germany,MG RODT,
+877,420,1,WORLD WAR II (ITALY 1943-1944),CALABRITTO,BR 46TH INF DIV(+),Great Britain,MG HAWKESWORTH,
+878,421,0,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO III,GER 15TH PZ GR DIV(1/4),Germany,MG RODT,
+879,421,1,WORLD WAR II (ITALY 1943-1944),MONTE CAMINO III,BR 56TH INF DIV,Great Britain,MG TEMPLER,
+880,422,0,WORLD WAR II (ITALY 1943-1944),MONTE MAGGIORE,GER 15TH PZ GR DIV(1/4),Germany,MG RODT,
+881,422,1,WORLD WAR II (ITALY 1943-1944),MONTE MAGGIORE,US 36TH INF DIV(-),USA,MG WALKER,?
+882,423,0,WORLD WAR II (ITALY 1943-1944),APRILIA I,GER 3RD PZ GR DIV(1/2)(+),Germany,LG GRAESER,
+883,423,1,WORLD WAR II (ITALY 1943-1944),APRILIA I,BR 1ST INF DIV,Great Britain,MG PENNEY,
+884,424,0,WORLD WAR II (ITALY 1943-1944),THE FACTORY,BR 1ST INF DIV,Great Britain,MG PENNEY,
+885,424,1,WORLD WAR II (ITALY 1943-1944),THE FACTORY,GER 3RD PZ GR DIV,Germany,LG GRAESER,
+886,425,0,WORLD WAR II (ITALY 1943-1944),CAMPOLEONE,GER 3RD PZ GR DIV,Germany,LG GRAESER,
+887,425,1,WORLD WAR II (ITALY 1943-1944),CAMPOLEONE,BR 1ST INF DIV,Great Britain,MG PENNEY,
+888,426,0,WORLD WAR II (ITALY 1943-1944),CAMPOLEONE COUNTERATTACK,BR 1ST INF DIV(1/3)(+),Great Britain,MG PENNEY,
+889,426,1,WORLD WAR II (ITALY 1943-1944),CAMPOLEONE COUNTERATTACK,GER 3RD PZ GR DIV(+),Germany,LG GRAESER,
+890,427,0,WORLD WAR II (ITALY 1943-1944),CARROCETO,BR 1ST INF DIV,Great Britain,MG PENNEY,
+891,427,1,WORLD WAR II (ITALY 1943-1944),CARROCETO,GER 3RD PZ GR DIV(+),Germany,LG GRAESER,
+892,428,0,WORLD WAR II (ITALY 1943-1944),MOLETTA RIVER DEFENSE,US 45TH INF DIV(+),USA,MG EAGLES,?
+893,428,1,WORLD WAR II (ITALY 1943-1944),MOLETTA RIVER DEFENSE,GER 65TH INF DIV(2/3)(+),Germany,LG PFEIFFER,
+894,429,0,WORLD WAR II (ITALY 1943-1944),APRILIA II,BR 1ST INF DIV(+),Great Britain,MG PENNEY,
+895,429,1,WORLD WAR II (ITALY 1943-1944),APRILIA II,GER 3RD PZ GR DIV(+),Germany,LG GRAESER,
+896,430,0,WORLD WAR II (ITALY 1943-1944),FACTORY COUNTERATTACK,GER 715TH LT INF DIV(+),Germany,LG HILDEBRANDT,
+897,430,1,WORLD WAR II (ITALY 1943-1944),FACTORY COUNTERATTACK,US 45TH INF DIV(+),USA,MG EAGLES,?
+898,431,0,WORLD WAR II (ITALY 1943-1944),BOWLING ALLEY,US 45TH INF DIV(+),USA,MG EAGLES,?
+899,431,1,WORLD WAR II (ITALY 1943-1944),BOWLING ALLEY,GER 74TH PZ CORPS(-)(+),Germany,GEN MACKENSEN,http://en.wikipedia.org/wiki/August_von_Mackensen
+900,432,0,WORLD WAR II (ITALY 1943-1944),MOLETTA RIVER II,BR 56TH INF DIV(-),Great Britain,MG TEMPLER,
+901,432,1,WORLD WAR II (ITALY 1943-1944),MOLETTA RIVER II,GER 65TH INF DIV(2/3)(+),Germany,GEN PFEIFFER,
+902,433,0,WORLD WAR II (ITALY 1943-1944),FIOCCIA,US 45TH INF DIV,USA,MG EAGLES,?
+903,433,1,WORLD WAR II (ITALY 1943-1944),FIOCCIA,GER 114TH LT INF DIV(+),Germany,LG BOURQUIN,
+904,434,0,WORLD WAR II (ITALY 1944),SANTA MARIA INFANTE,GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+905,434,1,WORLD WAR II (ITALY 1944),SANTA MARIA INFANTE,US 88TH INF DIV(+),USA,MG SLOAN,?
+906,435,0,WORLD WAR II (ITALY 1944),SAN MARTINO,GER 94TH INF DIV(-),Germany,MG STEINMETZ,?
+907,435,1,WORLD WAR II (ITALY 1944),SAN MARTINO,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+908,436,0,WORLD WAR II (ITALY 1944),CASTELLONORATO,GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+909,436,1,WORLD WAR II (ITALY 1944),CASTELLONORATO,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+910,437,0,WORLD WAR II (ITALY 1944),SPIGNO,GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+911,437,1,WORLD WAR II (ITALY 1944),SPIGNO,US 88TH INF DIV(+),USA,MG SLOAN,?
+912,438,0,WORLD WAR II (ITALY 1944),FORMIA,GER 94TH INF DIV(2/3)(+),Germany,MG STEINMETZ,?
+913,438,1,WORLD WAR II (ITALY 1944),FORMIA,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+914,439,0,WORLD WAR II (ITALY 1944),MONTE GRANDE (ROME),GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+915,439,1,WORLD WAR II (ITALY 1944),MONTE GRANDE (ROME),US 88TH INF DIV(-)(+),USA,MG SLOAN,?
+916,440,0,WORLD WAR II (ITALY 1944),ITRI-FONDI,GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+917,440,1,WORLD WAR II (ITALY 1944),ITRI-FONDI,US 88TH INF DIV(+),USA,MG SLOAN,?
+918,441,0,WORLD WAR II (ITALY 1944),TERRACINA,GER 94TH INF DIV(-)(+),Germany,MG STEINMETZ,?
+919,441,1,WORLD WAR II (ITALY 1944),TERRACINA,US 85TH INF DIV(-)(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+920,442,0,WORLD WAR II (ITALY 1944),MOLETTA OFFENSIVE,GER 4TH PARA DIV,Germany,COL TRETTNER,
+921,442,1,WORLD WAR II (ITALY 1944),MOLETTA OFFENSIVE,BR 5TH INF DIV(+),Great Britain,MG GREGSON-ELLIS,
+922,443,0,WORLD WAR II (ITALY 1944),ANZIO-ALBANO ROAD,GER 65TH INF DIV,Germany,MG ZIEHLBERG,
+923,443,1,WORLD WAR II (ITALY 1944),ANZIO-ALBANO ROAD,BR 1ST INF DIV(+),Great Britain,MG PENNEY,
+924,444,0,WORLD WAR II (ITALY 1944),ANZIO BREAKOUT,GER 3RD PZ GR DIV(-)(+),Germany,MG BAADE,
+925,444,1,WORLD WAR II (ITALY 1944),ANZIO BREAKOUT,US 1ST INF DIV(+),USA,MG HARMON,http://en.wikipedia.org/wiki/Ernest_N._Harmon
+926,445,0,WORLD WAR II (ITALY 1944),CISTERNA,GER 362ND INF DIV (3/5)(+),Germany,LG GREINER,
+927,445,1,WORLD WAR II (ITALY 1944),CISTERNA,US 3RD INF DIV(+),USA,MG O'DANIEL,http://en.wikipedia.org/wiki/John_W._O%27Daniel
+928,446,0,WORLD WAR II (ITALY 1944),SEZZE,GER 29TH PZ GR DIV(1/2),Germany,MG FRIES,
+929,446,1,WORLD WAR II (ITALY 1944),SEZZE,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+930,447,0,WORLD WAR II (ITALY 1944),VELLETRI,GER 362ND INF DIV & 3RD PZ GR DIV(1/8)(+),Germany,LG GREINER,
+931,447,1,WORLD WAR II (ITALY 1944),VELLETRI,US 1ST ARMD DIV,USA,MG HARMON,http://en.wikipedia.org/wiki/Ernest_N._Harmon
+932,448,0,WORLD WAR II (ITALY 1944),CAMPOLEONE,GER 65TH INF DIV,Germany,MG ZIEHLBERG,
+933,448,1,WORLD WAR II (ITALY 1944),CAMPOLEONE,US 45TH INF DIV(+),USA,MG EAGLES,?
+934,449,0,WORLD WAR II (ITALY 1944),VILLA CROCETTA,GER 3RD PZ GR DIV(7/8)(+),Germany,MG BAADE,
+935,449,1,WORLD WAR II (ITALY 1944),VILLA CROCETTA,US 34TH INF DIV(+),USA,MG RYDER,http://en.wikipedia.org/wiki/Charles_W._Ryder
+936,450,0,WORLD WAR II (ITALY 1944),ARDEA,GER 4TH PARA DIV(2/3),Germany,COL TRETTNER,
+937,450,1,WORLD WAR II (ITALY 1944),ARDEA,BR 5TH INF DIV,Great Britain,MG GREGSON-ELLIS,
+938,451,0,WORLD WAR II (ITALY 1944),FOSSO DI CAMPOLEONE,GER 3RD PZ GR DIV(1/2)(+),Germany,MG BAADE,
+939,451,1,WORLD WAR II (ITALY 1944),FOSSO DI CAMPOLEONE,US 1ST ARMD DIV & 45TH INF DIV(+),USA,MG HARMON,http://en.wikipedia.org/wiki/Ernest_N._Harmon
+940,452,0,WORLD WAR II (ITALY 1944),LANUVIO,GER 3RD PZ GR DIV(1/2),Germany,MG BAADE,
+941,452,1,WORLD WAR II (ITALY 1944),LANUVIO,US 34TH INF DIV(-),USA,MG RYDER,http://en.wikipedia.org/wiki/Charles_W._Ryder
+942,453,0,WORLD WAR II (ITALY 1944),LARIANO,GER HERMANN GOERING PZ DIV(1/3)(+),Germany,MG SCHMALTZ,
+943,453,1,WORLD WAR II (ITALY 1944),LARIANO,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+944,454,0,WORLD WAR II (ITALY 1944),VIA ANZIATE,GER 65TH INF DIV(2/3)(+),Germany,MG ZIEHLBERG,
+945,454,1,WORLD WAR II (ITALY 1944),VIA ANZIATE,US 45TH INF DIV(+),USA,MG EAGLES,?
+946,455,0,WORLD WAR II (ITALY 1944),VALMONTONE,GER HERMANN GOERING PZ DIV(2/3)(+),Germany,MG SCHMALTZ,
+947,455,1,WORLD WAR II (ITALY 1944),VALMONTONE,US 3RD INF DIV(+),USA,MG O'DANIEL,http://en.wikipedia.org/wiki/John_W._O%27Daniel
+948,456,0,WORLD WAR II (ITALY 1944),TARTO-TIBER,GER 4TH PARA DIV,Germany,COL TRETTNER,
+949,456,1,WORLD WAR II (ITALY 1944),TARTO-TIBER,BR 1ST INF DIV & 5TH INF DIV(+),Great Britain,MG PENNEY,
+950,457,0,WORLD WAR II (ITALY 1944),IL GIOGIO PASS,GER 12TH PARA RGT,Germany,GEN SCHLEMM,
+951,457,1,WORLD WAR II (ITALY 1944),IL GIOGIO PASS,US 85TH INF DIV(+),USA,MG COULTER,http://en.wikipedia.org/wiki/John_B._Coulter
+952,458,0,WORLD WAR II (EUROPEAN THEATER),ST. LO,GER 352ND INF DIV (ELMS) & 3RD PARA DIV (ELMS),Germany,GEN MEINDL,
+953,458,1,WORLD WAR II (EUROPEAN THEATER),ST. LO,US 29TH INF DIV(+),USA,MG GERHARDT,http://en.wikipedia.org/wiki/Charles_H._Gerhardt
+954,459,0,WORLD WAR II (EUROPEAN THEATER),OPERATION GOODWOOD,GER 86TH CORPS(+),Germany,GEN EBERBACH,
+955,459,1,WORLD WAR II (EUROPEAN THEATER),OPERATION GOODWOOD,BR 2ND ARMY,Great Britain,LG DEMPSEY,
+956,460,0,WORLD WAR II (EUROPEAN THEATER),OPERATION COBRA,GER 84TH CORPS(-) & 2ND PARA CORPS(-),Germany,LG CHOLITZ,
+957,460,1,WORLD WAR II (EUROPEAN THEATER),OPERATION COBRA,US 7TH CORPS,USA,MG COLLINS,http://en.wikipedia.org/wiki/J._Lawton_Collins
+958,461,0,WORLD WAR II (EUROPEAN THEATER),MORTAIN,US 30TH INF DIV(+),USA,MG HOBBS,http://en.wikipedia.org/wiki/Leland_Hobbs
+959,461,1,WORLD WAR II (EUROPEAN THEATER),MORTAIN,GER 47TH PZ CORPS,Germany,GEN FUNCK,
+960,462,0,WORLD WAR II (EUROPEAN THEATER),CHARTRES,GER 1ST ARMY(-),Germany,GEN CHEVALLERIE,
+961,462,1,WORLD WAR II (EUROPEAN THEATER),CHARTRES,US 7TH ARMD DIV,USA,MG SILVESTER,?
+962,463,0,WORLD WAR II (EUROPEAN THEATER),MELUN,GER 48TH INF DIV(-),Germany,GEN MACHOLZ,
+963,463,1,WORLD WAR II (EUROPEAN THEATER),MELUN,US 7TH ARMD DIV,USA,MG SILVESTER,?
+964,464,0,WORLD WAR II (EUROPEAN THEATER),SEINE RIVER,GER 1ST ARMY(-),Germany,GEN CHEVALLERIE,
+965,464,1,WORLD WAR II (EUROPEAN THEATER),SEINE RIVER,US 20TH CORPS,USA,MG WALKER,http://en.wikipedia.org/wiki/Walton_Walker
+966,465,0,WORLD WAR II (EUROPEAN THEATER),MOSELLE-METZ,GER 1ST ARMY(-),Germany,GEN KNOBELSDORF,
+967,465,1,WORLD WAR II (EUROPEAN THEATER),MOSELLE-METZ,US 20TH CORPS,USA,MG WALKER,http://en.wikipedia.org/wiki/Walton_Walker
+968,466,0,WORLD WAR II (EUROPEAN THEATER),METZ,GER 1ST ARMY(-),Germany,GEN KNOBELSDORF,
+969,466,1,WORLD WAR II (EUROPEAN THEATER),METZ,US 20TH CORPS,USA,MG WALKER,http://en.wikipedia.org/wiki/Walton_Walker
+970,467,0,WORLD WAR II (EUROPEAN THEATER),ARRACOURT,"US COMBAT COMMAND 'A', 4TH ARMD DIV(+)",USA,MG WOOD,
+971,467,1,WORLD WAR II (EUROPEAN THEATER),ARRACOURT,GER 111TH & 113TH PZ BDES(+),Germany,GEN KRUEGER,
+972,468,0,WORLD WAR II (EUROPEAN THEATER),WESTWALL,GER 81ST CORPS,Germany,GEN KOECHLING,
+973,468,1,WORLD WAR II (EUROPEAN THEATER),WESTWALL,US 19TH CORPS,USA,MG CORLETT,http://en.wikipedia.org/wiki/Charles_H._Corlett
+974,469,0,WORLD WAR II (EUROPEAN THEATER),SCHMIDT,GER 74TH CORPS(-),Germany,GEN STRAUBE,http://en.wikipedia.org/wiki/Erich_Straube
+975,469,1,WORLD WAR II (EUROPEAN THEATER),SCHMIDT,US 28TH INF DIV(+),USA,MG COTA,http://en.wikipedia.org/wiki/Norman_Cota
+976,470,0,WORLD WAR II (EUROPEAN THEATER),SEILLE-NIED,GER 84TH CORPS(-)(+),Germany,GEN BALCK,
+977,470,1,WORLD WAR II (EUROPEAN THEATER),SEILLE-NIED,US 12TH CORPS,USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+978,471,0,WORLD WAR II (EUROPEAN THEATER),FORET DE CHATEAU-SALINS,GER 13TH SS PZ CORPS(-),Germany,LG PRIESS,
+979,471,1,WORLD WAR II (EUROPEAN THEATER),FORET DE CHATEAU-SALINS,US 4TH ARMD DIV(+),USA,MG WOOD,http://en.wikipedia.org/wiki/John_Shirley_Wood
+980,472,0,WORLD WAR II (EUROPEAN THEATER),MORHANGE,GER 11TH PZ DIV(-)(+),Germany,LG WIETERSHEIM,
+981,472,1,WORLD WAR II (EUROPEAN THEATER),MORHANGE,"US COMBAT COMMAND 'B', 4TH ARMD DIV(+)",USA,BG DAGER,?
+982,473,0,WORLD WAR II (EUROPEAN THEATER),MORHANGE-FAULQUEMONT,GER 13TH SS PZ CORPS(-)(+),Germany,LG PRIESS,
+983,473,1,WORLD WAR II (EUROPEAN THEATER),MORHANGE-FAULQUEMONT,US 12TH CORPS,USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+984,474,0,WORLD WAR II (EUROPEAN THEATER),BOURGALTROFF,GER 11TH PZ DIV (-)(+),Germany,LG WIETERSHEIM,
+985,474,1,WORLD WAR II (EUROPEAN THEATER),BOURGALTROFF,"US COMBAT COMMAND 'A', 4TH ARMD DIV(+)",USA,LCOL ABRAMS,
+986,475,0,WORLD WAR II (EUROPEAN THEATER),SARRE-ST. AVOLD,GER 13TH SS PZ CORPS(-)(+),Germany,LG SIMON,
+987,475,1,WORLD WAR II (EUROPEAN THEATER),SARRE-ST. AVOLD,US 12TH CORPS,USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+988,476,0,WORLD WAR II (EUROPEAN THEATER),BAERENDORF I,GER PZ LEHR DIV(-)(+),Germany,LG BAYERLEIN,
+989,476,1,WORLD WAR II (EUROPEAN THEATER),BAERENDORF I,"US COMBAT COMMAND 'B', 4TH ARMD DIV(-)",USA,BG DAGER,?
+990,477,0,WORLD WAR II (EUROPEAN THEATER),BAERENDORF II,GER PZ LEHR DIV(-),Germany,LG BAYERLEIN,
+991,477,1,WORLD WAR II (EUROPEAN THEATER),BAERENDORF II,US 4TH ARMD DIV,USA,MG WOOD,http://en.wikipedia.org/wiki/John_Shirley_Wood
+992,478,0,WORLD WAR II (EUROPEAN THEATER),BURBACH-DURSTEL,GER PZ LEHR DIV(+),Germany,LG BAYERLEIN,
+993,478,1,WORLD WAR II (EUROPEAN THEATER),BURBACH-DURSTEL,US 4TH ARMD DIV(+),USA,MG WOOD,http://en.wikipedia.org/wiki/John_Shirley_Wood
+994,479,0,WORLD WAR II (EUROPEAN THEATER),DURSTEL-FAERBERSVILLER,GER 13TH SS PZ CORPS (-)(+),Germany,LG SIMON,
+995,479,1,WORLD WAR II (EUROPEAN THEATER),DURSTEL-FAERBERSVILLER,US 12TH CORPS,USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+996,480,0,WORLD WAR II (EUROPEAN THEATER),SARRE-UNION,GER 25TH PZ GR DIV(-)(+),Germany,COL BURMEISTER,
+997,480,1,WORLD WAR II (EUROPEAN THEATER),SARRE-UNION,US 4TH ARMD DIV(+),USA,MG WOOD,http://en.wikipedia.org/wiki/John_Shirley_Wood
+998,481,0,WORLD WAR II (EUROPEAN THEATER),SARRE-SINGLING,GER 13TH SS PZ CORPS(-)(+),Germany,LG SIMON,
+999,481,1,WORLD WAR II (EUROPEAN THEATER),SARRE-SINGLING,US 12TH CORPS,USA,MG EDDY,http://en.wikipedia.org/wiki/Manton_S._Eddy
+1000,482,0,WORLD WAR II (EUROPEAN THEATER),SINGLING-BINING,GER 25TH PZ GR DIV(-)(+),Germany,COL BURMEISTER,
+1001,482,1,WORLD WAR II (EUROPEAN THEATER),SINGLING-BINING,US 4TH ARMD DIV(-)(+),USA,MG GAFFEY,http://en.wikipedia.org/wiki/Hugh_Joseph_Gaffey
+1002,483,0,WORLD WAR II (EUROPEAN THEATER),SAUER RIVER,"US 12TH INF RGT, 4TH INF DIV(+)",USA,MG BARTON,
+1003,483,1,WORLD WAR II (EUROPEAN THEATER),SAUER RIVER,GER 212TH VOLKSGRENADIER DIV,Germany,MG SENSFUSS,
+1004,484,0,WORLD WAR II (EUROPEAN THEATER),ST. VITH,"US COMBAT COMMAND 'B', 7TH ARMD DIV(+)",USA,BG HASBROUCK,?
+1005,484,1,WORLD WAR II (EUROPEAN THEATER),ST. VITH,GER 66TH CORPS(-),Germany,GEN LUCHT,
+1006,485,0,WORLD WAR II (EUROPEAN THEATER),BASTOGNE,US 10TH ARMD DIV(-)(+),USA,COL ROBERTS,?
+1007,485,1,WORLD WAR II (EUROPEAN THEATER),BASTOGNE,GER 67TH PZ CORPS (ELMS),Germany,GEN VON LUETTWITZ,
+1008,486,0,WORLD WAR II,SEDAN-MEUSE RIVER,FR 2ND ARMY(+),France,GEN BILLOTTE,
+1009,486,1,WORLD WAR II,SEDAN-MEUSE RIVER,GER 19TH PZ CORPS,Germany,GEN GUDERIAN,
+1010,487,0,WORLD WAR II,JITRA,BR 11TH INDIAN DIV,Great Britain,MG MURRAY-LYON,
+1011,487,1,WORLD WAR II,JITRA,JAP 5TH INF DIV(-),Japan,LG MATSUI,
+1012,488,0,"WORLD WAR II, EASTERN FRONT",ROVNO,SOV SOUTHWESTERN AG(-),USSR,GEN KIRPONOS,
+1013,488,1,"WORLD WAR II, EASTERN FRONT",ROVNO,GER 1ST PZ GROUP,Germany,GEN VON KLEIST,
+1014,489,0,"WORLD WAR II, EASTERN FRONT",DEFENSE OF MOSCOW,SOV WESTERN AG(+),USSR,MARSHAL STALIN,
+1015,489,1,"WORLD WAR II, EASTERN FRONT",DEFENSE OF MOSCOW,GER AG CENTER,Germany,FM VON BOCK,
+1016,490,0,"WORLD WAR II, EASTERN FRONT",MOSCOW COUNTEROFFENSIVE,GER AG CENTER,Germany,FM VON BOCK,
+1017,490,1,"WORLD WAR II, EASTERN FRONT",MOSCOW COUNTEROFFENSIVE,SOV KALININ AG(+),USSR,MARSHAL STALIN,
+1018,491,0,"WORLD WAR II, EASTERN FRONT",POGORELOYE GORODISHCHE,GER 9TH ARMY,Germany,GEN MODEL,
+1019,491,1,"WORLD WAR II, EASTERN FRONT",POGORELOYE GORODISHCHE,SOV 20TH COMBINED ARMS ARMY,USSR,GEN REYTER,
+1020,492,0,"WORLD WAR II, EASTERN FRONT",LENINGRAD (OPERATION SPARK),GER 18TH ARMY(-),Germany,GEN LINDEMANN,
+1021,492,1,"WORLD WAR II, EASTERN FRONT",LENINGRAD (OPERATION SPARK),SOV 2ND ASSAULT ARMY(+),USSR,GEN ROMANOVSKIY,
+1022,493,0,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE I),SOV 6TH GUARDS ARMY,USSR,GEN CHISTYAKOV,
+1023,493,1,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE I),GER 48TH PZ CORPS,Germany,GEN KNOBELSDORFF,
+1024,494,0,"WORLD WAR II, EASTERN FRONT",OPERATION CITADEL (SOUTHERN SECTOR),SOV 6TH & 7TH GDS ARMIES,USSR,LG CHISTYAKOV,
+1025,494,1,"WORLD WAR II, EASTERN FRONT",OPERATION CITADEL (SOUTHERN SECTOR),GER 4TH PZ ARMY,Germany,GEN HOTH,
+1026,495,0,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE II),SOV 6TH GDS ARMY(+),USSR,GEN CHISTYAKOV,
+1027,495,1,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE II),GER 48TH PZ CORPS,Germany,GEN KNOBELSDORFF,
+1028,496,0,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE III),SOV 6TH GDS ARMY(+),USSR,GEN CHISTYAKOV,
+1029,496,1,"WORLD WAR II, EASTERN FRONT",OBOYAN-KURSK (PHASE III),GER 48TH PZ CORPS,Germany,GEN KNOBELSDORFF,
+1030,497,0,"WORLD WAR II, EASTERN FRONT",PROKHOROVKA,GER 2ND SS PZ CORPS,Germany,GEN HAUSSER,
+1031,497,1,"WORLD WAR II, EASTERN FRONT",PROKHOROVKA,SOV STEPPE ARMY GROUP,USSR,GEN KONEV,
+1032,498,0,"WORLD WAR II, EASTERN FRONT",KURSK COUNTEROFFENSIVE (SOUTHERN SECTOR),GER 4TH PZ ARMY(+),Germany,GEN HOTH,
+1033,498,1,"WORLD WAR II, EASTERN FRONT",KURSK COUNTEROFFENSIVE (SOUTHERN SECTOR),SOV VORONEZH AG(+),USSR,GEN VATUTIN,
+1034,499,0,"WORLD WAR II, EASTERN FRONT",BELGOROD,GER 167TH INF DIV,Germany,LG TRIERENBERG,
+1035,499,1,"WORLD WAR II, EASTERN FRONT",BELGOROD,SOV 53RD ARMY,USSR,GEN MANAGOROV,
+1036,500,0,"WORLD WAR II, EASTERN FRONT",MELITOPOL,GER 6TH FIELD ARMY,Germany,GEN HOLLIDT,
+1037,500,1,"WORLD WAR II, EASTERN FRONT",MELITOPOL,SOV 4TH UKRANIAN AG,USSR,GEN TOLBUKHIN,
+1038,501,0,"WORLD WAR II, EASTERN FRONT",KORSUN-SCHEVCHENKOVSKIY,GER 1ST PZ ARMY(-)(+),Germany,GEN STEMMERMAN,
+1039,501,1,"WORLD WAR II, EASTERN FRONT",KORSUN-SCHEVCHENKOVSKIY,SOV FIRST UKRAINIAN AG(+),USSR,GEN VATUTIN,
+1040,502,0,"WORLD WAR II, EASTERN FRONT",NIKOPOL BRIDGEHEAD,GER 335TH INF DIV(+),Germany,,
+1041,502,1,"WORLD WAR II, EASTERN FRONT",NIKOPOL BRIDGEHEAD,SOV 109TH RIFLE DIV(+),USSR,,
+1042,503,0,"WORLD WAR II, EASTERN FRONT",SEVASTOPOL,GER 17TH FIELD ARMY,Germany,GEN ALLMENDINGER,
+1043,503,1,"WORLD WAR II, EASTERN FRONT",SEVASTOPOL,SOV 4TH UKRANIAN AG,USSR,GEN TOLBUKHIN,
+1044,504,0,"WORLD WAR II, EASTERN FRONT",BEREZINA RIVER,GER 299TH INF DIV(+),Germany,,
+1045,504,1,"WORLD WAR II, EASTERN FRONT",BEREZINA RIVER,SOV 3RD GDS MECH CORPS,USSR,LG OBUKHOV,
+1046,505,0,"WORLD WAR II, EASTERN FRONT",LVOV-SANDOMIERZ,GER AG NORTHERN UKRAINE,Germany,GEN HARPE,
+1047,505,1,"WORLD WAR II, EASTERN FRONT",LVOV-SANDOMIERZ,SOV 1ST UKRAINIAN AG,USSR,MARSHAL KONEV,
+1048,506,0,"WORLD WAR II, EASTERN FRONT",BRODY (PHASE I),GER 913TH INF RGT(+),Germany,,
+1049,506,1,"WORLD WAR II, EASTERN FRONT",BRODY (PHASE I),SOV 15TH RIFLE CORPS,USSR,MG TERTISHNIY,
+1050,507,0,"WORLD WAR II, EASTERN FRONT",BRODY (PHASE II),GER 349TH INF DIV(+),Germany,,
+1051,507,1,"WORLD WAR II, EASTERN FRONT",BRODY (PHASE II),SOV 15TH RIFLE CORPS,USSR,MG TERTISHNIY,
+1052,508,0,"WORLD WAR II, EASTERN FRONT","VISTULA RIVER, CROSSING, PHASE I","GER 171ST, 214TH & 26TH INF DIVS",Germany,,
+1053,508,1,"WORLD WAR II, EASTERN FRONT","VISTULA RIVER, CROSSING, PHASE I",SOV 91ST RIFLE CORPS,USSR,MG VOLKOV,
+1054,509,0,"WORLD WAR II, EASTERN FRONT","VISTULA RIVER, PULAWY, PHASE II","GER 171ST, 214TH & 17TH INF DIVS",Germany,,
+1055,509,1,"WORLD WAR II, EASTERN FRONT","VISTULA RIVER, PULAWY, PHASE II",SOV 91ST RIFLE CORPS,USSR,MG VOLKOV,
+1056,510,0,"WORLD WAR II, EASTERN FRONT",YASSY-KISHINEV OPERATION,GER & ROM AG SOUTHERN UKRAINE,Germany,GEN FRIESSNER,
+1057,510,1,"WORLD WAR II, EASTERN FRONT",YASSY-KISHINEV OPERATION,SOV 2ND AG(+),USSR,GEN MALINOVSKY,
+1058,511,0,"WORLD WAR II, EASTERN FRONT",VISTULA-ODER,GER AG 'A',Germany,GFM HARPE,
+1059,511,1,"WORLD WAR II, EASTERN FRONT",VISTULA-ODER,SOV 1ST BYELORUSSIAN AG(+),USSR,MARSHAL ZHUKOV,
+1060,512,0,"WORLD WAR II, EASTERN FRONT",EAST PRUSSIA,GER AG CENTER,Germany,GEN REINHARDT,
+1061,512,1,"WORLD WAR II, EASTERN FRONT",EAST PRUSSIA,SOV 2ND BYELORUSSIAN AG(+),USSR,MARSHAL ROKOSSOVSKIY,
+1062,513,0,"WORLD WAR II, EASTERN FRONT",CIECHANOW (PHASE I),GER 7TH INF DIV,Germany,,
+1063,513,1,"WORLD WAR II, EASTERN FRONT",CIECHANOW (PHASE I),SOV 90TH RIFLE DIV,USSR,GEN LYASHCHENKO,
+1064,514,0,"WORLD WAR II, EASTERN FRONT",CIECHANOW (PHASE II),GER 7TH INF DIV,Germany,,
+1065,514,1,"WORLD WAR II, EASTERN FRONT",CIECHANOW (PHASE II),SOV 90TH RIFLE DIV,USSR,GEN LYASHCHENKO,
+1066,515,0,"WORLD WAR II, EASTERN FRONT",SEELOW HEIGHTS,GER 303RD INF RGT(+),Germany,,
+1067,515,1,"WORLD WAR II, EASTERN FRONT",SEELOW HEIGHTS,SOV 57TH GDS RIFLE DIV(+),USSR,MG ZALIZYUK,
+1068,516,0,"WORLD WAR II, EASTERN FRONT",MUTANKIANG,JAP 5TH ARMY,Japan,GEN SELICHI,
+1069,516,1,"WORLD WAR II, EASTERN FRONT",MUTANKIANG,SOV 5TH COMBINED ARMS ARMY,USSR,COL GEN KRYLOV,
+1070,517,0,"WORLD WAR II (PACIFIC, 1943-1945)",TARAWA-BETIO,JAP GILBERT ISLANDS GARRISON FORCE(-),Japan,ADM SHIBASAKI,
+1071,517,1,"WORLD WAR II (PACIFIC, 1943-1945)",TARAWA-BETIO,US 2ND MAR DIV(-),USA,MG SMITH,
+1072,518,0,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - INTO THE MAIN DEFENSES,JAP 2ND IND MIXED BDE(+),Japan,GEN KURIBAYASHI,
+1073,518,1,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - INTO THE MAIN DEFENSES,US 5TH AMPH CORPS,USA,MG SCHMIDT,
+1074,519,0,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - SURIBACHI,JAP 2ND IND MIXED BDE(-)(+),Japan,GEN KURIBAYASHI,
+1075,519,1,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - SURIBACHI,US 28TH MAR RGT,USA,COL LIVERSEDGE,
+1076,520,0,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - FINAL PHASE,JAP CHICHI JIMA DEFENSE FORCE,Japan,GEN KURIBAYASHI,
+1077,520,1,"WORLD WAR II (PACIFIC, 1943-1945)",IWO JIMA - FINAL PHASE,US 3RD MAR DIV(+),USA,GEN SMITH,
+1078,521,0,"WORLD WAR II, OKINAWA",ADVANCE FROM THE BEACHHEAD,JAP 1ST SPEC ESTAB RGT,Japan,LCOL AOYANAGI,?
+1079,521,1,"WORLD WAR II, OKINAWA",ADVANCE FROM THE BEACHHEAD,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1080,522,0,"WORLD WAR II, OKINAWA",ADVANCE THROUGH THE OUTPOSTS,JAP 62ND DIV(-),Japan,LG FUJIOKA,?
+1081,522,1,"WORLD WAR II, OKINAWA",ADVANCE THROUGH THE OUTPOSTS,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1082,523,0,"WORLD WAR II, OKINAWA",TOMB HILL-OUKI,JAP 11TH IND INF BN(+),Japan,LG FUJIOKA,?
+1083,523,1,"WORLD WAR II, OKINAWA",TOMB HILL-OUKI,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1084,524,0,"WORLD WAR II, OKINAWA",SKYLINE RIDGE-ROCKY CRAGS,JAP 11TH IND INF BN(+),Japan,LG FUJIOKA,?
+1085,524,1,"WORLD WAR II, OKINAWA",SKYLINE RIDGE-ROCKY CRAGS,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1086,525,0,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA I,JAP 22ND INF RGT,Japan,LCOL YOSHIDA,?
+1087,525,1,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA I,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1088,526,0,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA II,JAP 22ND INF RGT,Japan,LCOL YOSHIDA,?
+1089,526,1,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA II,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1090,527,0,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA III,JAP 22ND INF RGT(+),Japan,LCOL YOSHIDA,?
+1091,527,1,"WORLD WAR II, OKINAWA",KOCHI RIDGE-ONAGA III,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1092,528,0,"WORLD WAR II, OKINAWA",JAPANESE COUNTERATTACK,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1093,528,1,"WORLD WAR II, OKINAWA",JAPANESE COUNTERATTACK,JAP 24TH DIV(-),Japan,LG AMAMIYA,?
+1094,529,0,"WORLD WAR II, OKINAWA",KOCHI RIDGE IV,JAP 24TH DIV(-),Japan,LG AMAMIYA,?
+1095,529,1,"WORLD WAR II, OKINAWA",KOCHI RIDGE IV,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1096,530,0,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE I),JAP 3RD SPEC ESTAB RGT(+),Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1097,530,1,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE I),US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1098,531,0,"WORLD WAR II, OKINAWA",JAPANESE COUNTERATTACKS,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1099,531,1,"WORLD WAR II, OKINAWA",JAPANESE COUNTERATTACKS,JAP 24TH DIV(-),Japan,LG AMAMIYA,?
+1100,532,0,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE II),JAP 24TH DIV(-)(+),Japan,LG AMAMIYA,?
+1101,532,1,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE II),US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1102,533,0,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE III),JAP 24TH DIV(-)(+),Japan,LG AMAMIYA,?
+1103,533,1,"WORLD WAR II, OKINAWA",SHURI ENVELOPMENT (PHASE III),US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1104,534,0,"WORLD WAR II, OKINAWA",HILL 95-I,JAP 44TH IND MIXED BDE(-),Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1105,534,1,"WORLD WAR II, OKINAWA",HILL 95-I,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1106,535,0,"WORLD WAR II, OKINAWA",HILL 95-II,JAP 44TH IND MIXED BDE,Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1107,535,1,"WORLD WAR II, OKINAWA",HILL 95-II,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1108,536,0,"WORLD WAR II, OKINAWA",YAEJU-DAKE,JAP 44TH IND MIXED BDE(-),Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1109,536,1,"WORLD WAR II, OKINAWA",YAEJU-DAKE,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1110,537,0,"WORLD WAR II, OKINAWA",HILLS 153 AND 115,JAP 44TH IND MIXED BDE(-),Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1111,537,1,"WORLD WAR II, OKINAWA",HILLS 153 AND 115,US 7TH INF DIV(+),USA,MG ARNOLD,http://en.wikipedia.org/wiki/Archibald_V._Arnold
+1112,538,0,"WORLD WAR II, OKINAWA",ADVANCE FROM THE BEACH,JAP 1ST SPEC EST RGT(-),Japan,LCOL AOYANAGI,?
+1113,538,1,"WORLD WAR II, OKINAWA",ADVANCE FROM THE BEACH,US 96TH DIV(+),USA,MG BRADLEY,?
+1114,539,0,"WORLD WAR II, OKINAWA",ADVANCE TO SHURI LINE OUTPOSTS,JAP 12TH IND INF BN(-)(+),Japan,LG FUJIOKA,?
+1115,539,1,"WORLD WAR II, OKINAWA",ADVANCE TO SHURI LINE OUTPOSTS,US 96TH DIV(+),USA,MG BRADLEY,?
+1116,540,0,"WORLD WAR II, OKINAWA",KAKAZU AND TOMBSTONE RIDGES,JAP 12TH IND INF BN(+),Japan,LG FUJIOKA,?
+1117,540,1,"WORLD WAR II, OKINAWA",KAKAZU AND TOMBSTONE RIDGES,US 96TH DIV(+),USA,MG BRADLEY,?
+1118,541,0,"WORLD WAR II, OKINAWA",NISHIBARU RIDGE-TANABARU ESCARPMENT,JAP 12TH IND INF BN(+),Japan,LG FUJIOKA,?
+1119,541,1,"WORLD WAR II, OKINAWA",NISHIBARU RIDGE-TANABARU ESCARPMENT,US 96TH DIV(+),USA,MG BRADLEY,?
+1120,542,0,"WORLD WAR II, OKINAWA",MAEDA ESCARPMENT,JAP 62ND DIV(-)(+),Japan,LG FUJIOKA,?
+1121,542,1,"WORLD WAR II, OKINAWA",MAEDA ESCARPMENT,US 96TH DIV(+),USA,MG BRADLEY,?
+1122,543,0,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK I,JAP 24TH INF DIV(-)(+),Japan,LG AMAMIYA,?
+1123,543,1,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK I,US 96TH DIV(+),USA,MG BRADLEY,?
+1124,544,0,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK II,JAP 24TH INF DIV(-)(+),Japan,LG AMAMIYA,?
+1125,544,1,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK II,US 96TH DIV(+),USA,MG BRADLEY,?
+1126,545,0,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK III,JAP 24TH INF DIV(+),Japan,LG AMAMIYA,?
+1127,545,1,"WORLD WAR II, OKINAWA",ATTACK ON SHURI LINE'S EASTERN FLANK III,US 96TH DIV(+),USA,MG BRADLEY,?
+1128,546,0,"WORLD WAR II, OKINAWA",ADVANCE TO YUZA-DAKE/YAEJU-DAKE ESCARPMENT,JAP 24TH INF DIV(-),Japan,LG AMAMIYA,?
+1129,546,1,"WORLD WAR II, OKINAWA",ADVANCE TO YUZA-DAKE/YAEJU-DAKE ESCARPMENT,US 96TH DIV(+),USA,MG BRADLEY,?
+1130,547,0,"WORLD WAR II, OKINAWA",ATTACK ON YUZA-DAKE/YAEJU-DAKE ESCARPMENT,JAP 24TH INF DIV(-),Japan,LG AMAMIYA,?
+1131,547,1,"WORLD WAR II, OKINAWA",ATTACK ON YUZA-DAKE/YAEJU-DAKE ESCARPMENT,US 96TH DIV(+),USA,MG BRADLEY,?
+1132,548,0,"WORLD WAR II, OKINAWA",CAPTURE OF YUZA-DAKE/YAEJU-DAKE ESCARPMENT,JAP 44TH IND MIXED BDE(-)(+),Japan,LG USHIJIMA,http://en.wikipedia.org/wiki/Mitsuru_Ushijima
+1133,548,1,"WORLD WAR II, OKINAWA",CAPTURE OF YUZA-DAKE/YAEJU-DAKE ESCARPMENT,US 96TH DIV(+),USA,MG BRADLEY,?
+1134,549,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JENIN,JOR 25TH INF BDE,Jordan,LCOL EL KHALIDI,?
+1135,549,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JENIN,IS PELED ARMD DIV(-),Israel,BG PELED,http://en.wikipedia.org/wiki/Elad_Peled
+1136,550,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JERUSALEM,JOR 27TH INF BDE (JERUSALEM BDE)(+),Jordan,BG ATA AL,?
+1137,550,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JERUSALEM,IS GUR PARA BDE(+),Israel,BG NARKISS,http://en.wikipedia.org/wiki/Uzi_Narkiss
+1138,551,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",KABATIYA,JOR 40TH ARMD BDE(-)(+),Jordan,LCOL EL KHALIDI,?
+1139,551,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",KABATIYA,IS BAR KOCHVA'S ARMD BDE(+),Israel,BG PELED,http://en.wikipedia.org/wiki/Elad_Peled
+1140,552,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",TILFIT-ZABABIDA,JOR 40TH ARMD BDE(-)(+),Jordan,LCOL EL KHALIDI,?
+1141,552,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",TILFIT-ZABABIDA,IS RAM ARMD BDE,Israel,COL RAM,?
+1142,553,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",NABLUS,JOR 25TH INF BDE,Jordan,LCOL EL KHALIDI,?
+1143,553,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",NABLUS,IS PELED ARMD DIV,Israel,BG PELED,http://en.wikipedia.org/wiki/Elad_Peled
+1144,554,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",RAFAH,EG 7TH INF DIV(+),Egypt,MG SOLIMAN,http://en.wikipedia.org/wiki/Mohamed_Hussein_Tantawi
+1145,554,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",RAFAH,IS TAL DIV,Israel,BG TAL,http://en.wikipedia.org/wiki/Israel_Tal
+1146,555,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR LAHFAN,EG 3RD INF DIV,Egypt,MG NASSER,http://en.wikipedia.org/wiki/Gamal_Abdel_Nasser
+1147,555,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR LAHFAN,IS YOFFE DIV,Israel,BG YOFFE,http://en.wikipedia.org/wiki/Avraham_Yoffe
+1148,556,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",ABU AGEILA-UM KATEF,EG 2ND INF DIV,Egypt,MG NAGUIB,?
+1149,556,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",ABU AGEILA-UM KATEF,IS SHARON DIV,Israel,BG SHARON,http://en.wikipedia.org/wiki/Ariel_Sharon
+1150,557,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",EL ARISH,EG 7TH INF DIV(-),Egypt,MG SOLIMAN,http://en.wikipedia.org/wiki/Mohamed_Hussein_Tantawi
+1151,557,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",EL ARISH,IS TAL DIV(-),Israel,BG TAL,http://en.wikipedia.org/wiki/Israel_Tal
+1152,558,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JEBEL LIBNI,EG 3RD INF DIV(-),Egypt,MG NASSER,http://en.wikipedia.org/wiki/Gamal_Abdel_Nasser
+1153,558,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",JEBEL LIBNI,IS YOFFE DIV(-)(+),Israel,BG YOFFE,http://en.wikipedia.org/wiki/Avraham_Yoffe
+1154,559,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",GAZA STRIP,PALES 20TH PLA DIV(+),Palestine,MG HASNI,?
+1155,559,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",GAZA STRIP,IS RESHEF TASK FORCE,Israel,BG TAL,http://en.wikipedia.org/wiki/Israel_Tal
+1156,560,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR HASSNA-BIR THAMADA,EG 3RD INF DIV,Egypt,MG GHOUL,?
+1157,560,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR HASSNA-BIR THAMADA,IS YOFFE DIV,Israel,BG YOFFE,http://en.wikipedia.org/wiki/Avraham_Yoffe
+1158,561,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",MITLA PASS,IS YOFFE DIV(-),Israel,BG YOFFE,http://en.wikipedia.org/wiki/Avraham_Yoffe
+1159,561,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",MITLA PASS,EG 3RD INF DIV(+),Egypt,,
+1160,562,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR HAMMA-BIR GIFGAFA,EG 3RD INF DIV & 4TH ARMD DIV(-),Egypt,MG GHOUL,?
+1161,562,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR HAMMA-BIR GIFGAFA,IS TAL DIV,Israel,BG TAL,http://en.wikipedia.org/wiki/Israel_Tal
+1162,563,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",NAKHL,EG 6TH MECH DIV,Egypt,MG HASSAN,?
+1163,563,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",NAKHL,IS SHARON DIV,Israel,BG SHARON,http://en.wikipedia.org/wiki/Ariel_Sharon
+1164,564,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR GIFGAFA,IS TAL DIV,Israel,COL GONEN,http://en.wikipedia.org/wiki/Shmuel_Gonen
+1165,564,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",BIR GIFGAFA,EG ARMD BDE,Egypt,,
+1166,565,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",TEL FAHAR-BANIAS,SYR 11TH INF BDE(+),Syria,COL AMIR,?
+1167,565,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",TEL FAHAR-BANIAS,IS GOLANI BDE,Israel,COL EFRAT,?
+1168,566,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",RAWIYEH,SYR 8TH INF BDE(+),Syria,BG TAYAN,?
+1169,566,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",RAWIYEH,IS RAM BDE,Israel,COL RAM,?
+1170,567,0,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",ZAOURA-KALA,SYR 11TH INF BDE(+),Syria,COL AMIR,?
+1171,567,1,"ARAB-ISRAELI WAR, 1967 (SIX-DAY WAR)",ZAOURA-KALA,IS MENDLER'S BDE,Israel,COL MENDLER,http://en.wikipedia.org/wiki/Albert_Mandler
+1172,568,0,"ARAB-ISRAELI WAR, 1968",KERAMA,JOR 1ST INF DIV,Jordan,MG HADITHA,?
+1173,568,1,"ARAB-ISRAELI WAR, 1968",KERAMA,IS GONEN TASK FORCE,Israel,BG GONEN,http://en.wikipedia.org/wiki/Shmuel_Gonen
+1174,569,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","SUEZ CANAL ASSAULT, NORTH",IS SINAI DEF FORCE,Israel,MG MENDLER,http://en.wikipedia.org/wiki/Albert_Mandler
+1175,569,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","SUEZ CANAL ASSAULT, NORTH",EG 2ND ARMY,Egypt,MG MAMOUN,http://en.wikipedia.org/wiki/Saad_Mamoun
+1176,570,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","SUEZ CANAL ASSAULT, SOUTH",IS SINAI DEF FORCE,Israel,MG MENDLER,http://en.wikipedia.org/wiki/Albert_Mandler
+1177,570,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","SUEZ CANAL ASSAULT, SOUTH",EG 3RD ARMY,Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1178,571,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SECOND ARMY BUILDUP,IS SINAI DEF FORCE,Israel,MG MENDLER,http://en.wikipedia.org/wiki/Albert_Mandler
+1179,571,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SECOND ARMY BUILDUP,EG 2ND ARMY,Egypt,MG MAMOUN,http://en.wikipedia.org/wiki/Saad_Mamoun
+1180,572,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",THIRD ARMY BUILDUP,IS SINAI DEF FORCE,Israel,MG MENDLER,http://en.wikipedia.org/wiki/Albert_Mandler
+1181,572,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",THIRD ARMY BUILDUP,EG 3RD ARMY,Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1182,573,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KANTARA-FIRDAN,EG 2ND ARMY,Egypt,MG MAMOUN,http://en.wikipedia.org/wiki/Saad_Mamoun
+1183,573,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KANTARA-FIRDAN,IS ADAN DIV,Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1184,574,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","EGYPTIAN OFFENSIVE, NORTH",IS SASSON FORCE & SHARON DIV,Israel,MG GONEN,http://en.wikipedia.org/wiki/Shmuel_Gonen
+1185,574,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","EGYPTIAN OFFENSIVE, NORTH",EG 2ND ARMY,Egypt,MG MAMOUN,http://en.wikipedia.org/wiki/Saad_Mamoun
+1186,575,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","EGYPTIAN OFFENSIVE, SOUTH",IS MAGEN DIV(-)(+),Israel,BG MAGEN,?
+1187,575,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)","EGYPTIAN OFFENSIVE, SOUTH",EG 3RD ARMY,Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1188,576,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR (CHINESE FARM I),EG 16TH DIV(1/2) & 21ST DIV(1/2),Egypt,BG HAFIZ,?
+1189,576,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR (CHINESE FARM I),EG 16TH DIV(1/2) & 21ST DIV(1/2),Egypt,BG OWBY,
+1190,576,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR (CHINESE FARM I),IS SHARON DIV,Israel,MG SHARON,http://en.wikipedia.org/wiki/Ariel_Sharon
+1191,577,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR (CHINESE FARM II),EG 16TH DIV(-)(+),Egypt,BG HAFIZ,?
+1192,577,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR (CHINESE FARM II),IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1193,578,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR WEST,EG 2ND ARMY(-),Egypt,MG KALIL,http://en.wikipedia.org/wiki/Abd-Al-Minaam_Khaleel
+1194,578,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",DEVERSOIR WEST,IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1195,579,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ISMAILIA,EG 2ND ARMY(-),Egypt,MG KALIL,http://en.wikipedia.org/wiki/Abd-Al-Minaam_Khaleel
+1196,579,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ISMAILIA,IS SHARON DIV,Israel,MG SHARON,http://en.wikipedia.org/wiki/Ariel_Sharon
+1197,580,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",JEBEL GENEIFA,EG 3RD ARMY(-),Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1198,580,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",JEBEL GENEIFA,IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1199,581,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SHALLUFA I,EG 3RD ARMY(-),Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1200,581,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SHALLUFA I,IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1201,582,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SHALLUFA II,EG 3RD ARMY(-),Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1202,582,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SHALLUFA II,IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1203,583,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SUEZ,EG 3RD ARMY(-),Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1204,583,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",SUEZ,IS ADAN DIV(+),Israel,MG ADAN,http://en.wikipedia.org/wiki/Avraham_Adan
+1205,584,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ADABIYA,EG 3RD ARMY(-),Egypt,MG WASSEL,http://en.wikipedia.org/wiki/Abdul_Munim_Wassel
+1206,584,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ADABIYA,IS MAGEN DIV,Israel,BG MAGEN,?
+1207,585,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KUNEITRA,IS 7TH ARMD BDE(-)(+),Israel,COL BEN GAL,http://en.wikipedia.org/wiki/Avigdor_Ben-Gal
+1208,585,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KUNEITRA,SYR 9TH INF DIV(+),Syria,COL TOURKMANI,?
+1209,586,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",AHMADIYEH,IS 7TH ARMD BDE(-)(+),Israel,COL BEN GAL,http://en.wikipedia.org/wiki/Avigdor_Ben-Gal
+1210,586,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",AHMADIYEH,SYR 7TH INF DIV(+),Syria,BG ABRASH,?
+1211,587,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",RAFID,IS 188TH ARMD BDE(-)(+),Israel,COL BEN SHOHAM,?
+1212,587,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",RAFID,SYR 5TH INF DIV(+),Syria,BG ASLAN,?
+1213,588,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",YEHUDA-EL AL,IS 240TH ARMD DIV,Israel,MG LANER,?
+1214,588,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",YEHUDA-EL AL,SYR 5TH INF DIV(+),Syria,BG ASLAN,?
+1215,589,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",NAFEKH,IS 79TH ARMD BDE(+),Israel,COL OR,?
+1216,589,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",NAFEKH,SYR 1ST ARMD DIV,Syria,COL JUHNI,?
+1217,590,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL FARRIS,SYR 5TH INF DIV(+),Syria,BG ASLAN,?
+1218,590,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL FARRIS,IS 146TH ARMD DIV(+),Israel,MG PELED,http://en.wikipedia.org/wiki/Elad_Peled
+1219,591,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",HUSHNIYAH,SYR 9TH INF DIV(-)(+),Syria,COL TOURKMANI,?
+1220,591,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",HUSHNIYAH,IS 240TH ARMD DIV(-)(+),Israel,MG LANER,?
+1221,592,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMONIT,IS 7TH ARMD BDE(+),Israel,COL BEN GAL,http://en.wikipedia.org/wiki/Avigdor_Ben-Gal
+1222,592,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMONIT,SYR 7TH INF DIV(+),Syria,BG ABRASH,?
+1223,593,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON I,SYR PARA BDE(-),Syria,,?
+1224,593,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON I,IS GOLANI BDE(-),Israel,COL DRORI,http://en.wikipedia.org/wiki/Amir_Drori
+1225,594,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL SHAMS,SYR 7TH INF DIV(-)(+),Syria,BG BERAKDAR,?
+1226,594,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL SHAMS,IS 36TH MECH DIV,Israel,BG EITAN,?
+1227,595,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL SHAAR,SYR 1ST ARMD DIV(+),Syria,COL JUHNI,?
+1228,595,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL SHAAR,IS 240TH ARMD DIV,Israel,MG LANER,?
+1229,596,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL EL HARA,IS 240TH ARMD DIV,Israel,MG LANER,?
+1230,596,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",TEL EL HARA,IR 3RD ARMD DIV,Iraq,BG LAFTA,?
+1231,597,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KFAR SHAMS-TEL ANTAR,IS 3RD ARMD DIV,Israel,BG LAFTA,?
+1232,597,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",KFAR SHAMS-TEL ANTAR,IS 240TH ARMD DIV(-),Israel,MG LANER,?
+1233,598,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",NABA,IS 240TH ARMD DIV,Israel,MG LANER,?
+1234,598,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",NABA,JOR 40TH ARMD BDE(+),Jordan,BG EL MAJALI,?
+1235,599,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ARAB COUNTEROFFENSIVE,IS 146TH ARMD DIV,Israel,MG PELED,http://en.wikipedia.org/wiki/Elad_Peled
+1236,599,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",ARAB COUNTEROFFENSIVE,SYR 9TH INF DIV(-)(+),Syria,COL TOURKMANI,?
+1237,600,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON II,SYR PARA BDE,Syria,,?
+1238,600,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON II,IS GOLANI BDE,Israel,COL DRORI,http://en.wikipedia.org/wiki/Amir_Drori
+1239,601,0,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON III,SYR PARA BDE,Syria,,?
+1240,601,1,"ARAB-ISRAELI WAR, 1973 (OCTOBER WAR)",MOUNT HERMON III,IS GOLANI BDE(+),Israel,COL DRORI,http://en.wikipedia.org/wiki/Amir_Drori
+1241,602,0,WORLD WAR II,SIDI BOU ZID I,"US CCA, 1ST ARM DIV (+)",USA,BG MCQUILLION,
+1242,602,1,WORLD WAR II,SIDI BOU ZID I,GER ELMS 10TH AND 21ST PNZR DIV,Germany,GEN ZIEGLER,http://en.wikipedia.org/wiki/Heinz_Ziegler
+1243,603,0,WORLD WAR II,SIDI BOU ZID II,GER ELMS 10TH AND 21ST PD,Germany,GEN ZIEGLER,http://en.wikipedia.org/wiki/Heinz_Ziegler
+1244,603,1,WORLD WAR II,SIDI BOU ZID II,"US CC C, 1ST ARMD DIV",USA,COL STACK,
+1245,604,0,WORLD WAR II,KASSERINE PASS,US 26TH RCT (-)(+),USA,COL STARK,
+1246,604,1,WORLD WAR II,KASSERINE PASS,GER AFRIKA KORPS (-),Germany,FM ROMMEL,http://en.wikipedia.org/wiki/Erwin_Rommel
+1247,605,0,WORLD WAR II,RAPIDO NORTH I,"GER 1ST/129TH PGR, 15TH PGD",Germany,GEN RODT,http://en.wikipedia.org/wiki/Eberhard_Rodt
+1248,605,1,WORLD WAR II,RAPIDO NORTH I,"US 141ST RCT (+), 36TH INF DIV",USA,COL WYATT,
+1249,606,0,WORLD WAR II,RAPIDO NORTH II,"GER 1ST/129TH PGR, 15TH PGD",Germany,GEN RODT,http://en.wikipedia.org/wiki/Eberhard_Rodt
+1250,606,1,WORLD WAR II,RAPIDO NORTH II,"US 141ST RCT (+), 36TH INF DIV",USA,COL WYATT,
+1251,607,0,WORLD WAR II,RAPIDO SOUTH I,"GER 3RD/104TH PGR, 15TH PGD",Germany,GEN RODT,http://en.wikipedia.org/wiki/Eberhard_Rodt
+1252,607,1,WORLD WAR II,RAPIDO SOUTH I,"US 143RD RCT (+), 36TH INF DIV",USA,COL MARTIN,
+1253,608,0,WORLD WAR II,RAPIDO SOUTH II,"GER 3RD/104TH PGR, 15TH PGD",Germany,GEN RODT,http://en.wikipedia.org/wiki/Eberhard_Rodt
+1254,608,1,WORLD WAR II,RAPIDO SOUTH II,"US 143RD RCT (+), 36TH INF DIV",USA,COL MARTIN,
+1255,609,0,WORLD WAR II,BOWLING ALLEY I,"US 2ND/157TH INF (+), 45TH ID",USA,COL BROWN,
+1256,609,1,WORLD WAR II,BOWLING ALLEY I,GER LXXVI PNZ CORPS (-),Germany,GEN MACKENSON,
+1257,610,0,WORLD WAR II,BOWLING ALLEY II,"US 179TH INF (-)(+), 45TH ID",USA,COL KAMMERER,
+1258,610,1,WORLD WAR II,BOWLING ALLEY II,GER LXXVI PNZ CORPS (-),Germany,GEN MACKENSON,
+1259,611,0,WORLD WAR II,BOWLING ALLEY III,"US 180TH INF (-)(+), 45TH ID",USA,COL DULANEY,
+1260,611,1,WORLD WAR II,BOWLING ALLEY III,GER LXXVI PNZ CORPS (-),Germany,GEN MACKENSON,
+1261,612,0,WORLD WAR II,MORTAIN I,"US 117TH INF (-)(+), 30TH ID",USA,COL JOHNSON,
+1262,612,1,WORLD WAR II,MORTAIN I,GER ELMS 1ST SS AND 2ND PNZ DIVS,Germany,GEN LUETTWITZ,
+1263,613,0,WORLD WAR II,MORTAIN II,"US 120TH INF (-)(+), 30TH ID",USA,COL BIRKS,
+1264,613,1,WORLD WAR II,MORTAIN II,GER ELMS 2ND SS PD AND 17TH SS PGD,Germany,COL BAUM,
+1265,614,0,WORLD WAR II,SCHMIDT I,GER LXXIV CORPS (-),Germany,GEN STRAUBE,http://en.wikipedia.org/wiki/Erich_Straube
+1266,614,1,WORLD WAR II,SCHMIDT I,"US 112TH INF (+), 28TH ID",USA,COL PETERSON,
+1267,615,0,WORLD WAR II,SCHMIDT II,GER LXXIV CORPS (-),Germany,GEN STRAUBE,http://en.wikipedia.org/wiki/Erich_Straube
+1268,615,1,WORLD WAR II,SCHMIDT II,"US 110TH INF (+), 28TH ID",USA,COL SEELY,
+1269,616,0,WORLD WAR II,SCHMIDT III,GER LXXIV CORPS (-),Germany,GEN STRAUBE,http://en.wikipedia.org/wiki/Erich_Straube
+1270,616,1,WORLD WAR II,SCHMIDT III,"US 109TH INF (+), 28TH ID",USA,COL STRICKLER,
+1271,617,0,WORLD WAR II,WAHLERSCHEID,GER LXXIV CORPS (-),Germany,,
+1272,617,1,WORLD WAR II,WAHLERSCHEID,"US 9TH INF(+), 2ND ID",USA,COL HIRSCHFELDER,
+1273,618,0,WORLD WAR II,KRINKELT-ROCHERATH I,"US 3RD/23RD INF, 2ND ID",USA,COL TUTTLE,
+1274,618,1,WORLD WAR II,KRINKELT-ROCHERATH I,GER 12TH SS PNZDIV (-)(+),Germany,COL KRAAS,
+1275,619,0,WORLD WAR II,KRINKELT-ROCHERATH II,"US 38TH INF (-)(+), 2ND ID",USA,COL BOOS,
+1276,619,1,WORLD WAR II,KRINKELT-ROCHERATH II,GER 12TH SS PNZDIV (-)(+),Germany,COL KRAAS,
+1277,620,0,WORLD WAR II,SCHNEE EIFEL CENTER,"US 423RD INF, 106TH ID",USA,COL CAVENDER,
+1278,620,1,WORLD WAR II,SCHNEE EIFEL CENTER,"GER 293RD VGRGT, 18TH VGD",Germany,COL HOFFMAN-SCHONBORN,
+1279,621,0,WORLD WAR II,SCHNEE EIFEL SOUTH,"US 424TH INF (+), 106TH ID",USA,COL REID,
+1280,621,1,WORLD WAR II,SCHNEE EIFEL SOUTH,GER 62ND VGDIV (+),Germany,GEN KITTEL,
+1281,622,0,WORLD WAR II,SCHNEE EIFEL NORTH I,US 14TH CAV GRP (+),USA,COL DEVINE,
+1282,622,1,WORLD WAR II,SCHNEE EIFEL NORTH I,GER 18TH VGDIV (-)(+),Germany,COL HOFFMAN-SCHONBORN,
+1283,623,0,WORLD WAR II,SCHNEE EIFEL NORTH II,"US 422ND INF, (-)(+), 106TH ID",USA,COL DESCHENNEUX,
+1284,623,1,WORLD WAR II,SCHNEE EIFEL NORTH II,GER 18TH VGDIV (-)(+),Germany,COL HOFFMAN-SCHONBORN,
+1285,624,0,WORLD WAR II,OUR RIVER CENTER,"US 11OTH INF (-)(+), 28TH ID",USA,COL FULLER,
+1286,624,1,WORLD WAR II,OUR RIVER CENTER,GER XLVII PNZ CORPS,Germany,GEN LUETTWITZ,
+1287,625,0,WORLD WAR II,OUR RIVER NORTH,"US 112TH INF (+), 28TH ID",USA,COL NELSON,
+1288,625,1,WORLD WAR II,OUR RIVER NORTH,GER LVIII PNZ CORPS,Germany,GEN KRUEGER,
+1289,626,0,KOREAN WAR,PUSAN PERIMETER,US DIV,USA,,
+1290,626,1,KOREAN WAR,PUSAN PERIMETER,NKOR CORP,North Korea,,
+1291,627,0,KOREAN WAR,PUSAN BREAKOUT,NKOR CORP,North Korea,,
+1292,627,1,KOREAN WAR,PUSAN BREAKOUT,US DIV,USA,,
+1293,628,0,KOREAN WAR,NAM RIVER,NKOR ARMY,North Korea,,
+1294,628,1,KOREAN WAR,NAM RIVER,US DIV,USA,,
+1295,629,0,KOREAN WAR,KUNSON,NKOR ARMY,North Korea,,
+1296,629,1,KOREAN WAR,KUNSON,US DIV,USA,,
+1297,630,0,KOREAN WAR,BUTTE LINE,NKOR ARMY,North Korea,,
+1298,630,1,KOREAN WAR,BUTTE LINE,US DIV,USA,,
+1299,631,0,KOREAN WAR,HAN RIVER,NKOR ARMY,North Korea,,
+1300,631,1,KOREAN WAR,HAN RIVER,US DIV,USA,,
+1301,632,0,KOREAN WAR,CHAN RIVER,NKOR ARMY,North Korea,,
+1302,632,1,KOREAN WAR,CHAN RIVER,US DIV,USA,,
+1303,633,0,KOREAN WAR,PIERCE LINE,NKOR ARMY,North Korea,,
+1304,633,1,KOREAN WAR,PIERCE LINE,US DIV,USA,,
+1305,634,0,KOREAN WAR,KANSAS LINE,US DIV,USA,,
+1306,634,1,KOREAN WAR,KANSAS LINE,NKOR ARMY,North Korea,,
+1307,635,0,KOREAN WAR,IRON TRIANGLE,US DIV,USA,,
+1308,635,1,KOREAN WAR,IRON TRIANGLE,NKOR ARMY,North Korea,,
+1309,636,0,KOREAN WAR,BAYONETTE LINE,NKOR ARMY,North Korea,,
+1310,636,1,KOREAN WAR,BAYONETTE LINE,US DIV,USA,,
+1311,637,0,WORLD WAR II,TARGUL FRUMOS,GER DIV,Germany,,
+1312,637,1,WORLD WAR II,TARGUL FRUMOS,USSR ARMY,USSR,,
+1313,638,0,"ARAB-ISRAELI, 1948",MISHMAR HAYARDEN 1,IS RGT,Israel,,
+1314,638,1,"ARAB-ISRAELI, 1948",MISHMAR HAYARDEN 1,SYR RGT,Syria,,
+1315,639,0,"ARAB-ISRAELI, 1948",MISHMAR HAYARDEN 2,IS RGT,Israel,,
+1316,639,1,"ARAB-ISRAELI, 1948",MISHMAR HAYARDEN 2,SYR RGT,Syria,,
+1317,640,0,"ARAB-ISRAELI, 1948",HIRAM,SYR RGT,Syria,,
+1318,640,1,"ARAB-ISRAELI, 1948",HIRAM,IS DIV,Israel,,
+1319,641,0,"ARAB-ISRAELI, 1967",BANIAS-MASAADA,SYR RGT,Syria,,
+1320,641,1,"ARAB-ISRAELI, 1967",BANIAS-MASAADA,IS RGT,Israel,,
+1321,642,0,"ARAB-ISRAELI, 1967",BOUTMIYA,SYR DIV,Syria,,
+1322,642,1,"ARAB-ISRAELI, 1967",BOUTMIYA,IS DIV,Israel,,
+1323,643,0,"ARAB-ISRAELI, 1967",KUNEITRA,SYR DIV,Syria,,
+1324,643,1,"ARAB-ISRAELI, 1967",KUNEITRA,IS DIV,Israel,,
+1325,644,0,WORLD WAR II,TARTO-TIBER,GER DIV,Germany,,
+1326,644,1,WORLD WAR II,TARTO-TIBER,BRIT CORP,Great Britain,,
+1327,645,0,"ISRAEL-LEBANON, 1982",BEKKA VALLEY,SYR DIV,Syria,,
+1328,645,1,"ISRAEL-LEBANON, 1982",BEKKA VALLEY,IS CORP,Israel,,
+1329,646,0,"ARAB-ISRAELI, 1948",ACRE,EGY RGT,Egypt,,
+1330,646,1,"ARAB-ISRAELI, 1948",ACRE,IS RGT,Israel,,
+1331,647,0,"ARAB-ISRAELI, 1948",DEATH TO INVADER,EGY RGT,Egypt,,
+1332,647,1,"ARAB-ISRAELI, 1948",DEATH TO INVADER,IS RGT,Israel,,
+1333,648,0,"ARAB-ISRAELI, 1948",EL AUJA (AYIN),EGY DIV,Egypt,,
+1334,648,1,"ARAB-ISRAELI, 1948",EL AUJA (AYIN),IS DIV,Israel,,
+1335,649,0,"ARAB-ISRAELI, 1948",AGEILA-RAFAH (AYIN),EGY DIV,Egypt,,
+1336,649,1,"ARAB-ISRAELI, 1948",AGEILA-RAFAH (AYIN),IS DIV,Israel,,
+1337,650,0,"ARAB-ISRAELI, 1956",ABU AGELIA-UM KATEF,EGY RGT,Egypt,,
+1338,650,1,"ARAB-ISRAELI, 1956",ABU AGELIA-UM KATEF,IS DIV,Israel,,
+1339,651,0,"ARAB-ISRAELI, 1956",BIR RUD SALIM,EGY RGT,Egypt,,
+1340,651,1,"ARAB-ISRAELI, 1956",BIR RUD SALIM,IS RGT,Israel,,
+1341,652,0,"ARAB-ISRAELI, 1956",RAFAH-EL ARISH,EGY DIV,Egypt,,
+1342,652,1,"ARAB-ISRAELI, 1956",RAFAH-EL ARISH,IS DIV,Israel,,
+1343,653,0,"ARAB-ISRAELI, 1956",GAZA-KHAN YUNIS,EGY RGT,Egypt,,
+1344,653,1,"ARAB-ISRAELI, 1956",GAZA-KHAN YUNIS,IS RGT,Israel,,
+1345,654,0,VIET NAM,QUANG TRI,SVN DIV,South Vietnam,,
+1346,654,1,VIET NAM,QUANG TRI,NVN CORP,North Vietnam,,
+1347,655,0,"ARAB-ISRAELI, 1948",JERUSALEM (JEBUSSI),JOR RGT,Jordan,,
+1348,655,1,"ARAB-ISRAELI, 1948",JERUSALEM (JEBUSSI),IS RGT,Israel,,
+1349,656,0,"ARAB-ISRAELI, 1948",JERUSALEM CORRIDOR,JOR RGT,Jordan,,
+1350,656,1,"ARAB-ISRAELI, 1948",JERUSALEM CORRIDOR,IS DIV,Israel,,
+1351,657,0,WORLD WAR II,ARDENNES,FR ARMY,France,,
+1352,657,1,WORLD WAR II,ARDENNES,GER ARMY GRP,Germany,,
+1353,658,0,WORLD WAR II,CAMBRAI,FR DIV,France,,
+1354,658,1,WORLD WAR II,CAMBRAI,GER DIV,Germany,,
+1355,659,0,WORLD WAR II,ARRAS,GER RGT,Germany,,
+1356,659,1,WORLD WAR II,ARRAS,BRIT RGT,Great Britain,,
+1357,660,0,WORLD WAR II,BOOS,GER CO,Germany,,
+1358,660,1,WORLD WAR II,BOOS,FR CO,France,,

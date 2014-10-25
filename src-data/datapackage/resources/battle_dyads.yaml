@@ -8,12 +8,26 @@ schema:
     - id: isqno
       type: integer
     - id: attacker
-      type: boolean
-      description: Attacking actor.
-    - id: df
-      type: integer
-      description: Number of actor, for battle/belligerent combinations.
-    - id: actor
       type: string
-      description: Name of actor
+      description: Attacking actor.
+    - id: defender
+      type: integer
+      description: Defending actor.
+    - id: wt
+      type: number
+      description: >-
+        Weight to assign dyad: :math:`\frac{1}{\text{number of dyads}}`. 
+    - id: dyad
+      type: string
+      description: >-
+        Undirected dyad name. The dyad name consists of the names of the actors, ordered lexigraphically, and separated by a "|".
+    - id: direction
+      type: integer
+      description: >-
+        Equal to "1" if the first actor listed in the dyad is the attacker, and "-1" if the first actor in the dyad is the defender.
+    - id: primary
+      type: boolean
+      description: >-
+        True if the dyad is the dyad consisting of the actors listed first in the ``battles.actors`` column. Filter on this if only one dyad needs to be used per battle, and the weights.
+
   
