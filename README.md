@@ -1,5 +1,4 @@
-CDB13 Battle Dataset
-========================
+# CDB13 Battle Dataset
 
 Revised and cleaned version of the CDB90 database of battles.
 The description from Helmbold (1993):
@@ -15,8 +14,7 @@ The directory `src-data/M000121` contains the original data from CDB90; the dire
 
 This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/data-packages.html) standard.
 
-Usage
-================
+# Usage
 
 To rebuild the data and documentation
 ```
@@ -29,8 +27,7 @@ To create a ``sqlite3`` database with the data:
 $ python load-sqlite . cdb13.sqlite3
 ```
 
-Licenses
-================
+# Licenses
 
 - Code is [BSD-3](http://opensource.org/licenses/BSD-3-Clause) unless otherwise noted.
 - Data is [odc-by](http://opendatacommons.org/licenses/by/).
