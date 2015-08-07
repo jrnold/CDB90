@@ -415,13 +415,13 @@
           },
           {
             "description": "\nNew war classification. Follows the wars in COW for battles after 1816,  and the Wikipedia classification of wars for battles prior to that. Names are in the style of COW wars.\n",
-            "id": "cdb13_war",
+            "id": "war_new",
             "type": "string",
             "source": "Arnold"
           },
           {
             "description": "War theater. Only used for the larger wars.",
-            "id": "cdb13_theater",
+            "id": "theater_new",
             "type": "string",
             "source": "Arnold"
           },
@@ -618,7 +618,7 @@
             "type": "boolean"
           },
           {
-            "id": "cdb13_actors",
+            "id": "actors",
             "description": "Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by \" & \".",
             "type": "string"
           }
@@ -642,7 +642,7 @@
             "type": "boolean"
           },
           {
-            "id": "cdb13_actors",
+            "id": "actors",
             "description": "Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by \" & \".",
             "type": "string"
           },

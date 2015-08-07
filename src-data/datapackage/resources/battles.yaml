@@ -162,12 +162,12 @@ schema:
       and the Wikipedia classification of wars for battles prior to that.
       Names are in the style of COW wars.
 
-    id: cdb13_war
+    id: war4
     type: string
     source: Arnold
 
   - description: War theater. Only used for the larger wars.
-    id: cdb13_theater
+    id: war4_theater
     type: string
     source: Arnold
 

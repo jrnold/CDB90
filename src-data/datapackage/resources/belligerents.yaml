@@ -101,6 +101,7 @@ schema:
   - description: Attacker or defender in the battle
     id: attacker
     type: boolean
-  - id: cdb13_actors
+  - id: actors
     description: Actor(s), state or nonstate, of the belligerent.  If more than one actor, actors are separated by " & ".
     type: string
+    source: jrnold

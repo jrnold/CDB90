@@ -37,7 +37,12 @@ $ ./create_data.sh
 
 To create a ``sqlite3`` database with the data:
 ```
-$ python load-sqlite . cdb13.sqlite3
+$ python load-sqlite . cdb90.sqlite3
+```
+
+To run all those previous steps:
+```console
+$ ./build.sh
 ```
 
 # Licenses

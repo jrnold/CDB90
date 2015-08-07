@@ -1,4 +1,4 @@
-"isqno","attacker","nam","co","str","code","intst","rerp","cas","finst","cav","tank","lt","mbt","arty","fly","ctank","carty","cfly","pri1","pri2","pri3","sec1","sec2","sec3","reso1","reso2","reso3","strpl","strmi","caspl","casmi","ach","cdb13_actors"
+"isqno","attacker","nam","co","str","code","intst","rerp","cas","finst","cav","tank","lt","mbt","arty","fly","ctank","carty","cfly","pri1","pri2","pri3","sec1","sec2","sec3","reso1","reso2","reso3","strpl","strmi","caspl","casmi","ach","actors"
 1,0,"DU ARMY OF THE STATES GENERAL","MAURICE OF NASSAU",11300,1,11300,0,1000,10300,1400,0,0,0,6,0,0,0,0,"DO","FF",,,,"0",,,,33,-3,20,0,8,"Dutch Republic"
 1,1,"SP NETHERLANDS ARMY","ALBERT OF AUSTRIA",11500,1,11500,0,4000,7500,1500,0,0,0,8,0,0,8,0,"FF",,,,,,"RR","WD",,0,-5,0,-25,3,"Spain"
 10,0,"SP & IMP ARMY","CARDINAL-INFANTE AND FERDINAND",35000,1,35000,0,2000,33000,15000,0,0,0,50,0,0,0,0,"DO",,,,,"0","PS","WD",,0,-6,10,-10,9,"Spain & Holy Roman Empire"
