@@ -339,7 +339,7 @@ make_battle_durations <- function(x) {
 
 make_battle_actors <- function(x) {
     f <- function(x) {
-        actors <- str_split(x$cdb13_actors, pattern = "\\s*&\\s*")[[1]]
+        actors <- str_split(x$actors, pattern = "\\s*&\\s*")[[1]]
         data_frame(isqno = x$isqno,
                    attacker = x$attacker,
                    n = seq_along(actors),
@@ -376,12 +376,12 @@ main <- function() {
   new_belligerents <-
       (read.csv(file.path(SRC_DATA, "/local/belligerents.csv"),
                 stringsAsFactors = FALSE)
-       %>% select(isqno, attacker, cdb13_actors)
+       %>% select(isqno, attacker, actors)
        %>% mutate(attacker = as.logical(attacker)))
   commanders <-
       (read.csv(file.path(SRC_DATA, "/local/commanders.csv"),
                 stringsAsFactors = FALSE)
-       %>% select(isqno, attacker, cdb13_actors, commanders, uri)
+       %>% select(isqno, attacker, actors, commanders, uri)
        %>% mutate(attacker = as.logical(attacker)))
   duplicates <-
     mutate(subset(mutate(read.csv(file.path(SRC_DATA, "/local/duplicates.csv"),
@@ -402,9 +402,9 @@ main <- function() {
   battle_actors <- make_battle_actors(belligerents)
   make_dyads <- function(x) {
       attackers <-
-          str_split(filter(x, as.logical(attacker))$cdb13_actors, "\\s*&\\s*")[[1]]
+          str_split(filter(x, as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
       defenders <-
-          str_split(filter(x, ! as.logical(attacker))$cdb13_actors, "\\s*&\\s*")[[1]]
+          str_split(filter(x, ! as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
       dyads <- expand.grid(attacker = attackers, defender = defenders)
       for (i in c("attacker", "defender")) dyads[[i]] <- as.character(dyads[[i]])
       dyads$wt <- 1 / nrow(dyads)
