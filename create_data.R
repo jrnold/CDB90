@@ -368,7 +368,7 @@ main <- function() {
   writer(version, file.path(DATA_DIR, "version.csv"))
 
   ## Raw datasets
-  cdb90 <- read.delim(file.path(SRC_DATA, "/CDB90/CDB90.tsv"),
+  cdb90 <- read.csv(file.path(SRC_DATA, "/CDB90/CDB90.csv"),
                       stringsAsFactors = FALSE)
   names(cdb90) <- tolower(names(cdb90))
   wars <- read.csv(file.path(SRC_DATA, "/local/wars.csv"),
