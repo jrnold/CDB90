@@ -16,3 +16,11 @@ data <- lapply(FILENAMES, function(f) {
            names(COLNAMES))
 }) %>% bind_rows()
 write.csv(data, file = "CDB90-orig.csv", row.names = FALSE)
+
+library("yaml")
+patch <- yaml.load_file("patch.yaml")
+
+# apply changes in patch.json
+# for str, inst, rer, cas, finst, remove ","
+# for isqno > 600, str[ad]mi, cas[ad]mi, str[ad]pl, cas[ad]pl set to missing
+# Fix hours from 2400 to 0000
