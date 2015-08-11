@@ -389,11 +389,11 @@ make_dyads <- function(x) {
 
 
 # some initial cleaning of the cdb90 data
-clean_cdb90 <- function(data, COLNAMES, patchfile) {
+clean_cdb90 <- function(data, patchfile) {
   # convert the columns
-  for (i in names(COLNAMES)) {
-    data[[i]] <- as(data[[i]], COLNAMES[[i]])
-  }
+#   for (i in names(COLNAMES)) {
+#     data[[i]] <- as(data[[i]], COLNAMES[[i]])
+#   }
 
   # apply changes in patch.jsonf
   patch <- yaml.load_file(patchfile)
@@ -448,11 +448,17 @@ main <- function() {
                          sep = "")) {
     cdb90[[i]] <- str_replace(cdb90[[i]], "," , "")
   }
+  # convert the columns
+  for (i in names(COLNAMES)) {
+    cdb90[[i]] <- as(cdb90[[i]], COLNAMES[[i]])
+  }
   write("Writing ", file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
-  write_csv(cdb90, path = file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
+  writer(cdb90, file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
 
-  cdb90 <- clean_cdb90(cdb90, COLNAMES,
-                            file.path(SRC_DATA, "CDB90", "patch.yaml"))
+  cdb90 <- clean_cdb90(cdb90, file.path(SRC_DATA, "CDB90", "patch.yaml"))
+  write("Writing ", file.path(SRC_DATA, "CDB90", "CDB90-patched.csv"))
+  writer(setNames(cdb90, str_to_upper(names(cdb90))),
+         file.path(SRC_DATA, "CDB90", "CDB90-patched.csv"))
 
   wars <- read.csv(file.path(SRC_DATA, "/local/wars.csv"),
                    stringsAsFactors = FALSE)
