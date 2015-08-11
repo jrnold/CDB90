@@ -8,7 +8,7 @@
   note: The Yalu. Change in CDB91. Helmbold 1995, p. 2-5.
 - isqno: [338]
   values:
-    insta: 1940
+    stra: 1940
     insta: 1940
     finsta: 1579
   note: West Wood I. Change in CDB91. Helmbold 1995, p. 2-5. insta and finsta adjusted to be logically consistent.
@@ -57,10 +57,10 @@
     casami: -3
     
 
-- isqno: [488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504,\n  505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516]
+- isqno: [488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516]
   values:
     war: "WORLD WAR II (EASTERN FRONT)"
-- isqno: [512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528,\n  529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544,\n  545, 546, 547, 548]
+- isqno: [512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544,  545, 546, 547, 548]
   values:
     war: "WORLD WAR II (OKINAWA)"
 - isqno: [609, 610, 611, 612, 613]
@@ -112,15 +112,48 @@
   values:
     terra1: "F0U"
 
-- isqno: 
+- isqno: 35
   values:
-    atpeda1: "12"
-    atpehr1: "0000"
+    atpeda1: 12
+    atpehr1: 0
 - isqno: 148
   values:
-    atpeda1: "26"
-    atpehr1: "0000"
+    atpeda1: 26
+    atpehr1: 0
 - isqno: 396
   values:
-    atpeda1: "12"
-    atpehr1: "0000"
+    atpeda1: 12
+    atpehr1: 0
+- isqno: 549
+  values:
+    atpeda1: 6
+    atpehr1: 0
+- isqno: 565
+  values:
+    atpeda1: 10
+    atpehr1: 0
+- isqno: 566
+  values:
+    atpeda1: 10
+    atpehr1: 0
+- isqno: 431
+  values:
+    atpbda2: 17
+    atpbhr2: 0
+- isqno: 408
+  values:
+    atpeda2: 15
+    atpehr2: 0
+- isqno: 436
+  values:
+    atpeda2: 16
+    atpehr2: 0
+- isqno: 441
+  values:
+    atpeda2: 23
+    atpehr2: 0
+- isqno: 550
+  values:
+    atpeda3: 7
+    atpehr3: 0
+    

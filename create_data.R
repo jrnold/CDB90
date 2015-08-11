@@ -1,10 +1,12 @@
 #!/usr/bin/env Rscript
 # Create the database
 suppressPackageStartupMessages({
-    library("dplyr")
-    library("stringr")
-    library("lubridate")
-    library("jsonlite")
+  library("dplyr")
+  library("stringr")
+  library("lubridate")
+  library("jsonlite")
+  library("yaml")
+  library("readr")
 })
 DATA_DIR = "data"
 SRC_DATA = "src-data"
@@ -204,16 +206,16 @@ make_active_period <- function(x, i) {
       duration_max <- as.numeric(difftime(end_time$max, start_time$min,
                                           units = "mins"))
     }
-    
+
     data.frame(atp_number = i,
-               start_time_min = start_time$min, 
+               start_time_min = start_time$min,
                start_time_max = start_time$max,
                end_time_min = end_time$min,
                end_time_max = end_time$max,
                duration_max = duration_max,
                duration_min = duration_min,
                duration_only = duration_only)
-               
+
   }
 }
 
@@ -251,7 +253,7 @@ terra_data <- function(cdb90) {
   }
 
   group_by(cdb90, isqno) %>% do(make_all_terra(.))
-  
+
 }
 
 wx_data <- function(cdb90) {
@@ -275,7 +277,7 @@ wx_data <- function(cdb90) {
   }
 
   group_by(cdb90, isqno) %>% do(make_all_wx(.))
-  
+
 }
 
 writer <- function(x, file) {
@@ -360,6 +362,65 @@ make_enum_tables <- function(filepath) {
     ret
 }
 
+make_dyads <- function(x) {
+  attackers <-
+    str_split(filter(x, as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
+  defenders <-
+    str_split(filter(x, ! as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
+  dyads <- expand.grid(attacker = attackers, defender = defenders)
+  for (i in c("attacker", "defender")) dyads[[i]] <- as.character(dyads[[i]])
+  dyads$wt <- 1 / nrow(dyads)
+  dyads$dyad <- ""
+  dyads$direction <- 1
+  for (i in nrow(dyads)) {
+    if (dyads[i, "attacker"] < dyads[i, "defender"]) {
+      dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "attacker"],
+                                                     dyads[i, "defender"], sep = "|"),
+                                               1)
+    } else {
+      dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "defender"],
+                                                     dyads[i, "attacker"], sep = "|"),
+                                               -1)
+    }
+  }
+  dyads$primary <- c(TRUE, rep(FALSE, nrow(dyads) - 1))
+  dyads
+}
+
+
+# some initial cleaning of the cdb90 data
+clean_cdb90 <- function(data, COLNAMES, patchfile) {
+  # convert the columns
+  for (i in names(COLNAMES)) {
+    data[[i]] <- as(data[[i]], COLNAMES[[i]])
+  }
+
+  # apply changes in patch.jsonf
+  patch <- yaml.load_file(patchfile)
+  for (x in patch) {
+    for (id in x[["isqno"]]) {
+      for (i in names(x[["values"]])) {
+        data[data$ISQNO == id, str_to_upper(i)] <- x[["values"]][[i]]
+      }
+    }
+  }
+
+  # for isqno > 600, str[ad]mi, cas[ad]mi, str[ad]pl, cas[ad]pl set to missing
+  for (i in 600:660) {
+    data[i, str_to_upper(expand_paste(c("str", "cas"), c("a", "d"), c("mi", "pl"),
+                                      sep = ""))] <- NA_real_
+  }
+
+  names(data) <- str_to_lower(names(data))
+  data
+}
+
+expand_paste <- function(..., sep = " ") {
+  apply(expand.grid(..., stringsAsFactors = FALSE), 1, paste,
+        sep = "", collapse = sep)
+}
+
+
 main <- function() {
   cat(sprintf("Writing files to %s", DATA_DIR))
   ## writing version
@@ -367,10 +428,32 @@ main <- function() {
   cat("... Writing version.csv\n")
   writer(version, file.path(DATA_DIR, "version.csv"))
 
-  ## Raw datasets
-  cdb90 <- read.csv(file.path(SRC_DATA, "/CDB90/CDB90.csv"),
-                      stringsAsFactors = FALSE)
-  names(cdb90) <- tolower(names(cdb90))
+
+  # Locations of the original csv files
+  DIR <- file.path(SRC_DATA, "M000121")
+  FILENAMES <- sort(dir(DIR, pattern = "CDB90\\d{3}.*\\.csv$",
+                        full.names = TRUE))
+
+  # Names of columns
+  COLNAMES <- fromJSON(file.path(SRC_DATA, "CDB90", "cols.json"))
+
+  cdb90 <- lapply(FILENAMES, function(f) {
+    setNames(read_delim(f, ",", skip = 8, col_names = FALSE,
+                        col_types = paste0(rep("c", length(COLNAMES)),
+                                           collapse = "")),
+             names(COLNAMES))
+  }) %>% bind_rows()
+  # for str, inst, rer, cas, finst, remove ","
+  for (i in expand_paste(c("STR", "INTST", "FINST", "RERP", "CAS"), c("A", "D"),
+                         sep = "")) {
+    cdb90[[i]] <- str_replace(cdb90[[i]], "," , "")
+  }
+  write("Writing ", file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
+  write_csv(cdb90, path = file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
+
+  cdb90 <- clean_cdb90(cdb90, COLNAMES,
+                            file.path(SRC_DATA, "CDB90", "patch.yaml"))
+
   wars <- read.csv(file.path(SRC_DATA, "/local/wars.csv"),
                    stringsAsFactors = FALSE)
   new_belligerents <-
@@ -398,32 +481,8 @@ main <- function() {
   active_periods <- atp_data(cdb90)
   front_widths <- front_width_data(cdb90)
   battle_durations <- make_battle_durations(active_periods)
-  
+
   battle_actors <- make_battle_actors(belligerents)
-  make_dyads <- function(x) {
-      attackers <-
-          str_split(filter(x, as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
-      defenders <-
-          str_split(filter(x, ! as.logical(attacker))$actors, "\\s*&\\s*")[[1]]
-      dyads <- expand.grid(attacker = attackers, defender = defenders)
-      for (i in c("attacker", "defender")) dyads[[i]] <- as.character(dyads[[i]])
-      dyads$wt <- 1 / nrow(dyads)
-      dyads$dyad <- ""
-      dyads$direction <- 1
-      for (i in nrow(dyads)) {
-          if (dyads[i, "attacker"] < dyads[i, "defender"]) {
-              dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "attacker"],
-                                                             dyads[i, "defender"], sep = "|"),
-                                                       1)
-          } else {
-              dyads[i, c("dyad", "direction")] <- list(str_c(dyads[i, "defender"],
-                                                             dyads[i, "attacker"], sep = "|"),
-                                                       -1)
-          }
-      }
-      dyads$primary <- c(TRUE, rep(FALSE, nrow(dyads) - 1))
-      dyads
-  }
   dyads <-
       (group_by(belligerents, isqno)
        %>% do(make_dyads(.)))
@@ -441,7 +500,7 @@ main <- function() {
   cat("... Writing front_widths.csv\n")
   writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
   cat("... Writing battle_durations.csv\n")
-  writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))  
+  writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))
   cat("... Writing battle_actors.csv\n")
   writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
   cat("... Writing battle_dyads.csv\n")
@@ -456,7 +515,7 @@ main <- function() {
       cat(sprintf("... writing %s\n", outfile))
       writer(enums[[i]], outfile)
   }
-  
+
 }
 
 main()
