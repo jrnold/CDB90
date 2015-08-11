@@ -406,7 +406,7 @@ clean_cdb90 <- function(data, patchfile) {
   }
 
   # for isqno > 600, str[ad]mi, cas[ad]mi, str[ad]pl, cas[ad]pl set to missing
-  for (i in 600:660) {
+  for (i in 601:660) {
     data[i, str_to_upper(expand_paste(c("str", "cas"), c("a", "d"), c("mi", "pl"),
                                       sep = ""))] <- NA_real_
   }
