@@ -11,12 +11,15 @@ The description of CDB90 from Helmbold (1993):
   temporal duration of the battle; and selected environmental and
   tactical environment descriptors (such as type of fortifications,
   type of tactical scheme, weather conditions, width of front, etc.)
+  
+The original documentation for the CDB90 dataset is in [src-data/M000121/README.TXT](https://github.com/jrnold/CDB90/tree/master/src-data/M000121).
+
 
 The directory `src-data/M000121` contains the original data from CDB90 as obtained from the NTIS.
 The original datafiles are the `WKS` files.
 However, since this is an archaic format, these were converted to `csv` files using LibreOffice (v. 4.4.3.2; BuildId: 88805f81e9fe61362df02b9941de8e38a9b5fd16; Locale: en_).
 
-The directory `data` contains the revised data.
+The directory `data` contains the revised data. 
 No major substantive changes were made to the data, nor were new battles added.
 A brief summary of the revisions are:
 
@@ -44,6 +47,16 @@ To run all those previous steps:
 ```console
 $ ./build.sh
 ```
+
+# References
+
+- CAA Study Report CAA-SR-84-6, "Analysis of Factors That Have Influenced Outcomes of Battles and Wars: A Data Base of Battles and Engagements," September 1984: AD-B086-797L, AD-B087-718L, AD-B087-719L, AD-B087-720L, AD-B087-721L, AD-B087-722L
+- HERO Report Number 129, "Combat History Analysis Study Effort (CHASE) Data Enhancement Study (CDES)," 31 January 1986, AD-A175-712, AD-A175-713, AD-A175-714, AD-A175-715, AD-A175-716
+- Data Base Error Correction (DBEC)," 23 January 1987. It was prepared for CAA under Purchase Order Number MDA903-86-M-8560 and is available from DTIC under accession number AD-A176-750.
+- FW Management Associates, Inc. Report "Independent Review/Reassessment of Anomalous Data (IR/RAD)," 22 June 1987, in four volumes. It was prepared for CAA under Contract Number MDA903-86-C-0396. It is available from DTIC under the following accession numbers: AD-???-??? (Volume I), AD-195-726 (Volume II), AD-???-??? (Volume III), and AD-???-??? (Volume IV)
+- Data Memory Systems Incorporated report, "New Engagement Data for the Breakpoints Data Base," prepared for the US Army Concepts Analysis Agency under Contract No. MDA903-87-C-0807, 30 September 1988.
+- Robert Helmbold. 1993. "Personnel Attrition Rates in Historical Land Combat Operations: A Catalog of Attrition and Casualty Data Bases on Diskettes Usable with Personal Computers." [DTIC ADA279069](http://www.dtic.mil/docs/citations/ADA279069).
+- Robert Helmbold. 1995. "Personnel Attrition Rates in Historical Land Combat Operations. Some Empirical Relations among Force Sizes, Battle Durations" [DTIC AD-A268 787](http://handle.dtic.mil/100.2/ADA298124).
 
 # Licenses
 
