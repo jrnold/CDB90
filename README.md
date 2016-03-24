@@ -32,19 +32,8 @@ This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/d
 
 # Usage
 
-To rebuild the data and documentation
+To build the data csv's, documentation, and create a SQLite database with the data, run:
 ```
-$ python make_datapackage.py
-$ ./create_data.sh
-```
-
-To create a ``sqlite3`` database with the data:
-```
-$ python load-sqlite . cdb90.sqlite3
-```
-
-To run all those previous steps:
-```console
 $ ./build.sh
 ```
 
