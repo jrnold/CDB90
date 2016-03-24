@@ -160,4 +160,8 @@
   values:
     casami: -30
   note: "The minimum casualties cannot be -300%"
+- isqno: 13
+  values:
+    casami: -10
+  note: "The minimum casualties is unlikely to be -100%, -10% is closer to the value of the strami, which is -13%"
     
