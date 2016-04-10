@@ -34,7 +34,7 @@ schema:
   - description: did defender's posture change over time?
     id: time
     type: integer
-  - description: attacker's relative leadership advantage
+  - description: attacker's relative combat effectiveness
     id: cea
     type: integer
   - description: attacker's relative surprise advantage
@@ -122,13 +122,13 @@ schema:
 
       Battle from original HERO (1984) data; if false, then from the LFW
       Management Associates, Inc. Report "Independent Review/Reassessment of Anomalous
-      Data (IR/RAD)," 22 June 1987.  CDB90 combined the 600 battles from 
+      Data (IR/RAD)," 22 June 1987.  CDB90 combined the 600 battles from
       HERO (1984) with an additional 60 battles from the LWF (1987).
 
     id: is_hero
     type: boolean
 
-  - description: > 
+  - description: >
 
       War name as indicated in HERO (1984) data
       For battles 600-660, they are assigned to the wars in the HERO 1984, or use
@@ -157,8 +157,8 @@ schema:
     source: Arnold, COW
 
   - description: >
-  
-      New war classification. Follows the wars in COW for battles after 1816, 
+
+      New war classification. Follows the wars in COW for battles after 1816,
       and the Wikipedia classification of wars for battles prior to that.
       Names are in the style of COW wars.
 
@@ -174,7 +174,7 @@ schema:
   - description: >
 
        URI for associated `dbpedia <http://dbpedia.org>`__ resource.
-       These are easy to find for battles in the wars prior to WWI. It was harder to 
+       These are easy to find for battles in the wars prior to WWI. It was harder to
        find these for WWI and later wars, and especially for the Arab-Israeli wars.
 
     label: Dbpedia URI
@@ -189,7 +189,7 @@ schema:
       not in COW wars.
     type: boolean
     source: COW, Arnold
-    
+
   - description: >
 
       ``isqno`` of a parent battle in the data. If not null, then the observation
