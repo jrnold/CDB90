@@ -14,7 +14,6 @@ The description of CDB90 from Helmbold (1993):
 
 The original documentation for the CDB90 dataset is in [src-data/M000121/README.TXT](https://github.com/jrnold/CDB90/tree/master/src-data/M000121).
 
-
 The directory `src-data/M000121` contains the original data from CDB90 as obtained from the NTIS.
 The original datafiles are the `WKS` files.
 However, since this is an archaic format, these were converted to `csv` files using LibreOffice (v. 4.4.3.2; BuildId: 88805f81e9fe61362df02b9941de8e38a9b5fd16; Locale: en_).
@@ -33,6 +32,7 @@ This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/d
 # Usage
 
 To build the data csv's, documentation, and create a SQLite database with the data, run:
+
 ```
 $ ./build.sh
 ```
