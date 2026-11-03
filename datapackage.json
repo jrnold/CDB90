@@ -1131,7 +1131,7 @@
       "description": "Weather codes used in ``weather.wx1``"
     }
   ],
-  "version": "9.1.0",
+  "version": "9.1.1",
   "name": "CDB90",
   "homepage": "https://github.com/jrnold/CDB90",
   "sources": [
