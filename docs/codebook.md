@@ -55,7 +55,7 @@ One row per battle (660 rows): the battle's variables, its dates and duration, c
 | `logsaa` | integer | degree of influence of logistics |
 | `fortsa` | integer | degree of influence of fortifications |
 | `deepa` | integer | degree of influence of depth of position |
-| `is_hero` | integer | Battle from original HERO (1984) data; if false, then from the LFW Management Associates, Inc. Report "Independent Review/Reassessment of Anomalous Data (IR/RAD)," 22 June 1987. CDB90 combined the 600 battles from HERO (1984) with an additional 60 battles from the LWF (1987). |
+| `is_hero` | integer | Battle from the original HERO data (battles 1 to 600, CAA-SR-84-6, 1984); if false, the battle was added in CDB90 (Version 1990). According to the CDB90 README.TXT the added battles (about 59) come from the Data Memory Systems report "New Engagement Data for the Breakpoints Data Base" (30 September 1988, DTIC AD-A201404) together with independent research by Robert McQuie of the US Army Concepts Analysis Agency. Their strength and casualty ranges are missing. |
 | `war2` | string | War name as indicated in HERO (1984) data For battles 600-660, they are assigned to the wars in the HERO 1984, or use the cdb90 war. |
 | `war3` | string | War, aggregating WWI, WWI, Napoleonic Wars, and the Arab-Israeli 1967 and 1973 wars |
 | `war4` | string | New war classification. Follows the wars in COW for battles after 1816, and the Wikipedia classification of wars for battles prior to that. Names are in the style of COW wars. |
@@ -286,7 +286,7 @@ The narratives of the HERO volumes (CAA-SR-84-6, 1983) for the battles that have
 | `logsaa` | integer | degree of influence of logistics |
 | `fortsa` | integer | degree of influence of fortifications |
 | `deepa` | integer | degree of influence of depth of position |
-| `is_hero` | boolean | Battle from original HERO (1984) data; if false, then from the LFW Management Associates, Inc. Report "Independent Review/Reassessment of Anomalous Data (IR/RAD)," 22 June 1987. CDB90 combined the 600 battles from HERO (1984) with an additional 60 battles from the LWF (1987). |
+| `is_hero` | boolean | Battle from the original HERO data (battles 1 to 600, CAA-SR-84-6, 1984); if false, the battle was added in CDB90 (Version 1990). According to the CDB90 README.TXT the added battles (about 59) come from the Data Memory Systems report "New Engagement Data for the Breakpoints Data Base" (30 September 1988, DTIC AD-A201404) together with independent research by Robert McQuie of the US Army Concepts Analysis Agency. Their strength and casualty ranges are missing. |
 | `war2` | integer | War name as indicated in HERO (1984) data For battles 600-660, they are assigned to the wars in the HERO 1984, or use the cdb90 war. |
 | `war3` | integer | War, aggregating WWI, WWI, Napoleonic Wars, and the Arab-Israeli 1967 and 1973 wars |
 | `cow_warno` | integer | Correlates of War (COW) war number of the war in which the battle occured. |

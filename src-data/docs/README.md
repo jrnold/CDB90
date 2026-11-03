@@ -29,8 +29,8 @@ date, the forces, the course of the action and the sources.
 
 The narratives are parsed into the table `battle_narratives` (see the data package): the `narrative`, `significance` and `sources` of each battle, with the source codes replaced by the full citations from the volumes' bibliography. `scripts/narratives.py` does it, and `src-data/local/narrative_matches.csv` lists the few narratives matched to a battle by hand because of an OCR typo in the heading.
 
-Battles 601 to 660 come from the later IR/RAD review (DTIC AD-A195 381 to 383 and 726),
-which is not here.
+Battles 601 to 660 were added in CDB90 and are not described in these volumes; see
+[Where battles 601 to 660 come from](#where-battles-601-to-660-come-from).
 
 Each volume has two files: `.md` (Markdown, one section per page, marked with
 `<!-- page N -->`) and `.json` (`{"source", "tier", "pages": [{"page", "markdown"}]}`). The PDFs
@@ -60,13 +60,21 @@ numbers are from their covers (they are not in AD-number order).
 | 3 | The Anzio and Rome campaigns | AD-A195 382 | 88 |
 | 4 | The Arab-Israeli wars, Northwest Europe, the Eastern Front | AD-A195 383 | 125 |
 
-These are campaign-level reassessments with many tables of daily strengths and casualties, not battle-by-battle
-narratives like the HERO volumes. They do **not** describe battles 601 to 660: the names of those battles
-are not in them, apart from Mount Hermon (601).
+The IR/RAD is an independent reassessment of the data for 61 existing battles that were "statistically
+anomalous" (a finding of the CHASE study), in 8 campaigns of World War II and the Arab-Israeli wars (the
+campaigns of the four volumes). It adds no new battles: according to the CDB90 `README.TXT`, its data "differ
+substantially" from those of the original data base, and the README does not say that CDB90 uses its numbers.
+The volumes are campaign-level reassessments with many tables of daily strengths and casualties, not
+battle-by-battle narratives like the HERO volumes.
 
-## Where battles 601 to 660 are documented
+## Where battles 601 to 660 come from
 
-Searching the OCR text and the DTIC reports found sources for part of them:
+The CDB90 `README.TXT` (`src-data/M000121/`, paragraph 2e) says that the Data Memory Systems report *New
+Engagement Data for the Breakpoints Data Base* (30 September 1988), "in conjunction with independent research
+by Mr. Robert McQuie of CAA, provided data on about 59 additional battles", which were added to CDB90. It is
+not the IR/RAD (an earlier version of this README and of the data package said so, wrongly).
+
+Searching the OCR text and the DTIC reports shows what documents them:
 
 - 602 to 625 (Sidi Bou Zid, Kasserine Pass, Rapido, Bowling Alley, Mortain, Schmidt, Wahlerscheid,
   Krinkelt-Rocherath, Schnee Eifel, Our River): *New Engagement Data for the Breakpoints Data Base*
@@ -74,4 +82,5 @@ Searching the OCR text and the DTIC reports found sources for part of them:
   Organization, 30 September 1988. They are not in this repository.
 - 601 (Mount Hermon III): a narrative in HERO Vol. VI.
 - 626 to 660 (Korea, Targul Frumos, the 1948, 1956, 1967 and 1982 Israeli battles, Quang Tri, France 1940): no
-  documentation has been found.
+  documentation has been found. They are probably the result of McQuie's independent research, which the
+  README does not cite a report for.

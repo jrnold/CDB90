@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "CDB90: A tidy, open-data version of the CAA Database of Battles (1990)",
-  "version": "10.3.0",
+  "version": "10.3.1",
   "description": "<p>A tidier version of CDB90, the US Army Concepts Analysis Agency Database of Battles (Version 1990, Helmbold 1993): 660 battles fought between 1600 and 1973, with their strengths and losses, outcomes, dates, durations, and tactical and environmental descriptors.</p><p>This deposit holds the data only, in three forms: flat tables for analysis as CSV and Parquet (<code>battles</code>: one row per battle; <code>sides</code>: one row per battle side; <code>narratives</code>: the HERO narrative, significance and sources of 586 battles); a relational SQLite database (<code>cdb90.sqlite3</code>) with the tidy tables, code tables, links and coordinates; and the same relational tables as CSV (<code>relational-csv.zip</code>). A Frictionless Data Package (<code>datapackage.json</code>) describes the flat CSV tables. 658 of 660 battles are linked to one or more Wikidata items and Wikipedia articles, and 655 of 660 have coordinates from Wikidata.</p><p>The code that builds the data is on GitHub (https://github.com/jrnold/CDB90, MIT). The original data are public domain; the derived data are CC0.</p>",
   "creators": [
     {
