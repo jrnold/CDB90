@@ -74,4 +74,8 @@ def test_data_package_is_valid() -> None:
 def test_data_package_describes_only_the_flat_csvs() -> None:
     """The package lists the flat CSV tables and nothing else."""
     package = Package("datapackage.json")
-    assert [r.path for r in package.resources] == ["data/flat/battles.csv", "data/flat/sides.csv"]
+    assert [r.path for r in package.resources] == [
+        "data/flat/battles.csv",
+        "data/flat/narratives.csv",
+        "data/flat/sides.csv",
+    ]

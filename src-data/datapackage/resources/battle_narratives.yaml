@@ -1,0 +1,28 @@
+description: >-
+  The narratives of the HERO volumes (CAA-SR-84-6, 1983) for the battles that have one (586
+  battles: 585 of the first 600 and one later one), parsed from the OCR text in `src-data/docs/hero/` by
+  `scripts/narratives.py`. The OCR is not perfect, so check a name or a number against the PDF.
+path: data/relational/battle_narratives.csv
+schema:
+  fields:
+  - id: isqno
+    description: Battle sequence number.
+    type: integer
+  - id: hero_volume
+    description: Volume of CAA-SR-84-6 (II to VI) the narrative is in.
+    type: integer
+  - id: hero_title
+    description: The heading of the narrative, with the battle's name and dates as printed.
+    type: string
+  - id: narrative
+    description: "The narrative (what happened), in paragraphs separated by a blank line."
+    type: string
+  - id: significance
+    description: "The \"Significance\" paragraph of the narrative."
+    type: string
+  - id: sources
+    description: >-
+      The sources of the narrative, one full citation per line. The volumes give codes such as
+      `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the
+      volumes, and `.1` after a code is the volume of a multi-volume work.
+    type: string

@@ -23,7 +23,7 @@
     }
   ],
   "profile": "tabular-data-package",
-  "version": "10.2.0",
+  "version": "10.3.0",
   "resources": [
     {
       "name": "battles",
@@ -369,6 +369,58 @@
             "name": "defender_cas",
             "type": "number",
             "description": "Battle casualties of the defender."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "isqno"
+      }
+    },
+    {
+      "name": "narratives",
+      "path": "data/flat/narratives.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "One row per battle that has a narrative in the HERO volumes (586 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6. The first 600 battles of CDB90 are described there; 585 of them have a narrative in the OCR text, and so does one later battle (601). The other 15 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others. The sources are full citations, one per line.",
+      "schema": {
+        "fields": [
+          {
+            "name": "isqno",
+            "type": "integer",
+            "description": "battle sequence (line or serial) number"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "name of battle"
+          },
+          {
+            "name": "hero_volume",
+            "type": "integer",
+            "description": "Volume of CAA-SR-84-6 (II to VI) the narrative is in."
+          },
+          {
+            "name": "hero_title",
+            "type": "string",
+            "description": "The heading of the narrative, with the battle's name and dates as printed."
+          },
+          {
+            "name": "narrative",
+            "type": "string",
+            "description": "The narrative, in paragraphs separated by a blank line."
+          },
+          {
+            "name": "significance",
+            "type": "string",
+            "description": "The \"Significance\" paragraph of the narrative."
+          },
+          {
+            "name": "sources",
+            "type": "string",
+            "description": "The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work."
           }
         ],
         "missingValues": [

@@ -84,6 +84,20 @@ One row per battle (660 rows): the battle's variables, its dates and duration, c
 | `attacker_cas` | number | Battle casualties of the attacker (`cas` in `belligerents`). |
 | `defender_cas` | number | Battle casualties of the defender. |
 
+### `narratives`
+
+One row per battle that has a narrative in the HERO volumes (586 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6. The first 600 battles of CDB90 are described there; 585 of them have a narrative in the OCR text, and so does one later battle (601). The other 15 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others. The sources are full citations, one per line.
+
+| Column | Type | Description |
+|---|---|---|
+| `isqno` | integer | battle sequence (line or serial) number |
+| `name` | string | name of battle |
+| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in. |
+| `hero_title` | string | The heading of the narrative, with the battle's name and dates as printed. |
+| `narrative` | string | The narrative, in paragraphs separated by a blank line. |
+| `significance` | string | The "Significance" paragraph of the narrative. |
+| `sources` | string | The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work. |
+
 ### `sides`
 
 One row per battle and side (1,320 rows): the side's forces, commanders and outcome, with the battle's name, war, year and coordinates.
@@ -215,6 +229,19 @@ Links from battles to Wikidata items and English Wikipedia articles. A battle ha
 | `wikipedia_title` | string | Title of the English Wikipedia article, after redirects. |
 | `wikipedia_url` | string | URL of the English Wikipedia article. |
 | `match` | string | How specific the link is: `battle` (an article on this battle), `campaign` (the smallest operation or campaign article that covers it) or `war` (only a war or front article exists). |
+
+### `battle_narratives`
+
+The narratives of the HERO volumes (CAA-SR-84-6, 1983) for the battles that have one (586 battles: 585 of the first 600 and one later one), parsed from the OCR text in `src-data/docs/hero/` by `scripts/narratives.py`. The OCR is not perfect, so check a name or a number against the PDF.
+
+| Column | Type | Description |
+|---|---|---|
+| `isqno` | integer | Battle sequence number. |
+| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in. |
+| `hero_title` | string | The heading of the narrative, with the battle's name and dates as printed. |
+| `narrative` | string | The narrative (what happened), in paragraphs separated by a blank line. |
+| `significance` | string | The "Significance" paragraph of the narrative. |
+| `sources` | string | The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `.1` after a code is the volume of a multi-volume work. |
 
 ### `battles`
 

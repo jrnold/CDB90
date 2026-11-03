@@ -54,6 +54,8 @@ There are three ways to get the data, all in version 10.0.0 and later (from the 
 
 658 of the 660 battles are linked to one or more Wikidata items and Wikipedia articles (a battle's own article where there is one, otherwise the smallest campaign or war article that covers it) (`battle_links` in SQLite, `wikidata_id` and `wikipedia_title` in the flat `battles` table), and 655 of the 660 battles have coordinates from Wikidata (`coordinate_precision` says whether the point is the battle, the place where it took place, a town or district beside the action, or only its campaign or region).
 
+The narratives of the HERO volumes (the short account of each battle in CAA-SR-84-6) are parsed from the OCR text into `data/flat/narratives` and the `battle_narratives` table: for 586 battles, the `narrative`, its `significance` and its `sources`, with each source code of the volumes replaced by the full citation. The OCR is not perfect, so check a name or a number against the PDF (`src-data/docs/README.md`).
+
 Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/`.
 
 # Citation

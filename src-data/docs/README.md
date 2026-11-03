@@ -26,6 +26,8 @@ date, the forces, the course of the action and the sources.
 | V | World War II: North Africa, Italy, western Europe | AD-B087 721 | 188 |
 | VI | World War II: France 1940, the Eastern Front and Japan; the 1967, 1968 and 1973 Arab-Israeli wars | AD-B087 722 | 245 |
 
+The narratives are parsed into the table `battle_narratives` (see the data package): the `narrative`, `significance` and `sources` of each battle, with the source codes replaced by the full citations from the volumes' bibliography. `scripts/narratives.py` does it, and `src-data/local/narrative_matches.csv` lists the few narratives matched to a battle by hand because of an OCR typo in the heading.
+
 Battles 601 to 660 come from the later IR/RAD review (DTIC AD-A195 381 to 383 and 726),
 which is not here.
 
