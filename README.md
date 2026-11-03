@@ -31,10 +31,10 @@ This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/d
 
 # Usage
 
-To build the data csv's, documentation, and create a SQLite database with the data, run:
+To build the data csv's, documentation, and create a SQLite database with the data, install the Python dependencies with `uv sync` and run:
 
 ```
-$ ./build.sh
+$ uv run ./build.sh
 ```
 
 # References
@@ -52,8 +52,6 @@ $ ./build.sh
 - Code is [MIT](LICENSE), unless otherwise noted. `load-sqlite.py` is vendored from
   [okfn/dptools](https://github.com/okfn/dptools); upstream gave no license.
 - The derived data in `data/` and `datapackage.json` is [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
-- `data/battle_coordinates.csv` is the exception: its coordinates come from Wikipedia through
-  DBpedia, so it is [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), not CC0.
-  Fetched by `scripts/coordinates.py`; the 2015 American Civil War coordinates in
-  `src-data/local/coordinates_lchsk.csv` are from [lchsk](https://github.com/lchsk/CDB13).
+- Battle links and coordinates come from [Wikidata](https://www.wikidata.org/), which is CC0.
+  `src-data/local/battle_links.csv` is curated by hand and with Wikipedia's search.
 - The original CDB90 data in `src-data/M000121` is in the public domain.

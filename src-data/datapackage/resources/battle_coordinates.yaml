@@ -1,8 +1,9 @@
 description: >-
-  Coordinates of battles, where known. Taken from the Wikipedia article that the battle links to
-  (variable `dbpedia` in `battles`) through DBpedia, so this table is CC BY-SA, not CC0. The
-  coordinates are those of the article, usually the battlefield, and are not checked against the
-  CDB90 location. Built by `scripts/coordinates.py`.
+  Coordinates of battles, from Wikidata (CC0). Each battle gets the point of its most specific item
+  that has coordinates, and `precision` says what kind of item that is, so the point of a campaign
+  can be told from that of a battlefield. The points are not checked against the CDB90 location
+  text. Built by `scripts/coordinates.py` from `battle_links`, plus place lookups in
+  `src-data/local/coordinates_places.csv`.
 path: data/battle_coordinates.csv
 schema:
   fields:
@@ -15,8 +16,11 @@ schema:
   - id: longitude
     description: Longitude (WGS 84, decimal degrees).
     type: number
-  - id: source
+  - id: wikidata_id
+    description: Wikidata item the point comes from.
+    type: string
+  - id: precision
     description: >-
-      Where the coordinates came from: `dbpedia` (current DBpedia) or `lchsk` (fetched from
-      DBpedia in 2015 by lchsk, used where DBpedia no longer has coordinates).
+      What the point is: `battle` (the battle's own item), `place` (the place it is named after),
+      `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`.
     type: string

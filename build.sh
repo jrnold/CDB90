@@ -24,7 +24,8 @@ fi
 # create files in ./data
 "${PYTHON}" create_data.py
 
-# download battle coordinates (needs network access)
+# link battles to Wikidata and Wikipedia, then look up coordinates (needs network access)
+"${PYTHON}" scripts/links.py
 "${PYTHON}" scripts/coordinates.py
 
 # rebuild datapackage.json
