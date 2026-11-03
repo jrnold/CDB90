@@ -12,6 +12,8 @@ The description of CDB90 from Helmbold (1993):
   tactical environment descriptors (such as type of fortifications,
   type of tactical scheme, weather conditions, width of front, etc.)
 
+The DTIC record for the database (AD1038724, April 30, 1991, approved for public release) is in [src-data/docs](https://github.com/jrnold/CDB90/tree/main/src-data/docs), with an OCR text made with LlamaParse (`uv run dvc unfreeze ocr && uv run dvc repro ocr`, with `LLAMA_CLOUD_API_KEY` set).
+
 The original documentation for the CDB90 dataset is in [src-data/M000121/README.TXT](https://github.com/jrnold/CDB90/tree/master/src-data/M000121).
 
 The directory `src-data/M000121` contains the original data from CDB90 as obtained from the NTIS.

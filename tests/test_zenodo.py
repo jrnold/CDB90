@@ -39,6 +39,8 @@ def test_bundle_holds_the_data_files(bundle: Path) -> None:
         "README.md",
         "CODEBOOK.md",
         "original-documentation.txt",
+        "AD1038724.pdf",
+        "AD1038724.md",
         "LICENSE.md",
     }
 
@@ -66,6 +68,7 @@ class Recorder:
 
     def __init__(self) -> None:
         self.calls: list[tuple[str, str]] = []
+        self.state = "unsubmitted"
 
     def response(self, payload: dict[str, Any]) -> Any:
         """Return a fake response with ``payload``."""
@@ -86,19 +89,44 @@ class Recorder:
             return self.response({"links": {"html": "https://zenodo.test/record"}})
         return self.response({"id": 7, "links": links})
 
+    def get(self, url: str, **_: object) -> Any:
+        """Record a GET of an existing draft."""
+        self.calls.append(("GET", url))
+        state = self.state
+        return self.response(
+            {
+                "id": 7,
+                "state": state,
+                "links": {
+                    "bucket": "https://zenodo.test/bucket",
+                    "html": "https://zenodo.test/draft",
+                },
+            }
+        )
+
     def put(self, url: str, **_: object) -> Any:
         """Record a PUT."""
         self.calls.append(("PUT", url))
         return self.response({})
 
 
-def run_deposit(monkeypatch: pytest.MonkeyPatch, bundle: Path, *, publish: bool) -> tuple[str, Any]:
+def run_deposit(
+    monkeypatch: pytest.MonkeyPatch,
+    bundle: Path,
+    *,
+    publish: bool,
+    deposit_id: int | None = None,
+    state: str = "unsubmitted",
+) -> tuple[str, Any]:
     """Run ``deposit`` against the fake Zenodo."""
     recorder = Recorder()
+    recorder.state = state
+    monkeypatch.setattr(zenodo.requests, "get", recorder.get)
     monkeypatch.setattr(zenodo.requests, "post", recorder.post)
     monkeypatch.setattr(zenodo.requests, "put", recorder.put)
     files = sorted(p for p in bundle.iterdir() if p.is_file())
-    return zenodo.deposit(files, "token", sandbox=True, publish=publish), recorder
+    url = zenodo.deposit(files, "token", sandbox=True, publish=publish, deposit_id=deposit_id)
+    return url, recorder
 
 
 def test_deposit_leaves_a_draft_by_default(monkeypatch: pytest.MonkeyPatch, bundle: Path) -> None:
@@ -109,8 +137,21 @@ def test_deposit_leaves_a_draft_by_default(monkeypatch: pytest.MonkeyPatch, bund
     uploads = [
         url for method, url in recorder.calls if url.startswith("https://zenodo.test/bucket")
     ]
-    assert len(uploads) == 11
+    assert len(uploads) == 13
     assert ("PUT", "https://sandbox.zenodo.org/api/deposit/depositions/7") in recorder.calls
+
+
+def test_update_replaces_an_existing_draft(monkeypatch: pytest.MonkeyPatch, bundle: Path) -> None:
+    """With an id, the existing draft is updated and no new deposit is created."""
+    _, recorder = run_deposit(monkeypatch, bundle, publish=False, deposit_id=7)
+    assert ("GET", "https://sandbox.zenodo.org/api/deposit/depositions/7") in recorder.calls
+    assert not any(method == "POST" for method, _ in recorder.calls)
+
+
+def test_update_refuses_a_published_deposit(monkeypatch: pytest.MonkeyPatch, bundle: Path) -> None:
+    """A published deposit cannot be overwritten; it needs a new version."""
+    with pytest.raises(SystemExit):
+        run_deposit(monkeypatch, bundle, publish=False, deposit_id=7, state="done")
 
 
 def test_deposit_publishes_only_when_asked(monkeypatch: pytest.MonkeyPatch, bundle: Path) -> None:

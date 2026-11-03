@@ -13,6 +13,7 @@ The code that builds these files, and the history of the project, are at
   | `datapackage.json`               | A Frictionless Data Package describing `battles.csv` and `sides.csv`.                                                                                    |
   | `CODEBOOK.md`                    | The codebook: every table, column and code value, with descriptions.                                                                                     |
   | `original-documentation.txt`     | The documentation distributed with the original CDB90 data (US Army Concepts Analysis Agency, 1991).                                                     |
+  | `AD1038724.pdf`, `AD1038724.md`  | The DTIC report documentation page (SF 298) for the database (April 30, 1991, approved for public release), and its OCR text.                            |
   | `LICENSE.md`                     | The licence of the data.                                                                                                                                 |
 
 The derived data are CC0 1.0. The original CDB90 data are in the public domain. Links and coordinates
