@@ -1,40 +1,45 @@
-"""
-Compile yaml files in ``source/datapackage/`` to ``datapackage.json``
-"""
-import os
-from os import path
+"""Compile yaml files in ``src-data/datapackage/`` to ``datapackage.json``."""
+
 import json
+from pathlib import Path
 
 import yaml
 
-SRC_DIR = "src-data/datapackage"
-DST_DIR = "."
+SRC_DIR = Path("src-data/datapackage")
+DST_DIR = Path()
+
 
 def create_enum_resource(k, v):
-    d = {'path': 'data/enum_%s.csv' % k,
-         'description': v['description'],
-         'schema': {'fields':
-                    [{'id': "value", 'description': "variable value", 'type': v['type']},
-                     {'id': "description", 'description': "description of the value", 'type': 'string'}]}}
-    return d
+    """Create the data package resource for the enum table ``k``."""
+    return {
+        "path": f"data/enum_{k}.csv",
+        "description": v["description"],
+        "schema": {
+            "fields": [
+                {"id": "value", "description": "variable value", "type": v["type"]},
+                {"id": "description", "description": "description of the value", "type": "string"},
+            ]
+        },
+    }
 
-with open(path.join(SRC_DIR, "datapackage.yaml"), 'r') as f:
-    data = yaml.load(f)
 
-with open(path.join(SRC_DIR, "..", "version.txt"), 'r') as f:
-    data['version'] = f.read().strip()
+with (SRC_DIR / "datapackage.yaml").open() as f:
+    data = yaml.safe_load(f)
 
-for file in os.listdir(path.join(SRC_DIR, "resources")):
-    if path.splitext(file)[1] == ".yaml":
-        with open(path.join(SRC_DIR, "resources", file)) as f:
-            resdata = yaml.load(f)
-            resdata['name'] = path.splitext(path.basename(resdata['path']))[0]
-            data['resources'].append(resdata)
+with (SRC_DIR.parent / "version.txt").open() as f:
+    data["version"] = f.read().strip()
 
-with open(path.join(SRC_DIR, 'enum_tables.yaml'), 'r') as f:
-    enumdata = yaml.load(f)
+for file in sorted((SRC_DIR / "resources").iterdir()):
+    if file.suffix == ".yaml":
+        with file.open() as f:
+            resdata = yaml.safe_load(f)
+            resdata["name"] = Path(resdata["path"]).stem
+            data["resources"].append(resdata)
+
+with (SRC_DIR / "enum_tables.yaml").open() as f:
+    enumdata = yaml.safe_load(f)
 for k, v in enumdata.items():
-    data['resources'].append(create_enum_resource(k, v))
+    data["resources"].append(create_enum_resource(k, v))
 
-with open(path.join(DST_DIR, "datapackage.json"), 'w') as f:
-    json.dump(data, f, indent = 2)
+with (DST_DIR / "datapackage.json").open("w") as f:
+    json.dump(data, f, indent=2)

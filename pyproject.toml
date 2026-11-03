@@ -1,0 +1,59 @@
+[project]
+name = "cdb90"
+version = "0.1.0"
+description = "A tidier and open-data version of CDB90 (CAA Database of Battles, Version 1990)"
+requires-python = ">=3.10"
+dependencies = ["pyyaml"]
+
+[dependency-groups]
+dev = [
+    "deptry>=0.25.1",
+    "pytest>=9.1.1",
+    "ruff>=0.17.2",
+    "ty>=0.0.91",
+]
+
+[tool.ruff]
+line-length = 100
+# Vendored from okfn/dptools (bin/load-sqlite.py); kept as upstream wrote it.
+extend-exclude = ["load-sqlite.py"]
+force-exclude = true
+
+[tool.ruff.lint]
+select = [
+    "E", "W", "F", "I", "B", "UP", "RUF", "SIM", "C4", "PT", "NPY", "PD", "PTH", "RET", "ARG",
+    "PL", "TRY", "PERF", "FURB", "S", "DTZ", "N",
+]
+ignore = [
+    "N803",     # argument names like X, N, K, Sigma are standard notation
+    "N806",     # so are variable names
+    "PLR0913",  # estimators take many arguments
+    "PLR2004",  # 0.05, 1.96 and friends are fine as literals
+    "S311",     # `random` drives simulations, not cryptography
+    "TRY003",   # long exception messages are fine
+    "PD011",    # misfires on xarray and NumPy `.values`
+    "RUF001",   # prose and labels use γ, ×, – on purpose
+    "RUF002",
+    "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["S101", "ARG"]
+"*.ipynb" = ["B018", "E402"]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ty.rules]
+all = "error"
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
+xfail_strict = true
+testpaths = ["tests"]

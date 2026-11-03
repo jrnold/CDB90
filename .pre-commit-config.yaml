@@ -116,3 +116,40 @@ repos:
         language: python
         additional_dependencies: [panache-cli==3.17.0]
         files: \.(qmd|Rmd|md)$
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.2
+    hooks:
+      - id: ruff-check
+        types_or: [python, pyi, jupyter]
+      - id: ruff-format
+        types_or: [python, pyi, jupyter]  # panache formats Markdown
+
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.13.5
+    hooks:
+      - id: uv-lock
+        args: [--check]
+        files: (^|/)(uv\.lock|pyproject\.toml)$
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.9.1
+    hooks:
+      - id: nbstripout
+
+  - repo: local
+    hooks:
+      - id: ty
+        name: ty (types)
+        entry: uv run --frozen ty check
+        language: system
+        types_or: [python, pyi, jupyter]
+        pass_filenames: false
+        stages: [pre-push]
+      - id: deptry
+        name: deptry (unused and missing dependencies)
+        entry: uv run --frozen deptry .
+        language: system
+        types_or: [python, toml]
+        pass_filenames: false
+        stages: [pre-push]
