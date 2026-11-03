@@ -31,10 +31,10 @@ This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/d
 
 # Usage
 
-To build the data csv's, documentation, and create a SQLite database with the data, run:
+To build the data csv's, documentation, and create a SQLite database with the data, install the Python dependencies with `uv sync` and run:
 
 ```
-$ ./build.sh
+$ uv run ./build.sh
 ```
 
 # References

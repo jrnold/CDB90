@@ -1,0 +1,103 @@
+isqno,wikidata_id,precision,note
+29,Q3067308,place,"Saint-Antoine district, Paris; battle's own item has no P625"
+61,Q315948,place,"Kesselsdorf village, Saxony"
+124,Q490155,place,"Eckmuehl (Eggmuehl) village, Bavaria"
+152,Q320015,region,"Pasto, Narino; Bombona village item has no P625"
+161,Q780038,region,"La Magdalena Contreras borough, Mexico City (Padierna area)"
+284,Q1037150,place,"Hnyla Lypa river, Galicia"
+285,Q997343,place,Rava-Ruska city
+311,Q180086,region,Galicia historical region; offensive also covered Volhynia
+325,Q328030,region,Kut city; Shumran bend crossing nearby has no item
+403,Q58633,place,Grazzanise comune
+404,Q58457,place,Caiazzo comune
+405,Q58477,place,Capua comune
+406,Q58554,place,Castel Volturno comune
+407,Q3861172,place,Monte Acero mountain; location match unverified
+408,Q18436815,place,Triflisco settlement
+409,Q58582,place,Dragoni comune
+413,Q58595,place,Francolise comune
+414,Q18500716,place,Santa Maria Oliveto settlement in Pozzilli
+415,Q3861292,place,Monte Camino mountain
+416,Q31619969,place,Monte Lungo hill near Mignano Monte Lungo
+417,Q221900,place,Pozzilli comune
+418,Q3861292,place,Monte Camino mountain
+420,Q18436461,place,Calabritto hamlet near Mignano Monte Lungo
+421,Q3861292,place,Monte Camino mountain
+422,Q21998018,place,Monte Maggiore near Teano (Monti Trebulani)
+434,Q18453891,place,"Santa Maria Infante, hamlet of Minturno"
+436,Q3662989,place,"Castellonorato, hamlet of Formia"
+437,Q128222,place,Spigno Saturnia comune
+438,Q128086,place,Formia comune
+455,Q243514,place,Valmontone comune
+457,Q15527609,region,Scarperia e San Piero comune; Giogo pass has no item with P625
+470,Q599492,region,Seille river; Nied sector not separately itemised
+471,Q22745,region,Chateau-Salins commune; forest has no item
+473,Q22353,region,Morhange commune; battle spans Morhange and Faulquemont
+474,Q21617,place,Bourgaltroff commune
+475,Q22485,region,Saint-Avold commune; battle covers Sarre area
+476,Q22792,place,Baerendorf commune
+477,Q22792,place,Baerendorf commune
+478,Q21223,place,Burbach commune; battle named with Durstel
+479,Q22782,place,Durstel commune; second place unmatched
+480,Q21569,place,Sarre-Union commune
+481,Q3484974,region,Singling former commune; Sarre river sector
+482,Q21749,place,Bining commune; battle named with Singling
+486,Q184371,region,Sedan commune; Meuse crossings around Sedan
+491,Q4366714,place,Pogoreloye Gorodische railway station (in the town)
+498,Q3329,region,Belgorod Oblast
+499,Q3323,place,Belgorod city
+500,Q33349,place,Melitopol city
+503,Q7525,place,Sevastopol city
+504,Q207927,place,"Berezina river, Belarus; operation covered whole river"
+505,Q180086,region,Galicia region; Lviv-Sandomierz operation spanned wider area
+506,Q465104,place,"Brody city, Lviv Oblast"
+507,Q465104,place,"Brody city, Lviv Oblast"
+508,Q807271,region,"Baranow Sandomierski, Sandomierz bridgehead area"
+510,Q46852,region,Iasi city; operation covered wider Moldavia
+512,Q103801,region,East Prussia province
+513,Q745051,place,Ciechanow city
+514,Q745051,place,Ciechanow city
+549,Q374748,place,Jenin city
+551,Q1899332,place,Qabatiya city
+552,Q33506547,place,"Tilfit village, Jenin Governorate"
+553,Q214178,place,Nablus city
+554,Q2457100,place,"Rafah, Egyptian side"
+557,Q238452,place,Arish city
+558,Q23948276,place,"Jabal Libni mountain, Sinai"
+559,Q39760,region,Gaza Strip
+560,Q12186429,place,Bir Hasana; Bir Thamada not found
+562,Q30662,region,North Sinai Governorate; wells not found
+563,Q30662,region,Nakhl not found; North Sinai Governorate
+564,Q30662,region,Bir Gifgafa not found; North Sinai Governorate
+566,Q83210,region,Rawiya not found; Golan Heights
+567,Q83210,region,Zaura/Qala not found; Golan Heights
+569,Q899,region,Suez Canal
+570,Q899,region,Suez Canal
+571,Q31067,region,Ismailia Governorate (Second Army sector)
+572,Q31070,region,Suez Governorate (Third Army sector)
+573,Q1324574,place,El-Qantarah al-Sharqiya; Firdan not found
+574,Q30662,region,North Sinai Governorate
+575,Q36755,region,Sinai Peninsula
+580,Q526440,region,Great Bitter Lake; Geneifa not found
+584,Q31070,region,Adabiya not found; Suez Governorate
+594,Q83210,region,Tel Shams not found; Golan Heights
+595,Q83210,region,Tel Shaar not found; Golan Heights
+596,Q83210,region,Tel el Hara not found; Golan Heights
+597,Q4243751,place,Kafr Shams village; Tel Antar not found
+598,Q83210,region,Naba not found; Golan Heights
+599,Q83210,region,Golan Heights
+629,Q42074,place,Gunsan city; spelling Kunsan assumed
+635,Q50329,region,Cheorwon County (Iron Triangle area)
+640,Q2915499,region,Upper Galilee; Operation Hiram area
+645,Q21576015,region,Bekaa Valley
+646,Q126084,place,Acre city
+648,Q2890221,place,Nitzana village (Auja al-Hafir)
+649,Q30662,region,Ageila-Rafah axis; North Sinai Governorate
+650,Q2920468,place,Abu-Ageila; Umm Katef nearby Q2906931
+651,Q30662,region,Bir Rud Salim not found; North Sinai Governorate
+652,Q30662,region,Rafah-El Arish axis; North Sinai Governorate
+653,Q309348,region,Khan Yunis city; route Gaza-Khan Yunis
+655,Q1218,place,Jerusalem city
+656,Q1670976,region,Latrun hilltop on Jerusalem corridor
+657,Q151985,region,Ardennes range; Sedan Q184371 also fits
+658,Q181285,place,Cambrai commune

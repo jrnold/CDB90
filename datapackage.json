@@ -433,7 +433,7 @@
             "source": "Arnold",
             "id": "dbpedia",
             "label": "Dbpedia URI",
-            "description": "\nURI for associated `dbpedia <http://dbpedia.org>`__ resource. These are easy to find for battles in the wars prior to WWI. It was harder to  find these for WWI and later wars, and especially for the Arab-Israeli wars.\n",
+            "description": "\nDeprecated: use the table `battle_links`, which links every battle to Wikidata and Wikipedia. URI for associated `dbpedia <http://dbpedia.org>`__ resource. These are easy to find for battles in the wars prior to WWI. It was harder to  find these for WWI and later wars, and especially for the Arab-Israeli wars.\n",
             "type": "string"
           },
           {
@@ -665,7 +665,7 @@
       }
     },
     {
-      "description": "Coordinates of battles, where known. Taken from the Wikipedia article that the battle links to (variable `dbpedia` in `battles`) through DBpedia, so this table is CC BY-SA, not CC0. The coordinates are those of the article, usually the battlefield, and are not checked against the CDB90 location. Built by `scripts/coordinates.py`.",
+      "description": "Coordinates of battles, from Wikidata (CC0). Each battle gets the point of its most specific item that has coordinates, and `precision` says what kind of item that is, so the point of a campaign can be told from that of a battlefield. The points are not checked against the CDB90 location text. Built by `scripts/coordinates.py` from `battle_links`, plus place lookups in `src-data/local/coordinates_places.csv`.",
       "path": "data/battle_coordinates.csv",
       "schema": {
         "fields": [
@@ -685,13 +685,52 @@
             "type": "number"
           },
           {
-            "id": "source",
-            "description": "Where the coordinates came from: `dbpedia` (current DBpedia) or `lchsk` (fetched from DBpedia in 2015 by lchsk, used where DBpedia no longer has coordinates).",
+            "id": "wikidata_id",
+            "description": "Wikidata item the point comes from.",
+            "type": "string"
+          },
+          {
+            "id": "precision",
+            "description": "What the point is: `battle` (the battle's own item), `place` (the place it is named after), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`.",
             "type": "string"
           }
         ]
       },
       "name": "battle_coordinates"
+    },
+    {
+      "description": "Links from battles to Wikidata items and English Wikipedia articles. A battle has one or more links: the battle itself, or the smallest campaign or war that covers it. Curated in `src-data/local/battle_links.csv`; resolved by `scripts/links.py`.",
+      "path": "data/battle_links.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "isqno",
+            "description": "Battle sequence number.",
+            "type": "integer"
+          },
+          {
+            "id": "wikidata_id",
+            "description": "Wikidata item (Q number).",
+            "type": "string"
+          },
+          {
+            "id": "wikipedia_title",
+            "description": "Title of the English Wikipedia article, after redirects.",
+            "type": "string"
+          },
+          {
+            "id": "wikipedia_url",
+            "description": "URL of the English Wikipedia article.",
+            "type": "string"
+          },
+          {
+            "id": "match",
+            "description": "How specific the link is: `battle` (an article on this battle), `campaign` (the smallest operation or campaign article that covers it) or `war` (only a war or front article exists).",
+            "type": "string"
+          }
+        ]
+      },
+      "name": "battle_links"
     },
     {
       "path": "data/front_widths.csv",
@@ -1131,7 +1170,7 @@
       "description": "Weather codes used in ``weather.wx1``"
     }
   ],
-  "version": "9.1.1",
+  "version": "9.2.0",
   "name": "CDB90",
   "homepage": "https://github.com/jrnold/CDB90",
   "sources": [
