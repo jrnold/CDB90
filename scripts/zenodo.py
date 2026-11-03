@@ -1,7 +1,8 @@
 """Build the data-only Zenodo deposit and upload it as a draft.
 
 ``bundle`` collects the data files (flat CSV and Parquet, SQLite, the relational CSV tables as one
-zip, a data package for the flat CSVs, a README and the licence) into ``dist/zenodo/``.
+zip, a data package for the flat CSVs, the codebook, the original CDB90 documentation, a README
+and the licence) into ``dist/zenodo/``.
 ``deposit`` uploads them to Zenodo with the metadata in ``zenodo/metadata.json`` and leaves the
 deposit as a draft; ``--publish`` publishes it, which mints a DOI and cannot be undone.
 
@@ -22,6 +23,8 @@ FLAT = Path("data/flat")
 RELATIONAL = Path("data/relational")
 SQLITE = Path("cdb90.sqlite3")
 METADATA = Path("zenodo/metadata.json")
+CODEBOOK = Path("docs/codebook.md")
+ORIGINAL_DOCS = Path("src-data/M000121/README.TXT")
 FLAT_FILES = [FLAT / f"{name}.{ext}" for name in ("battles", "sides") for ext in ("csv", "parquet")]
 ZIP_TIME = (1980, 1, 1, 0, 0, 0)  # a fixed time, so the zip is the same on every build
 SANDBOX_API = "https://sandbox.zenodo.org/api"
@@ -52,6 +55,8 @@ def build_bundle(out: Path = BUNDLE) -> list[Path]:
         (out / source.name).write_bytes(source.read_bytes())
     (out / "LICENSE.md").write_bytes(Path("data/LICENSE.md").read_bytes())
     (out / "README.md").write_bytes(Path("zenodo/README.md").read_bytes())
+    (out / "CODEBOOK.md").write_bytes(CODEBOOK.read_bytes())
+    (out / "original-documentation.txt").write_bytes(ORIGINAL_DOCS.read_bytes())
     zip_relational(out / "relational-csv.zip")
     bundle_descriptor(out / "datapackage.json")
     return sorted(p for p in out.iterdir() if p.is_file())
