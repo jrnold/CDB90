@@ -29,7 +29,7 @@ date, the forces, the course of the action and the sources.
 | V | World War II: North Africa, Italy, western Europe | AD-B087 721 | 188 |
 | VI | World War II: France 1940, the Eastern Front and Japan; the 1967, 1968 and 1973 Arab-Israeli wars | AD-B087 722 | 245 |
 
-The narratives are parsed into the table `battle_narratives` (see the data package): the `narrative`, `significance` and `sources` of each battle, with the source codes replaced by the full citations from the volumes' bibliography. `scripts/narratives.py` does it, and `src-data/local/narrative_matches.csv` lists the few narratives matched to a battle by hand because of an OCR typo in the heading.
+The narratives are parsed into the table `battle_narratives` (see the data package): the `narrative`, `significance` and `sources` of each battle, with the source codes replaced by the full citations from the volumes' bibliography. The narratives of battles 602 to 625 are parsed from AD-A201 404 the same way (see below); it lists its sources by operation instead of by code. `scripts/narratives.py` does it, and `src-data/local/narrative_matches.csv` lists the few narratives matched to a battle by hand because of an OCR typo in the heading.
 
 Battles 601 to 660 were added in CDB90 and are not described in these volumes; see
 [Where battles 601 to 660 come from](#where-battles-601-to-660-come-from).
@@ -85,6 +85,12 @@ Searching the OCR text and the DTIC reports shows what documents them:
   date, a data sheet (war, location, start date and so on), who won and a "Significance" paragraph, laid out like
   the HERO volumes. Both are marked "Distribution Statement A, approved for public release".
 - 601 (Mount Hermon III): a narrative in HERO Vol. VI.
+
+The narratives of 602 to 625 are in `battle_narratives` (document `AD-A201404`). Its sources are the archival
+records (record group 407 at the Washington National Records Center, "T" records microfilmed German records at
+the National Archives, "R" records at the Bundesarchiv-Militararchiv in Freiburg), manuscripts and published
+works that the report lists for each operation, so the engagements of an operation share one list.
+AD-A201 404 also has a data sheet of 96 fields for each engagement; they are not in the data.
 - 626 to 660 (Korea, Targul Frumos, the 1948, 1956, 1967 and 1982 Israeli battles, Quang Tri, France 1940): no
   documentation has been found. They are probably the result of McQuie's independent research, which the
   README does not cite a report for.

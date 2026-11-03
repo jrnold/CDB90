@@ -3,10 +3,13 @@
 The OCR text of the HERO volumes (CAA-SR-84-6, ``src-data/docs/hero/``) has a narrative for each of
 the first 600 CDB90 battles: a heading with the date, paragraphs, a "Significance:" paragraph and a
 "Sources:" paragraph that lists codes like ``M.19`` or ``B.11.1``. Each volume ends with a
-bibliography that defines the codes. This script
+bibliography that defines the codes. The 1988 report *New Engagement Data for the Breakpoints Data
+Base* (AD-A201404, ``src-data/docs/hero-1988/``) has narratives for 24 of the battles added in
+CDB90 (602 to 625), followed by a list of sources for each operation. This script
 
 1. parses each narrative into ``narrative``, ``significance`` and ``sources`` fields, replacing the
-   codes in the sources with the full citations (``B.11.1`` is volume 1 of entry ``B.11``);
+   codes in the sources with the full citations (``B.11.1`` is volume 1 of entry ``B.11``), or, for
+   the 1988 report, using the sources listed for the engagement's operation;
 2. matches each narrative to a battle by title and date, with the manual matches in
    ``src-data/local/narrative_matches.csv`` taking priority.
 """
@@ -22,6 +25,9 @@ from pathlib import Path
 import duckdb
 
 HERO = Path("src-data/docs/hero")
+ENGAGEMENTS = Path("src-data/docs/hero-1988/new-engagement-data-ADA201404.json")
+ENGAGEMENTS_DOCUMENT = "AD-A201404"
+ROMAN = {2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI"}
 MATCHES = Path("src-data/local/narrative_matches.csv")
 OUTPUT = Path("data/relational/battle_narratives.csv")
 VOLUMES = range(2, 7)  # volume I is the main report; the narratives are in volumes II to VI
@@ -65,11 +71,16 @@ def strip_markup(text: str) -> str:
     return text
 
 
-def volume_text(volume: int) -> str:
-    """Return the OCR text of a volume, pages joined by blank lines."""
-    record = json.loads((HERO / f"caa-sr-84-6-vol-{volume}.json").read_text(encoding="utf-8"))
+def document_text(path: Path) -> str:
+    """Return the OCR text of a document, pages joined by blank lines."""
+    record = json.loads(path.read_text(encoding="utf-8"))
     pages: list[str] = [page["markdown"] for page in record["pages"]]
     return "\n\n".join(pages)
+
+
+def volume_text(volume: int) -> str:
+    """Return the OCR text of a HERO volume."""
+    return document_text(HERO / f"caa-sr-84-6-vol-{volume}.json")
 
 
 def author_of(raw: str) -> str:
@@ -148,10 +159,11 @@ def expand_sources(codes_text: str, entries: dict[tuple[str, int], str]) -> str:
 class Narrative:
     """One parsed narrative."""
 
-    volume: int
+    volume: int | None
     heading: str
     title: str
     start: date | None
+    document: str = ""
     paragraphs: list[str] = field(default_factory=list)
     narrative: str = ""
     significance: str = ""
@@ -175,7 +187,8 @@ def parse_heading(raw_line: str) -> tuple[str, str, date | None] | None:
     """Return ``(heading text, title, start date)`` if ``raw_line`` is a battle heading."""
     text = strip_markup(raw_line)
     # a trailing "(O.S.)", "(Continued)", a period, or a comma before the year are not part of it
-    text = re.sub(r"\s*\((?:O\.S\.|N\.S\.|Continued)\)\s*$", "", text).rstrip(".")
+    # (R), (D) and (E) mark the level of an engagement in the 1988 report
+    text = re.sub(r"\s*\((?:O\.S\.|N\.S\.|Continued|[RDE])\)\**\s*$", "", text).rstrip(".")
     text = re.sub(r",\s*(\d{4})$", r" \1", text)
     match = HEADING.match(text)
     emphasized = raw_line.lstrip().startswith(("<u>", "_", "**", "#"))
@@ -198,26 +211,33 @@ def has_sources(narrative: Narrative) -> bool:
     )
 
 
-def split_narratives(volume: int) -> list[Narrative]:
-    """Split a volume into narratives, with their paragraphs.
+def split_text(
+    text: str, volume: int | None, document: str, *, engagements: bool = False
+) -> list[Narrative]:
+    """Split the text of a document into narratives, with their paragraphs.
 
     A narrative that runs over a page break repeats its heading (sometimes with "(Continued)"), so
-    a heading seen before continues the narrative it already started.
+    a heading seen before continues the narrative it already started. The data sheets of the 1988
+    report ("Engagement #", "Reference #") are skipped. With ``engagements`` (the 1988 report) a
+    narrative ends with its Significance paragraph and headings are never merged.
     """
     narratives: list[Narrative] = []
     by_heading: dict[str, Narrative] = {}
     current: Narrative | None = None
-    for raw_block in re.split(r"\n\s*\n", volume_text(volume)):
+    for raw_block in re.split(r"\n\s*\n", text):
         block = re.sub(r"<table>.*?</table>", "", raw_block, flags=re.DOTALL)  # tables are not text
         raw_lines = [line for line in block.split("\n") if line.strip()]
         if not raw_lines:
+            continue
+        if raw_lines[0].startswith(("Engagement #", "Reference #")):
+            current = None  # a data sheet: skip it until the next heading
             continue
         # the heading is the first line, or the second when a war heading comes first
         for position in range(min(2, len(raw_lines))):
             parsed = parse_heading(raw_lines[position])
             if parsed is not None:
                 current = by_heading.get(parsed[0])
-                if current is None and narratives:
+                if current is None and narratives and not engagements:
                     # the OCR sometimes misspells a repeated heading
                     previous = narratives[-1]
                     if (
@@ -227,13 +247,78 @@ def split_narratives(volume: int) -> list[Narrative]:
                     ):
                         current = previous
                 if current is None:
-                    current = Narrative(volume, parsed[0], parsed[1], parsed[2])
+                    current = Narrative(volume, parsed[0], parsed[1], parsed[2], document)
                     narratives.append(current)
                     by_heading[parsed[0]] = current
                 raw_lines = raw_lines[position + 1 :]  # the rest follows the heading directly
                 break
         if raw_lines and current is not None:
-            current.paragraphs.append(strip_markup(" ".join(raw_lines)))
+            paragraph = strip_markup(" ".join(raw_lines))
+            current.paragraphs.append(paragraph)
+            if engagements and re.match(r"(?i)^significance\s*[:.]", paragraph):
+                current = None  # the data sheet of the next engagement follows
+    return narratives
+
+
+def split_narratives(volume: int) -> list[Narrative]:
+    """Split a HERO volume into narratives."""
+    return split_text(volume_text(volume), volume, f"CAA-SR-84-6, Vol. {ROMAN[volume]}")
+
+
+OPERATIONS = {
+    "sidi bou zid": "Sidi Bou Zid",
+    "kasserine": "Kasserine Pass",
+    "rapido": "Rapido River",
+    "bowling alley": "Bowling Alley",
+    "mortain": "Mortain",
+    "schmidt": "Schmidt",
+    "wahlerscheid": "Wahlerscheid, Krinkelt-Rocherath",
+    "krinkelt": "Wahlerscheid, Krinkelt-Rocherath",
+    "our river": "Our River",
+    "schnee eifel": "Schnee Eifel",
+}
+
+
+def operation_of(text: str) -> str | None:
+    """Return the operation (the group of sources) that an engagement or a heading belongs to."""
+    lowered = text.lower()
+    for keyword, operation in OPERATIONS.items():
+        if keyword in lowered:
+            return operation
+    return None
+
+
+def engagement_sources(text: str) -> dict[str, list[str]]:
+    """Return ``{operation: [citation, ...]}`` from the sources of the 1988 report.
+
+    The report lists archival sources, then manuscript sources, each in groups by operation.
+    """
+    start = text.index("Sources for Data for Newly Researched Engagements")
+    end = text.index("REPORT DOCUMENTATION PAGE", start)
+    sources: dict[str, list[str]] = {}
+    group: str | None = None
+    for block in re.split(r"\n\s*\n", text[start:end]):
+        for line in block.split("\n"):
+            line = strip_markup(re.sub(r"<!--.*?-->", "", line))  # noqa: PLW2901
+            if not line or re.fullmatch(r"\d{1,3}", line):
+                continue
+            heading = operation_of(line) if len(line) < 45 else None
+            if heading is not None and not re.search(r"\d{2}", line):
+                group = heading
+            elif group is not None and not line.endswith(":") and not line.startswith("- "):
+                sources.setdefault(group, []).append(line)
+    return sources
+
+
+def split_engagements() -> list[Narrative]:
+    """Parse the engagement narratives of the 1988 report, with their operation's sources."""
+    text = document_text(ENGAGEMENTS)
+    narratives = split_text(text, None, ENGAGEMENTS_DOCUMENT, engagements=True)
+    sources = engagement_sources(text)
+    for narrative in narratives:
+        operation = operation_of(narrative.title)
+        narrative.codes = ""
+        narrative.sources = "\n".join(sources.get(operation or "", []))
     return narratives
 
 
@@ -242,14 +327,17 @@ def fill_fields(narrative: Narrative, entries: dict[tuple[str, int], str]) -> No
     parts: dict[str, list[str]] = {"narrative": [], "significance": [], "sources": []}
     current = "narrative"
     for paragraph in narrative.paragraphs:
-        if re.fullmatch(r"\d{1,3}", paragraph) or (
-            paragraph.isupper() and not CODES_ONLY.match(paragraph)
+        if (
+            re.fullmatch(r"\d{1,3}", paragraph)
+            or (paragraph.isupper() and not CODES_ONLY.match(paragraph))
+            or re.fullmatch(r"_{3,}", paragraph)
+            or paragraph.startswith("* R following")
         ):
-            continue  # a page number or the heading of the next war
+            continue  # a page number, the heading of the next war, or a footnote
         text = paragraph
-        if re.match(r"(?i)^significance\s*:", paragraph):
+        if re.match(r"(?i)^significance\s*[:.]", paragraph):
             current = "significance"
-            text = re.sub(r"(?i)^significance\s*:\s*", "", paragraph)
+            text = re.sub(r"(?i)^significance\s*[:.]\s*", "", paragraph)
         elif re.match(r"(?i)^sources?\s*[:;.]", paragraph):
             current = "sources"
             text = re.sub(r"(?i)^sources?\s*[:;.]\s*", "", paragraph)
@@ -263,7 +351,8 @@ def fill_fields(narrative: Narrative, entries: dict[tuple[str, int], str]) -> No
     narrative.narrative = "\n\n".join(parts["narrative"])
     narrative.significance = "\n\n".join(parts["significance"])
     narrative.codes = " ".join(parts["sources"])
-    narrative.sources = expand_sources(narrative.codes, entries)
+    if narrative.document != ENGAGEMENTS_DOCUMENT:  # the 1988 report lists its sources in full
+        narrative.sources = expand_sources(narrative.codes, entries)
 
 
 def normalize(name: str) -> str:
@@ -296,11 +385,14 @@ def match_battles(narratives: list[Narrative]) -> dict[int, Narrative]:
     if relation is None:
         raise ValueError("no battles")
     battles = relation.fetchall()
-    manual: dict[int, tuple[int, str]] = {}
+    manual: dict[int, tuple[int | None, str]] = {}
     if MATCHES.exists():
         with MATCHES.open(newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                manual[int(row["isqno"])] = (int(row["volume"]), row["heading"])
+                manual[int(row["isqno"])] = (
+                    int(row["volume"]) if row["volume"] else None,
+                    row["heading"],
+                )
     pairs = []
     for index, narrative in enumerate(narratives):
         for isqno, name, start in battles:
@@ -328,17 +420,29 @@ def main() -> None:
     """Write the narratives table."""
     entries = bibliography()
     narratives = [n for volume in VOLUMES for n in split_narratives(volume)]
+    narratives += split_engagements()
     for narrative in narratives:
         fill_fields(narrative, entries)
     matched = match_battles(narratives)
     with OUTPUT.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC, lineterminator="\n")
         writer.writerow(
-            ["isqno", "hero_volume", "hero_title", "narrative", "significance", "sources"]
+            [
+                "isqno",
+                "hero_volume",
+                "hero_title",
+                "narrative",
+                "significance",
+                "sources",
+                "document",
+            ]
         )
         for isqno in sorted(matched):
             n = matched[isqno]
-            writer.writerow([isqno, n.volume, n.heading, n.narrative, n.significance, n.sources])
+            volume = "" if n.volume is None else n.volume
+            writer.writerow(
+                [isqno, volume, n.heading, n.narrative, n.significance, n.sources, n.document]
+            )
 
 
 if __name__ == "__main__":

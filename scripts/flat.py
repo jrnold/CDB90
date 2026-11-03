@@ -122,7 +122,8 @@ SELECT
     n.hero_title,
     n.narrative,
     n.significance,
-    n.sources
+    n.sources,
+    n.document
 FROM read_csv('data/relational/battle_narratives.csv') AS n
 JOIN read_csv('data/relational/battles.csv') AS b USING (isqno)
 ORDER BY n.isqno

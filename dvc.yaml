@@ -124,6 +124,7 @@ stages:
       - scripts/narratives.py
       - requirements.lock
       - src-data/docs/hero
+      - src-data/docs/hero-1988
       - src-data/local/narrative_matches.csv
       - data/relational/battles.csv
       - data/relational/battle_durations.csv

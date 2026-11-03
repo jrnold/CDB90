@@ -23,7 +23,7 @@
     }
   ],
   "profile": "tabular-data-package",
-  "version": "10.3.1",
+  "version": "10.4.0",
   "resources": [
     {
       "name": "battles",
@@ -384,7 +384,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "One row per battle that has a narrative in the HERO volumes (586 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6. The first 600 battles of CDB90 are described there; 585 of them have a narrative in the OCR text, and so does one later battle (601). The other 15 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others. The sources are full citations, one per line.",
+      "description": "One row per battle that has a narrative (610 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6 (the HERO volumes) and of the 1988 report \"New Engagement Data for the Breakpoints Data Base\". The first 600 battles of CDB90 are described in the volumes; 585 of them have a narrative in the OCR text, and so does battle 601. The 1988 report has the 24 battles 602 to 625. The other 15 of the first 600 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others; 626 to 660 have no narrative. The sources are full citations, one per line.",
       "schema": {
         "fields": [
           {
@@ -400,7 +400,7 @@
           {
             "name": "hero_volume",
             "type": "integer",
-            "description": "Volume of CAA-SR-84-6 (II to VI) the narrative is in."
+            "description": "Volume of CAA-SR-84-6 (II to VI) the narrative is in; empty for the 1988 report."
           },
           {
             "name": "hero_title",
@@ -420,7 +420,12 @@
           {
             "name": "sources",
             "type": "string",
-            "description": "The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work."
+            "description": "The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work. The 1988 report lists its sources by operation, so the engagements of an operation share one list."
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The document the narrative is from: a volume of CAA-SR-84-6 or the 1988 report \"New Engagement Data for the Breakpoints Data Base\" (AD-A201404)."
           }
         ],
         "missingValues": [
