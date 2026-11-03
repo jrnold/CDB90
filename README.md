@@ -1,5 +1,10 @@
 # CDB90 Battle Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23928303.svg)](https://doi.org/10.5281/zenodo.23928303)
+[![Version](https://img.shields.io/github/v/tag/jrnold/CDB90?sort=semver&label=version)](https://github.com/jrnold/CDB90/tags)
+[![Data: CC0 1.0](https://img.shields.io/badge/data-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+
 A tidier and open-data version of CDB90 (CAA Database of Battles, Version 1990).
 This used to be called CDB13, which I thought was an amusing name, but seemed to make people think I added to the CDB90 data.
 
@@ -52,24 +57,18 @@ Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/
 
 # Citation
 
-See `CITATION.cff`. The data (not the code) is archived on [Zenodo](https://zenodo.org) with a DOI: the
-SQLite database, the flat CSV and Parquet tables, the relational CSV tables as one zip, and the data
-package. `uv run python -m scripts.zenodo bundle` collects those files in `dist/zenodo/`, and
-`uv run python -m scripts.zenodo deposit` uploads them as a draft (set `ZENODO_TOKEN`; `--sandbox` uses
-sandbox.zenodo.org, and `--publish` publishes, which cannot be undone).
+See `CITATION.cff`. The data (not the code) is archived on [Zenodo](https://doi.org/10.5281/zenodo.23928303):
+the SQLite database, the flat CSV and Parquet tables, the relational CSV tables as one zip, the data
+package, the codebook and the original documentation. The DOI 10.5281/zenodo.23928303 always points to
+the latest version; version 10.0.0 is 10.5281/zenodo.23928305.
 
-# Usage
+> Arnold, Jeffrey B. (2026). CDB90: A tidy, open-data version of the CAA Database of Battles (1990)
+> (Version 10.0.0) [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.23928305>
 
-The build is a [DVC](https://dvc.org) pipeline (`dvc.yaml`). To rebuild the tables, the flat
-analysis tables, the data package and the SQLite database, install the Python dependencies with
-`uv sync` and run:
-
-```
-$ uv run dvc repro
-```
-
-The `links` and `coordinates` stages query the Wikipedia and Wikidata APIs, so they need network
-access. Every output is small and published from git, so the pipeline has no DVC remote.
+To prepare a deposit, `uv run python -m scripts.zenodo bundle` collects the files in `dist/zenodo/`,
+and `uv run python -m scripts.zenodo deposit` uploads them as a draft (set `ZENODO_TOKEN`; `--update ID`
+replaces the files of an existing draft; `--publish` publishes, which cannot be undone). A new version of a
+published record is made with "New version" on Zenodo, which the script does not do yet.
 
 # References
 
