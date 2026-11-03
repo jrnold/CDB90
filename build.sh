@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-RSCRIPT=Rscript
 PYTHON=python
 SQLITE_DB=cdb90.sqlite3
 DAFF=daff.py
@@ -23,7 +22,7 @@ else
 fi
 
 # create files in ./data
-"${RSCRIPT}" create_data.R
+"${PYTHON}" create_data.py
 
 # download battle coordinates (needs network access)
 "${PYTHON}" scripts/coordinates.py
