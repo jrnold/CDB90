@@ -49,9 +49,9 @@ def test_outcome_is_from_each_sides_point_of_view() -> None:
     assert scalar(query) == 0
 
 
-def test_sqlite_columns_are_matched_by_name() -> None:
+def test_sqlite_columns_are_matched_by_name(sqlite_db: Path) -> None:
     """Regression: the first SQLite builds loaded columns by position, scrambling three tables."""
-    conn = sqlite3.connect("cdb90.sqlite3")
+    conn = sqlite3.connect(sqlite_db)
     try:
         row = conn.execute(
             "SELECT attacker, nam FROM belligerents WHERE isqno = 1 AND attacker = 1"

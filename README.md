@@ -48,6 +48,14 @@ Every battle is linked to one or more Wikidata items and Wikipedia articles (`ba
 
 Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/`.
 
+# Citation
+
+See `CITATION.cff`. The data (not the code) is archived on [Zenodo](https://zenodo.org) with a DOI: the
+SQLite database, the flat CSV and Parquet tables, the relational CSV tables as one zip, and the data
+package. `uv run python -m scripts.zenodo bundle` collects those files in `dist/zenodo/`, and
+`uv run python -m scripts.zenodo deposit` uploads them as a draft (set `ZENODO_TOKEN`; `--sandbox` uses
+sandbox.zenodo.org, and `--publish` publishes, which cannot be undone).
+
 # Usage
 
 The build is a [DVC](https://dvc.org) pipeline (`dvc.yaml`). To rebuild the tables, the flat
