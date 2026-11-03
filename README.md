@@ -1,6 +1,7 @@
 # CDB90 Battle Dataset
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23928303.svg)](https://doi.org/10.5281/zenodo.23928303)
+[![lint](https://github.com/jrnold/CDB90/actions/workflows/lint.yml/badge.svg)](https://github.com/jrnold/CDB90/actions/workflows/lint.yml)
 [![Version](https://img.shields.io/github/v/tag/jrnold/CDB90?sort=semver&label=version)](https://github.com/jrnold/CDB90/tags)
 [![Data: CC0 1.0](https://img.shields.io/badge/data-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
