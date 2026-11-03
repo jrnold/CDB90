@@ -11,10 +11,10 @@ SRC_DIR = "src-data/datapackage"
 DST_DIR = "."
 
 def create_enum_resource(k, v):
-    d = {'path': 'data/enum_%s.csv' % k, 
+    d = {'path': 'data/enum_%s.csv' % k,
          'description': v['description'],
-         'schema': {'fields': 
-                    [{'id': "value", 'description': "variable value", 'type': v['type']}, 
+         'schema': {'fields':
+                    [{'id': "value", 'description': "variable value", 'type': v['type']},
                      {'id': "description", 'description': "description of the value", 'type': 'string'}]}}
     return d
 
@@ -30,9 +30,9 @@ for file in os.listdir(path.join(SRC_DIR, "resources")):
             resdata = yaml.load(f)
             resdata['name'] = path.splitext(path.basename(resdata['path']))[0]
             data['resources'].append(resdata)
-            
+
 with open(path.join(SRC_DIR, 'enum_tables.yaml'), 'r') as f:
-    enumdata = yaml.load(f)    
+    enumdata = yaml.load(f)
 for k, v in enumdata.items():
     data['resources'].append(create_enum_resource(k, v))
 

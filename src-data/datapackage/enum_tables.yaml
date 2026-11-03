@@ -1,16 +1,16 @@
-codead: 
+codead:
   description: "Interpretation of total personnel strength in ``belligerents.code``."
   type: string
-aeroa: 
-  description: Relative air superiority codes used in ``battles.aeroa``. 
+aeroa:
+  description: Relative air superiority codes used in ``battles.aeroa``.
   type: integer
-pri: 
+pri:
   description: Tactical scheme codes used in ``belligerents.pri[1-3]``.
   type: string
-wx1: 
+wx1:
   description: Weather codes used in ``weather.wx1``
   type: string
-wx2: 
+wx2:
   description: Weather codes used in ``weather.wx2``
   type: string
 wx3:

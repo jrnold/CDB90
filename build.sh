@@ -40,4 +40,3 @@ then
 fi
 echo "loading data/*csv into SQLite database $SQLITE_DB"
 $PYTHON load-sqlite.py datapackage.json $SQLITE_DB
-

@@ -15,7 +15,7 @@
 - isqno: [371]
   values:
     finsta: 8610
-    finstd: 220 
+    finstd: 220
   note: Sommepy Wood. Change in CDB91. Helmbold 1995, p. 2-5.
 
 - isqno: [223]
@@ -55,7 +55,7 @@
 - isqno: [168]
   values:
     casami: -3
-    
+
 
 - isqno: [488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516]
   values:
@@ -80,7 +80,7 @@
 - isqno: 126
   values:
     campgn: "WAGRAM"
-  note: Disambiguate campaigns    
+  note: Disambiguate campaigns
 - isqno: [147, 148]
   values:
     campgn: "NORTHERN 1812"
@@ -92,11 +92,11 @@
 - isqno: [202, 203]
   values:
     campgn: "WILDERNESS-SPOTSYLVANIA-COLD HARBOR"
-  note: Disambiguate campaigns    
+  note: Disambiguate campaigns
 - isqno: [351]
   values:
     campgn: "GERMAN SPRING OFFENSIVES"
-  note: Disambiguate campaigns    
+  note: Disambiguate campaigns
 - isqno: [565, 566, 567]
   values:
     campagn: "GOLAN 1967"
@@ -164,4 +164,3 @@
   values:
     casami: -10
   note: "The minimum casualties is unlikely to be -100%, -10% is closer to the value of the strami, which is -13%"
-    

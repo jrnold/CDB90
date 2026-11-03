@@ -3,11 +3,11 @@ description: >
 
   The actors associated with belligerents in each battle.
   Each side of a battle (belligerent) can include forces from one or more actors, which
-  can be states or non-states. This table lists those actors. The names of the actors 
+  can be states or non-states. This table lists those actors. The names of the actors
   don't correspond to any particular list of state or non-state actors since no list that
   I am aware of goes back to the 17th century. However, an effort is made to use the COW names
   of states for state actors in battles after 1816.
-  
+
 schema:
   fields:
     - id: isqno
@@ -21,4 +21,3 @@ schema:
     - id: actor
       type: string
       description: Name of actor
-  

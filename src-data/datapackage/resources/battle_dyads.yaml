@@ -2,7 +2,7 @@ path: data/battle_dyads.csv
 description: >
 
   The actor dyads associated with each battle. The members of the dyads are the actors in the ``battle_actors`` table.
-  
+
 schema:
   fields:
     - id: isqno
@@ -16,7 +16,7 @@ schema:
     - id: wt
       type: number
       description: >-
-        Weight to assign dyad: :math:`\frac{1}{\text{number of dyads}}`. 
+        Weight to assign dyad: :math:`\frac{1}{\text{number of dyads}}`.
     - id: dyad
       type: string
       description: >-
@@ -29,5 +29,3 @@ schema:
       type: boolean
       description: >-
         True if the dyad is the dyad consisting of the actors listed first in the ``battles.actors`` column. Filter on this if only one dyad needs to be used per battle, and the weights.
-
-  

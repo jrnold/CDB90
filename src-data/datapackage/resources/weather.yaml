@@ -16,7 +16,7 @@ schema:
     type: string
   - id: wx4
     description: >
-      
+
       Season
 
       For Northern Hemisphere

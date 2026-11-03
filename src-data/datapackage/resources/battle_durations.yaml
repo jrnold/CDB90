@@ -1,5 +1,5 @@
 path: data/battle_durations.csv
-description: > 
+description: >
 
   Battle start and end times and durations.
 
@@ -21,7 +21,7 @@ schema:
 
       Battle date and time (mid-point).
       This is simply the midpoint of ``datetime_min`` and ``datetime_max``.
-      
+
     type: datetime
   - id: duration1
     description: Battle duration (in days) calculated from ``datetime_min`` and ``datetime_max``.
@@ -29,4 +29,3 @@ schema:
   - id: duration2
     description: Battle duration (in days) calculated using durations in ``active_time_periods``.
     type: number
-

@@ -18,4 +18,3 @@ description:  "A database of over 600 battles that were fought between 1600AD an
         - id: version
           type: string
           description: Version number of the data
-          

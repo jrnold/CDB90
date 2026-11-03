@@ -1,10 +1,10 @@
 # From https://github.com/okfn/dptools/blob/master/bin/load-sqlite.py
 # No license given in original. Since OKFN assumed to be have open source license.
-# 
-# Edits by Jeffrey Arnold (2014), BSD-3 
-# 
+#
+# Edits by Jeffrey Arnold (2014), BSD-3
+#
 # - converted to Python 3
-# 
+#
 '''Command line tool to load a Simple Data Format Data Package into sqlite.
 
 For usage do:
@@ -96,5 +96,5 @@ if __name__ == '__main__':
                        help='path to datapackage')
     parser.add_argument('sqlite',
                        help='path to sqlite db')
-    args = parser.parse_args() 
+    args = parser.parse_args()
     load(args.datapackage, args.sqlite)
