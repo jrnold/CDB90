@@ -64,3 +64,4 @@ error-on-warning = true
 addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
 xfail_strict = true
 testpaths = ["tests"]
+pythonpath = ["."]  # so the tests can import create_data.py
