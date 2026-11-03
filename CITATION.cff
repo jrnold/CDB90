@@ -7,6 +7,7 @@ date-released: 2026-11-03
 authors:
   - family-names: Arnold
     given-names: Jeffrey B.
+doi: 10.5281/zenodo.23928305
 repository-code: https://github.com/jrnold/CDB90
 license: CC0-1.0
 keywords:

@@ -1,5 +1,8 @@
 # CDB90: data deposit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23928303.svg)](https://doi.org/10.5281/zenodo.23928303)
+[![Data: CC0 1.0](https://img.shields.io/badge/data-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 A tidier version of CDB90, the US Army Concepts Analysis Agency Database of Battles (Version 1990).
 The code that builds these files, and the history of the project, are at
 <https://github.com/jrnold/CDB90>.
