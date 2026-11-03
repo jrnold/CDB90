@@ -5,6 +5,8 @@ zip, a data package for the flat CSVs, the codebook, the original CDB90 document
 and the licence) into ``dist/zenodo/``.
 ``deposit`` uploads them to Zenodo with the metadata in ``zenodo/metadata.json`` and leaves the
 deposit as a draft; ``--publish`` publishes it, which mints a DOI and cannot be undone.
+``--update ID`` replaces the files of an existing draft, and ``--new-version ID`` starts a new
+version of a published record (``ID`` is the id of its latest version).
 
 The token is read from the ``ZENODO_TOKEN`` environment variable. Use ``--sandbox`` to try the
 upload on sandbox.zenodo.org first.
@@ -14,6 +16,7 @@ import argparse
 import json
 import os
 import zipfile
+from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
@@ -76,15 +79,26 @@ def deposit(
     sandbox: bool,
     publish: bool,
     deposit_id: int | None = None,
+    new_version_of: int | None = None,
 ) -> str:
     """Upload ``files`` to a Zenodo deposit and return its web address.
 
-    A new deposit is created, or, with ``deposit_id``, the files and metadata of an existing draft
-    are replaced (files with the same name are overwritten).
+    A new deposit is created; or, with ``deposit_id``, the files and metadata of an existing draft
+    are replaced (files with the same name are overwritten); or, with ``new_version_of`` (the id of
+    a published deposit), a new version of the record is started, its carried-over files are removed
+    and the files and metadata are replaced.
     """
     base = SANDBOX_API if sandbox else API
     headers = {"Authorization": f"Bearer {token}"}
-    if deposit_id is None:
+    if new_version_of is not None:
+        started = requests.post(
+            f"{base}/deposit/depositions/{new_version_of}/actions/newversion",
+            headers=headers,
+            timeout=60,
+        )
+        started.raise_for_status()
+        created = requests.get(started.json()["links"]["latest_draft"], headers=headers, timeout=60)
+    elif deposit_id is None:
         created = requests.post(f"{base}/deposit/depositions", json={}, headers=headers, timeout=60)
     else:
         created = requests.get(
@@ -97,6 +111,15 @@ def deposit(
             f"deposit {draft['id']} is {draft['state']}, not a draft; make a new version on Zenodo"
         )
         raise SystemExit(message)
+    if new_version_of is not None:
+        # a new version starts with the files of the last one: replace them all
+        for carried in draft.get("files", []):
+            removed = requests.delete(
+                f"{base}/deposit/depositions/{draft['id']}/files/{carried['id']}",
+                headers=headers,
+                timeout=60,
+            )
+            removed.raise_for_status()
     for path in files:
         with path.open("rb") as f:
             upload = requests.put(
@@ -104,6 +127,7 @@ def deposit(
             )
         upload.raise_for_status()
     metadata = json.loads(METADATA.read_text())
+    metadata["publication_date"] = datetime.now(UTC).date().isoformat()
     update = requests.put(
         f"{base}/deposit/depositions/{draft['id']}",
         json={"metadata": metadata},
@@ -129,7 +153,12 @@ def main() -> None:
     parser.add_argument("--sandbox", action="store_true", help="use sandbox.zenodo.org")
     parser.add_argument("--publish", action="store_true", help="publish the deposit (permanent)")
     parser.add_argument("--update", type=int, metavar="ID", help="update an existing draft")
+    parser.add_argument(
+        "--new-version", type=int, metavar="ID", help="make a new version of a published record"
+    )
     args = parser.parse_args()
+    if args.update is not None and args.new_version is not None:
+        parser.error("use --update or --new-version, not both")
     files = build_bundle()
     for path in files:
         print(f"{path} ({path.stat().st_size:,} bytes)")
@@ -138,7 +167,12 @@ def main() -> None:
         if token is None or token == "":
             raise SystemExit("set ZENODO_TOKEN to a Zenodo access token")
         url = deposit(
-            files, token, sandbox=args.sandbox, publish=args.publish, deposit_id=args.update
+            files,
+            token,
+            sandbox=args.sandbox,
+            publish=args.publish,
+            deposit_id=args.update,
+            new_version_of=args.new_version,
         )
         print(f"{'Published' if args.publish else 'Draft'}: {url}")
 
