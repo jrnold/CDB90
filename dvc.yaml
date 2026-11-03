@@ -2,6 +2,9 @@
 # (exception to baseline rule L1, see AGENTS.md); there is no DVC remote.
 # Run the whole build with `uv run dvc repro`. The `links` and `coordinates` stages query the
 # Wikipedia and Wikidata APIs, so they need network access.
+#
+# Outputs: relational tables (data/relational/, loaded into SQLite), flat analysis tables
+# (data/flat/, CSV and Parquet) and the Data Package for the flat CSVs (datapackage.json).
 stages:
   # Stages depend on the runtime packages only, so adding a dev tool doesn't make them stale.
   runtime-lock:
@@ -12,7 +15,7 @@ stages:
       - requirements.lock:
           cache: false
 
-  # The tidy tables, and the original and patched CDB90 data.
+  # The relational tables, and the original and patched CDB90 data.
   build-tables:
     cmd: uv run --frozen python create_data.py
     deps:
@@ -28,63 +31,63 @@ stages:
       - src-data/variable_levels.json
       - src-data/version.txt
     outs:
-      - data/active_periods.csv:
+      - data/relational/active_periods.csv:
           cache: false
-      - data/battle_actors.csv:
+      - data/relational/battle_actors.csv:
           cache: false
-      - data/battle_durations.csv:
+      - data/relational/battle_durations.csv:
           cache: false
-      - data/battle_dyads.csv:
+      - data/relational/battle_dyads.csv:
           cache: false
-      - data/battles.csv:
+      - data/relational/battles.csv:
           cache: false
-      - data/belligerents.csv:
+      - data/relational/belligerents.csv:
           cache: false
-      - data/commanders.csv:
+      - data/relational/commanders.csv:
           cache: false
-      - data/enum_aeroa.csv:
+      - data/relational/enum_aeroa.csv:
           cache: false
-      - data/enum_cea.csv:
+      - data/relational/enum_cea.csv:
           cache: false
-      - data/enum_codead.csv:
+      - data/relational/enum_codead.csv:
           cache: false
-      - data/enum_crit.csv:
+      - data/relational/enum_crit.csv:
           cache: false
-      - data/enum_post.csv:
+      - data/relational/enum_post.csv:
           cache: false
-      - data/enum_postype.csv:
+      - data/relational/enum_postype.csv:
           cache: false
-      - data/enum_pri.csv:
+      - data/relational/enum_pri.csv:
           cache: false
-      - data/enum_reso.csv:
+      - data/relational/enum_reso.csv:
           cache: false
-      - data/enum_surpa.csv:
+      - data/relational/enum_surpa.csv:
           cache: false
-      - data/enum_terra1.csv:
+      - data/relational/enum_terra1.csv:
           cache: false
-      - data/enum_terra2.csv:
+      - data/relational/enum_terra2.csv:
           cache: false
-      - data/enum_terra3.csv:
+      - data/relational/enum_terra3.csv:
           cache: false
-      - data/enum_wina.csv:
+      - data/relational/enum_wina.csv:
           cache: false
-      - data/enum_wx1.csv:
+      - data/relational/enum_wx1.csv:
           cache: false
-      - data/enum_wx2.csv:
+      - data/relational/enum_wx2.csv:
           cache: false
-      - data/enum_wx3.csv:
+      - data/relational/enum_wx3.csv:
           cache: false
-      - data/enum_wx4.csv:
+      - data/relational/enum_wx4.csv:
           cache: false
-      - data/enum_wx5.csv:
+      - data/relational/enum_wx5.csv:
           cache: false
-      - data/front_widths.csv:
+      - data/relational/front_widths.csv:
           cache: false
-      - data/terrain.csv:
+      - data/relational/terrain.csv:
           cache: false
-      - data/version.csv:
+      - data/relational/version.csv:
           cache: false
-      - data/weather.csv:
+      - data/relational/weather.csv:
           cache: false
       - src-data/CDB90/CDB90-orig.csv:
           cache: false
@@ -99,7 +102,7 @@ stages:
       - requirements.lock
       - src-data/local/battle_links.csv
     outs:
-      - data/battle_links.csv:
+      - data/relational/battle_links.csv:
           cache: false
 
   # Coordinates from Wikidata (SPARQL API).
@@ -108,80 +111,89 @@ stages:
     deps:
       - scripts/coordinates.py
       - requirements.lock
-      - data/battle_links.csv
+      - data/relational/battle_links.csv
       - src-data/local/coordinates_places.csv
     outs:
-      - data/battle_coordinates.csv:
+      - data/relational/battle_coordinates.csv:
           cache: false
 
-  # Flat analysis tables.
+  # Flat analysis tables, as CSV and Parquet.
   flat:
     cmd: uv run --frozen python -m scripts.flat
     deps:
       - scripts/flat.py
       - requirements.lock
-      - data/battles.csv
-      - data/belligerents.csv
-      - data/battle_durations.csv
-      - data/front_widths.csv
-      - data/commanders.csv
-      - data/battle_coordinates.csv
-      - data/battle_links.csv
+      - data/relational/battles.csv
+      - data/relational/belligerents.csv
+      - data/relational/battle_durations.csv
+      - data/relational/front_widths.csv
+      - data/relational/commanders.csv
+      - data/relational/battle_coordinates.csv
+      - data/relational/battle_links.csv
     outs:
+      - data/flat/battles.csv:
+          cache: false
       - data/flat/battles.parquet:
+          cache: false
+      - data/flat/sides.csv:
           cache: false
       - data/flat/sides.parquet:
           cache: false
 
+  # Data Package (Frictionless) for the flat CSV tables.
   datapackage:
     cmd: uv run --frozen python make_datapackage.py
     deps:
       - make_datapackage.py
       - requirements.lock
-      - src-data/datapackage
+      - src-data/datapackage/datapackage.yaml
+      - src-data/datapackage/flat.yaml
+      - src-data/datapackage/resources
       - src-data/version.txt
+      - data/flat/battles.parquet
+      - data/flat/sides.parquet
     outs:
       - datapackage.json:
           cache: false
 
-  # SQLite database of the tables (not tracked in git).
+  # SQLite database of the relational tables (a release asset; not tracked in git).
   sqlite:
-    cmd: rm -f cdb90.sqlite3 && uv run --frozen python load-sqlite.py datapackage.json cdb90.sqlite3
+    cmd: uv run --frozen python -m scripts.sqlite
     deps:
-      - load-sqlite.py
+      - scripts/sqlite.py
       - requirements.lock
-      - datapackage.json
-      - data/active_periods.csv
-      - data/battle_actors.csv
-      - data/battle_coordinates.csv
-      - data/battle_durations.csv
-      - data/battle_dyads.csv
-      - data/battle_links.csv
-      - data/battles.csv
-      - data/belligerents.csv
-      - data/commanders.csv
-      - data/enum_aeroa.csv
-      - data/enum_cea.csv
-      - data/enum_codead.csv
-      - data/enum_crit.csv
-      - data/enum_post.csv
-      - data/enum_postype.csv
-      - data/enum_pri.csv
-      - data/enum_reso.csv
-      - data/enum_surpa.csv
-      - data/enum_terra1.csv
-      - data/enum_terra2.csv
-      - data/enum_terra3.csv
-      - data/enum_wina.csv
-      - data/enum_wx1.csv
-      - data/enum_wx2.csv
-      - data/enum_wx3.csv
-      - data/enum_wx4.csv
-      - data/enum_wx5.csv
-      - data/front_widths.csv
-      - data/terrain.csv
-      - data/version.csv
-      - data/weather.csv
+      - src-data/datapackage
+      - data/relational/active_periods.csv
+      - data/relational/battle_actors.csv
+      - data/relational/battle_coordinates.csv
+      - data/relational/battle_durations.csv
+      - data/relational/battle_dyads.csv
+      - data/relational/battle_links.csv
+      - data/relational/battles.csv
+      - data/relational/belligerents.csv
+      - data/relational/commanders.csv
+      - data/relational/enum_aeroa.csv
+      - data/relational/enum_cea.csv
+      - data/relational/enum_codead.csv
+      - data/relational/enum_crit.csv
+      - data/relational/enum_post.csv
+      - data/relational/enum_postype.csv
+      - data/relational/enum_pri.csv
+      - data/relational/enum_reso.csv
+      - data/relational/enum_surpa.csv
+      - data/relational/enum_terra1.csv
+      - data/relational/enum_terra2.csv
+      - data/relational/enum_terra3.csv
+      - data/relational/enum_wina.csv
+      - data/relational/enum_wx1.csv
+      - data/relational/enum_wx2.csv
+      - data/relational/enum_wx3.csv
+      - data/relational/enum_wx4.csv
+      - data/relational/enum_wx5.csv
+      - data/relational/front_widths.csv
+      - data/relational/terrain.csv
+      - data/relational/version.csv
+      - data/relational/weather.csv
     outs:
       - cdb90.sqlite3:
           cache: false

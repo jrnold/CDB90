@@ -1,4 +1,4 @@
-path: data/battles.csv
+path: data/relational/battles.csv
 schema:
   fields:
   - description: battle sequence (line or serial) number

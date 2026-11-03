@@ -1,5 +1,5 @@
 description: CDB90 battles' belligerents (attacker, defender)
-path: data/belligerents.csv
+path: data/relational/belligerents.csv
 schema:
   fields:
   - description: battle sequence number

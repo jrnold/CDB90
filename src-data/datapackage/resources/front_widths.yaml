@@ -1,5 +1,5 @@
 description: Widths of fronts
-path: data/front_widths.csv
+path: data/relational/front_widths.csv
 schema:
   fields:
   - id: isqno

@@ -8,7 +8,7 @@ import pytest
 
 from scripts import coordinates, links
 
-DATA = Path("data")
+DATA = Path("data/relational")
 VALID_MATCH = {"battle", "campaign", "war"}
 VALID_PRECISION = {"battle", "place", "campaign", "region", "war"}
 # battles for which no credible link or coordinates were found

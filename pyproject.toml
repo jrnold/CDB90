@@ -1,6 +1,6 @@
 [project]
 name = "cdb90"
-version = "9.3.0"
+version = "10.0.0"
 description = "A tidier and open-data version of CDB90 (CAA Database of Battles, Version 1990)"
 requires-python = ">=3.10"
 license = "MIT"
@@ -17,6 +17,7 @@ dev = [
     "daff>=1.4.2",
     "deptry>=0.25.1",
     "dvc>=3.67.1",
+    "frictionless>=5.21.0",
     "pandas-stubs>=2.3.3.260113",
     "pytest>=9.1.1",
     "ruff>=0.17.2",
@@ -48,7 +49,7 @@ ignore = [
 ]
 
 [tool.ruff.lint.per-file-ignores]
-"**/tests/**" = ["S101", "ARG"]
+"**/tests/**" = ["S101", "S608", "ARG"]  # S608: tests build DuckDB queries from fixed paths
 "*.ipynb" = ["B018", "E402"]
 
 [tool.ruff.lint.flake8-tidy-imports]

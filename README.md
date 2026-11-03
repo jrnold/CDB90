@@ -18,7 +18,7 @@ The directory `src-data/M000121` contains the original data from CDB90 as obtain
 The original datafiles are the `WKS` files.
 However, since this is an archaic format, these were converted to `csv` files using LibreOffice (v. 4.4.3.2; BuildId: 88805f81e9fe61362df02b9941de8e38a9b5fd16; Locale: en_).
 
-The directory `data` contains the revised data.
+The directory `data` contains the revised data (see [Formats](#formats)).
 No major substantive changes were made to the data, nor were new battles added.
 A brief summary of the revisions are:
 
@@ -27,30 +27,39 @@ A brief summary of the revisions are:
 - Additional variables linking the battles to other datasources such as the Correlates of War
 - Different categorizations of wars, both from the original HERO dataset and my own categorization which is mostly consistent with the COW wars after 1815, and Wikipedia before 1815.
 
-This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/data-packages.html) standard.
+The flat CSV tables are described by a [Data Package](https://datapackage.org) (`datapackage.json`).
+
+# Formats
+
+There are three ways to get the data, all in version 10.0.0 and later (from the GitHub release and Zenodo).
+
+  | Format               | Files                                                              | For                                                                                                                                                      |
+  | -------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Flat CSV and Parquet | `data/flat/battles.{csv,parquet}`, `data/flat/sides.{csv,parquet}` | Analysis: one row per battle, or per battle and side, with the tables already joined.                                                                    |
+  | SQLite               | `cdb90.sqlite3` (release asset)                                    | The relational tables: battles, belligerents, commanders, active periods, weather, terrain, front widths, battle links, coordinates and the code tables. |
+  | Relational CSV       | `data/relational/*.csv`                                            | The inputs of the SQLite database, one csv per table.                                                                                                    |
+
+`datapackage.json` is a [Frictionless](https://frictionlessdata.io) Data Package for the flat CSV tables.
+
+- `battles`: one row per battle, with its dates and duration, coordinates, most specific Wikipedia link and per-side totals. The coded variables (`wina`, `cea`, `surpa`, ...) are from the attacker's point of view.
+- `sides`: one row per battle and side, with forces, commanders and the outcome from that side's point of view (1 win, 0 draw, -1 loss).
+
+Every battle is linked to one or more Wikidata items and Wikipedia articles (`battle_links` in SQLite, `wikidata_id` and `wikipedia_title` in the flat `battles` table), and 648 of the 660 battles have coordinates from Wikidata (`coordinate_precision` says whether the point is the battle, the place it is named after, or only its campaign or region).
+
+Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/`.
 
 # Usage
 
-The build is a [DVC](https://dvc.org) pipeline (`dvc.yaml`). To rebuild the data csv's, the flat
-analysis tables, the data package and a SQLite database, install the Python dependencies with
+The build is a [DVC](https://dvc.org) pipeline (`dvc.yaml`). To rebuild the tables, the flat
+analysis tables, the data package and the SQLite database, install the Python dependencies with
 `uv sync` and run:
 
 ```
 $ uv run dvc repro
 ```
 
-The `links` and `coordinates` stages query the Wikipedia and Wikidata APIs, so they need network access.
-Every output is small and published from git, so the pipeline has no DVC remote.
-
-# Tables
-
-Tidy (relational) tables are in `data/`, one csv per table, described in `datapackage.json`.
-`data/flat/` has two flat tables for analysis, as Parquet:
-
-- `battles.parquet`: one row per battle, with its dates and duration, coordinates, most specific
-  Wikipedia link and per-side totals.
-- `sides.parquet`: one row per battle and side, with forces, commanders and the outcome from that
-  side's point of view (1 win, 0 draw, -1 loss).
+The `links` and `coordinates` stages query the Wikipedia and Wikidata APIs, so they need network
+access. Every output is small and published from git, so the pipeline has no DVC remote.
 
 # References
 

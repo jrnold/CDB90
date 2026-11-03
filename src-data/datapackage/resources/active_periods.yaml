@@ -1,5 +1,5 @@
 description: Start and end times of active time periods of the battle
-path: data/active_periods.csv
+path: data/relational/active_periods.csv
 schema:
   fields:
   - description: battle sequence number

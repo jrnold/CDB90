@@ -1,4 +1,4 @@
-path: data/battle_actors.csv
+path: data/relational/battle_actors.csv
 description: >
 
   The actors associated with belligerents in each battle.

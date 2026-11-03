@@ -1,4 +1,4 @@
-path: data/weather.csv
+path: data/relational/weather.csv
 schema:
   fields:
   - id: isqno

@@ -1,10 +1,11 @@
-"""Look up battle coordinates on Wikidata, writing ``data/battle_coordinates.csv``.
+"""Look up battle coordinates on Wikidata, writing ``data/relational/battle_coordinates.csv``.
 
 Each battle gets the coordinates (property P625) of its most specific item that has them. The
-candidates are the items linked in ``data/battle_links.csv`` (the battle itself, a campaign or a
-war) and the place items in ``src-data/local/coordinates_places.csv`` (the place the battle is
-named after, or a larger region). The ``precision`` column says which kind of item the point comes
-from, so a campaign's point can be told apart from a battlefield's. Wikidata is CC0.
+candidates are the items linked in ``data/relational/battle_links.csv`` (the battle itself, a
+campaign or a war) and the place items in ``src-data/local/coordinates_places.csv`` (the place
+the battle is named after, or a larger region). The ``precision`` column says which kind of item
+the point comes from, so a campaign's point can be told apart from a battlefield's. Wikidata is
+CC0.
 
 Run ``scripts/links.py`` first.
 """
@@ -16,9 +17,9 @@ from pathlib import Path
 import requests
 
 ENDPOINT = "https://query.wikidata.org/sparql"
-LINKS = Path("data/battle_links.csv")
+LINKS = Path("data/relational/battle_links.csv")
 PLACES = Path("src-data/local/coordinates_places.csv")
-OUTPUT = Path("data/battle_coordinates.csv")
+OUTPUT = Path("data/relational/battle_coordinates.csv")
 BATCH_SIZE = 100
 PRECISION_DIGITS = 5
 HEADERS = {

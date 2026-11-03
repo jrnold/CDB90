@@ -1,5 +1,5 @@
 description: CDB90 battles' commanders
-path: data/commanders.csv
+path: data/relational/commanders.csv
 schema:
   fields:
   - description: battle sequence number

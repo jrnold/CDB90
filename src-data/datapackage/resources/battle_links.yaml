@@ -2,7 +2,7 @@ description: >-
   Links from battles to Wikidata items and English Wikipedia articles. A battle has one or more
   links: the battle itself, or the smallest campaign or war that covers it. Curated in
   `src-data/local/battle_links.csv`; resolved by `scripts/links.py`.
-path: data/battle_links.csv
+path: data/relational/battle_links.csv
 schema:
   fields:
   - id: isqno

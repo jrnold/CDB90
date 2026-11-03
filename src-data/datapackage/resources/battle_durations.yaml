@@ -1,4 +1,4 @@
-path: data/battle_durations.csv
+path: data/relational/battle_durations.csv
 description: >
 
   Battle start and end times and durations.
