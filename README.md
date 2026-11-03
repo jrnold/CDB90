@@ -63,10 +63,10 @@ Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/
 See `CITATION.cff`. The data (not the code) is archived on [Zenodo](https://doi.org/10.5281/zenodo.23928303):
 the SQLite database, the flat CSV and Parquet tables, the relational CSV tables as one zip, the data
 package, the codebook and the original documentation. The DOI 10.5281/zenodo.23928303 always points to
-the latest version; version 10.0.0 is 10.5281/zenodo.23928305.
+the latest version; version 10.5.0 is 10.5281/zenodo.23931975 (10.0.0 is 10.5281/zenodo.23928305).
 
 > Arnold, Jeffrey B. (2026). CDB90: A tidy, open-data version of the CAA Database of Battles (1990)
-> (Version 10.0.0) [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.23928305>
+> (Version 10.5.0) [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.23931975>
 
 To prepare a deposit, `uv run python -m scripts.zenodo bundle` collects the files in `dist/zenodo/`,
 and `uv run python -m scripts.zenodo deposit` uploads them as a draft (set `ZENODO_TOKEN`; `--update ID`
