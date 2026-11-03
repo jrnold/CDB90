@@ -89,16 +89,22 @@ class Recorder:
         links = {"bucket": "https://zenodo.test/bucket", "html": "https://zenodo.test/draft"}
         if url.endswith("/actions/publish"):
             return self.response({"links": {"html": "https://zenodo.test/record"}})
+        if url.endswith("/actions/newversion"):
+            latest = "https://sandbox.zenodo.org/api/deposit/depositions/8"
+            return self.response({"links": {"latest_draft": latest}})
         return self.response({"id": 7, "links": links})
 
     def get(self, url: str, **_: object) -> Any:
         """Record a GET of an existing draft."""
         self.calls.append(("GET", url))
         state = self.state
+        draft_id = 8 if url.endswith("/depositions/8") else 7
+        carried = [{"id": "f1", "filename": "old.csv"}] if draft_id == 8 else []
         return self.response(
             {
-                "id": 7,
+                "id": draft_id,
                 "state": state,
+                "files": carried,
                 "links": {
                     "bucket": "https://zenodo.test/bucket",
                     "html": "https://zenodo.test/draft",
@@ -111,6 +117,11 @@ class Recorder:
         self.calls.append(("PUT", url))
         return self.response({})
 
+    def delete(self, url: str, **_: object) -> Any:
+        """Record a DELETE."""
+        self.calls.append(("DELETE", url))
+        return self.response({})
+
 
 def run_deposit(
     monkeypatch: pytest.MonkeyPatch,
@@ -118,6 +129,7 @@ def run_deposit(
     *,
     publish: bool,
     deposit_id: int | None = None,
+    new_version_of: int | None = None,
     state: str = "unsubmitted",
 ) -> tuple[str, Any]:
     """Run ``deposit`` against the fake Zenodo."""
@@ -126,8 +138,16 @@ def run_deposit(
     monkeypatch.setattr(zenodo.requests, "get", recorder.get)
     monkeypatch.setattr(zenodo.requests, "post", recorder.post)
     monkeypatch.setattr(zenodo.requests, "put", recorder.put)
+    monkeypatch.setattr(zenodo.requests, "delete", recorder.delete)
     files = sorted(p for p in bundle.iterdir() if p.is_file())
-    url = zenodo.deposit(files, "token", sandbox=True, publish=publish, deposit_id=deposit_id)
+    url = zenodo.deposit(
+        files,
+        "token",
+        sandbox=True,
+        publish=publish,
+        deposit_id=deposit_id,
+        new_version_of=new_version_of,
+    )
     return url, recorder
 
 
@@ -187,3 +207,27 @@ def test_zenodo_metadata_has_required_fields() -> None:
         assert metadata[field]
     assert metadata["upload_type"] == "dataset"
     assert metadata["license"] == "cc0-1.0"
+
+
+def test_new_version_replaces_the_carried_over_files(
+    monkeypatch: pytest.MonkeyPatch, bundle: Path
+) -> None:
+    """A new version drops the published files and uploads the whole bundle."""
+    url, recorder = run_deposit(monkeypatch, bundle, publish=False, new_version_of=7)
+    base = "https://sandbox.zenodo.org/api/deposit/depositions"
+    assert url == "https://zenodo.test/draft"
+    assert ("POST", f"{base}/7/actions/newversion") in recorder.calls
+    assert ("DELETE", f"{base}/8/files/f1") in recorder.calls
+    assert ("PUT", f"{base}/8") in recorder.calls
+    assert not any(u.endswith("/actions/publish") for _, u in recorder.calls)
+    uploads = [u for _, u in recorder.calls if u.startswith("https://zenodo.test/bucket")]
+    assert len(uploads) == 15
+
+
+def test_new_version_publishes_only_when_asked(
+    monkeypatch: pytest.MonkeyPatch, bundle: Path
+) -> None:
+    """``publish`` adds the publish request to the new version."""
+    url, recorder = run_deposit(monkeypatch, bundle, publish=True, new_version_of=7)
+    assert url == "https://zenodo.test/record"
+    assert recorder.calls[-1][1].endswith("/depositions/8/actions/publish")
