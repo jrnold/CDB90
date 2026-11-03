@@ -1,15 +1,15 @@
 #!/usr/bin/env Rscript
 # Create the database
 suppressPackageStartupMessages({
-  library("dplyr")
-  library("stringr")
-  library("lubridate")
-  library("jsonlite")
-  library("yaml")
-  library("readr")
+  library(dplyr)
+  library(stringr)
+  library(lubridate)
+  library(jsonlite)
+  library(yaml)
+  library(readr)
 })
-DATA_DIR <- "data"
-SRC_DATA <- "src-data"
+data_dir <- "data"
+src_data <- "src-data"
 
 ## TODO: output battle, belligerent, atp
 tomissing <- function(x, value = NA) {
@@ -20,10 +20,6 @@ tomissing <- function(x, value = NA) {
 tomissing_neg <- function(x) {
   x[x < 0] <- NA
   x
-}
-
-expand.paste <- function(..., sep = '') {
-  apply(expand.grid(...), 1, paste, collapse = sep)
 }
 
 belligerent_col_names <- function(attacker) {
@@ -59,7 +55,7 @@ belligerent_col_names <- function(attacker) {
       "ach%s"
     )
   newnames <- sprintf(template, postfix)
-  names(newnames) <- gsub("%s", "", template)
+  names(newnames) <- gsub("%s", "", template, fixed = TRUE)
   newnames
 }
 
@@ -113,32 +109,32 @@ battle_data <- function(cdb90, wars, duplicates) {
     x[[i]] <- tomissing(x[[i]], 9)
   }
   for (i in c(
-    'quala',
-    'resa',
-    'mobila',
-    'aira',
-    'fprepa',
-    'wxa',
-    'terra',
-    'leadaa',
-    'plana',
-    'surpaa',
-    'mana',
+    "quala",
+    "resa",
+    "mobila",
+    "aira",
+    "fprepa",
+    "wxa",
+    "terra",
+    "leadaa",
+    "plana",
+    "surpaa",
+    "mana",
     "aeroa",
     "surpa",
-    'cea',
-    'leada',
-    'trnga',
-    'morala',
-    'logsa',
-    'momnta',
-    'intela',
-    'techa',
-    'inita',
-    'wina',
-    'logsaa',
-    'fortsa',
-    'deepa',
+    "cea",
+    "leada",
+    "trnga",
+    "morala",
+    "logsa",
+    "momnta",
+    "intela",
+    "techa",
+    "inita",
+    "wina",
+    "logsaa",
+    "fortsa",
+    "deepa",
     "kmda"
   )) {
     x[[i]] <- tomissing_neg(x[[i]])
@@ -148,9 +144,9 @@ battle_data <- function(cdb90, wars, duplicates) {
   x <- merge(x, select(wars, -name, -war, -comment), by = "isqno")
   x <- (mutate(
     x,
-    dbpedia = ifelse(dbpedia != "", str_c("http://dbpedia.org/resource/", dbpedia), NA),
+    dbpedia = ifelse(nzchar(dbpedia), str_c("http://dbpedia.org/resource/", dbpedia), NA),
     war_initiator = (sidea == "A")
-  ) %>%
+  ) |>
     select(-sidea))
   # mark duplicates
   x <- merge(x, duplicates, all.x = TRUE)
@@ -187,7 +183,7 @@ belligerent_data_0 <- function(cdb90, attacker, misc) {
     x[[i]] <- tomissing(x[[i]], -1)
   }
   for (i in c(paste0("pri", 1:3), paste0("sec", 1:3), paste0("reso", 1:3))) {
-    x[[i]] <- as.factor(tomissing(x[[i]], '00'))
+    x[[i]] <- as.factor(tomissing(x[[i]], "00"))
   }
   # return data
   x
@@ -214,7 +210,7 @@ daterange <- function(yyyy, mm, dd) {
   }
 }
 
-datetimerange <- function(yyyy, mm = NA, dd = NA, HH = NA, MM = NA) {
+datetimerange <- function(yyyy, mm = NA, dd = NA, hour = NA, minute = NA) {
   if (is.na(yyyy)) {
     list(
       min = as.POSIXct(NA, origin = as.Date("1970-1-1"), tz = "UTC"),
@@ -224,22 +220,28 @@ datetimerange <- function(yyyy, mm = NA, dd = NA, HH = NA, MM = NA) {
     if (is.na(mm)) {
       list(
         min = ymd_hm(sprintf("%d-1-1-00-00", yyyy), tz = "UTC", quiet = TRUE),
-        max = ymd_hm(sprintf("%d-1-1-00-00", yyyy + 1, tz = "UTC", quiet = TRUE))
+        # NOTE: tz and quiet were passed to sprintf() here, so this uses ymd_hm()'s default
+        # time zone, unlike `min`. Kept as is so the output does not change.
+        max = ymd_hm(sprintf("%d-1-1-00-00", yyyy + 1))
       )
     } else {
       if (is.na(dd)) {
         day <- ymd_hm(sprintf("%d-%d-1-00-00", yyyy, mm), tz = "UTC", quiet = TRUE)
         list(min = day, max = day + months(1))
       } else {
-        if (is.na(HH)) {
+        if (is.na(hour)) {
           day <- ymd_hm(sprintf("%d-%d-%d-00-00", yyyy, mm, dd), tz = "UTC", quiet = TRUE)
           list(min = day, max = day + days(1))
         } else {
-          if (is.na(MM)) {
-            tm <- ymd_hm(sprintf("%d-%d-%d-%d-00", yyyy, mm, dd, HH), tz = "UTC", quiet = TRUE)
+          if (is.na(minute)) {
+            tm <- ymd_hm(sprintf("%d-%d-%d-%d-00", yyyy, mm, dd, hour), tz = "UTC", quiet = TRUE)
             list(min = tm, max = tm + hours(1))
           } else {
-            tm <- ymd_hm(sprintf("%d-%d-%d-%d-%d", yyyy, mm, dd, HH, MM), tz = "UTC", quiet = TRUE)
+            tm <- ymd_hm(
+              sprintf("%d-%d-%d-%d-%d", yyyy, mm, dd, hour, minute),
+              tz = "UTC",
+              quiet = TRUE
+            )
             list(min = tm, max = tm)
           }
         }
@@ -259,21 +261,21 @@ make_active_period <- function(x, i) {
     duration_min <- duration_max <- NA
     duration_only <- 0
     if (is.na(x$atpbhr)) {
-      HH1 <- MM1 <- HH2 <- MM2 <- NA
+      hour1 <- minute1 <- hour2 <- minute2 <- NA
     } else if (x$atpbhr == 5000) {
       endhr <- (x$atpehr %/% 100) - 50
       endmn <- x$atpehr %% 100
       duration_min <- duration_max <- endhr * 60 + endmn
       duration_only <- 1
-      HH1 <- MM1 <- HH2 <- MM2 <- NA
+      hour1 <- minute1 <- hour2 <- minute2 <- NA
     } else {
-      HH1 <- x$atpbhr %/% 100
-      MM1 <- x$atpbhr %% 100
-      HH2 <- x$atpehr %/% 100
-      MM2 <- x$atpehr %% 100
+      hour1 <- x$atpbhr %/% 100
+      minute1 <- x$atpbhr %% 100
+      hour2 <- x$atpehr %/% 100
+      minute2 <- x$atpehr %% 100
     }
-    start_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda, HH1, MM1)
-    end_time <- datetimerange(x$atpeyr, x$atpemn, x$atpeda, HH2, MM2)
+    start_time <- datetimerange(x$atpbyr, x$atpbmn, x$atpbda, hour1, minute1)
+    end_time <- datetimerange(x$atpeyr, x$atpemn, x$atpeda, hour2, minute2)
     if (is.na(duration_min)) {
       duration_min <-
         pmax(0, as.numeric(difftime(end_time$min, start_time$max, units = "mins")))
@@ -298,15 +300,15 @@ make_all_active_periods <- function(x) {
 }
 
 atp_data <- function(cdb90) {
-  for (i in expand.paste("atp", c("b", "e"), c("hr", "mn", "yr"), as.character(1:10), sep = "")) {
+  for (i in expand_paste("atp", c("b", "e"), c("hr", "mn", "yr"), as.character(1:10), sep = "")) {
     cdb90[[i]] <- tomissing(cdb90[[i]], c(99, 9999))
   }
-  group_by(cdb90, isqno) %>% do(make_all_active_periods(.))
+  group_by(cdb90, isqno) |> do(make_all_active_periods(.))
 }
 
 terra_data <- function(cdb90) {
   make_terra <- function(x, i) {
-    terra <- toupper(gsub("O", "0", x[[paste0("terra", i)]]))
+    terra <- toupper(gsub("O", "0", x[[paste0("terra", i)]], fixed = TRUE))
     if (terra == "000") {
       ret <- NULL
     } else {
@@ -323,12 +325,12 @@ terra_data <- function(cdb90) {
     plyr::ldply(1:2, function(i) make_terra(x, i = i))
   }
 
-  group_by(cdb90, isqno) %>% do(make_all_terra(.))
+  group_by(cdb90, isqno) |> do(make_all_terra(.))
 }
 
 wx_data <- function(cdb90) {
   make_wx <- function(x, i) {
-    wx <- toupper(gsub("O", "0", x[[paste0("wx", i)]]))
+    wx <- toupper(gsub("O", "0", x[[paste0("wx", i)]], fixed = TRUE))
     if (wx == "00000") {
       ret <- NULL
     } else {
@@ -345,7 +347,7 @@ wx_data <- function(cdb90) {
     plyr::ldply(1:3, function(i) make_wx(x, i = i))
   }
 
-  group_by(cdb90, isqno) %>% do(make_all_wx(.))
+  group_by(cdb90, isqno) |> do(make_all_wx(.))
 }
 
 writer <- function(x, file) {
@@ -395,8 +397,8 @@ front_width_data <- function(cdb90) {
 
 #' x = active period data
 make_battle_durations <- function(x) {
-  (mutate(x, duration = 0.5 * (duration_min + duration_max)) %>%
-    group_by(isqno) %>%
+  (mutate(x, duration = 0.5 * (duration_min + duration_max)) |>
+    group_by(isqno) |>
     summarise(
       datetime_min = min(start_time_min),
       datetime_max = max(end_time_max),
@@ -417,7 +419,7 @@ make_battle_actors <- function(x) {
     actors <- str_split(x$actors, pattern = "\\s*&\\s*")[[1]]
     data_frame(isqno = x$isqno, attacker = x$attacker, n = seq_along(actors), actor = actors)
   }
-  rowwise(x) %>% do(f(.))
+  rowwise(x) |> do(f(.))
 }
 
 make_enum_tables <- function(filepath) {
@@ -463,12 +465,7 @@ make_dyads <- function(x) {
 
 # some initial cleaning of the cdb90 data
 clean_cdb90 <- function(data, patchfile) {
-  # convert the columns
-  #   for (i in names(COLNAMES)) {
-  #     data[[i]] <- as(data[[i]], COLNAMES[[i]])
-  #   }
-
-  # apply changes in patch.jsonf
+  # apply changes in patch.yaml
   patch <- yaml.load_file(patchfile)
   for (x in patch) {
     for (id in x[["isqno"]]) {
@@ -502,64 +499,64 @@ expand_paste <- function(..., sep = " ") {
 
 
 main <- function() {
-  cat(sprintf("Writing files to %s", DATA_DIR))
+  cat(sprintf("Writing files to %s", data_dir))
   ## writing version
-  version <- read.table(file.path(SRC_DATA, "version.txt"), col.names = "version")
+  version <- read.table(file.path(src_data, "version.txt"), col.names = "version")
   cat("... Writing version.csv\n")
-  writer(version, file.path(DATA_DIR, "version.csv"))
+  writer(version, file.path(data_dir, "version.csv"))
 
   # Locations of the original csv files
-  DIR <- file.path(SRC_DATA, "M000121")
-  FILENAMES <- sort(dir(DIR, pattern = "CDB90\\d{3}.*\\.csv$", full.names = TRUE))
+  m_dir <- file.path(src_data, "M000121")
+  filenames <- sort(dir(m_dir, pattern = "CDB90\\d{3}.*\\.csv$", full.names = TRUE))
 
   # Names of columns
-  COLNAMES <- fromJSON(file.path(SRC_DATA, "CDB90", "cols.json"))
+  col_types_cdb90 <- fromJSON(file.path(src_data, "CDB90", "cols.json"))
 
-  cdb90 <- lapply(FILENAMES, function(f) {
+  cdb90 <- lapply(filenames, function(f) {
     setNames(
       read_delim(
         f,
         ",",
         skip = 8,
         col_names = FALSE,
-        col_types = paste0(rep("c", length(COLNAMES)), collapse = "")
+        col_types = strrep("c", length(col_types_cdb90))
       ),
-      names(COLNAMES)
+      names(col_types_cdb90)
     )
-  }) %>%
+  }) |>
     bind_rows()
   # for str, inst, rer, cas, finst, remove ","
   for (i in expand_paste(c("STR", "INTST", "FINST", "RERP", "CAS"), c("A", "D"), sep = "")) {
-    cdb90[[i]] <- str_replace(cdb90[[i]], ",", "")
+    cdb90[[i]] <- str_replace(cdb90[[i]], fixed(","), "")
   }
   # convert the columns
-  for (i in names(COLNAMES)) {
-    cdb90[[i]] <- as(cdb90[[i]], COLNAMES[[i]])
+  for (i in names(col_types_cdb90)) {
+    cdb90[[i]] <- as(cdb90[[i]], col_types_cdb90[[i]])
   }
-  write("Writing ", file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
-  writer(cdb90, file.path(SRC_DATA, "CDB90", "CDB90-orig.csv"))
+  write("Writing ", file.path(src_data, "CDB90", "CDB90-orig.csv"))
+  writer(cdb90, file.path(src_data, "CDB90", "CDB90-orig.csv"))
 
-  cdb90 <- clean_cdb90(cdb90, file.path(SRC_DATA, "CDB90", "patch.yaml"))
-  write("Writing ", file.path(SRC_DATA, "CDB90", "CDB90-patched.csv"))
+  cdb90 <- clean_cdb90(cdb90, file.path(src_data, "CDB90", "patch.yaml"))
+  write("Writing ", file.path(src_data, "CDB90", "CDB90-patched.csv"))
   writer(
     setNames(cdb90, str_to_upper(names(cdb90))),
-    file.path(SRC_DATA, "CDB90", "CDB90-patched.csv")
+    file.path(src_data, "CDB90", "CDB90-patched.csv")
   )
 
-  wars <- read.csv(file.path(SRC_DATA, "/local/wars.csv"), stringsAsFactors = FALSE)
+  wars <- read.csv(file.path(src_data, "local", "wars.csv"), stringsAsFactors = FALSE)
   new_belligerents <-
-    (read.csv(file.path(SRC_DATA, "/local/belligerents.csv"), stringsAsFactors = FALSE) %>%
-      select(isqno, attacker, actors) %>%
+    (read.csv(file.path(src_data, "local", "belligerents.csv"), stringsAsFactors = FALSE) |>
+      select(isqno, attacker, actors) |>
       mutate(attacker = as.logical(attacker)))
   commanders <-
-    (read.csv(file.path(SRC_DATA, "/local/commanders.csv"), stringsAsFactors = FALSE) %>%
-      select(isqno, attacker, actors, commanders, uri) %>%
+    (read.csv(file.path(src_data, "local", "commanders.csv"), stringsAsFactors = FALSE) |>
+      select(isqno, attacker, actors, commanders, uri) |>
       mutate(attacker = as.logical(attacker)))
   duplicates <-
     mutate(
       subset(
         mutate(
-          read.csv(file.path(SRC_DATA, "/local/duplicates.csv"), stringsAsFactors = FALSE),
+          read.csv(file.path(src_data, "local", "duplicates.csv"), stringsAsFactors = FALSE),
           match = as.logical(match)
         ),
         match
@@ -578,33 +575,33 @@ main <- function() {
 
   battle_actors <- make_battle_actors(belligerents)
   dyads <-
-    (group_by(belligerents, isqno) %>% do(make_dyads(.)))
+    (group_by(belligerents, isqno) |> do(make_dyads(.)))
 
   cat("... Writing battles.csv\n")
-  writer(battles, file.path(DATA_DIR, "battles.csv"))
+  writer(battles, file.path(data_dir, "battles.csv"))
   cat("... Writing belligerents.csv\n")
-  writer(belligerents, file.path(DATA_DIR, "belligerents.csv"))
+  writer(belligerents, file.path(data_dir, "belligerents.csv"))
   cat("... Writing weather.csv\n")
-  writer(weather, file.path(DATA_DIR, "weather.csv"))
+  writer(weather, file.path(data_dir, "weather.csv"))
   cat("... Writing terrain.csv\n")
-  writer(terrain, file.path(DATA_DIR, "terrain.csv"))
+  writer(terrain, file.path(data_dir, "terrain.csv"))
   cat("... Writing active_periods.csv\n")
-  writer(active_periods, file.path(DATA_DIR, "active_periods.csv"))
+  writer(active_periods, file.path(data_dir, "active_periods.csv"))
   cat("... Writing front_widths.csv\n")
-  writer(front_widths, file.path(DATA_DIR, "front_widths.csv"))
+  writer(front_widths, file.path(data_dir, "front_widths.csv"))
   cat("... Writing battle_durations.csv\n")
-  writer(battle_durations, file.path(DATA_DIR, "battle_durations.csv"))
+  writer(battle_durations, file.path(data_dir, "battle_durations.csv"))
   cat("... Writing battle_actors.csv\n")
-  writer(battle_actors, file.path(DATA_DIR, "battle_actors.csv"))
+  writer(battle_actors, file.path(data_dir, "battle_actors.csv"))
   cat("... Writing battle_dyads.csv\n")
-  writer(dyads, file.path(DATA_DIR, "battle_dyads.csv"))
+  writer(dyads, file.path(data_dir, "battle_dyads.csv"))
   cat("... Writing commanders.csv\n")
-  writer(commanders, file.path(DATA_DIR, "commanders.csv"))
+  writer(commanders, file.path(data_dir, "commanders.csv"))
 
   # Writing out variable levels
-  enums <- make_enum_tables(file.path(SRC_DATA, "variable_levels.json"))
+  enums <- make_enum_tables(file.path(src_data, "variable_levels.json"))
   for (i in names(enums)) {
-    outfile <- file.path(DATA_DIR, sprintf("enum_%s.csv", i))
+    outfile <- file.path(data_dir, sprintf("enum_%s.csv", i))
     cat(sprintf("... writing %s\n", outfile))
     writer(enums[[i]], outfile)
   }

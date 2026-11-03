@@ -1,0 +1,18 @@
+# Lint baseline: lintr's defaults plus its best-practice, correctness, robustness and efficiency
+# linters, minus indentation (air does it) and those that misfire on analysis code.
+linters: linters_with_tags(
+    tags = c("default", "best_practices", "correctness", "robustness", "efficiency"),
+    line_length_linter = line_length_linter(100L),
+    indentation_linter = NULL,
+    implicit_integer_linter = NULL,
+    nonportable_path_linter = NULL,
+    object_overwrite_linter = NULL,
+    # create_data.R is dplyr non-standard evaluation: every column name is reported as an unbound
+    # global (99 findings), and it is a script, not a package, so there is no globalVariables().
+    object_usage_linter = NULL,
+    print_linter = NULL,
+    undesirable_function_linter = NULL,
+    undesirable_operator_linter = NULL,
+    unnecessary_nesting_linter = NULL
+  )
+encoding: "UTF-8"
