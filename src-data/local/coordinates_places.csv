@@ -2,12 +2,46 @@ isqno,wikidata_id,precision,note
 29,Q3067308,place,"Saint-Antoine district, Paris; battle's own item has no P625"
 61,Q315948,place,"Kesselsdorf village, Saxony"
 124,Q490155,place,"Eckmuehl (Eggmuehl) village, Bavaria"
+152,Q2888171,place,"From HERO narrative: Bombona battle item; narrative: near Pasto on Galeras slopes, Gualtara River"
 152,Q320015,region,"Pasto, Narino; Bombona village item has no P625"
 161,Q780038,region,"La Magdalena Contreras borough, Mexico City (Padierna area)"
 284,Q1037150,place,"Hnyla Lypa river, Galicia"
 285,Q997343,place,Rava-Ruska city
+309,Q1023324,place,"From HERO narrative: Koprukoy; narrative: Turks threatened with envelopment at Koprukoy, Erzurum"
 311,Q180086,region,Galicia historical region; offensive also covered Volhynia
 325,Q328030,region,Kut city; Shumran bend crossing nearby has no item
+330,Q217768,area,"From HERO narrative: Peronne; phase named Somme-Peronne; 60-mile front, Somme bridges"
+331,Q74308,area,From HERO narrative: Montdidier; phase named Somme-Montdidier; taken 27 Mar; broad phase
+333,Q154748,area,From HERO narrative: Verdun sector (Sector Toulon); strongpoints not named by place
+353,Q872286,place,From HERO narrative: Missy-aux-Bois commune; narrative: Missy aux Bois Ravine SW of Soissons
+354,Q1020163,place,"From HERO narrative: Saconin-et-Breuil; narrative: strongpoints around Breuil and Saconin et Breuil, Missy Ravine"
+357,Q847302,place,From HERO narrative: Chaudun; narrative: village of Chaudun near objective line; Cravancon farm not found
+358,Q847302,place,From HERO narrative: Chaudun; narrative: 18th Infantry cleared town of Chaudun
+360,Q481097,place,From HERO narrative: Berzy-le-Sec; narrative: 28th Infantry assault on town of Berzy le Sec
+361,Q1021543,place,"From HERO narrative: Buzancy (Aisne); narrative: Buzancy Ridge and Chateau de Buzancy, Soissons-Chateau-Thierry road"
+363,Q217768,area,From HERO narrative: Peronne; narrative: Australians crossed Somme and took Peronne 30-31 Aug; also Queant
+365,Q223834,place,From HERO narrative: Lahayville; named; action via Nonsard and Bois de Lamarche north of Madine River
+368,Q662810,area,"From HERO narrative: Sainte-Marie-a-Py commune (Blanc Mont area); Medeah Farm just E of Blanc Mont, 2d Div 9th Inf, 3 Oct"
+369,Q1221195,area,From HERO narrative: Sommepy-Tahure commune; HERO heading Blanc Mont; Essen Hook not found on Wikidata
+370,Q662810,place,From HERO narrative: Sainte-Marie-a-Py commune (site of Blanc Mont ridge); 4th Marine Bde captured Blanc Mont 3-6 Oct
+371,Q1221195,place,"From HERO narrative: Sommepy-Tahure commune; Sommepy Wood in Blanc Mont operation, 3 Oct 1918"
+374,Q1059390,place,"From HERO narrative: Exermont commune; 18th Inf attacked Exermont and Montrefagne (Hill 240), 4 Oct"
+375,Q1059390,area,"From HERO narrative: Exermont commune; 26th Inf advanced through Mayache Ravine toward Exermont Ravine, 4 Oct"
+376,Q1059390,area,"From HERO narrative: Exermont commune; farm on N side of Exermont Ravine, 28th Inf, 4 Oct"
+377,Q1089409,place,"From HERO narrative: Fleville commune; 16th Inf reached Fleville across Exermont Ravine, 4 Oct"
+379,Q1059390,area,From HERO narrative: Exermont commune; 18th Inf attack on Montrefagne (Hill 240) and Bois de Boyon N of Exermont
+382,Q1086391,place,"From HERO narrative: Remilly-Aillicourt commune; 16th Inf cleared Aillicourt in street fight, Meuse valley, 7 Nov"
+383,Q1086391,area,From HERO narrative: Remilly-Aillicourt commune (contains Pont-Maugis); Hill 252 between Thelonne and Sedan
+393,Q189546,area,From HERO narrative: Bizerte; 9th Div attacked toward Bizerte via Mateur and L. Ichkeul 23 Apr-6 May; Sedjenane item not found
+394,Q1432673,area,From HERO narrative: Salerno airport (Montecorvino airfield): 56th Div landing right flank X Corps took Montecorvino airfield; Amphitheater unnamed
+395,Q3909278,place,From HERO narrative: Port of Salerno: 46th Div to seize the port of Salerno 9-11 Sep
+396,Q2324320,area,From HERO narrative: Persano near Sele-Calore confluence: US 45th Div defends Sele-Calore corridor; narrative names no village
+397,Q30022665,place,From HERO narrative: Battipaglia: 12-15 Sep German counterattack on British 56th Div at Battipaglia (narrative heading garbled)
+398,Q30031715,place,From HERO narrative: Vietri sul Mare: Hermann Goering Div attack on British 46th Div along coast toward Vietri 12-15 Sep
+399,Q2324320,area,From HERO narrative: Persano/Sele-Calore area: 45th Div defence 13-14 Sep; factory not named in narrative; unsure
+400,Q30022665,place,From HERO narrative: Battipaglia: British 7th Armd and 56th Div took town of Battipaglia 17 Sep
+401,Q30025525,place,From HERO narrative: Eboli: US 45th Div advance from Sele-Calore area 17-18 Sep; Eboli not named in narrative
+402,Q30031715,place,From HERO narrative: Vietri sul Mare: last Hermann Goering attack on 46th Div in hills around Vietri and Salerno 17 Sep
 403,Q58633,place,Grazzanise comune
 404,Q58457,place,Caiazzo comune
 405,Q58477,place,Capua comune
@@ -15,23 +49,54 @@ isqno,wikidata_id,precision,note
 407,Q3861172,place,Monte Acero mountain; location match unverified
 408,Q18436815,place,Triflisco settlement
 409,Q58582,place,Dragoni comune
+410,Q30026211,area,From HERO narrative: Grazzanise: 7th Armd crossed Volturno at Grazzanise then attacked Regi Agnena canal 17-18 Oct
+411,Q18436815,area,From HERO narrative: Triflisco: Monte Grande overlooks Triflisco Gap; 201st Guards Bde attack 16-17 Oct; hill not in Wikidata
 413,Q58595,place,Francolise comune
 414,Q18500716,place,Santa Maria Oliveto settlement in Pozzilli
 415,Q3861292,place,Monte Camino mountain
 416,Q31619969,place,Monte Lungo hill near Mignano Monte Lungo
 417,Q221900,place,Pozzilli comune
 418,Q3861292,place,Monte Camino mountain
+419,Q30027526,area,"From HERO narrative: Mignano Monte Lungo: Monte Rotondo attack by 3d Div north of Mignano on Hwy 6, 6-7 Nov; hill not found"
 420,Q18436461,place,Calabritto hamlet near Mignano Monte Lungo
 421,Q3861292,place,Monte Camino mountain
 422,Q21998018,place,Monte Maggiore near Teano (Monti Trebulani)
+423,Q128052,place,From HERO narrative: Aprilia: British 1st Div took town of Aprilia and the Factory 25-26 Jan 1944
+424,Q128052,place,"From HERO narrative: Aprilia: the Factory complex at the town of Aprilia, German counterattack 27 Jan"
+425,Q3969185,place,From HERO narrative: Campoleone railway station: 1st Div attack on Campoleone Station 29-31 Jan
+426,Q3969185,place,From HERO narrative: Campoleone: German attack on British 1st Div Campoleone salient 3-5 Feb
+427,Q16537375,place,From HERO narrative: Carroceto: German attack on the Factory at Carroceto 7-8 Feb; item at Aprilia comune coordinates
+429,Q128052,place,From HERO narrative: Aprilia; British 1st Div driven from Aprilia and the Factory 9 Feb
+430,Q128052,place,From HERO narrative: Aprilia; 45th Div attack to retake Aprilia and the Factory
 434,Q18453891,place,"Santa Maria Infante, hamlet of Minturno"
+435,Q18453891,area,From HERO narrative: Santa Maria Infante; San Martino Hill is nearby (no item)
 436,Q3662989,place,"Castellonorato, hamlet of Formia"
 437,Q128222,place,Spigno Saturnia comune
 438,Q128086,place,Formia comune
+439,Q30026413,area,From HERO narrative: Itri; Monte Grande is a height NW of Itri (no item)
+440,Q30025775,place,From HERO narrative: Fondi; narrative: advance from Itri to Fondi strongpoint in Hitler Line
+441,Q30031065,place,From HERO narrative: Terracina; Germans evacuated town 23/24 May
+445,Q30024802,place,From HERO narrative: Cisterna di Latina; 3d Div took Cisterna 25 May
+446,Q128206,place,From HERO narrative: Sezze; 85th Div (338th Inf) took Sezze 27 May
+447,Q30031588,place,From HERO narrative: Velletri; 1st Armored Div attack toward Velletri 26 May
+448,Q3969185,place,From HERO narrative: Campoleone railway station; CCB took station 29 May
+449,Q242793,area,From HERO narrative: Lanuvio; Villa Crocetta in front of Lanuvio (no item)
+450,Q241733,place,From HERO narrative: Ardea; British 1st/5th Div through Caesar Line south of Ardea
+451,Q16536116,area,From HERO narrative: Campoleone settlement; Fosso di Campoleone is a creek north of it
+452,Q242793,place,From HERO narrative: Lanuvio; 34th Div Caesar Line attack in front of Lanuvio
+453,Q242807,place,From HERO narrative: Lariano; name match only; narrative not found
 455,Q243514,place,Valmontone comune
+456,Q241733,area,From HERO narrative: Ardea: British 1st/5th Div advance to Tiber south of Ardea 3 Jun; narrative vague on exact place
+457,Q180940,place,From HERO narrative: Passo del Giogo: II US Corps assault on Giogo pass Gothic Line; current point is Futa Pass area
 457,Q15527609,region,Scarperia e San Piero comune; Giogo pass has no item with P625
+462,Q130272,place,From HERO narrative: Chartres: 7th Armd Div Combat Command B attacked city 15-16 Aug
+463,Q41139,place,From HERO narrative: Melun: 7th Armd Div Seine crossing and bridgehead at Melun 23-25 Aug
+469,Q591601,place,From HERO narrative: Schmidt (Nideggen): 28th Div objective Schmidt via Kall Trail; Huertgen Forest
+470,Q21581,area,From HERO narrative: Delme: 35th/80th Div took Delme; Chateau-Salins forest; Seille-Nied valley toward Faulquemont
 470,Q599492,region,Seille river; Nied sector not separately itemised
 471,Q22745,region,Chateau-Salins commune; forest has no item
+472,Q22353,place,From HERO narrative: Morhange: CCB 4th Armd Div and 35th Div took Morhange 13-15 Nov
+473,Q21896,area,From HERO narrative: Faulquemont: XII Corps drive to Faulquemont and Morhange; action between both
 473,Q22353,region,Morhange commune; battle spans Morhange and Faulquemont
 474,Q21617,place,Bourgaltroff commune
 475,Q22485,region,Saint-Avold commune; battle covers Sarre area
@@ -42,34 +107,49 @@ isqno,wikidata_id,precision,note
 480,Q21569,place,Sarre-Union commune
 481,Q3484974,region,Singling former commune; Sarre river sector
 482,Q21749,place,Bining commune; battle named with Singling
+486,Q1086451,place,From HERO narrative: Floing commune N of Sedan; narrative: 1st Panzer Div crossed Meuse near Floing 13 May (OCR Plaing)
 486,Q184371,region,Sedan commune; Meuse crossings around Sedan
+488,Q156739,place,From HERO narrative: Rivne (Rovno); narrative names only 1st Pz Group crossing Styr River and cities E of border; current point is Brody
 491,Q4366714,place,Pogoreloye Gorodische railway station (in the town)
+493,Q72656,area,"From HERO narrative: Oboyan; XLVIII Panzer Corps attack N toward Psel River and Oboyan, 4-6 Jul"
+494,Q3323,area,"From HERO narrative: Belgorod; Fourth Panzer Army attacked N from Belgorod area, 5-6 Jul 1943"
+495,Q72656,area,"From HERO narrative: Oboyan; XLVIII Panzer Corps drive to Oboyan and Psel River, 7-11 Jul"
+496,Q72656,place,From HERO narrative: Oboyan: XLVIII Panzer Corps drive to break through to Oboyan and Kursk 11-15 Jul 1943
 498,Q3329,region,Belgorod Oblast
 499,Q3323,place,Belgorod city
 500,Q33349,place,Melitopol city
+502,Q156760,place,From HERO narrative: Nikopol: bridgehead named for the city; HERO narrative not found (only contents entry)
 503,Q7525,place,Sevastopol city
 504,Q207927,place,"Berezina river, Belarus; operation covered whole river"
 505,Q180086,region,Galicia region; Lviv-Sandomierz operation spanned wider area
 506,Q465104,place,"Brody city, Lviv Oblast"
 507,Q465104,place,"Brody city, Lviv Oblast"
+508,Q304700,place,From HERO narrative: Nasilow: XCI Rifle Corps crossing Vistula between Nasilow and Wojszyn SE of Pulawy
 508,Q807271,region,"Baranow Sandomierski, Sandomierz bridgehead area"
+509,Q320007,place,From HERO narrative: Pulawy bridgehead; fighting at Nasilow/Wojszyn/Janowiec; named for Pulawy
 510,Q46852,region,Iasi city; operation covered wider Moldavia
 512,Q103801,region,East Prussia province
 513,Q745051,place,Ciechanow city
 514,Q745051,place,Ciechanow city
+516,Q217646,place,From HERO narrative: Mudanjiang (Mutankiang): named for city; HERO narrative not found in OCR
 549,Q374748,place,Jenin city
+550,Q213274,place,From HERO narrative: Old City of Jerusalem; paratroopers reached Damascus Gate; Old City taken 7 Jun
 551,Q1899332,place,Qabatiya city
 552,Q33506547,place,"Tilfit village, Jenin Governorate"
 553,Q214178,place,Nablus city
 554,Q2457100,place,"Rafah, Egyptian side"
 557,Q238452,place,Arish city
 558,Q23948276,place,"Jabal Libni mountain, Sinai"
+559,Q47492,place,From HERO narrative: Gaza City used; narrative: assault on Gaza town 6 Jun (dataset says Gaza Strip); Khan Yunis also fought
 559,Q39760,region,Gaza Strip
 560,Q12186429,place,Bir Hasana; Bir Thamada not found
+561,Q1939722,place,From HERO narrative: Mitla Pass; Shadni ambush at eastern entrance of pass 7 Jun
 562,Q30662,region,North Sinai Governorate; wells not found
+563,Q5602740,place,From HERO narrative: Nakhl (Nekhel); Sharon ambush just east of Nakhl 8 Jun; Wikidata point is settlement-level
 563,Q30662,region,Nakhl not found; North Sinai Governorate
 564,Q30662,region,Bir Gifgafa not found; North Sinai Governorate
 566,Q83210,region,Rawiya not found; Golan Heights
+567,Q7695562,area,From HERO narrative: Tel Azaziat; narrative: Tel Azaziyat-Kala-Zaoura area N Golan; Kala and Zaoura not in Wikidata
 567,Q83210,region,Zaura/Qala not found; Golan Heights
 569,Q899,region,Suez Canal
 570,Q899,region,Suez Canal
@@ -81,6 +161,7 @@ isqno,wikidata_id,precision,note
 580,Q526440,region,Great Bitter Lake; Geneifa not found
 584,Q31070,region,Adabiya not found; Suez Governorate
 594,Q83210,region,Tel Shams not found; Golan Heights
+595,Q15236107,area,From HERO narrative: Khan Arnabah crossroads then Tel Shaar heights (Tel Shaar not in Wikidata); Laner 240th Div
 595,Q83210,region,Tel Shaar not found; Golan Heights
 596,Q83210,region,Tel el Hara not found; Golan Heights
 597,Q4243751,place,Kafr Shams village; Tel Antar not found

@@ -23,7 +23,7 @@
     }
   ],
   "profile": "tabular-data-package",
-  "version": "10.1.0",
+  "version": "10.2.0",
   "resources": [
     {
       "name": "battles",
@@ -313,17 +313,17 @@
           {
             "name": "latitude",
             "type": "number",
-            "description": "Latitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles."
+            "description": "Latitude (WGS 84, decimal degrees) from Wikidata; empty for 5 battles."
           },
           {
             "name": "longitude",
             "type": "number",
-            "description": "Longitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles."
+            "description": "Longitude (WGS 84, decimal degrees) from Wikidata; empty for 5 battles."
           },
           {
             "name": "coordinate_precision",
             "type": "string",
-            "description": "What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place it is named after), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. A campaign's point is shared by all its battles."
+            "description": "What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place where the action took place or that it is named after), `area` (a town, commune or district the HERO narrative puts the action in or beside), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. A campaign's point is shared by all its battles."
           },
           {
             "name": "wikidata_id",
