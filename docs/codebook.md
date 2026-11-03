@@ -86,17 +86,18 @@ One row per battle (660 rows): the battle's variables, its dates and duration, c
 
 ### `narratives`
 
-One row per battle that has a narrative in the HERO volumes (586 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6. The first 600 battles of CDB90 are described there; 585 of them have a narrative in the OCR text, and so does one later battle (601). The other 15 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others. The sources are full citations, one per line.
+One row per battle that has a narrative (610 rows): the narrative, its significance and its sources, parsed from the OCR text of CAA-SR-84-6 (the HERO volumes) and of the 1988 report "New Engagement Data for the Breakpoints Data Base". The first 600 battles of CDB90 are described in the volumes; 585 of them have a narrative in the OCR text, and so does battle 601. The 1988 report has the 24 battles 602 to 625. The other 15 of the first 600 are battles of the 1967 and 1973 Arab-Israeli wars that the volumes list only in a table of contents, and a few others; 626 to 660 have no narrative. The sources are full citations, one per line.
 
 | Column | Type | Description |
 |---|---|---|
 | `isqno` | integer | battle sequence (line or serial) number |
 | `name` | string | name of battle |
-| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in. |
+| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in; empty for the 1988 report. |
 | `hero_title` | string | The heading of the narrative, with the battle's name and dates as printed. |
 | `narrative` | string | The narrative, in paragraphs separated by a blank line. |
 | `significance` | string | The "Significance" paragraph of the narrative. |
-| `sources` | string | The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work. |
+| `sources` | string | The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `(vol. 1)` after a citation is the volume of a multi-volume work. The 1988 report lists its sources by operation, so the engagements of an operation share one list. |
+| `document` | string | The document the narrative is from: a volume of CAA-SR-84-6 or the 1988 report "New Engagement Data for the Breakpoints Data Base" (AD-A201404). |
 
 ### `sides`
 
@@ -232,16 +233,17 @@ Links from battles to Wikidata items and English Wikipedia articles. A battle ha
 
 ### `battle_narratives`
 
-The narratives of the HERO volumes (CAA-SR-84-6, 1983) for the battles that have one (586 battles: 585 of the first 600 and one later one), parsed from the OCR text in `src-data/docs/hero/` by `scripts/narratives.py`. The OCR is not perfect, so check a name or a number against the PDF.
+The narratives for the battles that have one (610 battles: 585 of the first 600, battle 601 and the 24 battles 602 to 625), parsed by `scripts/narratives.py` from the OCR text of the HERO volumes (CAA-SR-84-6, 1983; `src-data/docs/hero/`) and of the 1988 report "New Engagement Data for the Breakpoints Data Base" (AD-A201404; `src-data/docs/hero-1988/`). The OCR is not perfect, so check a name or a number against the PDF.
 
 | Column | Type | Description |
 |---|---|---|
 | `isqno` | integer | Battle sequence number. |
-| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in. |
+| `hero_volume` | integer | Volume of CAA-SR-84-6 (II to VI) the narrative is in; empty for the narratives of the 1988 report. |
 | `hero_title` | string | The heading of the narrative, with the battle's name and dates as printed. |
 | `narrative` | string | The narrative (what happened), in paragraphs separated by a blank line. |
 | `significance` | string | The "Significance" paragraph of the narrative. |
-| `sources` | string | The sources of the narrative, one full citation per line. The volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `.1` after a code is the volume of a multi-volume work. |
+| `sources` | string | The sources of the narrative, one full citation per line. The HERO volumes give codes such as `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes, and `.1` after a code is the volume of a multi-volume work. The 1988 report lists its sources by operation (archival records, manuscripts and published works), so the engagements of an operation share the same list. |
+| `document` | string | The document the narrative is from: a volume of CAA-SR-84-6 (for example "CAA-SR-84-6, Vol. IV"), or the 1988 report "New Engagement Data for the Breakpoints Data Base" (AD-A201404). |
 
 ### `battles`
 

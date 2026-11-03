@@ -1,7 +1,9 @@
 description: >-
-  The narratives of the HERO volumes (CAA-SR-84-6, 1983) for the battles that have one (586
-  battles: 585 of the first 600 and one later one), parsed from the OCR text in `src-data/docs/hero/` by
-  `scripts/narratives.py`. The OCR is not perfect, so check a name or a number against the PDF.
+  The narratives for the battles that have one (610 battles: 585 of the first 600, battle 601 and
+  the 24 battles 602 to 625), parsed by `scripts/narratives.py` from the OCR text of the HERO volumes
+  (CAA-SR-84-6, 1983; `src-data/docs/hero/`) and of the 1988 report "New Engagement Data for the
+  Breakpoints Data Base" (AD-A201404; `src-data/docs/hero-1988/`). The OCR is not perfect, so check a
+  name or a number against the PDF.
 path: data/relational/battle_narratives.csv
 schema:
   fields:
@@ -9,7 +11,9 @@ schema:
     description: Battle sequence number.
     type: integer
   - id: hero_volume
-    description: Volume of CAA-SR-84-6 (II to VI) the narrative is in.
+    description: >-
+      Volume of CAA-SR-84-6 (II to VI) the narrative is in; empty for the narratives of the 1988
+      report.
     type: integer
   - id: hero_title
     description: The heading of the narrative, with the battle's name and dates as printed.
@@ -22,7 +26,14 @@ schema:
     type: string
   - id: sources
     description: >-
-      The sources of the narrative, one full citation per line. The volumes give codes such as
-      `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the
-      volumes, and `.1` after a code is the volume of a multi-volume work.
+      The sources of the narrative, one full citation per line. The HERO volumes give codes such as
+      `M.19` or `B.11.1`; each is replaced by the entry of the bibliography at the end of the volumes,
+      and `.1` after a code is the volume of a multi-volume work. The 1988 report lists its sources by
+      operation (archival records, manuscripts and published works), so the engagements of an operation
+      share the same list.
+    type: string
+  - id: document
+    description: >-
+      The document the narrative is from: a volume of CAA-SR-84-6 (for example "CAA-SR-84-6, Vol. IV"),
+      or the 1988 report "New Engagement Data for the Breakpoints Data Base" (AD-A201404).
     type: string

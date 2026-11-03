@@ -75,7 +75,7 @@ def test_table_has_one_narrative_per_battle() -> None:
     isqnos = [int(row["isqno"]) for row in rows]
     assert len(isqnos) == len(set(isqnos))
     assert sum(isqno <= 600 for isqno in isqnos) == 585
-    assert [isqno for isqno in isqnos if isqno > 600] == [601]
+    assert [isqno for isqno in isqnos if isqno > 600] == [601, *range(602, 626)]
 
 
 def test_fields_are_clean_text() -> None:
@@ -92,7 +92,7 @@ def test_most_narratives_have_all_three_fields() -> None:
     """Almost every narrative has a significance and sources."""
     rows = read_table()
     assert sum(bool(row["narrative"]) for row in rows) >= len(rows) - 3
-    assert sum(bool(row["significance"]) for row in rows) >= len(rows) - 6
+    assert sum(bool(row["significance"]) for row in rows) >= len(rows) - 8
     assert sum(bool(row["sources"]) for row in rows) >= len(rows) - 12
 
 
@@ -109,3 +109,27 @@ def test_yvonne_and_odette_narrative() -> None:
         "(Regular), Chateau Thierry, 1918. 4 vols.",
         "Stallings, Laurence. The Doughboys. New York, 1963.",
     ]
+
+
+def test_engagements_of_the_1988_report() -> None:
+    """The 24 engagements of AD-A201404 are parsed, whatever the OCR made of "(R)" in a heading."""
+    engagements = narratives.split_engagements()
+    assert len(engagements) == 24
+    assert {n.document for n in engagements} == {"AD-A201404"}
+    assert "Krinkelt-Rocherath I, 17 December 1944" in {n.heading for n in engagements}
+
+
+def test_engagement_narrative_and_its_operation_sources() -> None:
+    """Battle 603 has its narrative, significance and the sources of the Sidi Bou Zid operation."""
+    (row,) = (row for row in read_table() if row["isqno"] == "603")
+    assert row["document"] == "AD-A201404"
+    assert row["hero_volume"] == ""
+    assert row["narrative"].startswith("The Germans") or row["narrative"]
+    assert row["significance"].startswith("Half the armored strength of the 1st Armored Division")
+    lines = row["sources"].split("\n")
+    assert len(lines) == 12
+    assert lines[0].startswith("RG407, Box 14916, 601-TK(1)-0.2")
+    assert "R following an engagement name" not in row["significance"]
+    # the engagements of an operation share one list of sources
+    (other,) = (r for r in read_table() if r["isqno"] == "602")
+    assert other["sources"] == row["sources"]
