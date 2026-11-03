@@ -184,9 +184,9 @@ isqno,wikipedia_title,match,note
 183,Battle of Seven Pines,battle,existing dbpedia link
 184,Battle of Beaver Dam Creek,battle,existing dbpedia link
 185,Battle of Gaines's Mill,battle,existing dbpedia link
+186,Battle of Glendale,battle,existing dbpedia link
 186,Battle of Savage's Station,battle,existing dbpedia link
 186,Battle of White Oak Swamp,battle,existing dbpedia link
-186,Battle of Glendale,battle,existing dbpedia link
 187,Battle of Malvern Hill,battle,existing dbpedia link
 188,Battle of Cedar Mountain,battle,existing dbpedia link
 189,Second Battle of Bull Run,battle,existing dbpedia link
@@ -333,9 +333,10 @@ isqno,wikipedia_title,match,note
 328,Third Battle of Gaza,battle,existing dbpedia link
 329,Battle of Jerusalem (1917),battle,existing dbpedia link
 330,Operation Michael,campaign,German March 1918 offensive; no separate Somme-Peronne article
-331,Operation Michael,campaign,Covers to 5 Apr 1918
 331,Battle of the Avre,campaign,Later phase 4-5 Apr near Montdidier; partial overlap
+331,Operation Michael,campaign,Covers to 5 Apr 1918
 332,Battle of the Lys (1918),battle,existing dbpedia link
+333,2nd Infantry Division (United States),campaign,"Unit article (no article on the raid): CAA-SR-84-6 Vol. IV describes a German raid on its Sector Toulon, Verdun, 13/14 Apr 1918"
 334,Third Battle of the Aisne,battle,existing dbpedia link
 335,Third Battle of the Aisne,battle,existing dbpedia link
 336,Battle of Belleau Wood,battle,existing dbpedia link
@@ -476,6 +477,7 @@ isqno,wikipedia_title,match,note
 454,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
 455,Operation Diadem,campaign,"Valmontone Gap action, Operation Diadem; no article"
 456,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+456,Liberation of Rome,campaign,"3-4 Jun 1944 matches CAA-SR-84-6 Vol. V ""Tarto-Tiber 3-4 Jun""; the Allied advance to Rome and the Tiber"
 456,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
 457,Gothic Line,campaign,Il Giogo Pass part of Gothic Line offensive
 458,Battle of Saint-Lô,battle,
@@ -512,20 +514,20 @@ isqno,wikipedia_title,match,note
 485,Siege of Bastogne,battle,Dec 1944 Bastogne; article spans to Dec 27
 486,Battle of Sedan (1940),battle,existing dbpedia link
 487,Battle of Jitra,battle,existing dbpedia link
-488,Rovno–Lutsk offensive,campaign,Rovno June 1941 fighting; article on the Rovno-Lutsk offensive
 488,Battle of Brody (1941),campaign,Border battle in same region and dates; broader tank battle
+488,Rovno–Lutsk offensive,campaign,Rovno June 1941 fighting; article on the Rovno-Lutsk offensive
 489,Battle of Moscow,battle,existing dbpedia link
 490,Battle of Moscow,battle,existing dbpedia link
 491,Battles of Rzhev,campaign,Pogorelo-Gorodishche Aug 1942 part of Rzhev-Sychevka operation
 492,Operation Iskra,battle,Jan 1943 Leningrad breakthrough
-493,Operation Citadel,campaign,Oboyan axis Jul 4-7; part of Citadel southern thrust
 493,Battle of Kursk,campaign,Broader article
-494,Operation Citadel,campaign,Southern sector; no separate article
+493,Operation Citadel,campaign,Oboyan axis Jul 4-7; part of Citadel southern thrust
 494,Battle of Kursk,campaign,Broader article
-495,Operation Citadel,campaign,Oboyan axis phase II; no separate article
+494,Operation Citadel,campaign,Southern sector; no separate article
 495,Battle of Kursk,campaign,Broader article
-496,Operation Citadel,campaign,Oboyan axis phase III; no separate article
+495,Operation Citadel,campaign,Oboyan axis phase II; no separate article
 496,Battle of Kursk,campaign,Broader article
+496,Operation Citadel,campaign,Oboyan axis phase III; no separate article
 497,Battle of Prokhorovka,battle,Jul 12 1943; dataset dates 12-14
 498,Belgorod–Kharkov offensive operation,battle,Operation Rumyantsev Aug 3-23 1943
 499,Belgorod–Bogodukhov offensive operation,campaign,Belgorod phase of Rumyantsev; Aug 3-6
@@ -534,8 +536,8 @@ isqno,wikipedia_title,match,note
 501,Battle of Korsun–Cherkassy,battle,Jan 24-Feb 17 1944
 502,Nikopol–Krivoi Rog offensive,campaign,Nikopol bridgehead Jan 30-Feb 1944 part of it
 503,Crimean offensive,campaign,Article covers Apr-May 1944 Sevastopol; dates 5-10 May fall inside
-504,Operation Bagration,campaign,Berezina crossing part of Bagration (Minsk offensive phase)
 504,Minsk offensive,campaign,Berezina crossing during Minsk phase; unsure which fits better
+504,Operation Bagration,campaign,Berezina crossing part of Bagration (Minsk offensive phase)
 505,Lvov-Sandomierz Offensive,battle,Jul 13-Aug 29 1944
 506,Lvov-Sandomierz Offensive,campaign,No separate Brody 1944 article
 507,Lvov-Sandomierz Offensive,campaign,No separate Brody 1944 article
@@ -674,17 +676,17 @@ isqno,wikipedia_title,match,note
 624,Battle of the Bulge,campaign,Our River line (28th Div sector); no specific article found
 625,Battle of the Bulge,campaign,Our River line (28th Div sector); no specific article found
 626,Battle of Pusan Perimeter,battle,existing dbpedia link
-627,UN Forces September 1950 counteroffensive,campaign,Breakout from Pusan Perimeter
 627,Battle of the Pusan Perimeter,campaign,
+627,UN Forces September 1950 counteroffensive,campaign,Breakout from Pusan Perimeter
 628,Battle of Nam River,battle,existing dbpedia link
 629,UN Forces September 1950 counteroffensive,campaign,Kunsan area advance after breakout; unsure of specificity
 630,Operation Roundup (1951),campaign,"Butte Line; Feb 1951 advance, dates roughly match"
 630,Operation Thunderbolt (1951),campaign,
 631,Operation Ripper,campaign,"Han River crossing, Mar 1951"
-632,Operation Rugged,campaign,"Chan River, early Apr 1951"
 632,Operation Dauntless,campaign,
-633,Chinese spring offensive,campaign,"Pierce Line, Apr 22 1951 offensive; unsure"
+632,Operation Rugged,campaign,"Chan River, early Apr 1951"
 633,Battle of Kapyong,campaign,Unsure; overlapping dates only
+633,Chinese spring offensive,campaign,"Pierce Line, Apr 22 1951 offensive; unsure"
 634,Battle of the Imjin River,battle,existing dbpedia link
 635,Iron Triangle (Korea),campaign,Region article; Jun 1951
 635,UN May–June 1951 counteroffensive,campaign,
@@ -701,6 +703,7 @@ isqno,wikipedia_title,match,note
 642,Six-Day War,war,No Boutmiya battle article found; Golan Heights front Jun 10-11 1967
 643,Golan Heights,campaign,Region article
 643,Six-Day War,war,No Kuneitra battle article found; Golan Heights front Jun 10-11 1967
+644,Liberation of Rome,campaign,"Same name and strengths as 456 (38,011 vs 10,855), dates one month apart (May vs June): probably a duplicate of 456; see 456"
 645,Operation Mole Cricket 19,campaign,Bekaa air battle Jun 9-11 1982; ground fighting also
 645,1982 Lebanon War,war,
 647,Operation Death to the Invader,battle,Jul 16-18 1948

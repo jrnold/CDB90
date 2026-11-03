@@ -6,7 +6,7 @@ stages:
     deps:
     - path: uv.lock
       hash: md5
-      md5: b3fc63d60c4ef52f90bd522ac5c69ed7
+      md5: f62f12e625c469e3010ccc12826031e5
       size: 432694
     outs:
     - path: requirements.lock
@@ -59,7 +59,7 @@ stages:
       size: 3614
     - path: src-data/version.txt
       hash: md5
-      md5: 4fd9f8215c95a70b7d212125f2b68c74
+      md5: 0708b30fc2adba4588f1369fd11215fa
       size: 7
     outs:
     - path: data/relational/active_periods.csv
@@ -172,7 +172,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 2a0b5bf183931e5682b061a9daa18a67
+      md5: 841e5d49e3e2f127b4da15ffc9be7400
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -199,20 +199,20 @@ stages:
       size: 3627
     - path: src-data/local/battle_links.csv
       hash: md5
-      md5: d35e80ce5dec63e1b0f553294866e054
-      size: 45136
+      md5: e3ee2eaaa9b9278ce1792bc01eb3ede1
+      size: 45616
     outs:
     - path: data/relational/battle_links.csv
       hash: md5
-      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
-      size: 72035
+      md5: 6d74fb41ff7970d49217b9da8e6db50e
+      size: 72366
   coordinates:
     cmd: uv run --frozen python -m scripts.coordinates
     deps:
     - path: data/relational/battle_links.csv
       hash: md5
-      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
-      size: 72035
+      md5: 6d74fb41ff7970d49217b9da8e6db50e
+      size: 72366
     - path: requirements.lock
       hash: md5
       md5: 9e07315ebff00f3ff3045aae7f6d9a20
@@ -228,23 +228,23 @@ stages:
     outs:
     - path: data/relational/battle_coordinates.csv
       hash: md5
-      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
-      size: 25612
+      md5: 11070c6c619a766ebb7055bd6d3477cc
+      size: 25659
   flat:
     cmd: uv run --frozen python -m scripts.flat
     deps:
     - path: data/relational/battle_coordinates.csv
       hash: md5
-      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
-      size: 25612
+      md5: 11070c6c619a766ebb7055bd6d3477cc
+      size: 25659
     - path: data/relational/battle_durations.csv
       hash: md5
       md5: 7f57b529ca3b2581fece0e74899df989
       size: 51777
     - path: data/relational/battle_links.csv
       hash: md5
-      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
-      size: 72035
+      md5: 6d74fb41ff7970d49217b9da8e6db50e
+      size: 72366
     - path: data/relational/battles.csv
       hash: md5
       md5: d559a7530c3607e853ab711598cf8d15
@@ -272,31 +272,31 @@ stages:
     outs:
     - path: data/flat/battles.csv
       hash: md5
-      md5: 7e1979ce1c8a63d6ff161354eb33b1c0
-      size: 284937
+      md5: dcc311d8fd83064d8e412de4fda1eb34
+      size: 285050
     - path: data/flat/battles.parquet
       hash: md5
-      md5: cc449aff3fb8f1dc55a675c9dea310ab
-      size: 74029
+      md5: 3c4a5352fcbfd47adf753018b058511d
+      size: 74133
     - path: data/flat/sides.csv
       hash: md5
-      md5: e3dbcae9ce772bff94741b0094861b41
-      size: 260943
+      md5: f6f002867925eacc418bb809c219f0f1
+      size: 260997
     - path: data/flat/sides.parquet
       hash: md5
-      md5: 7dc266561d51ba4bff9768269c37e258
-      size: 72994
+      md5: bca230cab180db671fe68c888d389837
+      size: 73023
   datapackage:
     cmd: uv run --frozen python make_datapackage.py
     deps:
     - path: data/flat/battles.parquet
       hash: md5
-      md5: cc449aff3fb8f1dc55a675c9dea310ab
-      size: 74029
+      md5: 3c4a5352fcbfd47adf753018b058511d
+      size: 74133
     - path: data/flat/sides.parquet
       hash: md5
-      md5: 7dc266561d51ba4bff9768269c37e258
-      size: 72994
+      md5: bca230cab180db671fe68c888d389837
+      size: 73023
     - path: make_datapackage.py
       hash: md5
       md5: 1908f37783cb883d1ac00759aa4d9817
@@ -311,7 +311,7 @@ stages:
       size: 1313
     - path: src-data/datapackage/flat.yaml
       hash: md5
-      md5: 42907701540b9d692ed825560e8cd92d
+      md5: 0a39aaa0b02e4966b4ef71d6fec8a830
       size: 3390
     - path: src-data/datapackage/resources
       hash: md5
@@ -320,12 +320,12 @@ stages:
       nfiles: 12
     - path: src-data/version.txt
       hash: md5
-      md5: 4fd9f8215c95a70b7d212125f2b68c74
+      md5: 0708b30fc2adba4588f1369fd11215fa
       size: 7
     outs:
     - path: datapackage.json
       hash: md5
-      md5: c7e3590758227d6b6c9b967219d9c49e
+      md5: 9887d7c284e8bf87c81f9d22e19ec3c5
       size: 20857
   sqlite:
     cmd: uv run --frozen python -m scripts.sqlite
@@ -340,8 +340,8 @@ stages:
       size: 23937
     - path: data/relational/battle_coordinates.csv
       hash: md5
-      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
-      size: 25612
+      md5: 11070c6c619a766ebb7055bd6d3477cc
+      size: 25659
     - path: data/relational/battle_durations.csv
       hash: md5
       md5: 7f57b529ca3b2581fece0e74899df989
@@ -352,8 +352,8 @@ stages:
       size: 32810
     - path: data/relational/battle_links.csv
       hash: md5
-      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
-      size: 72035
+      md5: 6d74fb41ff7970d49217b9da8e6db50e
+      size: 72366
     - path: data/relational/battles.csv
       hash: md5
       md5: d559a7530c3607e853ab711598cf8d15
@@ -448,7 +448,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 2a0b5bf183931e5682b061a9daa18a67
+      md5: 841e5d49e3e2f127b4da15ffc9be7400
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -464,13 +464,13 @@ stages:
       size: 3006
     - path: src-data/datapackage
       hash: md5
-      md5: 58116aecebf4046744617da6d195fe55.dir
+      md5: 6bcd6a0b231be33b61af16a566ee9696.dir
       size: 23404
       nfiles: 15
     outs:
     - path: cdb90.sqlite3
       hash: md5
-      md5: 5a07971333a461e2b983286a2fdbe6ae
+      md5: a0c41f71a3c60a3814c79e7bc59b34f5
       size: 851968
   diff:
     cmd: uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
@@ -504,12 +504,12 @@ stages:
     deps:
     - path: data/relational
       hash: md5
-      md5: 3aa0a992b18abbdac42841a5a2fa8b3d.dir
-      size: 775500
+      md5: 3e5a4edd4121eb20544d82efd2b171be.dir
+      size: 775878
       nfiles: 31
     - path: datapackage.json
       hash: md5
-      md5: c7e3590758227d6b6c9b967219d9c49e
+      md5: 9887d7c284e8bf87c81f9d22e19ec3c5
       size: 20857
     - path: requirements.lock
       hash: md5
@@ -521,13 +521,13 @@ stages:
       size: 3994
     - path: src-data/datapackage
       hash: md5
-      md5: 58116aecebf4046744617da6d195fe55.dir
+      md5: 6bcd6a0b231be33b61af16a566ee9696.dir
       size: 23404
       nfiles: 15
     outs:
     - path: docs/codebook.md
       hash: md5
-      md5: 53fe425a6c664c5c8fd0369488f4caa2
+      md5: a3fe91a5f84bdc9a0d0bc8ebc6d2bbba
       size: 27378
   ocr:
     cmd: uv run --frozen python -m scripts.ocr

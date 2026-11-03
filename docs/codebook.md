@@ -71,8 +71,8 @@ One row per battle (660 rows): the battle's variables, its dates and duration, c
 | `duration_active_days` | number | Battle duration in days, calculated from the durations of the battle's active periods (`duration2` in `battle_durations`). |
 | `front_width_attacker` | number | Width of the attacker's front at the start of the battle (km). |
 | `front_width_defender` | number | Width of the defender's front at the start of the battle (km). |
-| `latitude` | number | Latitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles. |
-| `longitude` | number | Longitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles. |
+| `latitude` | number | Latitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles. |
+| `longitude` | number | Longitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles. |
 | `coordinate_precision` | string | What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place it is named after), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. A campaign's point is shared by all its battles. |
 | `wikidata_id` | string | Wikidata item of the most specific linked article (battle, then campaign, then war). |
 | `wikipedia_title` | string | English Wikipedia article of that item. |

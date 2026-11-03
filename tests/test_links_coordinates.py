@@ -12,7 +12,7 @@ DATA = Path("data/relational")
 VALID_MATCH = {"battle", "campaign", "war"}
 VALID_PRECISION = {"battle", "place", "campaign", "region", "war"}
 # battles for which no credible link or coordinates were found
-NO_LINK = {333, 644, 646, 660}
+NO_LINK = {646, 660}
 
 
 def read(path: Path) -> list[dict[str, str]]:
@@ -82,7 +82,7 @@ def test_fetch_coordinates_parses_points(monkeypatch: pytest.MonkeyPatch) -> Non
 
 
 def test_every_battle_is_linked_except_known_gaps() -> None:
-    """Each battle has at least one link, apart from the four with no credible article."""
+    """Each battle has at least one link, apart from the two with no credible article."""
     battles = {int(r["isqno"]) for r in read(DATA / "battles.csv")}
     linked = {int(r["isqno"]) for r in read(DATA / "battle_links.csv")}
     assert linked <= battles
