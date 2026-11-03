@@ -400,7 +400,11 @@ clean_cdb90 <- function(data, patchfile) {
   for (x in patch) {
     for (id in x[["isqno"]]) {
       for (i in names(x[["values"]])) {
-        data[data$ISQNO == id, str_to_upper(i)] <- x[["values"]][[i]]
+        col <- str_to_upper(i)
+        value <- x[["values"]][[i]]
+        # base R silently coerced the value to the column's type; tibble does not
+        if (is.character(data[[col]])) value <- as.character(value)
+        data[data$ISQNO == id, col] <- value
       }
     }
   }
