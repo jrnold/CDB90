@@ -11,8 +11,6 @@ from scripts import coordinates, links
 DATA = Path("data/relational")
 VALID_MATCH = {"battle", "campaign", "war"}
 VALID_PRECISION = {"battle", "place", "area", "campaign", "region", "war"}
-# battles for which no credible link was found
-NO_LINK = {646, 660}
 
 
 def read(path: Path) -> list[dict[str, str]]:
@@ -81,12 +79,11 @@ def test_fetch_coordinates_parses_points(monkeypatch: pytest.MonkeyPatch) -> Non
     assert coordinates.fetch_coordinates(["Q1"]) == {"Q1": (51.25, 2.5)}
 
 
-def test_every_battle_is_linked_except_known_gaps() -> None:
-    """Each battle has at least one link, apart from the two with no credible article."""
+def test_every_battle_is_linked() -> None:
+    """Each battle has at least one link."""
     battles = {int(r["isqno"]) for r in read(DATA / "battles.csv")}
     linked = {int(r["isqno"]) for r in read(DATA / "battle_links.csv")}
-    assert linked <= battles
-    assert battles - linked == NO_LINK
+    assert linked == battles
 
 
 def test_link_table_is_well_formed() -> None:
