@@ -6,24 +6,24 @@ stages:
     deps:
     - path: uv.lock
       hash: md5
-      md5: e3ee4c1b79826b998e42bd5494888d98
-      size: 949125
+      md5: 9ea851be7331336075f42e9ced9305a9
+      size: 427975
     outs:
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
   build-tables:
     cmd: uv run --frozen python create_data.py
     deps:
     - path: create_data.py
       hash: md5
-      md5: 01582313ecd3461dacfcef91649dcb73
-      size: 37356
+      md5: 4a7bb1177811fbb0057d0872300f3032
+      size: 37408
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: src-data/CDB90/cols.json
       hash: md5
       md5: cbf76287193886f13fefbeb4ad89e38d
@@ -191,8 +191,8 @@ stages:
     deps:
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: scripts/links.py
       hash: md5
       md5: 053afda6426ed60e50a70985bfad5095
@@ -215,8 +215,8 @@ stages:
       size: 72035
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: scripts/coordinates.py
       hash: md5
       md5: 20e7075b3c382d800dde82efa1f6b4ec
@@ -263,8 +263,8 @@ stages:
       size: 13095
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: scripts/flat.py
       hash: md5
       md5: c5502f3d0cbb698bcf58820a918d7afb
@@ -303,8 +303,8 @@ stages:
       size: 3225
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: src-data/datapackage/datapackage.yaml
       hash: md5
       md5: e77f211e2c30e0252827a64a84dc2140
@@ -456,8 +456,8 @@ stages:
       size: 20137
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: scripts/sqlite.py
       hash: md5
       md5: 9cf08e350f8d92c2433abe0cf728a188
@@ -470,7 +470,7 @@ stages:
     outs:
     - path: cdb90.sqlite3
       hash: md5
-      md5: f4733fec537b49cf07cd7afea12f96e8
+      md5: 5a07971333a461e2b983286a2fdbe6ae
       size: 851968
   diff:
     cmd: uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
@@ -480,8 +480,8 @@ stages:
     deps:
     - path: requirements.lock
       hash: md5
-      md5: b8938aa55a4942c79d4d5f2450fd6faa
-      size: 50281
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
     - path: src-data/CDB90/CDB90-orig.csv
       hash: md5
       md5: 87a9b6c046303982155cc065dff6e2b9
