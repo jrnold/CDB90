@@ -1,4 +1,4 @@
-# From https://github.com/okfn/dptools/blob/master/bin/load-sqlite.py
+# From https://github.com/okfn/dptools/blob/master/bin/load-sqlite.py (modified: see "Modified from upstream")
 # No license given in original. Since OKFN assumed to be have open source license.
 #
 # Edits by Jeffrey Arnold (2014), BSD-3
@@ -78,9 +78,11 @@ def process_resource(finfo, dbpath):
     # sqlite> .import <filename> <table>
     req = urllib.request.urlopen(finfo['url'])
     reader = csv.reader(req.read().decode('utf-8').splitlines())
-    # skip headers
+    # Modified from upstream: skip the header row (upstream inserted it as data) and load
+    # empty cells as NULL.
+    next(reader, None)
     for row in reader:
-        c.execute(_insert_tmpl, row)
+        c.execute(_insert_tmpl, [value if value != '' else None for value in row])
     conn.commit()
     c.close()
 

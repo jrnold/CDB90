@@ -1,11 +1,12 @@
 [project]
 name = "cdb90"
-version = "9.2.0"
+version = "9.3.0"
 description = "A tidier and open-data version of CDB90 (CAA Database of Battles, Version 1990)"
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
 dependencies = [
+    "duckdb>=1.5.6",
     "pandas>=2.3.3",
     "pyyaml",
     "requests>=2.34.2",
@@ -13,7 +14,9 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "daff>=1.4.2",
     "deptry>=0.25.1",
+    "dvc>=3.67.1",
     "pandas-stubs>=2.3.3.260113",
     "pytest>=9.1.1",
     "ruff>=0.17.2",

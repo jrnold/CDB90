@@ -31,11 +31,26 @@ This dataset follows the [Data Package](http://www.dataprotocols.org/en/latest/d
 
 # Usage
 
-To build the data csv's, documentation, and create a SQLite database with the data, install the Python dependencies with `uv sync` and run:
+The build is a [DVC](https://dvc.org) pipeline (`dvc.yaml`). To rebuild the data csv's, the flat
+analysis tables, the data package and a SQLite database, install the Python dependencies with
+`uv sync` and run:
 
 ```
-$ uv run ./build.sh
+$ uv run dvc repro
 ```
+
+The `links` and `coordinates` stages query the Wikipedia and Wikidata APIs, so they need network access.
+Every output is small and published from git, so the pipeline has no DVC remote.
+
+# Tables
+
+Tidy (relational) tables are in `data/`, one csv per table, described in `datapackage.json`.
+`data/flat/` has two flat tables for analysis, as Parquet:
+
+- `battles.parquet`: one row per battle, with its dates and duration, coordinates, most specific
+  Wikipedia link and per-side totals.
+- `sides.parquet`: one row per battle and side, with forces, commanders and the outcome from that
+  side's point of view (1 win, 0 draw, -1 loss).
 
 # References
 

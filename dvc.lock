@@ -1,0 +1,477 @@
+schema: '2.0'
+stages:
+  runtime-lock:
+    cmd: uv export --no-dev --frozen --no-header --no-emit-project -o
+      requirements.lock
+    deps:
+    - path: uv.lock
+      hash: md5
+      md5: 20054a26df898ef34561a84c8ba96436
+      size: 793732
+    outs:
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+  build-tables:
+    cmd: uv run --frozen python create_data.py
+    deps:
+    - path: create_data.py
+      hash: md5
+      md5: ef6ea204a248a0927aaaa91c7d058a13
+      size: 37315
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: src-data/CDB90/cols.json
+      hash: md5
+      md5: cbf76287193886f13fefbeb4ad89e38d
+      size: 4730
+    - path: src-data/CDB90/patch.yaml
+      hash: md5
+      md5: d93ef5de8f39dbb33c25af4fbc341e59
+      size: 3394
+    - path: src-data/M000121
+      hash: md5
+      md5: 15fcce127ee07b840c0ac0e9d49cffb8.dir
+      size: 1812995
+      nfiles: 22
+    - path: src-data/local/belligerents.csv
+      hash: md5
+      md5: 6aa5d639c1ffc5ea286e5760d5f6b5c5
+      size: 92887
+    - path: src-data/local/commanders.csv
+      hash: md5
+      md5: 3c4c6d88825f022a02122e72a77028e0
+      size: 136876
+    - path: src-data/local/duplicates.csv
+      hash: md5
+      md5: 089d2a9261ad416cc08997c879190a2c
+      size: 11384
+    - path: src-data/local/wars.csv
+      hash: md5
+      md5: 152476fdb3bd0c691494c4e3f34c54f7
+      size: 108385
+    - path: src-data/variable_levels.json
+      hash: md5
+      md5: ec989c6553c0bb890ad9b96dcbb77a78
+      size: 3614
+    - path: src-data/version.txt
+      hash: md5
+      md5: d168f1842ecabdb62e85fd01fb8a7457
+      size: 6
+    outs:
+    - path: data/active_periods.csv
+      hash: md5
+      md5: 80b8d91d0a9b924784bf7a4b8efe540c
+      size: 86658
+    - path: data/battle_actors.csv
+      hash: md5
+      md5: afb5c93b301f81fe1d4f9b683db2fde4
+      size: 23937
+    - path: data/battle_durations.csv
+      hash: md5
+      md5: 7f57b529ca3b2581fece0e74899df989
+      size: 51777
+    - path: data/battle_dyads.csv
+      hash: md5
+      md5: fc9ecd830acf4ec9c7bfddd1ff5a2204
+      size: 32810
+    - path: data/battles.csv
+      hash: md5
+      md5: d559a7530c3607e853ab711598cf8d15
+      size: 196922
+    - path: data/belligerents.csv
+      hash: md5
+      md5: f65725d18d91c75c9f6e861d29d07275
+      size: 176505
+    - path: data/commanders.csv
+      hash: md5
+      md5: 4fd38601c9980f87ea966e2080affcf2
+      size: 61468
+    - path: data/enum_aeroa.csv
+      hash: md5
+      md5: 21deab48dba50e0dd46887070f06132c
+      size: 170
+    - path: data/enum_cea.csv
+      hash: md5
+      md5: 2f7569d9c7c6bfa784aec4e54c84e063
+      size: 323
+    - path: data/enum_codead.csv
+      hash: md5
+      md5: 866c93e3d186f4be90467ba5d37df0f5
+      size: 169
+    - path: data/enum_crit.csv
+      hash: md5
+      md5: 00ee87d7d7e0c3ff07fa78db5b361a1b
+      size: 58
+    - path: data/enum_post.csv
+      hash: md5
+      md5: 4b1ceba17e7014439b5db0c52f92f629
+      size: 149
+    - path: data/enum_postype.csv
+      hash: md5
+      md5: bf204001f9dcb9d59c432c2649fedcac
+      size: 301
+    - path: data/enum_pri.csv
+      hash: md5
+      md5: 7646a022283f60090afadc9fba75bb2d
+      size: 310
+    - path: data/enum_reso.csv
+      hash: md5
+      md5: 0faa5812d90ed19d416ab43ef4dbaec4
+      size: 177
+    - path: data/enum_surpa.csv
+      hash: md5
+      md5: 095ceb2637fc41a59f9fad22885fefee
+      size: 366
+    - path: data/enum_terra1.csv
+      hash: md5
+      md5: c2f8778ea940c98d1cf27c78d213066e
+      size: 89
+    - path: data/enum_terra2.csv
+      hash: md5
+      md5: 93f7b2a88157ca2ae718afe5f9a2dc23
+      size: 108
+    - path: data/enum_terra3.csv
+      hash: md5
+      md5: bd9cecdd1e0df461b1a155c7df5cc219
+      size: 96
+    - path: data/enum_wina.csv
+      hash: md5
+      md5: 5a2b684ce96be02beda79498d3538728
+      size: 73
+    - path: data/enum_wx1.csv
+      hash: md5
+      md5: ccbf1d54aece7ccf5b780787c6d2992c
+      size: 42
+    - path: data/enum_wx2.csv
+      hash: md5
+      md5: 80bb1eb1d395acc124aacaf9c82b0b63
+      size: 140
+    - path: data/enum_wx3.csv
+      hash: md5
+      md5: 8cb6adee5e580ba8c5ba5314c2806d3f
+      size: 59
+    - path: data/enum_wx4.csv
+      hash: md5
+      md5: f5231c35b5767c36a6557f18aed74047
+      size: 72
+    - path: data/enum_wx5.csv
+      hash: md5
+      md5: 8bdc05ac15620984d30069bf25e21433
+      size: 89
+    - path: data/front_widths.csv
+      hash: md5
+      md5: 5ef9e9c298d75d837429af389f2db0d9
+      size: 13095
+    - path: data/terrain.csv
+      hash: md5
+      md5: 825eed0ad06141b2dd90236a4940b2c7
+      size: 11734
+    - path: data/version.csv
+      hash: md5
+      md5: 3d8c552994585c73da7c6e9bc5db7004
+      size: 18
+    - path: data/weather.csv
+      hash: md5
+      md5: a30c70f0bf16af6cd4f14bb8d426bbfe
+      size: 20137
+    - path: src-data/CDB90/CDB90-orig.csv
+      hash: md5
+      md5: 87a9b6c046303982155cc065dff6e2b9
+      size: 434473
+    - path: src-data/CDB90/CDB90-patched.csv
+      hash: md5
+      md5: 1c86e4d460e0276ae3b8870e70ff7343
+      size: 436591
+  links:
+    cmd: uv run --frozen python -m scripts.links
+    deps:
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: scripts/links.py
+      hash: md5
+      md5: 2bee17cb996700486e5ddd51f1deeea7
+      size: 3605
+    - path: src-data/local/battle_links.csv
+      hash: md5
+      md5: d35e80ce5dec63e1b0f553294866e054
+      size: 45136
+    outs:
+    - path: data/battle_links.csv
+      hash: md5
+      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
+      size: 72035
+  coordinates:
+    cmd: uv run --frozen python -m scripts.coordinates
+    deps:
+    - path: data/battle_links.csv
+      hash: md5
+      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
+      size: 72035
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: scripts/coordinates.py
+      hash: md5
+      md5: b1da5382712a5ddd096598774d13f2b8
+      size: 3587
+    - path: src-data/local/coordinates_places.csv
+      hash: md5
+      md5: e3cc45063e31552cd69958b0c3be708b
+      size: 5146
+    outs:
+    - path: data/battle_coordinates.csv
+      hash: md5
+      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
+      size: 25612
+  flat:
+    cmd: uv run --frozen python -m scripts.flat
+    deps:
+    - path: data/battle_coordinates.csv
+      hash: md5
+      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
+      size: 25612
+    - path: data/battle_durations.csv
+      hash: md5
+      md5: 7f57b529ca3b2581fece0e74899df989
+      size: 51777
+    - path: data/battle_links.csv
+      hash: md5
+      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
+      size: 72035
+    - path: data/battles.csv
+      hash: md5
+      md5: d559a7530c3607e853ab711598cf8d15
+      size: 196922
+    - path: data/belligerents.csv
+      hash: md5
+      md5: f65725d18d91c75c9f6e861d29d07275
+      size: 176505
+    - path: data/commanders.csv
+      hash: md5
+      md5: 4fd38601c9980f87ea966e2080affcf2
+      size: 61468
+    - path: data/front_widths.csv
+      hash: md5
+      md5: 5ef9e9c298d75d837429af389f2db0d9
+      size: 13095
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: scripts/flat.py
+      hash: md5
+      md5: b44b17f2d0f18fedb495ff1e86985609
+      size: 4303
+    outs:
+    - path: data/flat/battles.parquet
+      hash: md5
+      md5: 954ae246b862e81f91110e904ab28d2b
+      size: 74031
+    - path: data/flat/sides.parquet
+      hash: md5
+      md5: 7dc266561d51ba4bff9768269c37e258
+      size: 72994
+  datapackage:
+    cmd: uv run --frozen python make_datapackage.py
+    deps:
+    - path: make_datapackage.py
+      hash: md5
+      md5: ad5dade5fc71b00462b9ef1ce9c4d5e1
+      size: 1330
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: src-data/datapackage
+      hash: md5
+      md5: 0d646f04d1a4e6b6fa51de5489b47a1c.dir
+      size: 19818
+      nfiles: 14
+    - path: src-data/version.txt
+      hash: md5
+      md5: d168f1842ecabdb62e85fd01fb8a7457
+      size: 6
+    outs:
+    - path: datapackage.json
+      hash: md5
+      md5: 9e93e3cf2814162fac43ba03a6be3128
+      size: 36262
+  sqlite:
+    cmd: rm -f cdb90.sqlite3 && uv run --frozen python load-sqlite.py
+      datapackage.json cdb90.sqlite3
+    deps:
+    - path: data/active_periods.csv
+      hash: md5
+      md5: 80b8d91d0a9b924784bf7a4b8efe540c
+      size: 86658
+    - path: data/battle_actors.csv
+      hash: md5
+      md5: afb5c93b301f81fe1d4f9b683db2fde4
+      size: 23937
+    - path: data/battle_coordinates.csv
+      hash: md5
+      md5: 6c456f7f5ffe4fc6dcfc82acb375e9cd
+      size: 25612
+    - path: data/battle_durations.csv
+      hash: md5
+      md5: 7f57b529ca3b2581fece0e74899df989
+      size: 51777
+    - path: data/battle_dyads.csv
+      hash: md5
+      md5: fc9ecd830acf4ec9c7bfddd1ff5a2204
+      size: 32810
+    - path: data/battle_links.csv
+      hash: md5
+      md5: ef26d5e30fca1e5598f3c22ebc5fbffa
+      size: 72035
+    - path: data/battles.csv
+      hash: md5
+      md5: d559a7530c3607e853ab711598cf8d15
+      size: 196922
+    - path: data/belligerents.csv
+      hash: md5
+      md5: f65725d18d91c75c9f6e861d29d07275
+      size: 176505
+    - path: data/commanders.csv
+      hash: md5
+      md5: 4fd38601c9980f87ea966e2080affcf2
+      size: 61468
+    - path: data/enum_aeroa.csv
+      hash: md5
+      md5: 21deab48dba50e0dd46887070f06132c
+      size: 170
+    - path: data/enum_cea.csv
+      hash: md5
+      md5: 2f7569d9c7c6bfa784aec4e54c84e063
+      size: 323
+    - path: data/enum_codead.csv
+      hash: md5
+      md5: 866c93e3d186f4be90467ba5d37df0f5
+      size: 169
+    - path: data/enum_crit.csv
+      hash: md5
+      md5: 00ee87d7d7e0c3ff07fa78db5b361a1b
+      size: 58
+    - path: data/enum_post.csv
+      hash: md5
+      md5: 4b1ceba17e7014439b5db0c52f92f629
+      size: 149
+    - path: data/enum_postype.csv
+      hash: md5
+      md5: bf204001f9dcb9d59c432c2649fedcac
+      size: 301
+    - path: data/enum_pri.csv
+      hash: md5
+      md5: 7646a022283f60090afadc9fba75bb2d
+      size: 310
+    - path: data/enum_reso.csv
+      hash: md5
+      md5: 0faa5812d90ed19d416ab43ef4dbaec4
+      size: 177
+    - path: data/enum_surpa.csv
+      hash: md5
+      md5: 095ceb2637fc41a59f9fad22885fefee
+      size: 366
+    - path: data/enum_terra1.csv
+      hash: md5
+      md5: c2f8778ea940c98d1cf27c78d213066e
+      size: 89
+    - path: data/enum_terra2.csv
+      hash: md5
+      md5: 93f7b2a88157ca2ae718afe5f9a2dc23
+      size: 108
+    - path: data/enum_terra3.csv
+      hash: md5
+      md5: bd9cecdd1e0df461b1a155c7df5cc219
+      size: 96
+    - path: data/enum_wina.csv
+      hash: md5
+      md5: 5a2b684ce96be02beda79498d3538728
+      size: 73
+    - path: data/enum_wx1.csv
+      hash: md5
+      md5: ccbf1d54aece7ccf5b780787c6d2992c
+      size: 42
+    - path: data/enum_wx2.csv
+      hash: md5
+      md5: 80bb1eb1d395acc124aacaf9c82b0b63
+      size: 140
+    - path: data/enum_wx3.csv
+      hash: md5
+      md5: 8cb6adee5e580ba8c5ba5314c2806d3f
+      size: 59
+    - path: data/enum_wx4.csv
+      hash: md5
+      md5: f5231c35b5767c36a6557f18aed74047
+      size: 72
+    - path: data/enum_wx5.csv
+      hash: md5
+      md5: 8bdc05ac15620984d30069bf25e21433
+      size: 89
+    - path: data/front_widths.csv
+      hash: md5
+      md5: 5ef9e9c298d75d837429af389f2db0d9
+      size: 13095
+    - path: data/terrain.csv
+      hash: md5
+      md5: 825eed0ad06141b2dd90236a4940b2c7
+      size: 11734
+    - path: data/version.csv
+      hash: md5
+      md5: 3d8c552994585c73da7c6e9bc5db7004
+      size: 18
+    - path: data/weather.csv
+      hash: md5
+      md5: a30c70f0bf16af6cd4f14bb8d426bbfe
+      size: 20137
+    - path: datapackage.json
+      hash: md5
+      md5: 9e93e3cf2814162fac43ba03a6be3128
+      size: 36262
+    - path: load-sqlite.py
+      hash: md5
+      md5: 20a1b54a0ac56273ea920e0666425a10
+      size: 3385
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    outs:
+    - path: cdb90.sqlite3
+      hash: md5
+      md5: 8bad9b0a863de95ee02c977e579c0b89
+      size: 856064
+  diff:
+    cmd: uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
+      src-data/CDB90/CDB90-orig.csv src-data/CDB90/CDB90-patched.csv && uv run
+      --frozen daff render --output src-data/CDB90/diff.html
+      src-data/CDB90/diff.csv
+    deps:
+    - path: requirements.lock
+      hash: md5
+      md5: b8938aa55a4942c79d4d5f2450fd6faa
+      size: 50281
+    - path: src-data/CDB90/CDB90-orig.csv
+      hash: md5
+      md5: 87a9b6c046303982155cc065dff6e2b9
+      size: 434473
+    - path: src-data/CDB90/CDB90-patched.csv
+      hash: md5
+      md5: 1c86e4d460e0276ae3b8870e70ff7343
+      size: 436591
+    outs:
+    - path: src-data/CDB90/diff.csv
+      hash: md5
+      md5: d98cbf1db459703ff7acec82c4c1077c
+      size: 47368
+    - path: src-data/CDB90/diff.html
+      hash: md5
+      md5: c583127b910621c4f717889e3072bedc
+      size: 163485
