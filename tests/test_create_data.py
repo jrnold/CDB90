@@ -50,7 +50,7 @@ def test_build_writes_every_table(built: tuple[Path, Path]) -> None:
 
 @pytest.mark.parametrize("name", sorted({p.name for p in DATA_DIR.iterdir()} - NOT_BUILT), ids=str)
 def test_build_matches_committed_data(built: tuple[Path, Path], name: str) -> None:
-    """Each table is byte-identical to the committed one (the output of create_data.R)."""
+    """Each table is byte-identical to the committed one."""
     _, data = built
     assert (data / name).read_bytes() == (DATA_DIR / name).read_bytes()
 
