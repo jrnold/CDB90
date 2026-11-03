@@ -23,7 +23,7 @@
     }
   ],
   "profile": "tabular-data-package",
-  "version": "10.4.0",
+  "version": "10.5.0",
   "resources": [
     {
       "name": "battles",
