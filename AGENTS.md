@@ -14,6 +14,9 @@ root, through `uv run dvc`.
 - After changing data or code: `uv run dvc repro`, then `git commit`. There is no remote, so no
   `dvc push`.
 - Never run `dvc gc`.
+- Zenodo gets the data only, through `scripts/zenodo.py` (metadata in `zenodo/metadata.json`), not
+  the GitHub-Zenodo integration, so do not add a `.zenodo.json`. Never run `deposit --publish`
+  without the user asking: a DOI is permanent.
 - `links` and `coordinates` query the Wikipedia and Wikidata APIs. The curated inputs are
   `src-data/local/battle_links.csv` and `src-data/local/coordinates_places.csv`.
 

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it as below.
+title: "CDB90: A tidy, open-data version of the CAA Database of Battles (1990)"
+type: dataset
+version: 10.0.0
+date-released: 2026-11-03
+authors:
+  - family-names: Arnold
+    given-names: Jeffrey B.
+repository-code: https://github.com/jrnold/CDB90
+license: CC0-1.0
+keywords:
+  - battles
+  - military history
+  - warfare
+  - CDB90
+abstract: >-
+  A tidier version of CDB90, the US Army Concepts Analysis Agency Database of Battles (Version
+  1990): 660 battles fought between 1600 and 1973, as flat CSV and Parquet tables, a relational
+  SQLite database and a Frictionless Data Package, with links to Wikidata and Wikipedia and
+  coordinates for 648 battles.
+references:
+  - type: report
+    title: "Database of Battles, Version 1990 (Computer Diskette)"
+    authors:
+      - name: U.S. Army Concepts Analysis Agency
+    number: DTIC ADM-000121
+    year: 1991
