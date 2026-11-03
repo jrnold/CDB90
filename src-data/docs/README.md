@@ -8,6 +8,8 @@ Documents about the CDB90 data, with OCR text. The OCR is made with LlamaParse b
 | Database of Battles - Version 1990, the DTIC report documentation page (SF 298), April 30, 1991 | AD1038724 | `AD1038724.pdf`, `AD1038724.md` |
 | CAA-SR-84-6, *Analysis of Factors That Have Influenced Outcomes of Battles and Wars: A Data Base of Battles and Engagements* (HERO, 1983-1984), six volumes | AD-B086 797 (Vol. I), AD-B087 718 to 722 (Vols. II to VI) | `hero/caa-sr-84-6-vol-N.md` and `.json` |
 | Independent Review/Reassessment of Anomalous Data (IR/RAD), LFW Management Associates, 22 June 1987, four volumes | AD-A195 381 (Vol. 1), AD-A195 726 (Vol. 2), AD-A195 382 (Vol. 3), AD-A195 383 (Vol. 4) | `irrad/irrad-vol-N-ADAxxxxxx.pdf`, `.md` and `.json` |
+| *New Engagement Data for the Breakpoints Data Base*, Richard C. Anderson, HERO / Data Memory Systems, 30 September 1988 (the source of battles 602 to 625) | AD-A201 404 | `hero-1988/new-engagement-data-ADA201404.pdf`, `.md` and `.json` |
+| *Forced Changes of Combat Posture*, Fain, Anderson, Dupuy, Hammerman and Hawkins, HERO / Data Memory Systems, 30 September 1988 (the study the new engagement data was made for) | AD-A201 405 | `hero-1988/forced-changes-of-combat-posture-ADA201405.pdf`, `.md` and `.json` |
 
 All of them are marked "approved for public release". In the HERO volumes, DTIC's cover page
 changed the distribution statement from B to A; the original limited-distribution markings
@@ -79,7 +81,9 @@ Searching the OCR text and the DTIC reports shows what documents them:
 - 602 to 625 (Sidi Bou Zid, Kasserine Pass, Rapido, Bowling Alley, Mortain, Schmidt, Wahlerscheid,
   Krinkelt-Rocherath, Schnee Eifel, Our River): *New Engagement Data for the Breakpoints Data Base*
   (AD-A201 404) and *Forced Changes of Combat Posture* (AD-A201 405), both by the Historical Evaluation and Research
-  Organization, 30 September 1988. They are not in this repository.
+  Organization, 30 September 1988, now in `hero-1988/`. AD-A201 404 has an entry for each engagement with its
+  date, a data sheet (war, location, start date and so on), who won and a "Significance" paragraph, laid out like
+  the HERO volumes. Both are marked "Distribution Statement A, approved for public release".
 - 601 (Mount Hermon III): a narrative in HERO Vol. VI.
 - 626 to 660 (Korea, Targul Frumos, the 1948, 1956, 1967 and 1982 Israeli battles, Quang Tri, France 1940): no
   documentation has been found. They are probably the result of McQuie's independent research, which the
