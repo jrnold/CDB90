@@ -665,6 +665,35 @@
       }
     },
     {
+      "description": "Coordinates of battles, where known. Taken from the Wikipedia article that the battle links to (variable `dbpedia` in `battles`) through DBpedia, so this table is CC BY-SA, not CC0. The coordinates are those of the article, usually the battlefield, and are not checked against the CDB90 location. Built by `scripts/coordinates.py`.",
+      "path": "data/battle_coordinates.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "isqno",
+            "description": "Battle sequence number.",
+            "type": "integer"
+          },
+          {
+            "id": "latitude",
+            "description": "Latitude (WGS 84, decimal degrees).",
+            "type": "number"
+          },
+          {
+            "id": "longitude",
+            "description": "Longitude (WGS 84, decimal degrees).",
+            "type": "number"
+          },
+          {
+            "id": "source",
+            "description": "Where the coordinates came from: `dbpedia` (current DBpedia) or `lchsk` (fetched from DBpedia in 2015 by lchsk, used where DBpedia no longer has coordinates).",
+            "type": "string"
+          }
+        ]
+      },
+      "name": "battle_coordinates"
+    },
+    {
       "path": "data/front_widths.csv",
       "name": "front_widths",
       "description": "Widths of fronts",
@@ -1102,7 +1131,7 @@
       "description": "Weather codes used in ``weather.wx1``"
     }
   ],
-  "version": "9.0.3",
+  "version": "9.1.0",
   "name": "CDB90",
   "homepage": "https://github.com/jrnold/CDB90",
   "sources": [
