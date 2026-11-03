@@ -280,11 +280,7 @@ def split_actors(actors: str | None) -> list[str | None]:
 
 
 def read_cdb90_file(path: Path) -> Iterator[list[str | None]]:
-    """Yield the data rows of one ``CDB90???.csv`` file, with ``""`` and ``"NA"`` as ``None``.
-
-    Whitespace is kept (``read_delim()`` does not trim by default), so ``"ARDENNES "`` keeps
-    its trailing space.
-    """
+    """Yield the data rows of one ``CDB90???.csv`` file, with ``""`` and ``"NA"`` as ``None``."""
     with path.open(encoding=ENCODING, errors=ENCODING_ERRORS, newline="") as f:
         for row in csv.reader(islice(f, CDB90_HEADER_LINES, None)):
             if row:
@@ -313,7 +309,7 @@ def read_cdb90(src_dir: Path, col_types: Mapping[str, str]) -> pd.DataFrame:
     converters: dict[str, Callable[[str | None], Any]] = {
         "integer": r_as_integer,
         "numeric": r_as_double,
-        "character": lambda v: v,
+        "character": lambda v: None if v is None else v.strip(),  # the first build trimmed too
     }
     return pd.DataFrame(
         {
