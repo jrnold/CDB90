@@ -29,7 +29,7 @@ from typing import Any, Final
 import pandas as pd
 import yaml
 
-DATA_DIR: Final = Path("data")
+DATA_DIR: Final = Path("data/relational")
 SRC_DIR: Final = Path("src-data")
 
 #: Number of header lines before the data rows in each ``M000121/CDB90???.csv`` file.
@@ -871,8 +871,8 @@ def build(src_dir: Path, data_dir: Path) -> None:
 
 
 def main() -> None:
-    """Build the tables from ``src-data/`` into ``data/``."""
-    DATA_DIR.mkdir(exist_ok=True)
+    """Build the tidy tables from ``src-data/`` into ``data/relational/``."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     build(SRC_DIR, DATA_DIR)
 
 

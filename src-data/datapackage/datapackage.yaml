@@ -1,8 +1,9 @@
-"name": "CDB90"
+"name": "cdb90"
 "title": "CDB90 Battle Dataset"
 "licenses":
-  - "id": "CC0-1.0"
-    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  - "name": "CC0-1.0"
+    "title": "Creative Commons CC0 1.0 Universal"
+    "path": "https://creativecommons.org/publicdomain/zero/1.0/"
 "maintainers":
   - "name": "Jeffrey B. Arnold"
     "email": "jeffrey.arnold@gmail.com"
@@ -12,7 +13,7 @@ description:  "A database of over 600 battles that were fought between 1600AD an
   - "name": "U.S. Army Concepts Analysis Agency, \"Database of Battles-Version 1990 (Computer Diskette)\", DTIC ADM-000121, April 30, 1991."
     "web": "http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000121"
 "resources":
-  - path: data/version.csv
+  - path: data/relational/version.csv
     schema:
       fields:
         - id: version

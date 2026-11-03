@@ -1,4 +1,4 @@
-"""Resolve the curated battle links to Wikidata items, writing ``data/battle_links.csv``.
+"""Resolve the curated battle links to Wikidata items, writing ``data/relational/battle_links.csv``.
 
 ``src-data/local/battle_links.csv`` lists, for each battle, one or more English Wikipedia
 articles: the battle itself (``match`` = battle), or the smallest campaign or war article that
@@ -15,7 +15,7 @@ import requests
 
 API = "https://en.wikipedia.org/w/api.php"
 CURATED = Path("src-data/local/battle_links.csv")
-OUTPUT = Path("data/battle_links.csv")
+OUTPUT = Path("data/relational/battle_links.csv")
 BATCH_SIZE = 50
 HEADERS = {"User-Agent": "CDB90-build/1.0 (https://github.com/jrnold/CDB90)"}
 

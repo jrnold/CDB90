@@ -13,15 +13,10 @@ import create_data as cd
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC_DIR = ROOT / "src-data"
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "data" / "relational"
 
-#: Files in data/ that create_data.py does not write.
-NOT_BUILT = {
-    "LICENSE.md",
-    "battle_coordinates.csv",
-    "battle_links.csv",
-    "flat",
-}  # built by scripts/
+#: Files in data/relational/ that create_data.py does not write.
+NOT_BUILT = {"battle_coordinates.csv", "battle_links.csv"}  # built by scripts/
 
 
 def utc(*args: int) -> datetime:

@@ -4,7 +4,7 @@ description: >-
   can be told from that of a battlefield. The points are not checked against the CDB90 location
   text. Built by `scripts/coordinates.py` from `battle_links`, plus place lookups in
   `src-data/local/coordinates_places.csv`.
-path: data/battle_coordinates.csv
+path: data/relational/battle_coordinates.csv
 schema:
   fields:
   - id: isqno

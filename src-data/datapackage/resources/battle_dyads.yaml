@@ -1,4 +1,4 @@
-path: data/battle_dyads.csv
+path: data/relational/battle_dyads.csv
 description: >
 
   The actor dyads associated with each battle. The members of the dyads are the actors in the ``battle_actors`` table.

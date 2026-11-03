@@ -38,7 +38,7 @@ def test_outputs_are_unique_and_git_tracked() -> None:
 
 
 def test_published_tables_are_all_built() -> None:
-    """Every csv in `data/` is an output of some stage."""
+    """Every csv in `data/relational/` and `data/flat/` is an output of some stage."""
     outputs = {next(iter(out)) for stage in load_stages().values() for out in stage["outs"]}
-    published = {str(p) for p in Path("data").glob("*.csv")}
+    published = {str(p) for d in ("relational", "flat") for p in Path("data", d).glob("*.csv")}
     assert published <= outputs

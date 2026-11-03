@@ -1,5 +1,5 @@
 description: "CDB90 battles' local terrain"
-path: data/terrain.csv
+path: data/relational/terrain.csv
 schema:
   fields:
   - description: battle sequence number

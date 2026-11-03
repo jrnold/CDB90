@@ -1,14 +1,14 @@
-"""Build flat analysis tables from the tidy tables in ``data/``, written to ``data/flat/``.
+"""Build flat analysis tables from the relational tables in ``data/relational/``.
 
-The tidy tables follow the relational layout of CDB90 (battles, belligerents, active periods and
-so on). For analysis it is usually easier to start from one row per battle or per battle side:
+The relational tables follow the layout of CDB90 (battles, belligerents, active periods and so
+on) and are loaded into SQLite. For analysis it is usually easier to start from one row per battle
+or per battle side, so this writes two flat tables to ``data/flat/``, each as CSV and as Parquet
+(zstd):
 
-- ``battles.parquet``: one row per battle, with its dates and duration, first front width,
-  coordinates, most specific Wikipedia link and per-side totals.
-- ``sides.parquet``: one row per battle and side (attacker or defender), with the side's forces,
+- ``battles``: one row per battle, with its dates and duration, first front width, coordinates,
+  most specific Wikipedia link and per-side totals.
+- ``sides``: one row per battle and side (attacker or defender), with the side's forces,
   commanders and outcome, and the battle's name, war, year and coordinates.
-
-The tables are Parquet with zstd compression.
 """
 
 from pathlib import Path
@@ -30,12 +30,14 @@ WITH link AS (
                 ORDER BY CASE match WHEN 'battle' THEN 0 WHEN 'campaign' THEN 1 ELSE 2 END,
                          wikipedia_title
             ) AS rank
-        FROM read_csv('data/battle_links.csv')
+        FROM read_csv('data/relational/battle_links.csv')
     )
     WHERE rank = 1
 ),
 front AS (
-    SELECT isqno, wofa, wofd FROM read_csv('data/front_widths.csv') WHERE front_number = 1
+    SELECT isqno, wofa, wofd
+    FROM read_csv('data/relational/front_widths.csv')
+    WHERE front_number = 1
 ),
 sides AS (
     SELECT
@@ -46,7 +48,7 @@ sides AS (
         max(TRY_CAST(str AS DOUBLE)) FILTER (WHERE attacker = 0) AS defender_str,
         max(TRY_CAST(cas AS DOUBLE)) FILTER (WHERE attacker = 1) AS attacker_cas,
         max(TRY_CAST(cas AS DOUBLE)) FILTER (WHERE attacker = 0) AS defender_cas
-    FROM read_csv('data/belligerents.csv')
+    FROM read_csv('data/relational/belligerents.csv')
     GROUP BY isqno
 )
 SELECT
@@ -54,8 +56,8 @@ SELECT
     d.datetime_min,
     d.datetime_max,
     d.datetime,
-    d.duration1 AS duration_days_max,
-    d.duration2 AS duration_days_min,
+    d.duration1 AS duration_days,
+    d.duration2 AS duration_active_days,
     f.wofa AS front_width_attacker,
     f.wofd AS front_width_defender,
     c.latitude,
@@ -70,10 +72,10 @@ SELECT
     s.defender_str,
     s.attacker_cas,
     s.defender_cas
-FROM read_csv('data/battles.csv') AS b
-LEFT JOIN read_csv('data/battle_durations.csv') AS d USING (isqno)
+FROM read_csv('data/relational/battles.csv') AS b
+LEFT JOIN read_csv('data/relational/battle_durations.csv') AS d USING (isqno)
 LEFT JOIN front AS f USING (isqno)
-LEFT JOIN read_csv('data/battle_coordinates.csv') AS c USING (isqno)
+LEFT JOIN read_csv('data/relational/battle_coordinates.csv') AS c USING (isqno)
 LEFT JOIN link AS l USING (isqno)
 LEFT JOIN sides AS s USING (isqno)
 ORDER BY isqno
@@ -85,7 +87,7 @@ WITH commanders AS (
         isqno,
         attacker,
         string_agg(DISTINCT commanders, '; ' ORDER BY commanders) AS commanders
-    FROM read_csv('data/commanders.csv')
+    FROM read_csv('data/relational/commanders.csv')
     GROUP BY isqno, attacker
 )
 SELECT
@@ -101,28 +103,33 @@ SELECT
     c.latitude,
     c.longitude,
     c.precision AS coordinate_precision
-FROM read_csv('data/belligerents.csv') AS bl
-JOIN read_csv('data/battles.csv') AS b USING (isqno)
-LEFT JOIN read_csv('data/battle_durations.csv') AS d USING (isqno)
-LEFT JOIN read_csv('data/battle_coordinates.csv') AS c USING (isqno)
+FROM read_csv('data/relational/belligerents.csv') AS bl
+JOIN read_csv('data/relational/battles.csv') AS b USING (isqno)
+LEFT JOIN read_csv('data/relational/battle_durations.csv') AS d USING (isqno)
+LEFT JOIN read_csv('data/relational/battle_coordinates.csv') AS c USING (isqno)
 LEFT JOIN commanders AS cm ON cm.isqno = bl.isqno AND cm.attacker = bl.attacker
 ORDER BY bl.isqno, bl.attacker DESC
 """
 
 
-def write_table(query: str, path: Path) -> None:
-    """Run ``query`` and write the result to ``path`` as zstd-compressed Parquet."""
+def write_table(query: str, name: str) -> None:
+    """Run ``query`` and write the result to ``data/flat/<name>`` as zstd Parquet and as CSV."""
     relation = duckdb.sql(query)
     if relation is None:
         raise ValueError("the query returned no relation")
-    relation.write_parquet(str(path), compression="zstd")
+    parquet = OUTPUT / f"{name}.parquet"
+    relation.write_parquet(str(parquet), compression="zstd")
+    # write the CSV from the Parquet file, so both hold the same values
+    duckdb.read_parquet(str(parquet)).write_csv(
+        str(OUTPUT / f"{name}.csv"), timestamp_format="%Y-%m-%dT%H:%M:%S"
+    )
 
 
 def main() -> None:
     """Write the flat tables."""
     OUTPUT.mkdir(exist_ok=True)
-    write_table(BATTLES_SQL, OUTPUT / "battles.parquet")
-    write_table(SIDES_SQL, OUTPUT / "sides.parquet")
+    write_table(BATTLES_SQL, "battles")
+    write_table(SIDES_SQL, "sides")
 
 
 if __name__ == "__main__":

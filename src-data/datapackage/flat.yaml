@@ -1,0 +1,57 @@
+# Flat analysis tables in data/flat/ (CSV and Parquet), built by scripts/flat.py. Column
+# descriptions for columns that exist in the relational tables come from resources/*.yaml;
+# the columns below are new or renamed.
+battles:
+  description: >-
+    One row per battle (660 rows): the battle's variables, its dates and duration, coordinates,
+    most specific Wikipedia link and per-side totals. The coded variables (`wina`, `cea`,
+    `surpa` and others) are from the attacker's point of view: positive favors the attacker,
+    negative the defender. Missing values are empty.
+  sources: [battles, battle_durations]
+  primary_key: isqno
+  columns:
+    duration_days: >-
+      Battle duration in days, calculated from `datetime_min` and `datetime_max` (`duration1` in
+      the relational table `battle_durations`).
+    duration_active_days: >-
+      Battle duration in days, calculated from the durations of the battle's active periods
+      (`duration2` in `battle_durations`).
+    front_width_attacker: Width of the attacker's front at the start of the battle (km).
+    front_width_defender: Width of the defender's front at the start of the battle (km).
+    latitude: Latitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles.
+    longitude: Longitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles.
+    coordinate_precision: >-
+      What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place it
+      is named after), `campaign` (an operation or campaign it was part of), `region` (a larger
+      area) or `war`. A campaign's point is shared by all its battles.
+    wikidata_id: Wikidata item of the most specific linked article (battle, then campaign, then war).
+    wikipedia_title: English Wikipedia article of that item.
+    link_match: >-
+      How specific that link is: `battle` (an article on this battle), `campaign` (the smallest
+      operation or campaign that covers it) or `war`.
+    attacker_actors: Actors (states or non-states) on the attacker's side, separated by ` & `.
+    defender_actors: Actors on the defender's side, separated by ` & `.
+    attacker_str: Total personnel strength of the attacker (`str` in `belligerents`).
+    defender_str: Total personnel strength of the defender.
+    attacker_cas: Battle casualties of the attacker (`cas` in `belligerents`).
+    defender_cas: Battle casualties of the defender.
+sides:
+  description: >-
+    One row per battle and side (1,320 rows): the side's forces, commanders and outcome, with the
+    battle's name, war, year and coordinates.
+  sources: [belligerents]
+  primary_key: [isqno, is_attacker]
+  columns:
+    is_attacker: Whether the side is the attacker.
+    commander_names: >-
+      Names of the side's commanders (from `commanders`), separated by `; `. Empty for 95 sides.
+      `co` is the commander as written in the original data.
+    outcome: >-
+      Outcome for this side: 1 win, 0 draw, -1 loss. Derived from `wina`, which is from the
+      attacker's point of view. Empty for 4 sides (2 battles).
+    battle_name: Name of the battle.
+    war: War in which the battle was fought.
+    year: Year of the battle's mid-point date.
+    latitude: Latitude of the battle (WGS 84, decimal degrees); see `battles`.
+    longitude: Longitude of the battle (WGS 84, decimal degrees).
+    coordinate_precision: What the coordinates are; see `battles`.
