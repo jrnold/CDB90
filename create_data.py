@@ -21,7 +21,7 @@ import math
 import re
 import sys
 from collections.abc import Callable, Iterable, Iterator, Mapping
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from itertools import islice, product
 from pathlib import Path
 from typing import Any, Final
@@ -72,7 +72,7 @@ def is_missing(value: object) -> bool:
         return True
     try:
         return bool(pd.isna(value))  # ty: ignore[no-matching-overload]
-    except (TypeError, ValueError):
+    except TypeError, ValueError:
         return False
 
 
@@ -531,7 +531,7 @@ def make_datetime(
     if not 0 <= hour <= 24 or not 0 <= minute <= 59:
         return None
     try:
-        start = datetime(year, month, day, tzinfo=timezone.utc)
+        start = datetime(year, month, day, tzinfo=UTC)
     except ValueError:
         return None
     return start + timedelta(hours=hour, minutes=minute)
@@ -652,7 +652,8 @@ def active_period_data(cdb90: pd.DataFrame) -> pd.DataFrame:
         col = f"atp{be}{var}{i}"
         data[col] = set_missing(data[col], [99, 9999])
     records = []
-    for row in data.sort_values("isqno", kind="stable").to_dict("records"):
+    for record in data.sort_values("isqno", kind="stable").to_dict("records"):
+        row = {str(key): value for key, value in record.items()}
         for i in range(1, 11):
             period = active_period(row, i)
             if period is not None:

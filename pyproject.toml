@@ -2,7 +2,7 @@
 name = "cdb90"
 version = "10.0.0"
 description = "A tidier and open-data version of CDB90 (CAA Database of Battles, Version 1990)"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 license = "MIT"
 license-files = ["LICENSE"]
 dependencies = [

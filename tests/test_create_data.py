@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import shutil
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import pandas as pd
@@ -21,7 +21,7 @@ NOT_BUILT = {"battle_coordinates.csv", "battle_links.csv"}  # built by scripts/
 
 def utc(*args: int) -> datetime:
     """Make a UTC date-time."""
-    return datetime(*args, tzinfo=timezone.utc)
+    return datetime(*args, tzinfo=UTC)
 
 
 # ---------------------------------------------------------------------------------------------
