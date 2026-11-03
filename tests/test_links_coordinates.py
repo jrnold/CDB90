@@ -10,7 +10,7 @@ from scripts import coordinates, links
 
 DATA = Path("data/relational")
 VALID_MATCH = {"battle", "campaign", "war"}
-VALID_PRECISION = {"battle", "place", "campaign", "region", "war"}
+VALID_PRECISION = {"battle", "place", "area", "campaign", "region", "war"}
 # battles for which no credible link or coordinates were found
 NO_LINK = {646, 660}
 

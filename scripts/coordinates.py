@@ -2,10 +2,10 @@
 
 Each battle gets the coordinates (property P625) of its most specific item that has them. The
 candidates are the items linked in ``data/relational/battle_links.csv`` (the battle itself, a
-campaign or a war) and the place items in ``src-data/local/coordinates_places.csv`` (the place
-the battle is named after, or a larger region). The ``precision`` column says which kind of item
-the point comes from, so a campaign's point can be told apart from a battlefield's. Wikidata is
-CC0.
+campaign or a war) and the items in ``src-data/local/coordinates_places.csv`` (the place where the
+action took place or that the battle is named after, a town or district beside the action, or a
+larger region). The ``precision`` column says which kind of item the point comes from, so a
+campaign's point can be told apart from a battlefield's. Wikidata is CC0.
 
 Run ``scripts/links.py`` first.
 """
@@ -26,7 +26,7 @@ HEADERS = {
     "User-Agent": "CDB90-build/1.0 (https://github.com/jrnold/CDB90)",
     "Accept": "application/sparql-results+json",
 }
-SPECIFICITY = {"battle": 0, "place": 1, "campaign": 2, "region": 3, "war": 4}
+SPECIFICITY = {"battle": 0, "place": 1, "area": 2, "campaign": 3, "region": 4, "war": 5}
 POINT = re.compile(r"Point\((-?[0-9.]+) (-?[0-9.]+)\)")
 QUERY = "SELECT ?item ?coord WHERE {{ VALUES ?item {{ {items} }} ?item wdt:P625 ?coord . }}"
 

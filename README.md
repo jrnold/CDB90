@@ -52,7 +52,7 @@ There are three ways to get the data, all in version 10.0.0 and later (from the 
 - `battles`: one row per battle, with its dates and duration, coordinates, most specific Wikipedia link and per-side totals. The coded variables (`wina`, `cea`, `surpa`, ...) are from the attacker's point of view.
 - `sides`: one row per battle and side, with forces, commanders and the outcome from that side's point of view (1 win, 0 draw, -1 loss).
 
-658 of the 660 battles are linked to one or more Wikidata items and Wikipedia articles (a battle's own article where there is one, otherwise the smallest campaign or war article that covers it) (`battle_links` in SQLite, `wikidata_id` and `wikipedia_title` in the flat `battles` table), and 649 of the 660 battles have coordinates from Wikidata (`coordinate_precision` says whether the point is the battle, the place it is named after, or only its campaign or region).
+658 of the 660 battles are linked to one or more Wikidata items and Wikipedia articles (a battle's own article where there is one, otherwise the smallest campaign or war article that covers it) (`battle_links` in SQLite, `wikidata_id` and `wikipedia_title` in the flat `battles` table), and 655 of the 660 battles have coordinates from Wikidata (`coordinate_precision` says whether the point is the battle, the place where it took place, a town or district beside the action, or only its campaign or region).
 
 Version 10.0.0 moved the relational csv tables from `data/` to `data/relational/`.
 

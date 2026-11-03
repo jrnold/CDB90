@@ -71,9 +71,9 @@ One row per battle (660 rows): the battle's variables, its dates and duration, c
 | `duration_active_days` | number | Battle duration in days, calculated from the durations of the battle's active periods (`duration2` in `battle_durations`). |
 | `front_width_attacker` | number | Width of the attacker's front at the start of the battle (km). |
 | `front_width_defender` | number | Width of the defender's front at the start of the battle (km). |
-| `latitude` | number | Latitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles. |
-| `longitude` | number | Longitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles. |
-| `coordinate_precision` | string | What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place it is named after), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. A campaign's point is shared by all its battles. |
+| `latitude` | number | Latitude (WGS 84, decimal degrees) from Wikidata; empty for 5 battles. |
+| `longitude` | number | Longitude (WGS 84, decimal degrees) from Wikidata; empty for 5 battles. |
+| `coordinate_precision` | string | What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place where the action took place or that it is named after), `area` (a town, commune or district the HERO narrative puts the action in or beside), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. A campaign's point is shared by all its battles. |
 | `wikidata_id` | string | Wikidata item of the most specific linked article (battle, then campaign, then war). |
 | `wikipedia_title` | string | English Wikipedia article of that item. |
 | `link_match` | string | How specific that link is: `battle` (an article on this battle), `campaign` (the smallest operation or campaign that covers it) or `war`. |
@@ -175,7 +175,7 @@ Coordinates of battles, from Wikidata (CC0). Each battle gets the point of its m
 | `latitude` | number | Latitude (WGS 84, decimal degrees). |
 | `longitude` | number | Longitude (WGS 84, decimal degrees). |
 | `wikidata_id` | string | Wikidata item the point comes from. |
-| `precision` | string | What the point is: `battle` (the battle's own item), `place` (the place it is named after), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. |
+| `precision` | string | What the point is: `battle` (the battle's own item), `place` (the place where the action took place or that it is named after), `area` (a town, commune or district the HERO narrative puts the action in or beside, when the action itself has no item), `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`. The points are ordered from most to least specific. |
 
 ### `battle_durations`
 

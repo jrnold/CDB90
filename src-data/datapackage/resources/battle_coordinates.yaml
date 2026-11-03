@@ -21,6 +21,9 @@ schema:
     type: string
   - id: precision
     description: >-
-      What the point is: `battle` (the battle's own item), `place` (the place it is named after),
-      `campaign` (an operation or campaign it was part of), `region` (a larger area) or `war`.
+      What the point is: `battle` (the battle's own item), `place` (the place where the action
+      took place or that it is named after), `area` (a town, commune or district the HERO
+      narrative puts the action in or beside, when the action itself has no item), `campaign`
+      (an operation or campaign it was part of), `region` (a larger area) or `war`. The points
+      are ordered from most to least specific.
     type: string
