@@ -156,7 +156,7 @@ stages:
       - datapackage.json:
           cache: false
 
-  # SQLite database of the relational tables (a release asset; not tracked in git).
+  # SQLite database of the relational tables.
   sqlite:
     cmd: uv run --frozen python -m scripts.sqlite
     deps:
@@ -196,6 +196,19 @@ stages:
       - data/relational/weather.csv
     outs:
       - cdb90.sqlite3:
+          cache: false
+
+  # Codebook of the tables, columns and codes (part of the Zenodo deposit).
+  codebook:
+    cmd: uv run --frozen python -m scripts.codebook
+    deps:
+      - scripts/codebook.py
+      - requirements.lock
+      - datapackage.json
+      - src-data/datapackage
+      - data/relational
+    outs:
+      - docs/codebook.md:
           cache: false
 
   # Diff of the original and patched CDB90 data.

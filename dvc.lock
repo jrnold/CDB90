@@ -499,3 +499,33 @@ stages:
       hash: md5
       md5: c583127b910621c4f717889e3072bedc
       size: 163485
+  codebook:
+    cmd: uv run --frozen python -m scripts.codebook
+    deps:
+    - path: data/relational
+      hash: md5
+      md5: 3aa0a992b18abbdac42841a5a2fa8b3d.dir
+      size: 775500
+      nfiles: 31
+    - path: datapackage.json
+      hash: md5
+      md5: c7e3590758227d6b6c9b967219d9c49e
+      size: 20857
+    - path: requirements.lock
+      hash: md5
+      md5: f33eec4824e51b86338f106216f576ee
+      size: 17660
+    - path: scripts/codebook.py
+      hash: md5
+      md5: 7b6e5d89c7fa3d8ba36ffc180dabdedf
+      size: 3857
+    - path: src-data/datapackage
+      hash: md5
+      md5: 58116aecebf4046744617da6d195fe55.dir
+      size: 23404
+      nfiles: 15
+    outs:
+    - path: docs/codebook.md
+      hash: md5
+      md5: f67d54ed5bb5b87bd6d0c192fe901f9c
+      size: 27263
