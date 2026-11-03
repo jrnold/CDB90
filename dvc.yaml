@@ -1,0 +1,203 @@
+# CDB90 build. All outputs are small and published from git, so every output is `cache: false`
+# (exception to baseline rule L1, see AGENTS.md); there is no DVC remote.
+# Run the whole build with `uv run dvc repro`. The `links` and `coordinates` stages query the
+# Wikipedia and Wikidata APIs, so they need network access.
+stages:
+  # Stages depend on the runtime packages only, so adding a dev tool doesn't make them stale.
+  runtime-lock:
+    cmd: uv export --no-dev --frozen --no-header --no-emit-project -o requirements.lock
+    deps:
+      - uv.lock
+    outs:
+      - requirements.lock:
+          cache: false
+
+  # The tidy tables, and the original and patched CDB90 data.
+  build-tables:
+    cmd: uv run --frozen python create_data.py
+    deps:
+      - create_data.py
+      - requirements.lock
+      - src-data/M000121
+      - src-data/CDB90/patch.yaml
+      - src-data/CDB90/cols.json
+      - src-data/local/belligerents.csv
+      - src-data/local/commanders.csv
+      - src-data/local/duplicates.csv
+      - src-data/local/wars.csv
+      - src-data/variable_levels.json
+      - src-data/version.txt
+    outs:
+      - data/active_periods.csv:
+          cache: false
+      - data/battle_actors.csv:
+          cache: false
+      - data/battle_durations.csv:
+          cache: false
+      - data/battle_dyads.csv:
+          cache: false
+      - data/battles.csv:
+          cache: false
+      - data/belligerents.csv:
+          cache: false
+      - data/commanders.csv:
+          cache: false
+      - data/enum_aeroa.csv:
+          cache: false
+      - data/enum_cea.csv:
+          cache: false
+      - data/enum_codead.csv:
+          cache: false
+      - data/enum_crit.csv:
+          cache: false
+      - data/enum_post.csv:
+          cache: false
+      - data/enum_postype.csv:
+          cache: false
+      - data/enum_pri.csv:
+          cache: false
+      - data/enum_reso.csv:
+          cache: false
+      - data/enum_surpa.csv:
+          cache: false
+      - data/enum_terra1.csv:
+          cache: false
+      - data/enum_terra2.csv:
+          cache: false
+      - data/enum_terra3.csv:
+          cache: false
+      - data/enum_wina.csv:
+          cache: false
+      - data/enum_wx1.csv:
+          cache: false
+      - data/enum_wx2.csv:
+          cache: false
+      - data/enum_wx3.csv:
+          cache: false
+      - data/enum_wx4.csv:
+          cache: false
+      - data/enum_wx5.csv:
+          cache: false
+      - data/front_widths.csv:
+          cache: false
+      - data/terrain.csv:
+          cache: false
+      - data/version.csv:
+          cache: false
+      - data/weather.csv:
+          cache: false
+      - src-data/CDB90/CDB90-orig.csv:
+          cache: false
+      - src-data/CDB90/CDB90-patched.csv:
+          cache: false
+
+  # Resolve the curated links to Wikidata items (Wikipedia API).
+  links:
+    cmd: uv run --frozen python -m scripts.links
+    deps:
+      - scripts/links.py
+      - requirements.lock
+      - src-data/local/battle_links.csv
+    outs:
+      - data/battle_links.csv:
+          cache: false
+
+  # Coordinates from Wikidata (SPARQL API).
+  coordinates:
+    cmd: uv run --frozen python -m scripts.coordinates
+    deps:
+      - scripts/coordinates.py
+      - requirements.lock
+      - data/battle_links.csv
+      - src-data/local/coordinates_places.csv
+    outs:
+      - data/battle_coordinates.csv:
+          cache: false
+
+  # Flat analysis tables.
+  flat:
+    cmd: uv run --frozen python -m scripts.flat
+    deps:
+      - scripts/flat.py
+      - requirements.lock
+      - data/battles.csv
+      - data/belligerents.csv
+      - data/battle_durations.csv
+      - data/front_widths.csv
+      - data/commanders.csv
+      - data/battle_coordinates.csv
+      - data/battle_links.csv
+    outs:
+      - data/flat/battles.parquet:
+          cache: false
+      - data/flat/sides.parquet:
+          cache: false
+
+  datapackage:
+    cmd: uv run --frozen python make_datapackage.py
+    deps:
+      - make_datapackage.py
+      - requirements.lock
+      - src-data/datapackage
+      - src-data/version.txt
+    outs:
+      - datapackage.json:
+          cache: false
+
+  # SQLite database of the tables (not tracked in git).
+  sqlite:
+    cmd: rm -f cdb90.sqlite3 && uv run --frozen python load-sqlite.py datapackage.json cdb90.sqlite3
+    deps:
+      - load-sqlite.py
+      - requirements.lock
+      - datapackage.json
+      - data/active_periods.csv
+      - data/battle_actors.csv
+      - data/battle_coordinates.csv
+      - data/battle_durations.csv
+      - data/battle_dyads.csv
+      - data/battle_links.csv
+      - data/battles.csv
+      - data/belligerents.csv
+      - data/commanders.csv
+      - data/enum_aeroa.csv
+      - data/enum_cea.csv
+      - data/enum_codead.csv
+      - data/enum_crit.csv
+      - data/enum_post.csv
+      - data/enum_postype.csv
+      - data/enum_pri.csv
+      - data/enum_reso.csv
+      - data/enum_surpa.csv
+      - data/enum_terra1.csv
+      - data/enum_terra2.csv
+      - data/enum_terra3.csv
+      - data/enum_wina.csv
+      - data/enum_wx1.csv
+      - data/enum_wx2.csv
+      - data/enum_wx3.csv
+      - data/enum_wx4.csv
+      - data/enum_wx5.csv
+      - data/front_widths.csv
+      - data/terrain.csv
+      - data/version.csv
+      - data/weather.csv
+    outs:
+      - cdb90.sqlite3:
+          cache: false
+
+  # Diff of the original and patched CDB90 data.
+  diff:
+    cmd: >-
+      uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
+      src-data/CDB90/CDB90-orig.csv src-data/CDB90/CDB90-patched.csv &&
+      uv run --frozen daff render --output src-data/CDB90/diff.html src-data/CDB90/diff.csv
+    deps:
+      - requirements.lock
+      - src-data/CDB90/CDB90-orig.csv
+      - src-data/CDB90/CDB90-patched.csv
+    outs:
+      - src-data/CDB90/diff.csv:
+          cache: false
+      - src-data/CDB90/diff.html:
+          cache: false
