@@ -1,0 +1,7 @@
+# Lint baseline: air formats R; lintr's line length matches.
+[format]
+line-width = 100
+indent-width = 2
+indent-style = "space"
+line-ending = "lf"
+persistent-line-breaks = true
