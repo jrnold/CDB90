@@ -69,6 +69,15 @@ substantially" from those of the original data base, and the README does not say
 The volumes are campaign-level reassessments with many tables of daily strengths and casualties, not
 battle-by-battle narratives like the HERO volumes.
 
+## The annotated bibliography
+
+`bibliography/` holds the OCR text (`.md`, one section per page, and `.json`) of CAA-RP-93-2,
+*Personnel Attrition Rates in Historical Land Combat Operations: An Annotated Bibliography*
+(Helmbold, June 1993, DTIC AD-A268 787, 476 pages). It lists and annotates the sources of the
+historical combat data that CDB90 draws on. The PDF (20 MB) is not committed; it is in the DTIC
+collection and in the author's Zotero library. The OCR is as LlamaParse returned it and has not
+been corrected. The catalog of attrition data it accompanies (ADA279069) is software, not a PDF.
+
 ## Where battles 601 to 660 come from
 
 The CDB90 `README.TXT` (`src-data/M000121/`, paragraph 2e) says that the Data Memory Systems report *New
