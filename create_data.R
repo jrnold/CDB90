@@ -17,9 +17,10 @@ tomissing <- function(x, value = NA) {
   x
 }
 
-tomissing_neg <- function(x) {
-  x[x < 0] <- NA
-  x
+# CDB90 codes missing values as -9 (-9999 for the numeric kmda). Other negative values are real:
+# for these variables a negative value favors the defender (e.g. wina = -1 is a defender win).
+tomissing_codes <- function(x) {
+  tomissing(x, c(-9, -9999))
 }
 
 belligerent_col_names <- function(attacker) {
@@ -137,7 +138,7 @@ battle_data <- function(cdb90, wars, duplicates) {
     "deepa",
     "kmda"
   )) {
-    x[[i]] <- tomissing_neg(x[[i]])
+    x[[i]] <- tomissing_codes(x[[i]])
   }
 
   ## add new wars
