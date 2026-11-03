@@ -1,0 +1,13 @@
+# Python updates are left to Dependabot security updates: uv.lock feeds requirements.lock, a DVC
+# input, so routine bumps would mark the data stages stale.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ["*"]
