@@ -78,6 +78,15 @@ historical combat data that CDB90 draws on. The PDF (20 MB) is not committed; it
 collection and in the author's Zotero library. The OCR is as LlamaParse returned it and has not
 been corrected. The catalog of attrition data it accompanies (ADA279069) is software, not a PDF.
 
+## The catalog diskettes
+
+`../ADM000368/` holds the 25 Quattro Pro spreadsheets (`.WQ!`, SQZ! compressed) from the data
+diskettes of Helmbold's *Personnel Attrition Rates in Historical Land Combat Operations* (DTIC
+ADM000368; the catalog CAA-RP-93-4 describes them), with the diskettes' `README`. Each is decoded
+to a `.csv` next to it with [`sqz`](https://github.com/jrnold/sqz) (`sqz decode FILE.WQ! FILE.csv`),
+which gives each cell's stored value. The files come from that repository's test fixtures. They are
+separate data sets from CDB90 and the build does not use them.
+
 ## Where battles 601 to 660 come from
 
 The CDB90 `README.TXT` (`src-data/M000121/`, paragraph 2e) says that the Data Memory Systems report *New

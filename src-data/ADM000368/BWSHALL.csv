@@ -1,0 +1,1103 @@
+,Dataset: BWSH-1993 (BWSHALL),,,,,,,,,,,,,,,,,,,,,,,,,,
+,Data From: Militar-Historisches Kriegslexicon (1618-1905),,,,,,,,,,,,,,,,,,,,,,,,,,
+,Author: Gaston Bodart,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Organization: C.W. Stern, publisher",,,,,,,,,,,,,,,,,,,,,,,,,,
+,Address: Vienna and Leipzig,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Publication Date: 1908,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Classification: UNCLASSIFIED,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Source Available From: Libraries,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Prepared By: Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,,,,,,,,,,,,,,,,,,
+,Last Revised: 15 November 1993,,,,,,,,,,,,,,,,,,,,,,,,,,
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+,,,,,,,,,,,,,,,,WINNER'S,LOSER'S,,,WINNER'S,,WINNER'S,,,LOSER'S,,LOSER'S
+SEQ.,PAGE,ITEM,,BATTLE,_STARTING_,,,__ENDING__,,,DUR'N,WINNER'S,WINNER'S,LOSER'S,LOSER'S,INITIAL,INITIAL,WINNER'S,WINNER'S,BLOODY,WINNER'S,TOTAL,LOSER'S,LOSER'S,BLOODY,LOSER'S,TOTAL
+NO.,NO.,NO.,TYPE,NAME,YEAR,MO,DA,YEAR,MO DA,,(DAYS),ID-A,ID-B,ID-A,ID-B,STRENGTH,STRENGTH,DEAD,WOUNDED,LOSSES,MIA/POW,LOSSES,DEAD,WOUNDED,LOSSES,MIA/POW,LOSSES
+----,----,---,----------,-------------------------,----,--,--,----,--,--,------,-------------,-------------,-------------,-------------,--------,--------,--------,--------,--------,--------,-------,--------,--------,--------,--------,-------
+1,49,1,Treffen,Gross-Zablat,1619,6,10,1619,6,10,1,Kaiserliche,ERR,Bohemia Rebel,ERR,5000,3000,?,?,?,?,500,?,?,?,1400,2500
+2,49,2,Schlact,Prag,1620,11,8,1620,11,8,1,Kaiserliche,Spain,Bohemia Rebel,ERR,47500,21000,?,?,?,?,400,?,?,?,?,6000
+3,49,3,Treffen,Neuhausel,1621,7,10,1621,7,10,1,Hungary,ERR,Kaiserliche,ERR,15000,12000,?,?,?,?,2000,?,?,?,?,3000
+4,50,3,Treffen,Wimpfen,1622,5,6,1622,5,6,1,Kaiserliche,Spain,German Rebel,ERR,20000,20000,?,?,5000,0,5000,?,?,5000,800,5800
+5,51,1,Treffen,Hochst,1622,6,9,1622,6,9,1,Kaiserliche,Spain,German Rebel,ERR,26000,21000,?,?,?,?,2000,?,?,?,?,8000
+6,51,2,Treffen,Fleurus,1622,8,29,1622,8,29,1,German Rebel,ERR,Spain,Kaiserliche,13000,17000,?,?,?,?,4000,?,?,?,?,4000
+7,51,3,Treffen,Stadtlohn,1623,8,6,1623,8,6,1,Kaiserliche,Spain,German Rebel,ERR,28000,22000,?,?,1000,0,1000,?,?,4000,7000,11000
+8,52,2,Treffen,Wallhof,1626,1,7,1626,1,7,1,Sweden,ERR,Poland,ERR,10000,15000,?,?,?,?,800,?,?,?,?,2200
+9,52,3,Treffen,Dessau,1626,4,25,1626,4,25,1,Kaiserliche,ERR,Denmark,German Rebel,26000,8500,?,?,?,?,1000,?,?,?,?,3000
+10,52,4,Schlact,Lutter am Barenberge,1626,8,27,1626,8,27,1,Kaiserliche,Spain,Denmark,ERR,17000,20000,?,?,2000,0,2000,?,?,4000,3000,7000
+11,53,3,Treffen,Wolgast,1628,8,22,1628,8,22,1,Kaiserliche,ERR,Denmark,ERR,7000,6000,?,?,1000,0,1000,?,?,600,1000,1600
+12,54,1,Treffen,Avigliana,1630,7,26,1630,7,26,1,France,ERR,Piedmont,Spain,10000,20000,?,?,500,0,500,?,?,800,200,1000
+13,54,2,Ersturmung,Frankfurt an der Oder,1631,9,3,1631,9,3,1,Sweden,ERR,Kaiserliche,ERR,20000,8000,?,?,400,0,400,?,?,1700,800,2500
+14,55,1,Schlact,Breitenfeld,1631,9,7,1631,9,7,1,Sweden,Saxony,Kaiserliche,Spain,36000,34000,?,?,5000,0,5000,?,?,8000,4000,12000
+15,55,2,Treffen,Rain,1632,4,15,1632,4,15,1,Sweden,ERR,Kaiserliche,ERR,33000,27000,?,?,1000,0,1000,?,?,3000,0,3000
+16,55,3,Schlact,Nurnberg,1632,8,24,1632,8,24,1,Kaiserliche,ERR,Sweden,Saxony,60000,46000,?,?,1000,0,1000,?,?,2000,0,2000
+17,56,1,Schlact,Lutzen,1632,11,6,1632,11,6,1,Sweden,Saxony,Kaiserliche,ERR,20000,25000,?,?,?,?,4000,?,?,?,?,5000
+18,56,2,Schlact,Hessisch-Oldendorf,1633,6,28,1633,6,28,1,Sweden,German Allies,Kaiserliche,ERR,17000,15000,?,?,?,?,1000,?,?,7000,3000,10000
+19,57,3,Treffen,Wattweiler,1634,3,2,1634,3,2,1,Sweden,ERR,Kaiserliche,ERR,5000,6000,?,?,100,0,100,?,?,1500,500,2000
+20,58,1,Schlact,Liegnitz,1634,5,13,1634,5,13,1,Saxony,ERR,Kaiserliche,ERR,15000,12000,?,?,?,?,1000,?,?,4000,400,4400
+21,58,2,Belagerung,Regensberg,1634,5,15,1634,7,19,66,Kaiserliche,ERR,Sweden,ERR,30000,4000,?,?,8000,0,8000,?,?,1400,2600,4000
+22,58,3,Schlact,Nordlingen,1634,9,5,1634,9,6,2,Kaiserliche,Spain,Sweden,Saxony,35000,25000,?,?,2000,0,2000,?,?,6000,6000,12000
+23,59,1,Schlact,Avein,1635,5,7,1635,5,7,1,France,ERR,Spain,ERR,34000,16000,?,?,?,?,3000,?,?,5000,1000,6000
+24,59,2,Gefecht,Mazzo,1635,7,3,1635,7,3,1,France,ERR,Spain,Kaiserliche,4000,6000,?,?,500,0,500,?,?,1500,2000,3500
+25,59,3,Treffen,Domitz,1635,10,23,1635,10,23,1,Sweden,ERR,Saxony,ERR,7000,7000,?,?,400,0,400,?,?,2400,2600,5000
+26,59,4,Gefecht,San Giacomo di Frael,1635,10,31,1635,10,31,1,France,ERR,Kaiserliche,Spain,5000,7000,?,?,?,?,1000,?,?,?,300,2000
+27,60,1,Gefecht,Morbegno,1635,11,9,1635,11,9,1,France,ERR,Spain,ERR,3000,4000,?,?,600,0,600,?,?,1500,500,2000
+28,60,3,Gefecht,Haaselune,1636,1,1,1636,1,1,1,Sweden,ERR,Kaiserliche,ERR,5000,3000,?,?,?,?,500,?,?,?,500,1500
+29,61,1,Schlact,Buffalora,1636,6,23,1636,6,23,1,France,ERR,Spain,ERR,10000,12000,?,?,?,?,1000,?,?,2000,300,2300
+30,61,2,Schlact,Wittstock,1636,9,24,1636,9,24,1,Sweden,ERR,Kaiserliche,Saxony,22000,30000,?,?,7000,0,7000,?,?,10000,8000,18000
+31,61,3,Schlact,Leucate,1637,9,28,1637,9,28,1,France,ERR,Spain,ERR,12000,16000,?,?,?,?,3000,?,?,?,?,4000
+32,62,1,Treffen,Rheinfelden,1638,2,21,1638,2,21,1,Sweden,France,Kaiserliche,ERR,5000,4000,?,?,?,?,400,?,?,700,2300,3000
+33,62,3,Treffen,Wittenweier,1638,7,30,1638,7,30,1,Sweden,France,Kaiserliche,ERR,14000,17000,?,?,?,?,1600,?,?,2000,1400,3400
+34,64,3,Treffen,Brandeis,1639,5,19,1639,5,19,1,Sweden,ERR,Kaiserliche,ERR,18000,10000,?,?,?,?,600,?,?,1000,400,1400
+35,65,1,Schlact,Thionville,1639,6,7,1639,6,7,1,Kaiserliche,Spain,France,ERR,14000,20000,?,?,1500,0,1500,?,?,6000,3000,9000
+36,66,1,Treffen,Chieri,1639,11,20,1639,11,20,1,France,ERR,Spain,ERR,9000,18000,?,?,?,?,1000,?,?,?,?,2000
+37,66,2,Schlact,Casale,1640,4,29,1640,4,29,1,France,ERR,Spain,ERR,10000,18000,?,?,?,?,2000,?,?,4000,2000,6000
+38,67,3,Schlact,La Marfee,1641,7,6,1641,7,6,1,Spain,Kaiserliche,France,ERR,10000,11000,?,?,1000,0,1000,?,?,3000,4500,7500
+39,67,4,Schlact,Kempen,1642,1,17,1642,1,17,1,France,ERR,Kaiserliche,ERR,7500,9000,?,?,?,?,400,?,?,4000,3000,7000
+40,68,1,Schlact,Schweidnitz,1642,5,21,1642,5,21,1,Sweden,ERR,Kaiserliche,Saxony,20000,18000,?,?,?,?,800,?,?,3000,1200,4200
+41,68,2,Schlact,Honnecourt,1642,5,26,1642,5,26,1,Spain,ERR,France,ERR,18000,10000,?,?,?,?,1500,?,?,?,2500,4500
+42,69,1,Treffen,Lerida,1642,10,7,1642,10,7,1,France,ERR,Spain,ERR,12000,25000,?,?,?,?,1000,?,?,?,?,2000
+43,69,2,Treffen,Edgehill,1642,10,23,1642,10,23,1,Parliament,ERR,Royalist,ERR,12000,10000,?,?,?,?,1000,?,?,?,?,4000
+44,69,3,Schlact,Breitenfeld,1642,11,2,1642,11,2,1,Sweden,ERR,Kaiserliche,ERR,25000,30000,?,?,5000,0,5000,?,?,10000,5000,15000
+45,70,1,Schlact,Rocroi,1643,5,19,1643,5,19,1,France,ERR,Spain,ERR,23000,25000,?,?,4000,0,4000,?,?,8000,6000,14000
+46,71,1,Treffen,Tuttlingen,1643,11,14,1643,11,14,1,Kaiserliche,ERR,France,Sweden,22000,18000,?,?,1000,0,1000,?,?,3000,4000,7000
+47,71,3,Schlact,Marston Moor,1644,7,2,1644,7,2,1,Parliament,Scotland,Royalist,ERR,20000,18000,?,?,?,?,1500,?,?,?,?,6000
+48,72,1,Schlact,Freiburg,1644,8,3,1644,8,5,3,France,ERR,Kaiserliche,ERR,20000,16000,?,?,?,?,8000,?,?,?,?,4000
+49,72,3,Treffen,Juterbogk,1644,11,23,1644,11,23,1,Sweden,ERR,Kaiserliche,ERR,18000,12000,?,?,?,?,400,?,?,?,1600,2600
+50,73,1,Schlact,Jankau,1645,3,6,1645,3,6,1,Sweden,ERR,Kaiserliche,ERR,16000,16000,?,?,2000,0,2000,?,?,4000,4500,8500
+51,73,2,Treffen,Mergentheim,1645,5,5,1645,5,5,1,Kaiserliche,ERR,France,Sweden,10000,11000,?,?,?,?,700,?,?,?,2000,3500
+52,74,1,Treffen,Balaguer,1645,6,22,1645,6,22,1,France,ERR,Spain,ERR,15000,18000,?,?,?,?,1000,?,?,?,?,3000
+53,74,2,Schlact,Allersheim,1645,8,3,1645,8,3,1,France,German Allies,Kaiserliche,ERR,18000,16000,?,?,6000,1500,7500,?,?,4000,2000,6000
+54,75,3,Treffen,Balaguer,1646,11,22,1646,11,22,1,Spain,ERR,France,ERR,17000,12000,?,?,?,?,1000,?,?,?,?,4000
+55,76,1,Belagerung,Lerida,1647,5,14,1647,6,17,35,Spain,ERR,France,ERR,4000,16000,?,?,?,?,2000,?,?,?,?,8000
+56,76,2,Treffen,Zusmarshausen,1648,5,17,1648,5,17,1,Sweden,France,Kaiserliche,ERR,20000,10000,?,?,?,?,2000,?,?,?,200,2000
+57,76,3,Treffen,Cremona,1648,5,30,1648,5,30,1,France,ERR,Spain,ERR,12000,11000,?,?,?,?,1000,?,?,?,?,3000
+58,77,1,Schlact,Lens,1648,8,29,1648,8,29,1,France,ERR,Spain,Kaiserliche,14000,18000,?,?,4000,0,4000,?,?,5000,5000,10000
+59,77,3,Schlact,Dunbar,1650,9,3,1650,9,3,1,Parliament,ERR,Scotland,ERR,11000,23000,?,?,?,?,1000,?,?,3000,10000,13000
+60,78,1,Schlact,Rethel,1650,12,15,1650,12,15,1,French Royalists,ERR,Spain,French Rebel,11000,9000,?,?,1000,0,1000,?,?,2000,3000,5000
+61,78,3,Schlact,Worcester,1651,9,3,1651,9,3,1,Parliament,ERR,Royalist,Scotland,28000,16000,?,?,1000,0,1000,?,?,3000,6000,9000
+62,79,1,Schlact,Saint Antoine,1652,7,2,1652,7,2,1,French Royalists,ERR,French Rebel,ERR,12000,6000,?,?,?,?,4000,?,?,?,?,2000
+63,82,3,Schlact,Arras,1654,8,24,1654,8,24,1,France,ERR,Spain,French Rebel,15000,25000,?,?,1000,0,1000,?,?,2000,5000,7000
+64,83,3,Schlact,Valenciennes,1656,7,16,1656,7,16,1,Spain,French Rebel,France,ERR,22000,25000,?,?,?,?,1500,?,?,2000,4000,6000
+65,83,4,Schlact,Warschau,1656,7,28,1656,7,30,3,Sweden,Brandenburg,Poland,ERR,19000,70000,?,?,?,?,1000,?,?,?,?,3000
+66,84,2,Treffen,Wolkowysk,1657,6,18,1657,6,18,1,Sweden,ERR,Russia,ERR,2500,10000,?,?,?,?,200,?,?,?,?,3000
+67,84,4,Schlact,Dunkerque (Dunen bei Dunkirchen),1658,6,14,1658,6,14,1,France,ERR,Spain,French Rebel,15000,12000,?,?,?,?,2000,?,?,4000,3000,7000
+68,85,4,Schlact,Nyborg,1659,11,24,1659,11,24,1,Kaiserliche,Brandenburg,Sweden,ERR,9000,6000,?,?,2000,0,2000,?,?,2000,4000,6000
+69,87,1,Schlact,Almexial,1663,6,8,1663,6,8,1,Portugal,ERR,Spain,ERR,14000,16000,?,?,?,?,2000,?,?,4000,6000,10000
+70,88,1,Schlact,Sankt Gotthard,1664,8,1,1664,8,1,1,Kaiserliche,France,Turkey,ERR,30000,60000,?,?,?,?,2000,?,?,?,?,8000
+71,89,1,Schlact,Villavicosa,1665,6,17,1665,6,17,1,Portugal,ERR,Spain,ERR,14000,18000,?,?,1000,0,1000,?,?,4000,6000,10000
+72,94,2,Schlact,Choczim,1673,11,11,1673,11,11,1,Poland,ERR,Turkey,ERR,50000,80000,?,?,?,?,1000,?,?,?,?,20000
+73,94,3,Schlact,Sinsheim,1674,6,16,1674,6,16,1,France,ERR,Kaiserliche,ERR,9500,7500,?,?,?,?,1500,?,?,?,?,2500
+74,95,2,Schlact,Seneffe,1674,8,11,1674,8,11,1,France,ERR,Holland,Spain,50000,70000,?,?,6000,4000,10000,?,?,8600,5400,14000
+75,95,3,Schlact,Enzheim,1674,10,4,1674,10,4,1,France,ERR,Kaiserliche,ERR,22000,32000,?,?,?,?,2500,?,?,?,?,4000
+76,96,1,Gefecht,Muhlhausen,1674,12,29,1674,12,29,1,France,ERR,Kaiserliche,ERR,4000,5000,?,?,?,?,300,?,?,?,900,1200
+77,96,2,Treffen,Turkheim,1675,1,5,1675,1,5,1,France,ERR,Kaiserliche,ERR,33000,30000,?,?,?,?,1100,?,?,900,2500,3400
+78,96,4,Schlact,Fehrbellin,1675,6,18,1675,6,18,1,Brandenburg,ERR,Sweden,ERR,6000,6400,?,?,500,0,500,?,?,2000,500,2500
+79,97,1,Treffen,Altenheim,1675,8,1,1675,8,1,1,Kaiserliche,ERR,France,ERR,22000,14000,?,?,?,?,3000,?,?,?,?,4000
+80,97,2,Schlact,Konz (Konsarbruck),1675,8,11,1675,8,11,1,Kaiserliche,ERR,France,ERR,17000,14000,?,?,1100,0,1100,?,?,2500,2400,4900
+81,100,3,Treffen,Lund,1676,10,14,1676,10,14,1,Sweden,ERR,Denmark,ERR,16000,12000,?,?,?,?,4000,?,?,?,?,4000
+82,101,1,Schlact,Mont Cassel,1677,4,11,1677,4,11,1,France,ERR,Holland,Spain,30000,30000,?,?,4400,0,4400,?,?,7000,4000,11000
+83,102,1,Schlact,Espouilles,1677,6,5,1677,6,5,1,France,ERR,Spain,ERR,8000,12000,?,?,1300,0,1300,?,?,3000,700,3700
+84,102,3,Schlact,Landskrona,1677,7,24,1677,7,24,1,Sweden,ERR,Denmark,ERR,8000,7000,?,?,?,?,1000,?,?,?,?,2000
+85,103,2,Treffen,Saint Denis,1678,8,14,1678,8,14,1,France,ERR,Holland,Spain,40000,40100,?,?,4000,0,4000,?,?,4000,?,4000
+86,104,1,Schlact,Wien,1683,9,12,1683,9,12,1,Poland,Kaiserliche,Turkey,ERR,76000,107000,?,?,5000,0,5000,?,?,15000,5000,20000
+87,104,2,Belagerung,Wien,1683,7,11,1683,9,12,64,Kaiserliche,ERR,Turkey,ERR,16000,200000,?,?,?,?,6700,?,?,?,?,48000
+88,105,2,Schlact,Parkany,1683,10,9,1683,10,9,1,Kaiserliche,Poland,Turkey,ERR,28000,16000,?,?,?,?,1000,?,?,?,?,90000
+89,105,4,Treffen,Waitzen,1684,6,27,1684,6,27,1,Kaiserliche,ERR,Turkey,ERR,32000,18000,?,?,?,?,100,?,?,?,?,3000
+90,106,4,Schlact,Gran (Esztergom),1685,8,10,1685,8,10,1,Kaiserliche,ERR,Turkey,ERR,60000,42000,?,?,?,?,100,?,?,?,?,2000
+91,107,3,Schlact,Ofen (Buda),1686,8,14,1686,8,14,1,Kaiserliche,ERR,Turkey,ERR,50000,80000,?,?,?,?,500,?,?,?,500,2500
+92,107,4,Belagerung,Ofen (Buda),1686,6,18,1686,9,2,77,Kaiserliche,ERR,Turkey,ERR,65000,10000,?,?,?,?,20000,?,?,?,?,10000
+93,108,2,Schlact,Harsany (Mohacs),1687,8,12,1687,8,12,1,Kaiserliche,ERR,Turkey,ERR,50000,60000,?,?,2000,0,2000,?,?,8000,2000,10000
+94,108,3,Treffen,Dervent (Derbend),1688,9,5,1688,9,5,1,Kaiserliche,ERR,Turkey,ERR,3000,15000,?,?,?,?,200,?,?,?,2000,7000
+95,109,1,Belagerung,Belgrad,1688,8,11,1688,9,6,27,Kaiserliche,ERR,Turkey,ERR,53000,8300,?,?,?,?,1300,?,?,7000,1300,8300
+96,110,1,Treffen,Kastanovic (Kostajnica),1689,7,25,1689,7,25,1,Kaiserliche,ERR,Turkey,ERR,20000,5000,?,?,?,?,100,?,?,?,?,2000
+97,110,2,Schlact,Batocina (Patacin),1689,8,20,1689,8,20,1,Kaiserliche,ERR,Turkey,ERR,18000,32000,?,?,?,?,400,?,?,?,?,3000
+98,110,3,Belagerung,Mainz,1689,7,16,1689,9,8,55,Kaiserliche,ERR,France,ERR,60000,8000,?,?,5000,0,5000,?,?,2200,5800,8000
+99,111,1,Schlact,Nis (Nissa),1689,9,24,1689,9,24,1,Kaiserliche,ERR,Turkey,ERR,17000,40000,?,?,?,?,400,?,?,?,?,10000
+100,112,1,Schlact,Fleurus,1690,7,1,1690,7,1,1,France,ERR,Holland,Kaiserliche,50000,38000,3000,3000,6000,0,6000,6000,5000,11000,8000,19000
+101,113,1,Schlact,Boyne Fluss (Drogheda),1690,7,11,1690,7,11,1,England,Holland,Ireland,France,35000,23000,?,?,?,?,500,?,?,?,?,1500
+102,113,2,Schlact,Staffarda,1690,8,18,1690,8,18,1,France,ERR,Piedmont,ERR,12000,18000,?,?,?,?,2000,?,?,2800,1200,4000
+103,114,1,Ersturmung,Belgrad,1690,10,8,1690,10,8,1,Turkey,ERR,Kaiserliche,ERR,50000,5000,?,?,?,?,9500,?,?,?,?,4500
+104,114,3,Schlact,Aghrim (Kilconnel),1691,7,22,1691,7,22,1,England,Holland,France,Ireland,20000,25000,?,?,?,?,2700,?,?,?,?,4400
+105,115,1,Schlact,Szlankamen,1691,8,19,1691,8,19,1,Kaiserliche,ERR,Turkey,ERR,50000,100000,?,?,?,?,8000,?,?,?,?,20000
+106,115,2,Treffen,Leuze,1691,9,19,1691,9,19,1,France,ERR,Holland,Brandenburg,4000,12000,?,?,700,0,700,?,?,1500,400,1900
+107,116,2,Belagerung,Namur,1692,5,26,1692,7,1,37,France,ERR,Spain,ERR,46000,8300,?,?,7000,0,7000,?,?,4000,4300,8300
+108,117,1,Schlact,Steenkerke,1692,8,3,1692,8,3,1,France,ERR,England,Holland,57000,63000,2500,4500,7000,0,7000,3500,3100,6600,1400,8000
+109,118,1,Schlact,Neerwinden (Landen),1693,7,29,1693,7,29,1,France,ERR,England,Holland,80000,50000,?,?,8000,1000,9000,?,?,12000,2000,14000
+110,119,1,Schlact,La Marsaglia (Orbassano),1693,10,4,1693,10,4,1,France,ERR,Piedmont,Kaiserliche,40000,36000,?,?,3000,0,3000,?,?,9000,2000,11000
+111,119,2,Schlact,Toroella (am Ter),1694,5,27,1694,5,27,1,France,ERR,Spain,ERR,26000,20000,?,?,?,?,1300,?,?,3500,2200,5700
+112,120,4,Belagerung,Namur,1695,7,1,1695,9,6,68,England,Holland,France,ERR,80000,13000,?,?,18000,0,18000,?,?,8000,5000,13000
+113,121,3,Schlact,Olaschin (an der Bega),1696,8,26,1696,8,26,1,Turkey,ERR,Kaiserliche,ERR,60000,50000,?,?,?,?,4000,?,?,?,?,4000
+114,122,1,Belagerung,Barcelona,1697,6,6,1697,8,10,66,France,ERR,Spain,ERR,30000,16000,?,?,10000,0,10000,?,?,7000,5000,12000
+115,122,2,Schlact,Zenta,1697,9,11,1697,9,11,1,Kaiserliche,ERR,Turkey,ERR,50000,100000,?,?,?,?,2100,?,?,?,?,30000
+116,123,3,Schlact,Narwa,1700,11,30,1700,11,30,1,Sweden,ERR,Russia,Poland,9000,40000,?,?,2000,0,2000,?,?,8000,12000,20000
+117,124,1,Treffen,Carpi,1701,7,9,1701,7,9,1,Kaiserliche,ERR,France,ERR,15000,5000,?,?,?,?,100,?,?,350,150,500
+118,124,2,Schlact,Riga,1701,7,18,1701,7,18,1,Sweden,ERR,Saxony,Poland,8000,20000,?,?,?,?,1200,?,?,?,?,2800
+119,124,3,Treffen,Chiari,1701,9,1,1701,9,1,1,Kaiserliche,ERR,France,Piedmont,22000,38000,?,?,?,?,200,?,?,3600,200,3800
+120,124,4,Treffen,Kasaritsch,1701,9,16,1701,9,16,1,Sweden,ERR,Russia,ERR,6000,8000,?,?,?,?,800,?,?,?,?,1000
+121,125,1,Schlact,Erastjahr,1702,1,9,1702,1,9,1,Russia,ERR,Sweden,ERR,12000,5000,?,?,?,?,5000,?,?,?,400,1800
+122,125,2,Schlact,Cremona,1702,2,1,1702,2,1,1,France,Spain,Kaiserliche,ERR,10000,8000,?,?,1200,300,1500,?,?,800,400,1200
+123,126,1,Treffen,Nimwegen,1702,6,11,1702,6,11,1,France,ERR,Holland,ERR,25000,23000,?,?,?,?,200,?,?,400,300,700
+124,126,2,Schlact,Klissow,1702,7,19,1702,7,19,1,Sweden,ERR,Saxon,Poland,12000,22000,?,?,1100,0,1100,?,?,2000,1900,3900
+125,126,3,Treffen,Hummelshof,1702,7,29,1702,7,29,1,Russia,ERR,Sweden,ERR,15000,4000,?,?,?,?,1400,?,?,1200,400,1600
+126,127,1,Gefect,Santa Vittoria (am Tassone),1702,7,26,1702,7,26,1,France,ERR,Kaiserliche,ERR,4000,2800,?,?,?,?,200,?,?,600,400,1000
+127,127,2,Schlact,Luzzara,1702,8,15,1702,8,15,1,Kaiserliche,ERR,France,Spain,25000,30000,?,?,?,?,2700,?,?,?,?,3500
+128,128,1,Belagerung,Landau,1702,6,18,1702,9,9,84,Kaiserliche,ERR,France,ERR,46000,4400,?,?,?,?,3000,?,?,1700,2700,4400
+129,128,3,Schlact,Friedlingen,1702,10,14,1702,10,14,1,France,ERR,Kaiserliche,ERR,17000,14000,?,?,2700,0,2700,?,?,1850,1050,2900
+130,130,2,Treffen,Siegharding (Eisenbirn),1703,3,11,1703,3,11,1,Bavaria,ERR,Kaiserliche,ERR,12000,10000,?,?,?,?,500,?,?,1200,1300,2500
+131,130,3,Treffen,Schagarin,1703,3,27,1703,3,27,1,Sweden,ERR,Poland,ERR,1300,8700,?,?,?,?,200,?,?,?,600,3000
+132,130,4,Angriff,Stollhofen-Buhler Linien,1703,4,19,1703,4,25,7,Kaiserliche,Holland,France,ERR,24000,35000,?,?,?,?,200,?,?,?,?,3000
+133,131,1,Treffen,Pultusk,1703,5,1,1703,5,1,1,Sweden,ERR,Saxony,Poland,2000,12000,?,?,?,?,200,?,?,1300,700,2000
+134,131,3,Treffen,Eeckeren,1703,6,30,1703,6,30,1,France,Spain,England,Holland,19000,15000,?,?,?,?,2300,?,?,?,800,3300
+135,132,1,Treffen,Steckene,1703,6,27,1703,6,27,1,Holland,ERR,France,Spain,7000,2500,?,?,?,?,1300,?,?,?,?,700
+136,132,2,Gefecht,Munderkingen,1703,7,31,1703,7,31,1,France,ERR,Kaiserliche,ERR,4200,5000,?,?,500,0,500,?,?,?,?,800
+137,132,4,Belagerung,Breisach,1703,8,15,1703,9,7,24,France,ERR,Kaiserliche,ERR,24000,3500,?,?,?,?,900,?,?,300,3200,3500
+138,133,1,Schlact,Hochstadt,1703,9,20,1703,9,20,1,Bavaria,France,Kaiserliche,Prussia,23000,18000,?,?,1500,0,1500,?,?,?,?,4500
+139,133,3,Belagerung,Thorn,1703,5,15,1703,10,15,154,Sweden,ERR,Poland,Saxony,14000,6000,?,?,?,?,4000,1000,3000,4000,2000,6000
+140,134,1,Schlact,Speyer (Speyerbach),1703,11,15,1703,11,15,1,France,ERR,Kaiserliche,Holland,18000,22000,?,?,4000,0,4000,?,?,4000,2000,6000
+141,134,2,Belagerung,Landau,1703,10,13,1703,11,17,36,France,ERR,Kaiserliche,ERR,26000,5600,?,?,?,?,5000,?,?,1800,3800,5600
+142,135,2,Gefect,Castelnuovo di Bormida,1704,1,11,1704,1,11,1,France,Spain,Kaiserliche,ERR,10000,4000,?,?,?,?,1500,?,?,600,300,900
+143,135,4,Treffen,"Schmollnitz (Szomolyan, Nadas)",1704,5,28,1704,5,28,1,Hungary Rebel,ERR,Kaiserliche,ERR,10000,2400,?,?,?,?,400,?,?,?,?,1600
+144,136,2,Treffen,Raab (Gyor),1704,6,13,1704,6,13,1,Kaiserliche,ERR,Hungary Rebel,ERR,3600,7400,?,?,?,?,200,?,?,800,2000,2800
+145,136,3,Schlact,Schellenberg (Donauworth),1704,7,2,1704,7,2,1,England,Holland,Bavaria,France,25000,11000,?,?,6000,0,6000,?,?,2000,2000,4000
+146,137,1,Belagerung,Vercelli,1704,6,5,1704,7,24,50,France,Spain,Piedmont,Kaiserliche,26000,7000,?,?,?,?,1100,?,?,900,6100,7000
+147,137,2,Schlact,Hochstadt (Blindheim),1704,8,13,1704,8,13,1,England,Holland,France,Bavaria,50000,52000,4500,8000,12500,500,13000,6000,8000,14000,14000,28000
+148,138,1,Belagerung,Narwa,1704,6,2,1704,8,21,81,Russia,ERR,Sweden,ERR,25000,4500,?,?,?,?,3000,?,?,2500,2000,4500
+149,139,4,Treffen,Pata,1704,10,8,1704,10,8,1,Kaiserliche,ERR,Hungary Rebel,ERR,3000,12000,?,?,?,?,100,?,?,?,?,4000
+150,140,1,Treffen,Punitz,1704,11,7,1704,11,7,1,Saxony,Russia,Sweden,ERR,6500,9000,?,?,600,400,1000,?,?,?,?,2000
+151,140,2,Belagerung,Landau,1704,9,9,1704,11,24,77,Kaiserliche,ERR,France,ERR,30000,5000,?,?,5000,0,5000,?,?,3000,2000,5000
+152,140,3,Schlact,Tyrnau (Nagy Szombat),1704,12,26,1704,12,26,1,Kaiserliche,ERR,Hungary Rebel,ERR,7000,20000,?,?,?,?,500,?,?,?,?,2000
+153,142,3,Treffen,Wanghe,1705,7,18,1705,7,18,1,England,Holland,France,ERR,14000,15000,?,?,?,?,200,?,?,?,?,2000
+154,143,1,Schlact,Gemauerthof,1705,7,27,1705,7,27,1,Sweden,ERR,Russia,ERR,7000,20000,?,?,?,?,1000,?,?,?,?,5000
+155,143,2,Schlact,Cassano,1705,8,16,1705,8,16,1,France,Spain,Kaiserliche,ERR,22000,24000,?,?,?,?,3000,?,?,4000,500,4500
+156,144,2,Schlact,Zsibo,1705,11,11,1705,11,11,1,Kaiserliche,ERR,Hungary Rebel,ERR,13000,24000,?,?,?,?,600,?,?,?,?,6000
+157,144,3,Treffen,Sendling (Untersendling),1705,12,25,1705,12,25,1,Kaiserliche,ERR,Bavaria Rebel,ERR,2000,4000,?,?,?,?,50,?,?,?,?,3500
+158,145,1,Schlact,Fraustadt,1706,2,13,1706,2,13,1,Sweden,ERR,Saxony,Poland,12000,18000,?,?,2000,0,2000,?,?,5000,8000,13000
+159,146,1,Treffen,Calcinato,1706,4,19,1706,4,19,1,France,Spain,Kaiserliche,Prussia,41000,19000,?,?,?,?,500,?,?,?,?,3000
+160,146,3,Belagerung,Hagenau,1706,5,1,1706,5,12,12,France,ERR,Kaiserliche,ERR,5000,2000,?,?,200,0,200,?,?,600,1400,2000
+161,147,1,Schlact,Ramillies,1706,5,23,1706,5,23,1,England,Holland,France,Spain,60000,62000,1100,3900,5000,0,5000,1000,1000,2000,6000,8000
+162,148,1,Belagerung,Ostende,1706,6,29,1706,7,6,8,England,Holland,France,Spain,20000,5000,?,?,?,?,500,?,?,300,4700,5000
+163,148,2,Belagerung,Menin,1706,8,9,1706,8,18,10,England,Holland,France,Spain,30000,5500,?,?,3000,0,3000,?,?,1000,4000,5000
+164,149,1,Schlact,Turin,1706,9,7,1706,9,7,1,Kaiserliche,Piedmont,France,Spain,30000,42000,1800,2500,4300,0,4300,2000,1800,3800,3200,7000
+165,149,2,Belagerung,Turin,1706,6,2,1706,9,7,98,Piedmont,Kaiserliche,France,Spain,10500,36000,?,?,3000,2000,5000,?,?,?,?,14000
+166,150,1,Treffen,Castiglione Delle Stiviere,1706,9,9,1706,9,9,1,France,ERR,Kaiserliche,ERR,15000,10000,?,?,?,?,1000,?,?,?,2500,4000
+167,151,1,Treffen,Kalisch,1706,10,29,1706,10,29,1,Russia,Saxony,Sweden,ERR,36000,12000,?,?,?,?,1000,?,?,1400,2600,4000
+168,151,2,Schlact,Almansa,1707,4,25,1707,4,25,1,France,Spain,England,Holland,21000,16000,?,?,2000,0,2000,?,?,5000,7000,12000
+169,152,3,Belagerung,Gaeta,1707,8,30,1707,9,30,32,Kaiserliche,ERR,Spain,ERR,3500,3000,?,?,?,?,750,?,?,750,2250,3000
+170,154,1,Schlact,Oudenarde,1708,7,11,1708,7,11,1,England,Holland,France,Spain,90000,80000,?,?,6000,0,6000,?,?,6000,8000,14000
+171,154,2,Schlact,Golowtschin (Holowczyn),1708,7,12,1708,7,12,1,Sweden,ERR,Russia,ERR,7000,33000,?,?,1600,0,1600,?,?,900,600,1500
+172,155,1,Schlact,Trentschin (Trencsen),1708,8,4,1708,8,4,1,Kaiserliche,ERR,Hungary Rebel,ERR,10000,16000,?,?,500,0,500,?,?,6000,500,6500
+173,155,3,Treffen,Kolesd,1708,9,2,1708,9,2,1,Hungary Rebel,ERR,Kaiserliche,ERR,7000,3500,?,?,?,?,1200,?,?,?,?,3000
+174,155,4,Schlact,Dobroje (Moljatatschi),1708,9,11,1708,9,11,1,Sweden,ERR,Russia,ERR,12000,6000,?,?,?,?,2000,?,?,?,?,3000
+175,156,1,Treffen,Wynendaele,1708,9,28,1708,9,28,1,England,Holland,France,ERR,11000,22000,?,?,1000,0,1000,?,?,2500,500,3000
+176,156,2,Schlact,"Propoisk (Ljesna, Liskowatka)",1708,10,9,1708,10,9,1,Russia,ERR,Sweden,ERR,17000,13000,?,?,4000,0,4000,?,?,5000,1000,6000
+177,157,2,Treffen,Hondschoote,1708,11,14,1708,11,14,1,France,ERR,Prussia,ERR,3000,1200,?,?,?,?,200,?,?,200,1000,1200
+178,157,3,Belagerung,Brussel,1708,11,22,1708,11,27,6,England,Holland,Bavaria,France,7000,15000,?,?,?,?,300,?,?,2000,800,2800
+179,158,1,Belagerung,Lille,1708,8,13,1708,12,9,119,Kaiserliche,England,France,ERR,35000,16000,?,?,14000,0,14000,?,?,7000,9000,16000
+180,158,2,Treffen,Campo Maior (La Gudina),1709,5,7,1709,5,7,1,France,Spain,England,Holland,16000,20000,?,?,400,0,400,?,?,1700,2300,4000
+181,159,1,Schlact,Poltawa,1709,7,9,1709,7,9,1,Russia,ERR,Sweden,ERR,54000,26000,1360,3640,5000,0,5000,4000,5200,9200,2800,12000
+182,159,3,Treffen,Rumersheim,1709,8,26,1709,8,26,1,France,ERR,Kaiserliche,ERR,6000,7000,?,?,?,?,400,?,?,?,?,2600
+183,160,1,Belagerung,Tournay,1709,6,26,1709,9,3,70,England,Holland,France,ERR,40000,7000,?,?,?,?,5400,?,?,3200,3800,7000
+184,160,2,Schlact,Malplaquet,1709,9,11,1709,9,11,1,England,Holland,France,ERR,93000,90000,8000,17000,25000,0,25000,3000,8000,11000,3000,14000
+185,161,3,Schlact,Helsingborg,1710,3,10,1710,3,10,1,Sweden,ERR,Denmark,ERR,14000,11000,?,?,?,?,3000,?,?,?,2000,6000
+186,162,1,Belagerung,Douai,1710,4,23,1710,6,27,66,England,Kaiserliche,France,ERR,60000,8000,?,?,8000,0,8000,?,?,3000,5000,8000
+187,162,2,Treffen,Almenara,1710,7,27,1710,7,27,1,Kaiserliche,England,Spain,France,24000,22000,?,?,400,0,400,?,?,1500,300,1800
+188,162,3,Schlact,Saragossa,1710,8,20,1710,8,20,1,Kaiserliche,England,Spain,France,22000,20000,?,?,1600,0,1600,?,?,5000,5000,10000
+189,163,1,Belagerung,Bethune,1710,7,14,1710,8,28,46,England,Holland,France,ERR,31000,4000,?,?,3000,0,3000,?,?,1800,2200,4000
+190,163,2,Belagerung,Saint-Venant,1710,9,6,1710,9,29,24,England,Holland,France,ERR,9000,3000,?,?,900,0,900,?,?,1000,2000,3000
+191,163,3,Belagerung,Aire,1710,9,12,1710,11,8,58,England,Holland,France,ERR,28000,7000,?,?,7000,0,7000,?,?,3400,3600,7000
+192,164,1,Treffen,Brihuega,1710,12,9,1710,12,9,1,France,Spain,England,Portugal,12000,4000,?,?,1500,0,1500,?,?,600,3400,4000
+193,164,2,Schlact,Villaviciosa,1710,12,10,1710,12,10,1,France,Spain,Kaiserliche,Holland,21000,13600,?,?,4000,0,4000,?,?,3000,2000,5000
+194,165,3,Schlact,Faltschi (am Pruth),1711,7,24,1711,7,24,1,Turkey,ERR,Russia,ERR,260000,40000,?,?,7000,0,7000,?,?,2100,900,3000
+195,166,1,Belagerung,Bouchain,1711,8,7,1711,9,13,38,England,Holland,France,ERR,30000,5000,?,?,3000,0,3000,?,?,1800,3200,5000
+196,166,4,Belagerung,Cardona,1711,11,12,1711,12,22,41,Kaiserliche,ERR,France,Spain,5500,8000,?,?,?,?,800,?,?,?,?,2500
+197,167,1,Belagerung,Le Quesnoy,1712,6,8,1712,7,3,26,Kaiserliche,Holland,France,ERR,18000,5500,?,?,3000,0,3000,?,?,2000,3500,5500
+198,167,2,Treffen,Denain,1712,7,24,1712,7,24,1,France,ERR,Holland,Kaiserliche,30000,18000,900,1200,2100,0,2100,1800,500,2300,4100,6400
+199,168,1,Belagerung,Marchiennes,1712,7,25,1712,7,30,6,France,ERR,Holland,Prussia,22000,7000,?,?,400,0,400,?,?,1000,6000,7000
+200,168,3,Belagerung,Douai,1712,8,14,1712,9,8,26,France,ERR,Holland,Kaiserliche,25000,3200,?,?,500,0,500,?,?,1000,2200,3200
+201,169,1,Belagerung,Le Quesnoy,1712,9,8,1712,10,4,27,France,ERR,Holland,Kaiserliche,28000,2200,?,?,1000,0,1000,?,?,700,1500,2200
+202,169,3,Schlact,Gadebusch,1712,12,30,1712,12,30,1,Sweden,ERR,Denmark,ERR,14000,12000,?,?,1700,0,1700,?,?,4000,2000,6000
+203,170,3,Belagerung,Landau,1713,6,11,1713,8,20,71,France,ERR,Kaiserliche,ERR,40000,7000,?,?,?,?,10000,?,?,2000,5000,7000
+204,171,1,Belagerung,Freiburg,1713,9,22,1713,11,16,56,France,ERR,Kaiserliche,ERR,80000,9300,?,?,?,?,10000,?,?,3600,5700,9300
+205,171,3,Belagerung,Barcelona,1714,7,7,1714,9,12,68,Spain,France,Spanish Rebel,ERR,70000,16000,?,?,20000,0,20000,?,?,6000,10000,16000
+206,172,1,Treffen,Storkyro,1715,3,2,1715,3,2,1,Russia,ERR,Sweden,ERR,18000,5000,?,?,?,?,500,?,?,?,?,2500
+207,172,2,Schlact,Rugen,1715,11,15,1715,11,15,1,Prussia,Saxony,Sweden,ERR,22000,7000,?,?,?,?,1200,?,?,?,?,2000
+208,172,3,Belagerung,Stralsund,1715,9,9,1715,12,22,105,Prussia,Denmark,Sweden,ERR,70000,12000,?,?,10000,0,10000,?,?,6000,6000,12000
+209,172,4,Gefecht,Karlowitz,1716,8,2,1716,8,2,1,Turkey,ERR,Austria,ERR,10000,3000,?,?,?,?,1000,?,?,?,?,700
+210,173,1,Schlact,Peterwardein,1716,8,5,1716,8,5,1,Kaiserliche,ERR,Turkey,ERR,63000,60000,?,?,?,?,4500,?,?,?,?,6000
+211,174,2,Belagerung,Temesvar,1716,9,1,1716,10,14,44,Austria,ERR,Turkey,ERR,45000,18000,?,?,4500,0,4500,?,?,3000,12000,15000
+212,174,4,Einnahme,Mehadia,1717,7,27,1717,7,27,1,Turkey,ERR,Austria,ERR,23000,1000,?,?,?,?,2000,?,?,600,400,1000
+213,175,1,Schlact,Belgrad,1717,8,16,1717,8,16,1,Kaiserliche,ERR,Turkey,ERR,50000,150000,1900,3500,5400,0,5400,10000,5000,15000,5000,20000
+214,175,2,Belagerung,Belgrad,1717,6,29,1717,8,18,51,Kaiserliche,ERR,Turkey,ERR,100000,30000,?,?,?,?,20000,?,?,5000,25000,30000
+215,177,1,Schlact,Milazzo,1718,10,15,1718,10,15,1,Spain,ERR,Kaiserliche,ERR,9300,6000,?,?,1500,200,1700,?,?,1500,300,1800
+216,177,3,Schlact,Francavilla,1719,6,20,1719,6,20,1,Spain,ERR,Kaiserliche,ERR,29000,21000,?,?,2000,0,2000,?,?,800,2300,3100
+217,178,1,Belagerung,Messina,1719,7,20,1719,10,20,93,Kaiserliche,ERR,Spain,ERR,18000,4000,?,?,5200,0,5200,?,?,900,3100,4000
+218,179,4,Treffen,Bitonto,1734,5,25,1734,5,25,1,Spain,ERR,Kaiserliche,ERR,16600,6200,?,?,?,?,800,?,?,?,?,1000
+219,180,3,Schlact,Parma,1734,6,29,1734,6,29,1,France,Sardinia,Kaiserliche,ERR,53000,37000,1200,2800,4000,0,4000,2100,3900,6000,0,6000
+220,181,1,Belagerung,Phillipsburg,1734,5,24,1734,7,27,65,France,ERR,Kaiserliche,ERR,117000,4500,?,?,?,?,10000,?,?,1000,3500,4500
+221,181,2,Treffen,Quistello & San Benedetto,1734,9,15,1734,9,15,1,Austria,ERR,France,Sardinia,20000,40000,?,?,800,100,900,?,?,1100,6000,7100
+222,182,1,Schlact,Guastalla,1734,9,19,1734,9,19,1,France,Sardinia,Austria,ERR,40000,27000,1500,4400,5900,100,6000,1600,4200,5800,200,6000
+223,183,1,Belagerung,Capua,1734,4,9,1734,11,20,226,Spain,ERR,Kaiserliche,ERR,10000,6000,?,?,1500,0,1500,?,?,1000,5000,6000
+224,183,2,Belagerung,Messina,1734,8,24,1735,3,3,192,Spain,ERR,Kaiserliche,ERR,6000,3000,?,?,2500,0,2500,?,?,1400,1600,3000
+225,185,1,Ersturmung ,Oczakow,1737,7,12,1737,7,12,1,Russia,ERR,Turkey,ERR,60000,22000,1000,3000,4000,0,4000,17000,0,17000,5000,22000
+226,186,4,Treffen,Kornia,1738,7,3,1738,7,3,1,Austria,ERR,Turkey,ERR,40000,17000,?,?,1300,0,1300,?,?,?,?,2000
+227,187,3,Treffen,Mehadia,1738,7,13,1738,7,13,1,Austria,ERR,Turkey,ERR,10000,20000,?,?,1000,0,1000,?,?,5000,0,5000
+228,188,1,Schlact,Grocka,1739,7,23,1739,7,23,1,Turkey,ERR,Austria,ERR,80000,40000,?,?,8000,0,8000,2350,2850,5200,400,5600
+229,188,2,Treffen,Stawutschane,1739,8,23,1739,8,23,1,Russia,ERR,Turkey,ERR,60000,100000,?,?,?,?,100,?,?,?,?,2000
+230,189,1,Ersturmung ,Gross Glogau,1741,3,9,1741,3,9,1,Prussia,ERR,Austria,ERR,5000,1200,?,?,50,0,50,?,?,60,1040,1100
+231,189,2,Schlact,Mollwitz,1741,4,10,1741,4,10,1,Prussia,ERR,Austria,ERR,21600,15800,900,3000,3900,700,4600,800,2200,3000,1500,4500
+232,190,2,Schlact,Wilmanstrand,1741,9,3,1741,9,3,1,Russia,ERR,Sweden,ERR,10000,5000,?,?,?,?,3000,?,?,2500,1500,4000
+233,191,2,Gefecht,Scharding,1742,1,17,1742,1,17,1,Austria,ERR,Bavaria,ERR,4000,7000,?,?,100,0,100,?,?,150,500,650
+234,192,2,Schlact,Czaslau (Chotusitz),1742,5,17,1742,5,17,1,Prussia,ERR,Austria,ERR,28000,28000,2000,2200,4200,800,5000,1000,2000,3000,3300,6300
+235,193,1,Gefecht,Zahaj,1742,5,25,1742,5,25,1,France,ERR,Austria,ERR,18000,8500,?,?,550,0,550,?,?,250,0,250
+236,194,2,Schlact,Campo Santo,1743,2,8,1743,2,8,1,Spain,ERR,Austria,Sardinia,13000,11000,?,?,3200,800,4000,?,?,1600,400,2000
+237,194,3,Treffen,Simbach,1743,5,9,1743,5,9,1,Austria,ERR,Bavaria,ERR,32000,9000,?,?,100,0,100,?,?,1000,900,1900
+238,195,1,Treffen,Deggendorf,1743,5,27,1743,5,27,1,Austria,ERR,France,ERR,5400,6000,?,?,100,0,100,?,?,600,150,750
+239,195,2,Schlact,Dettingen,1743,6,27,1743,6,27,1,England,Austria,France,ERR,35000,26000,760,1290,2050,450,2500,1000,1800,2800,1200,4000
+240,197,4,Treffen,Weissenburg,1744,7,5,1744,7,5,1,France,Bavaria,Austria,ERR,40000,10000,?,?,1500,300,1800,?,?,650,450,1100
+241,198,2,Treffen,Castel Delfino (Bellino),1744,7,17,1744,7,19,3,France,Spain,Sardinia,ERR,24000,6000,?,?,3000,0,3000,?,?,1100,400,1500
+242,198,3,Treffen,Velletri,1744,8,11,1744,8,11,1,Spain,Neapolitan,Austria,ERR,24000,16000,?,?,1400,2100,3500,?,?,700,800,1500
+243,199,1,Belagerung,Prag,1744,9,6,1744,9,16,11,Prussia,ERR,Austria,ERR,80000,14900,?,?,150,0,150,?,?,1400,13500,14900
+244,199,2,Schlact,Coni (Madonna dell'Olmo),1744,9,30,1744,9,30,1,France,Spain,Austria,Sardinia,26000,25000,1200,2800,4000,0,4000,1050,2550,3600,900,4500
+245,200,3,Belagerung,Freiburg im Breisgau,1744,9,17,1744,11,30,75,France,ERR,Austria,ERR,70000,7000,?,?,16000,0,16000,?,?,2200,4800,7000
+246,201,1,Treffen,Pfaffenhoffen,1745,4,15,1745,4,15,1,Austria,ERR,France,Bavaria,17000,7000,?,?,?,?,800,?,?,?,?,2400
+247,201,2,Schlact,Fontenoy,1745,5,11,1745,5,11,1,France,ERR,England,Holland,60000,50000,1800,3800,5600,400,6000,2300,6700,9000,3000,12000
+248,202,1,Schlact,Hohenfriedburg (Striegau),1745,6,4,1745,6,4,1,Prussia,ERR,Austria,Saxony,70000,75000,900,3900,4800,0,4800,3300,6300,9600,5600,15200
+249,203,3,Belagerung,Ostende,1745,8,8,1745,8,24,17,France,ERR,England,Holland,50000,4000,?,?,2000,0,2000,?,?,600,3400,4000
+250,204,3,Treffen,Bassignana,1745,9,27,1745,9,27,1,Spain,France,Sardinia,Austria,50000,30000,?,?,?,?,1000,?,?,1000,1500,2500
+251,205,1,Schlact,Soor,1745,9,30,1745,9,30,1,Prussia,ERR,Austria,Saxony,22000,38000,900,2800,3700,300,4000,1150,3350,4500,3000,7500
+252,205,2,Treffen,Prestonpans,1745,10,1,1745,10,1,1,Scotland,ERR,England,ERR,2500,2300,?,?,100,0,100,?,?,400,1000,1400
+253,206,1,Treffen,Katholisch Hennersdorf,1745,11,23,1745,11,23,1,Prussia,ERR,Saxony,ERR,8500,5500,?,?,120,0,120,?,?,500,900,1400
+254,206,2,Schlact,Kesselsdorf,1745,12,15,1745,12,15,1,Prussia,ERR,Saxony,Austria,35000,35000,1800,3300,5100,0,5100,900,2900,3800,6700,10500
+255,207,1,Belagerung,Brussel,1746,2,7,1746,2,20,14,France,ERR,Holland,Austria,60000,12000,?,?,1000,0,1000,?,?,500,11500,12000
+256,207,3,Schlact,Culloden Moor,1746,4,27,1746,4,27,1,England,ERR,Scotland,ERR,10000,6000,?,?,300,0,300,?,?,1000,500,1500
+257,207,4,Treffen,Codogno,1746,5,6,1746,5,6,1,Spain,ERR,Austria,ERR,9000,4000,?,?,?,?,400,?,?,?,?,1600
+258,208,1,Schlact,Piacenza,1746,6,16,1746,6,16,1,Austria,ERR,France,Spain,40000,44000,?,?,3000,500,3500,?,?,7000,3000,10000
+259,208,3,Belagerung,Mons,1746,6,7,1746,7,10,34,France,ERR,Austria,Holland,25000,4100,?,?,800,0,800,?,?,300,3800,4100
+260,209,1,Schlact,Rottofreno (am Tidone),1746,8,10,1746,8,10,1,Austria,Sardinia,France,Spain,30000,25000,500,2000,2500,500,3000,1000,3500,4500,1500,6000
+261,209,3,Belagerung,Namur,1746,9,5,1746,9,30,26,France,ERR,Holland,ERR,20000,9000,?,?,?,?,700,?,?,400,8600,9000
+262,210,1,Schlact,Rocoux (Raucoux),1746,10,11,1746,10,11,1,France,ERR,England,Austria,110000,75000,1200,2800,4000,0,4000,1700,5300,7000,3000,10000
+263,211,1,Schlact,Lawfeldt (Laffelt),1747,7,2,1747,7,2,1,France,ERR,England,Holland,98000,82000,3600,6400,10000,1000,11000,3000,6000,9000,2000,11000
+264,212,1,Schlact,Col de l'Assiette (Fenestrelle),1747,7,19,1747,7,19,1,Sardinia,Austria,France,ERR,7000,14000,?,?,300,0,300,?,?,5700,500,6200
+265,212,3,Belagerung,Bergen-op-Zoom,1747,7,14,1747,9,14,63,France,ERR,Holland,ERR,35000,26000,?,?,6500,0,6500,?,?,5500,20500,26000
+266,213,2,Belagerung,Maestricht,1748,4,15,1748,5,7,23,France,ERR,Holland,Austria,80000,13000,?,?,2000,0,2000,?,?,2000,11000,13000
+267,214,1,Treffen,Fort Duquesne,1755,7,9,1755,7,9,1,France,ERR,England,ERR,1000,2300,?,?,?,0,100,?,?,1500,?,1500
+268,214,3,Belagerung,Port Mahon,1756,5,8,1756,6,28,52,France,ERR,England,ERR,12000,2800,?,?,?,?,2000,?,?,400,2400,2800
+269,215,1,Schlact,Lobositz,1756,10,1,1756,10,1,1,Prussia,ERR,Austria,ERR,30000,33000,720,1880,2600,800,3400,450,1750,2200,800,3000
+270,215,3,Schlact,Reichenberg,1757,4,21,1757,4,21,1,Prussia,ERR,Austria,ERR,15000,14000,?,?,700,0,700,?,?,400,500,900
+271,216,1,Schlact,Alt-Bunzlau,1757,5,2,1757,5,2,1,Prussia,ERR,Austria,ERR,5000,3000,?,?,?,?,1000,?,?,?,?,1500
+272,216,2,Schlact,Prag,1757,5,6,1757,5,6,1,Prussia,ERR,Austria,ERR,64000,61000,3400,9200,12600,1800,14400,2200,7000,9200,4400,13600
+273,217,1,Schlact,Kolin,1757,6,18,1757,6,18,1,Austria,ERR,Prussia,ERR,54000,33000,1000,5400,6400,1600,8000,3000,5600,8600,5400,14000
+274,217,2,Belagerung,Prag,1757,5,7,1757,6,20,45,Austria,ERR,Prussia,ERR,50000,63000,?,?,?,?,1100,?,?,?,?,3000
+275,218,2,Schlact,Hastenbeck,1757,7,26,1757,7,26,1,France,ERR,England,German Mercenary,60000,36000,1050,1300,2350,150,2500,350,900,1250,250,1500
+276,219,1,Schlact,Gross Jagersdorf,1757,8,30,1757,8,30,1,Russia,ERR,Prussia,ERR,55000,25000,1500,4500,6000,0,6000,1750,2350,4100,500,4600
+277,219,2,Treffen,Moys,1757,9,7,1757,9,7,1,Austria,ERR,Prussia,ERR,32000,14000,160,1340,1500,100,1600,400,1100,1500,400,1900
+278,220,2,Schlact,Rostock,1757,11,5,1757,11,5,1,Prussia,ERR,France,Reichstruppen,22000,41000,170,430,600,0,600,1000,2400,3400,5000,8400
+279,221,2,Schlact,Breslau (an der Lohe),1757,11,22,1757,11,22,1,Austria,Reichstruppen,Prussia,ERR,80000,30000,670,4630,5300,500,5800,2000,7000,9000,6000,15000
+280,222,1,Schlact,Leuthen,1757,12,5,1757,12,5,1,Prussia,ERR,Austria,Reichstruppen,35000,65000,1120,5080,6200,0,6200,3000,7000,10000,17000,27000
+281,224,2,Treffen,Holitz,1758,6,17,1758,6,17,1,Austria,ERR,Prussia,ERR,3500,2800,?,?,?,?,100,?,?,750,250,1000
+282,224,3,Schlact,Krefeld,1758,6,23,1758,6,23,1,Kaiserliche,England,France,ERR,31000,47000,400,1400,1800,300,2100,1570,3630,5200,700,5900
+283,225,1,Treffen,Domstadtl,1758,6,30,1758,6,30,1,Austria,ERR,Prussia,ERR,11000,7000,?,?,600,0,600,?,?,900,1500,2400
+284,225,3,Schlact,Ticonderoga (Carillon),1758,7,8,1758,7,8,1,France,ERR,England,ERR,3600,15000,?,?,400,?,400,?,?,2000,?,2000
+285,226,1,Schlact,Sandershausen,1758,7,23,1758,7,23,1,France,ERR,Hesse,Hannover,7500,4500,?,?,2200,0,2200,?,?,800,500,1300
+286,226,2,Belagerung,Louisbourg,1758,6,8,1758,7,26,49,England,ERR,France,ERR,11000,6700,?,?,600,0,600,?,?,1100,5600,6700
+287,226,4,Treffen,Meer,1758,8,5,1758,8,5,1,England,German,France,ERR,3000,6000,?,?,200,0,200,?,?,400,400,800
+288,227,1,Schlact,Zorndorf,1758,8,25,1758,8,25,1,Prussia,ERR,Russia,ERR,33000,52000,3700,7300,11000,2000,13000,7200,10800,18000,3000,21000
+289,227,3,Treffen,Saint Cast,1758,9,11,1758,9,11,1,France,ERR,England,ERR,10000,8000,?,?,300,0,300,?,?,800,2200,3000
+290,228,1,Treffen,Lutternberg,1758,10,10,1758,10,10,1,France,ERR,Hesse,Hannover,30000,18000,?,?,600,0,600,?,?,700,800,1500
+291,228,2,Schlact,Hochkirch,1758,10,14,1758,10,14,1,Austria,ERR,Prussia,ERR,65000,42000,1100,4300,5400,2300,7700,3700,4200,7900,2400,10300
+292,229,2,Schlact,Condore,1758,12,9,1758,12,9,1,England,ERR,France,ERR,2600,6500,?,?,300,0,300,?,?,400,100,500
+293,229,3,Belagerung,Madras,1758,12,13,1759,2,17,67,England,ERR,France,ERR,4000,7300,?,?,1000,400,1400,?,?,600,?,600
+294,230,1,Schlact,Bergen,1759,4,13,1759,4,13,1,France,ERR,German,England,36000,27000,?,?,1800,0,1800,?,?,2500,300,2800
+295,230,3,Schlact,Kay (Zullichau),1759,7,23,1759,7,23,1,Russia,ERR,Prussia,ERR,72000,28000,900,3900,4800,0,4800,2430,4570,7000,2200,9200
+296,231,2,Schlact,Minden,1759,8,1,1759,8,1,1,German,England,France,ERR,38000,52000,650,2050,2700,200,2900,1900,3000,4900,2200,7100
+297,232,1,Schlact,Kunersdorf,1759,8,12,1759,8,12,1,Russia,Austria,Prussia,ERR,70000,48000,3400,12600,16000,300,16300,6100,12600,18700,2000,20700
+298,234,1,Gefecht,Torgau,1759,9,8,1759,9,8,1,Prussia,ERR,Reichstruppen,Austria,5000,10000,?,?,200,0,200,?,?,350,850,1200
+299,234,3,Schlact,Quebec (Plains of Abraham),1759,9,13,1759,9,13,1,England,ERR,France,ERR,8000,4500,?,?,650,0,650,?,?,1500,?,1500
+300,235,2,Gefecht,Meissen (Korbitz),1759,9,21,1759,9,21,1,Austria,Reichstruppen,Prussia,ERR,26000,13500,?,?,900,500,1400,?,?,500,300,800
+301,235,3,Treffen,Hoyerswerda,1759,9,25,1759,9,25,1,Prussia,ERR,Austria,ERR,30000,4000,?,?,?,?,200,?,?,?,?,1800
+302,235,4,Treffen,Sackwitz,1759,10,29,1759,10,29,1,Prussia,ERR,Austria,ERR,12000,9000,?,?,50,0,50,?,?,100,1400,1500
+303,237,1,Treffen,Maxen,1759,11,20,1759,11,21,2,Austria,Reichstruppen,Prussia,ERR,38000,13500,?,?,1000,0,1000,?,?,1300,12200,13500
+304,237,2,Gefecht,Colln,1759,12,3,1759,12,3,1,Austria,ERR,Prussia,ERR,12000,4000,?,?,200,0,200,?,?,300,1700,2000
+305,237,3,Treffen,Wandewash,1760,1,22,1760,1,22,1,England,ERR,France,ERR,5400,2800,?,?,200,0,200,?,?,500,100,600
+306,238,2,Treffen,Sainte Foye (Silleri),1760,4,28,1760,4,28,1,France,ERR,England,ERR,7000,6000,?,?,800,0,800,?,?,1200,0,1200
+307,238,3,Treffen,Landeshut,1760,6,23,1760,6,23,1,Austria,ERR,Prussia,ERR,38700,10800,?,?,3000,0,3000,?,?,6000,3200,9200
+308,239,1,Gefecht,Korbach,1760,7,10,1760,7,10,1,France,ERR,Germany,England,30000,16000,?,?,800,0,800,?,?,650,250,900
+309,239,2,Treffen,Emsdorf,1760,7,16,1760,7,16,1,England,Germany,Saxony,ERR,13000,8000,?,?,200,0,200,?,?,1200,2700,3900
+310,240,1,Treffen,Warburg,1760,7,31,1760,7,31,1,England,Germany,France,ERR,19000,17000,?,?,1300,0,1300,?,?,1500,2200,3700
+311,240,3,Schlact,Liegnitz,1760,8,15,1760,8,15,1,Prussia,ERR,Austria,ERR,30000,30000,800,2500,3300,300,3600,1460,2340,3800,2200,6000
+312,241,1,Treffen,Strelha,1760,8,20,1760,8,20,1,Reichstruppen,Austria,Prussia,ERR,22000,12000,?,?,2000,1200,3200,?,?,1000,100,1100
+313,241,4,Gefecht,Pasewalk,1760,10,3,1760,10,3,1,Sweden,ERR,Prussia,ERR,3000,5000,?,?,300,500,800,?,?,?,?,300
+314,242,3,Treffen,Kloster Camp,1760,10,16,1760,10,16,1,France,ERR,England,Germany,20000,16000,900,1800,2700,400,3100,270,1030,1300,500,1800
+315,243,1,Schlact,Torgau,1760,11,3,1760,11,3,1,Prussia,ERR,Austria,ERR,44000,66000,2600,7400,10000,4000,14000,2000,7000,9000,7000,16000
+316,243,3,Treffen,Langensalza,1761,2,15,1761,2,15,1,Prussia,ERR,Saxony,France,12500,5500,?,?,400,0,400,?,?,600,2000,2600
+317,244,1,Treffen,Grunberg,1761,3,31,1761,3,31,1,France,ERR,England,German,14000,7000,?,?,1000,0,1000,?,?,800,1200,2000
+318,244,2,Schlact,Vellinghausen,1761,7,15,1761,7,16,2,England,Germany,France,ERR,52000,100000,?,?,1300,200,1500,?,?,3000,2000,5000
+319,244,3,Treffen,Gostyn,1761,9,15,1761,9,15,1,Prussia,ERR,Russia,ERR,10000,4000,?,?,300,0,300,?,?,600,1600,2200
+320,245,1,Treffen,Kolberg (Grune Schanze),1761,9,19,1761,9,19,1,Prussia,ERR,Russia,ERR,12000,15000,?,?,400,0,400,?,?,2500,400,2900
+321,245,2,Ersturmung ,Schweidnitz,1761,10,1,1761,10,1,1,Austria,Russia,Prussia,ERR,14000,4000,?,?,1700,0,1700,?,?,400,3600,4000
+322,246,1,Treffen,Dobeln,1762,5,12,1762,5,12,1,Prussia,ERR,Austria,ERR,17000,3000,?,?,?,?,100,?,?,200,1500,1700
+323,246,3,Schlact,Wilhelmsthal (Grebenstein),1762,6,24,1762,6,24,1,England,Germany,France,ERR,57000,25000,?,?,500,300,800,?,?,1500,3000,4500
+324,246,4,Treffen,Adelsbach,1762,7,6,1762,7,6,1,Austria,ERR,Prussia,ERR,7000,5000,?,?,?,?,300,?,?,?,?,1400
+325,247,1,Treffen,Burkersdorf,1762,7,21,1762,7,21,1,Prussia,ERR,Austria,ERR,23000,20000,?,?,1600,0,1600,?,?,1750,1250,3000
+326,247,2,Treffen,Lutternberg,1762,7,23,1762,7,23,1,England,Germany,Saxony,France,16000,13000,?,?,450,150,600,?,?,800,1600,2400
+327,247,3,Gefecht,Teplitz,1762,8,2,1762,8,2,1,Austria,ERR,Prussia,ERR,8000,10000,?,?,1500,0,1500,?,?,?,?,600
+328,247,4,Treffen,Reichenbach,1762,8,16,1762,8,16,1,Prussia,ERR,Austria,ERR,16000,32000,?,?,1100,300,1400,?,?,1200,700,1900
+329,248,1,Treffen,Friedberg,1762,8,30,1762,8,30,1,France,ERR,England,Germany,24000,16000,?,?,700,300,1000,?,?,500,1900,2400
+330,248,2,Treffen,Amoneburg (Brucker Muhle),1762,9,21,1762,9,21,1,France,ERR,England,Germany,12000,10000,?,?,1100,0,1100,?,?,700,600,1300
+331,248,3,Belagerung,Schweidnitz,1762,8,7,1762,10,9,64,Prussia,ERR,Austria,ERR,67000,12500,?,?,3000,0,3000,?,?,3500,9000,12500
+332,249,1,Treffen,Erbisdorf,1762,10,15,1762,10,15,1,Austria,Reichstruppen,Prussia,ERR,50000,30000,?,?,?,400,1400,?,?,?,?,1600
+333,249,2,Schlact,Freiberg,1762,10,29,1762,10,29,1,Prussia,ERR,Austria,Reichstruppen,27000,31000,?,?,1600,0,1600,?,?,3000,4400,7400
+334,249,3,Belagerung,Kassel,1762,10,16,1762,11,1,17,Germany,ERR,France,ERR,17000,6000,?,?,750,350,1100,?,?,700,5300,6000
+335,250,1,Schlact,"Choczim (Iwanez, Ribaja Mogila)",1769,8,29,1769,8,29,1,Russia,ERR,Turkey,Tatar,30000,80000,?,?,600,0,600,?,?,3000,?,3000
+336,250,4,Treffen,Giurgevo,1770,5,6,1770,5,6,1,Russia,ERR,Turkey,ERR,10000,16000,?,?,400,0,400,?,?,3000,400,3400
+337,251,3,Schlact,Kagul,1770,7,21,1770,7,21,1,Russia,ERR,Turkey,Tatar,40000,150000,?,?,?,?,1000,?,?,?,?,20000
+338,252,1,Belagerung,Bender,1770,8,7,1770,9,16,41,Russia,ERR,Turkey,ERR,12000,12000,?,?,?,?,2500,?,?,6000,6000,12000
+339,252,2,Belagerung,Giurgevo,1771,5,1,1771,7,3,64,Russia,ERR,Turkey,ERR,10000,10000,?,?,1000,0,1000,?,?,4000,6000,10000
+340,252,3,Treffen,Perekop,1771,6,15,1771,6,15,1,Russia,ERR,Turkey,Tatar,32000,57000,?,?,2000,0,2000,?,?,4000,8000,12000
+341,253,2,Treffen,Popesci,1771,10,20,1771,10,20,1,Russia,ERR,Turkey,ERR,15000,40000,?,?,?,?,500,?,?,?,?,2000
+342,253,4,Treffen,Hirsova,1773,9,14,1773,9,14,1,Russia,ERR,Turkey,ERR,6000,10000,?,?,?,?,800,?,?,2000,200,2200
+343,254,1,Treffen,Bunker Hill,1775,6,17,1775,6,17,1,England,ERR,USA,ERR,2000,1200,?,?,1150,0,1150,?,?,?,?,450
+344,254,2,Schlact,Long Island (Brooklyn),1776,8,27,1776,8,27,1,England,ERR,USA,ERR,25000,11000,?,?,?,?,320,?,?,?,?,2000
+345,254,3,Ersturmung ,Fort Washington,1776,11,16,1776,11,16,1,England,ERR,USA,ERR,6000,2000,?,?,430,0,430,?,?,200,1800,2000
+346,254,4,Treffen,Trenton,1776,12,26,1776,12,26,1,USA,ERR,England,ERR,2400,1500,?,?,?,?,10,?,?,?,?,1300
+347,255,1,Schlact,Brandywine Creek,1777,9,11,1777,9,11,1,England,ERR,USA,ERR,18000,8000,?,?,600,0,600,?,?,900,400,1300
+348,255,2,Treffen,Stillwater,1777,9,19,1777,9,19,1,USA,ERR,England,ERR,5000,6000,?,?,600,0,600,?,?,600,0,600
+349,255,3,Treffen,Germantown,1777,10,4,1777,10,4,1,England,ERR,USA,ERR,15000,10000,?,?,?,?,500,?,?,?,?,1200
+350,256,2,Gefecht,Zuckmantel,1779,1,14,1779,1,14,1,Austria,ERR,Prussia,ERR,3200,10000,?,?,?,?,20,?,?,?,?,800
+351,256,3,Treffen,Habelschwerdt,1779,1,18,1779,1,18,1,Austria,ERR,Prussia,ERR,11000,3000,?,?,300,0,300,?,?,400,1100,1500
+352,258,2,Belagerung,Charleston,1780,4,1,1780,5,11,41,England,ERR,USA,ERR,10000,7000,?,?,?,?,300,?,?,1000,6000,7000
+353,258,3,Schlact,Camden,1780,8,16,1780,8,16,1,England,ERR,USA,ERR,2000,4000,?,?,?,?,300,?,?,900,1000,1900
+354,258,4,Treffen,Guilford Court House,1781,3,16,1781,3,16,1,England,ERR,USA,ERR,2400,5000,?,?,?,?,600,?,?,?,?,700
+355,262,2,Belagerung,Gibraltar,1779,8,9,1782,10,21,1170,England,ERR,France,Spain,7000,31000,?,?,?,?,1300,?,?,?,?,6000
+356,262,3,Treffen,Cuddalore,1783,6,13,1783,6,13,1,England,ERR,France,ERR,20000,10000,?,?,?,?,1100,?,?,?,?,700
+357,263,1,Ersturmung ,Kinburn,1787,10,1,1787,10,1,1,Russia,ERR,Turkey,ERR,12000,5000,?,?,?,?,1000,?,?,3000,2000,5000
+358,263,2,Treffen,Dubica,1788,4,25,1788,4,25,1,Turkey,ERR,Austria,ERR,8000,8000,?,?,?,?,1600,?,?,?,?,550
+359,264,1,Ersturmung ,Oczakow,1788,12,17,1788,12,17,1,Russia,ERR,Turkey,ERR,90000,14000,?,?,?,?,4800,10000,?,10000,4000,14000
+360,264,3,Schlact,Foksani,1789,8,1,1789,8,1,1,Austria,Russia,Turkey,ERR,23000,30000,?,?,300,0,300,?,?,1000,100,1100
+361,265,1,Schlact,Martinestie,1789,9,22,1789,9,22,1,Austria,Russia,Turkey,ERR,27000,50000,?,?,?,?,600,?,?,5000,100,5100
+362,266,2,Treffen,Calafatu,1790,6,27,1790,6,27,1,Austria,ERR,Turkey,ERR,7000,7000,?,?,?,?,100,?,?,?,?,2000
+363,267,3,Ersturmung ,Ismail,1790,12,22,1790,12,22,1,Russia,ERR,Turkey,ERR,32000,40000,4000,6000,10000,0,10000,26000,5000,31000,9000,40000
+364,268,1,Treffen,Babadagh,1791,6,14,1791,6,14,1,Russia,ERR,Turkey,ERR,18000,15000,?,?,500,0,500,?,?,?,?,1500
+365,268,2,Ersturmung ,Anapa,1791,7,3,1791,7,3,1,Russia,ERR,Turkey,ERR,18000,15000,?,?,4000,0,4000,?,?,8000,7000,15000
+366,268,3,Schlact,Matschin,1791,7,10,1791,7,10,1,Russia,ERR,Turkey,ERR,36000,64000,?,?,1000,0,1000,?,?,3000,1000,4000
+367,268,4,Treffen,Dubienka,1792,7,17,1792,7,17,1,Poland,ERR,Russia,ERR,6000,10000,?,?,1000,0,1000,?,?,1000,0,1000
+368,269,3,Treffen,Valmy,1792,9,20,1792,9,20,1,France,ERR,Prussia,ERR,52000,35000,?,?,?,?,300,?,?,?,?,200
+369,270,3,Schlact,Jemappes,1792,11,6,1792,11,6,1,France,ERR,Austria,ERR,45000,13200,?,?,?,?,2000,?,?,1000,500,1500
+370,271,2,Gefecht,Frankfurt am Main,1792,12,2,1792,12,2,1,Prussia,Hesse,France,ERR,13000,1500,?,?,200,0,200,?,?,180,1320,1500
+371,271,4,Gefecht,Levens,1793,2,28,1793,2,28,1,France,ERR,Sardinia,ERR,12000,7000,?,?,?,?,800,?,?,?,?,800
+372,272,1,Treffen,Aldenhoven,1793,3,1,1793,3,1,1,Austria,ERR,France,ERR,36000,9000,?,?,50,0,50,?,?,2000,800,2800
+373,272,3,Treffen,Gutzenhoven,1793,3,16,1793,3,16,1,France,ERR,Austria,ERR,10000,6000,?,?,?,?,500,?,?,?,?,800
+374,272,4,Schlact,Neerwinden,1793,3,18,1793,3,18,1,Austria,ERR,France,ERR,43000,41000,?,?,2600,400,3000,?,?,3000,1000,4000
+375,273,1,Treffen,Lowen (Pellenberg),1793,3,23,1793,3,23,1,Austria,ERR,France,ERR,38000,22000,?,?,?,?,900,?,?,?,?,2000
+376,273,2,Gefecht,Alsheim,1793,3,30,1793,3,30,1,Prussia,ERR,France,ERR,10000,1200,?,?,?,?,100,?,?,?,900,1200
+377,273,3,Treffen,Raismes,1793,5,8,1793,5,8,1,Austria,England,France,ERR,60000,30000,?,?,600,0,600,?,?,?,?,1500
+378,273,4,Schlact,Famars,1793,5,23,1793,5,23,1,Austria,England,France,ERR,53000,27000,?,?,?,?,1000,?,?,3000,300,3300
+379,274,1,Schlact,Fontenay-le-Comte,1793,5,25,1793,5,25,1,France Royalists,ERR,France Rebel,ERR,35000,14000,?,?,?,?,1000,?,?,?,?,4000
+380,274,2,Treffen,Saorgio (l'Antion),1793,6,8,1793,6,8,1,France,ERR,Austria,Sardinia,20000,15000,?,?,?,?,1200,?,?,?,?,700
+381,274,3,Treffen,Arlon,1793,6,9,1793,6,9,1,France,ERR,Austria,ERR,10500,6000,?,?,?,?,900,?,?,?,?,600
+382,274,5,Treffen,Saorgio (Cima di Raus),1793,6,12,1793,6,12,1,Austria,Sardinia,France,ERR,8000,16000,?,?,?,?,600,?,?,?,?,2000
+383,275,2,Schlact,Nantes,1793,6,29,1793,6,29,1,France Rebel,ERR,France Royalists,ERR,12000,38000,?,?,?,?,2000,?,?,?,?,5000
+384,275,3,Treffen,Chatillon sur Sevre,1793,7,5,1793,7,5,1,France Royalists,ERR,France Rebel,ERR,20000,20000,?,?,?,?,2000,?,?,?,?,5000
+385,276,1,Gefecht,Niel,1793,7,17,1793,7,17,1,France,ERR,Spain,ERR,12000,15000,?,?,?,?,800,?,?,?,?,200
+386,276,2,Treffen,Vihiers,1793,7,18,1793,7,18,1,France Royalists,ERR,France Rebel,ERR,12000,14000,?,?,?,?,1000,?,?,2000,3000,5000
+387,276,3,Belagerung,Mainz,1793,4,10,1793,7,23,105,Prussia,Austria,France,ERR,43000,22000,?,?,3000,0,3000,?,?,4000,18000,22000
+388,277,1,Belagerung,Valenciennes,1793,5,25,1793,7,27,64,Allies,ERR,France,ERR,24000,8000,?,?,1300,0,1300,?,?,1000,7000,8000
+389,277,2,Schlact,Lucon,1793,8,14,1793,8,14,1,France Rebel,ERR,France Royalists,ERR,10000,35000,?,?,?,?,500,?,?,?,?,5000
+390,277,3,Treffen,Linselles,1793,8,18,1793,8,18,1,England,Holland,France,ERR,9000,11000,?,?,?,?,1100,?,?,?,?,2000
+391,277,4,Treffen,Chantonnay,1793,9,5,1793,9,5,1,France Royalists,ERR,France Rebel,ERR,20000,8000,?,?,?,?,500,?,?,?,?,4000
+392,278,1,Schlact,Hondschoote,1793,9,8,1793,9,8,1,France,ERR,England,Holland,24000,16000,?,?,3000,0,3000,?,?,1600,1400,3000
+393,278,2,Belagerung,Dunkirchen,1793,8,24,1793,9,8,16,France,ERR,England,Hannover,10000,37000,?,?,?,?,1000,?,?,?,?,2000
+394,278,3,Gefecht,Avesnes-le-Sec,1793,9,12,1793,9,12,1,Austria,ERR,France,ERR,2500,8000,?,?,100,0,100,?,?,2000,2000,4000
+395,279,2,Treffen,Werwick,1793,9,13,1793,9,13,1,France,ERR,Holland,ERR,30000,13000,?,?,?,?,1500,?,?,?,?,3100
+396,279,3,Treffen,Pirmasens,1793,9,14,1793,9,14,1,Prussia,ERR,France,ERR,8000,34000,?,?,200,0,200,?,?,1200,1900,3100
+397,280,1,Treffen,Espierre,1793,9,15,1793,9,15,1,France,ERR,Sardinia,ERR,8000,6000,?,?,?,?,500,?,?,?,?,1000
+398,280,2,Treffen,Peyrestortes,1793,9,17,1793,9,17,1,France,ERR,Spain,ERR,8000,6000,?,?,?,?,200,?,?,?,?,1200
+399,280,3,Treffen,Coron,1793,9,18,1793,9,18,1,France Royalists,ERR,France Rebel,ERR,7000,18000,?,?,?,?,400,?,?,?,?,3000
+400,280,4,Treffen,Saint-Fulgent,1793,9,22,1793,9,22,1,France Royalists,ERR,France Rebel,ERR,11000,6000,?,?,?,?,300,?,?,?,?,3000
+401,280,5,Schlact,Truillas (Mas d'Eu),1793,9,22,1793,9,22,1,Spain,ERR,France,ERR,17000,22000,?,?,?,?,2000,?,?,4000,1500,5500
+402,281,1,Gefecht,Boulou,1793,10,3,1793,10,3,1,Spain,ERR,France,ERR,15000,16000,?,?,?,?,300,?,?,?,?,1200
+403,281,3,Treffen,Weissenburg,1793,10,13,1793,10,13,1,Austria,ERR,France,ERR,43000,50000,?,?,1800,0,1800,?,?,2000,1000,3000
+404,281,4,Schlact,Wattignies,1793,10,15,1793,10,16,2,France,ERR,Allies,ERR,45000,30000,?,?,?,?,5000,?,?,2500,500,3000
+405,282,2,Schlact,Cholet,1793,10,17,1793,10,17,1,France Rebel,ERR,France Royalists,ERR,25000,40000,?,?,?,?,4000,?,?,?,?,8000
+406,282,3,Schlact,Entrames,1793,10,27,1793,10,27,1,France Royalists,ERR,France Rebel,ERR,31000,25000,?,?,?,?,2100,?,?,?,?,4000
+407,282,4,Treffen,Marchiennes,1793,10,30,1793,10,30,1,Austria,ERR,France,ERR,8000,4000,?,?,200,0,200,?,?,1200,1800,3000
+408,283,2,Treffen,Granville,1793,11,14,1793,11,15,2,France Rebel,ERR,France Royalists,ERR,5000,25000,?,?,?,?,200,?,?,?,?,1500
+409,283,3,Schlact,Antrain,1793,11,20,1793,11,21,2,France Royalists,ERR,France Rebel,ERR,20000,25000,?,?,?,?,2000,?,?,?,?,8000
+410,283,4,Schlact,Kaiserslautern,1793,11,28,1793,11,30,3,Prussia,ERR,France,ERR,26000,32000,?,?,800,100,900,?,?,2400,700,3100
+411,284,1,Treffen,Villelongue,1793,12,7,1793,12,7,1,Spain,ERR,France,ERR,8000,10000,?,?,?,?,100,?,?,?,?,2500
+412,284,2,Schlact,Le Mans,1793,12,13,1793,12,13,1,France Rebel,ERR,France Royalists,ERR,25000,25000,?,?,?,?,2000,?,?,?,?,15000
+413,284,3,Belagerung,Toulon,1793,9,18,1793,12,18,92,France,ERR,England,Spain,32000,18000,?,?,?,?,2000,?,?,?,?,4000
+414,285,1,Treffen,Collioure,1793,12,20,1793,12,20,1,Spain,ERR,France,ERR,8000,5000,?,?,?,?,300,?,?,?,?,4000
+415,285,2,Treffen,Worth,1793,12,22,1793,12,22,1,France,ERR,Austria,ERR,25000,15000,?,?,?,?,1000,?,?,?,500,2000
+416,285,3,Treffen,Savenay,1793,12,23,1793,12,23,1,France Rebel,ERR,France Royalists,ERR,20000,7000,?,?,?,?,500,?,?,?,?,6000
+417,285,4,Treffen,Weissenburg,1793,12,26,1793,12,26,1,France,ERR,Austria,Prussia,35000,30000,?,?,?,?,500,?,?,?,?,1500
+418,285,5,Schlact,Cateau Cambresis,1794,3,29,1794,3,29,1,Austria,ERR,France,ERR,7000,15000,?,?,?,?,300,?,?,?,?,1200
+419,286,1,Treffen,Raclawice,1794,4,4,1794,4,4,1,Poland,ERR,Russia,ERR,6000,5000,?,?,?,?,1000,?,?,?,?,2000
+420,286,2,Treffen,Catillon,1794,4,17,1794,4,17,1,Allies,ERR,France,ERR,60000,60000,?,?,?,?,1000,?,?,?,?,2500
+421,286,3,Treffen,Landrecies,1794,4,19,1794,4,19,1,Holland,Austria,France,ERR,10000,7000,?,?,?,?,1000,?,?,?,?,2000
+422,286,5,Treffen,Saorgio,1794,4,24,1794,4,24,1,France,ERR,Austria,Sardinia,20000,8000,?,?,?,?,1500,?,?,?,?,3000
+423,287,1,Gefecht,Villers-en-Cauchie,1794,4,24,1794,4,24,1,Allies,ERR,France,ERR,2000,7000,?,?,?,?,100,?,?,?,?,1300
+424,287,2,Schlact,Cateau Cambresis (Troisvilles),1794,4,26,1794,4,26,1,Allies,ERR,France,ERR,90000,90000,?,?,?,?,1500,?,?,?,?,7000
+425,287,3,Treffen,Mouscron (Moescroen),1794,4,28,1794,4,29,2,France,ERR,Austria,Hannover,28000,13000,?,?,?,?,1500,?,?,?,?,2000
+426,287,4,Belagerung,Menin,1794,4,27,1794,4,30,4,France,ERR,Hannover,ERR,14000,2000,?,?,?,?,500,?,?,500,300,800
+427,288,2,Schlact,Boulou,1794,5,1,1794,5,1,1,France,ERR,Spain,ERR,20000,20000,?,?,?,?,1000,?,?,2000,1500,3500
+428,288,3,Treffen,Baisieux,1794,5,10,1794,5,10,1,England,Austria,France,ERR,12000,10000,?,?,?,?,500,?,?,3000,500,3500
+429,288,4,Treffen,Courtray,1794,5,11,1794,5,11,1,France,ERR,Austria,England,25000,10000,?,?,?,?,1000,?,?,?,?,1500
+430,289,1,Treffen,Merbes-le-Chateau,1794,5,12,1794,5,12,1,France,ERR,Allies,ERR,30000,10000,?,?,?,?,?,?,1500,1500,ERR,ERR
+431,289,2,Treffen,Grandreng (Rouvroi),1794,5,13,1794,5,13,1,Allies,ERR,France,ERR,22500,44000,?,?,?,?,2800,?,?,?,?,4000
+432,289,3,Schlact,Tourcoing,1794,5,18,1794,5,18,1,France,ERR,Allies,ERR,70000,74000,?,?,?,?,3000,?,?,4000,1500,5500
+433,289,4,Gefecht,Cursoy,1794,5,19,1794,5,19,1,Austria,ERR,France,ERR,9000,6000,?,?,?,?,50,?,?,600,600,1200
+434,290,1,Schlact,Tournay (Pont a Chin),1794,5,22,1794,5,22,1,Allies,ERR,France,ERR,50000,45000,?,?,?,?,3000,?,?,?,500,6000
+435,290,2,Gefecht,Schifferstadt,1794,5,23,1794,5,23,1,France,ERR,Austria,Prussia,20000,30000,?,?,?,?,500,?,?,?,?,900
+436,290,3,Treffen,Kaiserslautern,1794,5,23,1794,5,23,1,Prussia,Austria,France,ERR,50000,5000,?,?,900,0,900,?,?,1000,2100,3100
+437,290,4,Treffen,Erquelinnes (Pechant),1794,5,24,1794,5,24,1,Austria,Holland,France,ERR,28000,60000,?,?,400,250,650,?,?,3000,2400,5400
+438,291,3,Schlact,Charleroi (Gosselies),1794,6,3,1794,6,3,1,Austria,Holland,France,ERR,28000,42000,?,?,?,?,1000,?,?,?,?,2000
+439,292,1,Schlact,Rawka (Szczekocyny),1794,6,6,1794,6,6,1,Prussia,Russia,Poland,ERR,26000,26000,?,?,?,?,1500,?,?,?,?,3000
+440,292,2,Treffen,Roulers (Rousselaere),1794,6,10,1794,6,10,1,France,ERR,Allies,ERR,20000,20000,?,?,?,?,1000,?,?,600,400,1000
+441,292,3,Treffen,Hooglede,1794,6,13,1794,6,13,1,France,ERR,Allies,ERR,24000,19000,?,?,?,?,1300,?,?,?,?,900
+442,293,1,Schlact,Lambusart (Fleurus),1794,6,16,1794,6,16,1,Austria,Holland,France,ERR,41000,73000,?,?,?,?,3000,?,?,?,?,2000
+443,293,4,Schlact,Fleurus,1794,6,26,1794,6,26,1,France,ERR,Austria,Holland,81000,46000,?,?,?,?,5000,?,?,?,?,5000
+444,294,1,Treffen,Schanzel,1794,7,13,1794,7,13,1,France,ERR,Prussia,ERR,9000,6000,?,?,?,?,1000,?,?,?,?,1500
+445,294,3,Treffen,San-Marcial,1794,8,1,1794,8,1,1,France,ERR,Spain,ERR,12000,12000,?,?,?,?,600,?,?,?,?,1300
+446,295,2,Treffen,San-Lorenzo-de-Muga,1794,8,13,1794,8,13,1,France,ERR,Spain,ERR,10000,20000,?,?,?,?,800,?,?,?,?,1400
+447,296,4,Treffen,Boxtel,1794,9,14,1794,9,14,1,France,ERR,England,ERR,47000,7000,?,?,?,?,500,?,?,?,?,2000
+448,297,2,Treffen,Sprimont,1794,9,18,1794,9,18,1,France,ERR,Austria,ERR,35000,18000,?,?,1000,0,1000,?,?,1500,1000,2500
+449,297,3,Schlact,Brzesc-Litowski,1794,9,19,1794,9,19,1,Russia,ERR,Poland,ERR,8000,12000,?,?,?,?,1000,?,?,?,?,4000
+450,297,4,Treffen,Kaiserslautern,1794,9,20,1794,9,20,1,Prussia,Austria,France,ERR,30000,16000,?,?,400,0,400,?,?,1000,3100,4100
+451,298,1,Treffen,Dego,1794,9,21,1794,9,21,1,France,ERR,Austria,Sardinia,18000,11000,?,?,?,?,1000,?,?,?,?,800
+452,298,2,Schlact,Aldenhoven (an der Roer),1794,10,2,1794,10,2,1,France,ERR,Austria,ERR,88000,77000,?,?,1500,0,1500,?,?,3000,800,3800
+453,298,4,Schlact,Maciejowice,1794,10,10,1794,10,10,1,Russia,ERR,Poland,ERR,12000,10000,?,?,?,?,1000,?,?,?,?,6000
+454,299,1,Treffen,Orbaiceta,1794,10,15,1794,10,17,3,France,ERR,Spain,ERR,60000,13000,?,?,?,?,1000,?,?,?,?,4000
+455,300,1,Ersturmung ,Praga (Warschau),1794,11,4,1794,11,4,1,Russia,ERR,Poland,ERR,22000,28000,?,?,4000,0,4000,?,?,8000,?,8000
+456,301,1,Schlact,Campmany (Montagne Noire),1794,11,17,1794,11,20,4,France,ERR,Spain,ERR,35000,50000,?,?,?,?,3000,?,?,?,?,10000
+457,303,1,Treffen,Bascara,1795,6,14,1795,6,14,1,Spain,ERR,France,ERR,35000,25000,?,?,?,?,600,?,?,?,?,2500
+458,303,3,Schlact,"Quiberon (Sainte Barbe, Penthievre)",1795,7,16,1795,7,20,5,France,ERR,England,France Royalists,13000,17000,?,?,500,0,500,?,?,1700,6300,8000
+459,304,5,Treffen,Handschuhsheim,1795,9,24,1795,9,24,1,Austria,ERR,France,ERR,6000,12000,?,?,200,0,200,?,?,1000,500,1500
+460,305,1,Treffen,Hochst,1795,10,11,1795,10,12,2,Austria,ERR,France,ERR,42000,60000,?,?,?,?,300,?,?,?,1000,1700
+461,305,2,Treffen,Mannheim,1795,10,18,1795,10,18,1,Austria,ERR,France,ERR,27000,12000,?,?,?,?,650,?,?,1500,500,2000
+462,305,3,Schlact,Mainz,1795,10,29,1795,10,29,1,Austria,ERR,France,ERR,36000,33000,?,?,1400,200,1600,?,?,3000,1800,4800
+463,306,1,Treffen,Pfeddersheim,1795,11,10,1795,11,10,1,Austria,ERR,France,ERR,43000,37000,?,?,?,?,600,?,?,?,300,1400
+464,306,3,Schlact,Loano,1795,11,23,1795,11,24,2,France,ERR,Austria,Sardinia,25000,18000,?,?,2500,500,3000,?,?,3000,4000,7000
+465,306,4,Treffen,Montenotte,1796,4,11,1796,4,12,2,France,ERR,Austria,ERR,14000,4000,?,?,?,?,800,?,?,?,?,2500
+466,307,1,Treffen,Millesimo,1796,4,13,1796,4,14,2,France,ERR,Austria,Sardinia,9000,4000,?,?,?,?,700,?,?,?,?,2500
+467,307,2,Treffen,Dego,1796,4,14,1796,4,15,2,France,ERR,Austria,ERR,15000,8000,?,?,?,?,1500,?,?,?,?,3500
+468,307,3,Treffen,Mondovi,1796,4,22,1796,4,22,1,France,ERR,Sardinia,ERR,24000,12000,?,?,?,?,600,?,?,?,?,1600
+469,307,4,Treffen,Lodi,1796,5,10,1796,5,10,1,France,ERR,Austria,ERR,17500,9500,?,?,900,0,900,?,?,400,1700,2100
+470,308,1,Treffen,Borghetto,1796,5,30,1796,5,30,1,France,ERR,Austria,ERR,27000,10300,?,?,?,?,500,?,?,300,300,600
+471,308,2,Treffen,Altenkirchen,1796,6,4,1796,6,4,1,France,ERR,Austria,ERR,24000,14000,?,?,?,?,500,?,?,1000,1500,2500
+472,308,3,Treffen,Maudach,1796,6,15,1796,6,15,1,France,ERR,Austria,ERR,50000,11000,?,?,?,?,2000,?,?,?,?,400
+473,308,4,Treffen,Wetzlar,1796,6,15,1796,6,15,1,Austria,ERR,France,ERR,36000,11000,?,?,?,?,400,?,?,?,?,500
+474,309,1,Treffen,Uckerath (Kircheip),1796,6,19,1796,6,19,1,Austria,ERR,France,ERR,30000,24000,?,?,?,?,600,?,?,?,700,30000
+475,309,2,Treffen,Kehl,1796,6,24,1796,6,24,1,France,ERR,Reichstruppen,ERR,14000,8000,?,?,?,?,200,?,?,?,?,800
+476,309,3,Treffen,Renchen,1796,6,28,1796,6,28,1,France,ERR,Reichstruppen,ERR,25000,9000,?,?,?,?,600,?,?,550,850,1400
+477,310,1,Schlact,Malsch (Ettlingen),1796,7,9,1796,7,9,1,France,ERR,Austria,ERR,36000,45000,?,?,2000,400,2400,?,?,1300,1300,2600
+478,310,2,Treffen,Friedberg,1796,7,10,1796,7,10,1,France,ERR,Austria,ERR,30000,35000,?,?,?,?,700,?,?,?,?,1000
+479,310,3,Treffen,Rivoli (am Monte Baldo),1796,7,29,1796,7,29,1,Austria,ERR,France,ERR,22000,10000,?,?,?,?,800,?,?,1200,1600,2800
+480,311,1,Schlact,Lonato,1796,8,2,1796,8,3,2,France,ERR,Austria,ERR,20000,15000,?,?,?,?,2000,?,?,?,?,3000
+481,311,3,Schlact,Castiglione delle Stiviere,1796,8,5,1796,8,5,1,France,ERR,Austria,ERR,35000,25000,?,?,?,?,1100,?,?,2000,1000,3000
+482,311,4,Schlact,Neresheim,1796,8,11,1796,8,11,1,France,ERR,Austria,ERR,50000,48000,?,?,1200,1200,2400,?,?,1100,500,1600
+483,312,1,Treffen,Sulzbach,1796,8,17,1796,8,17,1,France,ERR,Austria,ERR,25000,12000,?,?,1000,700,1700,?,?,900,200,1100
+484,312,2,Treffen,Friedberg,1796,8,24,1796,8,24,1,France,ERR,Austria,ERR,40000,24000,?,?,?,?,400,?,?,600,1200,1800
+485,312,3,Treffen,Amberg,1796,8,24,1796,8,24,1,Austria,ERR,France,ERR,46000,34000,?,?,?,?,400,?,?,1200,800,2000
+486,312,4,Schlact,Wurzburg,1796,9,3,1796,9,3,1,Austria,ERR,France,ERR,44000,30000,?,?,1200,300,1500,?,?,2000,1000,3000
+487,313,1,Treffen,Reverto,1796,9,4,1796,9,4,1,France,ERR,Austria,ERR,20000,10000,?,?,?,?,750,?,?,?,?,3000
+488,313,3,Schlact,Bassano,1796,9,8,1796,9,8,1,France,ERR,Austria,ERR,20000,16000,?,?,?,?,400,?,?,600,2000,2600
+489,314,2,Treffen,San Giorgio,1796,9,15,1796,9,15,1,France,ERR,Austria,ERR,20000,14000,?,?,?,?,1500,?,?,?,?,2500
+490,314,3,Treffen,Kehl,1796,9,18,1796,9,18,1,France,ERR,Austria,ERR,7000,5000,?,?,1200,800,2000,?,?,?,?,2000
+491,314,4,Schlact,Biberach,1796,10,2,1796,10,2,1,France,ERR,Austria,ERR,35000,23000,?,?,500,0,500,?,?,300,4000,4300
+492,315,1,Schlact,Emmendiengen,1796,10,19,1796,10,19,1,Austria,ERR,France,ERR,28000,32000,?,?,?,?,1000,?,?,?,1800,2800
+493,315,2,Schlact,Schliengen,1796,10,24,1796,10,24,1,Austria,ERR,France,ERR,36000,34000,?,?,?,?,800,?,?,?,?,1200
+494,315,3,Treffen,Bassano,1796,11,6,1796,11,6,1,Austria,ERR,France,ERR,28000,21000,?,?,?,?,5600,?,?,?,?,3000
+495,315,4,Gefecht,Cembra & Calliano,1796,11,2,1796,11,7,6,Austria,ERR,France,ERR,19500,10500,?,?,2100,1500,3600,?,?,?,?,4400
+496,316,1,Schlact,Caldiero,1796,11,12,1796,11,12,1,Austria,ERR,France,ERR,26000,24000,?,?,950,350,1300,?,?,1000,800,1800
+497,316,2,Schlact,Arcole,1796,11,15,1796,11,17,3,France,ERR,Austria,ERR,20000,24000,1200,2300,3500,1300,4800,600,1600,2200,4000,6200
+498,316,3,Treffen,Rivoli,1796,11,17,1796,11,17,1,Austria,ERR,France,ERR,15000,6000,?,?,300,300,600,?,?,1100,1300,2400
+499,317,1,Treffen,Rivoli,1796,11,22,1796,11,22,1,France,ERR,Austria,ERR,15000,14000,?,?,300,0,300,?,?,400,1600,2000
+500,317,2,Treffen,Sundheim,1796,11,22,1796,11,22,1,Austria,ERR,France,ERR,20000,23000,?,?,1500,500,2000,?,?,3000,?,3000
+501,317,3,Belagerung,Kehl,1796,11,10,1797,1,9,61,Austria,ERR,France,ERR,40000,20000,?,?,3800,1000,4800,?,?,4000,?,4000
+502,318,1,Schlact,Rivoli,1797,1,14,1797,1,15,2,France,ERR,Austria,ERR,22000,28000,?,?,2200,1000,3200,?,?,4000,8000,12000
+503,318,2,Schlact,Mantua (La Favorita),1797,1,16,1797,1,16,1,France,ERR,Austria,ERR,28000,16000,?,?,1200,800,2000,?,?,1300,8700,10000
+504,319,2,Gefecht,Castel Bolognese,1797,2,3,1797,2,3,1,France,ERR,Papal Troops,ERR,9000,7000,?,?,?,?,100,?,?,800,1200,2000
+505,320,3,Gefecht,Valvassone,1797,3,16,1797,3,16,1,France,ERR,Austria,ERR,43000,24000,?,?,?,?,500,?,?,?,?,700
+506,321,2,Gefecht,Salurn,1797,3,20,1797,3,20,1,France,ERR,Austria,ERR,18000,17000,?,?,?,?,200,?,?,300,3500,3800
+507,321,3,Treffen,Tarvis,1797,3,22,1797,3,23,2,France,ERR,Austria,ERR,11000,8000,?,?,1200,?,1200,?,?,1000,3500,4500
+508,321,4,Treffen,Heddesdorf,1797,4,18,1797,4,18,1,France,ERR,Austria,ERR,45000,30000,?,?,?,?,2000,?,?,1000,4000,5000
+509,322,1,Treffen,Diersheim,1797,4,20,1797,4,21,2,France,ERR,Austria,ERR,52000,34000,?,?,3000,?,3000,?,?,2700,2000,4700
+510,323,2,Treffen,New Ross,1798,6,5,1798,6,5,1,England,ERR,Ireland Rebel,ERR,10000,12000,?,?,?,?,1500,?,?,?,?,3000
+511,324,1,Schlact,Embaheh (Pyramids),1798,7,21,1798,7,21,1,France,ERR,Egypt,ERR,20000,60000,?,?,?,?,300,?,?,?,?,2000
+512,325,1,Treffen,Castelbar,1798,8,27,1798,8,27,1,France,ERR,England,ERR,1100,5000,?,?,?,?,200,?,?,400,800,1200
+513,325,3,Treffen,Sediman,1798,10,7,1798,10,7,1,France,ERR,Egypt,ERR,3000,12000,350,150,500,0,500,?,?,?,?,1000
+514,326,1,Treffen,Civita Castellana,1798,12,4,1798,12,4,1,France,ERR,Neapolitans,ERR,10000,26000,?,?,?,?,500,?,?,?,?,2500
+515,326,2,Treffen,Otricoli,1798,12,9,1798,12,9,1,France,ERR,Neapolitans,ERR,3500,4500,?,?,?,?,200,?,?,?,4000,4000
+516,327,1,Belagerung,Korfu,1798,11,18,1799,3,2,105,Russia,ERR,France,ERR,8000,4000,?,?,?,?,400,?,?,500,3500,4000
+517,327,2,Gefecht,Maienfeld (St. Luciensteig),1799,3,6,1799,3,6,1,France,ERR,Austria,ERR,12000,2200,?,?,?,?,300,?,?,400,1100,1500
+518,327,3,Gefecht,Chur,1799,3,7,1799,3,7,1,France,ERR,Austria,ERR,9600,3400,?,?,?,?,100,?,?,?,3000,3000
+519,327,4,Gefecht,Feldkirch,1799,3,7,1799,3,7,1,France,ERR,Austria,ERR,9000,6000,?,?,?,?,200,?,?,?,?,1100
+520,328,2,Gefecht,Martinsbruck,1799,3,17,1799,3,17,1,Austria,ERR,France,ERR,6500,7000,?,?,?,?,200,?,?,?,?,1000
+521,328,3,Treffen,Ostrach,1799,3,21,1799,3,21,1,Austria,ERR,France,ERR,50000,28000,?,?,1550,650,2200,?,?,4000,600,4600
+522,328,4,Treffen,Feldkirch,1799,3,23,1799,3,23,1,Austria,ERR,France,ERR,7500,12000,?,?,900,?,900,?,?,3000,?,3000
+523,329,1,Treffen,Tauffers,1799,3,25,1799,3,25,1,France,ERR,Austria,ERR,4500,6500,?,?,?,?,100,?,?,1000,4000,5000
+524,329,2,Treffen,Nauders,1799,3,25,1799,3,25,1,France,ERR,Austria,ERR,6000,6000,?,?,?,?,300,?,?,500,1450,1950
+525,329,3,Schlact,Stockach,1799,3,25,1799,3,26,2,Austria,ERR,France,ERR,46000,38000,500,2400,2900,3100,6000,400,1600,2000,2000,4000
+526,330,1,Treffen,Pastrengo,1799,3,26,1799,3,26,1,France,ERR,Austria,ERR,22400,8800,?,?,?,?,1000,?,?,2000,1500,3500
+527,330,2,Treffen,Verona,1799,3,26,1799,3,26,1,Austria,ERR,France,ERR,16400,14500,?,?,1600,1100,2700,?,?,1500,300,1800
+528,330,3,Treffen,Legnano,1799,3,26,1799,3,26,1,Austria,ERR,France,ERR,22300,9500,?,?,700,100,800,?,?,2000,600,2600
+529,330,4,Gefecht,Parona,1799,3,30,1799,3,30,1,Austria,ERR,France,ERR,15000,7000,?,?,400,?,400,?,?,400,1100,1500
+530,331,1,Schlact,Magnano,1799,4,5,1799,4,5,1,Austria,ERR,France,ERR,46000,41000,?,?,4000,2000,6000,?,?,3500,4500,8000
+531,331,2,Schlact,Berge Thabor,1799,4,16,1799,4,16,1,France,ERR,Turkey,ERR,4000,26000,?,?,?,?,500,?,?,6000,500,6500
+532,332,1,Schlact,Cassano,1799,4,27,1799,4,28,2,Austria,Russia,France,ERR,52000,28000,?,?,3800,1200,5000,?,?,4000,7000,11000
+533,332,2,Treffen,Remus,1799,4,30,1799,4,30,1,Austria,ERR,France,ERR,18000,8500,?,?,?,600,2000,?,?,?,?,1000
+534,332,3,Treffen,Maienfeld (St. Luciensteig),1799,5,1,1799,5,1,1,France,ERR,Austria,ERR,8000,8000,?,?,?,?,400,?,?,600,2000,2600
+535,333,3,Schlact,Bassignana,1799,5,12,1799,5,12,1,France,ERR,Russia,ERR,12000,10000,?,?,600,?,600,?,?,1000,700,1700
+536,333,4,Treffen,Maienfeld (St. Luciensteig),1799,5,14,1799,5,14,1,Austria,ERR,France,ERR,19000,8000,?,?,?,?,100,?,?,300,3100,3400
+537,334,1,Gefecht,Marengo,1799,5,16,1799,5,16,1,Russia,Austria,France,ERR,11000,8000,?,?,?,?,150,?,?,?,?,500
+538,334,2,Belagerung,Akka (St Jean d'Acre),1799,3,17,1799,5,21,66,Turkey,ERR,France,ERR,5000,12000,?,?,?,?,2000,?,?,?,?,4000
+539,335,2,Treffen,Frauenfeld (Andelfingen),1799,5,25,1799,5,25,1,France,ERR,Austria,ERR,23000,10000,230,570,800,0,800,750,1450,2200,3000,5200
+540,335,3,Gefecht,Winterthur,1799,5,27,1799,5,27,1,Austria,ERR,France,ERR,15000,7000,?,?,?,?,1000,?,?,?,?,800
+541,335,4,Gefecht,Urseren,1799,5,29,1799,5,29,1,Austria,ERR,France,ERR,4300,3300,?,?,?,?,200,?,?,400,600,1000
+542,336,1,Gefecht,Wasen,1799,5,31,1799,5,31,1,France,ERR,Austria,ERR,6000,4000,?,?,?,?,500,?,?,1000,1000,2000
+543,336,2,Schlact,Zurich,1799,6,4,1799,6,4,1,Austria,ERR,France,ERR,55000,45000,730,1470,2200,1200,3400,500,800,1300,300,1600
+544,336,3,Treffen,Modena,1799,6,12,1799,6,12,1,France,ERR,Austria,ERR,25000,6000,?,?,400,200,600,?,?,750,1650,2400
+545,337,2,Schlact,Trebbia,1799,6,17,1799,6,20,4,Austria,Russia,France,ERR,37000,33000,1000,4000,5000,500,5500,2000,7500,9500,7000,16500
+546,338,1,Schlact,Cassina Grossa=San Giuliano,1799,6,20,1799,6,20,1,France,ERR,Austria,ERR,14000,8000,?,?,?,?,1000,?,?,1000,1300,2300
+547,338,2,Belagerung,Alessandria,1799,6,26,1799,7,22,27,Austria,ERR,France,ERR,11000,3100,?,?,?,?,400,?,?,400,2700,3100
+548,338,4,Schlact,Abukir,1799,7,25,1799,7,25,1,France,ERR,Turkey,ERR,6000,18000,?,?,1100,?,1100,?,?,12000,?,12000
+549,339,2,Belagerung,Mantua,1799,7,4,1799,7,28,25,Austria,ERR,France,ERR,32000,11000,?,?,2100,?,2100,?,?,3100,7900,11000
+550,340,1,Gefecht,Oberwald (im Rhonethal),1799,8,13,1799,8,14,2,France,ERR,Austria,ERR,12000,6000,?,?,?,?,500,?,?,?,?,3000
+551,340,2,Treffen,Schwyz (im Muttenthal),1799,8,14,1799,8,15,2,France,ERR,Austria,ERR,12000,8000,?,?,?,?,600,?,?,?,?,2400
+552,340,3,Schlact,Novi,1799,8,15,1799,8,15,1,Austria,Russia,France,ERR,50000,35000,1250,5750,7000,2000,9000,1500,5500,7000,4000,11000
+553,341,1,Treffen,Amsteg (im Reusstal),1799,8,14,1799,8,16,3,France,ERR,Austria,ERR,8000,4400,?,?,?,?,500,?,?,?,?,2200
+554,341,2,Gefecht,Groet-Keeten,1799,8,27,1799,8,27,1,England,Russia,France,Holland,8000,11000,?,?,?,?,500,?,?,?,?,1500
+555,341,3,Treffen,Zyper Sluis,1799,9,10,1799,9,10,1,England,ERR,France,Holland,17000,21000,?,?,?,?,200,?,?,?,?,2000
+556,342,1,Gefecht,Fossano,1799,9,16,1799,9,16,1,France,ERR,Austria,ERR,8000,5000,?,?,?,?,200,?,?,300,700,1000
+557,342,2,Treffen,Savigliano,1799,9,18,1799,9,18,1,Austria,ERR,France,ERR,20000,7500,?,?,?,?,400,?,?,?,?,2000
+558,342,3,Treffen,Mannheim,1799,9,18,1799,9,18,1,Austria,ERR,France,ERR,30000,18000,?,?,?,?,1300,?,?,1600,1900,3500
+559,342,4,Schlact,Bergen,1799,9,19,1799,9,19,1,France,Holland,England,Russia,22000,23000,?,?,1000,2000,3000,?,?,2100,2000,4100
+560,343,1,Schlact,Zurich,1799,9,25,1799,9,26,2,France,ERR,Russia,ERR,33500,23000,?,?,4000,0,4000,?,?,6000,2000,8000
+561,343,2,Treffen,Schanis (an der Linth),1799,9,25,1799,9,26,2,France,ERR,Austria,Russia,11500,10000,?,?,?,?,600,?,?,1500,3500,5000
+562,343,3,Gefecht,Sankt Gotthard,1799,9,23,1799,9,27,5,Russia,Austria,France,ERR,21000,9000,?,?,?,?,6000,?,?,?,?,2000
+563,344,2,Gefecht,Mollis,1799,9,25,1799,9,30,6,France,ERR,Austria,ERR,3000,9000,?,?,?,?,500,?,?,?,?,1500
+564,344,3,Treffen,Muotta (im Muttenthal),1799,10,1,1799,10,1,1,Russia,ERR,France,ERR,7000,9000,?,?,?,?,500,?,?,1000,1000,2000
+565,344,4,Treffen,Nafels,1799,10,1,1799,10,1,1,France,ERR,Russia,ERR,3200,7000,320,830,1150,?,1150,450,1700,2150,?,2150
+566,345,1,Schlact,Egmond aan Zee,1799,10,2,1799,10,2,1,England,Russia,France,Holland,30000,20000,?,?,1800,200,2000,?,?,?,?,3000
+567,345,2,Schlact,Castricum,1799,10,6,1799,10,6,1,France,Holland,England,Russia,24000,21000,?,?,1200,200,1400,?,?,1600,1000,2600
+568,345,3,Gefecht,Bracco,1799,10,13,1799,10,13,1,France,ERR,Austria,ERR,7000,5000,?,?,?,?,100,?,?,?,?,1200
+569,346,2,Treffen,Novi,1799,10,24,1799,10,24,1,France,ERR,Austria,ERR,12000,5000,?,?,?,800,1200,?,?,?,1000,1300
+570,346,3,Gefecht,Centallo,1799,10,31,1799,10,31,1,Austria,ERR,France,ERR,15000,7000,?,?,?,?,200,?,?,?,?,1000
+571,346,4,Treffen,Damiette,1799,11,1,1799,11,1,1,France,ERR,Turkey,ERR,1000,8000,?,?,?,?,100,?,?,?,?,4000
+572,347,1,Schlact,Genola,1799,11,4,1799,11,4,1,Austria,ERR,France,ERR,29000,15000,?,?,2150,250,2400,?,?,3400,4200,7600
+573,347,2,Treffen,Novi,1799,11,6,1799,11,6,1,France,ERR,Austria,ERR,11000,12000,?,?,?,?,400,?,?,?,?,1000
+574,348,1,Gefecht,Mondovi,1799,11,13,1799,11,13,1,Austria,ERR,France,ERR,14000,9000,?,?,?,?,500,?,?,?,?,500
+575,348,2,Gefecht,Philippsburg (Lausheim),1799,11,16,1799,11,16,1,France,ERR,Austria,ERR,15000,15000,?,?,?,?,400,?,?,?,?,1200
+576,348,3,Gefecht,Torriglia,1799,11,16,1799,11,16,1,France,ERR,Austria,ERR,10000,12000,?,?,?,?,200,?,?,?,1800,2200
+577,349,1,Gefecht,Wiesloch,1799,12,3,1799,12,3,1,Austria,ERR,France,ERR,16000,17000,?,?,?,?,500,?,?,700,800,1500
+578,349,3,Schlact,Heliopolis (Matarieh),1800,3,20,1800,3,20,1,France,ERR,Turkey,ERR,12000,50000,?,?,?,?,600,?,?,?,?,10000
+579,349,4,Gefecht,Cadibuona,1800,4,6,1800,4,6,1,Austria,ERR,France,ERR,13000,4000,?,?,?,?,200,?,?,?,500,700
+580,350,1,Gefecht,Monte Fascia,1800,4,7,1800,4,7,1,France,ERR,Austria,ERR,5000,7000,?,?,?,?,200,?,?,250,1400,1650
+581,350,2,Gefecht,La Bochetta,1800,4,9,1800,4,9,1,Austria,ERR,France,ERR,10000,3500,?,?,600,0,600,?,?,?,?,1000
+582,350,3,Treffen,Sassello,1800,4,10,1800,4,10,1,Austria,ERR,France,ERR,20000,7000,?,?,?,?,1000,?,?,?,?,2000
+583,350,4,Gefecht,Monte Settepani,1800,4,10,1800,4,11,2,France,ERR,Austria,ERR,5000,3000,?,?,?,?,200,?,?,400,1400,1800
+584,351,1,Gefecht,Verreira,1800,4,11,1800,4,11,1,France,ERR,Austria,ERR,4000,4500,?,?,?,?,300,?,?,500,1500,2000
+585,351,2,Gefecht,San Giacomo,1800,4,12,1800,4,12,1,Austria,ERR,France,ERR,7000,5000,?,?,?,?,800,?,?,?,?,1000
+586,351,3,Gefecht,Brico del Cavallo,1800,4,12,1800,4,12,1,Austria,ERR,France,ERR,6000,3500,?,?,?,?,500,?,?,?,?,1100
+587,351,4,Treffen,Voltri,1800,4,18,1800,4,18,1,Austria,ERR,France,ERR,14000,7000,?,?,?,?,1000,?,?,?,?,2000
+588,352,1,Treffen,San Martino d'Albaro,1800,4,30,1800,4,30,1,France,ERR,Austria,ERR,8000,10000,?,?,?,?,1000,?,?,950,1350,2300
+589,352,2,Gefecht,Busingen,1800,5,1,1800,5,1,1,France,ERR,Austria,ERR,6000,4000,?,?,?,?,500,?,?,400,750,1150
+590,352,3,Schlact,Engen and Stockach,1800,5,3,1800,5,3,1,France,ERR,Austria,ERR,84000,72000,?,?,3000,0,3000,?,?,3000,4000,7000
+591,353,1,Schlact,Mosskirch,1800,5,5,1800,5,5,1,France,ERR,Austria,ERR,52000,48000,?,?,3000,0,3000,?,?,2400,1600,4000
+592,353,2,Gefecht,Montecalvo,1800,5,7,1800,5,7,1,Austria,ERR,France,ERR,8000,5000,?,?,?,?,200,?,?,200,1500,1700
+593,353,3,Treffen,Biberbach,1800,5,9,1800,5,9,1,France,ERR,Austria,ERR,25000,20000,?,?,?,?,2000,?,?,1250,2750,4000
+594,353,4,Gefecht,Monte Becco,1800,5,11,1800,5,11,1,France,ERR,Austria,ERR,6000,4000,?,?,?,?,500,?,?,?,1400,2000
+595,354,1,Gefecht,Monte Creto,1800,5,13,1800,5,13,1,Austria,ERR,France,ERR,7000,5000,?,?,?,?,650,?,?,?,?,1000
+596,354,3,Kapitulation,Genua,1800,4,19,1800,6,4,47,Austria,ERR,France,ERR,24000,12000,?,?,?,3500,6000,?,?,?,?,4000
+597,354,4,Treffen,Erolzheim,1800,6,5,1800,6,5,1,France,ERR,Austria,ERR,17000,30000,?,?,700,300,1000,?,?,800,1100,1900
+598,355,1,Gefecht,See-Alpen,1800,5,28,1800,6,7,11,France,ERR,Austria,ERR,9000,17000,?,?,?,?,1000,?,?,?,8000,10000
+599,355,2,Schlact,Montebello (Casteggio),1800,6,9,1800,6,9,1,France,ERR,Austria,ERR,12000,16000,?,?,3000,0,3000,?,?,2100,2200,4300
+600,355,3,Schlact,Marengo,1800,6,14,1800,6,14,1,France,ERR,Austria,ERR,28000,31000,1100,5400,6500,1500,8000,1000,6000,7000,4000,11000
+601,356,1,Treffen,Hochstadt,1800,6,18,1800,6,19,2,France,ERR,Austria,ERR,40000,10000,?,?,?,?,1000,?,?,1000,3000,4000
+602,356,2,Treffen,Neuburg,1800,6,27,1800,6,27,1,France,ERR,Austria,ERR,11000,10000,?,?,800,200,1000,?,?,700,600,1300
+603,357,1,Treffen,Ampfing (Haun),1800,12,1,1800,12,1,1,Austria,ERR,France,ERR,37000,35000,?,?,2000,1100,3100,?,?,1200,1000,2200
+604,357,2,Schlact,Hohenlinden,1800,12,3,1800,12,3,1,France,ERR,Austria,Bavaria,55000,57000,?,?,2500,0,2500,?,?,5500,10000,15500
+605,357,3,Gefecht,Salzburg,1800,12,14,1800,12,14,1,France,ERR,Austria,ERR,20000,40000,?,?,?,?,1000,?,?,?,?,500
+606,358,4,Gefecht,Lambach,1800,12,19,1800,12,19,1,France,ERR,Austria,ERR,6000,3000,?,?,?,?,500,?,?,?,?,1450
+607,359,1,Schlact,Mincio,1800,12,25,1800,12,26,2,France,ERR,Austria,ERR,66000,50000,?,?,4000,0,4000,?,?,4100,4300,8400
+608,359,2,Gefecht,Abukir,1801,3,8,1801,3,8,1,Britain,ERR,France,ERR,5500,2000,?,?,650,?,650,?,?,?,?,350
+609,359,3,Gefecht,Mareotissee (Mahadich),1801,3,13,1801,3,13,1,Britain,ERR,France,ERR,15000,5000,?,?,?,?,1300,?,?,?,?,700
+610,360,1,Schlact,"Alexandria (Canopus, Abukir)",1801,3,21,1801,3,21,1,Britain,ERR,France,ERR,12000,10000,?,?,1500,?,1500,?,?,3000,500,3500
+611,363,1,Schlact,Wertingen,1805,10,8,1805,10,8,1,France,ERR,Austria,ERR,7000,8000,?,?,500,?,500,?,?,400,1600,2000
+612,363,2,Gefecht,Gunzburg,1805,10,9,1805,10,9,1,France,ERR,Austria,ERR,20000,15000,?,?,700,?,700,?,?,800,1000,1800
+613,363,3,Gefecht,Haslach (Albeck),1805,10,11,1805,10,11,1,Austria,ERR,France,ERR,25000,6000,?,?,?,?,1100,?,?,600,900,1500
+614,364,2,Treffen,Elchingen,1805,10,14,1805,10,14,1,France,ERR,Austria,ERR,16000,8000,?,?,1000,?,1000,?,?,?,?,4000
+615,367,1,Schlact,Caldiero,1805,10,29,1805,10,31,3,Austria,ERR,France,ERR,49000,46000,?,?,5700,?,5700,?,?,6300,1700,8000
+616,367,2,Treffen,Pojano,1805,11,2,1805,11,2,1,France,ERR,Austria,ERR,12000,4000,?,?,?,?,600,?,?,400,1800,2200
+617,368,1,Gefecht,Scharnitz,1805,11,4,1805,11,4,1,France,ERR,Austria,ERR,13000,3000,?,?,?,?,400,?,?,?,?,1500
+618,368,3,Treffen,Durnstein,1805,11,11,1805,11,11,1,Russia,Austria,France,ERR,25000,8000,?,?,4000,?,4000,?,?,5000,1600,6600
+619,369,1,Treffen,Ober-Hollabrunn,1805,11,16,1805,11,16,1,France,ERR,Russia,Austria,30000,7000,?,?,?,?,2000,?,?,?,1800,3000
+620,369,2,Kapitulation,Castelfranco,1805,11,24,1805,11,24,1,France,ERR,Austria,ERR,9000,4800,?,?,?,?,600,?,?,400,4400,4800
+621,369,3,Schlact,Austerlitz,1805,12,2,1805,12,2,1,France,ERR,Russia,Austria,65000,83000,?,?,10000,?,10000,?,?,16000,20000,36000
+622,370,1,Gefecht,Steken,1805,12,5,1805,12,5,1,Austria,ERR,Bavaria,ERR,11000,7000,?,?,?,?,800,?,?,?,?,1000
+623,370,4,Treffen,Maida (Santa Eufemia),1806,7,4,1806,7,4,1,Britain,Naples,France,ERR,4800,4300,?,?,350,?,350,?,?,?,?,1700
+624,371,1,Belagerung,Gaeta,1806,3,4,1806,7,18,137,France,ERR,Naples,Britain,12000,7000,?,?,1000,?,1000,?,?,1000,?,1000
+625,371,2,Gefecht,Saalfeld,1806,10,10,1806,10,10,1,France,ERR,Prussia,Saxony,12000,9000,?,?,?,?,200,?,?,700,1100,1800
+626,372,1,Schlact,Jena,1806,10,14,1806,10,14,1,France,ERR,Prussia,Saxony,96000,54000,?,?,6000,?,6000,?,?,12000,15000,27000
+627,373,1,Schlact,Auerstadt,1806,10,14,1806,10,14,1,France,ERR,Prussia,ERR,27300,50000,?,?,7100,?,7100,?,?,10000,3000,13000
+628,374,1,Treffen,Halle,1806,10,17,1806,10,17,1,France,ERR,Prussia,ERR,16000,13700,?,?,800,?,800,?,?,1000,4200,5200
+629,376,1,Treffen,Lubeck,1806,11,6,1806,11,6,1,France,ERR,Prussia,ERR,30000,15000,?,?,?,?,2000,?,?,?,4000,6000
+630,377,3,Gefecht,Czarnowo,1806,12,23,1806,12,23,1,France,ERR,Russia,ERR,18000,5500,?,?,?,?,850,?,?,?,500,1400
+631,377,4,Schlact,Pultusk,1806,12,26,1806,12,26,1,France,ERR,Russia,ERR,26000,44000,?,?,3300,700,4000,?,?,?,?,3500
+632,378,1,Treffen,Golymin,1806,12,26,1806,12,26,1,France,ERR,Russia,ERR,27000,22000,?,?,?,?,1000,?,?,600,200,800
+633,379,1,Gefecht,Mohrungen,1807,1,25,1807,1,25,1,France,ERR,Russia,ERR,12000,9000,?,?,700,400,1100,?,?,1100,300,1400
+634,380,1,Treffen,Hof,1807,2,6,1807,2,6,1,France,ERR,Russia,ERR,10000,7000,?,?,?,?,1500,?,?,?,?,2000
+635,380,2,Schlact,Prussisch-Eylau,1807,2,7,1807,2,8,2,France,ERR,Russia,Prussia,75000,83000,?,?,22000,1000,23000,?,?,23000,3000,26000
+636,381,2,Treffen,Ostrolenka,1807,2,16,1807,2,16,1,France,ERR,Russia,ERR,20000,18000,?,?,?,?,1200,?,?,?,?,2500
+637,381,3,Belagerung,Danzig,1807,3,10,1807,5,24,76,France,ERR,Prussia,Russia,45000,16000,?,?,?,?,6000,?,?,?,?,3000
+638,382,2,Treffen,Lomitten,1807,6,5,1807,6,5,1,Russia,ERR,France,ERR,12000,6000,?,?,?,?,2800,?,?,?,?,1500
+639,382,3,Treffen,Guttstadt and Deppen,1807,6,5,1807,6,6,2,Russia,ERR,France,ERR,63000,17000,?,?,?,?,2500,?,?,1800,1600,3400
+640,383,1,Schlact,Heilsberg,1807,6,10,1807,6,10,1,France,ERR,Russia,Prussia,65000,95000,?,?,?,?,12500,?,?,?,?,9000
+641,383,2,Schlact,Friedland,1807,6,14,1807,6,14,1,France,ERR,Russia,ERR,87000,61000,?,?,?,?,12000,?,?,?,?,20000
+642,384,2,Ersturmung,Glatz,1807,6,24,1807,6,24,1,Bavaria,Wurttemberg,Prussia,ERR,5000,2800,?,?,?,?,350,?,?,?,?,1000
+643,384,3,Belagerung,Kolberg,1807,3,20,1807,7,2,105,Prussia,ERR,France,ERR,6000,14000,?,?,?,?,3000,?,?,?,?,5000
+644,387,3,Schlact,Medina-de-Rio-Seco,1808,7,14,1808,7,14,1,France,ERR,Spain,ERR,15000,22000,?,?,1100,?,1100,?,?,1000,3000,4000
+645,388,1,Schlact,Bailen,1808,7,19,1808,7,19,1,Spain,ERR,France,ERR,32000,22000,?,?,1000,1000,2000,?,?,3000,1000,4000
+646,388,3,Treffen,Evora,1808,7,29,1808,7,29,1,France,ERR,Portugal,Spain,7000,3000,?,?,?,?,300,?,?,?,?,2000
+647,389,1,Belagerung,Saragossa,1808,6,15,1808,8,14,61,Spain,ERR,France,ERR,13000,15500,?,?,3000,?,3000,?,?,?,?,3500
+648,389,2,Gefecht,Rolica,1808,8,17,1808,8,17,1,Britain,Portugal,France,ERR,15000,4400,?,?,?,?,500,?,?,?,?,600
+649,389,3,Schlact,Vimiero,1808,8,21,1808,8,21,1,Britain,Portugal,France,ERR,19000,13000,?,?,?,?,750,?,?,1500,300,1800
+650,390,3,Treffen,Zornoza (Durango),1808,10,31,1808,10,31,1,France,ERR,Spain,ERR,21000,19000,?,?,300,?,300,?,?,400,600,1000
+651,390,4,Treffen,Gamonal (Burgos),1808,11,10,1808,11,10,1,France,ERR,Spain,ERR,24500,11000,?,?,?,?,200,?,?,2500,900,3400
+652,391,1,Schlact,Espinosa-de-los-Monteros,1808,11,10,1808,11,11,2,France,ERR,Spain,ERR,21000,23000,?,?,1100,?,1100,?,?,900,4500,5400
+653,391,2,Schlact,Tudela,1808,11,23,1808,11,23,1,France,ERR,Spain,ERR,35000,45000,?,?,700,?,700,?,?,3000,3000,6000
+654,391,3,Treffen,Somosierra,1808,11,30,1808,11,30,1,France,ERR,Spain,ERR,8000,12000,?,?,300,?,300,?,?,200,2000,2200
+655,392,1,Belagerung,Rosas,1808,11,7,1808,12,5,29,France,ERR,Spain,ERR,25000,3500,?,?,1000,?,1000,?,?,1500,2000,3500
+656,392,2,Schlact,Cardedeu,1808,12,16,1808,12,16,1,France,ERR,Spain,ERR,15000,9000,?,?,600,?,600,?,?,1000,1500,2500
+657,392,3,Schlact,Molins-del-Rey,1808,12,21,1808,12,21,1,France,ERR,Spain,ERR,14000,15000,?,?,?,?,400,?,?,1000,1200,2200
+658,393,1,Schlact,Ucles,1809,1,13,1809,1,13,1,France,ERR,Spain,ERR,15500,11300,?,?,?,?,200,?,?,1000,6000,7000
+659,393,2,Schlact,La Coruna,1809,1,16,1809,1,16,1,Britain,ERR,France,ERR,15000,20000,?,?,900,100,1000,?,?,1500,100,1600
+660,393,3,Belagerung,Saragossa,1808,12,19,1809,2,20,64,France,ERR,Spain,ERR,50000,30000,?,?,6000,?,6000,?,?,18000,12000,30000
+661,394,1,Schlact,Valls,1809,2,25,1809,2,25,1,France,ERR,Spain,ERR,13300,11700,?,?,1000,?,1000,?,?,1500,1500,3000
+662,394,2,Schlact,Braga (Lanhozo),1809,3,20,1809,3,20,1,France,ERR,Portugal,ERR,16000,23000,?,?,400,?,400,?,?,4000,400,4400
+663,394,3,Treffen,Ciudad Real,1809,3,27,1809,3,27,1,France,ERR,Spain,ERR,12700,12500,?,?,?,?,100,?,?,500,2500,3000
+664,395,1,Schlact,Medellin,1809,3,28,1809,3,28,1,France,ERR,Spain,ERR,17500,23000,?,?,1000,?,1000,?,?,8000,2000,10000
+665,395,2,Schlact,Oporto,1809,3,29,1809,3,29,1,France,ERR,Portugal,ERR,16000,30000,?,?,?,?,2000,?,?,?,?,8000
+666,396,3,Treffen,Pordenone,1809,4,15,1809,4,15,1,Austria,ERR,France,ERR,40000,39000,?,?,?,?,300,?,?,500,1900,2400
+667,397,1,Schlact,Sacile,1809,4,16,1809,4,16,1,Austria,ERR,France,ERR,39000,41000,?,?,3600,?,3600,?,?,3000,6000,9000
+668,397,2,Treffen,Raszyn,1809,4,19,1809,4,19,1,Austria,ERR,Poland,ERR,26000,14000,?,?,?,?,400,?,?,1350,50,1400
+669,397,3,Treffen,"Hausen (Dinzling, Thann)",1809,4,19,1809,4,19,1,France,ERR,Austria,ERR,25000,17000,?,?,4000,?,4000,?,?,3000,2000,5000
+670,398,2,Schlact,Abensberg,1809,4,20,1809,4,20,1,France,Bavaria,Austria,ERR,52000,58000,?,?,1000,?,1000,500,2250,2750,4000,6750
+671,398,3,Treffen,Landshut,1809,4,21,1809,4,21,1,France,Bavaria,Austria,ERR,60000,46000,?,?,1000,?,1000,650,2150,2800,2400,5200
+672,399,1,Treffen,Schierling,1809,4,21,1809,4,21,1,France,ERR,Austria,ERR,36000,56000,?,?,2000,?,2000,?,?,450,2550,3000
+673,399,2,Schlact,Eckmuhl,1809,4,22,1809,4,22,1,France,Bavaria,Austria,ERR,66000,74000,?,?,3000,?,3000,?,?,6000,5000,11000
+674,400,1,Treffen,Regensburg,1809,4,23,1809,4,23,1,France,ERR,Austria,ERR,72000,78000,?,?,2000,?,2000,?,?,2000,6000,8000
+675,400,2,Treffen,Neumarkt an der Rott,1809,4,24,1809,4,24,1,Austria,ERR,France,Bavaria,27000,18000,?,?,800,200,1000,?,?,1500,1000,2500
+676,401,3,Treffen,Ebelsberg,1809,5,3,1809,5,3,1,France,ERR,Austria,ERR,30000,30000,?,?,4600,1400,6000,?,?,2400,2200,4600
+677,402,1,Schlact,Ponte della Pirula (and der Piave),1809,5,8,1809,5,8,1,France,ERR,Austria,ERR,45000,25000,?,?,3000,?,3000,?,?,1900,1700,3600
+678,403,1,Treffen,Oporto,1809,5,12,1809,5,12,1,Britain,Portugal,France,ERR,27000,13000,?,?,150,?,150,?,?,600,1800,2400
+679,405,1,Schlact,Aspern and Essling,1809,5,21,1809,5,22,2,Austria,ERR,France,ERR,99000,66000,5200,16300,21500,1500,23000,?,?,23000,2000,25000
+680,405,2,Treffen,Alcaniz,1809,5,23,1809,5,23,1,Spain,ERR,France,ERR,9000,8000,?,?,300,?,300,?,?,700,?,700
+681,406,1,Treffen,Sankt Michael,1809,5,25,1809,5,25,1,France,ERR,Austria,ERR,12000,9000,?,?,?,?,1600,?,?,700,1500,2200
+682,406,2,Treffen,Innsbruck,1809,5,29,1809,5,29,1,Austria,ERR,Bavaria,ERR,15000,5000,?,?,300,?,300,?,?,600,200,800
+683,406,3,Treffen,Pressburg (Pozsony),1809,6,3,1809,6,4,2,Austria,ERR,France,ERR,5000,18000,?,?,600,500,1100,?,?,?,?,3000
+684,406,4,Gefecht,Jedlinsko (Jankowice),1809,6,11,1809,6,11,1,Austria,ERR,Poland,ERR,11000,6300,?,?,?,?,200,?,?,1100,600,1700
+685,407,1,Schlact,Raab (Gyor),1809,6,14,1809,6,14,1,France,ERR,Austria,ERR,35000,37000,?,?,4000,?,4000,?,?,3500,6500,10000
+686,407,2,Schlact,Maria,1809,6,15,1809,6,15,1,France,ERR,Spain,ERR,11300,20000,?,?,800,?,800,?,?,4000,500,4500
+687,408,1,Ersturmung,Sandomierz,1809,6,15,1809,6,15,1,Austria,ERR,Poland,ERR,11000,5000,700,1000,1700,300,2000,?,?,1000,?,1000
+688,408,2,Schlact,Belchite,1809,6,18,1809,6,18,1,France,ERR,Spain,ERR,13000,12000,?,?,?,?,200,?,?,?,?,2000
+689,409,1,Treffen,Graz,1809,6,25,1809,6,26,2,France,ERR,Austria,ERR,5000,22000,?,?,400,500,900,?,?,?,1000,2000
+690,409,2,Schlact,Wagram,1809,7,5,1809,7,6,2,France,ERR,Austria,ERR,160000,130000,?,?,30000,7000,37000,?,?,19000,7000,26000
+691,410,1,Schlact,Znaim,1809,7,10,1809,7,11,2,France,ERR,Austria,ERR,74000,60000,?,?,4000,?,4000,?,?,3200,3000,6200
+692,410,2,Schlact,Talavera de la Reina,1809,7,27,1809,7,28,2,Britain,Spain,France,ERR,54000,47000,1000,5000,6000,700,6700,800,6300,7100,200,7300
+693,411,1,Gefecht,Oberau (Sachsenklemme),1809,8,4,1809,8,5,2,Tyrol,ERR,Saxony,Bavaria,1500,2300,?,?,?,?,100,?,?,500,700,1200
+694,411,2,Gefecht,Puente del Arzobispo,1809,8,8,1809,8,8,1,France,ERR,Spain,ERR,10000,8000,?,?,400,?,400,?,?,1000,600,1600
+695,411,3,Schlact,Almonacid de Toledo,1809,8,11,1809,8,11,1,France,ERR,Spain,ERR,21000,23000,?,?,2400,?,2400,?,?,3300,2000,5300
+696,412,1,Treffen,Innsbruck (am Berge Isel),1809,8,13,1809,8,13,1,Tyrol,ERR,France,Bavaria,18000,10000,?,?,200,?,200,?,?,?,?,1700
+697,412,2,Belagerung,Vlissingen,1809,7,30,1809,8,16,18,Britain,ERR,France,ERR,15000,3000,?,?,650,?,650,?,?,1000,2000,3000
+698,412,4,Treffen,Rasova (Rassewat),1809,9,15,1809,9,15,1,Russia,ERR,Turkey,ERR,18000,12000,?,?,?,?,500,?,?,1000,700,1700
+699,413,2,Treffen,Tamames,1809,10,18,1809,10,18,1,Spain,ERR,France,ERR,21000,11000,?,?,?,?,700,?,?,?,?,1300
+700,413,3,Schlact,Tataritza,1809,10,21,1809,10,21,1,Turkey,ERR,Russia,ERR,30000,15000,?,?,2000,?,2000,?,?,1000,?,1000
+701,414,2,Treffen,Poti,1809,11,13,1809,11,13,1,Russia,ERR,Turkey,ERR,7000,9000,?,?,500,?,500,?,?,1500,300,1800
+702,414,3,Schlact,Ocana,1809,11,19,1809,11,19,1,France,ERR,Spain,ERR,33000,50000,?,?,2000,?,2000,?,?,4000,14000,18000
+703,415,1,Treffen,Alba de Tormes,1809,11,26,1809,11,26,1,France,ERR,Spain,ERR,12000,18000,?,?,600,?,600,?,?,2000,2000,4000
+704,416,1,Schlact,Vich,1810,2,20,1810,2,20,1,France,ERR,Spain,ERR,5000,12000,?,?,?,?,800,?,?,?,?,3000
+705,416,2,Belagerung,Astorga,1810,3,23,1810,4,22,31,France,ERR,Spain,ERR,27000,2800,?,?,800,?,800,?,?,200,2600,2800
+706,416,3,Treffen,Margalef,1810,4,23,1810,4,23,1,France,ERR,Spain,ERR,6000,7300,?,?,100,?,100,?,?,300,5700,6000
+707,416,4,Belagerung,Lerida,1810,4,12,1810,5,14,33,France,ERR,Spain,ERR,13000,9000,?,?,1000,?,1000,?,?,1700,7300,9000
+708,417,1,Ersturmung,Bazardzik (Dobric),1810,6,3,1810,6,3,1,Russia,ERR,Turkey,ERR,23000,5000,?,?,1600,?,1600,?,?,3000,2000,5000
+709,417,2,Belagerung,Mequinenza,1810,5,20,1810,6,8,20,France,ERR,Spain,ERR,6000,1800,?,?,100,?,100,?,?,400,1400,1800
+710,418,1,Schlact,Schumla (Sumen),1810,6,23,1810,6,24,2,Turkey,ERR,Russia,ERR,30000,20000,?,?,1600,?,1600,?,?,1800,?,1800
+711,418,2,Belagerung,Ciudad Rodrigo,1810,4,25,1810,7,10,77,France,ERR,Spain,ERR,70000,5500,?,?,1500,?,1500,?,?,1500,4000,5500
+712,418,3,Treffen,Taschlimechle,1810,8,2,1810,8,2,1,Russia,ERR,Turkey,ERR,19000,30000,?,?,?,?,1400,?,?,?,?,3000
+713,419,1,Belagerung,Almeida,1810,7,24,1810,8,27,35,France,ERR,Portugal,ERR,42000,6000,?,?,700,?,700,?,?,1000,5000,6000
+714,419,2,Schlact,Batin,1810,9,7,1810,9,7,1,Russia,ERR,Turkey,ERR,22000,35000,?,?,2000,?,2000,?,?,5000,5000,10000
+715,420,2,Belagerung,Rustschuk,1810,7,20,1810,9,26,69,Russia,ERR,Turkey,ERR,25000,15000,?,?,?,?,12000,?,?,6000,?,6000
+716,420,3,Schlact,Busaco,1810,9,27,1810,9,27,1,Britain,Portugal,France,ERR,32000,58000,?,?,1300,?,1300,?,?,4500,?,4500
+717,421,1,Belagerung,Tortosa,1810,12,19,1811,1,2,15,France,ERR,Spain,ERR,12000,11000,?,?,1000,?,1000,?,?,1500,9500,11000
+718,421,3,Ersturmung,Lovca (Lovec),1811,2,11,1811,2,11,1,Russia,ERR,Turkey,ERR,8000,10000,?,?,1000,?,1000,?,?,4000,1400,5400
+719,422,1,Schlact,(an der) Gevora,1811,2,19,1811,2,19,1,France,ERR,Spain,ERR,6000,12000,?,?,500,?,500,?,?,1000,5200,6200
+720,422,2,Schlact,Chiclana (Barrosa),1811,3,5,1811,3,5,1,Britain,Spain,France,ERR,12000,10000,?,?,2000,800,2800,?,?,2500,500,3000
+721,422,3,Belagerung,Badajoz,1811,1,26,1811,3,11,45,France,ERR,Spain,ERR,17000,21000,?,?,1500,?,1500,?,?,7000,14000,21000
+722,423,3,Treffen,Sabugal,1811,4,3,1811,4,3,1,Britain,Portugal,France,ERR,10000,12000,?,?,500,?,500,?,?,?,?,1500
+723,424,2,Treffen,Figueras,1811,5,3,1811,5,3,1,France,ERR,Spain,ERR,4000,11000,?,?,?,?,300,?,?,900,1500,2400
+724,424,3,Schlact,Fuentes de Onor,1811,5,3,1811,5,5,3,Britain,Portugal,France,ERR,35000,45000,?,?,1500,300,1800,?,?,2700,?,2700
+725,425,1,Schlact,Albuera,1811,5,16,1811,5,16,1,Britain,Portugal,France,ERR,32000,18000,?,?,7000,500,7500,?,?,8000,?,8000
+726,425,2,Belagerung,Tarragona,1811,5,5,1811,6,29,56,France,ERR,Spain,ERR,18000,18000,?,?,4300,?,4300,?,?,8000,10000,18000
+727,426,1,Schlact,Rustschuk,1811,7,4,1811,7,4,1,Russia,ERR,Turkey,ERR,20000,60000,?,?,800,?,800,?,?,1500,2000,3500
+728,426,2,Kapitulation,Figueras,1811,4,4,1811,8,19,138,France,ERR,Spain,ERR,15000,7000,?,?,2000,?,2000,?,?,2000,5000,7000
+729,427,1,Treffen,Giurgevo,1811,9,9,1811,9,9,1,Turkey,ERR,Russia,ERR,6000,6000,?,?,?,?,1000,?,?,2100,?,2100
+730,427,2,Schlact,Murviedro (Sagunto),1811,10,25,1811,10,25,1,France,ERR,Spain,ERR,17000,23000,?,?,1000,?,1000,?,?,1000,4700,5700
+731,427,3,Belagerung,Sagunto (Murviedro),1811,9,23,1811,10,26,34,France,ERR,Spain,ERR,19500,3000,?,?,1000,?,1000,?,?,400,2600,3000
+732,428,1,Schlact,Arroyomolinos,1811,10,27,1811,10,27,1,Britain,ERR,France,ERR,5000,3000,?,?,?,?,100,?,?,?,?,2000
+733,428,3,Treffen,Guadalaviar (Valencia),1811,12,26,1811,12,26,1,France,ERR,Spain,ERR,18000,22000,?,?,600,?,600,?,?,1100,500,1600
+734,429,1,Belagerung,Tarifa,1811,12,19,1812,1,5,18,Spain,Britain,France,ERR,4500,10400,?,?,?,?,150,?,?,600,?,600
+735,429,2,Belagerung,Valencia,1811,11,3,1812,1,9,68,France,ERR,Spain,ERR,33000,33000,?,?,2000,?,2000,?,?,2000,19400,21400
+736,430,1,Belagerung,Ciudad-Rodrigo,1812,1,7,1812,1,20,14,Britain,Portugal,France,ERR,40000,1800,250,1100,1350,?,1350,?,?,800,1000,1800
+737,430,2,Treffen,Altafulla,1812,1,24,1812,1,24,1,France,ERR,Spain,ERR,8000,10000,?,?,?,?,200,?,?,?,?,1200
+738,431,1,Belagerung,Badajoz,1812,3,17,1812,4,9,24,Britain,Portugal,France,ERR,51000,5000,1850,6650,8500,?,8500,?,?,1300,3700,5000
+739,431,2,Belagerung,Salamanca,1812,6,17,1812,6,27,11,Britain,Portugal,France,ERR,50000,700,?,?,600,?,600,?,?,200,500,700
+740,431,3,Gefecht,Ekau,1812,7,19,1812,7,19,1,Prussia,ERR,Russia,ERR,6600,6000,?,?,?,?,100,?,?,300,300,600
+741,432,1,Treffen,Castalla,1812,7,21,1812,7,21,1,France,ERR,Spain,ERR,4000,10000,?,?,?,?,200,?,?,?,?,3000
+742,432,2,Schlact,Salamanca,1812,7,22,1812,7,22,1,Britain,Portugal,France,ERR,46000,42000,?,?,5200,?,5200,?,?,10000,7000,17000
+743,433,1,Treffen,Saltanowka,1812,7,23,1812,7,23,1,France,ERR,Russia,ERR,17000,16000,?,?,900,500,1400,?,?,1900,600,2500
+744,433,2,Treffen,Ostrowno,1812,7,25,1812,7,27,3,France,ERR,Russia,ERR,28000,20000,?,?,3400,300,3700,?,?,2700,1100,3800
+745,434,1,Treffen,Kobrin,1812,7,27,1812,7,27,1,Russia,ERR,Saxony,ERR,33000,2600,?,?,600,?,600,?,?,300,2300,2600
+746,434,2,Schlact,"Jakubovo (Kliastitza, Oboiarszina)",1812,7,30,1812,8,1,3,Russia,ERR,France,ERR,23000,20000,?,?,?,?,4300,?,?,?,?,3700
+747,434,3,Treffen,Swolna,1812,8,11,1812,8,11,1,Russia,ERR,France,ERR,9000,10000,?,?,800,?,800,?,?,1200,300,1500
+748,435,1,Schlact,Gorodeczna (Podobna),1812,8,12,1812,8,12,1,Austria,Saxony,Russia,ERR,40000,18000,?,?,?,?,2200,?,?,?,?,3000
+749,435,2,Gefecht,Krasnoi,1812,8,14,1812,8,14,1,France,ERR,Russia,ERR,20000,7000,?,?,?,?,500,?,?,700,800,1500
+750,435,3,Schlact,Polozk,1812,8,16,1812,8,18,3,France,Bavaria,Russia,ERR,34000,22000,?,?,?,?,6000,?,?,?,?,6000
+751,436,1,Schlact,Smolensk,1812,8,17,1812,8,18,2,France,Poland,Russia,ERR,180000,120000,?,?,?,?,10000,?,?,?,?,6000
+752,436,2,Schlact,Walutina-Gora (Lubino),1812,8,19,1812,8,19,1,France,ERR,Russia,ERR,35000,25000,?,?,?,?,8800,?,?,?,?,6000
+753,437,1,Gefecht,"Dahlenkirchen (Olai, Shlock)",1812,8,22,1812,8,22,1,Russia,ERR,Prussia,ERR,6000,1500,?,?,?,?,300,?,?,?,?,800
+754,437,3,Treffen,Schewardino,1812,9,5,1812,9,5,1,France,ERR,Russia,ERR,36000,20000,?,?,?,?,4000,?,?,?,?,6000
+755,438,1,Schlact,Borodino,1812,9,7,1812,9,7,1,France,ERR,Russia,ERR,124000,122000,?,?,28000,?,28000,?,?,43000,9000,52000
+756,439,2,Treffen,"Mesoten (Bauske, Grafenthal, Leutschkrug, Garosse)",1812,9,26,1812,10,1,6,Prussia,ERR,Russia,ERR,16000,22000,?,?,900,350,1250,?,?,1500,2500,4000
+757,440,1,Treffen,"Winkowo (Trautino, Tschernischna)",1812,10,18,1812,10,18,1,Russia,ERR,France,ERR,36000,20000,?,?,800,700,1500,?,?,2000,1500,3500
+758,440,2,Schlact,Polozk,1812,10,18,1812,10,20,3,Russia,ERR,France,ERR,32000,27000,?,?,10000,2000,12000,?,?,6000,2000,8000
+759,441,1,Belagerung,Burgos,1812,9,19,1812,10,21,33,France,ERR,Britain,Portugal,2000,32000,200,450,650,?,650,550,1550,2100,?,2100
+760,441,2,Schlact,Malojaroslawez,1812,10,24,1812,10,24,1,France,ERR,Russia,ERR,24000,24000,?,?,?,?,6000,?,?,?,?,8000
+761,441,3,Treffen,Tschaschniki,1812,10,31,1812,10,31,1,Russia,ERR,France,ERR,30000,30000,?,?,?,?,400,?,?,400,800,1200
+762,442,1,Treffen,Wjasma,1812,11,3,1812,11,3,1,Russia,ERR,France,ERR,27000,25000,?,?,1800,?,1800,?,?,4000,3000,7000
+763,442,2,Treffen,Ljachowo (Liaskowa),1812,11,9,1812,11,9,1,Russia,ERR,France,ERR,3500,2000,?,?,?,?,200,?,?,250,1750,2000
+764,442,3,Treffen,Nowo-Swerschen,1812,11,13,1812,11,13,1,Russia,ERR,Poland,ERR,4500,3500,?,?,50,?,50,?,?,500,800,1300
+765,443,1,Schlact,Smoljantzi,1812,11,14,1812,11,14,1,Russia,ERR,France,ERR,28000,25000,?,?,?,?,3000,?,?,2200,800,3000
+766,443,2,Treffen,Wolkowisk (Izabelin),1812,11,14,1812,11,16,3,Austria,Saxony,Russia,ERR,35000,27000,?,?,1300,500,1800,?,?,1500,2500,4000
+767,444,1,Schlact,"Krasnoi (Kobisewo, Rschawka, Kutkowa, Merlino, Uwarowa, Losmino)",1812,11,15,1812,11,19,5,Russia,ERR,France,ERR,90000,50000,?,?,2000,?,2000,?,?,6000,12000,18000
+768,444,2,Treffen,Borisow,1812,11,21,1812,11,21,1,Russia,ERR,France,Poland,3500,3000,?,?,?,?,2000,?,?,?,?,3000
+769,445,2,Schlact,"Beresina (Studienka, Stachow, Stary-Borisow)",1812,11,26,1812,11,28,3,France,ERR,Russia,ERR,33000,87000,?,?,10000,10000,20000,?,?,8000,2000,10000
+770,446,3,Treffen,Kalisch (Kalisz),1813,2,13,1813,2,13,1,Russia,ERR,Saxony,France,15000,12000,?,?,700,?,700,?,?,?,?,2000
+771,447,1,Treffen,Luneburg,1813,4,2,1813,4,2,1,Russia,Prussia,France,Saxony,3000,2500,?,?,250,?,250,?,?,500,2000,2500
+772,447,2,Treffen,Mockern (Dannigkow),1813,4,5,1813,4,5,1,Russia,Prussia,France,ERR,24000,50000,?,?,600,?,600,?,?,1200,1000,2200
+773,447,3,Gefecht,Yecla,1813,4,11,1813,4,11,1,France,ERR,Spain,ERR,8000,4000,?,?,?,?,100,?,?,?,?,1700
+774,448,1,Schlact,Castalla,1813,4,13,1813,4,13,1,Britain,Spain,France,ERR,17000,15000,?,?,?,?,700,?,?,1000,400,1400
+775,448,4,Gefecht,Halle,1813,5,2,1813,5,2,1,Prussia,ERR,France,ERR,4800,2600,?,?,250,?,250,?,?,300,450,750
+776,449,1,Schlact,Gross-Gorschen (Lutzen),1813,5,2,1813,5,2,1,France,ERR,Russia,Prussia,144000,93000,?,?,19200,2800,22000,?,?,12000,?,12000
+777,449,2,Treffen,Konigswartha,1813,5,19,1813,5,19,1,Russia,ERR,France,ERR,20000,8500,?,?,1100,?,1100,?,?,2100,800,2900
+778,450,1,Treffen,Weissig (Eichberg),1813,5,19,1813,5,19,1,France,ERR,Prussia,Russia,13400,7400,?,?,1800,?,1800,?,?,1200,?,1200
+779,450,2,Schlact,Bautzen & Wurschen,1813,5,20,1813,5,21,2,France,ERR,Russia,Prussia,167000,97000,?,?,21200,3800,25000,?,?,11000,?,11000
+780,451,2,Treffen,Haynau,1813,5,26,1813,5,26,1,Prussia,ERR,France,ERR,15400,5000,?,?,?,?,250,?,?,?,?,1400
+781,451,3,Treffen,Luckau,1813,6,4,1813,6,4,1,Prussia,Russia,France,ERR,21400,18000,?,?,?,?,800,?,?,1500,700,2200
+782,452,1,Schlact,Vitoria,1813,6,21,1813,6,21,1,Britain,Spain,France,ERR,90000,60000,?,?,4900,300,5200,?,?,6000,800,6800
+783,452,2,Gefecht,La Salud,1813,7,9,1813,7,9,1,France,ERR,Spain,ERR,4000,7000,?,?,?,?,500,?,?,?,?,1000
+784,453,1,Schlact,"Pyrenaen (Maya, Zubiri, Sorauern, Elizondo, Echalar)",1813,7,25,1813,8,2,9,Britain,Spain,France,ERR,55000,60000,?,?,8000,1000,9000,?,?,11000,4000,15000
+785,453,2,Gefecht,"Bober & Katzbach (Plagwitz, Lahn, Siebeneichen, Lowenberg, Godlberg)",1813,8,17,1813,8,23,7,France,ERR,Russia,Prussia,160000,100000,?,?,?,?,8000,?,?,?,?,16000
+786,454,1,Schlact,Gross-Beeren,1813,8,23,1813,8,23,1,Prussia,Russia,France,Saxony,32000,18000,500,1000,1500,300,1800,?,?,1700,1500,3200
+787,454,2,Schlact,Katzbach,1813,8,26,1813,8,26,1,Prussia,Russia,France,ERR,80000,60000,?,?,4000,?,4000,?,?,12000,18000,30000
+788,455,1,Schlact,Dresden,1813,8,26,1813,8,27,2,France,ERR,Allies,ERR,100000,200000,?,?,10000,?,10000,?,?,15000,25000,40000
+789,455,2,Treffen,Hagelberg,1813,8,27,1813,8,27,1,Prussia,ERR,France,ERR,12000,11000,?,?,1800,?,1800,?,?,2000,6000,8000
+790,456,1,Treffen,"Pirna (Konigstein, Berg-Giesshubel, Peterswalde)",1813,8,27,1813,8,28,2,France,ERR,Russia,ERR,40000,20000,?,?,?,?,3000,?,?,?,?,6000
+791,456,2,Schlact,Kulm,1813,8,29,1813,8,30,2,Allies,ERR,France,ERR,103000,37000,?,?,11000,1000,12000,?,?,9000,8000,17000
+792,457,1,Schlact,"Vera (Bidassoa, San Marcial)",1813,8,31,1813,9,1,2,Britain,Spain,France,ERR,32000,38000,?,?,?,?,2700,?,?,?,?,3600
+793,457,2,Schlact,Dennewitz (Juterbogk),1813,9,6,1813,9,6,1,Allies,ERR,France,Saxony,80000,70000,?,?,9000,2000,11000,?,?,6500,13500,20000
+794,458,1,Belagerung,San-Sebastian,1813,7,9,1813,9,8,62,Britain,Spain,France,ERR,100000,3100,1200,3800,5000,300,5300,?,?,1900,1200,3100
+795,458,2,Treffen,Ordal,1813,9,13,1813,9,13,1,France,ERR,Britain,Spain,17000,20000,?,?,?,?,300,?,?,?,?,2000
+796,458,3,Treffen,Gohrde,1813,9,16,1813,9,16,1,Russia,Prussia,France,ERR,12000,4500,?,?,1100,?,1100,?,?,600,1900,2500
+797,459,1,Treffen,"Peterswalde (Pirna, Hellendorf, Arbesau, Nollendorf, Kninitz)",1813,9,16,1813,9,18,3,Allies,ERR,France,ERR,160000,100000,?,?,2000,?,2000,?,?,3000,2000,5000
+798,459,4,Treffen,Wartenburg,1813,10,3,1813,10,3,1,Prussia,ERR,France,ERR,16000,15000,?,?,1900,200,2100,?,?,900,1000,1900
+799,460,1,Treffen,"Bidassoa & Rhune (Croix-des-Bouquets, San Marcial, Bayonette, Sante-Barbe)",1813,10,7,1813,10,9,3,Britain,Spain,France,ERR,42000,32000,?,?,?,?,1600,?,?,1100,600,1700
+800,460,2,Treffen,Liebertwolkwitz,1813,10,13,1813,10,14,2,Allies,Russia,France,ERR,60000,50000,?,?,2500,500,3000,?,?,1500,1000,2500
+801,461,1,Schlact,Leipzig,1813,10,16,1813,10,19,4,Allies,Austria,France,ERR,325000,175000,?,?,75000,5000,80000,?,?,45000,15000,60000
+802,463,1,Schlact,Hanau,1813,10,29,1813,10,30,2,France,ERR,Bavaria,Austria,60000,40000,?,?,6000,4000,10000,?,?,5000,5000,10000
+803,464,1,Belagerung,Pampeluna,1813,6,26,1813,10,31,128,Spain,ERR,France,ERR,19000,3500,?,?,?,?,2000,?,?,1350,2150,3500
+804,464,2,Schlact,"Nivelle (Sarre, Amotz, Sainte-Barbe, Ainhoa)",1813,11,10,1813,11,10,1,Britain,Spain,France,ERR,90000,50000,?,?,5300,200,5500,?,?,3200,1300,4500
+805,465,1,Kapitulation,Dresden,1813,10,13,1813,11,11,30,Allies,ERR,France,ERR,45000,37000,?,?,?,?,6000,?,?,4000,?,4000
+806,465,2,Treffen,Caldiero,1813,11,15,1813,11,15,1,France,ERR,Austria,ERR,24000,12000,?,?,1000,?,1000,?,?,1500,900,2400
+807,466,3,Ersturmung,Arnhem,1813,11,30,1813,11,30,1,Prussia,ERR,France,ERR,10000,4000,?,?,600,?,600,?,?,500,1000,1500
+808,467,1,Gefecht,Sehestedt,1813,12,10,1813,12,10,1,Denmark,ERR,Russia,Sweden,10000,4000,?,?,?,?,500,?,?,?,?,1100
+809,467,2,Schlact,"Bayonne (Nive, Arcangues, Saint-Pierre-d'Irube)",1813,12,9,1813,12,13,5,Britain,Spain,France,ERR,70000,50000,?,?,4600,500,5100,?,?,5400,600,6000
+810,469,1,Gefecht,Hoogstraeten,1814,1,11,1814,1,11,1,Prussia,ERR,France,ERR,12000,10000,?,?,?,?,500,?,?,300,500,800
+811,469,3,Gefecht,Merxem (Wyneghem),1814,1,13,1814,1,13,1,Russia,Britain,France,ERR,15000,4000,?,?,300,0,300,?,?,400,600,1000
+812,469,4,Treffen,Bar-sur-Aube (Colombey-les-deux-Eglises),1814,1,24,1814,1,24,1,Austria,Wuerttemberg,France,ERR,25000,13000,?,?,?,?,1400,?,?,500,200,700
+813,470,1,Schlact,Brienne,1814,1,29,1814,1,29,1,France,ERR,Allies,ERR,36000,30000,?,?,?,?,3000,?,?,?,?,3000
+814,470,2,Schlact,La Rothiere,1814,2,1,1814,2,1,1,Allies,ERR,France,ERR,123000,41000,?,?,6000,?,6000,?,?,3000,3000,6000
+815,471,1,Schlact,"Mincio (Roverbella, Valeggio, Monzambano)",1814,2,8,1814,2,8,1,France,Italy,Austria,ERR,34000,32000,?,?,3000,500,3500,?,?,2800,1200,4000
+816,471,2,Treffen,Champaubert,1814,2,10,1814,2,10,1,France,ERR,Russia,ERR,5000,4000,?,?,?,?,600,?,?,?,?,2400
+817,471,3,Schlact,Montmirail,1814,2,11,1814,2,11,1,France,ERR,Russia,Prussia,25000,39000,?,?,2100,?,2100,?,?,3000,1000,4000
+818,472,1,Treffen,Chateau-Thierry,1814,2,12,1814,2,12,1,France,ERR,Allies,ERR,20000,30000,?,?,?,?,500,?,?,?,?,3000
+819,472,2,Treffen,Vauchamps (Etoges),1814,2,14,1814,2,14,1,France,ERR,Prussia,Russia,11000,16000,?,?,1000,?,1000,?,?,5000,1000,6000
+820,472,3,Ersturmung,Soissons,1814,2,14,1814,2,14,1,Russia,ERR,France,ERR,7000,4000,?,?,500,?,500,?,?,500,3500,4000
+821,473,1,Treffen,"Nangis (Mormant, Valjouan)",1814,2,17,1814,2,17,1,France,ERR,Russia,Austria,18000,9000,?,?,?,?,600,?,?,?,?,2400
+822,473,2,Schlact,Montereau,1814,2,18,1814,2,18,1,France,ERR,Wuerttemberg,Austria,30000,15000,?,?,2000,?,2000,?,?,1400,3600,5000
+823,473,4,Treffen,Troyes (Fontvannes),1814,2,23,1814,2,24,2,France,ERR,Allies,ERR,15000,10000,?,?,400,?,400,?,?,?,1200,2000
+824,474,1,Schlact,Bar-sur-Aube,1814,2,26,1814,2,27,2,Russia,Austria,France,ERR,27000,22000,?,?,1600,300,1900,?,?,2600,500,3100
+825,474,2,Schlact,Orthez,1814,2,27,1814,2,27,1,Britain,Portugal,France,ERR,45000,35000,?,?,3200,100,3300,?,?,3000,700,3700
+826,475,1,Gefecht,"Saint-Julien (Landecy, Les Lusiettes)",1814,3,1,1814,3,1,1,Austria,ERR,France,ERR,6000,11000,?,?,650,?,650,?,?,1000,300,1300
+827,475,2,Treffen,Parma,1814,3,2,1814,3,2,1,France,Italy,Austria,ERR,12000,4000,?,?,400,?,400,?,?,600,1700,2300
+828,475,4,Treffen,"Laubressel (La Guillotiere, Troyes)",1814,3,3,1814,3,4,2,Austria,Bavaria,France,ERR,50000,20000,?,?,1000,?,1000,?,?,1000,2000,3000
+829,476,2,Schlact,Craonne,1814,3,7,1814,3,7,1,France,ERR,Russia,Prussia,23000,23000,?,?,5600,?,5600,?,?,5000,?,5000
+830,477,1,Treffen,Bergen-op-Zoom,1814,3,8,1814,3,8,1,France,ERR,Britain,ERR,2700,9000,?,?,500,100,600,?,?,1900,2100,4000
+831,477,2,Schlact,Laon,1814,3,9,1814,3,10,2,Allies,ERR,France,ERR,100000,50000,?,?,3500,?,3500,?,?,4000,2500,6500
+832,477,3,Treffen,Macon,1814,3,11,1814,3,11,1,Austria,ERR,France,ERR,8000,5000,?,?,450,450,900,?,?,800,500,1300
+833,478,2,Treffen,Reims,1814,3,13,1814,3,13,1,France,ERR,Allies,ERR,8000,13000,?,?,800,?,800,?,?,2300,2700,5000
+834,478,3,Treffen,"Limonest (Belleville, St. Georges, Lyon)",1814,3,16,1814,3,20,5,Austria,ERR,France,ERR,30000,20000,?,?,1900,1000,2900,?,?,800,1200,2000
+835,479,1,Schlact,Arcis-sur-Aube,1814,3,20,1814,3,21,2,Austria,Bavaria,France,ERR,100000,30000,?,?,3000,?,3000,?,?,3400,800,4200
+836,479,2,Treffen,Frere-Champenoise,1814,3,25,1814,3,25,1,Allies,ERR,France,ERR,28000,21000,?,?,2000,?,2000,?,?,5000,8000,13000
+837,480,1,Treffen,Saint-Dizier,1814,3,26,1814,3,26,1,France,ERR,Russia,ERR,10000,8800,?,?,?,?,600,?,?,?,?,1500
+838,480,2,Schlact,Paris (Montmartre),1814,3,30,1814,3,30,1,Allies,ERR,France,ERR,100000,42000,?,?,9000,?,9000,?,?,7000,2300,9300
+839,480,3,Gefecht,Courtray,1814,3,31,1814,3,31,1,France,ERR,Saxony,ERR,13000,9000,?,?,?,?,500,?,?,?,?,1000
+840,481,2,Schlact,Toulouse,1814,4,10,1814,4,10,1,Britain,Spain,France,ERR,60000,32000,?,?,?,?,6700,?,?,?,?,4000
+841,482,1,Belagerung,Bayonne,1814,2,23,1814,4,18,55,France,ERR,Britain,Spain,14000,25000,?,?,1600,400,2000,?,?,1700,300,2000
+842,484,2,Treffen,Lundy's Lane,1814,7,25,1814,7,25,1,USA,ERR,Britain,ERR,4000,5000,170,600,770,130,900,100,550,650,250,900
+843,484,3,Schlact,Bladensburg,1814,8,24,1814,8,24,1,Britain,ERR,USA,ERR,5000,7000,?,?,?,?,500,?,?,?,?,300
+844,485,1,Schlact,New-Orleans,1815,1,8,1815,1,8,1,USA,ERR,Britain,ERR,6000,6000,?,?,20,?,20,?,?,2000,?,2000
+845,485,2,Schlact,Tolentino,1815,5,3,1815,5,3,1,Austria,ERR,Naples,ERR,11000,29000,?,?,700,200,900,?,?,1700,2400,4100
+846,485,4,Gefecht,Gilly (Charleroi),1815,6,15,1815,6,15,1,France,ERR,Prussia,ERR,10000,5000,?,?,?,?,600,?,?,?,?,1600
+847,486,1,Schlact,Quatre-Bras,1815,6,16,1815,6,16,1,Britain,ERR,France,ERR,32000,21000,?,?,5100,500,5600,?,?,4400,?,4400
+848,486,2,Schlact,Ligny (Fleurus),1815,6,16,1815,6,16,1,France,ERR,Prussia,ERR,71000,84000,?,?,12000,?,12000,?,?,16000,8000,24000
+849,487,1,Schlact,"Waterloo (Mont St. Jean, Belle-Alliance)",1815,6,18,1815,6,18,1,Allies,ERR,France,ERR,120000,72000,?,?,19000,4000,23000,?,?,25000,17000,42000
+850,488,1,Treffen,Wavre,1815,6,18,1815,6,19,2,France,ERR,Prussia,ERR,32000,24000,?,?,?,?,2500,?,?,?,?,2500
+851,488,3,Treffen,Strassburg (an der Suffel),1815,6,28,1815,6,28,1,Austria,Bavaria,France,ERR,40000,20000,?,?,?,?,2000,?,?,?,?,1000
+852,489,2,Treffen,Hausbergen,1815,7,9,1815,7,9,1,Allies,ERR,France,ERR,20000,17000,?,?,?,?,1000,?,?,500,1200,1700
+853,493,1,Belagerung,Brailia,1828,5,11,1828,6,18,39,Russia,ERR,Turkey,ERR,17000,8000,?,?,?,?,3000,?,?,?,?,1500
+854,493,2,Belagerung,Kars,1828,7,1,1828,7,5,5,Russia,ERR,Turkey,ERR,7000,11000,?,?,600,?,600,?,?,3500,7500,11000
+855,493,3,Treffen,Achaltzikh,1828,8,21,1828,8,21,1,Russia,ERR,Turkey,ERR,11000,20000,?,?,?,?,500,?,?,1500,500,2000
+856,494,1,Belagerung,Achaltzikh,1828,8,22,1828,8,27,6,Russia,ERR,Turkey,ERR,10000,30000,?,?,1600,?,1600,?,?,5000,?,5000
+857,494,2,Treffen,Boilestie,1828,9,26,1828,9,26,1,Russia,ERR,Turkey,ERR,4500,25000,?,?,?,?,1500,?,?,2500,500,3000
+858,494,3,Treffen,Kurt-Tepe,1828,9,30,1828,9,30,1,Turkey,ERR,Russia,ERR,20000,6000,?,?,?,?,1600,?,?,?,?,1400
+859,495,1,Belagerung,Varna,1828,8,5,1828,10,11,68,Russia,ERR,Turkey,ERR,20000,15000,?,?,6000,?,6000,?,?,8000,7000,15000
+860,495,3,Treffen,Eski-Arnautlar,1829,5,17,1829,5,17,1,Russia,ERR,Turkey,ERR,7000,20000,?,?,?,?,1000,?,?,?,?,1000
+861,496,1,Schlact,Kulewtscha,1829,6,11,1829,6,11,1,Russia,ERR,Turkey,ERR,28000,40000,?,?,2500,?,2500,?,?,3000,2000,5000
+862,496,2,Belagerung,Silistria,1829,5,17,1829,6,29,44,Russia,ERR,Turkey,ERR,37000,15000,?,?,3000,?,3000,?,?,6000,9000,15000
+863,496,3,Treffen,Kainly,1829,7,1,1829,7,1,1,Russia,ERR,Turkey,ERR,19000,35000,?,?,100,?,100,?,?,1000,500,1500
+864,496,4,Treffen,Milli-Duss,1829,7,2,1829,7,2,1,Russia,ERR,Turkey,ERR,18000,20000,?,?,100,?,100,?,?,500,1200,1700
+865,497,1,Schlact,Wawer,1831,2,19,1831,2,19,1,Russia,ERR,Poland,ERR,52000,44000,?,?,3800,200,4000,?,?,2900,600,3500
+866,497,2,Schlact,Grochow,1831,2,25,1831,2,25,1,Russia,ERR,Poland,ERR,80000,50000,?,?,10000,500,10500,?,?,9000,500,9500
+867,497,3,Treffen,Dembe Wielkie,1831,3,31,1831,3,31,1,Poland,ERR,Russia,ERR,50000,26000,?,?,500,?,500,?,?,1000,4500,5500
+868,498,1,Treffen,Iganie,1831,4,10,1831,4,10,1,Poland,ERR,Russia,ERR,22000,24000,?,?,1500,?,1500,?,?,1700,2300,4000
+869,498,2,Schlact,Ostrolenka,1831,5,26,1831,5,26,1,Russia,ERR,Poland,ERR,38000,32000,?,?,4500,500,5000,?,?,7000,2000,9000
+870,498,3,Schlact,Warschau,1831,9,6,1831,9,7,2,Russia,ERR,Poland,ERR,78000,37000,?,?,10600,?,10600,?,?,7800,3000,10800
+871,499,1,Belagerung,Akka (Saint-Jean-d'Acre),1831,11,29,1832,5,27,181,Egypt,ERR,Turkey,ERR,20000,4000,?,?,2000,?,2000,?,?,1400,2600,4000
+872,499,2,Schlact,Homs,1832,7,9,1832,7,9,1,Egypt,ERR,Turkey,ERR,15000,20000,?,?,500,?,500,?,?,2000,3000,5000
+873,499,3,Schlact,Beylan,1832,7,29,1832,7,29,1,Egypt,ERR,Turkey,ERR,14000,17000,?,?,500,?,500,?,?,2500,1500,4000
+874,500,1,Schlact,Koniah (Ikonium),1832,12,21,1832,12,21,1,Egypt,ERR,Turkey,ERR,22000,44000,?,?,2000,?,2000,?,?,3000,9000,12000
+875,500,3,Schlact,Nisib (Nesbi),1839,6,24,1839,6,24,1,Egypt,ERR,Turkey,ERR,43000,33000,?,?,?,?,500,?,?,1000,10000,11000
+876,501,1,Ersturmung,Akka (Saint-Jean-d'Acre),1840,11,3,1840,11,3,1,Turkey,Britain,Egypt,ERR,4700,5000,?,?,100,?,100,?,?,2000,1200,3200
+877,501,2,Schlact,Isly (Dscharf-el-Akdar),1844,8,14,1844,8,14,1,France,ERR,Morocco,ERR,10000,30000,?,?,70,?,70,?,?,?,?,2000
+878,501,3,Schlact,Buena Vista,1847,2,22,1847,2,22,1,USA,ERR,Mexico,ERR,4400,20000,?,?,720,?,720,?,?,2000,?,2000
+879,502,1,Gefecht,Bau,1848,4,9,1848,4,9,1,Denmark,ERR,Germany,ERR,11000,6000,?,?,100,?,100,?,?,150,800,950
+880,502,2,Schlact,Schleswig,1848,4,23,1848,4,23,1,Germany,ERR,Denmark,ERR,16000,11000,?,?,?,?,500,?,?,?,?,800
+881,502,3,Treffen,Pastrengo,1848,4,28,1848,4,30,3,Sardinia,ERR,Austria,ERR,25000,5000,?,?,?,?,500,?,?,200,650,850
+882,503,1,Schlact,Santa Lucia,1848,5,6,1848,5,6,1,Austria,ERR,Sardinia,ERR,19000,41000,75,185,260,90,350,100,650,750,1000,1750
+883,503,2,Treffen,Curatone & Montanara,1848,5,29,1848,5,29,1,Austria,ERR,Sardinia,ERR,19000,4000,100,550,650,50,700,170,530,700,3200,3900
+884,504,1,Treffen,Goito,1848,5,30,1848,5,30,1,Sardinia,ERR,Austria,ERR,18000,11000,50,250,300,50,350,70,330,400,250,650
+885,504,2,Ersturmung,Vicenza,1848,6,10,1848,6,10,1,Austria,ERR,Italy,ERR,31000,18000,?,?,?,?,900,?,?,?,?,1400
+886,504,3,Treffen,Sona,1848,7,23,1848,7,23,1,Austria,ERR,Sardinia,ERR,42000,10000,?,?,600,300,900,?,?,300,200,500
+887,505,1,Treffen,Sommacampagna (Staffalo),1848,7,24,1848,7,24,1,Sardinia,ERR,Austria,ERR,23000,6000,?,?,100,?,100,?,?,300,1300,1600
+888,505,2,Schlact,Custozza,1848,7,25,1848,7,25,1,Austria,ERR,Sardinia,ERR,55000,75000,180,720,900,450,1350,220,680,900,300,1200
+889,505,3,Treffen,Volta,1848,7,27,1848,7,27,1,Austria,ERR,Sardinia,ERR,19000,16000,?,?,?,?,500,?,?,?,?,700
+890,506,1,Treffen,Mailand,1848,8,4,1848,8,5,2,Austria,ERR,Sardinia,ERR,28000,42000,?,?,?,?,350,?,?,?,?,700
+891,506,2,Treffen,Moor,1848,12,30,1848,12,30,1,Austria,ERR,Hungary,ERR,16000,6000,?,?,?,?,100,?,?,1000,1200,2200
+892,506,3,Treffen,Piski,1849,2,8,1849,2,9,2,Hungary,ERR,Austria,ERR,9000,8000,?,?,?,?,1000,?,?,?,?,2000
+893,506,4,Schlact,Kapolna,1849,2,26,1849,2,27,2,Austria,ERR,Hungary,ERR,28000,38000,?,?,350,?,350,?,?,1200,600,1800
+894,507,1,Treffen,Mortara,1849,3,21,1849,3,21,1,Austria,ERR,Sardinia,ERR,16000,24000,?,?,310,40,350,?,?,300,2100,2400
+895,507,2,Schlact,Novara,1849,3,23,1849,3,23,1,Austria,ERR,Sardinia,ERR,41000,59000,420,1880,2300,1000,3300,1100,1900,3000,5400,8400
+896,507,3,Schlact,Isaszeg,1849,4,6,1849,4,6,1,Hungary,ERR,Austria,ERR,53000,37000,?,?,?,?,1200,?,?,?,?,2000
+897,508,1,Schlact,Nagy-Sarlo,1849,4,19,1849,4,19,1,Hungary,ERR,Austria,ERR,25000,15000,?,?,?,?,600,?,?,?,?,800
+898,508,3,Schlact,Pered,1849,6,21,1849,6,21,1,Austria,Russia,Hungary,ERR,30000,20000,?,?,550,150,700,?,?,1500,200,1700
+899,508,4,Schlact,Komorn (Komarom),1849,7,2,1849,7,2,1,Austria,Russia,Hungary,ERR,51000,50000,?,?,700,200,900,?,?,1300,200,1500
+900,509,1,Schlact,Fredericia,1849,7,6,1849,7,6,1,Denmark,ERR,Germany,ERR,20000,14000,260,1610,1870,30,1900,220,1130,1350,1650,3000
+901,509,2,Schlact,Komorn (Acs),1849,7,11,1849,7,11,1,Austria,Russia,Hungary,ERR,34000,40000,?,?,800,100,900,?,?,1200,300,1500
+902,509,3,Schlact,Hegyes,1849,7,14,1849,7,14,1,Hungary,ERR,Austria,ERR,15000,8000,?,?,?,?,250,?,?,?,?,800
+903,510,1,Schlact,Schassburg (Segesvar),1849,7,31,1849,7,31,1,Russia,ERR,Hungary,ERR,12000,7000,?,?,?,?,200,?,?,1300,500,1800
+904,510,2,Treffen,Reussmarkt,1849,8,1,1849,8,1,1,Russia,ERR,Hungary,ERR,4000,4000,?,?,?,?,50,?,?,200,1200,1400
+905,510,3,Treffen,Debreczen,1849,8,2,1849,8,2,1,Russia,ERR,Hungary,ERR,20000,8000,?,?,?,?,200,?,?,?,?,2000
+906,510,4,Treffen,Puszta Herkal,1849,8,3,1849,8,3,1,Hungary,ERR,Austria,ERR,10000,6000,?,?,?,?,200,?,?,?,?,1000
+907,511,1,Schlact,Szoreg,1849,8,5,1849,8,5,1,Austria,Russia,Hungary,ERR,25000,38000,?,?,300,0,300,?,?,500,3200,3700
+908,511,2,Schlact,Gross-Scheuern,1849,8,6,1849,8,6,1,Russia,ERR,Hungary,ERR,11000,8000,?,?,100,?,100,?,?,1100,1200,2300
+909,511,3,Schlact,Temesvar,1849,8,9,1849,8,9,1,Austria,Russia,Hungary,ERR,37000,45000,?,?,200,?,200,?,?,500,6000,6500
+910,512,2,Schlact,Idstedt,1850,7,25,1850,7,25,1,Denmark,ERR,Germany,ERR,39000,26000,450,2750,3200,600,3800,540,1210,1750,1150,2900
+911,512,3,Gefecht,Missunde,1850,9,12,1850,9,12,1,Denmark,ERR,Germany,ERR,4000,12000,?,?,?,?,250,?,?,?,?,300
+912,512,4,Ersturmung,Friedrichstadt,1850,10,4,1850,10,4,1,Denmark,ERR,Germany,ERR,3300,11500,?,?,?,?,450,?,?,?,?,700
+913,513,1,Treffen,Oltenitza,1853,11,4,1853,11,4,1,Turkey,ERR,Russia,ERR,3000,7000,?,?,?,?,1000,?,?,?,?,1000
+914,513,3,Treffen,Cetatea,1854,1,6,1854,1,6,1,Russia,ERR,Turkey,ERR,6000,10000,?,?,?,?,2000,?,?,?,?,3600
+915,514,1,Belagerung,Silistria,1854,5,16,1854,6,22,38,Turkey,ERR,Russia,ERR,20000,60000,?,?,?,?,800,?,?,?,?,1600
+916,514,2,Schlact,Alma,1854,9,20,1854,9,20,1,France,Turkey,Russia,ERR,65000,35000,630,3770,4400,0,4400,1820,3180,5000,800,5800
+917,515,1,Treffen,Balaklawa,1854,10,25,1854,10,25,1,Russia,ERR,Turkey,France,21000,29000,?,?,?,?,600,?,?,?,?,1200
+918,515,2,Schlact,Inkerman,1854,11,5,1854,11,5,1,Britain,France,Russia,ERR,30000,36000,150,5550,7000,0,7000,3000,9000,12000,?,12000
+919,516,1,Gefecht,Eupatoria,1855,2,17,1855,2,17,1,Turkey,France,Russia,ERR,22000,18000,?,?,500,?,500,?,?,?,?,1500
+920,516,2,Schlact,Tschernaja (Traktir),1855,8,16,1855,8,16,1,Allies,ERR,Russia,ERR,40000,50000,250,1550,1800,0,1800,3330,3970,7300,1500,8800
+921,517,1,Belagerung,Sebastopol,1854,9,27,1855,9,8,347,Allies,ERR,Russia,ERR,200000,200000,?,?,?,?,54000,?,?,?,?,103000
+922,518,3,Treffen,Montebello,1859,5,20,1859,5,20,1,France,ERR,Austria,ERR,8300,18700,150,650,800,100,900,330,770,1100,400,1500
+923,519,1,Treffen,Palestro,1859,5,30,1859,5,31,2,Sardinia,France,Austria,ERR,26000,18000,?,?,1000,?,1000,?,?,1700,500,2200
+924,519,2,Schlact,Magenta,1859,6,4,1859,6,4,1,France,ERR,Austria,ERR,48000,62000,700,3200,3900,700,4600,1370,4330,5700,4500,10200
+925,520,1,Treffen,Melegnano (Marignano),1859,6,8,1859,6,8,1,France,ERR,Austria,ERR,40500,8500,160,840,1000,0,1000,120,240,360,1140,1500
+926,520,2,Schlact,Solferino,1859,6,24,1859,6,24,1,France,Sardinia,Austria,ERR,143000,130000,2600,7700,10300,2800,17400,2300,10800,13100,8700,21800
+927,521,1,Gefecht,Milazzo,1860,7,20,1860,7,20,1,Garibaldi's Troops,ERR,Naples,ERR,3500,5000,?,?,?,?,700,?,?,?,?,200
+928,521,2,Treffen,Castelfidardo,1860,9,19,1860,9,19,1,Sardinia,ERR,Vatican,ERR,30000,6000,?,?,?,?,200,?,?,500,600,1100
+929,521,4,Schlact,Capua (am Volturno),1860,10,1,1860,10,2,2,Garibaldi's Troops,ERR,Naples,ERR,18000,38000,?,?,1500,1200,2700,?,?,1700,3000,4700
+930,522,1,Schlact,Bull Run (Manassas Junction),1861,7,21,1861,7,21,1,Confederates,ERR,USA,ERR,32000,35000,400,1600,2000,0,2000,470,1130,1600,1300,2900
+931,522,2,Treffen,Wilson's Creek (Oak Hills),1861,8,10,1861,8,10,1,Confederates,ERR,USA,ERR,10000,6000,?,?,1230,70,1300,?,?,1140,160,1300
+932,523,1,Belagerung,Fort Donelson,1862,2,12,1862,2,15,4,USA,ERR,Confederates,ERR,27000,17000,?,?,2660,240,2900,?,?,2000,13000,15000
+933,523,2,Treffen,Pea Ridge (Elkhorn Tavern),1862,3,7,1862,3,8,2,USA,ERR,Confederates,ERR,12000,16000,?,?,1200,200,1400,?,?,1100,500,1600
+934,523,3,Schlact,Shiloh (Pittsburg Landing),1862,4,6,1862,4,7,2,USA,ERR,Confederates,ERR,60000,40000,1800,8400,10200,2800,13000,1730,8070,9800,1000,10800
+935,524,1,Schlact,Williamsburg,1862,5,5,1862,5,5,1,USA,ERR,Confederates,ERR,45000,30000,460,1440,1900,500,2400,300,1000,1300,300,1600
+936,524,2,Schlact,"Seven Pines (Fair Oaks, White Oak Swamp)",1862,5,31,1862,6,1,2,Confederates,ERR,USA,ERR,39000,51000,1100,5400,6500,500,7000,800,3600,4400,600,5000
+937,525,1,Schlact,"Chickahominy (Mechanicsville, Gainse's Mill, Cold Harbor, Malvern Hill)",1862,6,25,1862,7,1,7,Confederates,ERR,USA,ERR,94000,106000,3200,15800,19000,1000,20000,1700,8300,10000,6000,16000
+938,525,2,Treffen,Cedar Mountain,1862,8,9,1862,8,9,1,Confederates,ERR,USA,ERR,20000,18000,230,1070,1300,0,1300,330,1470,1800,700,2500
+939,526,1,Schlact,Bull Run (Manassas Junction),1862,8,29,1862,8,30,2,Confederates,ERR,USA,ERR,50000,70000,1550,7850,9400,100,9500,1700,8500,10200,4300,14500
+940,526,2,Treffen,Richmond (Rogersville),1862,8,30,1862,8,30,1,Confederates,ERR,USA,ERR,8000,16000,80,370,450,0,450,210,840,1050,4350,5400
+941,527,1,Treffen,Boonsborough (South Mountain),1862,9,14,1862,9,14,1,USA,ERR,Confederates,ERR,24000,15000,350,1450,1800,100,1900,300,1300,1600,500,2100
+942,527,3,Schlact,Antietam (Sharpsburg),1862,9,17,1862,9,17,1,USA,ERR,Confederates,ERR,60000,40000,2100,9600,11700,800,12500,1510,7890,9400,1800,11200
+943,528,1,Schlact,Corinth,1862,10,3,1862,10,4,2,USA,ERR,Confederates,ERR,25000,22000,350,1850,2200,400,2600,500,2200,2700,3300,6000
+944,528,2,Schlact,Perryville,1862,10,8,1862,10,8,1,Confederates,ERR,USA,ERR,1600,24000,520,2630,3150,250,3400,850,2850,3700,500,4200
+945,528,3,Treffen,Prairie Grove,1862,12,7,1862,12,7,1,USA,ERR,Confederates,ERR,14000,11000,?,?,1000,250,1250,?,?,1000,350,1350
+946,529,1,Schlact,Fredericksburg,1862,12,11,1862,12,15,5,Confederates,ERR,USA,ERR,78000,117000,600,4100,4700,700,5400,1350,9650,11000,2000,13000
+947,529,2,Schlact,Murfreesborough (Stone's River),1862,12,31,1863,1,3,4,USA,ERR,Confederates,ERR,45000,38000,1730,7870,9600,4000,13600,1300,8000,9300,1100,10400
+948,530,1,Treffen,Chickasaw Bluffs,1863,3,1,1863,3,1,1,Confederates,ERR,USA,ERR,25000,33000,?,?,200,?,200,?,?,1200,600,1800
+949,530,2,Kapitulation,Arkansas Post (Fort Hindman),1863,1,11,1863,1,11,1,USA,ERR,Confederates,ERR,26000,5000,?,?,1100,?,1100,?,?,200,4800,5000
+950,530,3,Schlact,Chancellorsville,1863,5,3,1863,5,5,3,Confederates,ERR,USA,ERR,80000,130000,1700,9100,10800,2000,12800,1600,9800,11400,6000,17400
+951,531,1,Schlact,Champion's Hill (Baker's Creek),1863,5,16,1863,5,16,1,USA,ERR,Confederates,ERR,30000,18000,450,1850,2300,200,2500,?,?,3000,3000,6000
+952,531,3,Treffen,Winchester,1863,6,15,1863,6,15,1,Confederates,ERR,USA,ERR,18000,9000,?,?,300,?,300,?,?,500,4000,4500
+953,532,1,Schlact,Gettysburg,1863,7,1,1863,7,3,3,USA,ERR,Confederates,ERR,90000,68000,3160,14540,17700,5300,23000,2600,12700,15300,6700,22000
+954,532,2,Belagerung,Vicksburg,1863,5,19,1863,7,4,47,USA,ERR,Confederates,ERR,75000,28000,?,?,9000,?,9000,?,?,7000,21000,28000
+955,533,1,Schlact,Chickamauga,1863,9,19,1863,9,20,2,Confederates,ERR,USA,ERR,70000,57000,2400,13400,15800,2000,17800,1700,9800,11500,5000,16500
+956,533,2,Schlact,"Ringgold (Chattanooga, Missionary Ridge)",1863,11,13,1863,11,15,3,USA,ERR,Confederates,ERR,65000,45000,800,4800,5600,400,6000,400,2200,2600,4400,7000
+957,534,1,Treffen,Ober Selk & Jagel,1864,2,3,1864,2,3,1,Austria,ERR,Denmark,ERR,5000,5000,?,?,?,?,430,?,?,?,?,420
+958,534,2,Gefecht,Oeversee,1864,2,6,1864,2,6,1,Austria,ERR,Denmark,ERR,5500,6000,?,?,?,?,430,?,?,900,100,1000
+959,534,3,Ersturmung,Duppler Schanzen,1864,4,18,1864,4,18,1,Prussia,ERR,Denmark,ERR,37000,23000,?,?,1200,?,1200,?,?,1200,3600,4800
+960,535,1,Schlact,Wilderness,1864,5,5,1864,5,7,3,USA,ERR,Confederates,ERR,118000,62000,2250,12050,14300,3400,17700,1000,6000,7000,300,7300
+961,535,2,Schlact,Spottsylvania Court House,1864,5,8,1864,5,12,5,USA,ERR,Confederates,ERR,100000,50000,2730,13470,16200,2300,18500,1000,4000,5000,4000,9000
+962,536,1,Schlact,Resaca,1864,5,14,1864,5,14,1,USA,ERR,Confederates,ERR,93000,52000,?,?,4000,500,4500,?,?,1500,3000,4500
+963,536,2,Treffen,Drewry's Bluff,1864,5,16,1864,5,16,1,Confederates,ERR,USA,ERR,25000,30000,?,?,3000,?,3000,?,?,3000,1500,4500
+964,536,3,Treffen,Pamunkey,1864,5,22,1864,5,26,5,USA,ERR,Confederates,ERR,52000,38000,?,?,?,?,4000,?,?,?,?,3000
+965,536,4,Treffen,New Hope Church (Dallas),1864,5,28,1864,5,28,1,USA,ERR,Confederates,ERR,80000,40000,?,?,?,?,2400,?,?,?,?,3000
+966,537,1,Schlact,Cold Harbor,1864,6,3,1864,6,3,1,Confederates,ERR,USA,ERR,60000,100000,400,1300,1700,0,1700,1900,9100,11000,1800,12800
+967,537,2,Treffen,Kenesaw Mountain,1864,6,27,1864,6,27,1,Confederates,ERR,USA,ERR,6000,18000,?,?,?,?,800,?,?,?,?,3000
+968,537,3,Treffen,Alsen,1864,6,29,1864,6,29,1,Prussia,ERR,Denmark,ERR,20000,11000,?,?,400,?,400,?,?,700,2500,3200
+969,538,1,Schlact,Peach Tree Creek (Atlanta),1864,7,20,1864,7,20,1,USA,ERR,Confederates,ERR,72000,48000,?,?,?,?,1700,?,?,?,?,4800
+970,538,2,Schlact,Atlanta,1864,7,22,1864,7,22,1,USA,ERR,Confederates,ERR,70000,40000,?,?,?,?,4000,?,?,?,?,8500
+971,538,3,Schlact,Ezra Church (Atlanta),1864,7,28,1864,7,28,1,USA,ERR,Confederates,ERR,60000,30000,?,?,?,?,700,?,?,?,?,4600
+972,539,1,Schlact,Winchester (Opequon),1864,9,19,1864,9,19,1,USA,ERR,Confederates,ERR,43000,13000,?,?,4400,600,5000,?,?,2000,2000,4000
+973,539,2,Schlact,Middletown (Cedar Creek),1864,10,19,1864,10,19,1,USA,ERR,Confederates,ERR,40000,18000,?,?,4100,1600,5700,?,?,1900,1200,3100
+974,540,1,Schlact,Franklin,1864,11,30,1864,11,30,1,Confederates,ERR,USA,ERR,37000,27000,1750,3850,5600,700,6300,200,1100,1300,1400,2700
+975,540,2,Schlact,Nashville,1864,12,15,1864,12,16,2,USA,ERR,Confederates,ERR,55000,38000,?,?,?,?,3100,?,?,?,?,15000
+976,541,1,Schlact,Bentonville,1865,3,20,1865,3,20,1,USA,ERR,Confederates,ERR,60000,30000,?,?,1500,200,1700,?,?,1700,1600,3300
+977,541,2,Belagerung,Petersburg,1864,6,9,1865,4,3,299,USA,ERR,Confederates,ERR,120000,67000,6000,33000,39000,21000,60000,?,?,?,?,40000
+978,543,1,Schlact,Custozza,1866,6,24,1866,6,24,1,Austria,ERR,Italy,ERR,75000,90000,1170,4030,5200,2800,8000,730,2670,3400,4100,7500
+979,543,2,Gefecht,Podol,1866,6,27,1866,6,27,1,Prussia,ERR,Austria,ERR,10000,23000,?,?,?,?,130,?,?,370,730,1100
+980,544,1,Schlact,Langensalza,1866,6,27,1866,6,27,1,Hanover,ERR,Prussia,ERR,16000,9000,400,1100,1500,?,1500,200,700,900,900,1800
+981,544,2,Treffen,Wysokow (Nachod),1866,6,27,1866,6,27,1,Prussia,ERR,Austria,ERR,24000,31000,300,900,1200,?,1200,1110,2590,3700,2100,5800
+982,545,1,Treffen,Trautenau,1866,6,27,1866,6,27,1,Austria,ERR,Prussia,ERR,27000,32000,1100,2500,3600,1200,4800,330,970,1300,100,1400
+983,545,2,Treffen,"Soor (Rudersdorf, Neu Rognitz)",1866,6,28,1866,6,28,1,Prussia,ERR,Austria,ERR,27000,22000,160,560,720,?,720,200,900,1100,2700,3800
+984,546,1,Gefecht,Munchengratz,1866,6,28,1866,6,28,1,Prussia,ERR,Austria,ERR,41000,29000,?,?,350,?,350,?,?,920,780,1700
+985,546,2,Treffen,Skalitz,1866,6,28,1866,6,28,1,Prussia,ERR,Austria,ERR,30000,23000,310,1090,1400,?,1400,900,2430,3330,2270,5600
+986,547,1,Treffen,Jicin (Gitschin),1866,6,29,1866,6,29,1,Prussia,ERR,Austria,Saxony,26000,44000,340,1260,1600,?,1600,730,2170,2900,2600,5500
+987,547,2,Gefecht,Schweinschadel,1866,6,29,1866,6,29,1,Prussia,ERR,Austria,ERR,24000,20000,?,?,400,?,400,?,?,1330,170,1500
+988,548,1,Schlact,Koniggratz (Sadowa),1866,7,3,1866,7,3,1,Prussia,ERR,Austria,Saxony,220000,215000,2000,6900,8900,300,9200,5800,17800,23600,20700,44300
+989,549,1,Gefecht,Kissingen,1866,7,10,1866,7,10,1,Prussia,ERR,Bavaria,ERR,16000,14000,?,?,950,50,1000,?,?,750,650,1400
+990,549,2,Gefecht,Aschaffenburg,1866,7,14,1866,7,14,1,Prussia,ERR,Austria,Hesse,14000,7000,?,?,200,?,200,?,?,510,2490,3000
+991,549,3,Gefecht,Tobitschau,1866,7,15,1866,7,15,1,Prussia,ERR,Austria,ERR,26000,34000,?,?,250,?,250,?,?,600,800,1400
+992,550,2,Gefecht,Bececca,1866,7,21,1866,7,21,1,Austria,ERR,Italy,ERR,3000,9200,?,?,110,?,110,?,?,700,1100,1800
+993,551,1,Gefecht,Blumenau,1866,7,22,1866,7,22,1,Prussia,ERR,Austria,ERR,25000,20000,?,?,?,?,210,?,?,?,?,490
+994,551,2,Gefecht,Rossbrunn,1866,7,26,1866,7,26,1,Prussia,ERR,Bavaria,ERR,25000,22000,?,?,820,30,850,?,?,750,200,950
+995,551,3,Treffen,Mentana,1867,11,3,1867,11,3,1,Vatican,France,Garibaldi,ERR,3000,7000,?,?,400,?,400,?,?,1000,1400,2400
+996,552,1,Treffen,Weissenburg,1870,8,4,1870,8,4,1,Germany,ERR,France,ERR,51000,6000,225,1325,1550,50,1600,?,?,1100,1000,2100
+997,552,2,Schlact,Worth (Reichshofen),1870,8,6,1870,8,6,1,Germany,ERR,France,ERR,82000,41000,1500,7800,9300,1400,10700,?,?,8000,12300,20300
+998,553,1,Schlact,Spicheren,1870,8,6,1870,8,6,1,Germany,ERR,France,ERR,35000,28000,850,3650,4500,400,4900,?,?,?,?,4100
+999,553,2,Schlact,Colombey-Nouilly (Borny),1870,8,14,1870,8,14,1,Germany,ERR,France,ERR,58000,84000,1200,3600,4800,200,5000,430,2770,3200,600,3800
+1000,554,1,Schlact,"Mars-la-Tour (Rezonville, Vionville)",1870,8,16,1870,8,16,1,Germany,ERR,France,ERR,63000,113000,4420,10480,14900,1100,16000,?,?,?,?,17000
+1001,554,2,Schlact,"Gravelotte (Saint Privat, Amanvillers)",1870,8,18,1870,8,18,1,Germany,ERR,France,ERR,187000,113000,5240,14460,19700,500,20200,?,?,?,?,12800
+1002,555,1,Schlact,Beaumont,1870,8,30,1870,8,30,1,Germany,ERR,France,ERR,68000,59000,670,2730,3400,200,3600,?,?,?,?,5500
+1003,555,2,Schlact,Noisseville,1870,8,31,1870,9,1,2,Germany,ERR,France,ERR,78000,96000,680,2120,2800,300,3100,?,?,?,?,3600
+1004,556,1,Schlact,Sedan,1870,9,1,1870,9,1,1,Germany,ERR,France,ERR,160000,95000,2320,5980,8300,700,9000,?,?,17000,21000,38000
+1005,557,2,Gefecht,Chatillon (Petit Bicetre),1870,9,19,1870,9,19,1,Germany,ERR,France,ERR,35000,30000,?,?,500,?,500,?,?,700,100,800
+1006,558,1,Belagerung,Strassburg,1870,8,13,1870,9,27,46,Germany,ERR,France,ERR,40000,23000,?,?,1000,?,1000,?,?,2500,17000,19500
+1007,558,2,Gefecht,Chevilly,1870,9,30,1870,9,30,1,Germany,ERR,France,ERR,9000,20000,?,?,500,?,500,?,?,2000,100,2100
+1008,558,3,Gefecht,La Bourgonce,1870,10,6,1870,10,6,1,Germany,ERR,France,ERR,6000,10000,?,?,500,?,500,?,?,900,600,1500
+1009,559,1,Treffen,Bellevue (Ladonchamps),1870,10,7,1870,10,7,1,Germany,ERR,France,ERR,40000,36000,?,?,1300,500,1800,?,?,1200,100,1300
+1010,559,2,Treffen,Orleans,1870,10,11,1870,10,11,1,Germany,ERR,France,ERR,30000,20000,?,?,1000,?,1000,?,?,700,1800,2500
+1011,560,2,Kapitulation,Metz,1870,8,19,1870,10,27,70,Germany,ERR,France,ERR,200000,180000,?,?,6000,?,6000,?,?,6000,?,6000
+1012,560,3,Ersturmung,Le Bourget,1870,10,30,1870,10,30,1,Germany,ERR,France,ERR,6000,8000,?,?,500,?,500,?,?,1400,1200,2600
+1013,561,3,Schlact,Coulmiers,1870,11,9,1870,11,9,1,France,ERR,Germany,ERR,60000,20000,?,?,1500,300,1800,?,?,1000,800,1800
+1014,562,1,Schlact,Amiens (Villers-Bretonneux),1870,11,27,1870,11,27,1,Germany,ERR,France,ERR,35000,25000,230,1070,1300,300,1600,260,1140,1400,2100,3500
+1015,562,3,Schlact,Beaune-la-Rolande,1870,11,28,1870,11,28,1,Germany,ERR,France,ERR,40000,60000,?,?,1000,?,1000,?,?,2200,1800,4000
+1016,563,1,Schlact,Villiers-sur-Marne,1870,11,30,1870,11,30,1,Germany,ERR,France,ERR,25000,65000,410,1290,1700,?,1700,?,?,5000,500,5500
+1017,563,2,Gefecht,Villepion,1870,12,1,1870,12,1,1,France,ERR,Germany,ERR,14000,8000,?,?,500,?,500,?,?,800,300,1100
+1018,563,3,Schlact,Campigny (Villiers),1870,12,2,1870,12,2,1,Germany,ERR,France,ERR,28000,52000,730,2770,3500,?,3500,?,?,3500,1500,5000
+1019,564,1,Schlact,Loigny,1870,12,2,1870,12,2,1,Germany,ERR,France,ERR,38000,52000,760,2840,3600,700,4300,?,?,4500,2500,7000
+1020,564,2,Schlact,Orleans,1870,12,3,1870,12,4,2,Germany,ERR,France,ERR,86000,64000,400,1600,2000,?,2000,?,?,3000,18000,21000
+1021,565,1,Schlact,"Beaugency-Cravant (Josnes, Villorceau)",1870,12,8,1870,12,10,3,Germany,ERR,France,ERR,30000,60000,600,2900,3500,100,3600,?,?,5000,4000,9000
+1022,566,1,Treffen,Nuits,1870,12,18,1870,12,18,1,Germany,ERR,France,ERR,16000,11000,?,?,1000,?,1000,?,?,1000,700,1700
+1023,566,2,Gefecht,Le Bourget,1870,12,21,1870,12,21,1,Germany,ERR,France,ERR,4000,8000,?,?,400,100,500,?,?,1800,400,2200
+1024,566,3,Schlact,Pont-Noyelles (an der Hallue),1870,12,23,1870,12,24,2,Germany,ERR,France,ERR,26000,41000,?,?,1000,?,1000,?,?,1100,1900,3000
+1025,567,2,Schlact,Bapaume,1871,1,3,1871,1,3,1,Germany,ERR,France,ERR,23000,37000,?,?,1000,100,1100,?,?,1350,1150,2500
+1026,568,3,Schlact,Le Mans,1871,1,10,1871,1,12,3,Germany,ERR,France,ERR,72000,88000,?,?,3500,500,4000,?,?,6000,20000,26000
+1027,569,1,Schlact,"Hericourt (an der Lisane, Belfort)",1871,1,15,1871,1,17,3,Germany,ERR,France,ERR,45000,135000,300,1500,1800,400,2200,?,?,4000,500,4500
+1028,569,2,Schlact,Saint Quentin,1871,1,19,1871,1,19,1,Germany,ERR,France,ERR,33000,47000,450,2050,2500,100,2600,?,?,3500,9000,12500
+1029,570,1,Schlact,Buzenval (am Mont Valerien),1871,1,19,1871,1,19,1,Germany,ERR,France,ERR,23000,83000,200,500,700,?,700,1200,2800,4000,500,4500
+1030,570,3,Schlact,"Dijon (Talant, Fontaine, Pouilly)",1871,1,21,1871,1,23,3,France,ERR,Germany,ERR,40000,6300,?,?,1700,500,2200,?,?,700,100,800
+1031,571,1,Belagerung,Paris,1870,9,19,1871,1,28,132,Germany,ERR,France,ERR,240000,400000,?,?,10000,2000,12000,?,?,16000,8000,24000
+1032,571,2,Belagerung,Belfort,1870,11,3,1871,2,16,106,Germany,ERR,France,ERR,26000,18000,?,?,2200,?,2200,?,?,4800,?,4800
+1033,572,1,Ersturmung,Ardaghan,1877,5,17,1877,5,17,1,Russia,ERR,Turkey,ERR,50000,10000,?,?,600,?,600,?,?,1500,1500,3000
+1034,572,2,Gefecht,Dagar,1877,6,16,1877,6,16,1,Russia,ERR,Turkey,ERR,10000,7000,?,?,?,?,200,?,?,?,?,1000
+1035,572,3,Treffen,Seidekian (Halijas),1877,6,21,1877,6,21,1,Turkey,ERR,Russia,ERR,15000,10000,?,?,?,?,2000,?,?,?,?,1600
+1036,573,1,Treffen,Sewin,1877,6,25,1877,6,25,1,Turkey,ERR,Russia,ERR,11000,16000,?,?,?,?,600,?,?,?,?,1000
+1037,573,2,Schlact,Plewna I,1877,7,20,1877,7,20,1,Turkey,ERR,Russia,ERR,14000,10000,?,?,?,?,2000,?,?,?,?,3000
+1038,573,3,Schlact,Plewna II,1877,7,30,1877,7,30,1,Turkey,ERR,Russia,ERR,20000,33000,?,?,?,?,3500,?,?,?,?,7500
+1039,573,4,Schlact,Baschkadauklar (am Kisil-Tepe),1877,8,25,1877,8,25,1,Turkey,ERR,Russia,ERR,30000,36000,460,1140,1600,?,1600,1000,3000,4000,?,4000
+1040,574,1,Schlact,Schipka Pass,1877,8,21,1877,8,26,6,Russia,ERR,Turkey,ERR,18000,27000,?,?,5400,?,5400,?,?,7000,?,7000
+1041,574,2,Treffen,Sgalevice-Pelischat,1877,8,31,1877,8,31,1,Russia,ERR,Turkey,ERR,17000,11000,?,?,?,?,1000,?,?,?,?,1400
+1042,574,3,Treffen,Lovca,1877,9,3,1877,9,3,1,Russia,ERR,Turkey,ERR,24000,8000,?,?,1600,?,1600,?,?,2400,600,3000
+1043,574,4,Treffen,Kaceljewo-Ablava,1877,9,5,1877,9,5,1,Turkey,ERR,Russia,ERR,29000,13000,?,?,?,?,1700,?,?,?,?,2000
+1044,575,1,Schlact,Plewna III,1877,9,6,1877,9,12,7,Turkey,ERR,Russia,Romania,35000,95000,?,?,?,?,7000,?,?,?,?,16000
+1045,575,2,Treffen,Schipka Pass,1877,9,17,1877,9,18,2,Russia,ERR,Turkey,ERR,18000,19000,?,?,?,?,1100,?,?,?,?,1300
+1046,575,3,Gefecht,Cairkioj,1877,9,21,1877,9,21,1,Russia,ERR,Turkey,ERR,12000,5000,?,?,?,?,800,?,?,?,?,1500
+1047,576,1,Schlact,Subotan,1877,10,2,1877,10,4,3,Turkey,ERR,Russia,ERR,40000,60000,?,?,?,?,5000,?,?,?,?,4000
+1048,576,2,Schlact,Vizinkioi (am Aladscha-Dagh),1877,10,15,1877,10,15,1,Russia,ERR,Turkey,ERR,55000,30000,?,?,2000,?,2000,?,?,3000,12000,15000
+1049,576,3,Treffen,Gornij-Dubnjak,1877,10,24,1877,10,24,1,Russia,ERR,Turkey,ERR,25000,4000,?,?,3500,?,3500,?,?,1500,2500,4000
+1050,577,1,Schlact,Deve-Bojun,1877,11,4,1877,11,4,1,Russia,ERR,Turkey,ERR,26000,15000,?,?,?,?,1000,?,?,?,?,3000
+1051,577,2,Ersturmung,Kars,1877,11,8,1877,11,8,1,Russia,ERR,Turkey,ERR,36000,18000,?,?,3000,?,3000,?,?,5000,10000,15000
+1052,577,3,Treffen,Trstenik,1877,11,26,1877,11,26,1,Russia,ERR,Turkey,ERR,22000,32000,?,?,?,?,1000,?,?,?,?,1400
+1053,578,1,Treffen,Elena,1877,12,4,1877,12,4,1,Turkey,ERR,Russia,ERR,20000,5000,?,?,?,?,1300,?,?,?,?,1900
+1054,578,2,Schlact,Plewna IV,1877,12,10,1877,12,10,1,Russia,Romania,Turkey,ERR,120000,30000,?,?,2000,?,2000,?,?,5000,?,5000
+1055,579,1,Schlact,Mecka,1877,12,12,1877,12,12,1,Russia,ERR,Turkey,ERR,70000,35000,?,?,?,?,800,?,?,?,?,3000
+1056,579,2,Treffen,Gornij-Bugarof,1878,1,1,1878,1,1,1,Russia,ERR,Turkey,ERR,18000,10000,?,?,?,?,300,?,?,?,?,2400
+1057,579,3,Schlact,Schenevo (Onucurtu),1878,1,9,1878,1,9,1,Russia,ERR,Turkey,ERR,67000,29000,?,?,6000,?,6000,?,?,4500,22500,27000
+1058,580,1,Schlact,Slivnica,1885,11,17,1885,11,19,3,Bulgaria,ERR,Serbia,ERR,32000,30000,?,?,?,?,2500,?,?,?,?,5000
+1059,580,2,Schlact,Pirot,1885,11,26,1885,11,27,2,Bulgaria,ERR,Serbia,ERR,50000,32000,?,?,?,?,1900,?,?,?,?,1100
+1060,580,3,Schlact,Placilla (Vina del Mar),1891,8,28,1891,8,28,1,Chile (Congress),ERR,Chile (Government),ERR,11000,14000,?,?,1600,200,1800,?,?,3400,800,4200
+1061,580,4,Gefecht,Asan,1894,7,28,1894,7,28,1,Japan,ERR,China,ERR,6000,3000,?,?,?,?,100,?,?,?,?,500
+1062,581,1,Schlact,Pjong-jang,1894,9,15,1894,9,15,1,Japan,ERR,China,ERR,12000,15000,?,?,700,0,700,?,?,3500,5000,8500
+1063,582,3,Schlact,Domokos,1897,5,17,1897,5,17,1,Turkey,ERR,Greece,ERR,47000,35000,?,?,?,?,1800,?,?,?,?,500
+1064,583,2,Treffen,El Caney & San Juan,1898,7,1,1898,7,1,1,USA,ERR,Spain,ERR,12700,1300,?,?,1850,0,1850,?,?,650,150,800
+1065,585,1,Treffen,Dundee (Talana Hill),1899,10,20,1899,10,20,1,Britain,ERR,Boers,ERR,4500,1500,45,185,230,220,450,40,70,110,0,110
+1066,585,2,Treffen,Elandslaagte,1899,10,21,1899,10,21,1,Britain,ERR,Boers,ERR,3400,1200,55,205,260,10,270,30,60,90,200,290
+1067,586,1,Schlact,Ladysmith,1899,10,30,1899,10,30,1,Boers,ERR,Britain,ERR,25000,9500,?,?,?,?,180,70,250,320,1000,1320
+1068,586,2,Gefecht,Belmont,1899,11,23,1899,11,23,1,Britain,ERR,Boers,ERR,8700,1500,60,270,330,?,330,20,70,90,?,90
+1069,586,3,Gefecht,Graspan,1899,11,25,1899,11,25,1,Britain,ERR,Boers,ERR,8500,2500,?,?,?,?,200,?,?,?,?,40
+1070,586,4,Treffen,Modder River,1899,11,28,1899,11,28,1,Britain,ERR,Boers,ERR,10200,6000,70,430,500,?,500,?,?,20,?,20
+1071,587,1,Treffen,Stormberg,1899,12,9,1899,12,9,1,Boers,ERR,Britain,ERR,1500,3500,10,30,40,0,40,25,60,85,645,730
+1072,587,2,Schlact,Maggersfontein,1899,12,11,1899,12,11,1,Boers,ERR,Britain,ERR,4000,11500,50,70,120,20,140,210,690,900,100,1000
+1073,587,3,Treffen,Colenso,1899,12,15,1899,12,15,1,Boers,ERR,Britain,ERR,5500,13500,5,25,30,0,30,150,760,910,190,1100
+1074,588,1,Treffen,Spion-Kop,1900,1,24,1900,1,24,1,Boers,ERR,Britain,ERR,450,5000,55,145,200,0,200,205,555,760,290,1050
+1075,588,3,Treffen,Paardeberg,1900,2,18,1900,2,18,1,Boers,ERR,Britain,ERR,5000,12000,?,?,500,?,500,200,910,1110,110,1220
+1076,589,3,Gefecht,Abraham's Kraal,1900,3,10,1900,3,10,1,Britain,ERR,Boers,ERR,12000,2000,70,360,430,20,450,100,300,400,0,400
+1077,590,1,Treffen,Sannah's Post,1900,3,31,1900,3,31,1,Boers,ERR,Britain,ERR,1500,1200,5,15,20,0,20,20,140,160,440,600
+1078,592,2,Schlact,"Yalu (Kiu-lien-tscheng, Tiu-ren-tschin)",1904,5,1,1904,5,1,1,Japan,ERR,Russia,ERR,36000,6000,220,880,1100,0,1100,600,1200,1800,700,2500
+1079,593,1,Schlact,Kintschou (Nanschan),1904,5,26,1904,5,26,1,Japan,ERR,Russia,ERR,40000,13000,750,3850,4600,?,4600,?,?,900,?,900
+1080,593,2,Schlact,Wafangkou,1904,6,15,1904,6,15,1,Japan,ERR,Russia,ERR,36000,38000,220,980,1200,0,1200,500,2500,3000,800,3800
+1081,594,2,Treffen,Motien-ling-Pass (Modulin),1904,7,17,1904,7,19,3,Japan,ERR,Russia,ERR,24000,12000,?,?,?,?,850,?,?,?,?,1550
+1082,595,1,Treffen,"Lagoulin (Janselin-, Juschulin-, Pjelin-Passe)",1904,7,31,1904,8,1,2,Japan,ERR,Russia,ERR,20000,24000,?,?,?,?,1250,?,?,2000,200,2200
+1083,597,2,Schlact,Liao-Jang,1904,8,25,1904,9,3,10,Japan,ERR,Russia,ERR,135000,150000,?,?,?,?,24000,?,?,?,?,16500
+1084,598,1,Schlact,Scha-Ho,1904,10,8,1904,10,18,11,Japan,ERR,Russia,ERR,145000,210000,?,?,?,?,17000,?,?,?,?,46000
+1085,598,2,Belagerung,Port Arthur,1904,5,26,1905,1,2,222,Japan,ERR,Russia,ERR,140000,40000,?,60000,80000,?,80000,?,20000,30000,?,30000
+1086,599,1,Schlact,Sandepu,1905,1,25,1905,1,29,5,Japan,ERR,Russia,ERR,40000,58000,?,?,?,?,9400,?,?,?,?,13000
+1087,599,2,Schlact,Mukden,1905,3,1,1905,3,10,10,Japan,ERR,Russia,ERR,314000,310000,?,?,41000,0,41000,15000,56000,71000,20000,91000
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

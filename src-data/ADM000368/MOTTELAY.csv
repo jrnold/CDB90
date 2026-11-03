@@ -1,0 +1,137 @@
+,Dataset: MOTTELAY-1993,,,,,,,,,,,,,,,,,,,,,
+,Data From (Title): The Soldier in Our Civil War: Columbian,,,,,,,,,,,,,,,,,,,,,
+,,Memorial Edition. ,,,,,,,,,,,,,,,,,,,,
+,"Author: Mottelay, Paul F., and T. Campbell-Copeland.",,,,,,,,,,,,,,,,,,,,,
+,Organization: Stanley-Bradley Publishing Co.,,,,,,,,,,,,,,,,,,,,,
+,Address: Atlanta and New York.,,,,,,,,,,,,,,,,,,,,,
+,Publication Date: 1893.,,,,,,,,,,,,,,,,,,,,,
+,Classification: UNCLASSIFIED.,,,,,,,,,,,,,,,,,,,,,
+,Source Available From: Libraries.,,,,,,,,,,,,,,,,,,,,,
+,"Prepared By: Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,,,,,,,,,,,,,
+,Spreadsheet last revised: 4 November 1993,,,,,,,,,,,,,,,,,,,,,
+,Note: Dashes are as in the source material.,,,,,,,,,,,,,,,,,,,,,
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+,,Date,Date,Date,,,Duration,Force,Force,Killed,Killed,Wounded,Wounded,K&W,K&W,POW,POW,MIA,MIA,KWCMIA,KWCMIA,
+No,Page,Year,Month,Day,Event,Location,(Hrs),Federal,Confed,Federal,Confed,Federal,Confed,Federal,Confed,Federal,Confed,Federal,Confed,Federal,Confed,Advantage
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+1,428,1861,Jun,1,Skirmish,"Fairfax Courthouse, VA",?,50,1000,1,--,4,--,5,25,--,5,1,--,6,30,Confed
+2,428,1861,Jun,10,Engagement,"Big Bethel, VA",2.5,3000,1800,18,8,53,20,71,28,6,--,5,--,82,28,Confed
+3,428,1861,Jun,17,Action,"Vienna, VA",?,271,2000,5,6,6,--,11,6,24,--,--,--,35,6,Federal
+4,428,1861,Jun,17,Engagement,"Booneville, MO",?,2000,4000,2,25,9,50,11,75,20,15,--,--,31,90,Federal
+5,429,1861,Jun,26,Skirmish,"Frankfort, WV",?,13,75,1,17,1,--,2,17,--,--,--,--,2,17,Federal
+6,429,1861,Jul ,5,Skirmish,"Newport News, VA",?,25,150,6,3,--,--,6,3,--,--,--,--,6,3,Federal
+7,429,1861,Jul,18,Skirmish,"Martinsburg, MO",4,170,500,1,14,--,--,1,14,--,--,--,--,1,14,Federal
+8,430,1861,Jul,18,Action,"Harrisonville, MO",4,170,500,1,14,--,--,1,14,--,--,--,--,1,14,Federal
+9,430,1861,Jul,21,Battle,"Bull Run, VA",6,35000,40000,481,269,1011,1483,1492,1752,1421,--,1460,30,4373,1782,Confed
+10,430,1861,Jul,25,Skirmish,"Mesilla, NM",1.5,380,700,3,--,6,--,9,11,--,--,--,--,9,11,Confed
+11,430,1861,Jul,26,Skirmish,"Lanes Prairie, MO",?,15,65,--,4,3,--,3,4,--,--,--,--,3,4,Federal
+12,430,1861,Aug,5,Attack by Confederates,"Athens, MO",1,400,1350,12,23,8,44,20,67,--,--,--,--,20,67,Federal
+13,431,1861,Aug,10,Battle,"Wilson's Creek, MO",8,5200,22000,223,421,721,1300,944,1721,--,298,291,--,1235,2019,Confed
+14,431,1861,Aug,19,Battle,"Charleston, MO",?,250,650,1,40,4,--,5,40,--,17,--,--,5,57,Federal
+15,431,1861,Aug,29,Skirmish,"Lexington, MO",?,430,4500,1,8,6,52,7,60,--,2,--,--,7,62,Federal
+16,432,1861,Aug,30,Skirmishes,"Bailey's Crossroads, VA",?,250,200,--,1,3,--,3,1,--,--,--,--,3,1,Federal
+17,432,1861,Sep,12,Engagement,"Cheat Mountain, WV",0.5,320,3000,9,80,2,20,11,100,60,20,--,--,71,120,Federal
+18,433,1861,Sep,17,Action,"Blue Mills Landing, MO",1,500,4000,16,10,80,60,96,70,--,--,--,--,96,70,Draw
+19,433,1861,Sep,17,Skirmish,"Morristown, MO",?,600,400,2,7,6,--,8,7,--,--,--,--,8,7,Federal
+20,433,1861,Sep,18,Skirmish,"Barboursville, WV",?,37,300,1,7,1,--,2,7,1,--,--,--,3,7,Federal
+21,433,1861,Sep,19,Engagement,"Barboursville, WV",?,300,800,12,2,--,3,12,5,2,--,--,--,14,5,Confed
+22,433,1861,Sep,23,Engagements,"Romney, WV",?,975,700,3,35,10,--,13,35,--,--,--,--,13,35,Federal
+23,434,1861,Oct,3,Engagement,"Green Brier, WV",1,5000,9000,8,100,32,75,40,175,--,13,--,--,40,188,Federal
+24,434,1861,Oct,9,Action,"Santa Rosa, FL",3,200,1400,14,--,29,350,43,350,24,36,--,--,67,386,Federal
+25,434,1861,Oct,12,Skirmish,"Barren Co., KY",?,40,150,8,4,--,--,8,4,--,--,--,--,8,4,Confed
+26,434,1861,Oct,12,Skirmish,"Cameron, MO",?,80,250,1,8,4,--,5,8,--,5,--,--,5,13,Federal
+27,434,1861,Oct,13,Skirmish,"Beckwith's Farm, MO",?,20,100,2,--,5,--,7,12,--,--,3,--,10,12,Confed
+28,434,1861,Oct,14,Skirmish,"Underwood's Farm, MO",?,26,100,--,--,4,--,4,6,--,--,--,--,4,6,Federal
+29,434,1861,Oct,15,Engagement,"Big River Bridge, MO",0.16666666666666666,40,600,1,20,7,4,8,24,52,--,--,--,60,24,Confed
+30,434,1861,Oct,15,Skirmish,"Little River Turnpike, VA",?,6,20,1,1,--,--,1,1,--,--,2,--,3,1,Federal
+31,434,1861,Oct,19,Action,"Big Hurricane Creek, WV",?,220,400,2,14,14,--,16,14,--,8,--,--,16,22,Federal
+32,434,1861,Oct,20,Engagement,"Fredericktown, MO",2,2000,3500,6,--,40,--,46,200,--,80,--,--,46,280,Federal
+33,435,1861,Oct,21,Battle,"Ball's Bluff, VA",2.5,2100,2500,223,36,226,264,455,300,455,2,--,--,910,302,Confed
+34,435,1861,Oct,23,Skirmish,"Hodgesville, KY",?,50,100,--,3,3,5,3,8,--,--,--,--,3,8,Federal
+35,435,1861,Oct,25,Fed. Charge,"Springfield, MO",0.05,300,2000,22,60,17,--,39,60,10,27,--,--,49,87,Federal
+36,435,1861,Oct,29,Skirmishes,"Woodbury, KY",?,250,400,--,50,1,--,1,50,--,--,--,--,1,50,Federal
+37,435,1861,Nov,7,Engagement,"Belmont, MO",6.5,3500,6500,90,261,173,427,263,688,235,278,--,--,498,966,Draw
+38,436,1861,Nov,10,Affair,"Guyandotte, WV",?,150,700,7,7,20,15,27,22,45,12,--,--,72,34,Confed
+39,436,1861,Nov,23,Bombardment by Federals,"Pensacola, FL",27,1300,8000,1,7,6,8,7,15,--,--,--,--,7,15,Federal
+40,436,1861,Nov,24,Skirmish,"Lancaster, MO",0.5,450,420,2,13,1,--,3,13,--,--,--,--,3,13,Federal
+41,437,1861,Dec,2,Skirmish,"Annandale, VA",?,30,40,1,7,--,--,1,7,--,3,--,--,1,10,Federal
+42,437,1861,Dec,13,Engagement,"Buffalo Mountain, WV",7,1750,2000,21,20,107,96,128,116,--,--,--,--,128,116,Federal
+43,437,1861,Dec,21,Skirmish,"Hudson, MO",?,103,400,--,10,5,--,5,10,--,17,--,--,5,27,Federal
+44,438,1861,Dec,28,Action,"Mount Zion Church, MO",?,450,900,3,--,11,--,14,150,--,35,--,--,14,185,Federal
+45,438,1862,Jan,1,Nav. Engagement,"Port Royal, SC",?,3000,3000,2,8,12,24,14,32,--,--,1,--,15,32,Federal
+46,438,1862,Jan,3,Skirmish,"Huntersville, WV",?,738,250,--,--,1,8,1,8,--,--,--,--,1,8,Federal
+47,438,1862,Jan,7,Skirmish,"Jennie's Creek, KY",?,60,200,2,6,1,--,3,6,--,--,--,--,3,6,Federal
+48,438,1862,Jan,8,Action,"Silver Creek, MO",0.6666666666666666,450,1000,6,40,19,60,25,100,--,28,--,--,25,128,Federal
+49,438,1862,Jan,10,Engagement,"Middle Creek, KY",9,2100,3000,2,27,25,--,27,27,--,25,--,--,27,52,Federal
+50,439,1862,Jan,19,Engagement,"Mill Spring, KY",41,8000,8000,39,125,207,309,246,434,--,89,--,--,246,523,Federal
+51,439,1862,Feb,8,Battle,"Roanoke Island, NC",14,1434,3000,37,23,214,58,251,81,--,2500,13,62,264,2643,Federal
+52,440,1862,Feb,16,Engagement,"Fort Donelson, TN",8,15000,10000,446,--,1735,--,2181,15067,--,--,150,--,2331,15067,Federal
+53,440,1862,Feb,21,Engagement,"Val Verde, NM",11,3810,1500,68,36,160,150,228,186,--,--,35,1,263,187,Confed
+54,441,1862,Mar,9,Skirmish,"Granny White's Pike, TN",?,100,40,12,2,--,--,12,2,--,--,--,--,12,2,Confed
+55,441,1862,Mar,10,Skirmish,"La Fayette Co., MO",?,30,25,1,9,4,3,5,12,--,1,--,--,5,13,Federal
+56,442,1862,Mar,19,Operations,"Johnson Co., MO",?,35,4,1,4,1,--,2,4,--,--,--,--,2,4,Federal
+57,443,1862,Mar,22,Skirmish,"Litte Santa Fe, MO",?,300,26,1,7,1,--,2,7,--,6,--,--,2,13,Federal
+58,443,1862,Mar,26,Skirmish,"Apache Canon, NM",?,418,300,5,32,14,43,19,75,--,71,--,--,19,146,Federal
+59,443,1862,Mar,26,Action,"Post Oak, MO",?,60,200,2,5,7,--,9,5,--,15,--,--,9,20,Federal
+60,443,1862,Mar,28,Engagement,"Glorietta, NM",6,1300,1000,29,33,42,35,71,68,15,--,--,--,86,68,Federal
+61,443,1862,Mar,31,Skirmish,"Pink Hill, MO",?,65,150,--,6,3,--,3,6,--,--,--,--,3,6,Federal
+62,444,1862,Apr,9,Skirmish,"Jackson, MO",?,65,56,3,3,--,3,3,6,1,--,1,--,5,6,Confed
+63,444,1862,Apr,13,Skirmish,"Gilletts Farm, NC",?,2,14,4,2,2,7,6,9,--,3,--,--,6,12,Federal
+64,445,1862,Apr,27,Skirmish,"Haughton's Mill, NC",?,110,30,1,3,7,8,8,11,--,3,--,--,8,14,Federal
+65,445,1862,Apr,28,Skirmish,"Paint Rock, AL",?,22,250,--,6,6,--,6,6,--,--,--,--,6,6,Federal
+66,446,1862,May,9,Skirmish,"Elkton Station, AL",0.5,48,600,5,13,1,--,6,13,42,--,--,--,48,13,Confed
+67,447,1862,May,27,Skirmish,"Searcy, AR",?,6,40,2,4,--,--,2,4,--,--,--,--,2,4,Federal
+68,448,1862,May,30,Skirmish,"Tranter's Creek, NC",?,15,15,--,3,1,--,1,3,--,--,--,--,1,3,Confed
+69,448,1862,May,31,Battle,"Seven Pines & Fair Oaks, VA",11,30000,36000,790,--,3594,--,4384,4236,--,--,647,--,5031,4236,Federal
+70,448,1862,Jun,5,Action,"Tranter's Creek, NC",0.75,494,520,6,5,6,--,12,5,--,--,--,--,12,5,Federal
+71,449,1862,Jun,25,Battle,Seven Days' Battles,?,103224,100500,1734,2836,8062,13946,9796,16782,--,--,6053,999,15849,17781,?
+72,450,1862,Jun,27,Battle,"Gaine's Mill, VA",6,33000,56000,894,589,3107,2671,4001,3260,--,--,2836,24,6837,3284,Confed
+73,450,1862,Jul,7,Action,"Bayou Cache, AR",?,600,2000,7,110,57,--,64,110,--,--,--,--,64,110,Federal
+74,451,1862,Jul,17,Raid,"Cynthia, KY",2.5,340,2200,17,24,34,78,51,102,--,--,--,--,51,102,Confed
+75,451,1862,Jul,18,Skirmish,"Memphis, MO",?,400,600,--,23,--,--,83,23,--,--,--,--,83,23,Federal
+76,452,1862,Aug,4,Skirmish,"Sparta, TN",1,170,700,--,30,1,10,1,40,--,1,1,--,2,41,Confed
+77,453,1862,Aug,16,Engagement,"Lone Jack, MO",4,800,3000,60,--,100,--,160,110,--,--,--,--,160,110,Confed
+78,454,1862,Sep,1,Engagement,"Britton's Lane, TN",4,800,5000,5,179,55,221,60,400,--,--,--,--,60,400,Federal
+79,455,1862,Sep,17,Engagement,"Florence, KY",?,53,101,1,5,1,7,2,12,--,--,--,--,2,12,Federal
+80,455,1862,Sep,17,Engagement,"Falmouth, KY",?,10,28,--,2,1,4,1,6,--,1,--,--,1,7,Federal
+81,456,1862,Oct,3,Battle,"Corinth, MS",13,20000,38000,315,1423,1812,5692,2127,7115,--,2268,232,--,2359,9383,Federal
+82,456,1862,Oct,9,Engagement,"Lawrenceburg, KY",5,3000,3000,6,13,18,--,24,13,--,--,--,--,24,13,Federal
+83,460,1862,Dec,21,Engagement,"Davis Mill, MS",3.5,250,5000,--,2,3,30,3,32,--,20,--,--,3,52,Federal
+84,461,1863,Jan,2,Battle,"Stone River, TN",?,43400,60000,1533,--,7245,--,8778,9000,2800,--,--,1000,11578,10000,Federal
+85,462,1863,Feb,10,Skirmish,"Old River, LA",?,100,250,1,4,7,7,8,11,--,26,--,--,8,37,Federal
+86,466,1863,Apr,29,Capture,"Fairmount, WV",?,300,6000,1,--,4,--,5,90,--,--,--,--,5,90,Confed
+87,466,1863,May,1,Battle,"Chancellorsville, VA",?,120000,62000,--,--,--,--,15000,18000,17000,5000,--,--,32000,23000,Confed
+88,468,1863,Jun,6,Battle,"Milliken's Bend, LA",14,1400,2700,154,200,223,500,377,700,--,--,115,--,492,700,Federal
+89,469,1863,Jun,18,Engagement,"Rocky Crossing, MS",?,600,2500,7,35,28,100,35,135,--,30,--,--,35,165,Federal
+90,470,1863,Jun,29,Engagement,"McConnelsburg, PA",?,50,100,--,2,1,--,1,2,--,95,--,--,1,97,Federal
+91,470,1863,Jul,1,Battle,"Gettysburg, PA",21,75000,75000,2834,--,13733,--,16567,36000,--,--,6643,--,23210,36000,Federal
+92,474,1863,Sep,14,Skirmishes,"Vidalia, LA",?,30,250,2,6,4,11,6,17,--,2,--,--,6,19,Federal
+93,474,1863,Sep,19,Battle,"Chicamauga, GA",15,45000,70000,1644,17804,9262,--,10906,17804,--,--,4945,--,15851,17804,Confed
+94,395,1863,Oct,3,Engagement,"McMinnville, TN",1.75,450,10000,7,--,31,--,38,23,443,--,--,--,481,23,Confed
+95,396,1863,Oct,11,Engagement,"Henderson's Mill, TN",2,500,2700,--,30,11,--,11,30,--,10,8,--,19,40,Confed
+96,396,1863,Oct,12,Engagement,"Merrill's Crossing, MO",?,1600,2000,--,53,--,70,30,123,--,--,--,--,30,123,Federal
+97,396,1863,Oct,13,Action,"Wyatts, MS",2,2500,3000,--,15,--,--,40,15,--,75,--,--,40,90,Federal
+98,396,1863,Oct,25,Engagement,"Pine Bluff, AR",5,600,2500,11,--,27,--,38,130,--,33,1,--,39,163,Federal
+99,402,1864,Feb,19,Attack by Confederates,"Waugh's Farm, AR",?,100,300,3,6,3,10,6,16,--,--,--,--,6,16,Federal
+100,404,1864,Mar,31,Attack by Confederates,"Roach's Plantation, MS",1,600,1500,16,--,--,--,16,10,--,--,--,--,16,10,Federal
+101,404,1864,Apr,2,Engagement (hand-to-hand),"Pensacola, FL",0.16666666666666666,30,40,--,--,3,--,3,10,--,11,--,--,3,21,Federal
+102,406,1864,May,5,Battle,"Wilderness, VA",?,130000,52626,3288,3500,19278,16000,22566,19500,6784,8400,--,--,29350,27900,Draw
+103,407,1864,May,13,Battle,"Reseca, GA",?,98797,60000,600,--,2147,--,2747,2800,--,1000,--,--,2747,3800,Federal
+104,407,1864,May,15,Battle,"New Market, VA",?,7000,7500,120,--,560,--,680,405,--,--,240,--,920,405,Confed
+105,407,1864,May,16,Battle,"Bermuda Hundred, VA",?,28000,20000,200,--,1000,--,1200,3000,--,--,--,--,1200,3000,Draw
+106,408,1864,Jun,1,Battle,"Cold Harbor, VA",?,150000,60000,1705,1700,9042,8500,10747,10200,2406,1500,--,--,13153,11700,Federal
+107,408,1864,Jun,10,Battle,"Brice's Crossroads, MS",?,12000,6000,400,130,1300,475,1700,605,3500,--,--,--,5200,605,Confed
+108,410,1864,Jul,9,Battle,"Monocacy Bridge, MD",?,9000,20000,90,--,233,--,323,400,--,--,1282,--,1605,400,Confed
+109,411,1864,Jul,26,Engagement,"Wallace's Ferry, AR",?,500,1500,--,--,--,--,50,150,--,--,--,--,50,150,Draw
+110,411,1864,Jul,27,Attack by Confederates,"Fort Smith, AR",?,200,1500,10,12,15,20,25,32,82,--,--,--,107,32,Confed
+111,414,1864,Sep,22,Battle,"Fisher's Hill, VA",3,45000,30000,--,--,--,--,600,400,--,1100,--,--,600,1500,Federal
+112,415,1864,Oct,5,Attack by Confederates,"Allatoona, GA",6,1700,7000,142,--,352,--,494,1142,--,--,212,--,706,1142,Federal
+113,415,1864,Oct,11,Attack by Confederates,"Fort Nelson, TN",?,90,200,4,--,9,--,13,27,--,--,--,--,13,27,Federal
+114,419,1864,Dec,15,Battle,"Nashville, TN",9,50000,40000,400,--,1740,--,2140,15000,--,2000,--,--,2140,17000,Federal
+115,419,1864,Dec,25,Engagement,"Fort Fisher, NC",12,6500,1087,195,--,--,--,195,100,--,280,--,--,195,380,Confed
+116,420,1865,Jan,13,Bombardment & Assault,"Fort Fisher, NC",6.5,3500,2200,184,--,749,--,933,2483,--,--,22,--,955,2483,Federal
+117,422,1865,Mar,26,Siege,"Mobile, AL",?,13200,9000,--,--,--,--,2200,2000,--,4000,--,--,2200,6000,Federal
+118,422,1865,Mar,26,Siege,"Spanish Fort, AL",?,32000,3000,100,--,695,--,795,552,--,--,--,--,795,552,Federal
+119,422,1865,Apr,1,Battle,"Five Forks, VA",4.5,20000,10000,124,--,706,--,830,8500,--,--,54,--,884,8500,Federal
+120,422,1865,Apr,2,Assault,"Petersburg, VA",3.5,18000,15000,296,--,2565,--,2861,3000,--,8000,500,--,3361,11000,Federal
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

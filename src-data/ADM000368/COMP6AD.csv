@@ -1,0 +1,523 @@
+,Dataset: COMPTON-1993 (COMP6AD),,,,,,,,,
+,Data From (Title): Personnel Attrition Data,,,,,,,,,
+,"Author: Compton, Jonathon W.",,,,,,,,,
+,Organization: US Army TRADOC Systems Analysis Activity,,,,,,,,,
+,"Address: White Sands Missile Range, New Mexico 88002",,,,,,,,,
+,Publication Date: November 1983.,,,,,,,,,
+,Classification: UNCLASSIFIED.,,,,,,,,,
+,Source Available From: DTIC as AD-B085 206.,,,,,,,,,
+,"Prepared By: Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,
+,Spreadsheet last revised: 17 November 1993.,,,,,,,,,
+-,-,-,-,-,-,-,-,-,-,-
+Seq.,Division,,Sub-Unit,Sub-Unit,Sub-Unit,,,,,
+No.,Name,Date,Level 1,Level 2,Level 3,KIA,WIA,MIA,NB,Total
+-,-,-,-,-,-,-,-,-,-,-
+1,6th Armored,16437,CCA,HHC,--,--,1,--,--,1
+2,6th Armored,16437,CCA,MED DET,--,--,--,--,--,0
+3,6th Armored,16437,CCA,69 TANK BN,HHC,--,--,--,--,0
+4,6th Armored,16437,CCA,69 TANK BN,SVC CO,--,--,--,--,0
+5,6th Armored,16437,CCA,69 TANK BN,A CO,--,--,--,--,0
+6,6th Armored,16437,CCA,69 TANK BN,B CO,--,5,--,--,5
+7,6th Armored,16437,CCA,69 TANK BN,C CO,--,--,--,--,0
+8,6th Armored,16437,CCA,69 TANK BN,D CO,--,--,--,--,0
+9,6th Armored,16437,CCA,69 TANK BN,MED DET,--,--,--,1,1
+10,6th Armored,16437,CCA,44 ARM INF BN,HHC,1,--,--,--,1
+11,6th Armored,16437,CCA,44 ARM INF BN,SVC CO,1,1,--,1,3
+12,6th Armored,16437,CCA,44 ARM INF BN,A CO,--,9,--,4,13
+13,6th Armored,16437,CCA,44 ARM INF BN,B CO,2,17,--,5,24
+14,6th Armored,16437,CCA,44 ARM INF BN,C CO,2,13,1,3,19
+15,6th Armored,16437,CCA,44 ARM INF BN,MED DET,1,1,--,--,2
+16,6th Armored,16437,CCA,128 ARM FA BN,HHB,--,--,--,1,1
+17,6th Armored,16437,CCA,128 ARM FA BN,SVC BTRY,--,--,--,--,0
+18,6th Armored,16437,CCA,128 ARM FA BN,A BTRY,--,--,--,--,0
+19,6th Armored,16437,CCA,128 ARM FA BN,B BTRY,--,--,--,--,0
+20,6th Armored,16437,CCA,128 ARM FA BN,C BTRY,--,--,--,--,0
+21,6th Armored,16437,CCA,128 ARM FA BN,MED DET,--,--,--,--,0
+22,6th Armored,16437,CCA,"C CO, 25 ARM ENGR CBT BN",--,--,1,--,--,1
+23,6th Armored,16437,CCA,"A CO, 603 TD BN",--,--,--,--,1,1
+24,6th Armored,16437,CCA,"A BTRY, 777 AAA AW BN",--,--,--,--,--,0
+25,6th Armored,16437,CCB,HHC,--,--,--,--,1,1
+26,6th Armored,16437,CCB,68 TANK BN,HHC,--,--,--,--,0
+27,6th Armored,16437,CCB,68 TANK BN,SVC CO,--,--,--,--,0
+28,6th Armored,16437,CCB,68 TANK BN,A CO,--,--,--,--,0
+29,6th Armored,16437,CCB,68 TANK BN,B CO,--,--,--,1,1
+30,6th Armored,16437,CCB,68 TANK BN,C CO,--,--,--,--,0
+31,6th Armored,16437,CCB,68 TANK BN,D CO,--,--,--,--,0
+32,6th Armored,16437,CCB,68 TANK BN,MED DET,--,--,--,--,0
+33,6th Armored,16437,CCB,50 ARMD INF BN,HHC,--,--,--,--,0
+34,6th Armored,16437,CCB,50 ARMD INF BN,SVC CO,--,--,--,--,0
+35,6th Armored,16437,CCB,50 ARMD INF BN,A CO,--,--,--,1,1
+36,6th Armored,16437,CCB,50 ARMD INF BN,B CO,--,--,--,--,0
+37,6th Armored,16437,CCB,50 ARMD INF BN,C CO,--,--,--,4,4
+38,6th Armored,16437,CCB,50 ARMD INF BN,MED DET,--,--,--,--,0
+39,6th Armored,16437,CCB,212 ARM FA BN,HHB,--,--,--,--,0
+40,6th Armored,16437,CCB,212 ARM FA BN,SVC BTRY,--,--,--,--,0
+41,6th Armored,16437,CCB,212 ARM FA BN,A BTRY,--,--,--,--,0
+42,6th Armored,16437,CCB,212 ARM FA BN,B BTRY,--,--,--,--,0
+43,6th Armored,16437,CCB,212 ARM FA BN,C BTRY,--,--,--,--,0
+44,6th Armored,16437,CCB,212 ARM FA BN,MED DET,--,--,--,--,0
+45,6th Armored,16437,CCB,"A CO, 25 ARM ENGR BN",--,--,--,--,--,0
+46,6th Armored,16437,CCB,"C CO, 603 TD BN",--,--,--,--,3,3
+47,6th Armored,16437,CCB,"B BTRY, 777 AAA AW BN",--,--,--,--,--,0
+48,6th Armored,16437,CCR,HQ,--,--,--,--,--,0
+49,6th Armored,16437,CCR,15 TANK BN,HHC,--,--,--,--,0
+50,6th Armored,16437,CCR,15 TANK BN,SVC CO,--,--,--,--,0
+51,6th Armored,16437,CCR,15 TANK BN,A CO,--,--,--,--,0
+52,6th Armored,16437,CCR,15 TANK BN,B CO,--,--,--,--,0
+53,6th Armored,16437,CCR,15 TANK BN,C CO,--,--,--,--,0
+54,6th Armored,16437,CCR,15 TANK BN,D CO,--,--,--,--,0
+55,6th Armored,16437,CCR,15 TANK BN,MED DET,--,--,--,--,0
+56,6th Armored,16437,CCR,9 ARM INF BN,HHC,--,--,--,1,1
+57,6th Armored,16437,CCR,9 ARM INF BN,SVC CO,--,--,--,1,1
+58,6th Armored,16437,CCR,9 ARM INF BN,A CO,--,--,--,2,2
+59,6th Armored,16437,CCR,9 ARM INF BN,B CO,--,--,--,4,4
+60,6th Armored,16437,CCR,9 ARM INF BN,C CO,--,--,--,--,0
+61,6th Armored,16437,CCR,9 ARM INF BN,MED DET,--,--,--,--,0
+62,6th Armored,16437,CCR,25 ARM ENGR CBT BN (-),HHC,--,--,--,1,1
+63,6th Armored,16437,CCR,25 ARM ENGR CBT BN (-),B CO,--,--,--,--,0
+64,6th Armored,16437,CCR,25 ARM ENGR CBT BN (-),MED DET,--,--,--,--,0
+65,6th Armored,16437,CCR,603 TD BN (-),HHC,--,--,--,--,0
+66,6th Armored,16437,CCR,603 TD BN (-),RCN CO,--,--,--,--,0
+67,6th Armored,16437,CCR,603 TD BN (-),B CO,--,--,--,--,0
+68,6th Armored,16437,CCR,603 TD BN (-),MED DET,--,--,--,--,0
+69,6th Armored,16437,CCR,777 AAA AW BN (-),HHC,--,--,--,--,0
+70,6th Armored,16437,CCR,777 AAA AW BN (-),C BTRY,--,--,--,--,0
+71,6th Armored,16437,CCR,777 AAA AW BN (-),MED DET,--,--,--,--,0
+72,6th Armored,16437,DIVARTY,HHB,--,--,--,--,--,0
+73,6th Armored,16437,DIVARTY,MED DET,--,--,--,--,--,0
+74,6th Armored,16437,DIVARTY,231 ARM FA BN,HHB,--,--,--,--,0
+75,6th Armored,16437,DIVARTY,231 ARM FA BN,SVC BTRY,--,--,--,--,0
+76,6th Armored,16437,DIVARTY,231 ARM FA BN,A BTRY,--,--,--,--,0
+77,6th Armored,16437,DIVARTY,231 ARM FA BN,B BTRY,--,--,--,1,1
+78,6th Armored,16437,DIVARTY,231 ARM FA BN,C BTRY,--,--,--,--,0
+79,6th Armored,16437,DIVARTY,231 ARM FA BN,MED DET,--,--,--,--,0
+80,6th Armored,16437,DIVARTY,"D BTRY, 777 AAA AW BN",--,--,--,--,--,0
+81,6th Armored,16437,DIVARTY,"HHB, 193 FA GROUP",--,--,--,--,--,0
+82,6th Armored,16437,DIVARTY,177 FA BN,HHB,--,--,--,--,0
+83,6th Armored,16437,DIVARTY,177 FA BN,SVC BTRY,--,--,--,--,0
+84,6th Armored,16437,DIVARTY,177 FA BN,A BTRY,--,--,--,--,0
+85,6th Armored,16437,DIVARTY,177 FA BN,B BTRY,--,--,--,--,0
+86,6th Armored,16437,DIVARTY,177 FA BN,C BTRY,--,--,--,--,0
+87,6th Armored,16437,DIVARTY,177 FA BN,MED DET,--,--,--,--,0
+88,6th Armored,16437,DIVARTY,253 ARM FA BN,HHB,--,--,--,--,0
+89,6th Armored,16437,DIVARTY,253 ARM FA BN,SVC BTRY,--,--,--,--,0
+90,6th Armored,16437,DIVARTY,253 ARM FA BN,A BTRY,--,--,--,--,0
+91,6th Armored,16437,DIVARTY,253 ARM FA BN,B BTRY,--,--,--,--,0
+92,6th Armored,16437,DIVARTY,253 ARM FA BN,C BTRY,--,--,--,--,0
+93,6th Armored,16437,DIVARTY,253 ARM FA BN,MED DET,--,--,--,--,0
+94,6th Armored,16437,DIVARTY,696 ARM FA BN,HHB,--,--,--,--,0
+95,6th Armored,16437,DIVARTY,696 ARM FA BN,SVC BTRY,--,--,--,--,0
+96,6th Armored,16437,DIVARTY,696 ARM FA BN,A BTRY,--,--,--,--,0
+97,6th Armored,16437,DIVARTY,696 ARM FA BN,B BTRY,--,--,--,--,0
+98,6th Armored,16437,DIVARTY,696 ARM FA BN,C BTRY,--,--,--,--,0
+99,6th Armored,16437,DIVARTY,696 ARM FA BN,MED DET,--,--,--,--,0
+100,6th Armored,16437,DIVARTY,776 FA BN,SVC BTRY,--,--,--,--,0
+101,6th Armored,16437,DIVARTY,776 FA BN,A BTRY,--,--,--,1,1
+102,6th Armored,16437,DIVARTY,776 FA BN,B BTRY,--,--,--,--,0
+103,6th Armored,16437,DIVARTY,776 FA BN,C BTRY,--,--,--,--,0
+104,6th Armored,16437,DIVARTY,776 FA BN,MED DET,--,--,--,--,0
+105,6th Armored,16437,DIV TRAINS,HHC,--,--,--,--,--,0
+106,6th Armored,16437,DIV TRAINS,76 ARMD MED BN,HHC,--,1,--,1,2
+107,6th Armored,16437,DIV TRAINS,76 ARMD MED BN,A CO,--,--,--,--,0
+108,6th Armored,16437,DIV TRAINS,76 ARMD MED BN,B CO,--,--,--,--,0
+109,6th Armored,16437,DIV TRAINS,76 ARMD MED BN,C CO,--,--,--,--,0
+110,6th Armored,16437,DIV TRAINS,128 ORD MAINT BN,HHC,--,--,--,--,0
+111,6th Armored,16437,DIV TRAINS,128 ORD MAINT BN,A CO,--,--,--,--,0
+112,6th Armored,16437,DIV TRAINS,128 ORD MAINT BN,B CO,--,--,--,--,0
+113,6th Armored,16437,DIV TRAINS,128 ORD MAINT BN,C CO,--,--,--,--,0
+114,6th Armored,16437,DIV TRAINS,128 ORD MAINT BN,MED DET,--,--,--,--,0
+115,6th Armored,16437,DIV TRAINS,SPT TROOPS,MP PLATOON,--,--,--,--,0
+116,6th Armored,16437,DIV TRAINS,SPT TROOPS,DIVISION BAND,--,--,--,--,0
+117,6th Armored,16437,DIV TRAINS,SPT TROOPS,146 ARM SIG CO,--,--,--,--,0
+118,6th Armored,16437,DIV HQS (FWD),HHC,--,--,--,--,--,0
+119,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,HHT & SVC TRP,--,--,--,--,0
+120,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,A TRP,--,--,--,--,0
+121,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,B TRP,--,--,--,1,1
+122,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,C TRP,--,--,--,--,0
+123,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,D TRP,--,--,--,--,0
+124,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,E TRP,--,--,--,--,0
+125,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,F CO,--,--,--,--,0
+126,6th Armored,16437,DIV HQS (FWD),86 CAV RCN SQN,MED DET,--,--,--,--,0
+127,6th Armored,16438,CCA,HHC,--,--,--,--,1,1
+128,6th Armored,16438,CCA,MED DET,--,--,--,--,--,0
+129,6th Armored,16438,CCA,69 TANK BN,HHC,--,--,--,--,0
+130,6th Armored,16438,CCA,69 TANK BN,SVC CO,--,--,--,--,0
+131,6th Armored,16438,CCA,69 TANK BN,A CO,1,1,--,2,4
+132,6th Armored,16438,CCA,69 TANK BN,B CO,--,3,--,--,3
+133,6th Armored,16438,CCA,69 TANK BN,C CO,--,--,--,--,0
+134,6th Armored,16438,CCA,69 TANK BN,D CO,--,--,--,--,0
+135,6th Armored,16438,CCA,69 TANK BN,MED DET,1,2,--,--,3
+136,6th Armored,16438,CCA,44 ARM INF BN,HHC,--,--,--,1,1
+137,6th Armored,16438,CCA,44 ARM INF BN,SVC CO,--,--,--,--,0
+138,6th Armored,16438,CCA,44 ARM INF BN,A CO,--,4,--,7,11
+139,6th Armored,16438,CCA,44 ARM INF BN,B CO,--,5,1,5,11
+140,6th Armored,16438,CCA,44 ARM INF BN,C CO,1,9,2,11,23
+141,6th Armored,16438,CCA,44 ARM INF BN,MED DET,1,--,--,--,1
+142,6th Armored,16438,CCA,128 ARM FA BN,HHB,--,--,--,--,0
+143,6th Armored,16438,CCA,128 ARM FA BN,SVC BTRY,--,--,--,1,1
+144,6th Armored,16438,CCA,128 ARM FA BN,A BTRY,--,--,--,--,0
+145,6th Armored,16438,CCA,128 ARM FA BN,B BTRY,--,1,--,--,1
+146,6th Armored,16438,CCA,128 ARM FA BN,C BTRY,--,1,--,--,1
+147,6th Armored,16438,CCA,128 ARM FA BN,MED DET,--,--,--,--,0
+148,6th Armored,16438,CCA,"C CO, 25 ARM ENGR CBT BN",--,--,--,--,2,2
+149,6th Armored,16438,CCA,"A CO, 603 TD BN",--,--,--,--,--,0
+150,6th Armored,16438,CCA,"A BTRY, 777 AAA AW BN",--,--,--,--,--,0
+151,6th Armored,16438,CCB,HHC,--,--,--,--,--,0
+152,6th Armored,16438,CCB,68 TANK BN,HHC,--,--,--,--,0
+153,6th Armored,16438,CCB,68 TANK BN,SVC CO,--,--,--,--,0
+154,6th Armored,16438,CCB,68 TANK BN,A CO,--,1,--,1,2
+155,6th Armored,16438,CCB,68 TANK BN,B CO,--,1,--,--,1
+156,6th Armored,16438,CCB,68 TANK BN,C CO,--,--,--,--,0
+157,6th Armored,16438,CCB,68 TANK BN,D CO,--,--,1,--,1
+158,6th Armored,16438,CCB,68 TANK BN,MED DET,--,--,--,--,0
+159,6th Armored,16438,CCB,50 ARMD INF BN,HHC,--,--,--,1,1
+160,6th Armored,16438,CCB,50 ARMD INF BN,SVC CO,--,--,--,--,0
+161,6th Armored,16438,CCB,50 ARMD INF BN,A CO,2,9,--,3,14
+162,6th Armored,16438,CCB,50 ARMD INF BN,B CO,4,33,1,2,40
+163,6th Armored,16438,CCB,50 ARMD INF BN,C CO,--,6,--,3,9
+164,6th Armored,16438,CCB,50 ARMD INF BN,MED DET,--,3,--,--,3
+165,6th Armored,16438,CCB,212 ARM FA BN,HHB,--,--,--,--,0
+166,6th Armored,16438,CCB,212 ARM FA BN,SVC BTRY,--,--,--,--,0
+167,6th Armored,16438,CCB,212 ARM FA BN,A BTRY,1,--,--,--,1
+168,6th Armored,16438,CCB,212 ARM FA BN,B BTRY,--,--,--,--,0
+169,6th Armored,16438,CCB,212 ARM FA BN,C BTRY,--,--,--,--,0
+170,6th Armored,16438,CCB,212 ARM FA BN,MED DET,--,--,--,--,0
+171,6th Armored,16438,CCB,"A CO, 25 ARM ENGR BN",--,--,--,--,1,1
+172,6th Armored,16438,CCB,"C CO, 603 TD BN",--,1,6,--,--,7
+173,6th Armored,16438,CCB,"B BTRY, 777 AAA AW BN",--,--,--,--,--,0
+174,6th Armored,16438,CCR,HQ,--,--,--,--,--,0
+175,6th Armored,16438,CCR,15 TANK BN,HHC,--,--,--,1,1
+176,6th Armored,16438,CCR,15 TANK BN,SVC CO,--,--,--,--,0
+177,6th Armored,16438,CCR,15 TANK BN,A CO,--,--,--,--,0
+178,6th Armored,16438,CCR,15 TANK BN,B CO,--,--,--,--,0
+179,6th Armored,16438,CCR,15 TANK BN,C CO,--,--,--,--,0
+180,6th Armored,16438,CCR,15 TANK BN,D CO,--,--,--,--,0
+181,6th Armored,16438,CCR,15 TANK BN,MED DET,--,--,--,--,0
+182,6th Armored,16438,CCR,9 ARM INF BN,HHC,--,--,--,4,4
+183,6th Armored,16438,CCR,9 ARM INF BN,SVC CO,--,--,--,--,0
+184,6th Armored,16438,CCR,9 ARM INF BN,A CO,--,--,--,--,0
+185,6th Armored,16438,CCR,9 ARM INF BN,B CO,--,--,--,--,0
+186,6th Armored,16438,CCR,9 ARM INF BN,C CO,--,--,--,--,0
+187,6th Armored,16438,CCR,9 ARM INF BN,MED DET,--,--,--,--,0
+188,6th Armored,16438,CCR,25 ARM ENGR CBT BN (-),HHC,--,--,--,--,0
+189,6th Armored,16438,CCR,25 ARM ENGR CBT BN (-),B CO,--,--,--,1,1
+190,6th Armored,16438,CCR,25 ARM ENGR CBT BN (-),MED DET,--,--,--,--,0
+191,6th Armored,16438,CCR,603 TD BN (-),HHC,--,--,--,--,0
+192,6th Armored,16438,CCR,603 TD BN (-),RCN CO,--,--,--,--,0
+193,6th Armored,16438,CCR,603 TD BN (-),B CO,--,--,--,2,2
+194,6th Armored,16438,CCR,603 TD BN (-),MED DET,--,--,--,--,0
+195,6th Armored,16438,CCR,777 AAA AW BN (-),HHC,--,--,--,--,0
+196,6th Armored,16438,CCR,777 AAA AW BN (-),C BTRY,--,--,--,--,0
+197,6th Armored,16438,CCR,777 AAA AW BN (-),MED DET,--,--,--,--,0
+198,6th Armored,16438,DIVARTY,HHB,--,--,--,--,--,0
+199,6th Armored,16438,DIVARTY,MED DET,--,--,--,--,--,0
+200,6th Armored,16438,DIVARTY,231 ARM FA BN,HHB,--,--,--,--,0
+201,6th Armored,16438,DIVARTY,231 ARM FA BN,SVC BTRY,--,--,--,--,0
+202,6th Armored,16438,DIVARTY,231 ARM FA BN,A BTRY,--,--,--,--,0
+203,6th Armored,16438,DIVARTY,231 ARM FA BN,B BTRY,--,--,--,1,1
+204,6th Armored,16438,DIVARTY,231 ARM FA BN,C BTRY,--,--,--,--,0
+205,6th Armored,16438,DIVARTY,231 ARM FA BN,MED DET,--,--,--,--,0
+206,6th Armored,16438,DIVARTY,"D BTRY, 777 AAA AW BN",--,--,--,--,1,1
+207,6th Armored,16438,DIVARTY,"HHB, 193 FA GROUP",--,--,--,--,--,0
+208,6th Armored,16438,DIVARTY,177 FA BN,HHB,--,--,--,--,0
+209,6th Armored,16438,DIVARTY,177 FA BN,SVC BTRY,--,--,--,--,0
+210,6th Armored,16438,DIVARTY,177 FA BN,A BTRY,--,--,--,--,0
+211,6th Armored,16438,DIVARTY,177 FA BN,B BTRY,--,--,--,--,0
+212,6th Armored,16438,DIVARTY,177 FA BN,C BTRY,--,--,--,--,0
+213,6th Armored,16438,DIVARTY,177 FA BN,MED DET,--,--,--,--,0
+214,6th Armored,16438,DIVARTY,253 ARM FA BN,HHB,--,--,--,1,1
+215,6th Armored,16438,DIVARTY,253 ARM FA BN,SVC BTRY,--,--,--,--,0
+216,6th Armored,16438,DIVARTY,253 ARM FA BN,A BTRY,--,--,--,--,0
+217,6th Armored,16438,DIVARTY,253 ARM FA BN,B BTRY,--,--,--,--,0
+218,6th Armored,16438,DIVARTY,253 ARM FA BN,C BTRY,--,--,--,--,0
+219,6th Armored,16438,DIVARTY,253 ARM FA BN,MED DET,--,--,--,--,0
+220,6th Armored,16438,DIVARTY,696 ARM FA BN,HHB,--,--,--,--,0
+221,6th Armored,16438,DIVARTY,696 ARM FA BN,SVC BTRY,--,--,--,--,0
+222,6th Armored,16438,DIVARTY,696 ARM FA BN,A BTRY,--,--,--,1,1
+223,6th Armored,16438,DIVARTY,696 ARM FA BN,B BTRY,--,--,--,2,2
+224,6th Armored,16438,DIVARTY,696 ARM FA BN,C BTRY,--,--,--,--,0
+225,6th Armored,16438,DIVARTY,696 ARM FA BN,MED DET,--,--,--,--,0
+226,6th Armored,16438,DIVARTY,776 FA BN,SVC BTRY,--,--,--,--,0
+227,6th Armored,16438,DIVARTY,776 FA BN,A BTRY,--,--,--,--,0
+228,6th Armored,16438,DIVARTY,776 FA BN,B BTRY,--,--,--,--,0
+229,6th Armored,16438,DIVARTY,776 FA BN,C BTRY,--,--,--,--,0
+230,6th Armored,16438,DIVARTY,776 FA BN,MED DET,--,--,--,--,0
+231,6th Armored,16438,DIV TRAINS,HHC,--,--,--,--,--,0
+232,6th Armored,16438,DIV TRAINS,76 ARMD MED BN,HHC,--,--,--,--,0
+233,6th Armored,16438,DIV TRAINS,76 ARMD MED BN,A CO,--,--,--,--,0
+234,6th Armored,16438,DIV TRAINS,76 ARMD MED BN,B CO,--,--,--,--,0
+235,6th Armored,16438,DIV TRAINS,76 ARMD MED BN,C CO,--,--,--,--,0
+236,6th Armored,16438,DIV TRAINS,128 ORD MAINT BN,HHC,--,--,--,--,0
+237,6th Armored,16438,DIV TRAINS,128 ORD MAINT BN,A CO,--,--,--,--,0
+238,6th Armored,16438,DIV TRAINS,128 ORD MAINT BN,B CO,--,--,--,--,0
+239,6th Armored,16438,DIV TRAINS,128 ORD MAINT BN,C CO,--,--,--,--,0
+240,6th Armored,16438,DIV TRAINS,128 ORD MAINT BN,MED DET,--,--,--,--,0
+241,6th Armored,16438,DIV TRAINS,SPT TROOPS,MP PLATOON,--,--,--,--,0
+242,6th Armored,16438,DIV TRAINS,SPT TROOPS,DIVISION BAND,--,--,--,--,0
+243,6th Armored,16438,DIV TRAINS,SPT TROOPS,146 ARM SIG CO,--,--,--,--,0
+244,6th Armored,16438,DIV HQS (FWD),HHC,--,--,--,--,--,0
+245,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,HHT & SVC TRP,--,--,--,--,0
+246,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,A TRP,--,--,--,--,0
+247,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,B TRP,--,--,--,--,0
+248,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,C TRP,--,--,--,--,0
+249,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,D TRP,--,--,--,--,0
+250,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,E TRP,--,--,--,--,0
+251,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,F CO,--,--,--,--,0
+252,6th Armored,16438,DIV HQS (FWD),86 CAV RCN SQN,MED DET,--,--,--,1,1
+253,6th Armored,16439,CCA,HHC,--,--,--,--,1,1
+254,6th Armored,16439,CCA,MED DET,--,--,--,--,--,0
+255,6th Armored,16439,CCA,9 ARM INF BN,HHC,--,--,--,4,4
+256,6th Armored,16439,CCA,9 ARM INF BN,SVC CO,--,--,--,--,0
+257,6th Armored,16439,CCA,9 ARM INF BN,A CO,1,9,--,6,16
+258,6th Armored,16439,CCA,9 ARM INF BN,B CO,2,19,1,--,22
+259,6th Armored,16439,CCA,9 ARM INF BN,C CO,2,11,3,6,22
+260,6th Armored,16439,CCA,9 ARM INF BN,MED DET,--,1,--,5,6
+261,6th Armored,16439,CCA,44 ARM INF BN,HHC,--,--,--,--,0
+262,6th Armored,16439,CCA,44 ARM INF BN,SVC CO,--,--,--,--,0
+263,6th Armored,16439,CCA,44 ARM INF BN,A CO,--,--,--,--,0
+264,6th Armored,16439,CCA,44 ARM INF BN,B CO,--,--,--,4,4
+265,6th Armored,16439,CCA,44 ARM INF BN,C CO,--,--,--,3,3
+266,6th Armored,16439,CCA,44 ARM INF BN,MED DET,--,--,--,1,1
+267,6th Armored,16439,CCA,15 TANK BN,HHC,--,--,--,--,0
+268,6th Armored,16439,CCA,15 TANK BN,SVC CO,--,--,--,--,0
+269,6th Armored,16439,CCA,15 TANK BN,A CO,--,2,2,1,5
+270,6th Armored,16439,CCA,15 TANK BN,B CO,1,3,3,3,10
+271,6th Armored,16439,CCA,15 TANK BN,C CO,1,3,--,1,5
+272,6th Armored,16439,CCA,15 TANK BN,D CO,1,--,--,1,2
+273,6th Armored,16439,CCA,15 TANK BN,MED DET,--,1,--,--,1
+274,6th Armored,16439,CCA,"B CO, 69 TANK BN",--,--,--,--,--,0
+275,6th Armored,16439,CCA,"C TRP, 86 CAV RCN SQN",--,--,1,--,1,2
+276,6th Armored,16439,CCA,"C CO, 25 ARM ENGR CBT BN",--,--,--,1,2,3
+277,6th Armored,16439,CCA,"A CO, 603 TD BN",--,--,--,--,1,1
+278,6th Armored,16439,CCA,"A BTRY, 777 AAA AW BN",--,--,--,--,--,0
+279,6th Armored,16439,CCB,HHC,--,--,1,--,--,1
+280,6th Armored,16439,CCB,50 ARMD INF BN,HHC,--,2,--,--,2
+281,6th Armored,16439,CCB,50 ARMD INF BN,SVC CO,--,--,--,--,0
+282,6th Armored,16439,CCB,50 ARMD INF BN,A CO,1,11,--,6,18
+283,6th Armored,16439,CCB,50 ARMD INF BN,B CO,--,9,3,4,16
+284,6th Armored,16439,CCB,50 ARMD INF BN,C CO,--,10,7,8,25
+285,6th Armored,16439,CCB,50 ARMD INF BN,MED DET,--,--,--,--,0
+286,6th Armored,16439,CCB,68 TANK BN,HHC,--,--,--,1,1
+287,6th Armored,16439,CCB,68 TANK BN,SVC CO,--,--,--,--,0
+288,6th Armored,16439,CCB,68 TANK BN,A CO,--,1,--,1,2
+289,6th Armored,16439,CCB,68 TANK BN,B CO,--,6,10,--,16
+290,6th Armored,16439,CCB,68 TANK BN,C CO,--,6,--,1,7
+291,6th Armored,16439,CCB,68 TANK BN,D CO,--,--,--,--,0
+292,6th Armored,16439,CCB,68 TANK BN,MED DET,--,--,--,--,0
+293,6th Armored,16439,CCB,69 TANK BN (-),HHC,--,--,--,--,0
+294,6th Armored,16439,CCB,69 TANK BN (-),SVC CO,--,--,--,--,0
+295,6th Armored,16439,CCB,69 TANK BN (-),A CO,1,1,--,3,5
+296,6th Armored,16439,CCB,69 TANK BN (-),C CO,--,--,--,2,2
+297,6th Armored,16439,CCB,69 TANK BN (-),D CO,--,--,--,--,0
+298,6th Armored,16439,CCB,69 TANK BN (-),MED DET,--,--,--,--,0
+299,6th Armored,16439,CCB,"A CO, 44 ARM INF BN",--,--,3,--,7,10
+300,6th Armored,16439,CCB,"A TRP, 86 CAV RCN SQN",--,--,--,--,--,0
+301,6th Armored,16439,CCB,"A CO, 25 ARM ENGR CBT BN",--,--,--,--,1,1
+302,6th Armored,16439,CCB,"C CO, 603 TD BN",--,--,3,--,2,5
+303,6th Armored,16439,CCB,"B BTRY, 777 AAA AW BN",--,--,--,--,--,0
+304,6th Armored,16439,CCR,HHC,--,--,--,--,--,0
+305,6th Armored,16439,CCR,86 CAV RCN SQN (-),HHT & SVC TRP,--,--,--,1,1
+306,6th Armored,16439,CCR,86 CAV RCN SQN (-),B TRP,--,--,--,1,1
+307,6th Armored,16439,CCR,86 CAV RCN SQN (-),D TRB,--,--,--,--,0
+308,6th Armored,16439,CCR,86 CAV RCN SQN (-),E TRP,--,--,--,--,0
+309,6th Armored,16439,CCR,86 CAV RCN SQN (-),F CO,--,--,--,1,1
+310,6th Armored,16439,CCR,86 CAV RCN SQN (-),MED DET,--,--,--,--,0
+311,6th Armored,16439,CCR,25 ARM ENG BN (-),HHC,--,--,--,--,0
+312,6th Armored,16439,CCR,25 ARM ENG BN (-),B CO,--,--,--,--,0
+313,6th Armored,16439,CCR,25 ARM ENG BN (-),MED DET,--,--,--,--,0
+314,6th Armored,16439,CCR,603 TD BN (-),HHC,--,--,--,--,0
+315,6th Armored,16439,CCR,603 TD BN (-),RCN CO,--,--,--,--,0
+316,6th Armored,16439,CCR,603 TD BN (-),B CO,--,--,--,4,4
+317,6th Armored,16439,CCR,603 TD BN (-),MED DET,--,--,--,--,0
+318,6th Armored,16439,CCR,777 AAA AW BN (-),HHC,--,--,--,--,0
+319,6th Armored,16439,CCR,777 AAA AW BN (-),C BTRY,--,--,--,--,0
+320,6th Armored,16439,CCR,777 AAA AW BN (-),MED DET,--,--,--,--,0
+321,6th Armored,16439,DIVARTY,HHB,--,--,--,--,--,0
+322,6th Armored,16439,DIVARTY,MED DET,--,--,--,--,--,0
+323,6th Armored,16439,DIVARTY,128 ARM FA BN,HHB,--,--,--,--,0
+324,6th Armored,16439,DIVARTY,128 ARM FA BN,SVC BTRY,--,--,--,1,1
+325,6th Armored,16439,DIVARTY,128 ARM FA BN,A BTRY,--,--,--,--,0
+326,6th Armored,16439,DIVARTY,128 ARM FA BN,B BTRY,--,--,--,--,0
+327,6th Armored,16439,DIVARTY,128 ARM FA BN,C BTRY,--,--,--,--,0
+328,6th Armored,16439,DIVARTY,128 ARM FA BN,MED DET,--,--,--,--,0
+329,6th Armored,16439,DIVARTY,212 ARM FA BN,HHB,--,--,--,--,0
+330,6th Armored,16439,DIVARTY,212 ARM FA BN,SVC BTRY,--,2,--,--,2
+331,6th Armored,16439,DIVARTY,212 ARM FA BN,A BTRY,--,--,--,--,0
+332,6th Armored,16439,DIVARTY,212 ARM FA BN,B BTRY,--,--,1,--,1
+333,6th Armored,16439,DIVARTY,212 ARM FA BN,C BTRY,--,--,--,--,0
+334,6th Armored,16439,DIVARTY,212 ARM FA BN,MED DET,--,--,--,1,1
+335,6th Armored,16439,DIVARTY,231 ARM FA BN,HHB,--,--,--,--,0
+336,6th Armored,16439,DIVARTY,231 ARM FA BN,SVC BTRY,--,1,--,--,1
+337,6th Armored,16439,DIVARTY,231 ARM FA BN,A BTRY,--,--,--,--,0
+338,6th Armored,16439,DIVARTY,231 ARM FA BN,B BTRY,--,--,--,1,1
+339,6th Armored,16439,DIVARTY,231 ARM FA BN,C BTRY,--,--,--,1,1
+340,6th Armored,16439,DIVARTY,231 ARM FA BN,MED DET,--,1,1,2,4
+341,6th Armored,16439,DIVARTY,"D BTRY, 777 AAA AW BN",--,--,--,--,1,1
+342,6th Armored,16439,DIVARTY,"HHB, 193 FA GROUP",--,--,--,--,--,0
+343,6th Armored,16439,DIVARTY,177 FA BN,HHB,--,--,--,--,0
+344,6th Armored,16439,DIVARTY,177 FA BN,SVC BTRY,--,--,--,--,0
+345,6th Armored,16439,DIVARTY,177 FA BN,A BTRY,--,--,--,--,0
+346,6th Armored,16439,DIVARTY,177 FA BN,B BTRY,1,--,--,--,1
+347,6th Armored,16439,DIVARTY,177 FA BN,C BTRY,--,--,--,--,0
+348,6th Armored,16439,DIVARTY,177 FA BN,MED DET,--,--,--,--,0
+349,6th Armored,16439,DIVARTY,253 ARM FA BN,HHB,--,--,--,--,0
+350,6th Armored,16439,DIVARTY,253 ARM FA BN,SVC BTRY,--,--,--,--,0
+351,6th Armored,16439,DIVARTY,253 ARM FA BN,A BTRY,--,--,--,--,0
+352,6th Armored,16439,DIVARTY,253 ARM FA BN,B BTRY,--,--,--,1,1
+353,6th Armored,16439,DIVARTY,253 ARM FA BN,C BTRY,--,--,--,--,0
+354,6th Armored,16439,DIVARTY,253 ARM FA BN,MED DET,--,--,--,--,0
+355,6th Armored,16439,DIVARTY,696 ARM FA BN,HHB,--,--,--,--,0
+356,6th Armored,16439,DIVARTY,696 ARM FA BN,SVC BTRY,--,--,--,2,2
+357,6th Armored,16439,DIVARTY,696 ARM FA BN,A BTRY,--,--,--,--,0
+358,6th Armored,16439,DIVARTY,696 ARM FA BN,B BTRY,--,--,--,--,0
+359,6th Armored,16439,DIVARTY,696 ARM FA BN,C BTRY,--,--,--,--,0
+360,6th Armored,16439,DIVARTY,696 ARM FA BN,MED DET,--,--,--,--,0
+361,6th Armored,16439,DIVARTY,776 FA BN,HHB,--,--,--,--,0
+362,6th Armored,16439,DIVARTY,776 FA BN,SVC BTRY,--,--,--,--,0
+363,6th Armored,16439,DIVARTY,776 FA BN,A BTRY,--,--,--,--,0
+364,6th Armored,16439,DIVARTY,776 FA BN,B BTRY,--,--,--,--,0
+365,6th Armored,16439,DIVARTY,776 FA BN,C BTRY,--,--,--,--,0
+366,6th Armored,16439,DIVARTY,776 FA BN,MED DET,--,--,--,--,0
+367,6th Armored,16439,DIV TRAINS,HHC,--,--,--,--,--,0
+368,6th Armored,16439,DIV TRAINS,76 ARMD MED BN,HHC,--,--,--,1,1
+369,6th Armored,16439,DIV TRAINS,76 ARMD MED BN,A CO,--,--,--,--,0
+370,6th Armored,16439,DIV TRAINS,76 ARMD MED BN,B CO,--,--,--,--,0
+371,6th Armored,16439,DIV TRAINS,76 ARMD MED BN,C CO,--,--,--,--,0
+372,6th Armored,16439,DIV TRAINS,128 ORD MAINT BN,HHC,--,--,--,--,0
+373,6th Armored,16439,DIV TRAINS,128 ORD MAINT BN,A CO,--,--,--,--,0
+374,6th Armored,16439,DIV TRAINS,128 ORD MAINT BN,B CO,--,--,--,--,0
+375,6th Armored,16439,DIV TRAINS,128 ORD MAINT BN,C CO,--,--,--,--,0
+376,6th Armored,16439,DIV TRAINS,128 ORD MAINT BN,MED DET,--,--,--,--,0
+377,6th Armored,16439,DIV TRAINS,SPT TROOPS,MP PLATOON,--,--,--,1,1
+378,6th Armored,16439,DIV TRAINS,SPT TROOPS,DIVISION BAND,--,--,--,--,0
+379,6th Armored,16439,DIV TRAINS,SPT TROOPS,146 ARM SIG CO,--,--,--,--,0
+380,6th Armored,16439,DIV HQS (FWD),HHC,--,--,--,--,--,0
+381,6th Armored,16440,CCA,HHC,--,--,--,--,--,0
+382,6th Armored,16440,CCA,MED DET,--,--,--,--,--,0
+383,6th Armored,16440,CCA,9 ARM INF BN,HHC,--,--,--,2,2
+384,6th Armored,16440,CCA,9 ARM INF BN,SVC CO,--,--,--,1,1
+385,6th Armored,16440,CCA,9 ARM INF BN,A CO,--,26,1,1,28
+386,6th Armored,16440,CCA,9 ARM INF BN,B CO,--,17,5,11,33
+387,6th Armored,16440,CCA,9 ARM INF BN,C CO,--,5,--,7,12
+388,6th Armored,16440,CCA,9 ARM INF BN,MED DET,--,--,--,--,0
+389,6th Armored,16440,CCA,44 ARM INF BN,HHC,--,--,--,--,0
+390,6th Armored,16440,CCA,44 ARM INF BN,SVC CO,--,--,--,--,0
+391,6th Armored,16440,CCA,44 ARM INF BN,A CO,--,--,--,--,0
+392,6th Armored,16440,CCA,44 ARM INF BN,B CO,1,13,--,9,23
+393,6th Armored,16440,CCA,44 ARM INF BN,C CO,--,--,--,--,0
+394,6th Armored,16440,CCA,44 ARM INF BN,MED DET,--,3,--,23,26
+395,6th Armored,16440,CCA,15 TANK BN,HHC,--,--,--,--,0
+396,6th Armored,16440,CCA,15 TANK BN,SVC CO,--,--,--,--,0
+397,6th Armored,16440,CCA,15 TANK BN,A CO,--,2,--,1,3
+398,6th Armored,16440,CCA,15 TANK BN,B CO,--,--,--,2,2
+399,6th Armored,16440,CCA,15 TANK BN,C CO,--,--,--,5,5
+400,6th Armored,16440,CCA,15 TANK BN,D CO,--,--,--,--,0
+401,6th Armored,16440,CCA,15 TANK BN,MED DET,--,--,--,--,0
+402,6th Armored,16440,CCA,"B CO, 69 TANK BN",--,--,--,--,--,0
+403,6th Armored,16440,CCA,"C TRP, 86 CAV RCN SQN",--,--,--,--,1,1
+404,6th Armored,16440,CCA,"C CO, 25 ARM ENGR CBT BN",--,--,--,--,3,3
+405,6th Armored,16440,CCA,"A CO, 603 TD BN",--,--,--,--,--,0
+406,6th Armored,16440,CCA,"A BTRY, 777 AAA AW BN",--,--,1,--,--,1
+407,6th Armored,16440,CCB,HHC,--,--,--,--,--,0
+408,6th Armored,16440,CCB,50 ARMD INF BN,HHC,1,1,--,--,2
+409,6th Armored,16440,CCB,50 ARMD INF BN,SVC CO,--,--,--,--,0
+410,6th Armored,16440,CCB,50 ARMD INF BN,A CO,1,6,--,7,14
+411,6th Armored,16440,CCB,50 ARMD INF BN,B CO,--,3,--,8,11
+412,6th Armored,16440,CCB,50 ARMD INF BN,C CO,1,9,--,20,30
+413,6th Armored,16440,CCB,50 ARMD INF BN,MED DET,--,--,--,1,1
+414,6th Armored,16440,CCB,68 TANK BN,HHC,--,--,--,2,2
+415,6th Armored,16440,CCB,68 TANK BN,SVC CO,--,--,--,--,0
+416,6th Armored,16440,CCB,68 TANK BN,A CO,--,--,--,2,2
+417,6th Armored,16440,CCB,68 TANK BN,B CO,--,--,--,3,3
+418,6th Armored,16440,CCB,68 TANK BN,C CO,--,--,--,--,0
+419,6th Armored,16440,CCB,68 TANK BN,D CO,--,1,--,--,1
+420,6th Armored,16440,CCB,68 TANK BN,MED DET,--,--,--,--,0
+421,6th Armored,16440,CCB,69 TANK BN (-),HHC,--,--,--,--,0
+422,6th Armored,16440,CCB,69 TANK BN (-),SVC CO,--,--,--,--,0
+423,6th Armored,16440,CCB,69 TANK BN (-),A CO,--,--,--,--,0
+424,6th Armored,16440,CCB,69 TANK BN (-),C CO,--,--,--,1,1
+425,6th Armored,16440,CCB,69 TANK BN (-),D CO,--,3,--,1,4
+426,6th Armored,16440,CCB,69 TANK BN (-),MED DET,--,--,--,--,0
+427,6th Armored,16440,CCB,"A CO, 44 ARM INF BN",--,--,2,--,9,11
+428,6th Armored,16440,CCB,"A TRP, 86 CAV RCN SQN",--,2,2,--,--,4
+429,6th Armored,16440,CCB,"A CO, 25 ARM ENGR CBT BN",--,--,--,--,3,3
+430,6th Armored,16440,CCB,"C CO, 603 TD BN",--,--,--,--,1,1
+431,6th Armored,16440,CCB,"B BTRY, 777 AAA AW BN",--,--,--,--,--,0
+432,6th Armored,16440,CCR,HHC,--,--,--,--,--,0
+433,6th Armored,16440,CCR,86 CAV RCN SQN (-),HHT & SVC TRP,--,--,--,--,0
+434,6th Armored,16440,CCR,86 CAV RCN SQN (-),B TRP,--,--,--,--,0
+435,6th Armored,16440,CCR,86 CAV RCN SQN (-),D TRB,--,--,--,--,0
+436,6th Armored,16440,CCR,86 CAV RCN SQN (-),E TRP,--,--,--,--,0
+437,6th Armored,16440,CCR,86 CAV RCN SQN (-),F CO,--,--,--,--,0
+438,6th Armored,16440,CCR,86 CAV RCN SQN (-),MED DET,--,--,--,--,0
+439,6th Armored,16440,CCR,25 ARM ENG BN (-),HHC,--,--,--,1,1
+440,6th Armored,16440,CCR,25 ARM ENG BN (-),B CO,--,--,--,--,0
+441,6th Armored,16440,CCR,25 ARM ENG BN (-),MED DET,--,--,--,--,0
+442,6th Armored,16440,CCR,603 TD BN (-),HHC,--,--,--,2,2
+443,6th Armored,16440,CCR,603 TD BN (-),RCN CO,--,--,--,--,0
+444,6th Armored,16440,CCR,603 TD BN (-),B CO,--,9,--,1,10
+445,6th Armored,16440,CCR,603 TD BN (-),MED DET,--,--,--,--,0
+446,6th Armored,16440,CCR,777 AAA AW BN (-),HHC,--,--,--,--,0
+447,6th Armored,16440,CCR,777 AAA AW BN (-),C BTRY,--,--,--,1,1
+448,6th Armored,16440,CCR,777 AAA AW BN (-),MED DET,--,--,--,--,0
+449,6th Armored,16440,DIVARTY,HHB,--,--,--,--,--,0
+450,6th Armored,16440,DIVARTY,MED DET,--,--,--,--,--,0
+451,6th Armored,16440,DIVARTY,128 ARM FA BN,HHB,--,--,--,--,0
+452,6th Armored,16440,DIVARTY,128 ARM FA BN,SVC BTRY,--,--,--,--,0
+453,6th Armored,16440,DIVARTY,128 ARM FA BN,A BTRY,--,--,--,--,0
+454,6th Armored,16440,DIVARTY,128 ARM FA BN,B BTRY,--,--,--,--,0
+455,6th Armored,16440,DIVARTY,128 ARM FA BN,C BTRY,--,--,--,--,0
+456,6th Armored,16440,DIVARTY,128 ARM FA BN,MED DET,--,--,--,--,0
+457,6th Armored,16440,DIVARTY,212 ARM FA BN,HHB,--,--,--,--,0
+458,6th Armored,16440,DIVARTY,212 ARM FA BN,SVC BTRY,--,1,--,--,1
+459,6th Armored,16440,DIVARTY,212 ARM FA BN,A BTRY,--,--,--,--,0
+460,6th Armored,16440,DIVARTY,212 ARM FA BN,B BTRY,--,--,--,--,0
+461,6th Armored,16440,DIVARTY,212 ARM FA BN,C BTRY,--,1,--,--,1
+462,6th Armored,16440,DIVARTY,212 ARM FA BN,MED DET,--,--,--,--,0
+463,6th Armored,16440,DIVARTY,231 ARM FA BN,HHB,--,--,--,--,0
+464,6th Armored,16440,DIVARTY,231 ARM FA BN,SVC BTRY,--,--,--,3,3
+465,6th Armored,16440,DIVARTY,231 ARM FA BN,A BTRY,--,--,--,--,0
+466,6th Armored,16440,DIVARTY,231 ARM FA BN,B BTRY,--,--,--,--,0
+467,6th Armored,16440,DIVARTY,231 ARM FA BN,C BTRY,--,1,--,--,1
+468,6th Armored,16440,DIVARTY,231 ARM FA BN,MED DET,--,1,--,--,1
+469,6th Armored,16440,DIVARTY,"D BTRY, 777 AAA AW BN",--,--,2,--,1,3
+470,6th Armored,16440,DIVARTY,"HHB, 193 FA GROUP",--,--,--,--,--,0
+471,6th Armored,16440,DIVARTY,177 FA BN,HHB,--,--,--,--,0
+472,6th Armored,16440,DIVARTY,177 FA BN,SVC BTRY,--,--,--,--,0
+473,6th Armored,16440,DIVARTY,177 FA BN,A BTRY,--,--,--,--,0
+474,6th Armored,16440,DIVARTY,177 FA BN,B BTRY,--,--,--,--,0
+475,6th Armored,16440,DIVARTY,177 FA BN,C BTRY,--,--,--,--,0
+476,6th Armored,16440,DIVARTY,177 FA BN,MED DET,--,--,--,--,0
+477,6th Armored,16440,DIVARTY,253 ARM FA BN,HHB,--,--,--,--,0
+478,6th Armored,16440,DIVARTY,253 ARM FA BN,SVC BTRY,--,--,--,--,0
+479,6th Armored,16440,DIVARTY,253 ARM FA BN,A BTRY,--,--,--,--,0
+480,6th Armored,16440,DIVARTY,253 ARM FA BN,B BTRY,--,2,--,1,3
+481,6th Armored,16440,DIVARTY,253 ARM FA BN,C BTRY,--,--,--,--,0
+482,6th Armored,16440,DIVARTY,253 ARM FA BN,MED DET,--,--,--,--,0
+483,6th Armored,16440,DIVARTY,696 ARM FA BN,HHB,--,--,--,--,0
+484,6th Armored,16440,DIVARTY,696 ARM FA BN,SVC BTRY,--,--,--,--,0
+485,6th Armored,16440,DIVARTY,696 ARM FA BN,A BTRY,--,--,--,1,1
+486,6th Armored,16440,DIVARTY,696 ARM FA BN,B BTRY,--,--,--,--,0
+487,6th Armored,16440,DIVARTY,696 ARM FA BN,C BTRY,--,--,--,--,0
+488,6th Armored,16440,DIVARTY,696 ARM FA BN,MED DET,--,--,--,--,0
+489,6th Armored,16440,DIVARTY,776 FA BN,HHB,--,1,1,--,2
+490,6th Armored,16440,DIVARTY,776 FA BN,SVC BTRY,--,--,--,--,0
+491,6th Armored,16440,DIVARTY,776 FA BN,A BTRY,--,--,--,--,0
+492,6th Armored,16440,DIVARTY,776 FA BN,B BTRY,--,--,--,--,0
+493,6th Armored,16440,DIVARTY,776 FA BN,C BTRY,--,--,--,--,0
+494,6th Armored,16440,DIVARTY,776 FA BN,MED DET,--,--,--,--,0
+495,6th Armored,16440,DIV TRAINS,HHC,--,--,--,--,--,0
+496,6th Armored,16440,DIV TRAINS,76 ARMD MED BN,HHC,--,--,--,--,0
+497,6th Armored,16440,DIV TRAINS,76 ARMD MED BN,A CO,--,--,--,--,0
+498,6th Armored,16440,DIV TRAINS,76 ARMD MED BN,B CO,--,--,--,--,0
+499,6th Armored,16440,DIV TRAINS,76 ARMD MED BN,C CO,--,--,--,--,0
+500,6th Armored,16440,DIV TRAINS,128 ORD MAINT BN,HHC,--,--,--,--,0
+501,6th Armored,16440,DIV TRAINS,128 ORD MAINT BN,A CO,--,--,--,--,0
+502,6th Armored,16440,DIV TRAINS,128 ORD MAINT BN,B CO,--,--,--,--,0
+503,6th Armored,16440,DIV TRAINS,128 ORD MAINT BN,C CO,--,--,--,--,0
+504,6th Armored,16440,DIV TRAINS,128 ORD MAINT BN,MED DET,--,--,--,--,0
+505,6th Armored,16440,DIV TRAINS,SPT TROOPS,MP PLATOON,--,--,--,--,0
+506,6th Armored,16440,DIV TRAINS,SPT TROOPS,DIVISION BAND,--,--,--,--,0
+507,6th Armored,16440,DIV TRAINS,SPT TROOPS,146 ARM SIG CO,--,--,--,--,0
+508,6th Armored,16440,DIV HQS (FWD),HHC,--,--,--,--,1,1
+,,,Grand Total,,,36,353,45,326,760

@@ -1,0 +1,1810 @@
+,Dataset: COMPTON-1993 (COMP28ID),,,,,,,,,
+,Data From (Title): Personnel Attrition Data,,,,,,,,,
+,"Author: Compton, Jonathon W.",,,,,,,,,
+,Organization: US Army TRADOC Systems Analysis Activity,,,,,,,,,
+,"Address: White Sands Missile Range, New Mexico 88002",,,,,,,,,
+,Publication Date: November 1983.,,,,,,,,,
+,Classification: UNCLASSIFIED.,,,,,,,,,
+,Source Available From: DTIC as AD-B085 206.,,,,,,,,,
+,"Prepared By: Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,
+,Spreadsheet last revised: 17 November 1993.,,,,,,,,,
+-,-,-,-,-,-,-,-,-,-,-
+Seq.,Division,,Sub-Unit,Sub-Unit,Sub-Unit,,,,,
+No.,Name,Date,Level 1,Level 2,Level 3,KIA,WIA,MIA,NB,Total
+-,-,-,-,-,-,-,-,-,-,-
+1,28th Infantry,16378,DIV HQ,HHC,--,--,--,--,--,0
+2,28th Infantry,16378,DIV HQ,CIC DET,--,--,--,--,--,0
+3,28th Infantry,16378,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+4,28th Infantry,16378,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+5,28th Infantry,16378,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,1,1
+6,28th Infantry,16378,DIV HQ,"D CO, 707 TANK BN",--,--,1,--,--,1
+7,28th Infantry,16378,109TH RCT,"HQ, 109TH RCT",HHC,--,1,--,--,1
+8,28th Infantry,16378,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+9,28th Infantry,16378,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+10,28th Infantry,16378,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,1,--,--,1
+11,28th Infantry,16378,109TH RCT,"HQ, 109TH RCT",MED DET,--,3,1,3,7
+12,28th Infantry,16378,109TH RCT,1ST BN,HHC,--,2,--,1,3
+13,28th Infantry,16378,109TH RCT,1ST BN,A CO,1,18,--,6,25
+14,28th Infantry,16378,109TH RCT,1ST BN,B CO,--,29,--,1,30
+15,28th Infantry,16378,109TH RCT,1ST BN,C CO,--,12,--,--,12
+16,28th Infantry,16378,109TH RCT,1ST BN,D CO,--,7,1,1,9
+17,28th Infantry,16378,109TH RCT,2ND BN,HHC,--,--,--,--,0
+18,28th Infantry,16378,109TH RCT,2ND BN,E CO,--,1,--,1,2
+19,28th Infantry,16378,109TH RCT,2ND BN,F CO,--,--,--,--,0
+20,28th Infantry,16378,109TH RCT,2ND BN,G CO,--,1,--,--,1
+21,28th Infantry,16378,109TH RCT,2ND BN,H CO,--,1,--,--,1
+22,28th Infantry,16378,109TH RCT,3D BN,HHC,1,--,--,--,1
+23,28th Infantry,16378,109TH RCT,3D BN,I CO,--,12,--,5,17
+24,28th Infantry,16378,109TH RCT,3D BN,K CO,1,17,--,4,22
+25,28th Infantry,16378,109TH RCT,3D BN,L CO,2,9,1,3,15
+26,28th Infantry,16378,109TH RCT,3D BN,M CO,--,6,--,1,7
+27,28th Infantry,16378,109TH RCT,107TH FA BN,HHB,--,4,--,--,4
+28,28th Infantry,16378,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+29,28th Infantry,16378,109TH RCT,107TH FA BN,A BTRY,--,2,1,--,3
+30,28th Infantry,16378,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+31,28th Infantry,16378,109TH RCT,107TH FA BN,C BTRY,--,1,--,1,2
+32,28th Infantry,16378,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+33,28th Infantry,16378,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,4,--,--,4
+34,28th Infantry,16378,109TH RCT,"A CO, 103 MED BN",--,--,--,2,--,2
+35,28th Infantry,16378,109TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+36,28th Infantry,16378,109TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+37,28th Infantry,16378,109TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+38,28th Infantry,16378,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+39,28th Infantry,16378,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+40,28th Infantry,16378,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+41,28th Infantry,16378,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+42,28th Infantry,16378,110TH RCT,"HQ, 110TH RCT",MED DET,--,1,--,2,3
+43,28th Infantry,16378,110TH RCT,1ST BN,HHC,--,--,--,--,0
+44,28th Infantry,16378,110TH RCT,1ST BN,A CO,--,--,--,2,2
+45,28th Infantry,16378,110TH RCT,1ST BN,B CO,--,--,--,1,1
+46,28th Infantry,16378,110TH RCT,1ST BN,C CO,--,--,--,1,1
+47,28th Infantry,16378,110TH RCT,1ST BN,D CO,--,--,--,--,0
+48,28th Infantry,16378,110TH RCT,2D BN,HHC,--,--,--,1,1
+49,28th Infantry,16378,110TH RCT,2D BN,E CO,--,--,--,--,0
+50,28th Infantry,16378,110TH RCT,2D BN,F CO,--,12,5,2,19
+51,28th Infantry,16378,110TH RCT,2D BN,G CO,--,9,--,1,10
+52,28th Infantry,16378,110TH RCT,2D BN,H CO,--,1,--,--,1
+53,28th Infantry,16378,110TH RCT,3D BN,HHC,2,--,--,--,2
+54,28th Infantry,16378,110TH RCT,3D BN,I CO,--,3,2,--,5
+55,28th Infantry,16378,110TH RCT,3D BN,K CO,--,17,1,7,25
+56,28th Infantry,16378,110TH RCT,3D BN,L CO,--,12,9,5,26
+57,28th Infantry,16378,110TH RCT,3D BN,M CO,--,5,--,2,7
+58,28th Infantry,16378,110TH RCT,109TH FA BN,HHB,--,1,--,--,1
+59,28th Infantry,16378,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,1,1
+60,28th Infantry,16378,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+61,28th Infantry,16378,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+62,28th Infantry,16378,110TH RCT,109TH FA BN,C BTRY,--,--,--,1,1
+63,28th Infantry,16378,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+64,28th Infantry,16378,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,1,1
+65,28th Infantry,16378,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+66,28th Infantry,16378,110TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+67,28th Infantry,16378,110TH RCT,1340 ENGR CBT BN,A CO,--,1,--,1,2
+68,28th Infantry,16378,110TH RCT,1340 ENGR CBT BN,B CO,--,--,--,--,0
+69,28th Infantry,16378,110TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+70,28th Infantry,16378,110TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+71,28th Infantry,16378,110TH RCT,"A CO, 146 ENGR CBT BN",--,--,--,--,--,0
+72,28th Infantry,16378,110TH RCT,"B CO, 707 TANK BN",--,--,--,--,--,0
+73,28th Infantry,16378,112TH RCT,"HQ, 112 RCT",HHC,--,1,--,--,1
+73,28th Infantry,16378,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+74,28th Infantry,16378,112TH RCT,"HQ, 112 RCT",CANNON CO,--,2,1,--,3
+75,28th Infantry,16378,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,1,1,--,2
+76,28th Infantry,16378,112TH RCT,"HQ, 112 RCT",MED DET,--,2,--,2,4
+78,28th Infantry,16378,112TH RCT,1ST BN,HHC,--,--,--,--,0
+79,28th Infantry,16378,112TH RCT,1ST BN,A CO,--,1,--,3,4
+80,28th Infantry,16378,112TH RCT,1ST BN,B CO,--,12,4,6,22
+81,28th Infantry,16378,112TH RCT,1ST BN,C CO,--,1,--,6,7
+82,28th Infantry,16378,112TH RCT,1ST BN,D CO,--,--,--,2,2
+83,28th Infantry,16378,112TH RCT,2D BN,HHC,--,2,2,--,4
+84,28th Infantry,16378,112TH RCT,2D BN,E CO,--,10,3,9,22
+85,28th Infantry,16378,112TH RCT,2D BN,F CO,1,16,4,6,27
+86,28th Infantry,16378,112TH RCT,2D BN,G CO,1,15,6,2,24
+87,28th Infantry,16378,112TH RCT,2D BN,H CO,--,10,2,--,12
+88,28th Infantry,16378,112TH RCT,3D BN,HHC,--,--,--,--,0
+89,28th Infantry,16378,112TH RCT,3D BN,I CO,1,2,--,--,3
+90,28th Infantry,16378,112TH RCT,3D BN,K CO,--,--,--,1,1
+91,28th Infantry,16378,112TH RCT,3D BN,L CO,--,1,--,--,1
+92,28th Infantry,16378,112TH RCT,3D BN,M CO,--,--,--,--,0
+93,28th Infantry,16378,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+94,28th Infantry,16378,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+95,28th Infantry,16378,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+96,28th Infantry,16378,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+97,28th Infantry,16378,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+98,28th Infantry,16378,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+99,28th Infantry,16378,112TH RCT,"C CO, 103 ENGR CBT BN",--,1,--,--,1,2
+100,28th Infantry,16378,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+101,28th Infantry,16378,112TH RCT,"B CO, 86 CML BN",--,--,2,--,--,2
+102,28th Infantry,16378,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+103,28th Infantry,16378,112TH RCT,C CO 707 TANK BN,--,--,--,--,--,0
+104,28th Infantry,16378,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+105,28th Infantry,16378,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,--,0
+106,28th Infantry,16378,112TH RCT,20 ENGR CBT BN,B CO,--,--,--,--,0
+107,28th Infantry,16378,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+108,28th Infantry,16378,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+109,28th Infantry,16378,DIVARTY,HHC,--,--,--,--,--,0
+110,28th Infantry,16378,DIVARTY,MED DET,--,--,--,--,--,0
+111,28th Infantry,16378,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+112,28th Infantry,16378,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+113,28th Infantry,16378,DIVARTY,76 FA BN,A BTRY,--,--,--,1,1
+114,28th Infantry,16378,DIVARTY,76 FA BN,B BTRY,--,1,--,--,1
+115,28th Infantry,16378,DIVARTY,76 FA BN,C BTRY,--,2,--,--,2
+116,28th Infantry,16378,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+117,28th Infantry,16378,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+118,28th Infantry,16378,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+119,28th Infantry,16378,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+120,28th Infantry,16378,DIVARTY,108 FA BN,B BTRY,--,--,--,1,1
+121,28th Infantry,16378,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+122,28th Infantry,16378,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+123,28th Infantry,16378,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+124,28th Infantry,16378,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,1,--,--,--,1
+125,28th Infantry,16378,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,1,1
+126,28th Infantry,16378,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+127,28th Infantry,16378,DIVARTY,87 CML MORT BN (-),D CO,--,2,--,--,2
+128,28th Infantry,16378,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+129,28th Infantry,16378,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+130,28th Infantry,16378,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+131,28th Infantry,16378,DIVARTY,893 TD BN (-),B CO,--,--,--,--,0
+132,28th Infantry,16378,DIVARTY,893 TD BN (-),C CO,--,--,--,--,0
+133,28th Infantry,16378,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+134,28th Infantry,16378,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+135,28th Infantry,16378,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+136,28th Infantry,16378,DIVARTY,707 TANK BN (-),A CO,--,--,--,--,0
+137,28th Infantry,16378,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+138,28th Infantry,16378,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+139,28th Infantry,16378,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+140,28th Infantry,16378,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+141,28th Infantry,16378,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+142,28th Infantry,16378,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+143,28th Infantry,16378,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+144,28th Infantry,16378,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+145,28th Infantry,16378,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+146,28th Infantry,16378,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+147,,,,,TOTAL,12,277,46,97,432
+148,28th Infantry,16379,DIV HQ,HHC,--,--,--,--,--,0
+149,28th Infantry,16379,DIV HQ,CIC DET,--,--,--,--,--,0
+150,28th Infantry,16379,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+151,28th Infantry,16379,DIV HQ,103D ENGR CBT BN (-),MED DET,1,--,--,--,1
+152,28th Infantry,16379,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,3,3
+153,28th Infantry,16379,DIV HQ,"D CO, 707 TANK BN",--,--,--,--,1,1
+154,28th Infantry,16379,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,--,0
+155,28th Infantry,16379,109TH RCT,"HQ, 109TH RCT",SVC CO,--,1,--,1,2
+156,28th Infantry,16379,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+157,28th Infantry,16379,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,2,2,--,--,4
+158,28th Infantry,16379,109TH RCT,"HQ, 109TH RCT",MED DET,2,3,--,3,8
+159,28th Infantry,16379,109TH RCT,1ST BN,HHC,--,1,10,2,13
+160,28th Infantry,16379,109TH RCT,1ST BN,A CO,--,16,--,3,19
+161,28th Infantry,16379,109TH RCT,1ST BN,B CO,--,18,--,2,20
+162,28th Infantry,16379,109TH RCT,1ST BN,C CO,--,21,1,1,23
+163,28th Infantry,16379,109TH RCT,1ST BN,D CO,--,5,3,--,8
+164,28th Infantry,16379,109TH RCT,2ND BN,HHC,--,--,--,--,0
+165,28th Infantry,16379,109TH RCT,2ND BN,E CO,1,3,--,--,4
+166,28th Infantry,16379,109TH RCT,2ND BN,F CO,3,5,--,4,12
+167,28th Infantry,16379,109TH RCT,2ND BN,G CO,--,1,--,1,2
+168,28th Infantry,16379,109TH RCT,2ND BN,H CO,--,3,--,--,3
+169,28th Infantry,16379,109TH RCT,3D BN,HHC,1,--,--,1,2
+170,28th Infantry,16379,109TH RCT,3D BN,I CO,1,9,--,6,16
+171,28th Infantry,16379,109TH RCT,3D BN,K CO,--,3,--,9,12
+172,28th Infantry,16379,109TH RCT,3D BN,L CO,1,6,--,2,9
+173,28th Infantry,16379,109TH RCT,3D BN,M CO,--,5,--,1,6
+174,28th Infantry,16379,109TH RCT,107TH FA BN,HHB,--,--,1,--,1
+175,28th Infantry,16379,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+176,28th Infantry,16379,109TH RCT,107TH FA BN,A BTRY,--,4,--,--,4
+177,28th Infantry,16379,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+178,28th Infantry,16379,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+179,28th Infantry,16379,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+180,28th Infantry,16379,109TH RCT,"A CO, 103 ENGR CBT BN",--,1,3,--,--,4
+181,28th Infantry,16379,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+182,28th Infantry,16379,109TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+183,28th Infantry,16379,109TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+184,28th Infantry,16379,109TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+185,28th Infantry,16379,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+186,28th Infantry,16379,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+187,28th Infantry,16379,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+188,28th Infantry,16379,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+189,28th Infantry,16379,110TH RCT,"HQ, 110TH RCT",MED DET,--,--,--,2,2
+190,28th Infantry,16379,110TH RCT,1ST BN,HHC,--,--,--,--,0
+191,28th Infantry,16379,110TH RCT,1ST BN,A CO,--,--,--,--,0
+192,28th Infantry,16379,110TH RCT,1ST BN,B CO,--,--,--,1,1
+193,28th Infantry,16379,110TH RCT,1ST BN,C CO,--,--,--,--,0
+194,28th Infantry,16379,110TH RCT,1ST BN,D CO,--,--,--,2,2
+195,28th Infantry,16379,110TH RCT,2D BN,HHC,--,--,--,--,0
+196,28th Infantry,16379,110TH RCT,2D BN,E CO,--,1,--,--,1
+197,28th Infantry,16379,110TH RCT,2D BN,F CO,--,27,--,4,31
+198,28th Infantry,16379,110TH RCT,2D BN,G CO,--,13,--,5,18
+199,28th Infantry,16379,110TH RCT,2D BN,H CO,--,--,--,--,0
+200,28th Infantry,16379,110TH RCT,3D BN,HHC,--,2,--,--,2
+201,28th Infantry,16379,110TH RCT,3D BN,I CO,--,19,--,--,19
+202,28th Infantry,16379,110TH RCT,3D BN,K CO,--,--,--,5,5
+203,28th Infantry,16379,110TH RCT,3D BN,L CO,1,8,--,1,10
+204,28th Infantry,16379,110TH RCT,3D BN,M CO,--,1,--,--,1
+205,28th Infantry,16379,110TH RCT,109TH FA BN,HHB,--,--,--,1,1
+206,28th Infantry,16379,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+207,28th Infantry,16379,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+208,28th Infantry,16379,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+209,28th Infantry,16379,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+210,28th Infantry,16379,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+211,28th Infantry,16379,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+212,28th Infantry,16379,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+213,28th Infantry,16379,110TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+214,28th Infantry,16379,110TH RCT,1340 ENGR CBT BN,A CO,--,--,--,--,0
+215,28th Infantry,16379,110TH RCT,1340 ENGR CBT BN,B CO,--,--,--,2,2
+216,28th Infantry,16379,110TH RCT,1340 ENGR CBT BN,C CO,--,--,--,2,2
+217,28th Infantry,16379,110TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+218,28th Infantry,16379,110TH RCT,"A CO, 146 ENGR CBT BN",--,--,--,--,--,0
+219,28th Infantry,16379,110TH RCT,"B CO, 707 TANK BN",--,--,1,--,--,1
+220,28th Infantry,16379,112TH RCT,"HQ, 112 RCT",HHC,--,1,--,--,1
+221,28th Infantry,16379,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,1,1
+222,28th Infantry,16379,112TH RCT,"HQ, 112 RCT",CANNON CO,1,1,--,--,2
+223,28th Infantry,16379,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+224,28th Infantry,16379,112TH RCT,"HQ, 112 RCT",MED DET,--,2,1,1,4
+225,28th Infantry,16379,112TH RCT,1ST BN,HHC,1,3,--,--,4
+226,28th Infantry,16379,112TH RCT,1ST BN,A CO,--,5,--,1,6
+227,28th Infantry,16379,112TH RCT,1ST BN,B CO,1,3,--,4,8
+228,28th Infantry,16379,112TH RCT,1ST BN,C CO,--,--,1,2,3
+229,28th Infantry,16379,112TH RCT,1ST BN,D CO,--,--,--,1,1
+230,28th Infantry,16379,112TH RCT,2D BN,HHC,--,1,--,--,1
+231,28th Infantry,16379,112TH RCT,2D BN,E CO,--,--,--,--,0
+232,28th Infantry,16379,112TH RCT,2D BN,F CO,--,3,--,1,4
+233,28th Infantry,16379,112TH RCT,2D BN,G CO,--,8,4,--,12
+234,28th Infantry,16379,112TH RCT,2D BN,H CO,--,--,--,--,0
+235,28th Infantry,16379,112TH RCT,3D BN,HHC,--,4,1,--,5
+236,28th Infantry,16379,112TH RCT,3D BN,I CO,--,--,1,3,4
+237,28th Infantry,16379,112TH RCT,3D BN,K CO,--,3,7,1,11
+238,28th Infantry,16379,112TH RCT,3D BN,L CO,--,1,--,--,1
+239,28th Infantry,16379,112TH RCT,3D BN,M CO,--,3,--,--,3
+240,28th Infantry,16379,112TH RCT,229 FA BN,HHB,1,--,--,--,1
+241,28th Infantry,16379,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+242,28th Infantry,16379,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+243,28th Infantry,16379,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+244,28th Infantry,16379,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+245,28th Infantry,16379,112TH RCT,229 FA BN,MED DET,--,1,--,--,1
+246,28th Infantry,16379,112TH RCT,"C CO, 103 ENGR CBT BN",--,1,2,--,--,3
+247,28th Infantry,16379,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+248,28th Infantry,16379,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+249,28th Infantry,16379,112TH RCT,"D CO, 86 CML BN",--,2,--,--,2,4
+250,28th Infantry,16379,112TH RCT,A CO 707 TANK BN,--,--,3,--,3,6
+251,28th Infantry,16379,112TH RCT,C CO 707 TANK BN,--,--,3,1,--,4
+252,28th Infantry,16379,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+253,28th Infantry,16379,112TH RCT,20 ENGR CBT BN,A CO,2,2,--,--,4
+254,28th Infantry,16379,112TH RCT,20 ENGR CBT BN,B CO,--,--,--,1,1
+255,28th Infantry,16379,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+256,28th Infantry,16379,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+257,28th Infantry,16379,DIVARTY,HHC,--,--,--,--,--,0
+258,28th Infantry,16379,DIVARTY,MED DET,--,--,--,--,--,0
+259,28th Infantry,16379,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+260,28th Infantry,16379,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+261,28th Infantry,16379,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+262,28th Infantry,16379,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+263,28th Infantry,16379,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+264,28th Infantry,16379,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+265,28th Infantry,16379,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+266,28th Infantry,16379,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+267,28th Infantry,16379,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+268,28th Infantry,16379,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+269,28th Infantry,16379,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+270,28th Infantry,16379,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+271,28th Infantry,16379,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+272,28th Infantry,16379,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+273,28th Infantry,16379,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+274,28th Infantry,16379,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+275,28th Infantry,16379,DIVARTY,87 CML MORT BN (-),D CO,--,--,--,1,1
+276,28th Infantry,16379,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+277,28th Infantry,16379,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+278,28th Infantry,16379,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+279,28th Infantry,16379,DIVARTY,893 TD BN (-),B CO,--,1,--,--,1
+280,28th Infantry,16379,DIVARTY,893 TD BN (-),C CO,--,--,--,--,0
+281,28th Infantry,16379,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+282,28th Infantry,16379,DIVARTY,707 TANK BN (-),HHC,--,--,--,3,3
+283,28th Infantry,16379,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,2,2
+284,28th Infantry,16379,DIVARTY,707 TANK BN (-),A CO,--,--,--,--,0
+285,28th Infantry,16379,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+286,28th Infantry,16379,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+287,28th Infantry,16379,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+288,28th Infantry,16379,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+289,28th Infantry,16379,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+290,28th Infantry,16379,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+291,28th Infantry,16379,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+292,28th Infantry,16379,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+293,28th Infantry,16379,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+294,28th Infantry,16379,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+295,,,,,TOTAL,23,231,31,93,378
+296,28th Infantry,16380,DIV HQ,HHC,--,--,--,--,--,0
+297,28th Infantry,16380,DIV HQ,CIC DET,--,--,--,--,--,0
+298,28th Infantry,16380,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+299,28th Infantry,16380,DIV HQ,103D ENGR CBT BN (-),MED DET,--,1,--,--,1
+300,28th Infantry,16380,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+301,28th Infantry,16380,DIV HQ,"D CO, 707 TANK BN",--,--,--,--,--,0
+302,28th Infantry,16380,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,--,0
+303,28th Infantry,16380,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+304,28th Infantry,16380,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+305,28th Infantry,16380,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,4,--,--,4
+306,28th Infantry,16380,109TH RCT,"HQ, 109TH RCT",MED DET,1,3,--,1,5
+307,28th Infantry,16380,109TH RCT,1ST BN,HHC,--,1,1,1,3
+308,28th Infantry,16380,109TH RCT,1ST BN,A CO,--,12,--,1,13
+309,28th Infantry,16380,109TH RCT,1ST BN,B CO,1,9,--,1,11
+310,28th Infantry,16380,109TH RCT,1ST BN,C CO,--,10,--,1,11
+311,28th Infantry,16380,109TH RCT,1ST BN,D CO,1,6,--,--,7
+312,28th Infantry,16380,109TH RCT,2ND BN,HHC,--,--,--,--,0
+313,28th Infantry,16380,109TH RCT,2ND BN,E CO,--,12,2,1,15
+314,28th Infantry,16380,109TH RCT,2ND BN,F CO,--,1,--,--,1
+315,28th Infantry,16380,109TH RCT,2ND BN,G CO,1,6,--,2,9
+316,28th Infantry,16380,109TH RCT,2ND BN,H CO,--,1,--,3,4
+317,28th Infantry,16380,109TH RCT,3D BN,HHC,--,--,--,--,0
+318,28th Infantry,16380,109TH RCT,3D BN,I CO,--,4,11,2,17
+319,28th Infantry,16380,109TH RCT,3D BN,K CO,1,--,--,1,2
+320,28th Infantry,16380,109TH RCT,3D BN,L CO,--,1,--,--,1
+321,28th Infantry,16380,109TH RCT,3D BN,M CO,--,1,--,--,1
+322,28th Infantry,16380,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+323,28th Infantry,16380,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+324,28th Infantry,16380,109TH RCT,107TH FA BN,A BTRY,--,--,1,--,1
+325,28th Infantry,16380,109TH RCT,107TH FA BN,B BTRY,--,--,--,1,1
+326,28th Infantry,16380,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+327,28th Infantry,16380,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+328,28th Infantry,16380,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,2,--,--,2
+329,28th Infantry,16380,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+330,28th Infantry,16380,109TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+331,28th Infantry,16380,109TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+332,28th Infantry,16380,109TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+333,28th Infantry,16380,110TH RCT,"HQ, 110TH RCT",HHC,--,3,--,--,3
+334,28th Infantry,16380,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+335,28th Infantry,16380,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+336,28th Infantry,16380,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+337,28th Infantry,16380,110TH RCT,"HQ, 110TH RCT",MED DET,--,--,--,--,0
+338,28th Infantry,16380,110TH RCT,1ST BN,HHC,--,--,--,--,0
+339,28th Infantry,16380,110TH RCT,1ST BN,A CO,1,9,--,3,13
+340,28th Infantry,16380,110TH RCT,1ST BN,B CO,--,29,--,6,35
+341,28th Infantry,16380,110TH RCT,1ST BN,C CO,--,22,--,2,24
+342,28th Infantry,16380,110TH RCT,1ST BN,D CO,--,--,--,--,0
+343,28th Infantry,16380,110TH RCT,2D BN,HHC,--,--,--,--,0
+344,28th Infantry,16380,110TH RCT,2D BN,E CO,--,1,--,1,2
+345,28th Infantry,16380,110TH RCT,2D BN,F CO,2,5,--,--,7
+346,28th Infantry,16380,110TH RCT,2D BN,G CO,--,2,--,--,2
+347,28th Infantry,16380,110TH RCT,2D BN,H CO,--,--,--,--,0
+348,28th Infantry,16380,110TH RCT,3D BN,HHC,--,--,--,1,1
+349,28th Infantry,16380,110TH RCT,3D BN,I CO,1,7,--,3,11
+350,28th Infantry,16380,110TH RCT,3D BN,K CO,--,--,--,1,1
+351,28th Infantry,16380,110TH RCT,3D BN,L CO,--,2,--,2,4
+352,28th Infantry,16380,110TH RCT,3D BN,M CO,--,1,--,1,2
+353,28th Infantry,16380,110TH RCT,109TH FA BN,HHB,--,--,--,1,1
+354,28th Infantry,16380,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,1,1
+355,28th Infantry,16380,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+356,28th Infantry,16380,110TH RCT,109TH FA BN,B BTRY,--,--,--,1,1
+357,28th Infantry,16380,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+358,28th Infantry,16380,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+359,28th Infantry,16380,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,2,2
+360,28th Infantry,16380,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+361,28th Infantry,16380,110TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+362,28th Infantry,16380,110TH RCT,1340 ENGR CBT BN,A CO,--,--,--,--,0
+363,28th Infantry,16380,110TH RCT,1340 ENGR CBT BN,B CO,--,--,--,--,0
+364,28th Infantry,16380,110TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+365,28th Infantry,16380,110TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+366,28th Infantry,16380,110TH RCT,"A CO, 146 ENGR CBT BN",--,--,--,--,--,0
+367,28th Infantry,16380,110TH RCT,"B CO, 707 TANK BN",--,--,--,--,--,0
+368,28th Infantry,16380,112TH RCT,"HQ, 112 RCT",HHC,--,2,1,--,3
+369,28th Infantry,16380,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+370,28th Infantry,16380,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+371,28th Infantry,16380,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,1,2,--,3
+372,28th Infantry,16380,112TH RCT,"HQ, 112 RCT",MED DET,--,--,1,4,5
+373,28th Infantry,16380,112TH RCT,1ST BN,HHC,--,--,--,--,0
+374,28th Infantry,16380,112TH RCT,1ST BN,A CO,--,3,5,1,9
+375,28th Infantry,16380,112TH RCT,1ST BN,B CO,1,--,--,1,2
+376,28th Infantry,16380,112TH RCT,1ST BN,C CO,1,6,1,4,12
+377,28th Infantry,16380,112TH RCT,1ST BN,D CO,--,3,--,1,4
+378,28th Infantry,16380,112TH RCT,2D BN,HHC,1,--,--,3,4
+379,28th Infantry,16380,112TH RCT,2D BN,E CO,--,4,7,--,11
+380,28th Infantry,16380,112TH RCT,2D BN,F CO,--,--,4,1,5
+381,28th Infantry,16380,112TH RCT,2D BN,G CO,--,2,2,1,5
+382,28th Infantry,16380,112TH RCT,2D BN,H CO,--,--,--,--,0
+383,28th Infantry,16380,112TH RCT,3D BN,HHC,--,4,--,2,6
+384,28th Infantry,16380,112TH RCT,3D BN,I CO,--,5,--,2,7
+385,28th Infantry,16380,112TH RCT,3D BN,K CO,--,4,--,1,5
+386,28th Infantry,16380,112TH RCT,3D BN,L CO,--,4,--,--,4
+387,28th Infantry,16380,112TH RCT,3D BN,M CO,--,5,2,2,9
+388,28th Infantry,16380,112TH RCT,229 FA BN,HHB,1,1,--,--,2
+389,28th Infantry,16380,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+390,28th Infantry,16380,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+391,28th Infantry,16380,112TH RCT,229 FA BN,B BTRY,--,--,--,1,1
+392,28th Infantry,16380,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+393,28th Infantry,16380,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+394,28th Infantry,16380,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,1,1
+395,28th Infantry,16380,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+396,28th Infantry,16380,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+397,28th Infantry,16380,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+398,28th Infantry,16380,112TH RCT,A CO 707 TANK BN,--,--,2,--,--,2
+399,28th Infantry,16380,112TH RCT,C CO 707 TANK BN,--,--,2,--,--,2
+400,28th Infantry,16380,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,1,--,--,1
+401,28th Infantry,16380,112TH RCT,20 ENGR CBT BN,A CO,--,10,--,--,10
+402,28th Infantry,16380,112TH RCT,20 ENGR CBT BN,B CO,--,--,--,1,1
+403,28th Infantry,16380,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+404,28th Infantry,16380,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+405,28th Infantry,16380,DIVARTY,HHC,--,--,--,--,1,1
+406,28th Infantry,16380,DIVARTY,MED DET,--,--,--,--,--,0
+407,28th Infantry,16380,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+408,28th Infantry,16380,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+409,28th Infantry,16380,DIVARTY,76 FA BN,A BTRY,--,2,--,--,2
+410,28th Infantry,16380,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+411,28th Infantry,16380,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+412,28th Infantry,16380,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+413,28th Infantry,16380,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+414,28th Infantry,16380,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+415,28th Infantry,16380,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+416,28th Infantry,16380,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+417,28th Infantry,16380,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+418,28th Infantry,16380,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+419,28th Infantry,16380,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+420,28th Infantry,16380,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,2,--,--,2
+421,28th Infantry,16380,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+422,28th Infantry,16380,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+423,28th Infantry,16380,DIVARTY,87 CML MORT BN (-),D CO,--,--,--,--,0
+424,28th Infantry,16380,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+425,28th Infantry,16380,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+426,28th Infantry,16380,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+427,28th Infantry,16380,DIVARTY,893 TD BN (-),B CO,--,--,--,--,0
+428,28th Infantry,16380,DIVARTY,893 TD BN (-),C CO,--,--,--,--,0
+429,28th Infantry,16380,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+430,28th Infantry,16380,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+431,28th Infantry,16380,DIVARTY,707 TANK BN (-),SVC CO,--,1,--,--,1
+432,28th Infantry,16380,DIVARTY,707 TANK BN (-),A CO,--,--,--,--,0
+433,28th Infantry,16380,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+434,28th Infantry,16380,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+435,28th Infantry,16380,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+436,28th Infantry,16380,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+437,28th Infantry,16380,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+438,28th Infantry,16380,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+439,28th Infantry,16380,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+440,28th Infantry,16380,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,1,1
+441,28th Infantry,16380,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+442,28th Infantry,16380,DIV TRAINS,28 QM CO,--,--,--,--,1,1
+443,,,,,TOTAL,13,219,40,69,341
+444,28th Infantry,16381,DIV HQ,HHC,--,--,--,--,--,0
+445,28th Infantry,16381,DIV HQ,CIC DET,--,--,--,--,--,0
+446,28th Infantry,16381,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+447,28th Infantry,16381,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+448,28th Infantry,16381,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,2,2
+449,28th Infantry,16381,DIV HQ,"D CO, 707 TANK BN",--,--,--,--,--,0
+450,28th Infantry,16381,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,--,0
+451,28th Infantry,16381,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+452,28th Infantry,16381,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+453,28th Infantry,16381,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,1,1
+454,28th Infantry,16381,109TH RCT,"HQ, 109TH RCT",MED DET,--,--,--,--,0
+455,28th Infantry,16381,109TH RCT,1ST BN,HHC,--,--,1,--,1
+456,28th Infantry,16381,109TH RCT,1ST BN,A CO,--,2,4,1,7
+457,28th Infantry,16381,109TH RCT,1ST BN,B CO,--,2,--,1,3
+458,28th Infantry,16381,109TH RCT,1ST BN,C CO,--,2,1,2,5
+459,28th Infantry,16381,109TH RCT,1ST BN,D CO,--,2,4,1,7
+460,28th Infantry,16381,109TH RCT,2ND BN,HHC,--,--,--,--,0
+461,28th Infantry,16381,109TH RCT,2ND BN,E CO,--,1,5,1,7
+462,28th Infantry,16381,109TH RCT,2ND BN,F CO,--,4,--,2,6
+463,28th Infantry,16381,109TH RCT,2ND BN,G CO,--,7,2,1,10
+464,28th Infantry,16381,109TH RCT,2ND BN,H CO,--,1,--,1,2
+465,28th Infantry,16381,109TH RCT,3D BN,HHC,--,--,--,--,0
+466,28th Infantry,16381,109TH RCT,3D BN,I CO,--,1,--,1,2
+467,28th Infantry,16381,109TH RCT,3D BN,K CO,--,9,--,--,9
+468,28th Infantry,16381,109TH RCT,3D BN,L CO,--,1,--,1,2
+469,28th Infantry,16381,109TH RCT,3D BN,M CO,1,3,--,--,4
+470,28th Infantry,16381,109TH RCT,107TH FA BN,HHB,--,--,--,1,1
+471,28th Infantry,16381,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+472,28th Infantry,16381,109TH RCT,107TH FA BN,A BTRY,--,--,--,--,0
+473,28th Infantry,16381,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+474,28th Infantry,16381,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+475,28th Infantry,16381,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+476,28th Infantry,16381,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,1,1
+477,28th Infantry,16381,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+478,28th Infantry,16381,109TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,2,2
+479,28th Infantry,16381,109TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+480,28th Infantry,16381,109TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+481,28th Infantry,16381,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+482,28th Infantry,16381,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+483,28th Infantry,16381,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+484,28th Infantry,16381,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+485,28th Infantry,16381,110TH RCT,"HQ, 110TH RCT",MED DET,--,--,1,--,1
+486,28th Infantry,16381,110TH RCT,1ST BN,HHC,1,--,--,1,2
+487,28th Infantry,16381,110TH RCT,1ST BN,A CO,3,8,--,2,13
+488,28th Infantry,16381,110TH RCT,1ST BN,B CO,--,--,--,--,0
+489,28th Infantry,16381,110TH RCT,1ST BN,C CO,3,12,--,--,15
+490,28th Infantry,16381,110TH RCT,1ST BN,D CO,--,2,--,--,2
+491,28th Infantry,16381,110TH RCT,2D BN,HHC,--,--,--,--,0
+492,28th Infantry,16381,110TH RCT,2D BN,E CO,--,5,--,11,16
+493,28th Infantry,16381,110TH RCT,2D BN,F CO,--,2,--,--,2
+494,28th Infantry,16381,110TH RCT,2D BN,G CO,--,1,--,--,1
+495,28th Infantry,16381,110TH RCT,2D BN,H CO,--,--,--,--,0
+496,28th Infantry,16381,110TH RCT,3D BN,HHC,--,--,--,--,0
+497,28th Infantry,16381,110TH RCT,3D BN,I CO,3,4,--,1,8
+498,28th Infantry,16381,110TH RCT,3D BN,K CO,3,--,5,--,8
+499,28th Infantry,16381,110TH RCT,3D BN,L CO,--,1,1,--,2
+500,28th Infantry,16381,110TH RCT,3D BN,M CO,1,--,--,--,1
+501,28th Infantry,16381,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+502,28th Infantry,16381,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+503,28th Infantry,16381,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+504,28th Infantry,16381,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+505,28th Infantry,16381,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+506,28th Infantry,16381,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+507,28th Infantry,16381,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+508,28th Infantry,16381,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+509,28th Infantry,16381,110TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+510,28th Infantry,16381,110TH RCT,1340 ENGR CBT BN,A CO,--,--,--,--,0
+511,28th Infantry,16381,110TH RCT,1340 ENGR CBT BN,B CO,--,--,--,--,0
+512,28th Infantry,16381,110TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+513,28th Infantry,16381,110TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+514,28th Infantry,16381,110TH RCT,"A CO, 146 ENGR CBT BN",--,--,--,--,--,0
+515,28th Infantry,16381,112TH RCT,"HQ, 112 RCT",HHC,--,1,--,2,3
+516,28th Infantry,16381,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+517,28th Infantry,16381,112TH RCT,"HQ, 112 RCT",CANNON CO,--,2,--,--,2
+518,28th Infantry,16381,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+519,28th Infantry,16381,112TH RCT,"HQ, 112 RCT",MED DET,--,3,3,1,7
+520,28th Infantry,16381,112TH RCT,1ST BN,HHC,--,--,6,--,6
+521,28th Infantry,16381,112TH RCT,1ST BN,A CO,--,10,--,1,11
+522,28th Infantry,16381,112TH RCT,1ST BN,B CO,--,--,--,4,4
+523,28th Infantry,16381,112TH RCT,1ST BN,C CO,--,2,--,3,5
+524,28th Infantry,16381,112TH RCT,1ST BN,D CO,1,--,--,1,2
+525,28th Infantry,16381,112TH RCT,2D BN,HHC,2,1,--,4,7
+526,28th Infantry,16381,112TH RCT,2D BN,E CO,--,3,--,3,6
+527,28th Infantry,16381,112TH RCT,2D BN,F CO,--,4,--,1,5
+528,28th Infantry,16381,112TH RCT,2D BN,G CO,--,3,2,2,7
+529,28th Infantry,16381,112TH RCT,2D BN,H CO,1,3,--,4,8
+530,28th Infantry,16381,112TH RCT,3D BN,HHC,--,3,--,2,5
+531,28th Infantry,16381,112TH RCT,3D BN,I CO,1,14,--,8,23
+532,28th Infantry,16381,112TH RCT,3D BN,K CO,--,--,--,1,1
+533,28th Infantry,16381,112TH RCT,3D BN,L CO,--,16,--,4,20
+534,28th Infantry,16381,112TH RCT,3D BN,M CO,--,6,1,1,8
+535,28th Infantry,16381,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+536,28th Infantry,16381,112TH RCT,229 FA BN,SVC BTRY,--,1,--,--,1
+537,28th Infantry,16381,112TH RCT,229 FA BN,A BTRY,--,3,--,--,3
+538,28th Infantry,16381,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+539,28th Infantry,16381,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+540,28th Infantry,16381,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+541,28th Infantry,16381,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,--,0
+542,28th Infantry,16381,112TH RCT,"C CO, 103 MED DET",--,2,1,--,--,3
+543,28th Infantry,16381,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+544,28th Infantry,16381,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+545,28th Infantry,16381,112TH RCT,"B CO, 893 TD BN (-)",--,--,2,--,--,2
+546,28th Infantry,16381,112TH RCT,"C CO ,893 TD BN (-)",--,2,4,1,--,7
+547,28th Infantry,16381,112TH RCT,"A CO, 707 TANK BN",--,1,1,--,--,2
+548,28th Infantry,16381,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,--,0
+549,28th Infantry,16381,112TH RCT,"C CO, 707 TANK BN",--,1,2,--,--,3
+550,28th Infantry,16381,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,2,--,--,--,2
+551,28th Infantry,16381,112TH RCT,20 ENGR CBT BN,A CO,--,2,--,--,2
+552,28th Infantry,16381,112TH RCT,20 ENGR CBT BN,B CO,--,2,--,--,2
+553,28th Infantry,16381,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+554,28th Infantry,16381,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+555,28th Infantry,16381,DIVARTY,HHC,--,--,--,--,--,0
+556,28th Infantry,16381,DIVARTY,MED DET,--,--,--,--,--,0
+557,28th Infantry,16381,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+558,28th Infantry,16381,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+559,28th Infantry,16381,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+560,28th Infantry,16381,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+561,28th Infantry,16381,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+562,28th Infantry,16381,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+563,28th Infantry,16381,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+564,28th Infantry,16381,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+565,28th Infantry,16381,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+566,28th Infantry,16381,DIVARTY,108 FA BN,B BTRY,--,--,--,1,1
+567,28th Infantry,16381,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+568,28th Infantry,16381,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+569,28th Infantry,16381,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+570,28th Infantry,16381,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,1,1
+571,28th Infantry,16381,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+572,28th Infantry,16381,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+573,28th Infantry,16381,DIVARTY,87 CML MORT BN (-),D CO,--,--,--,--,0
+574,28th Infantry,16381,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+575,28th Infantry,16381,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+576,28th Infantry,16381,DIVARTY,893 TD BN (-),RCN CO,--,1,--,--,1
+577,28th Infantry,16381,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+578,28th Infantry,16381,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+579,28th Infantry,16381,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+580,28th Infantry,16381,DIVARTY,707 TANK BN (-),A CO,--,--,--,--,0
+581,28th Infantry,16381,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+582,28th Infantry,16381,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+583,28th Infantry,16381,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+584,28th Infantry,16381,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+585,28th Infantry,16381,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+586,28th Infantry,16381,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+587,28th Infantry,16381,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+588,28th Infantry,16381,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+589,28th Infantry,16381,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+590,28th Infantry,16381,DIV TRAINS,28 QM CO,--,--,--,1,5,6
+591,,,,,TOTAL,28,160,38,83,309
+592,28th Infantry,16382,DIV HQ,HHC,--,--,--,--,--,0
+593,28th Infantry,16382,DIV HQ,CIC DET,--,--,--,--,--,0
+594,28th Infantry,16382,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+595,28th Infantry,16382,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+596,28th Infantry,16382,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,1,1
+597,28th Infantry,16382,DIV HQ,"D CO, 707 TANK BN",--,--,--,--,--,0
+598,28th Infantry,16382,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,1,1
+599,28th Infantry,16382,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,1,1
+600,28th Infantry,16382,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,1,--,--,1
+601,28th Infantry,16382,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,2,2
+602,28th Infantry,16382,109TH RCT,"HQ, 109TH RCT",MED DET,1,3,--,3,7
+603,28th Infantry,16382,109TH RCT,1ST BN,HHC,--,3,3,--,6
+604,28th Infantry,16382,109TH RCT,1ST BN,A CO,2,7,14,5,28
+605,28th Infantry,16382,109TH RCT,1ST BN,B CO,1,9,11,--,21
+606,28th Infantry,16382,109TH RCT,1ST BN,C CO,1,16,14,--,31
+607,28th Infantry,16382,109TH RCT,1ST BN,D CO,--,1,1,2,4
+608,28th Infantry,16382,109TH RCT,2ND BN,HHC,--,--,--,--,0
+609,28th Infantry,16382,109TH RCT,2ND BN,E CO,--,2,18,13,33
+610,28th Infantry,16382,109TH RCT,2ND BN,F CO,--,23,--,11,34
+611,28th Infantry,16382,109TH RCT,2ND BN,G CO,2,13,--,3,18
+612,28th Infantry,16382,109TH RCT,2ND BN,H CO,2,12,--,3,17
+613,28th Infantry,16382,109TH RCT,3D BN,HHC,--,--,--,1,1
+614,28th Infantry,16382,109TH RCT,3D BN,I CO,1,1,1,3,6
+615,28th Infantry,16382,109TH RCT,3D BN,K CO,--,--,--,4,4
+616,28th Infantry,16382,109TH RCT,3D BN,L CO,2,16,2,--,20
+617,28th Infantry,16382,109TH RCT,3D BN,M CO,--,3,--,2,5
+618,28th Infantry,16382,109TH RCT,107TH FA BN,HHB,--,--,--,1,1
+619,28th Infantry,16382,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+620,28th Infantry,16382,109TH RCT,107TH FA BN,A BTRY,--,--,--,3,3
+621,28th Infantry,16382,109TH RCT,107TH FA BN,B BTRY,--,4,--,--,4
+622,28th Infantry,16382,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+623,28th Infantry,16382,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+624,28th Infantry,16382,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+625,28th Infantry,16382,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+626,28th Infantry,16382,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+627,28th Infantry,16382,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+628,28th Infantry,16382,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+629,28th Infantry,16382,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+630,28th Infantry,16382,110TH RCT,"HQ, 110TH RCT",MED DET,--,--,1,--,1
+631,28th Infantry,16382,110TH RCT,1ST BN,HHC,--,1,1,--,2
+632,28th Infantry,16382,110TH RCT,1ST BN,A CO,1,5,--,2,8
+633,28th Infantry,16382,110TH RCT,1ST BN,B CO,--,5,--,--,5
+634,28th Infantry,16382,110TH RCT,1ST BN,C CO,--,10,--,4,14
+635,28th Infantry,16382,110TH RCT,1ST BN,D CO,--,1,--,1,2
+636,28th Infantry,16382,110TH RCT,2D BN,HHC,--,--,--,--,0
+637,28th Infantry,16382,110TH RCT,2D BN,E CO,--,8,--,1,9
+638,28th Infantry,16382,110TH RCT,2D BN,F CO,--,--,--,2,2
+639,28th Infantry,16382,110TH RCT,2D BN,G CO,--,3,--,2,5
+640,28th Infantry,16382,110TH RCT,2D BN,H CO,--,--,--,--,0
+641,28th Infantry,16382,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+642,28th Infantry,16382,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+643,28th Infantry,16382,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+644,28th Infantry,16382,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+645,28th Infantry,16382,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+646,28th Infantry,16382,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+647,28th Infantry,16382,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+648,28th Infantry,16382,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+649,28th Infantry,16382,110TH RCT,"A CO, 1340 ENGR CBT BN",--,--,--,--,--,0
+650,28th Infantry,16382,110TH RCT,"A CO, 146 ENGR CBT BN",--,--,--,--,--,0
+651,28th Infantry,16382,112TH RCT,"HQ, 112 RCT",HHC,--,2,3,--,5
+652,28th Infantry,16382,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+653,28th Infantry,16382,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,2,1,3
+654,28th Infantry,16382,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,1,--,--,1
+655,28th Infantry,16382,112TH RCT,"HQ, 112 RCT",MED DET,--,1,--,2,3
+656,28th Infantry,16382,112TH RCT,1ST BN,HHC,--,3,--,1,4
+657,28th Infantry,16382,112TH RCT,1ST BN,A CO,--,2,--,2,4
+658,28th Infantry,16382,112TH RCT,1ST BN,B CO,--,1,--,4,5
+659,28th Infantry,16382,112TH RCT,1ST BN,C CO,--,--,--,--,0
+660,28th Infantry,16382,112TH RCT,1ST BN,D CO,--,4,--,3,7
+661,28th Infantry,16382,112TH RCT,2D BN,HHC,--,5,--,4,9
+662,28th Infantry,16382,112TH RCT,2D BN,E CO,--,15,--,24,39
+663,28th Infantry,16382,112TH RCT,2D BN,F CO,1,16,--,14,31
+664,28th Infantry,16382,112TH RCT,2D BN,G CO,--,19,--,17,36
+665,28th Infantry,16382,112TH RCT,2D BN,H CO,--,14,19,18,51
+666,28th Infantry,16382,112TH RCT,3D BN,HHC,1,5,--,1,7
+667,28th Infantry,16382,112TH RCT,3D BN,I CO,--,3,--,5,8
+668,28th Infantry,16382,112TH RCT,3D BN,K CO,--,1,--,--,1
+669,28th Infantry,16382,112TH RCT,3D BN,L CO,--,4,--,1,5
+670,28th Infantry,16382,112TH RCT,3D BN,M CO,1,4,--,1,6
+671,28th Infantry,16382,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+672,28th Infantry,16382,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+673,28th Infantry,16382,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+674,28th Infantry,16382,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+675,28th Infantry,16382,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+676,28th Infantry,16382,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+677,28th Infantry,16382,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,1,1
+678,28th Infantry,16382,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+679,28th Infantry,16382,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+680,28th Infantry,16382,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+681,28th Infantry,16382,112TH RCT,"B CO, 707 TANK BN",--,1,4,--,--,5
+682,28th Infantry,16382,112TH RCT,"C CO, 707 TANK BN",--,1,--,--,--,1
+683,28th Infantry,16382,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+684,28th Infantry,16382,112TH RCT,1340 ENGR CBT BN,B CO,--,--,--,1,1
+685,28th Infantry,16382,112TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+686,28th Infantry,16382,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+687,28th Infantry,16382,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+688,28th Infantry,16382,112TH RCT,20 ENGR CBT BN,A CO,--,3,6,--,9
+689,28th Infantry,16382,112TH RCT,20 ENGR CBT BN,B CO,1,--,--,--,1
+690,28th Infantry,16382,112TH RCT,20 ENGR CBT BN,C CO,1,2,18,--,21
+691,28th Infantry,16382,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+692,28th Infantry,16382,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+693,28th Infantry,16382,112TH RCT,146 ENGR CBT BN (-),A CO,2,5,--,1,8
+694,28th Infantry,16382,112TH RCT,146 ENGR CBT BN (-),C CO,--,4,--,1,5
+695,28th Infantry,16382,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+696,28th Infantry,16382,"TASK FORCE ""R""","3D BN, 110TH INF",HHC,--,1,1,--,2
+697,28th Infantry,16382,"TASK FORCE ""R""","3D BN, 110TH INF",I CO,--,2,--,--,2
+698,28th Infantry,16382,"TASK FORCE ""R""","3D BN, 110TH INF",K CO,--,4,--,1,5
+699,28th Infantry,16382,"TASK FORCE ""R""","3D BN, 110TH INF",L CO,--,9,--,1,10
+700,28th Infantry,16382,"TASK FORCE ""R""","3D BN, 110TH INF",M CO,--,1,--,--,1
+701,28th Infantry,16382,"TASK FORCE ""R""","A CO, 707 TANK BN",--,--,--,--,--,0
+702,28th Infantry,16382,"TASK FORCE ""R""","B CO, 893 TD BN (-)",--,--,1,--,1,2
+703,28th Infantry,16382,"TASK FORCE ""R""","C CO, 893 TD BN (-)",--,--,1,1,--,2
+704,28th Infantry,16382,DIVARTY,HHC,--,--,--,--,--,0
+705,28th Infantry,16382,DIVARTY,MED DET,--,--,--,--,--,0
+706,28th Infantry,16382,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+707,28th Infantry,16382,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+708,28th Infantry,16382,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+709,28th Infantry,16382,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+710,28th Infantry,16382,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+711,28th Infantry,16382,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+712,28th Infantry,16382,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+713,28th Infantry,16382,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+714,28th Infantry,16382,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+715,28th Infantry,16382,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+716,28th Infantry,16382,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+717,28th Infantry,16382,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+718,28th Infantry,16382,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+719,28th Infantry,16382,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+720,28th Infantry,16382,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+721,28th Infantry,16382,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+722,28th Infantry,16382,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+723,28th Infantry,16382,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+724,28th Infantry,16382,DIVARTY,893 TD BN (-),RCN CO,1,1,--,1,3
+725,28th Infantry,16382,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+726,28th Infantry,16382,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+727,28th Infantry,16382,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+728,28th Infantry,16382,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+729,28th Infantry,16382,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+730,28th Infantry,16382,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+731,28th Infantry,16382,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+732,28th Infantry,16382,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+733,28th Infantry,16382,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+734,28th Infantry,16382,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+735,28th Infantry,16382,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+736,28th Infantry,16382,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+737,28th Infantry,16382,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+738,,,,,TOTAL,23,285,116,178,602
+739,28th Infantry,16383,DIV HQ,HHC,--,--,--,--,--,0
+740,28th Infantry,16383,DIV HQ,CIC DET,--,--,--,--,--,0
+741,28th Infantry,16383,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+742,28th Infantry,16383,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+743,28th Infantry,16383,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,1,1
+744,28th Infantry,16383,DIV HQ,"D CO, 707 TANK BN",--,--,--,--,--,0
+745,28th Infantry,16383,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,--,0
+746,28th Infantry,16383,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+747,28th Infantry,16383,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+748,28th Infantry,16383,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,--,0
+749,28th Infantry,16383,109TH RCT,"HQ, 109TH RCT",MED DET,--,--,--,--,0
+750,28th Infantry,16383,109TH RCT,1ST BN,HHC,--,--,--,--,0
+751,28th Infantry,16383,109TH RCT,1ST BN,A CO,--,1,--,1,2
+752,28th Infantry,16383,109TH RCT,1ST BN,B CO,--,1,--,1,2
+753,28th Infantry,16383,109TH RCT,1ST BN,C CO,--,--,--,--,0
+754,28th Infantry,16383,109TH RCT,1ST BN,D CO,--,--,--,--,0
+755,28th Infantry,16383,109TH RCT,2ND BN,HHC,--,1,--,--,1
+756,28th Infantry,16383,109TH RCT,2ND BN,E CO,--,1,--,--,1
+757,28th Infantry,16383,109TH RCT,2ND BN,F CO,--,4,--,6,10
+758,28th Infantry,16383,109TH RCT,2ND BN,G CO,--,14,--,2,16
+759,28th Infantry,16383,109TH RCT,2ND BN,H CO,1,--,--,--,1
+760,28th Infantry,16383,109TH RCT,3D BN,HHC,--,--,--,--,0
+761,28th Infantry,16383,109TH RCT,3D BN,I CO,--,2,--,1,3
+762,28th Infantry,16383,109TH RCT,3D BN,K CO,--,--,--,--,0
+763,28th Infantry,16383,109TH RCT,3D BN,L CO,--,--,--,1,1
+764,28th Infantry,16383,109TH RCT,3D BN,M CO,--,--,--,1,1
+765,28th Infantry,16383,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+766,28th Infantry,16383,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+767,28th Infantry,16383,109TH RCT,107TH FA BN,A BTRY,--,1,--,--,1
+768,28th Infantry,16383,109TH RCT,107TH FA BN,B BTRY,--,1,--,--,1
+769,28th Infantry,16383,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+770,28th Infantry,16383,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+771,28th Infantry,16383,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+772,28th Infantry,16383,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+773,28th Infantry,16383,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,1,1
+774,28th Infantry,16383,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+775,28th Infantry,16383,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+776,28th Infantry,16383,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,1,1
+777,28th Infantry,16383,110TH RCT,"HQ, 110TH RCT",MED DET,--,2,--,1,3
+778,28th Infantry,16383,110TH RCT,1ST BN,HHC,--,1,--,--,1
+779,28th Infantry,16383,110TH RCT,1ST BN,A CO,--,2,--,3,5
+780,28th Infantry,16383,110TH RCT,1ST BN,B CO,--,3,--,4,7
+781,28th Infantry,16383,110TH RCT,1ST BN,C CO,--,6,--,6,12
+782,28th Infantry,16383,110TH RCT,1ST BN,D CO,--,3,--,1,4
+783,28th Infantry,16383,110TH RCT,2D BN,HHC,--,--,--,--,0
+784,28th Infantry,16383,110TH RCT,2D BN,E CO,--,9,--,4,13
+785,28th Infantry,16383,110TH RCT,2D BN,F CO,--,--,--,1,1
+786,28th Infantry,16383,110TH RCT,2D BN,G CO,--,1,1,2,4
+787,28th Infantry,16383,110TH RCT,2D BN,H CO,--,--,--,1,1
+788,28th Infantry,16383,110TH RCT,109TH FA BN,HHB,--,2,--,2,4
+789,28th Infantry,16383,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,1,1
+790,28th Infantry,16383,110TH RCT,109TH FA BN,A BTRY,--,--,--,1,1
+791,28th Infantry,16383,110TH RCT,109TH FA BN,B BTRY,--,--,--,1,1
+792,28th Infantry,16383,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+793,28th Infantry,16383,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+794,28th Infantry,16383,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+795,28th Infantry,16383,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+796,28th Infantry,16383,112TH RCT,"HQ, 112 RCT",HHC,2,1,--,--,3
+797,28th Infantry,16383,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+798,28th Infantry,16383,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+799,28th Infantry,16383,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+800,28th Infantry,16383,112TH RCT,"HQ, 112 RCT",MED DET,--,1,1,2,4
+801,28th Infantry,16383,112TH RCT,1ST BN,HHC,--,2,--,--,2
+802,28th Infantry,16383,112TH RCT,1ST BN,A CO,--,--,--,--,0
+803,28th Infantry,16383,112TH RCT,1ST BN,B CO,--,8,--,4,12
+804,28th Infantry,16383,112TH RCT,1ST BN,C CO,--,3,--,--,3
+805,28th Infantry,16383,112TH RCT,1ST BN,D CO,1,8,--,4,13
+806,28th Infantry,16383,112TH RCT,2D BN,HHC,--,1,--,--,1
+807,28th Infantry,16383,112TH RCT,2D BN,E CO,--,5,1,3,9
+808,28th Infantry,16383,112TH RCT,2D BN,F CO,--,5,1,1,7
+809,28th Infantry,16383,112TH RCT,2D BN,G CO,--,4,--,3,7
+810,28th Infantry,16383,112TH RCT,2D BN,H CO,--,2,2,2,6
+811,28th Infantry,16383,112TH RCT,3D BN,HHC,--,1,--,--,1
+812,28th Infantry,16383,112TH RCT,3D BN,I CO,1,1,--,3,5
+813,28th Infantry,16383,112TH RCT,3D BN,K CO,--,--,--,--,0
+814,28th Infantry,16383,112TH RCT,3D BN,L CO,--,3,--,--,3
+815,28th Infantry,16383,112TH RCT,3D BN,M CO,--,2,24,--,26
+816,28th Infantry,16383,112TH RCT,229 FA BN,HHB,--,2,1,--,3
+817,28th Infantry,16383,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+818,28th Infantry,16383,112TH RCT,229 FA BN,A BTRY,--,1,--,--,1
+819,28th Infantry,16383,112TH RCT,229 FA BN,B BTRY,--,--,1,--,1
+820,28th Infantry,16383,112TH RCT,229 FA BN,C BTRY,--,1,1,--,2
+821,28th Infantry,16383,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+822,28th Infantry,16383,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,2,2
+823,28th Infantry,16383,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+824,28th Infantry,16383,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+825,28th Infantry,16383,112TH RCT,"D CO, 86 CML BN",--,--,--,--,1,1
+826,28th Infantry,16383,112TH RCT,"A CO, 1340 ENG CBT BN",--,1,1,--,5,7
+827,28th Infantry,16383,112TH RCT,"B CO, 707 TANK BN",--,1,4,--,--,5
+828,28th Infantry,16383,112TH RCT,"C CO, 707 TANK BN",--,--,--,--,2,2
+829,28th Infantry,16383,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+830,28th Infantry,16383,112TH RCT,1340 ENGR CBT BN,B CO,1,3,--,--,4
+831,28th Infantry,16383,112TH RCT,1340 ENGR CBT BN,C CO,2,13,--,4,19
+832,28th Infantry,16383,112TH RCT,1340 ENGR CBT BN,MED DET,--,1,--,--,1
+833,28th Infantry,16383,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+834,28th Infantry,16383,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,2,2
+835,28th Infantry,16383,112TH RCT,20 ENGR CBT BN,B CO,--,--,7,--,7
+836,28th Infantry,16383,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+837,28th Infantry,16383,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+838,28th Infantry,16383,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+839,28th Infantry,16383,112TH RCT,146 ENGR CBT BN (-),A CO,--,1,1,--,2
+840,28th Infantry,16383,112TH RCT,146 ENGR CBT BN (-),C CO,5,11,1,--,17
+841,28th Infantry,16383,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+842,28th Infantry,16383,112TH RCT,"3D BN, 110TH INF",HHC,--,2,--,--,2
+843,28th Infantry,16383,112TH RCT,"3D BN, 110TH INF",I CO,--,--,1,1,2
+844,28th Infantry,16383,112TH RCT,"3D BN, 110TH INF",K CO,--,--,--,1,1
+845,28th Infantry,16383,112TH RCT,"3D BN, 110TH INF",L CO,--,1,--,--,1
+846,28th Infantry,16383,112TH RCT,"3D BN, 110TH INF",M CO,--,1,--,--,1
+847,28th Infantry,16383,112TH RCT,"A CO, 707 TANK BN",--,--,1,9,--,10
+848,28th Infantry,16383,112TH RCT,"B CO, 893 TD BN (-)",--,1,4,--,1,6
+849,28th Infantry,16383,112TH RCT,"C CO, 893 TD BN (-)",--,4,1,22,--,27
+850,28th Infantry,16383,DIVARTY,HHC,--,--,--,--,1,1
+851,28th Infantry,16383,DIVARTY,MED DET,--,--,--,--,--,0
+852,28th Infantry,16383,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+853,28th Infantry,16383,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+854,28th Infantry,16383,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+855,28th Infantry,16383,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+856,28th Infantry,16383,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+857,28th Infantry,16383,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+858,28th Infantry,16383,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+859,28th Infantry,16383,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+860,28th Infantry,16383,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+861,28th Infantry,16383,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+862,28th Infantry,16383,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+863,28th Infantry,16383,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+864,28th Infantry,16383,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+865,28th Infantry,16383,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+866,28th Infantry,16383,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+867,28th Infantry,16383,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+868,28th Infantry,16383,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+869,28th Infantry,16383,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+870,28th Infantry,16383,DIVARTY,893 TD BN (-),RCN CO,--,2,--,--,2
+871,28th Infantry,16383,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+872,28th Infantry,16383,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+873,28th Infantry,16383,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+874,28th Infantry,16383,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+875,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,HHB,--,--,--,--,0
+876,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,SVC BTRY,--,--,--,1,1
+877,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,A BTRY,--,--,--,--,0
+878,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,B BTRY,--,--,--,--,0
+879,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,C BTRY,--,--,--,--,0
+880,28th Infantry,16383,"12TH CT, 41ID",42 FA BN,MED DET,--,--,--,--,0
+881,28th Infantry,16383,"12TH CT, 41ID",4 ENG CBT BN,"B CO, 1ST PLT",--,--,--,--,0
+882,28th Infantry,16383,"12TH CT, 41ID",801 TD BN,A CO,--,--,--,--,0
+883,28th Infantry,16383,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+884,28th Infantry,16383,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+885,28th Infantry,16383,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+886,28th Infantry,16383,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+887,28th Infantry,16383,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,1,1
+888,28th Infantry,16383,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+889,28th Infantry,16383,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+890,28th Infantry,16383,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+891,28th Infantry,16383,DIV TRAINS,28 QM CO,--,--,--,--,1,1
+892,,,,,TOTAL,20,152,74,90,336
+893,28th Infantry,16384,DIV HQ,HHC,--,--,--,--,--,0
+894,28th Infantry,16384,DIV HQ,CIC DET,--,--,--,--,--,0
+895,28th Infantry,16384,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+896,28th Infantry,16384,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+897,28th Infantry,16384,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+898,28th Infantry,16384,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,1,1
+899,28th Infantry,16384,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,1,1
+900,28th Infantry,16384,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+901,28th Infantry,16384,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,2,--,--,2
+902,28th Infantry,16384,109TH RCT,"HQ, 109TH RCT",MED DET,--,--,--,1,1
+903,28th Infantry,16384,109TH RCT,1ST BN,HHC,1,--,--,1,2
+904,28th Infantry,16384,109TH RCT,1ST BN,A CO,--,--,--,1,1
+905,28th Infantry,16384,109TH RCT,1ST BN,B CO,--,--,--,1,1
+906,28th Infantry,16384,109TH RCT,1ST BN,C CO,--,1,--,2,3
+907,28th Infantry,16384,109TH RCT,1ST BN,D CO,--,--,--,2,2
+908,28th Infantry,16384,109TH RCT,2ND BN,HHC,1,--,--,--,1
+909,28th Infantry,16384,109TH RCT,2ND BN,E CO,--,2,--,--,2
+910,28th Infantry,16384,109TH RCT,2ND BN,F CO,--,1,--,--,1
+911,28th Infantry,16384,109TH RCT,2ND BN,G CO,--,--,--,5,5
+912,28th Infantry,16384,109TH RCT,2ND BN,H CO,--,1,--,3,4
+913,28th Infantry,16384,109TH RCT,3D BN,HHC,--,1,--,--,1
+914,28th Infantry,16384,109TH RCT,3D BN,I CO,--,1,3,--,4
+915,28th Infantry,16384,109TH RCT,3D BN,K CO,2,12,2,--,16
+916,28th Infantry,16384,109TH RCT,3D BN,L CO,--,2,--,--,2
+917,28th Infantry,16384,109TH RCT,3D BN,M CO,--,--,--,--,0
+918,28th Infantry,16384,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+919,28th Infantry,16384,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+920,28th Infantry,16384,109TH RCT,107TH FA BN,A BTRY,--,--,--,1,1
+921,28th Infantry,16384,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+922,28th Infantry,16384,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+923,28th Infantry,16384,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+924,28th Infantry,16384,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+925,28th Infantry,16384,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+926,28th Infantry,16384,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,2,2
+927,28th Infantry,16384,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+928,28th Infantry,16384,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+929,28th Infantry,16384,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+930,28th Infantry,16384,110TH RCT,"HQ, 110TH RCT",MED DET,1,3,--,--,4
+931,28th Infantry,16384,110TH RCT,1ST BN,HHC,--,1,--,--,1
+932,28th Infantry,16384,110TH RCT,1ST BN,A CO,--,2,--,2,4
+933,28th Infantry,16384,110TH RCT,1ST BN,B CO,--,2,5,1,8
+934,28th Infantry,16384,110TH RCT,1ST BN,C CO,--,1,--,4,5
+935,28th Infantry,16384,110TH RCT,1ST BN,D CO,--,--,--,--,0
+936,28th Infantry,16384,110TH RCT,2D BN,HHC,--,--,--,--,0
+937,28th Infantry,16384,110TH RCT,2D BN,E CO,--,5,--,3,8
+938,28th Infantry,16384,110TH RCT,2D BN,F CO,--,3,--,--,3
+939,28th Infantry,16384,110TH RCT,2D BN,G CO,--,6,--,1,7
+940,28th Infantry,16384,110TH RCT,2D BN,H CO,--,--,--,--,0
+941,28th Infantry,16384,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+942,28th Infantry,16384,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+943,28th Infantry,16384,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+944,28th Infantry,16384,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+945,28th Infantry,16384,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+946,28th Infantry,16384,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+947,28th Infantry,16384,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+948,28th Infantry,16384,110TH RCT,"B CO, 103 MED BN",--,--,--,--,2,2
+949,28th Infantry,16384,112TH RCT,"HQ, 112 RCT",HHC,--,1,1,2,4
+950,28th Infantry,16384,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+951,28th Infantry,16384,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+952,28th Infantry,16384,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+953,28th Infantry,16384,112TH RCT,"HQ, 112 RCT",MED DET,--,2,21,2,25
+954,28th Infantry,16384,112TH RCT,1ST BN,HHC,--,1,31,--,32
+955,28th Infantry,16384,112TH RCT,1ST BN,A CO,--,3,76,--,79
+956,28th Infantry,16384,112TH RCT,1ST BN,B CO,--,1,68,1,70
+957,28th Infantry,16384,112TH RCT,1ST BN,C CO,--,--,14,--,14
+958,28th Infantry,16384,112TH RCT,1ST BN,D CO,--,--,70,--,70
+959,28th Infantry,16384,112TH RCT,2D BN,HHC,1,--,6,--,7
+960,28th Infantry,16384,112TH RCT,2D BN,E CO,--,--,1,3,4
+961,28th Infantry,16384,112TH RCT,2D BN,F CO,--,--,--,1,1
+962,28th Infantry,16384,112TH RCT,2D BN,G CO,--,--,--,--,0
+963,28th Infantry,16384,112TH RCT,2D BN,H CO,--,--,--,--,0
+964,28th Infantry,16384,112TH RCT,3D BN,HHC,--,--,38,--,38
+965,28th Infantry,16384,112TH RCT,3D BN,I CO,--,--,33,--,33
+966,28th Infantry,16384,112TH RCT,3D BN,K CO,--,5,90,--,95
+967,28th Infantry,16384,112TH RCT,3D BN,L CO,--,1,110,--,111
+968,28th Infantry,16384,112TH RCT,3D BN,M CO,--,1,14,--,15
+969,28th Infantry,16384,112TH RCT,229 FA BN,HHB,--,3,1,--,4
+970,28th Infantry,16384,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+971,28th Infantry,16384,112TH RCT,229 FA BN,A BTRY,--,--,1,--,1
+972,28th Infantry,16384,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+973,28th Infantry,16384,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+974,28th Infantry,16384,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+975,28th Infantry,16384,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,2,--,7,9
+976,28th Infantry,16384,112TH RCT,"C CO, 103 MED DET",--,--,--,--,1,1
+977,28th Infantry,16384,112TH RCT,"B CO, 86 CML BN",--,--,--,--,1,1
+978,28th Infantry,16384,112TH RCT,"D CO, 86 CML BN",--,--,--,--,2,2
+979,28th Infantry,16384,112TH RCT,"A CO, 1340 ENG CBT BN",--,1,3,--,--,4
+980,28th Infantry,16384,112TH RCT,"A CO, 707 TANK BN",--,1,1,23,1,26
+981,28th Infantry,16384,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,--,0
+982,28th Infantry,16384,112TH RCT,"C CO, 707 TANK BN",--,--,1,--,--,1
+983,28th Infantry,16384,112TH RCT,"D CO, 707 TANK BN",--,--,--,--,--,0
+984,28th Infantry,16384,112TH RCT,"B CO, 893 TD BN",--,--,--,--,--,0
+985,28th Infantry,16384,112TH RCT,"C CO, 893 TD BN",--,--,--,1,--,1
+986,28th Infantry,16384,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+987,28th Infantry,16384,112TH RCT,1340 ENGR CBT BN,B CO,5,10,--,1,16
+988,28th Infantry,16384,112TH RCT,1340 ENGR CBT BN,C CO,--,12,--,4,16
+989,28th Infantry,16384,112TH RCT,1340 ENGR CBT BN,MED DET,3,2,--,1,6
+990,28th Infantry,16384,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+991,28th Infantry,16384,112TH RCT,20 ENGR CBT BN,A CO,1,4,--,--,5
+992,28th Infantry,16384,112TH RCT,20 ENGR CBT BN,B CO,1,2,--,--,3
+993,28th Infantry,16384,112TH RCT,20 ENGR CBT BN,C CO,--,1,--,1,2
+994,28th Infantry,16384,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,1,1
+995,28th Infantry,16384,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+996,28th Infantry,16384,112TH RCT,146 ENGR CBT BN (-),A CO,--,--,--,--,0
+997,28th Infantry,16384,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+998,28th Infantry,16384,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+999,28th Infantry,16384,112TH RCT,"3D BN, 110TH INF",HHC,--,--,--,--,0
+1000,28th Infantry,16384,112TH RCT,"3D BN, 110TH INF",I CO,--,--,--,--,0
+1001,28th Infantry,16384,112TH RCT,"3D BN, 110TH INF",K CO,--,1,--,--,1
+1002,28th Infantry,16384,112TH RCT,"3D BN, 110TH INF",L CO,--,--,--,--,0
+1003,28th Infantry,16384,112TH RCT,"3D BN, 110TH INF",M CO,--,1,--,--,1
+1004,28th Infantry,16384,DIVARTY,HHC,--,--,--,--,--,0
+1005,28th Infantry,16384,DIVARTY,MED DET,--,--,--,--,--,0
+1006,28th Infantry,16384,DIVARTY,76 FA BN,HHB,1,1,--,--,2
+1007,28th Infantry,16384,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1008,28th Infantry,16384,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1009,28th Infantry,16384,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1010,28th Infantry,16384,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+1011,28th Infantry,16384,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1012,28th Infantry,16384,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1013,28th Infantry,16384,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1014,28th Infantry,16384,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1015,28th Infantry,16384,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+1016,28th Infantry,16384,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1017,28th Infantry,16384,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1018,28th Infantry,16384,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1019,28th Infantry,16384,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,1,1
+1020,28th Infantry,16384,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+1021,28th Infantry,16384,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1022,28th Infantry,16384,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+1023,28th Infantry,16384,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1024,28th Infantry,16384,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+1025,28th Infantry,16384,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1026,28th Infantry,16384,DIVARTY,707 TANK BN (-),HHC,1,--,--,2,3
+1027,28th Infantry,16384,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1028,28th Infantry,16384,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1029,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,HHB,--,--,--,--,0
+1030,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,SVC BTRY,--,--,--,--,0
+1031,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,A BTRY,--,--,--,--,0
+1032,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,B BTRY,--,--,--,--,0
+1033,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,C BTRY,--,--,--,--,0
+1034,28th Infantry,16384,"12TH CT, 41ID",42 FA BN,MED DET,--,--,--,--,0
+1035,28th Infantry,16384,"12TH CT, 41ID",4 ENG CBT BN,"B CO, 1ST PLT",--,--,--,--,0
+1036,28th Infantry,16384,"12TH CT, 41ID",801 TD BN,A CO,--,--,--,--,0
+1037,28th Infantry,16384,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1038,28th Infantry,16384,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1039,28th Infantry,16384,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1040,28th Infantry,16384,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1041,28th Infantry,16384,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1042,28th Infantry,16384,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+1043,28th Infantry,16384,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1044,28th Infantry,16384,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1045,28th Infantry,16384,DIV TRAINS,28 QM CO,--,--,--,--,4,4
+1046,,,,,TOTAL,20,105,609,71,805
+1047,28th Infantry,16385,DIV HQ,HHC,--,--,--,--,--,0
+1048,28th Infantry,16385,DIV HQ,CIC DET,--,--,--,--,--,0
+1049,28th Infantry,16385,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1050,28th Infantry,16385,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+1051,28th Infantry,16385,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+1052,28th Infantry,16385,109TH RCT,"HQ, 109TH RCT",HHC,--,1,--,--,1
+1053,28th Infantry,16385,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,2,2
+1054,28th Infantry,16385,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+1055,28th Infantry,16385,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,1,1
+1056,28th Infantry,16385,109TH RCT,"HQ, 109TH RCT",MED DET,--,--,--,3,3
+1057,28th Infantry,16385,109TH RCT,1ST BN,HHC,--,--,--,--,0
+1058,28th Infantry,16385,109TH RCT,1ST BN,A CO,--,1,--,2,3
+1059,28th Infantry,16385,109TH RCT,1ST BN,B CO,--,1,--,2,3
+1060,28th Infantry,16385,109TH RCT,1ST BN,C CO,--,--,--,1,1
+1061,28th Infantry,16385,109TH RCT,1ST BN,D CO,--,--,--,1,1
+1062,28th Infantry,16385,109TH RCT,2ND BN,HHC,--,--,--,--,0
+1063,28th Infantry,16385,109TH RCT,2ND BN,E CO,--,1,4,1,6
+1064,28th Infantry,16385,109TH RCT,2ND BN,F CO,--,9,7,3,19
+1065,28th Infantry,16385,109TH RCT,2ND BN,G CO,--,2,--,3,5
+1066,28th Infantry,16385,109TH RCT,2ND BN,H CO,--,2,--,--,2
+1067,28th Infantry,16385,109TH RCT,3D BN,HHC,--,--,--,--,0
+1068,28th Infantry,16385,109TH RCT,3D BN,I CO,--,1,--,--,1
+1069,28th Infantry,16385,109TH RCT,3D BN,K CO,--,--,--,--,0
+1070,28th Infantry,16385,109TH RCT,3D BN,L CO,--,2,--,7,9
+1071,28th Infantry,16385,109TH RCT,3D BN,M CO,--,2,--,--,2
+1072,28th Infantry,16385,109TH RCT,107TH FA BN,HHB,--,--,--,1,1
+1073,28th Infantry,16385,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+1074,28th Infantry,16385,109TH RCT,107TH FA BN,A BTRY,--,--,1,--,1
+1075,28th Infantry,16385,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+1076,28th Infantry,16385,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+1077,28th Infantry,16385,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+1078,28th Infantry,16385,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+1079,28th Infantry,16385,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+1080,28th Infantry,16385,110TH RCT,"HQ, 110TH RCT",HHC,--,2,--,1,3
+1081,28th Infantry,16385,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+1082,28th Infantry,16385,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+1083,28th Infantry,16385,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,--,--,--,0
+1084,28th Infantry,16385,110TH RCT,"HQ, 110TH RCT",MED DET,--,9,--,1,10
+1085,28th Infantry,16385,110TH RCT,1ST BN,HHC,--,--,--,--,0
+1086,28th Infantry,16385,110TH RCT,1ST BN,A CO,--,10,--,3,13
+1087,28th Infantry,16385,110TH RCT,1ST BN,B CO,--,--,--,1,1
+1088,28th Infantry,16385,110TH RCT,1ST BN,C CO,--,3,--,2,5
+1089,28th Infantry,16385,110TH RCT,1ST BN,D CO,--,--,--,--,0
+1090,28th Infantry,16385,110TH RCT,2D BN,HHC,--,--,--,--,0
+1091,28th Infantry,16385,110TH RCT,2D BN,E CO,--,5,--,5,10
+1092,28th Infantry,16385,110TH RCT,2D BN,F CO,--,--,--,3,3
+1093,28th Infantry,16385,110TH RCT,2D BN,G CO,--,5,--,2,7
+1094,28th Infantry,16385,110TH RCT,2D BN,H CO,--,--,--,--,0
+1095,28th Infantry,16385,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+1096,28th Infantry,16385,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+1097,28th Infantry,16385,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+1098,28th Infantry,16385,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+1099,28th Infantry,16385,110TH RCT,109TH FA BN,C BTRY,--,--,--,1,1
+1100,28th Infantry,16385,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+1101,28th Infantry,16385,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,1,--,1,2
+1102,28th Infantry,16385,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+1103,28th Infantry,16385,112TH RCT,"HQ, 112 RCT",HHC,--,3,--,--,3
+1104,28th Infantry,16385,112TH RCT,"HQ, 112 RCT",SVC CO,--,1,--,--,1
+1105,28th Infantry,16385,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+1106,28th Infantry,16385,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+1107,28th Infantry,16385,112TH RCT,"HQ, 112 RCT",MED DET,--,--,--,--,0
+1108,28th Infantry,16385,112TH RCT,1ST BN,HHC,--,2,--,--,2
+1109,28th Infantry,16385,112TH RCT,1ST BN,A CO,--,3,--,--,3
+1110,28th Infantry,16385,112TH RCT,1ST BN,B CO,--,7,--,3,10
+1111,28th Infantry,16385,112TH RCT,1ST BN,C CO,1,33,--,2,36
+1112,28th Infantry,16385,112TH RCT,1ST BN,D CO,--,6,--,--,6
+1113,28th Infantry,16385,112TH RCT,2D BN,HHC,--,--,--,--,0
+1114,28th Infantry,16385,112TH RCT,2D BN,E CO,--,--,--,--,0
+1115,28th Infantry,16385,112TH RCT,2D BN,F CO,--,2,28,2,32
+1116,28th Infantry,16385,112TH RCT,2D BN,G CO,2,--,18,--,20
+1117,28th Infantry,16385,112TH RCT,2D BN,H CO,--,--,--,--,0
+1118,28th Infantry,16385,112TH RCT,3D BN,HHC,--,3,--,--,3
+1119,28th Infantry,16385,112TH RCT,3D BN,I CO,--,1,--,--,1
+1120,28th Infantry,16385,112TH RCT,3D BN,K CO,--,16,--,2,18
+1121,28th Infantry,16385,112TH RCT,3D BN,L CO,--,7,--,2,9
+1122,28th Infantry,16385,112TH RCT,3D BN,M CO,--,3,--,--,3
+1123,28th Infantry,16385,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+1124,28th Infantry,16385,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+1125,28th Infantry,16385,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+1126,28th Infantry,16385,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+1127,28th Infantry,16385,112TH RCT,229 FA BN,C BTRY,--,1,4,--,5
+1128,28th Infantry,16385,112TH RCT,229 FA BN,MED DET,--,--,--,1,1
+1129,28th Infantry,16385,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,4,4
+1130,28th Infantry,16385,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+1131,28th Infantry,16385,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+1132,28th Infantry,16385,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+1133,28th Infantry,16385,112TH RCT,"A CO, 1340 ENG CBT BN",--,--,6,--,--,6
+1134,28th Infantry,16385,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,2,2
+1135,28th Infantry,16385,112TH RCT,"C CO, 707 TANK BN",--,--,--,--,2,2
+1136,28th Infantry,16385,112TH RCT,"D CO, 707 TANK BN",--,--,--,--,--,0
+1137,28th Infantry,16385,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1138,28th Infantry,16385,112TH RCT,1340 ENGR CBT BN,B CO,--,2,--,--,2
+1139,28th Infantry,16385,112TH RCT,1340 ENGR CBT BN,C CO,--,8,12,2,22
+1140,28th Infantry,16385,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,1,--,1
+1141,28th Infantry,16385,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1142,28th Infantry,16385,112TH RCT,20 ENGR CBT BN,A CO,1,6,--,--,7
+1143,28th Infantry,16385,112TH RCT,20 ENGR CBT BN,B CO,--,--,--,1,1
+1144,28th Infantry,16385,112TH RCT,20 ENGR CBT BN,C CO,--,9,--,3,12
+1145,28th Infantry,16385,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+1146,28th Infantry,16385,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,1,1
+1147,28th Infantry,16385,112TH RCT,146 ENGR CBT BN (-),A CO,--,1,--,1,2
+1148,28th Infantry,16385,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,3,3
+1149,28th Infantry,16385,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+1150,28th Infantry,16385,112TH RCT,"3D BN, 110TH INF",HHC,--,--,--,--,0
+1151,28th Infantry,16385,112TH RCT,"3D BN, 110TH INF",I CO,--,25,11,1,37
+1152,28th Infantry,16385,112TH RCT,"3D BN, 110TH INF",K CO,--,30,--,1,31
+1153,28th Infantry,16385,112TH RCT,"3D BN, 110TH INF",L CO,--,19,16,2,37
+1154,28th Infantry,16385,112TH RCT,"3D BN, 110TH INF",M CO,1,24,13,--,38
+1155,28th Infantry,16385,112TH RCT,"A CO, 707 TANK BN",--,--,3,1,3,7
+1156,28th Infantry,16385,112TH RCT,"B CO, 893 TD BN",--,--,--,--,1,1
+1157,28th Infantry,16385,112TH RCT,"C CO, 893 TD BN",--,--,--,--,--,0
+1158,28th Infantry,16385,DIVARTY,HHC,--,--,--,--,1,1
+1159,28th Infantry,16385,DIVARTY,MED DET,--,--,--,--,--,0
+1160,28th Infantry,16385,DIVARTY,76 FA BN,HHB,--,1,--,--,1
+1161,28th Infantry,16385,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1162,28th Infantry,16385,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1163,28th Infantry,16385,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1164,28th Infantry,16385,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+1165,28th Infantry,16385,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1166,28th Infantry,16385,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1167,28th Infantry,16385,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1168,28th Infantry,16385,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1169,28th Infantry,16385,DIVARTY,108 FA BN,B BTRY,--,2,--,--,2
+1170,28th Infantry,16385,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1171,28th Infantry,16385,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1172,28th Infantry,16385,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1173,28th Infantry,16385,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+1174,28th Infantry,16385,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,1,1
+1175,28th Infantry,16385,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1176,28th Infantry,16385,DIVARTY,987 FA BN (-),A BTRY,--,--,--,--,0
+1177,28th Infantry,16385,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1178,28th Infantry,16385,DIVARTY,893 TD BN (-),RCN CO,--,2,--,--,2
+1179,28th Infantry,16385,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1180,28th Infantry,16385,DIVARTY,707 TANK BN (-),HHC,--,--,--,2,2
+1181,28th Infantry,16385,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1182,28th Infantry,16385,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1183,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,HHB,--,--,--,--,0
+1184,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,SVC BTRY,--,--,--,--,0
+1185,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,A BTRY,--,--,--,--,0
+1186,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,B BTRY,--,--,--,2,2
+1187,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,C BTRY,--,--,--,--,0
+1188,28th Infantry,16385,"12TH CT, 41ID",42 FA BN,MED DET,--,--,--,--,0
+1189,28th Infantry,16385,"12TH CT, 41ID",4 ENG CBT BN,"B CO, 1ST PLT",1,--,--,--,1
+1190,28th Infantry,16385,"12TH CT, 41ID",801 TD BN,A CO,--,--,--,--,0
+1191,28th Infantry,16385,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1192,28th Infantry,16385,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1193,28th Infantry,16385,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1194,28th Infantry,16385,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1195,28th Infantry,16385,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1196,28th Infantry,16385,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+1197,28th Infantry,16385,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1198,28th Infantry,16385,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1199,28th Infantry,16385,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+1200,,,,,TOTAL,6,283,116,92,497
+1201,28th Infantry,16386,DIV HQ,HHC,--,--,--,--,--,0
+1202,28th Infantry,16386,DIV HQ,CIC DET,--,--,--,--,--,0
+1203,28th Infantry,16386,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1204,28th Infantry,16386,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,1,--,1
+1205,28th Infantry,16386,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+1206,28th Infantry,16386,109TH RCT,"HQ, 109TH RCT",HHC,--,1,--,--,1
+1207,28th Infantry,16386,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+1208,28th Infantry,16386,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+1209,28th Infantry,16386,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,--,0
+1210,28th Infantry,16386,109TH RCT,"HQ, 109TH RCT",MED DET,--,2,--,--,2
+1211,28th Infantry,16386,109TH RCT,1ST BN,HHC,1,2,--,--,3
+1212,28th Infantry,16386,109TH RCT,1ST BN,A CO,--,9,13,--,22
+1213,28th Infantry,16386,109TH RCT,1ST BN,B CO,1,3,--,3,7
+1214,28th Infantry,16386,109TH RCT,1ST BN,C CO,--,5,3,4,12
+1215,28th Infantry,16386,109TH RCT,1ST BN,D CO,--,1,--,2,3
+1216,28th Infantry,16386,109TH RCT,2ND BN,HHC,--,2,--,3,5
+1217,28th Infantry,16386,109TH RCT,2ND BN,E CO,--,3,--,2,5
+1218,28th Infantry,16386,109TH RCT,2ND BN,F CO,--,1,--,--,1
+1219,28th Infantry,16386,109TH RCT,2ND BN,G CO,1,--,--,2,3
+1220,28th Infantry,16386,109TH RCT,2ND BN,H CO,--,--,--,1,1
+1221,28th Infantry,16386,109TH RCT,3D BN,HHC,--,--,--,--,0
+1222,28th Infantry,16386,109TH RCT,3D BN,I CO,--,1,--,--,1
+1223,28th Infantry,16386,109TH RCT,3D BN,K CO,--,1,--,--,1
+1224,28th Infantry,16386,109TH RCT,3D BN,L CO,--,4,--,4,8
+1225,28th Infantry,16386,109TH RCT,3D BN,M CO,1,3,--,1,5
+1226,28th Infantry,16386,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+1227,28th Infantry,16386,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+1228,28th Infantry,16386,109TH RCT,107TH FA BN,A BTRY,--,--,--,--,0
+1229,28th Infantry,16386,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+1230,28th Infantry,16386,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+1231,28th Infantry,16386,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+1232,28th Infantry,16386,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,1,--,1,2
+1233,28th Infantry,16386,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+1234,28th Infantry,16386,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+1235,28th Infantry,16386,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+1236,28th Infantry,16386,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+1237,28th Infantry,16386,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,2,1,1,4
+1238,28th Infantry,16386,110TH RCT,"HQ, 110TH RCT",MED DET,--,4,--,7,11
+1239,28th Infantry,16386,110TH RCT,1ST BN,HHC,--,3,--,--,3
+1240,28th Infantry,16386,110TH RCT,1ST BN,A CO,--,1,--,--,1
+1241,28th Infantry,16386,110TH RCT,1ST BN,B CO,--,8,--,--,8
+1242,28th Infantry,16386,110TH RCT,1ST BN,C CO,--,14,--,1,15
+1243,28th Infantry,16386,110TH RCT,1ST BN,D CO,--,8,--,--,8
+1244,28th Infantry,16386,110TH RCT,2D BN,HHC,--,--,--,1,1
+1245,28th Infantry,16386,110TH RCT,2D BN,E CO,--,17,--,1,18
+1246,28th Infantry,16386,110TH RCT,2D BN,F CO,--,34,--,2,36
+1247,28th Infantry,16386,110TH RCT,2D BN,G CO,1,23,2,2,28
+1248,28th Infantry,16386,110TH RCT,2D BN,H CO,--,2,--,--,2
+1249,28th Infantry,16386,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+1250,28th Infantry,16386,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,1,1
+1251,28th Infantry,16386,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+1252,28th Infantry,16386,110TH RCT,109TH FA BN,B BTRY,--,1,--,--,1
+1253,28th Infantry,16386,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+1254,28th Infantry,16386,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+1255,28th Infantry,16386,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,12,1,13
+1256,28th Infantry,16386,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+1257,28th Infantry,16386,112TH RCT,"HQ, 112 RCT",HHC,--,1,--,--,1
+1258,28th Infantry,16386,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+1259,28th Infantry,16386,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+1260,28th Infantry,16386,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+1261,28th Infantry,16386,112TH RCT,"HQ, 112 RCT",MED DET,--,1,--,1,2
+1262,28th Infantry,16386,112TH RCT,1ST BN,HHC,--,2,--,--,2
+1263,28th Infantry,16386,112TH RCT,1ST BN,A CO,--,1,--,--,1
+1264,28th Infantry,16386,112TH RCT,1ST BN,B CO,--,--,--,--,0
+1265,28th Infantry,16386,112TH RCT,1ST BN,C CO,--,14,--,2,16
+1266,28th Infantry,16386,112TH RCT,1ST BN,D CO,--,--,--,--,0
+1267,28th Infantry,16386,112TH RCT,2D BN,HHC,--,1,--,8,9
+1268,28th Infantry,16386,112TH RCT,2D BN,E CO,--,2,--,1,3
+1269,28th Infantry,16386,112TH RCT,2D BN,F CO,--,2,--,9,11
+1270,28th Infantry,16386,112TH RCT,2D BN,G CO,--,3,--,2,5
+1271,28th Infantry,16386,112TH RCT,2D BN,H CO,--,--,--,1,1
+1272,28th Infantry,16386,112TH RCT,3D BN,HHC,--,--,--,--,0
+1273,28th Infantry,16386,112TH RCT,3D BN,I CO,--,--,--,1,1
+1274,28th Infantry,16386,112TH RCT,3D BN,K CO,--,2,--,--,2
+1275,28th Infantry,16386,112TH RCT,3D BN,L CO,--,--,--,1,1
+1276,28th Infantry,16386,112TH RCT,3D BN,M CO,--,--,--,--,0
+1277,28th Infantry,16386,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+1278,28th Infantry,16386,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+1279,28th Infantry,16386,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+1280,28th Infantry,16386,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+1281,28th Infantry,16386,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+1282,28th Infantry,16386,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+1283,28th Infantry,16386,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,1,--,2,3
+1284,28th Infantry,16386,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+1285,28th Infantry,16386,112TH RCT,"B CO, 86 CML BN",--,--,--,--,1,1
+1286,28th Infantry,16386,112TH RCT,"D CO, 86 CML BN",--,--,1,--,--,1
+1287,28th Infantry,16386,112TH RCT,"A CO, 1340 ENG CBT BN",--,--,1,--,2,3
+1288,28th Infantry,16386,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,1,1
+1289,28th Infantry,16386,112TH RCT,"C CO, 707 TANK BN",--,--,1,--,--,1
+1290,28th Infantry,16386,112TH RCT,"D CO, 707 TANK BN",--,--,--,--,1,1
+1291,28th Infantry,16386,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+1292,28th Infantry,16386,112TH RCT,1340 ENGR CBT BN,B CO,--,4,--,--,4
+1293,28th Infantry,16386,112TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+1294,28th Infantry,16386,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+1295,28th Infantry,16386,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1296,28th Infantry,16386,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,--,0
+1297,28th Infantry,16386,112TH RCT,20 ENGR CBT BN,B CO,--,1,--,--,1
+1298,28th Infantry,16386,112TH RCT,20 ENGR CBT BN,C CO,--,3,--,1,4
+1299,28th Infantry,16386,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+1300,28th Infantry,16386,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1301,28th Infantry,16386,112TH RCT,146 ENGR CBT BN (-),A CO,--,--,--,--,0
+1302,28th Infantry,16386,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+1303,28th Infantry,16386,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+1304,28th Infantry,16386,112TH RCT,"3D BN, 110TH INF",HHC,--,3,--,--,3
+1305,28th Infantry,16386,112TH RCT,"3D BN, 110TH INF",I CO,--,27,1,2,30
+1306,28th Infantry,16386,112TH RCT,"3D BN, 110TH INF",K CO,--,14,--,2,16
+1307,28th Infantry,16386,112TH RCT,"3D BN, 110TH INF",L CO,--,31,--,2,33
+1308,28th Infantry,16386,112TH RCT,"3D BN, 110TH INF",M CO,--,25,--,6,31
+1309,28th Infantry,16386,112TH RCT,"A CO, 707 TANK BN",--,--,--,--,--,0
+1310,28th Infantry,16386,112TH RCT,"B CO, 893 TD BN",--,--,1,--,2,3
+1311,28th Infantry,16386,112TH RCT,"C CO, 893 TD BN",--,--,--,--,--,0
+1312,28th Infantry,16386,DIVARTY,HHC,--,--,--,--,--,0
+1313,28th Infantry,16386,DIVARTY,MED DET,--,--,--,--,--,0
+1314,28th Infantry,16386,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+1315,28th Infantry,16386,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1316,28th Infantry,16386,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1317,28th Infantry,16386,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1318,28th Infantry,16386,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+1319,28th Infantry,16386,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1320,28th Infantry,16386,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1321,28th Infantry,16386,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1322,28th Infantry,16386,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1323,28th Infantry,16386,DIVARTY,108 FA BN,B BTRY,--,--,--,1,1
+1324,28th Infantry,16386,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1325,28th Infantry,16386,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1326,28th Infantry,16386,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1327,28th Infantry,16386,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,1,--,--,1
+1328,28th Infantry,16386,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,1,--,1,2
+1329,28th Infantry,16386,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1330,28th Infantry,16386,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1331,28th Infantry,16386,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+1332,28th Infantry,16386,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1333,28th Infantry,16386,DIVARTY,707 TANK BN (-),HHC,--,1,--,--,1
+1334,28th Infantry,16386,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1335,28th Infantry,16386,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1336,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,HHB,--,--,--,--,0
+1337,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,SVC BTRY,--,--,--,--,0
+1338,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,A BTRY,1,1,--,--,2
+1339,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,B BTRY,--,--,--,--,0
+1340,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,C BTRY,--,--,--,1,1
+1341,28th Infantry,16386,"12TH CT, 41ID",42 FA BN,MED DET,--,--,--,--,0
+1342,28th Infantry,16386,"12TH CT, 41ID",4 ENG CBT BN,"B CO, 1ST PLT",--,--,--,2,2
+1343,28th Infantry,16386,"12TH CT, 41ID",801 TD BN,A CO,--,1,--,--,1
+1344,28th Infantry,16386,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1345,28th Infantry,16386,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1346,28th Infantry,16386,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1347,28th Infantry,16386,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1348,28th Infantry,16386,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1349,28th Infantry,16386,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+1350,28th Infantry,16386,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1351,28th Infantry,16386,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1352,28th Infantry,16386,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+1353,,,,,TOTAL,6,303,33,94,436
+1354,28th Infantry,16387,DIV HQ,HHC,--,--,--,--,--,0
+1355,28th Infantry,16387,DIV HQ,CIC DET,--,--,--,--,--,0
+1356,28th Infantry,16387,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1357,28th Infantry,16387,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+1358,28th Infantry,16387,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,1,1
+1359,28th Infantry,16387,109TH RCT,"HQ, 109TH RCT",HHC,--,1,--,--,1
+1360,28th Infantry,16387,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+1361,28th Infantry,16387,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+1362,28th Infantry,16387,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,2,2,--,2,6
+1363,28th Infantry,16387,109TH RCT,"HQ, 109TH RCT",MED DET,--,1,1,2,4
+1364,28th Infantry,16387,109TH RCT,1ST BN,HHC,--,2,--,--,2
+1365,28th Infantry,16387,109TH RCT,1ST BN,A CO,1,10,--,2,13
+1366,28th Infantry,16387,109TH RCT,1ST BN,B CO,--,13,4,11,28
+1367,28th Infantry,16387,109TH RCT,1ST BN,C CO,--,8,--,7,15
+1368,28th Infantry,16387,109TH RCT,1ST BN,D CO,--,1,--,1,2
+1369,28th Infantry,16387,109TH RCT,2ND BN,HHC,--,--,--,1,1
+1370,28th Infantry,16387,109TH RCT,2ND BN,E CO,--,--,--,--,0
+1371,28th Infantry,16387,109TH RCT,2ND BN,F CO,--,1,--,2,3
+1372,28th Infantry,16387,109TH RCT,2ND BN,G CO,--,2,--,2,4
+1373,28th Infantry,16387,109TH RCT,2ND BN,H CO,--,--,--,--,0
+1374,28th Infantry,16387,109TH RCT,3D BN,HHC,--,--,--,2,2
+1375,28th Infantry,16387,109TH RCT,3D BN,I CO,--,3,--,5,8
+1376,28th Infantry,16387,109TH RCT,3D BN,K CO,--,9,4,1,14
+1377,28th Infantry,16387,109TH RCT,3D BN,L CO,--,1,--,4,5
+1378,28th Infantry,16387,109TH RCT,3D BN,M CO,--,--,--,--,0
+1379,28th Infantry,16387,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+1380,28th Infantry,16387,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+1381,28th Infantry,16387,109TH RCT,107TH FA BN,A BTRY,--,--,--,--,0
+1382,28th Infantry,16387,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+1383,28th Infantry,16387,109TH RCT,107TH FA BN,C BTRY,--,--,--,--,0
+1384,28th Infantry,16387,109TH RCT,107TH FA BN,MED DET,--,--,--,2,2
+1385,28th Infantry,16387,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+1386,28th Infantry,16387,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+1387,28th Infantry,16387,110TH RCT,"HQ, 110TH RCT",HHC,--,5,--,--,5
+1388,28th Infantry,16387,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+1389,28th Infantry,16387,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+1390,28th Infantry,16387,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,1,--,1,2
+1391,28th Infantry,16387,110TH RCT,"HQ, 110TH RCT",MED DET,--,3,--,5,8
+1392,28th Infantry,16387,110TH RCT,1ST BN,HHC,--,3,--,--,3
+1393,28th Infantry,16387,110TH RCT,1ST BN,A CO,--,21,--,4,25
+1394,28th Infantry,16387,110TH RCT,1ST BN,B CO,--,48,1,3,52
+1395,28th Infantry,16387,110TH RCT,1ST BN,C CO,--,2,--,4,6
+1396,28th Infantry,16387,110TH RCT,1ST BN,D CO,--,3,--,1,4
+1397,28th Infantry,16387,110TH RCT,2D BN,HHC,--,--,--,--,0
+1398,28th Infantry,16387,110TH RCT,2D BN,E CO,--,14,--,4,18
+1399,28th Infantry,16387,110TH RCT,2D BN,F CO,--,11,27,5,43
+1400,28th Infantry,16387,110TH RCT,2D BN,G CO,--,9,--,5,14
+1401,28th Infantry,16387,110TH RCT,2D BN,H CO,--,--,--,1,1
+1402,28th Infantry,16387,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+1403,28th Infantry,16387,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+1404,28th Infantry,16387,110TH RCT,109TH FA BN,A BTRY,--,--,--,1,1
+1405,28th Infantry,16387,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+1406,28th Infantry,16387,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+1407,28th Infantry,16387,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+1408,28th Infantry,16387,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,--,0
+1409,28th Infantry,16387,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+1410,28th Infantry,16387,112TH RCT,"HQ, 112 RCT",HHC,--,--,--,1,1
+1411,28th Infantry,16387,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+1412,28th Infantry,16387,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+1413,28th Infantry,16387,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,--,0
+1414,28th Infantry,16387,112TH RCT,"HQ, 112 RCT",MED DET,--,--,--,1,1
+1415,28th Infantry,16387,112TH RCT,1ST BN,HHC,--,1,--,--,1
+1416,28th Infantry,16387,112TH RCT,1ST BN,A CO,--,6,--,3,9
+1417,28th Infantry,16387,112TH RCT,1ST BN,B CO,--,2,--,2,4
+1418,28th Infantry,16387,112TH RCT,1ST BN,C CO,--,1,--,--,1
+1419,28th Infantry,16387,112TH RCT,1ST BN,D CO,--,1,--,--,1
+1420,28th Infantry,16387,112TH RCT,2D BN,HHC,--,--,--,1,1
+1421,28th Infantry,16387,112TH RCT,2D BN,E CO,--,2,1,3,6
+1422,28th Infantry,16387,112TH RCT,2D BN,F CO,--,1,--,1,2
+1423,28th Infantry,16387,112TH RCT,2D BN,G CO,1,3,--,3,7
+1424,28th Infantry,16387,112TH RCT,2D BN,H CO,--,1,--,--,1
+1425,28th Infantry,16387,112TH RCT,3D BN,HHC,--,--,--,--,0
+1426,28th Infantry,16387,112TH RCT,3D BN,I CO,--,1,--,--,1
+1427,28th Infantry,16387,112TH RCT,3D BN,K CO,--,--,--,--,0
+1428,28th Infantry,16387,112TH RCT,3D BN,L CO,--,2,--,1,3
+1429,28th Infantry,16387,112TH RCT,3D BN,M CO,--,--,8,1,9
+1430,28th Infantry,16387,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+1431,28th Infantry,16387,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+1432,28th Infantry,16387,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+1433,28th Infantry,16387,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+1434,28th Infantry,16387,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+1435,28th Infantry,16387,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+1436,28th Infantry,16387,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,--,--,--,0
+1437,28th Infantry,16387,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+1438,28th Infantry,16387,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+1439,28th Infantry,16387,112TH RCT,"D CO, 86 CML BN",--,--,--,--,--,0
+1440,28th Infantry,16387,112TH RCT,"A CO, 1340 ENG CBT BN",--,--,22,--,--,22
+1441,28th Infantry,16387,112TH RCT,"B CO, 707 TANK BN",--,--,1,--,--,1
+1442,28th Infantry,16387,112TH RCT,"C CO, 707 TANK BN",--,--,--,--,--,0
+1443,28th Infantry,16387,112TH RCT,"D CO, 707 TANK BN",--,--,1,--,--,1
+1444,28th Infantry,16387,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1445,28th Infantry,16387,112TH RCT,1340 ENGR CBT BN,B CO,--,7,--,31,38
+1446,28th Infantry,16387,112TH RCT,1340 ENGR CBT BN,C CO,--,--,--,13,13
+1447,28th Infantry,16387,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+1448,28th Infantry,16387,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,2,2
+1449,28th Infantry,16387,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,2,2
+1450,28th Infantry,16387,112TH RCT,20 ENGR CBT BN,B CO,--,3,--,3,6
+1451,28th Infantry,16387,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,2,2
+1452,28th Infantry,16387,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+1453,28th Infantry,16387,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1454,28th Infantry,16387,112TH RCT,146 ENGR CBT BN (-),A CO,--,--,--,--,0
+1455,28th Infantry,16387,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,1,1
+1456,28th Infantry,16387,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+1457,28th Infantry,16387,112TH RCT,"3D BN, 110TH INF",HHC,--,3,1,--,4
+1458,28th Infantry,16387,112TH RCT,"3D BN, 110TH INF",I CO,--,15,--,1,16
+1459,28th Infantry,16387,112TH RCT,"3D BN, 110TH INF",K CO,--,12,--,--,12
+1460,28th Infantry,16387,112TH RCT,"3D BN, 110TH INF",L CO,--,4,--,--,4
+1461,28th Infantry,16387,112TH RCT,"3D BN, 110TH INF",M CO,--,2,--,1,3
+1462,28th Infantry,16387,112TH RCT,"A CO, 707 TANK BN",--,--,--,--,--,0
+1463,28th Infantry,16387,112TH RCT,"B CO, 893 TD BN",--,--,--,--,--,0
+1464,28th Infantry,16387,112TH RCT,"C CO, 893 TD BN",--,--,--,--,--,0
+1465,28th Infantry,16387,DIVARTY,HHC,--,--,--,--,--,0
+1466,28th Infantry,16387,DIVARTY,MED DET,--,--,--,--,--,0
+1467,28th Infantry,16387,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+1468,28th Infantry,16387,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1469,28th Infantry,16387,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1470,28th Infantry,16387,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1471,28th Infantry,16387,DIVARTY,76 FA BN,C BTRY,--,--,--,1,1
+1472,28th Infantry,16387,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1473,28th Infantry,16387,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1474,28th Infantry,16387,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1475,28th Infantry,16387,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1476,28th Infantry,16387,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+1477,28th Infantry,16387,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1478,28th Infantry,16387,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1479,28th Infantry,16387,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1480,28th Infantry,16387,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+1481,28th Infantry,16387,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+1482,28th Infantry,16387,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1483,28th Infantry,16387,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1484,28th Infantry,16387,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+1485,28th Infantry,16387,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1486,28th Infantry,16387,DIVARTY,707 TANK BN (-),HHC,--,--,--,2,2
+1487,28th Infantry,16387,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1488,28th Infantry,16387,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1489,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,HHB,--,--,--,--,0
+1490,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,SVC BTRY,--,--,--,--,0
+1491,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,A BTRY,--,--,--,--,0
+1492,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,B BTRY,--,--,--,--,0
+1493,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,C BTRY,--,--,--,--,0
+1494,28th Infantry,16387,"12TH CT, 41ID",42 FA BN,MED DET,--,--,--,--,0
+1495,28th Infantry,16387,"12TH CT, 41ID",4 ENG CBT BN,"B CO, 1ST PLT",--,--,--,--,0
+1496,28th Infantry,16387,"12TH CT, 41ID",801 TD BN,A CO,--,--,--,--,0
+1497,28th Infantry,16387,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1498,28th Infantry,16387,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1499,28th Infantry,16387,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1500,28th Infantry,16387,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1501,28th Infantry,16387,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1502,28th Infantry,16387,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+1503,28th Infantry,16387,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1504,28th Infantry,16387,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1505,28th Infantry,16387,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+1506,,,,,TOTAL,4,265,47,155,471
+1507,28th Infantry,16388,DIV HQ,HHC,--,--,--,--,--,0
+1508,28th Infantry,16388,DIV HQ,CIC DET,--,--,--,--,--,0
+1509,28th Infantry,16388,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1510,28th Infantry,16388,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+1511,28th Infantry,16388,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+1512,28th Infantry,16388,109TH RCT,"HQ, 109TH RCT",HHC,--,1,1,--,2
+1513,28th Infantry,16388,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+1514,28th Infantry,16388,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+1515,28th Infantry,16388,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,2,--,--,2
+1516,28th Infantry,16388,109TH RCT,"HQ, 109TH RCT",MED DET,--,1,--,2,3
+1517,28th Infantry,16388,109TH RCT,1ST BN,HHC,--,1,--,2,3
+1518,28th Infantry,16388,109TH RCT,1ST BN,A CO,--,4,--,8,12
+1519,28th Infantry,16388,109TH RCT,1ST BN,B CO,--,4,--,6,10
+1520,28th Infantry,16388,109TH RCT,1ST BN,C CO,--,5,--,2,7
+1521,28th Infantry,16388,109TH RCT,1ST BN,D CO,--,4,--,3,7
+1522,28th Infantry,16388,109TH RCT,2ND BN,HHC,--,--,--,--,0
+1523,28th Infantry,16388,109TH RCT,2ND BN,E CO,--,--,--,--,0
+1524,28th Infantry,16388,109TH RCT,2ND BN,F CO,2,--,1,--,3
+1525,28th Infantry,16388,109TH RCT,2ND BN,G CO,--,--,--,1,1
+1526,28th Infantry,16388,109TH RCT,2ND BN,H CO,--,--,--,--,0
+1527,28th Infantry,16388,109TH RCT,3D BN,HHC,--,--,--,--,0
+1528,28th Infantry,16388,109TH RCT,3D BN,I CO,--,--,--,--,0
+1529,28th Infantry,16388,109TH RCT,3D BN,K CO,--,--,--,--,0
+1530,28th Infantry,16388,109TH RCT,3D BN,L CO,--,2,--,--,2
+1531,28th Infantry,16388,109TH RCT,3D BN,M CO,--,--,--,1,1
+1532,28th Infantry,16388,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+1533,28th Infantry,16388,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+1534,28th Infantry,16388,109TH RCT,107TH FA BN,A BTRY,--,--,--,--,0
+1535,28th Infantry,16388,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+1536,28th Infantry,16388,109TH RCT,107TH FA BN,C BTRY,--,2,--,--,2
+1537,28th Infantry,16388,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+1538,28th Infantry,16388,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,--,0
+1539,28th Infantry,16388,109TH RCT,"A CO, 103 MED BN",--,--,--,--,1,1
+1540,28th Infantry,16388,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+1541,28th Infantry,16388,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+1542,28th Infantry,16388,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+1543,28th Infantry,16388,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,2,--,1,3
+1544,28th Infantry,16388,110TH RCT,"HQ, 110TH RCT",MED DET,--,1,--,2,3
+1545,28th Infantry,16388,110TH RCT,1ST BN,HHC,--,--,1,1,2
+1546,28th Infantry,16388,110TH RCT,1ST BN,A CO,--,28,--,--,28
+1547,28th Infantry,16388,110TH RCT,1ST BN,B CO,--,7,--,--,7
+1548,28th Infantry,16388,110TH RCT,1ST BN,C CO,--,7,--,1,8
+1549,28th Infantry,16388,110TH RCT,1ST BN,D CO,--,9,--,2,11
+1550,28th Infantry,16388,110TH RCT,2D BN,HHC,--,--,--,1,1
+1551,28th Infantry,16388,110TH RCT,2D BN,E CO,--,6,--,3,9
+1552,28th Infantry,16388,110TH RCT,2D BN,F CO,--,9,--,6,15
+1553,28th Infantry,16388,110TH RCT,2D BN,G CO,--,15,--,2,17
+1554,28th Infantry,16388,110TH RCT,2D BN,H CO,--,1,--,--,1
+1555,28th Infantry,16388,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+1556,28th Infantry,16388,110TH RCT,109TH FA BN,SVC BTRY,--,--,--,--,0
+1557,28th Infantry,16388,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+1558,28th Infantry,16388,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+1559,28th Infantry,16388,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+1560,28th Infantry,16388,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+1561,28th Infantry,16388,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,--,--,1,1
+1562,28th Infantry,16388,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+1563,28th Infantry,16388,112TH RCT,"HQ, 112 RCT",HHC,--,--,--,2,2
+1564,28th Infantry,16388,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+1565,28th Infantry,16388,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+1566,28th Infantry,16388,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,--,--,1,1
+1567,28th Infantry,16388,112TH RCT,"HQ, 112 RCT",MED DET,--,--,--,--,0
+1568,28th Infantry,16388,112TH RCT,1ST BN,HHC,--,2,--,1,3
+1569,28th Infantry,16388,112TH RCT,1ST BN,A CO,--,1,--,1,2
+1570,28th Infantry,16388,112TH RCT,1ST BN,B CO,--,--,--,--,0
+1571,28th Infantry,16388,112TH RCT,1ST BN,C CO,--,3,--,1,4
+1572,28th Infantry,16388,112TH RCT,1ST BN,D CO,--,2,--,--,2
+1573,28th Infantry,16388,112TH RCT,2D BN,HHC,--,2,--,1,3
+1574,28th Infantry,16388,112TH RCT,2D BN,E CO,--,5,--,1,6
+1575,28th Infantry,16388,112TH RCT,2D BN,F CO,--,1,--,4,5
+1576,28th Infantry,16388,112TH RCT,2D BN,G CO,--,--,--,3,3
+1577,28th Infantry,16388,112TH RCT,2D BN,H CO,--,1,--,--,1
+1578,28th Infantry,16388,112TH RCT,3D BN,HHC,--,1,--,--,1
+1579,28th Infantry,16388,112TH RCT,3D BN,I CO,--,--,--,--,0
+1580,28th Infantry,16388,112TH RCT,3D BN,K CO,--,--,--,--,0
+1581,28th Infantry,16388,112TH RCT,3D BN,L CO,--,--,--,--,0
+1582,28th Infantry,16388,112TH RCT,3D BN,M CO,--,1,--,--,1
+1583,28th Infantry,16388,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+1584,28th Infantry,16388,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+1585,28th Infantry,16388,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+1586,28th Infantry,16388,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+1587,28th Infantry,16388,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+1588,28th Infantry,16388,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+1589,28th Infantry,16388,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,1,--,--,1
+1590,28th Infantry,16388,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+1591,28th Infantry,16388,112TH RCT,"B CO, 86 CML BN",--,--,--,--,--,0
+1592,28th Infantry,16388,112TH RCT,"D CO, 86 CML BN",--,--,--,--,1,1
+1593,28th Infantry,16388,112TH RCT,"A CO, 1340 ENG CBT BN",--,--,11,--,--,11
+1594,28th Infantry,16388,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,--,0
+1595,28th Infantry,16388,112TH RCT,"C CO, 707 TANK BN",--,--,--,--,1,1
+1596,28th Infantry,16388,112TH RCT,"D CO, 707 TANK BN",--,--,--,--,--,0
+1597,28th Infantry,16388,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1598,28th Infantry,16388,112TH RCT,1340 ENGR CBT BN,B CO,--,1,1,2,4
+1599,28th Infantry,16388,112TH RCT,1340 ENGR CBT BN,C CO,--,--,--,7,7
+1600,28th Infantry,16388,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,1,--,1
+1601,28th Infantry,16388,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+1602,28th Infantry,16388,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,2,2
+1603,28th Infantry,16388,112TH RCT,20 ENGR CBT BN,B CO,--,3,--,1,4
+1604,28th Infantry,16388,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,--,0
+1605,28th Infantry,16388,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+1606,28th Infantry,16388,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,1,1
+1607,28th Infantry,16388,112TH RCT,146 ENGR CBT BN (-),A CO,--,--,--,--,0
+1608,28th Infantry,16388,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+1609,28th Infantry,16388,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+1610,28th Infantry,16388,112TH RCT,"3D BN, 110TH INF",HHC,--,1,--,--,1
+1611,28th Infantry,16388,112TH RCT,"3D BN, 110TH INF",I CO,1,11,--,1,13
+1612,28th Infantry,16388,112TH RCT,"3D BN, 110TH INF",K CO,1,6,--,3,10
+1613,28th Infantry,16388,112TH RCT,"3D BN, 110TH INF",L CO,--,6,1,1,8
+1614,28th Infantry,16388,112TH RCT,"3D BN, 110TH INF",M CO,--,--,--,--,0
+1615,28th Infantry,16388,112TH RCT,"A CO, 707 TANK BN",--,--,--,--,--,0
+1616,28th Infantry,16388,112TH RCT,"B CO, 893 TD BN",--,--,--,--,--,0
+1617,28th Infantry,16388,112TH RCT,"C CO, 893 TD BN",--,--,--,--,1,1
+1618,28th Infantry,16388,DIVARTY,HHC,--,--,--,--,--,0
+1619,28th Infantry,16388,DIVARTY,MED DET,--,--,--,--,--,0
+1620,28th Infantry,16388,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+1621,28th Infantry,16388,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1622,28th Infantry,16388,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1623,28th Infantry,16388,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1624,28th Infantry,16388,DIVARTY,76 FA BN,C BTRY,--,--,--,--,0
+1625,28th Infantry,16388,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1626,28th Infantry,16388,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1627,28th Infantry,16388,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1628,28th Infantry,16388,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1629,28th Infantry,16388,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+1630,28th Infantry,16388,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1631,28th Infantry,16388,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1632,28th Infantry,16388,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1633,28th Infantry,16388,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,2,2
+1634,28th Infantry,16388,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+1635,28th Infantry,16388,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1636,28th Infantry,16388,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1637,28th Infantry,16388,DIVARTY,893 TD BN (-),RCN CO,--,--,--,--,0
+1638,28th Infantry,16388,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1639,28th Infantry,16388,DIVARTY,707 TANK BN (-),HHC,--,--,--,1,1
+1640,28th Infantry,16388,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1641,28th Infantry,16388,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1642,28th Infantry,16388,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1643,28th Infantry,16388,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1644,28th Infantry,16388,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1645,28th Infantry,16388,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1646,28th Infantry,16388,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1647,28th Infantry,16388,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,--,0
+1648,28th Infantry,16388,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1649,28th Infantry,16388,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1650,28th Infantry,16388,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+1651,,,,,TOTAL,4,170,6,86,266
+1652,28th Infantry,16389,DIV HQ,HHC,--,--,--,--,--,0
+1653,28th Infantry,16389,DIV HQ,CIC DET,--,--,--,--,--,0
+1654,28th Infantry,16389,DIV HQ,103D ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1655,28th Infantry,16389,DIV HQ,103D ENGR CBT BN (-),MED DET,--,--,--,--,0
+1656,28th Infantry,16389,DIV HQ,28TH RCN TRP (MECZ),--,--,--,--,--,0
+1657,28th Infantry,16389,109TH RCT,"HQ, 109TH RCT",HHC,--,--,--,--,0
+1658,28th Infantry,16389,109TH RCT,"HQ, 109TH RCT",SVC CO,--,--,--,--,0
+1659,28th Infantry,16389,109TH RCT,"HQ, 109TH RCT",CANNON CO,--,--,--,--,0
+1660,28th Infantry,16389,109TH RCT,"HQ, 109TH RCT",ANTITANK CO,--,--,--,--,0
+1661,28th Infantry,16389,109TH RCT,"HQ, 109TH RCT",MED DET,--,1,--,2,3
+1662,28th Infantry,16389,109TH RCT,1ST BN,HHC,--,1,1,1,3
+1663,28th Infantry,16389,109TH RCT,1ST BN,A CO,--,1,--,3,4
+1664,28th Infantry,16389,109TH RCT,1ST BN,B CO,--,2,--,--,2
+1665,28th Infantry,16389,109TH RCT,1ST BN,C CO,--,6,--,9,15
+1666,28th Infantry,16389,109TH RCT,1ST BN,D CO,--,1,--,--,1
+1667,28th Infantry,16389,109TH RCT,2ND BN,HHC,--,--,--,--,0
+1668,28th Infantry,16389,109TH RCT,2ND BN,E CO,--,--,--,--,0
+1669,28th Infantry,16389,109TH RCT,2ND BN,F CO,1,3,--,--,4
+1670,28th Infantry,16389,109TH RCT,2ND BN,G CO,--,--,--,1,1
+1671,28th Infantry,16389,109TH RCT,2ND BN,H CO,--,1,--,1,2
+1672,28th Infantry,16389,109TH RCT,3D BN,HHC,--,1,--,--,1
+1673,28th Infantry,16389,109TH RCT,3D BN,I CO,--,1,--,--,1
+1674,28th Infantry,16389,109TH RCT,3D BN,K CO,--,1,--,2,3
+1675,28th Infantry,16389,109TH RCT,3D BN,L CO,--,2,--,--,2
+1676,28th Infantry,16389,109TH RCT,3D BN,M CO,--,1,--,--,1
+1677,28th Infantry,16389,109TH RCT,107TH FA BN,HHB,--,--,--,--,0
+1678,28th Infantry,16389,109TH RCT,107TH FA BN,SVC BTRY,--,--,--,--,0
+1679,28th Infantry,16389,109TH RCT,107TH FA BN,A BTRY,--,--,--,--,0
+1680,28th Infantry,16389,109TH RCT,107TH FA BN,B BTRY,--,--,--,--,0
+1681,28th Infantry,16389,109TH RCT,107TH FA BN,C BTRY,--,1,--,--,1
+1682,28th Infantry,16389,109TH RCT,107TH FA BN,MED DET,--,--,--,--,0
+1683,28th Infantry,16389,109TH RCT,"A CO, 103 ENGR CBT BN",--,--,--,--,1,1
+1684,28th Infantry,16389,109TH RCT,"A CO, 103 MED BN",--,--,--,--,--,0
+1685,28th Infantry,16389,110TH RCT,"HQ, 110TH RCT",HHC,--,--,--,--,0
+1686,28th Infantry,16389,110TH RCT,"HQ, 110TH RCT",SVC CO,--,--,--,--,0
+1687,28th Infantry,16389,110TH RCT,"HQ, 110TH RCT",CANNON CO,--,--,--,--,0
+1688,28th Infantry,16389,110TH RCT,"HQ, 110TH RCT",ANTITANK CO,--,2,--,--,2
+1689,28th Infantry,16389,110TH RCT,"HQ, 110TH RCT",MED DET,--,1,--,--,1
+1690,28th Infantry,16389,110TH RCT,1ST BN,HHC,--,--,1,3,4
+1691,28th Infantry,16389,110TH RCT,1ST BN,A CO,--,13,--,17,30
+1692,28th Infantry,16389,110TH RCT,1ST BN,B CO,--,5,--,--,5
+1693,28th Infantry,16389,110TH RCT,1ST BN,C CO,--,15,--,5,20
+1694,28th Infantry,16389,110TH RCT,1ST BN,D CO,--,--,--,--,0
+1695,28th Infantry,16389,110TH RCT,2D BN,HHC,--,--,--,1,1
+1696,28th Infantry,16389,110TH RCT,2D BN,E CO,--,12,--,2,14
+1697,28th Infantry,16389,110TH RCT,2D BN,F CO,--,1,--,--,1
+1698,28th Infantry,16389,110TH RCT,2D BN,G CO,--,17,--,1,18
+1699,28th Infantry,16389,110TH RCT,2D BN,H CO,--,3,--,--,3
+1700,28th Infantry,16389,110TH RCT,109TH FA BN,HHB,--,--,--,--,0
+1701,28th Infantry,16389,110TH RCT,109TH FA BN,SVC BTRY,--,1,--,1,2
+1702,28th Infantry,16389,110TH RCT,109TH FA BN,A BTRY,--,--,--,--,0
+1703,28th Infantry,16389,110TH RCT,109TH FA BN,B BTRY,--,--,--,--,0
+1704,28th Infantry,16389,110TH RCT,109TH FA BN,C BTRY,--,--,--,--,0
+1705,28th Infantry,16389,110TH RCT,109TH FA BN,MED DET,--,--,--,--,0
+1706,28th Infantry,16389,110TH RCT,"B CO, 103 ENGR CBT BN",--,--,1,--,1,2
+1707,28th Infantry,16389,110TH RCT,"B CO, 103 MED BN",--,--,--,--,--,0
+1708,28th Infantry,16389,112TH RCT,"HQ, 112 RCT",HHC,--,--,--,--,0
+1709,28th Infantry,16389,112TH RCT,"HQ, 112 RCT",SVC CO,--,--,--,--,0
+1710,28th Infantry,16389,112TH RCT,"HQ, 112 RCT",CANNON CO,--,--,--,--,0
+1711,28th Infantry,16389,112TH RCT,"HQ, 112 RCT",ANTITANK CO,--,1,--,1,2
+1712,28th Infantry,16389,112TH RCT,"HQ, 112 RCT",MED DET,--,--,--,--,0
+1713,28th Infantry,16389,112TH RCT,1ST BN,HHC,--,--,--,1,1
+1714,28th Infantry,16389,112TH RCT,1ST BN,A CO,--,1,--,2,3
+1715,28th Infantry,16389,112TH RCT,1ST BN,B CO,--,--,--,1,1
+1716,28th Infantry,16389,112TH RCT,1ST BN,C CO,--,1,--,--,1
+1717,28th Infantry,16389,112TH RCT,1ST BN,D CO,--,--,--,--,0
+1718,28th Infantry,16389,112TH RCT,2D BN,HHC,--,--,--,4,4
+1719,28th Infantry,16389,112TH RCT,2D BN,E CO,--,4,--,2,6
+1720,28th Infantry,16389,112TH RCT,2D BN,F CO,1,5,--,1,7
+1721,28th Infantry,16389,112TH RCT,2D BN,G CO,--,11,--,1,12
+1722,28th Infantry,16389,112TH RCT,2D BN,H CO,--,--,--,--,0
+1723,28th Infantry,16389,112TH RCT,3D BN,HHC,--,--,--,--,0
+1724,28th Infantry,16389,112TH RCT,3D BN,I CO,--,1,--,2,3
+1725,28th Infantry,16389,112TH RCT,3D BN,K CO,--,--,--,--,0
+1726,28th Infantry,16389,112TH RCT,3D BN,L CO,--,--,--,--,0
+1727,28th Infantry,16389,112TH RCT,3D BN,M CO,--,1,--,1,2
+1728,28th Infantry,16389,112TH RCT,229 FA BN,HHB,--,--,--,--,0
+1729,28th Infantry,16389,112TH RCT,229 FA BN,SVC BTRY,--,--,--,--,0
+1730,28th Infantry,16389,112TH RCT,229 FA BN,A BTRY,--,--,--,--,0
+1731,28th Infantry,16389,112TH RCT,229 FA BN,B BTRY,--,--,--,--,0
+1732,28th Infantry,16389,112TH RCT,229 FA BN,C BTRY,--,--,--,--,0
+1733,28th Infantry,16389,112TH RCT,229 FA BN,MED DET,--,--,--,--,0
+1734,28th Infantry,16389,112TH RCT,"C CO, 103 ENGR CBT BN",--,--,1,--,1,2
+1735,28th Infantry,16389,112TH RCT,"C CO, 103 MED DET",--,--,--,--,--,0
+1736,28th Infantry,16389,112TH RCT,"B CO, 86 CML BN",--,--,--,--,1,1
+1737,28th Infantry,16389,112TH RCT,"D CO, 86 CML BN",--,--,--,--,1,1
+1738,28th Infantry,16389,112TH RCT,"A CO, 1340 ENG CBT BN",--,--,7,--,--,7
+1739,28th Infantry,16389,112TH RCT,"B CO, 707 TANK BN",--,--,--,--,2,2
+1740,28th Infantry,16389,112TH RCT,"C CO, 707 TANK BN",--,--,--,--,2,2
+1741,28th Infantry,16389,112TH RCT,"D CO, 707 TANK BN",--,--,--,--,--,0
+1742,28th Infantry,16389,112TH RCT,1340 ENGR CBT BN,HHC & SVC CO,--,--,--,1,1
+1743,28th Infantry,16389,112TH RCT,1340 ENGR CBT BN,B CO,--,--,--,1,1
+1744,28th Infantry,16389,112TH RCT,1340 ENGR CBT BN,C CO,--,--,--,--,0
+1745,28th Infantry,16389,112TH RCT,1340 ENGR CBT BN,MED DET,--,--,--,--,0
+1746,28th Infantry,16389,112TH RCT,20 ENGR CBT BN,HHC & SVC CO,--,--,--,--,0
+1747,28th Infantry,16389,112TH RCT,20 ENGR CBT BN,A CO,--,--,--,--,0
+1748,28th Infantry,16389,112TH RCT,20 ENGR CBT BN,B CO,--,--,--,--,0
+1749,28th Infantry,16389,112TH RCT,20 ENGR CBT BN,C CO,--,--,--,1,1
+1750,28th Infantry,16389,112TH RCT,20 ENGR CBT BN,MED DET,--,--,--,--,0
+1751,28th Infantry,16389,112TH RCT,146 ENGR CBT BN (-),HHC & SVC CO,--,--,--,--,0
+1752,28th Infantry,16389,112TH RCT,146 ENGR CBT BN (-),A CO,--,--,--,1,1
+1753,28th Infantry,16389,112TH RCT,146 ENGR CBT BN (-),C CO,--,--,--,--,0
+1754,28th Infantry,16389,112TH RCT,146 ENGR CBT BN (-),MED DET,--,--,--,--,0
+1755,28th Infantry,16389,112TH RCT,"3D BN, 110TH INF",HHC,--,2,--,--,2
+1756,28th Infantry,16389,112TH RCT,"3D BN, 110TH INF",I CO,--,7,--,--,7
+1757,28th Infantry,16389,112TH RCT,"3D BN, 110TH INF",K CO,--,7,--,5,12
+1758,28th Infantry,16389,112TH RCT,"3D BN, 110TH INF",L CO,--,6,--,2,8
+1759,28th Infantry,16389,112TH RCT,"3D BN, 110TH INF",M CO,--,--,--,1,1
+1760,28th Infantry,16389,112TH RCT,"A CO, 707 TANK BN",--,--,--,--,--,0
+1761,28th Infantry,16389,112TH RCT,"B CO, 893 TD BN",--,--,--,--,--,0
+1762,28th Infantry,16389,112TH RCT,"C CO, 893 TD BN",--,--,--,--,--,0
+1763,28th Infantry,16389,DIVARTY,HHC,--,--,--,--,--,0
+1764,28th Infantry,16389,DIVARTY,MED DET,--,--,--,--,--,0
+1765,28th Infantry,16389,DIVARTY,76 FA BN,HHB,--,--,--,--,0
+1766,28th Infantry,16389,DIVARTY,76 FA BN,SVC BTRY,--,--,--,--,0
+1767,28th Infantry,16389,DIVARTY,76 FA BN,A BTRY,--,--,--,--,0
+1768,28th Infantry,16389,DIVARTY,76 FA BN,B BTRY,--,--,--,--,0
+1769,28th Infantry,16389,DIVARTY,76 FA BN,C BTRY,--,1,--,--,1
+1770,28th Infantry,16389,DIVARTY,76 FA BN,MED DET,--,--,--,--,0
+1771,28th Infantry,16389,DIVARTY,108 FA BN,HHB,--,--,--,--,0
+1772,28th Infantry,16389,DIVARTY,108 FA BN,SVC BTRY,--,--,--,--,0
+1773,28th Infantry,16389,DIVARTY,108 FA BN,A BTRY,--,--,--,--,0
+1774,28th Infantry,16389,DIVARTY,108 FA BN,B BTRY,--,--,--,--,0
+1775,28th Infantry,16389,DIVARTY,108 FA BN,C BTRY,--,--,--,--,0
+1776,28th Infantry,16389,DIVARTY,108 FA BN,MED DET,--,--,--,--,0
+1777,28th Infantry,16389,DIVARTY,86 CML MORT (MTZ) BN (-),HHD,--,--,--,--,0
+1778,28th Infantry,16389,DIVARTY,86 CML MORT (MTZ) BN (-),A CO,--,--,--,--,0
+1779,28th Infantry,16389,DIVARTY,86 CML MORT (MTZ) BN (-),C CO,--,--,--,--,0
+1780,28th Infantry,16389,DIVARTY,86 CML MORT (MTZ) BN (-),MED DET,--,--,--,--,0
+1781,28th Infantry,16389,DIVARTY,893 TD BN (-),HHC,--,--,--,--,0
+1782,28th Infantry,16389,DIVARTY,893 TD BN (-),RCN CO,--,--,--,1,1
+1783,28th Infantry,16389,DIVARTY,893 TD BN (-),MED DET,--,--,--,--,0
+1784,28th Infantry,16389,DIVARTY,707 TANK BN (-),HHC,--,--,--,--,0
+1785,28th Infantry,16389,DIVARTY,707 TANK BN (-),SVC CO,--,--,--,--,0
+1786,28th Infantry,16389,DIVARTY,707 TANK BN (-),MED DET,--,--,--,--,0
+1787,28th Infantry,16389,DIV TRAINS,728 ORD LT MAINT CO,--,--,--,--,--,0
+1788,28th Infantry,16389,DIV TRAINS,103 MED BN (-),HHC,--,--,--,--,0
+1789,28th Infantry,16389,DIV TRAINS,103 MED BN (-),D CO,--,--,--,--,0
+1790,28th Infantry,16389,DIV TRAINS,SUPPORT TROOPS,"HQ, SP TROOPS",--,--,--,--,0
+1791,28th Infantry,16389,DIV TRAINS,SUPPORT TROOPS,MP PLATOON,--,--,--,--,0
+1792,28th Infantry,16389,DIV TRAINS,SUPPORT TROOPS,DIVISION BAND,--,--,--,1,1
+1793,28th Infantry,16389,DIV TRAINS,SUPPORT TROOPS,28 SIGNAL CO,--,--,--,--,0
+1794,28th Infantry,16389,DIV TRAINS,SUPPORT TROOPS,"MED DET, SP TROOPS",--,--,--,--,0
+1795,28th Infantry,16389,DIV TRAINS,28 QM CO,--,--,--,--,--,0
+,,,,,TOTAL,2,150,2,88,242

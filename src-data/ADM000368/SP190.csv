@@ -1,0 +1,113 @@
+,Dataset: SP190-1964,,,,,,,,,,,,,
+,Data From (Title): Historical Data and Lanchester's Theory of,,,,,,,,,,,,,
+,,Combat: Part II.,,,,,,,,,,,,
+,"Author: Helmbold, Robert L.",,,,,,,,,,,,,
+,Organization: Combat Operations Research Group.,,,,,,,,,,,,,
+,"Address: Fort Belvoir, VA",,,,,,,,,,,,,
+,Publication Date: August 1964.,,,,,,,,,,,,,
+,Classification: UNCLASSIFIED.,,,,,,,,,,,,,
+,Source Available From: DTIC as AD-480 109.,,,,,,,,,,,,,
+,"Prepared By: Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,,,,,
+,Spreadsheet last revised: 30 October 1993,,,,,,,,,,,,,
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+,,,,,,,INITIAL,INITIAL,ATTACKER,,DEFENDER,,BATTLE,
+,,,,,ATTACKER,DEFENDER,ATTACKER,DEFENDER,LOSSES,ATK,LOSSES,DEF,DURATION,
+SEQ.,BATTLE,"WAR, CAMPAIGN",REF.,,ID,ID,STRENGTH,STRENGTH,,LOSS,,LOSS,(DAYS),WINA
+NO.,NAME,OR ARTICLE,NO.,YEAR,,,(X0),(Y0),Cx,TYPE,Cy,TYPE,,
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+1,Heraclea,Pyrrhus Invasion of Italy,2,-280,Greek,Roman,30000,35000,4000,L,7000,L,NA,1
+2,Asculum,Pyrrhus Invasion of Italy,2,-279,Roman,Greek,45000,45000,6000,L,3000,L,NA,-1
+3,Mursa,Revolt of Magnentius,2,351,E. Roman,W. Roman,80000,100000,30000,L,24000,L,NA,1
+4,Indus,Mongol Invasion of Kharismia,2,1221,Mongol,India,300000,30000,20000,L,19000,L,NA,1
+5,Sempach,War of Sempach,2,1386,Austria,Swiss,6000,1500,1500,W,120,W,NA,-1
+6,Ravenna,War of the Holy League,3,1512,France,Spain,20000,12000,3000,K,9000,K,0.2916666666666667,1
+7,Marignano,Italian Wars,3,1515,Swiss,France,30000,46000,5000,L,4000,L,0.2916666666666667,-1
+8,Dreux,Dreux,4,1562,Britain,France,16000,12000,3000,L,3000,L,NA,1
+9,Leipzig,Thiry Year's War,2,1631,German,Sweden,44000,40000,8000,L,2700,L,NA,-1
+10,Altendorf,Thiry Year's War,2,1632,Sweden,German,40000,40000,2300,W,2070,K,NA,-1
+11,Lutzen,Thiry Year's War,3,1632,Sweden,German,15000,12000,5000,L,5000,L,0.4166666666666667,1
+12,Wittstock,Thiry Year's War,4,1636,German,Sweden,30000,22000,11000,W,5000,W,10,-1
+13,Nordlingen,Wars of Louis XIV,2,1645,France,German,17000,14000,4000,L,6000,L,NA,1
+14,Fleurus,Fleurus,4,1690,France,German,45000,37000,2500,K,5000,K,0.4166666666666667,1
+15,Blenheim,Spanish Succesion,2,1704,Britain,France,52000,60000,11000,L,40000,L,NA,1
+16,Lesno,Russo-Swedish War,2,1709,Russia,Sweden,40000,15000,10000,L,10000,L,5,1
+17,Sohr,War of Austrian Succession,2,1745,German,Austria,18000,35000,4000,L,6000,L,NA,1
+18,Monongahela,Seven Year's War,2,1755,France,Britain,900,1400,100,W,877,W,0.125,1
+19,Ste. Foy,Seven Year's War,2,1760,Britain,France,3000,8000,1000,L,800,L,NA,-1
+20,Policore,First Mysore War,2,1781,India,Britain,80000,11000,2000,W,421,W,0.3333333333333333,-1
+21,Porto Novo,First Mysore War,2,1781,Britain,India,8500,65000,306,L,10000,L,0.5,1
+22,Sholingur,First Mysore War,2,1781,Britain,India,10000,80000,100,L,5000,L,NA,1
+23,Jemappes,Jemappes,4,1792,France,Austria,45000,25000,7000,W,7000,W,0.3333333333333333,1
+24,Wattignies,Wattignies,4,1793,France,Austria,43000,23000,3000,L,2500,L,0.8333333333333334,1
+25,Alexandria,Alexandria,4,1801,France,Britain,20000,14000,4160,W,1468,M,0.20833333333333334,-1
+26,Rolica,Peninsular War,2,1808,Britain,France,4000,3000,400,L,500,L,NA,1
+27,Vimiero,Vimiero,4,1808,France,Britain,13000,20000,3000,L,750,L,NA,-1
+28,Abensburg,Wagram,2,1809,Austria,France,80000,90000,7000,W,3000,W,NA,-1
+29,Coruna,Peninsular War,2,1809,France,Britain,20000,14000,2000,L,800,L,NA,-1
+30,Eckmuhl,Wagram,2,1809,France,Austria,90000,76000,2500,W,5000,W,NA,1
+31,Bussaco,Bussaco,4,1810,France,Britain,80000,51000,5000,L,1300,L,0.3333333333333333,-1
+32,Mohilev,Moscow Campaign,2,1812,Russia,France,60000,28000,4000,L,1000,L,NA,-1
+33,Malo-Jaroslawetz,Moscow Campaign,2,1812,France,Russia,15000,24000,5000,L,6000,L,NA,-1
+34,Polotsk,Moscow Campaign,2,1812,France,Russia,33000,30000,1000,W,3000,K,0.08333333333333333,1
+35,Smolensk,Moscow Campaign,2,1812,France,Russia,50000,60000,9000,L,10000,L,NA,1
+36,Valutinagora,Moscow Campaign,2,1812,France,Russia,30000,40000,7000,L,7000,L,NA,1
+37,Sauroren,Peninsular War,2,1813,France,Britain,25000,12000,3000,L,2600,L,0.5,-1
+38,Wartemberg,Leipzig,2,1813,German,France,60000,16000,5000,L,500,L,0.1875,1
+39,Brienne,Allied Invasion of France,2,1814,German,France,30000,18000,4000,W,3000,W,NA,-1
+40,Craonne,Allied Invasion of France,2,1814,France,German,55000,90000,9000,W,7000,W,NA,1
+41,Rheims,Allied Invasion of France,2,1814,France,German,30000,13000,1500,L,6000,L,NA,1
+42,Toulouse,Peninsular War,2,1814,Britain,France,24000,38000,4659,W,3000,W,NA,1
+43,Korygaom,Third Maharatta War,2,1818,India,Britain,25000,1000,600,L,275,L,0.5,-1
+44,Warsaw,Second Polish Uprising,2,1831,Russia,Polish,60000,30000,10508,W,9000,K,NA,1
+45,Alalmo,Alamo,4,1836,Mexico,Texan,4000,180,500,K,175,K,13,1
+46,Maharajpur,Gwalior War,2,1843,Britain,India,14000,18000,787,W,3000,W,NA,1
+47,Meeanee,Scinde Campaign,2,1843,Persia,Britain,20000,2800,5000,L,256,W,NA,-1
+48,Sobraon,First Sikh War,2,1846,Britain,India,15000,25000,2383,L,8000,L,NA,1
+49,Boomplatz,,2,1848,Britain,Boer,1050,1000,60,W,14,W,NA,1
+50,Kineyri,Second Sikh War,2,1848,Bhawalpuri,Sikh,11000,8000,300,L,500,L,NA,1
+51,Calafat,Crimean War,2,1854,Russia,Turkey,40000,30000,20000,L,12000,L,NA,-1
+52,Lexington,Lexington,4,1861,CSA,USA,15000,2800,100,W,159,W,1.3333333333333333,1
+53,Wilson's Creek,American Civil War,2,1861,USA,CSA,6000,16000,1236,M,1095,M,NA,-1
+54,Cedar Mountain,American Civil War,2,1862,USA,CSA,20000,15000,2800,M,900,M,0.20833333333333334,-1
+55,La Puebla,Franco-Mexican War,2,1862,France,Mexico,7500,12000,456,L,215,L,NA,-1
+56,Pea Ridge,American Civil War,2,1862,USA,CSA,16000,16000,1000,L,1000,L,2,1
+57,Perryville,Perryville,4,1862,USA,CSA,22000,16000,4211,M,3396,M,NA,1
+58,Seccessionsville,American Civil War,2,1862,USA,CSA,6000,2000,600,L,200,L,NA,-1
+59,Setlingen Hill,Shenandoah Valley,4,1862,CSA,USA,6000,2500,500,L,250,L,0.16666666666666666,1
+60,Shiloh,American Civil War,5,1862,CSA,USA,40000,61500,10700,M,13700,M,2,-1
+61,Gettysburg,American Civil War,5,1863,CSA,USA,75000,88000,28000,M,23000,M,2,-1
+62,Vicksburg,American Civil War,5,1863,USA,CSA,71000,51000,9300,M,10000,M,75,1
+63,Atlanta,American Civil War,5,1864,USA,CSA,100000,49000,6000,M,5000,M,42,1
+64,Cold Harbor,American Civil War,5,1864,USA,CSA,108000,59000,7000,M,1500,M,0.041666666666666664,-1
+65,Kenesaw Mountain,American Civil War,2,1864,USA,CSA,90000,50000,3000,L,500,L,NA,-1
+66,Nashville,American Civil War,5,1864,USA,CSA,49000,31000,3100,M,1500,M,1,1
+67,Ocean Pond,American Civil War,2,1864,USA,CSA,6000,5000,1200,L,700,L,NA,-1
+68,Spotsylvania,American Civil War,5,1864,USA,CSA,90000,50000,17000,M,9000,M,10,1
+69,Five Forks,American Civil War,5,1865,USA,CSA,28000,19000,1000,M,500,M,2,1
+70,Custozza,Seven Week's War,2,1866,Italy,Austria,140000,60000,4650,W,3832,W,NA,-1
+71,Hallue,Franco-German War,2,1870,German,France,22500,40000,927,W,1000,W,NA,-1
+72,St. Quentin,Franco-German War,2,1871,France,German,40000,33000,3500,W,2400,W,NA,-1
+73,Loftcha,Russo-Turkish War,2,1877,Russia,Turkey,20000,15000,1500,W,5200,K,NA,1
+74,Bronkhurst Spruit,First Boer War,2,1880,Boer,Britain,150,259,7,W,155,W,NA,1
+75,Fish Creek,Riel's Second Rebellion,2,1885,Canada,Rebel,400,280,50,W,29,W,NA,-1
+76,Slivnitza,Servo-Bulgarian War,2,1885,Serbia,Bulgaria,28000,15000,2000,L,3000,L,3,-1
+77,Atbara,Sudan Campaigns,2,1898,Britain,India,14000,18000,570,W,5000,K,NA,1
+78,Kiuliencheng,Russo-Japanese War,2,1904,Japan,Russia,40000,30000,898,W,4000,M,NA,1
+79,Tellissu,Russo-Japanese War,4,1904,Japan,Russia,35000,25000,1200,L,3600,L,2,1
+80,Attu,World War II,6,1943,USA,Japan,11000,2400,1800,W,2400,K,22,1
+81,Kwajalein South,World War II,6,1944,USA,Japan,21342,5112,1214,M,4400,K,6,1
+82,Kwajalein North,World War II,6,1944,USA,Japan,20104,3563,740,M,3500,K,3,1
+83,Eniwetok,World War II,6,1944,USA,Japan,10269,3431,716,M,3431,L,6,1
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+,,,,,,,,,,,,,,
+,NOTE 1:,"L = Identified as ""losses.""",,,,,,,,,,,,
+,,"M = Killed, wounded, and missing",,,,,,,,,,,,
+,,W = Killed and wounded,,,,,,,,,,,,
+,,K = Killed,,,,,,,,,,,,
+,,NA = Not identified as to type.,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,NOTE 2:,Reference numbers are those used in CORG-SP-190.,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,NOTE 3:,Negative year dates are B.C.,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,NOTE 4:,"WINA = -1 if defender won, +1 if attacker won.",,,,,,,,,,,,

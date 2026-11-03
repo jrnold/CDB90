@@ -1,0 +1,403 @@
+,,,Dataset:,ORALFORE-1972,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Data From (Title):,Opposed Rates of Advance of Large Forces in Europe (ORALFORE),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Author:,Historical Evaluation and Research Organization,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Organization:,Prepared for US Army Deputy Chief of Staff for Operations (DAMO-PLW),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Address:,2301 Gallows Road,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"Dunn Loring, VA 22027",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Publication Date:,28 August 1972,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Classification:,U,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Source Available From:,DTIC as AD-902 830,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Prepared By:,"Dr. Robert L. Helmbold, US Army Concepts Analysis Agency",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Spreadsheet last revised:,,,32867.67530821759,,32867.67530821759,,,,,,,,,,,,,,,,,,,,,,,,,,,
++,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+
+|,,|,OPERATION,,"ROUTE, LOCALE, SECTOR",,DATE,,DISTANCE,,WEATHER,,WEATHER,,TERRAIN,,ROADNET,,OBSTACLES,,OPP'N,,ATK,,ATK,,ATK,,DEF,,DEF,,DEF,,COMMENTS,|
+|,NO.,|,NAME/PHASE,,OR OTHER INFORMATION,,,,(KM),,ARMOR,,AIR,,,,,,,,INT'Y,,COND'N,,MISS'N,,CAS%,,COND'N,,MISS'N,,CAS%,, ,|
++,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+
+|,1,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14741,,42,,1,,0.9,,0.7,,0.7,,NR,,N,,F,,1,,NR,,F,,WD,,U,,,|
+|,2,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14742,,32,,1,,0.9,,0.7,,0.8,,R,,N,,F,,1,,0.1,,F,,WD,,U,,,|
+|,3,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14743,,36,,1,,0.9,,0.7,,0.9,,NR,,S,,F,,1,,0.5,,F,,WD,,U,,,|
+|,4,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14744,,2,,NR,,0.9,,0.8,,0.9,,R,,I,,F,,1,,2,,F,,PD,,U,,,|
+|,5,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14745,,14,,1,,0.9,,0.8,,0.9,,R,,M,,F,,1,,1.4,,F,,PD,,U,,,|
+|,6,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14746,,27,,1,,0.9,,0.8,,0.9,,NR,,S,,T,,1,,0.5,,F,,DL,,U,,,|
+|,7,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14747,,38,,1,,0.9,,0.8,,0.9,,NR,,S-N,,T,,1,,0.1,,T,,FD-WD,,U,,,|
+|,8,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14748,,30,,1,,0.9,,0.8,,0.9,,R,,S,,T,,3,,0.7,,T,,DL,,U,,,|
+|,9,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14749,,27,,NR,,0.9,,0.8,,0.9,,NR,,M,,T,,2,,0.8,,T,,WD,,U,,,|
+|,10,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14750,,3,,1,,0.9,,0.8,,0.9,,NR,,P-N,,P,,P,,0.4,,P,,P,,U,,,|
+|,11,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14751,,33,,1,,0.9,,0.8,,0.9,,NR,,M,,T,,2,,1.3,,T,,WD,,U,,,|
+|,12,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14752,,17,,0.9,,0.9,,0.9,,0.9,,NR,,I-S,,T,,2,,2.6,,T,,DL,,U,,,|
+|,13,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14753,,9,,0.8,,0.9,,0.9,,0.9,,NR,,M,,T,,2,,0.7,,T,,DL,,U,,,|
+|,14,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14754,,10,,1,,0.9,,0.9,,0.9,,NR,,S,,T,,2,,0.3,,T,,DL,,U,,,|
+|,15,|,Ardennes-Flanders Offensive,,Ger 7th Panzer Division (Rommel),,14755,,9,,1,,0.9,,0.9,,0.9,,R,,M,,T,,2,,0.5,,T,,DL,,U,,,|
+|,16,|,Orel to Moscow,,Ger XLVII Corps,,15293,,60,,0.6,,1,,0.8,,0.5,,NR,,N,,F,,2,,0.032,,U,,WD,,U,,,|
+|,17,|,Orel to Moscow,,Ger XLVII Corps,,15294,,25,,0.8,,1,,0.8,,0.5,,NR,,S,,F,,2,,0.04,,U,,WD,,U,,,|
+|,18,|,Orel to Moscow,,Ger XLVII Corps,,15295,,2,,0.8,,1,,0.8,,0.5,,NR,,I,,F,,2,,0.03,,U,,HD,,U,,,|
+|,19,|,Orel to Moscow,,Ger XLVII Corps,,15296,,6,,0.8,,1,,0.8,,0.5,,NR,,I,,T,,2,,0.04,,U,,HD,,U,,,|
+|,20,|,Orel to Moscow,,Ger XLVII Corps,,15297,,1,,0.8,,1,,0.8,,0.5,,NR,,I,,T,,2,,0.03,,U,,HD,,U,,,|
+|,21,|,Orel to Moscow,,Ger XLVII Corps,,15298,,5,,0.8,,1,,0.8,,0.5,,NR,,M,,T,,2,,0.21,,U,,HD,,U,,,|
+|,22,|,Orel to Moscow,,Ger XLVII Corps,,15299,,11,,0.8,,1,,0.8,,0.5,,NR,,M,,T,,2,,0.16,,U,,HD,,U,,,|
+|,23,|,Orel to Moscow,,Ger XLVII Corps,,15300,,19,,0.5,,1,,0.8,,0.5,,NR,,I-N,,T,,2,,0.01,,U,,HD-DL,,U,,,|
+|,24,|,Orel to Moscow,,Ger XLVII Corps,,15301,,20,,0.6,,1,,0.8,,0.5,,NR,,M,,T,,2,,0.05,,U,,HD-WD,,U,,,|
+|,25,|,Orel to Moscow,,Ger XLVII Corps,,15302,,18,,0.6,,1,,0.8,,0.5,,NR,,M,,T,,2,,0.06,,U,,HD-WD,,U,,,|
+|,26,|,Orel to Moscow,,Ger XLVII Corps,,15303,,15,,0.6,,1,,0.8,,0.5,,NR,,M,,T,,2,,0.12,,U,,WD,,U,,,|
+|,27,|,Orel to Moscow,,Ger XLVII Corps,,15304,,28,,0.6,,1,,0.8,,0.5,,NR,,S,,T,,3,,0.3,,U,,WD,,U,,,|
+|,28,|,Orel to Moscow,,Ger XLVII Corps,,15305,,26,,0.6,,1,,0.8,,0.5,,NR,,S,,T,,3,,0.59,,U,,HD-WD,,U,,,|
+|,29,|,Orel to Moscow,,Ger XLVII Corps,,15306,,10,,0.6,,1,,0.8,,0.5,,NR,,M,,W,,3,,0.51,,U,,HD,,U,,,|
+|,30,|,Orel to Moscow,,Ger XLVII Corps,,15307,,4,,0.8,,1,,0.8,,0.5,,NR,,M,,W,,3,,0.17,,U,,HD,,U,,,|
+|,31,|,Orel to Moscow,,Ger XLVII Corps,,15308,,8,,0.8,,1,,0.8,,0.5,,NR,,S,,W,,3,,0.15,,U,,WD,,U,,,|
+|,32,|,Orel to Moscow,,Ger XLVII Corps,,15309,,8,,0.6,,1,,0.8,,0.5,,NR,,S,,W,,3,,0.07,,U,,WD,,U,,,|
+|,33,|,Orel to Moscow,,Ger XLVII Corps,,15310,,20,,0.6,,1,,0.8,,0.5,,NR,,M-N,,E,,3,,0.03,,U,,DL,,U,,,|
+|,34,|,Orel to Moscow,,Ger 18th Panzer Division,,15293,,60,,0.6,,1,,0.8,,0.7,,NR,,N,,F,,2,,0.1,,U,,WD,,U,,,|
+|,35,|,Orel to Moscow,,Ger 18th Panzer Division,,15294,,25,,0.8,,1,,0.8,,0.7,,NR,,S,,F,,2,,0.2,,U,,WD,,U,,,|
+|,36,|,Orel to Moscow,,Ger 18th Panzer Division,,15295,,2,,0.8,,1,,0.8,,0.7,,NR,,I,,F,,2,,0.5,,U,,HD,,U,,,|
+|,37,|,Orel to Moscow,,Ger 18th Panzer Division,,15296,,6,,0.9,,1,,0.8,,0.7,,NR,,I,,T,,2,,0.5,,U,,HD,,U,,,|
+|,38,|,Orel to Moscow,,Ger 18th Panzer Division,,15297,,1,,0.8,,1,,0.8,,0.7,,NR,,I,,T,,2,,0.5,,U,,HD,,U,,,|
+|,39,|,Orel to Moscow,,Ger 18th Panzer Division,,15298,,5,,0.8,,1,,0.8,,0.7,,NR,,M,,T,,2,,0.3,,U,,HD,,U,,,|
+|,40,|,Orel to Moscow,,Ger 18th Panzer Division,,15299,,11,,0.8,,1,,0.8,,0.7,,NR,,M,,T,,2,,0.3,,U,,DL-HD,,U,,,|
+|,41,|,Orel to Moscow,,Ger 18th Panzer Division,,15300,,19,,0.5,,1,,0.8,,0.7,,NR,,I-N,,P,,2,,0.5,,U,,DL-HD,,U,,,|
+|,42,|,Orel to Moscow,,Ger 18th Panzer Division,,15301,,5,,0.6,,1,,0.8,,0.7,,NR,,I-M,,T,,2,,0.1,,U,,HD,,U,,,|
+|,43,|,Orel to Moscow,,Ger 18th Panzer Division,,15302,,5,,0.6,,1,,0.8,,0.7,,NR,,I-M,,T,,2,,0.2,,U,,HD,,U,,,|
+|,44,|,Orel to Moscow,,Ger 18th Panzer Division,,15303,,5,,0.6,,1,,0.8,,0.7,,NR,,M,,W,,2,,0.2,,U,,HD,,U,,,|
+|,45,|,Orel to Moscow,,Ger 29th Motorized Division,,15303,,20,,0.6,,1,,0.8,,0.7,,NR,,S,,F,,3,,0.4,,U,,DL,,U,,,|
+|,46,|,Orel to Moscow,,Ger 29th Motorized Division,,15304,,25,,0.6,,1,,0.8,,0.7,,NR,,S-M,,F,,3,,0.8,,U,,DL,,U,,,|
+|,47,|,Orel to Moscow,,Ger 29th Motorized Division,,15305,,20,,0.6,,1,,0.8,,0.7,,NR,,S-I,,F,,3,,1.2,,U,,HD,,U,,,|
+|,48,|,Orel to Moscow,,Ger 29th Motorized Division,,15306,,9,,0.6,,1,,0.8,,0.7,,NR,,M-I,,T,,3,,1.4,,U,,HD,,U,,,|
+|,49,|,Orel to Moscow,,Ger 29th Motorized Division,,15307,,5,,0.8,,1,,0.8,,0.7,,NR,,M-I,,T,,3,,0.5,,U,,DL,,U,,,|
+|,50,|,Orel to Moscow,,Ger 29th Motorized Division,,15308,,8,,0.8,,1,,0.8,,0.7,,NR,,S,,T,,3,,0.4,,U,,WD,,U,,,|
+|,51,|,Orel to Moscow,,Ger 29th Motorized Division,,15309,,8,,0.6,,1,,0.8,,0.7,,NR,,S,,T,,3,,0.2,,U,,WD,,U,,,|
+|,52,|,Orel to Moscow,,Ger 29th Motorized Division,,15310,,20,,0.6,,1,,0.8,,0.7,,NR,,M-N,,W,,3,,0.1,,U,,DL,,U,,,|
+|,53,|,Orel to Moscow,,Ger 29th Motorized Division,,15311,,P,,0.8,,1,,0.8,,0.7,,NR,,P,,P,,P,,NR,,U,,WD,,U,,,|
+|,54,|,Orel to Moscow,,Ger 29th Motorized Division,,15312,,10,,0.8,,1,,0.8,,0.7,,NR,,S,,W,,2,,0.2,,U,,WD,,U,,,|
+|,55,|,Orel to Moscow,,Ger 29th Motorized Division,,15313,,4,,0.6,,1,,0.8,,0.7,,NR,,M,,W,,2,,0.4,,U,,HD,,U,,,|
+|,56,|,Don River to Caucasus,,Ger XL Panzerkorps,,15543,,2,,1,,1,,0.9,,0.7,,R,,M,,F,,2,,0.3,,U,,HD,,U,,,|
+|,57,|,Don River to Caucasus,,Ger XL Panzerkorps,,15544,,8,,1,,1,,0.9,,0.7,,R,,S,,F,,2,,0.3,,U,,HD,,U,,,|
+|,58,|,Don River to Caucasus,,Ger XL Panzerkorps,,15545,,14,,0.9,,1,,0.9,,0.7,,R,,S,,F,,2,,0.3,,U,,HD,,U,,,|
+|,59,|,Don River to Caucasus,,Ger XL Panzerkorps,,15546,,P,,1,,1,,0.9,,0.7,,R,,P,,P,,NR,,0.1,,U,,A-HD,,U,,,|
+|,60,|,Don River to Caucasus,,Ger XL Panzerkorps,,15547,,P,,0.9,,1,,0.9,,0.7,,R,,P,,P,,NR,,0.1,,U,,HD,,U,,,|
+|,61,|,Don River to Caucasus,,Ger XL Panzerkorps,,15548,,7,,1,,1,,0.9,,0.7,,R,,S,,F,,2,,0.3,,U,,HD,,U,,,|
+|,62,|,Don River to Caucasus,,Ger XL Panzerkorps,,15549,,14,,1,,1,,0.9,,0.7,,R,,M,,F,,2,,0.3,,U,,DL,,U,,,|
+|,63,|,Don River to Caucasus,,Ger XL Panzerkorps,,15550,,20,,1,,1,,0.9,,0.7,,NR,,S,,F,,2,,0.3,,U,,DL,,U,,,|
+|,64,|,Don River to Caucasus,,Ger XL Panzerkorps,,15551,,15,,1,,1,,0.9,,0.7,,NR,,M-S,,T,,2,,0.3,,U,,DL,,U,,,|
+|,65,|,Don River to Caucasus,,Ger XL Panzerkorps,,15552,,20,,1,,1,,0.9,,0.7,,R,,S,,T,,2,,0.3,,U,,DL,,U,,,|
+|,66,|,Don River to Caucasus,,Ger XL Panzerkorps,,15553,,8,,1,,1,,0.9,,0.7,,R,,S,,T,,2,,0.3,,U,,DL,,U,,,|
+|,67,|,Don River to Caucasus,,Ger XL Panzerkorps,,15554,,45,,1,,1,,1,,0.7,,NR,,S-N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,68,|,Don River to Caucasus,,Ger XL Panzerkorps,,15555,,65,,1,,1,,1,,0.7,,NR,,N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,69,|,Don River to Caucasus,,Ger XL Panzerkorps,,15556,,65,,1,,1,,1,,0.7,,NR,,N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,70,|,Don River to Caucasus,,Ger XL Panzerkorps,,15557,,P,,1,,1,,1,,0.7,,NR,,P,,P,,1,,0.2,,U,,P,,U,,,|
+|,71,|,Don River to Caucasus,,Ger XL Panzerkorps,,15558,,30,,1,,1,,1,,0.7,,NR,,N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,72,|,Don River to Caucasus,,Ger XL Panzerkorps,,15559,,6,,1,,1,,1,,0.7,,NR,,M,,T,,1,,0.2,,U,,DL,,U,,,|
+|,73,|,Don River to Caucasus,,Ger XL Panzerkorps,,15560,,30,,1,,1,,1,,0.7,,NR,,P-N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,74,|,Don River to Caucasus,,Ger XL Panzerkorps,,15561,,95,,1,,1,,1,,0.5,,NR,,N,,T,,1,,0.2,,U,,WD,,U,,,|
+|,75,|,Don River to Caucasus,,Ger XL Panzerkorps,,15562,,26,,1,,1,,0.9,,0.5,,NR,,M-N,,T,,1,,0.2,,U,,DL,,U,,,|
+|,76,|,Don River to Caucasus,,Ger XL Panzerkorps,,15563,,3,,1,,1,,0.8,,0.5,,NR,,I,,T,,1,,0.3,,U,,HD,,U,,,|
+|,77,|,Don River to Caucasus,,Ger XL Panzerkorps,,15564,,10,,1,,1,,0.8,,0.5,,NR,,M,,T,,1,,0.2,,U,,WD,,U,,,|
+|,78,|,Don River to Caucasus,,Ger XL Panzerkorps,,15565,,6,,1,,1,,0.7,,0.5,,NR,,S,,T,,1,,0.1,,U,,WD,,U,,,|
+|,79,|,Don River to Caucasus,,Ger XL Panzerkorps,,15566,,22,,1,,1,,0.7,,0.5,,NR,,S,,T,,1,,0.2,,U,,DL,,U,,,|
+|,80,|,Don River to Caucasus,,Ger XL Panzerkorps,,15567,,20,,1,,1,,0.7,,0.5,,NR,,S,,T,,1,,0.1,,U,,DL,,U,,,|
+|,81,|,Don River to Caucasus,,Ger XL Panzerkorps,,15568,,5,,1,,1,,0.6,,0.5,,R,,M,,T,,1,,0.1,,U,,DL,,U,,,|
+|,82,|,Don River to Caucasus,,Ger XL Panzerkorps,,15569,,25,,0.9,,1,,0.6,,0.5,,R,,S,,T,,1,,0.2,,U,,DL,,U,,,|
+|,83,|,Don River to Caucasus,,Ger XL Panzerkorps,,15570,,3,,1,,1,,0.6,,0.5,,R,,S,,T,,2,,0.1,,U,,DL,,U,,,|
+|,84,|,Don River to Caucasus,,Ger XL Panzerkorps,,15571,,2,,1,,1,,0.6,,0.5,,R,,I,,T,,2,,0.1,,U,,HD,,U,,,|
+|,85,|,Don River to Caucasus,,Ger XL Panzerkorps,,15572,,1,,0.8,,1,,0.6,,0.5,,R,,I,,T,,2,,0.1,,U,,HD,,U,,,|
+|,86,|,Don River to Caucasus,,Ger XL Panzerkorps,,15573,,36,,1,,1,,0.6,,0.5,,R,,I-N,,T,,2,,0.3,,U,,HD,,U,,,|
+|,87,|,Don River to Caucasus,,Ger XL Panzerkorps,,15574,,3,,0.9,,1,,0.6,,0.5,,R,,I,,W,,2,,0.3,,U,,HD,,U,,,|
+|,88,|,Don River to Caucasus,,Ger XL Panzerkorps,,15575,,0,,0.9,,1,,0.6,,0.5,,R,,I,,W,,2,,0.3,,U,,HD,,U,,,|
+|,89,|,Don River to Caucasus,,Ger XL Panzerkorps,,15576,,33,,1,,1,,0.6,,0.5,,NR,,M-N,,W,,2,,0.3,,U,,HD-DL,,U,,,|
+|,90,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15543,,23,,1,,1,,0.9,,0.7,,R,,N,,F,,2,,0.4,,U,,NR,,U,,,|
+|,91,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15544,,10,,1,,1,,0.9,,0.7,,R,,M-S,,F,,2,,0.4,,U,,HD,,U,,,|
+|,92,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15545,,28,,0.9,,1,,0.9,,0.7,,R,,S,,F,,2,,0.4,,U,,HD,,U,,,|
+|,93,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15546,,5,,1,,1,,0.9,,0.7,,R,,M,,F,,2,,0.4,,U,,A-HD,,U,,,|
+|,94,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15547,,P,,0.9,,1,,0.9,,0.7,,R,,P,,P,,P,,0.1,,U,,HD,,U,,,|
+|,95,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15548,,P,,1,,1,,0.9,,0.7,,R,,P,,P,,P,,0.1,,U,,HD,,U,,,|
+|,96,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15549,,12,,1,,1,,0.9,,0.7,,R,,M-S,,F,,2,,0.4,,U,,A-HD,,U,,,|
+|,97,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15550,,40,,1,,1,,0.9,,0.7,,NR,,N,,F,,2,,0.4,,U,,DL,,U,,,|
+|,98,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15551,,30,,1,,1,,0.9,,0.7,,NR,,M-N,,T,,2,,0.4,,U,,DL,,U,,,|
+|,99,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15552,,10,,1,,1,,0.9,,0.7,,R,,S,,T,,2,,0.4,,U,,DL,,U,,,|
+|,100,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15553,,4,,1,,1,,0.9,,0.7,,R,,M,,T,,2,,0.4,,U,,HD,,U,,,|
+|,101,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15554,,45,,1,,1,,1,,0.7,,NR,,M-N,,T,,1,,0.1,,U,,WD,,U,,,|
+|,102,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15555,,90,,1,,1,,1,,0.7,,NR,,N,,T,,1,,NR,,U,,WD,,U,,,|
+|,103,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15556,,70,,1,,1,,1,,0.7,,NR,,N,,T,,1,,0.1,,U,,WD,,U,,,|
+|,104,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15557,,P,,1,,1,,1,,0.7,,NR,,P,,P,,NR,,NR,,U,,WD,,U,,,|
+|,105,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15558,,60,,1,,1,,1,,0.7,,NR,,N,,T,,1,,0.1,,U,,WD,,U,,,|
+|,106,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15559,,12,,1,,1,,1,,0.7,,NR,,S,,T,,1,,0.1,,U,,WD,,U,,,|
+|,107,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15560,,P,,1,,1,,1,,0.7,,NR,,P,,P,,NR,,NR,,U,,WD,,U,,,|
+|,108,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15561,,110,,1,,1,,1,,0.5,,NR,,N,,T,,1,,NR,,U,,WD,,U,,,|
+|,109,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15562,,36,,1,,1,,0.9,,0.5,,NR,,M-N,,T,,1,,0.1,,U,,DL,,U,,,|
+|,110,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15563,,4,,1,,1,,0.8,,0.5,,NR,,I,,T,,1,,0.3,,U,,HD,,U,,,|
+|,111,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15564,,6,,1,,1,,0.8,,0.5,,NR,,M,,T,,1,,0.2,,U,,WD,,U,,,|
+|,112,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15565,,6,,1,,1,,0.7,,0.5,,NR,,S,,T,,1,,0.1,,U,,WD,,U,,,|
+|,113,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15566,,14,,1,,1,,0.7,,0.5,,NR,,I-S,,T,,1,,0.3,,U,,DL-HD,,U,,,|
+|,114,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15567,,P,,1,,1,,0.7,,0.5,,NR,,P,,P,,NR,,NR,,U,,HD,,U,,,|
+|,115,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15568,,6,,1,,1,,0.6,,0.5,,R,,S,,T,,1,,0.1,,U,,WD,,U,,,|
+|,116,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15569,,22,,0.9,,1,,0.6,,0.5,,R,,M-N,,T,,1,,0.2,,U,,DL,,U,,,|
+|,117,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15570,,P,,1,,1,,0.6,,0.5,,R,,P,,P,,NR,,NR,,U,,DL,,U,,,|
+|,118,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15571,,P,,1,,1,,0.6,,0.5,,R,,P,,P,,NR,,NR,,U,,DL,,U,,,|
+|,119,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15572,,P,,0.8,,1,,0.6,,0.5,,R,,P,,P,,NR,,NR,,U,,P,,U,,,|
+|,120,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15573,,70,,1,,1,,0.6,,0.5,,R,,N,,T,,2,,0.1,,U,,WD,,U,,,|
+|,121,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15574,,P,,0.9,,1,,0.6,,0.5,,R,,P,,P,,NR,,0.1,,U,,P,,U,,,|
+|,122,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15575,,P,,0.9,,1,,0.6,,0.5,,R,,P,,P,,NR,,0.1,,U,,P,,U,,,|
+|,123,|,Don River to Caucasus,,Ger 3rd Panzer Division,,15576,,60,,1,,1,,0.6,,0.5,,NR,,M-N,,T,,2,,0.3,,U,,WD,,U,,,|
+|,124,|,Argentan to Liege,,US VII Corps,,16297,,26,,1,,1,,0.9,,0.9,,NR,,S,,F,,2.5,,0.3,,E,,WD,,U,,,|
+|,125,|,Argentan to Liege,,US VII Corps,,16298,,4,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.2,,E,,DL,,U,,,|
+|,126,|,Argentan to Liege,,US VII Corps,,16299,,4,,1,,1,,0.9,,0.9,,NR,,M,,T,,2.5,,0.3,,E,,DL,,U,,,|
+|,127,|,Argentan to Liege,,US VII Corps,,16300,,6,,1,,1,,0.9,,0.9,,NR,,M,,T,,2.5,,0.2,,E,,DL,,U,,,|
+|,128,|,Argentan to Liege,,US VII Corps,,16301,,3,,1,,1,,0.9,,0.9,,NR,,M,,T,,2.5,,0.3,,E,,DL,,U,,,|
+|,129,|,Argentan to Liege,,US VII Corps,,16302,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,130,|,Argentan to Liege,,US VII Corps,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,131,|,Argentan to Liege,,US VII Corps,,16304,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,132,|,Argentan to Liege,,US VII Corps,,16305,,48,,0.7,,1,,NR,,0.9,,NR,,P-N,,P,,2,,NR,,P,,NR,,U,,,|
+|,133,|,Argentan to Liege,,US VII Corps,,16306,,48,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,2,,NR,,P,,NR,,U,,,|
+|,134,|,Argentan to Liege,,US VII Corps,,16307,,48,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,2,,NR,,P,,NR,,U,,,|
+|,135,|,Argentan to Liege,,US VII Corps,,16308,,48,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,2,,NR,,P,,NR,,U,,,|
+|,136,|,Argentan to Liege,,US VII Corps,,16309,,48,,1,,1,,NR,,0.9,,NR,,P-N,,P,,2,,0.1,,P,,NR,,U,,,|
+|,137,|,Argentan to Liege,,US VII Corps,,16310,,35,,1,,1,,0.8,,0.9,,R,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,138,|,Argentan to Liege,,US VII Corps,,16311,,25,,1,,1,,0.8,,0.9,,R,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,139,|,Argentan to Liege,,US VII Corps,,16312,,63,,1,,1,,0.8,,0.9,,NR,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,140,|,Argentan to Liege,,US VII Corps,,16313,,19,,0.9,,1,,0.8,,0.9,,R,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,141,|,Argentan to Liege,,US VII Corps,,16314,,16,,1,,1,,0.8,,0.9,,NR,,S,,F,,1,,0.1,,W,,DL,,U,,,|
+|,142,|,Argentan to Liege,,US VII Corps,,16315,,29,,0.8,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.1,,W,,WD,,U,,,|
+|,143,|,Argentan to Liege,,US VII Corps,,16316,,25,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,DL,,U,,,|
+|,144,|,Argentan to Liege,,US VII Corps,,16317,,35,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,WD,,U,,,|
+|,145,|,Argentan to Liege,,US VII Corps,,16318,,16,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,WD,,U,,,|
+|,146,|,Argentan to Liege,,US VII Corps,,16319,,35,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,E,,WD,,U,,,|
+|,147,|,Argentan to Liege,,US VII Corps,,16320,,8,,1,,1,,0.8,,0.9,,R,,M,,T,,1,,NR,,E,,DL,,U,,,|
+|,148,|,Argentan to Liege,,US VII Corps,,16321,,14,,0.9,,1,,0.8,,0.9,,R,,M,,T,,1,,0.1,,E,,DL,,U,,,|
+|,149,|,Argentan to Liege,,US VII Corps,,16322,,20,,0.8,,1,,0.8,,0.9,,UR,,S,,T,,1,,0.1,,E,,DL,,U,,,|
+|,150,|,Argentan to Liege,,US VII Corps,,16323,,22,,0.8,,1,,0.8,,0.9,,R,,S,,T,,2,,0.1,,E,,DL,,U,,,|
+|,151,|,Argentan to Liege,,US VII Corps,,16324,,7,,1,,1,,0.8,,0.9,,R,,M,,T,,2,,0.1,,E,,DL,,U,,,|
+|,152,|,Argentan to Liege,,US VII Corps,,16325,,10,,1,,1,,0.8,,0.9,,NR,,S,,T,,2,,0.1,,W,,DL,,U,,,|
+|,153,|,Argentan to Liege,,US VII Corps,,16326,,8,,1,,1,,0.8,,0.9,,NR,,M,,T,,2,,0.1,,W,,DL,,U,,,|
+|,154,|,Argentan to Liege,,US VII Corps,,16327,,5,,1,,1,,0.8,,0.9,,FZ,,M,,T,,2,,0.1,,W,,DL,,U,,,|
+|,155,|,Argentan to Liege,,US 3d Armored Division,,16297,,35,,1,,1,,0.9,,0.9,,NR,,S,,T,,2.5,,0.2,,E,,WD,,U,,,|
+|,156,|,Argentan to Liege,,US 3d Armored Division,,16298,,2,,1,,1,,0.9,,0.9,,NR,,I,,T,,2.5,,0.4,,E,,DL,,U,,,|
+|,157,|,Argentan to Liege,,US 3d Armored Division,,16299,,2,,1,,1,,0.9,,0.9,,NR,,I,,T,,2.5,,0.9,,E,,DL,,U,,,|
+|,158,|,Argentan to Liege,,US 3d Armored Division,,16300,,6,,1,,1,,0.9,,0.9,,NR,,M,,T,,2.5,,0.9,,E,,DL,,U,,,|
+|,159,|,Argentan to Liege,,US 3d Armored Division,,16301,,3,,1,,1,,0.9,,0.9,,NR,,I,,T,,2.5,,0.7,,E,,DL,,U,,,|
+|,160,|,Argentan to Liege,,US 3d Armored Division,,16302,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,161,|,Argentan to Liege,,US 3d Armored Division,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,162,|,Argentan to Liege,,US 3d Armored Division,,16304,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,163,|,Argentan to Liege,,US 3d Armored Division,,16305,,P,,0.7,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,164,|,Argentan to Liege,,US 3d Armored Division,,16306,,110,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,NR,,P,,NR,,U,,,|
+|,165,|,Argentan to Liege,,US 3d Armored Division,,16307,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,166,|,Argentan to Liege,,US 3d Armored Division,,16308,,130,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,NR,,P,,NR,,U,,,|
+|,167,|,Argentan to Liege,,US 3d Armored Division,,16309,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.2,,P,,NR,,U,,,|
+|,168,|,Argentan to Liege,,US 3d Armored Division,,16310,,35,,1,,1,,0.8,,0.9,,R,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,169,|,Argentan to Liege,,US 3d Armored Division,,16311,,25,,1,,1,,0.8,,0.9,,R,,N,,F,,1,,0.2,,T,,WD,,U,,,|
+|,170,|,Argentan to Liege,,US 3d Armored Division,,16312,,63,,1,,1,,0.8,,0.9,,NR,,N,,F,,1,,0.2,,T,,WD,,U,,,|
+|,171,|,Argentan to Liege,,US 3d Armored Division,,16313,,19,,0.9,,1,,0.8,,0.9,,R,,N,,F,,1,,0.1,,T,,WD,,U,,,|
+|,172,|,Argentan to Liege,,US 3d Armored Division,,16314,,16,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,DL,,U,,,|
+|,173,|,Argentan to Liege,,US 3d Armored Division,,16315,,28,,0.8,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.2,,W,,WD,,U,,,|
+|,174,|,Argentan to Liege,,US 3d Armored Division,,16316,,22,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,DL,,U,,,|
+|,175,|,Argentan to Liege,,US 3d Armored Division,,16317,,40,,1,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.2,,W,,WD,,U,,,|
+|,176,|,Argentan to Liege,,US 3d Armored Division,,16318,,P,,1,,1,,0.8,,0.9,,NR,,P,,P,,NR,,NR,,W,,P,,U,,,|
+|,177,|,Argentan to Liege,,US 3d Armored Division,,16319,,45,,1,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.1,,W,,DL,,U,,,|
+|,178,|,Argentan to Liege,,US 3d Armored Division,,16320,,10,,1,,1,,0.8,,0.9,,R,,S,,T,,1,,0.2,,E,,WD,,U,,,|
+|,179,|,Argentan to Liege,,US 3d Armored Division,,16321,,28,,0.9,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,E,,WD,,U,,,|
+|,180,|,Argentan to Liege,,US 3d Armored Division,,16322,,26,,0.8,,1,,0.8,,0.9,,UR,,S,,T,,1,,0.1,,E,,WD,,U,,,|
+|,181,|,Argentan to Liege,,US 3d Armored Division,,16323,,3,,0.8,,1,,0.8,,0.9,,NR,,P-N,,P,,NR,,NR,,E,,P,,U,,,|
+|,182,|,Argentan to Liege,,US 3d Armored Division,,16324,,26,,1,,1,,0.8,,0.9,,R,,S,,T,,2,,0.4,,E,,DL,,U,,,|
+|,183,|,Argentan to Liege,,US 3d Armored Division,,16325,,3,,1,,1,,0.8,,0.9,,NR,,N,,T,,2,,0.4,,W,,DL,,U,,,|
+|,184,|,Argentan to Liege,,US 3d Armored Division,,16326,,11,,1,,1,,0.8,,0.9,,NR,,N,,T,,2,,0.3,,W,,DL,,U,,,|
+|,185,|,Argentan to Liege,,US 3d Armored Division,,16327,,8,,1,,1,,0.8,,0.9,,FZ,,S,,T,,2,,0.2,,W,,DL,,U,,,|
+|,186,|,Argentan to Liege,,US 1st Infantry Division,,16297,,20,,1,,1,,0.9,,0.9,,NR,,S-N,,F,,2.5,,NR,,E,,DL,,U,,,|
+|,187,|,Argentan to Liege,,US 1st Infantry Division,,16298,,6,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.2,,E,,DL,,U,,,|
+|,188,|,Argentan to Liege,,US 1st Infantry Division,,16299,,6,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.3,,E,,WD,,U,,,|
+|,189,|,Argentan to Liege,,US 1st Infantry Division,,16300,,4,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.1,,E,,NR,,U,,,|
+|,190,|,Argentan to Liege,,US 1st Infantry Division,,16301,,P,,1,,1,,0.9,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,191,|,Argentan to Liege,,US 1st Infantry Division,,16302,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,192,|,Argentan to Liege,,US 1st Infantry Division,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,193,|,Argentan to Liege,,US 1st Infantry Division,,16304,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,194,|,Argentan to Liege,,US 1st Infantry Division,,16305,,P,,0.7,,1,,NR,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,195,|,Argentan to Liege,,US 1st Infantry Division,,16306,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,P,,NR,,NR,,NR,,U,,,|
+|,196,|,Argentan to Liege,,US 1st Infantry Division,,16307,,P,,0.8,,1,,NR,,0.9,,NR,,P,,F,,P,,NR,,NR,,NR,,U,,,|
+|,197,|,Argentan to Liege,,US 1st Infantry Division,,16308,,150,,0.8,,1,,NR,,0.9,,NR,,P-N,,F,,2,,NR,,NR,,NR,,U,,,|
+|,198,|,Argentan to Liege,,US 1st Infantry Division,,16309,,90,,1,,1,,NR,,0.9,,NR,,P-N,,F,,2,,NR,,NR,,NR,,U,,,|
+|,199,|,Argentan to Liege,,US 1st Infantry Division,,16310,,P,,1,,1,,0.8,,0.9,,NR,,P,,F,,P,,0.1,,NR,,NR,,U,,,|
+|,200,|,Argentan to Liege,,US 1st Infantry Division,,16311,,50,,1,,1,,0.8,,0.9,,R,,P-N,,F,,3,,0.1,,NR,,NR,,U,,,|
+|,201,|,Argentan to Liege,,US 1st Infantry Division,,16312,,30,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,3,,NR,,NR,,NR,,U,,,|
+|,202,|,Argentan to Liege,,US 1st Infantry Division,,16313,,40,,0.9,,1,,0.8,,0.9,,NR,,P-N,,F,,3,,0.1,,NR,,NR,,U,,,|
+|,203,|,Argentan to Liege,,US 1st Infantry Division,,16314,,30,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,3,,0.1,,NR,,NR,,U,,,|
+|,204,|,Argentan to Liege,,US 1st Infantry Division,,16315,,30,,0.8,,1,,0.8,,0.9,,NR,,P-N,,F,,3,,0.1,,NR,,NR,,U,,,|
+|,205,|,Argentan to Liege,,US 1st Infantry Division,,16316,,33,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,3,,0.1,,NR,,NR,,U,,,|
+|,206,|,Argentan to Liege,,US 1st Infantry Division,,16317,,40,,1,,1,,0.8,,0.9,,NR,,N,,F,,3,,0.1,,W,,WD,,U,,,|
+|,207,|,Argentan to Liege,,US 1st Infantry Division,,16318,,22,,1,,1,,0.8,,0.9,,NR,,S,,F,,3,,0.1,,W,,A-DL,,U,,,|
+|,208,|,Argentan to Liege,,US 1st Infantry Division,,16319,,15,,1,,1,,0.8,,0.9,,NR,,M,,F,,3,,0.2,,W,,A-DL,,U,,,|
+|,209,|,Argentan to Liege,,US 1st Infantry Division,,16320,,NR,,1,,1,,0.8,,0.9,,NR,,M,,F,,P,,0.5,,NR,,A,,U,,,|
+|,210,|,Argentan to Liege,,US 1st Infantry Division,,16321,,38,,0.9,,1,,0.8,,0.9,,NR,,S-N,,T,,3,,0.3,,E,,WD,,U,,,|
+|,211,|,Argentan to Liege,,US 1st Infantry Division,,16322,,30,,0.8,,1,,0.8,,0.9,,NR,,S-N,,T,,3,,0.2,,E,,WD,,U,,,|
+|,212,|,Argentan to Liege,,US 1st Infantry Division,,16323,,55,,0.8,,1,,0.8,,0.9,,R,,N,,T,,3,,0.1,,E,,WD,,U,,,|
+|,213,|,Argentan to Liege,,US 9th Infantry Division,,16299,,6,,1,,1,,0.9,,0.9,,NR,,S,,F,,2.5,,0.1,,E,,DL,,U,,,|
+|,214,|,Argentan to Liege,,US 9th Infantry Division,,16300,,8,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.3,,E,,DL,,U,,,|
+|,215,|,Argentan to Liege,,US 9th Infantry Division,,16301,,3,,1,,1,,0.9,,0.9,,NR,,M,,F,,2.5,,0.9,,E,,WD,,U,,,|
+|,216,|,Argentan to Liege,,US 9th Infantry Division,,16302,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.1,,P,,NR,,U,,,|
+|,217,|,Argentan to Liege,,US 9th Infantry Division,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,218,|,Argentan to Liege,,US 9th Infantry Division,,16304,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,NR,,U,,,|
+|,219,|,Argentan to Liege,,US 9th Infantry Division,,16305,,60,,0.7,,1,,NR,,0.9,,NR,,P-N,,F,,NR,,NR,,P,,NR,,U,,,|
+|,220,|,Argentan to Liege,,US 9th Infantry Division,,16306,,P,,0.8,,1,,NR,,0.9,,NR,,P,,F,,NR,,NR,,P,,NR,,U,,,|
+|,221,|,Argentan to Liege,,US 9th Infantry Division,,16307,,50,,0.8,,1,,NR,,0.9,,NR,,P-N,,F,,NR,,NR,,P,,NR,,U,,,|
+|,222,|,Argentan to Liege,,US 9th Infantry Division,,16308,,P,,0.8,,1,,NR,,0.9,,NR,,P,,F,,NR,,NR,,P,,NR,,U,,,|
+|,223,|,Argentan to Liege,,US 9th Infantry Division,,16309,,130,,1,,1,,NR,,0.9,,NR,,P-N,,F,,NR,,0.1,,P,,NR,,U,,,|
+|,224,|,Argentan to Liege,,US 9th Infantry Division,,16310,,P,,1,,1,,0.8,,0.9,,NR,,P,,F,,NR,,0.1,,P,,NR,,U,,,|
+|,225,|,Argentan to Liege,,US 9th Infantry Division,,16311,,40,,1,,1,,0.8,,0.9,,R,,P-N,,F,,NR,,0.2,,P,,NR,,U,,,|
+|,226,|,Argentan to Liege,,US 9th Infantry Division,,16312,,35,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,NR,,0.1,,P,,NR,,U,,,|
+|,227,|,Argentan to Liege,,US 9th Infantry Division,,16313,,40,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,NR,,0.2,,P,,NR,,U,,,|
+|,228,|,Argentan to Liege,,US 9th Infantry Division,,16314,,35,,1,,1,,0.8,,0.9,,NR,,P-N,,F,,NR,,0.1,,P,,NR,,U,,,|
+|,229,|,Argentan to Liege,,US 9th Infantry Division,,16315,,48,,0.8,,1,,0.8,,0.9,,NR,,N,,F,,3,,NR,,W,,WD,,U,,,|
+|,230,|,Argentan to Liege,,US 9th Infantry Division,,16316,,25,,1,,1,,0.8,,0.9,,NR,,S,,F,,3,,0.1,,W,,WD,,U,,,|
+|,231,|,Argentan to Liege,,US 9th Infantry Division,,16317,,24,,1,,1,,0.8,,0.9,,NR,,S,,F,,3,,0.1,,W,,NR,,U,,,|
+|,232,|,Argentan to Liege,,US 9th Infantry Division,,16318,,32,,1,,1,,0.8,,0.9,,NR,,N,,F,,1,,NR,,W,,NR,,U,,,|
+|,233,|,Argentan to Liege,,US 9th Infantry Division,,16319,,22,,1,,1,,0.8,,0.9,,NR,,N,,F,,1,,0.5,,W,,NR,,U,,,|
+|,234,|,Argentan to Liege,,US 9th Infantry Division,,16320,,1,,1,,1,,0.8,,0.9,,R,,I,,T,,1,,0.7,,W,,DL,,U,,,|
+|,235,|,Argentan to Liege,,US 9th Infantry Division,,16321,,2,,0.9,,1,,0.8,,0.9,,R,,I,,T,,1,,0.5,,W,,DL,,U,,,|
+|,236,|,Argentan to Liege,,US 9th Infantry Division,,16322,,3,,0.8,,1,,0.8,,0.9,,R,,M,,T,,1,,0.4,,E,,WD,,U,,,|
+|,237,|,Argentan to Liege,,US 9th Infantry Division,,16323,,37,,0.8,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.2,,E,,WD,,U,,,|
+|,238,|,Argentan to Liege,,US 9th Infantry Division,,16324,,11,,1,,1,,0.8,,0.9,,R,,S,,T,,2,,0.1,,W,,WD,,U,,,|
+|,239,|,Argentan to Liege,,US 9th Infantry Division,,16325,,9,,1,,1,,0.8,,0.9,,NR,,S,,T,,2,,0.2,,W,,DL,,U,,,|
+|,240,|,Le Mans to Metz,,US XX Corps,,16298,,24,,1,,1,,0.9,,0.9,,NR,,N,,F,,3,,0,,W,,WD,,6.4,,,|
+|,241,|,Le Mans to Metz,,US XX Corps,,16299,,30,,0.9,,1,,0.9,,0.9,,NR,,S,,F,,3,,0.1,,W,,HD,,5.5,,,|
+|,242,|,Le Mans to Metz,,US XX Corps,,16300,,31,,1,,1,,0.9,,0.9,,U,,N-M,,F,,3,,0.5,,W,,HD,,7,,,|
+|,243,|,Le Mans to Metz,,US XX Corps,,16301,,6,,1,,1,,0.9,,0.9,,U,,N-M,,F,,3,,0.5,,W,,HD,,2.5,,,|
+|,244,|,Le Mans to Metz,,US XX Corps,,16302,,11,,1,,1,,0.9,,0.9,,U,,N-M,,F,,3,,0.4,,W,,HD,,4.2,,,|
+|,245,|,Le Mans to Metz,,US XX Corps,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.3,,P,,P,,2.5,,,|
+|,246,|,Le Mans to Metz,,US XX Corps,,16304,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.1,,P,,P,,1.1,,,|
+|,247,|,Le Mans to Metz,,US XX Corps,,16305,,55,,0.9,,1,,0.9,,0.9,,NR,,N,,F,,1,,0.1,,T,,DL,,2.1,,,|
+|,248,|,Le Mans to Metz,,US XX Corps,,16306,,40,,0.9,,1,,0.8,,0.9,,NR,,S,,F,,1,,0.2,,T,,DL-PD,,1.5,,,|
+|,249,|,Le Mans to Metz,,US XX Corps,,16307,,5,,0.8,,1,,0.8,,0.9,,R,,S,,F,,1,,0.1,,T,,PD,,1.6,,,|
+|,250,|,Le Mans to Metz,,US XX Corps,,16308,,8,,1,,1,,0.8,,0.9,,R,,S,,T,,1,,0.1,,W,,PD,,2,,,|
+|,251,|,Le Mans to Metz,,US XX Corps,,16309,,25,,1,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.1,,W,,WD,,2.4,,,|
+|,252,|,Le Mans to Metz,,US XX Corps,,16310,,20,,1,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.1,,W,,WD,,2.9,,,|
+|,253,|,Le Mans to Metz,,US XX Corps,,16311,,25,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,W,,WD,,2.9,,,|
+|,254,|,Le Mans to Metz,,US XX Corps,,16312,,40,,0.8,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.1,,E,,WD,,2.7,,,|
+|,255,|,Le Mans to Metz,,US XX Corps,,16313,,30,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.1,,E,,WD,,3.9,,,|
+|,256,|,Le Mans to Metz,,US XX Corps,,16314,,35,,0.9,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.2,,E,,WD,,2.4,,,|
+|,257,|,Le Mans to Metz,,US XX Corps,,16315,,55,,0.8,,1,,0.7,,0.9,,R,,N,,T,,1,,0.1,,E,,WD,,8.6,,,|
+|,258,|,Le Mans to Metz,,US XX Corps,,16316,,10,,1,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,0.1,,P,,P-WD,,2.2,,,|
+|,259,|,Le Mans to Metz,,US XX Corps,,16317,,10,,0.8,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,0.1,,P,,P-WD,,1.1,,,|
+|,260,|,Le Mans to Metz,,US XX Corps,,16318,,10,,1,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,0.1,,P,,P-WD,,1.1,,,|
+|,261,|,Le Mans to Metz,,US XX Corps,,16319,,10,,0.9,,1,,NR,,0.9,,NR,,P-N,,P,,NR,,0.1,,P,,P-WD,,0.6,,,|
+|,262,|,Le Mans to Metz,,US XX Corps,,16320,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.1,,P,,P,,0.3,,,|
+|,263,|,Le Mans to Metz,,US XX Corps,,16321,,14,,0.7,,1,,0.7,,0.9,,NR,,N,,F,,1,,0.1,,F,,DL,,0.2,,,|
+|,264,|,Le Mans to Metz,,US XX Corps,,16322,,7,,0.7,,1,,0.7,,0.9,,FZ,,N,,F,,1,,0.3,,F,,DL,,0.1,,,|
+|,265,|,Le Mans to Metz,,US XX Corps,,16323,,2,,0.7,,1,,0.7,,0.9,,FZ,,I,,F,,1,,0.3,,F,,DL,,0.1,,,|
+|,266,|,Le Mans to Metz,,US XX Corps,,16324,,2,,0.8,,1,,0.7,,0.9,,R-FZ,,I,,T,,1,,0.5,,T,,DL,,2.4,,,|
+|,267,|,Le Mans to Metz,,US XX Corps,,16325,,3,,0.9,,1,,0.7,,0.9,,R-FZ,,I,,T,,1,,0.8,,T,,DL,,0.6,,,|
+|,268,|,Le Mans to Metz,,US XX Corps,,16326,,4,,0.9,,1,,0.7,,0.9,,R-FZ,,I,,T,,1,,0.6,,T,,DL,,0.6,,,|
+|,269,|,Le Mans to Metz,,US XX Corps,,16327,,2,,1,,1,,0.7,,0.9,,R-FZ,,P-I,,T,,1,,0.6,,T,,P-DL,,0.3,,,|
+|,270,|,Le Mans to Metz,,US XX Corps,,16328,,0,,0.9,,1,,0.7,,0.9,,R-FZ,,I,,T,,1,,0.6,,T,,FD,,0.5,,,|
+|,271,|,Le Mans to Metz,,US 7th Armored Division,,16298,,24,,1,,1,,0.9,,0.9,,NR,,N,,F,,2,,0,,W,,WD,,6.4,,,|
+|,272,|,Le Mans to Metz,,US 7th Armored Division,,16299,,38,,0.9,,1,,0.9,,0.9,,NR,,N-I,,F,,2,,0.1,,W,,HD,,5.5,,,|
+|,273,|,Le Mans to Metz,,US 7th Armored Division,,16300,,11,,1,,1,,0.9,,0.9,,U,,S-I,,F,,2,,0.9,,W,,HD,,7,,,|
+|,274,|,Le Mans to Metz,,US 7th Armored Division,,16301,,21,,1,,1,,0.9,,0.9,,U,,N-I,,F,,2,,1,,W,,HD,,2.5,,,|
+|,275,|,Le Mans to Metz,,US 7th Armored Division,,16302,,20,,1,,1,,0.9,,0.9,,NR,,N,,F,,2,,0.9,,W,,WD,,4.2,,,|
+|,276,|,Le Mans to Metz,,US 7th Armored Division,,16303,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,0.7,,P,,P,,2.5,,,|
+|,277,|,Le Mans to Metz,,US 7th Armored Division,,16304,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,1.1,,,|
+|,278,|,Le Mans to Metz,,US 7th Armored Division,,16305,,55,,0.9,,1,,0.9,,0.9,,NR,,N,,F,,1,,NR,,T,,DL,,2.1,,,|
+|,279,|,Le Mans to Metz,,US 7th Armored Division,,16306,,34,,0.9,,1,,0.8,,0.9,,NR,,S-I,,F,,1,,0.2,,T,,DL-PD,,1.5,,,|
+|,280,|,Le Mans to Metz,,US 7th Armored Division,,16307,,12,,0.8,,1,,0.8,,0.9,,R,,S-I,,F,,1,,0.1,,T,,PD,,1.6,,,|
+|,281,|,Le Mans to Metz,,US 7th Armored Division,,16308,,10,,1,,1,,0.8,,0.9,,R,,S-I,,T,,1,,0.2,,W,,PD,,2,,,|
+|,282,|,Le Mans to Metz,,US 7th Armored Division,,16309,,45,,1,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.2,,W,,WD,,2.4,,,|
+|,283,|,Le Mans to Metz,,US 7th Armored Division,,16310,,P,,1,,1,,0.8,,0.9,,NR,,P,,T,,1,,0.1,,P,,WD,,2.9,,,|
+|,284,|,Le Mans to Metz,,US 7th Armored Division,,16311,,55,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.6,,W,,WD,,2.9,,,|
+|,285,|,Le Mans to Metz,,US 7th Armored Division,,16312,,40,,0.8,,1,,0.8,,0.9,,NR,,N,,T,,1,,0.4,,W,,WD,,2.7,,,|
+|,286,|,Le Mans to Metz,,US 7th Armored Division,,16313,,35,,1,,1,,0.8,,0.9,,NR,,S,,T,,1,,0.3,,W,,WD,,3.9,,,|
+|,287,|,Le Mans to Metz,,US 7th Armored Division,,16314,,55,,0.9,,1,,0.8,,0.9,,NR,,N-S,,T,,1,,0.3,,E,,WD,,2.4,,,|
+|,288,|,Le Mans to Metz,,US 7th Armored Division,,16315,,60,,0.8,,1,,0.7,,0.9,,R,,N-S,,T,,1,,0.3,,E,,WD,,8.6,,,|
+|,289,|,Le Mans to Metz,,US 7th Armored Division,,16316,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,NR,,,|
+|,290,|,Le Mans to Metz,,US 7th Armored Division,,16317,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,NR,,,|
+|,291,|,Le Mans to Metz,,US 7th Armored Division,,16318,,P,,1,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,NR,,,|
+|,292,|,Le Mans to Metz,,US 7th Armored Division,,16319,,P,,0.9,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,NR,,,|
+|,293,|,Le Mans to Metz,,US 7th Armored Division,,16320,,P,,0.8,,1,,NR,,0.9,,NR,,P,,P,,NR,,NR,,P,,P,,NR,,,|
+|,294,|,Le Mans to Metz,,US 7th Armored Division,,16321,,46,,0.7,,1,,0.7,,0.9,,NR,,S-I,,F,,2,,0.2,,F,,DL,,1.1,,,|
+|,295,|,Le Mans to Metz,,US 7th Armored Division,,16322,,12,,0.7,,1,,0.7,,0.9,,FZ,,I,,F,,2,,0.5,,F,,DL,,0.4,,,|
+|,296,|,Le Mans to Metz,,US 7th Armored Division,,16323,,2,,0.7,,1,,0.7,,0.9,,FZ,,I,,F,,2,,0.2,,F,,FD,,0.3,,,|
+|,297,|,Le Mans to Metz,,US 7th Armored Division,,16324,,2,,0.8,,1,,0.7,,0.9,,R-FZ,,I,,T,,2,,1,,T,,FD,,0.9,,,|
+|,298,|,Le Mans to Metz,,US 7th Armored Division,,16325,,0,,0.9,,1,,0.7,,0.9,,R-FZ,,I,,T,,2,,1,,T,,FD,,0.6,,,|
+|,299,|,Le Mans to Metz,,US 7th Armored Division,,16326,,0,,0.9,,1,,0.7,,0.9,,R-FZ,,I,,T,,2,,0.4,,T,,FD,,0.6,,,|
+|,300,|,Le Mans to Metz,,US 7th Armored Division,,16327,,2,,1,,1,,0.7,,0.9,,R-FZ,,S,,T,,2,,0.6,,T,,FD,,0.3,,,|
+|,301,|,Le Mans to Metz,,US 7th Armored Division,,16328,,0,,0.9,,1,,0.7,,0.9,,R-FZ,,S,,T,,2,,0.1,,T,,FD,,0.5,,,|
+|,302,|,Saar (Lorraine) Campaign,,US XII Corps,,16384,,2.8,,0.3,,0.9,,0.8,,0.8,,NR,,I,,F,,3,,0.8,,F,,FD,,5.1,,,|
+|,303,|,Saar (Lorraine) Campaign,,US XII Corps,,16385,,2.2,,0.3,,0.9,,0.8,,0.8,,NR,,I,,F,,3,,1.1,,F,,FD,,3.2,,,|
+|,304,|,Saar (Lorraine) Campaign,,US XII Corps,,16386,,3.5,,0.3,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.8,,T,,DL,,2.6,,,|
+|,305,|,Saar (Lorraine) Campaign,,US XII Corps,,16387,,3.5,,0.3,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,1,,T,,DL,,3,,,|
+|,306,|,Saar (Lorraine) Campaign,,US XII Corps,,16388,,2,,0.3,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.6,,T,,DL,,5.2,,,|
+|,307,|,Saar (Lorraine) Campaign,,US XII Corps,,16389,,1.3,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,1.3,,W,,DL,,2.8,,,|
+|,308,|,Saar (Lorraine) Campaign,,US XII Corps,,16390,,1.5,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.8,,W,,DL,,2.9,,,|
+|,309,|,Saar (Lorraine) Campaign,,US XII Corps,,16391,,0.8,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.8,,W,,DL,,3.4,,,|
+|,310,|,Saar (Lorraine) Campaign,,US XII Corps,,16392,,3.2,,0.3,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.5,,W,,DL,,3.5,,,|
+|,311,|,Saar (Lorraine) Campaign,,US XII Corps,,16393,,P,,0.5,,0.9,,0.8,,0.8,,NR,,P,,NR,,3,,0.4,,NR,,P,,1.3,,,|
+|,312,|,Saar (Lorraine) Campaign,,US XII Corps,,16394,,1.1,,0.7,,0.9,,0.8,,0.8,,NR,,I,,F,,3,,0.3,,T,,DL,,5.8,,,|
+|,313,|,Saar (Lorraine) Campaign,,US XII Corps,,16395,,1.3,,1,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,1.1,,T,,DL,,4.2,,,|
+|,314,|,Saar (Lorraine) Campaign,,US XII Corps,,16396,,5,,0.3,,0.9,,0.8,,0.8,,NR,,S,,T,,3,,0.3,,T,,DL,,3.6,,,|
+|,315,|,Saar (Lorraine) Campaign,,US XII Corps,,16397,,2.4,,0.5,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.3,,W,,DL,,3,,,|
+|,316,|,Saar (Lorraine) Campaign,,US XII Corps,,16398,,2.8,,0.5,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.5,,W,,DL,,1.9,,,|
+|,317,|,Saar (Lorraine) Campaign,,US XII Corps,,16399,,2.8,,0.7,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.3,,W,,DL,,1.2,,,|
+|,318,|,Saar (Lorraine) Campaign,,US XII Corps,,16400,,2,,1,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.3,,W,,PD,,1.3,,,|
+|,319,|,Saar (Lorraine) Campaign,,US XII Corps,,16401,,2.6,,1,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.5,,W,,DL,,1.4,,,|
+|,320,|,Saar (Lorraine) Campaign,,US XII Corps,,16402,,1.3,,0.7,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.8,,W,,DL,,1.4,,,|
+|,321,|,Saar (Lorraine) Campaign,,US XII Corps,,16403,,2.3,,0.5,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.5,,W,,DL,,1.8,,,|
+|,322,|,Saar (Lorraine) Campaign,,US XII Corps,,16404,,0.5,,0.5,,0.9,,0.8,,0.8,,NR,,P-I,,T,,3,,0.3,,W,,DL,,1.2,,,|
+|,323,|,Saar (Lorraine) Campaign,,US XII Corps,,16405,,0.5,,0.3,,0.9,,0.8,,0.8,,NR,,P-I,,T,,3,,0.5,,W,,DL,,1.4,,,|
+|,324,|,Saar (Lorraine) Campaign,,US XII Corps,,16406,,0.1,,0.5,,0.9,,0.8,,0.8,,NR,,P-S,,T,,3,,0.2,,W,,DL,,0.9,,,|
+|,325,|,Saar (Lorraine) Campaign,,US XII Corps,,16407,,0.4,,0.7,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.1,,W,,PD,,1.7,,,|
+|,326,|,Saar (Lorraine) Campaign,,US XII Corps,,16408,,0.4,,1,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.1,,W,,PD,,1.5,,,|
+|,327,|,Saar (Lorraine) Campaign,,US XII Corps,,16409,,0.1,,0.3,,0.9,,0.8,,0.8,,NR,,P-I,,T,,3,,0.3,,W,,PD,,1.6,,,|
+|,328,|,Saar (Lorraine) Campaign,,US XII Corps,,16410,,1.1,,0.5,,0.9,,0.8,,0.8,,NR,,I,,F,,3,,0.4,,W,,PD,,2.5,,,|
+|,329,|,Saar (Lorraine) Campaign,,US XII Corps,,16411,,4.5,,0.7,,0.9,,0.8,,0.8,,NR,,S,,T,,3,,0.4,,W,,DL,,2.4,,,|
+|,330,|,Saar (Lorraine) Campaign,,US XII Corps,,16412,,2.4,,0.3,,0.9,,0.8,,0.8,,NR,,M,,T,,3,,0.2,,W,,PD,,1.9,,,|
+|,331,|,Saar (Lorraine) Campaign,,US XII Corps,,16413,,1.4,,0.5,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.2,,W,,PD,,1.4,,,|
+|,,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16384,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,NR,,Dummy Row,|
+|,332,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16385,,8,,0.3,,0.9,,0.8,,0.8,,NR,,S,,F,,3,,0,,F,,FD,,2.6,,,|
+|,333,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16386,,3,,0.3,,0.9,,0.8,,0.8,,NR,,I-S,,F,,3,,0.3,,F,,FD,,3,,,|
+|,334,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16387,,4.6,,0.3,,0.9,,0.8,,0.8,,NR,,I-S,,F,,3,,0.9,,T,,DL,,3.2,,,|
+|,335,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16388,,1,,0.3,,0.9,,0.8,,0.8,,NR,,I,,F,,3,,0.7,,T,,DL,,4.6,,,|
+|,336,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16389,,3,,0.3,,0.9,,0.8,,0.8,,NR,,S-P,,F,,3,,0.6,,T,,DL,,2.4,,,|
+|,337,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16390,,2.4,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,2.2,,W,,DL-PD,,2.1,,,|
+|,338,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16391,,0.9,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,1.2,,W,,DL-PD,,2.4,,,|
+|,339,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16392,,P,,0.3,,0.9,,0.8,,0.8,,NR,,P,,P,,3,,0.2,,W,,NR,,NR,,,|
+|,340,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16393,,P,,0.5,,0.9,,0.8,,0.8,,NR,,P,,P,,3,,0.1,,W,,NR,,NR,,,|
+|,341,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16394,,P,,0.7,,0.9,,0.8,,0.8,,NR,,P,,P,,3,,0.1,,P,,NR,,NR,,,|
+|,342,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16395,,5.7,,1,,0.9,,0.8,,0.8,,NR,,S-P,,F,,3,,NR,,T,,DL,,1,,,|
+|,343,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16396,,2.8,,0.3,,0.9,,0.8,,0.8,,NR,,S,,F,,3,,0.1,,T,,DL,,1.1,,,|
+|,344,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16397,,6,,0.5,,0.9,,0.8,,0.8,,NR,,N,,F,,3,,0.3,,T,,DL,,0.8,,,|
+|,345,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16398,,5.4,,0.5,,0.9,,0.8,,0.8,,NR,,S-P,,F,,3,,0.2,,W,,DL,,0.7,,,|
+|,346,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16399,,5.6,,0.7,,0.9,,0.8,,0.8,,NR,,S-P,,F,,3,,0.6,,W,,DL,,0.6,,,|
+|,347,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16400,,4.9,,1,,0.9,,0.8,,0.8,,NR,,I-S,,T,,3,,0.3,,W,,HD-A,,1.4,,,|
+|,348,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16401,,0.6,,1,,0.9,,0.8,,0.8,,NR,,I-P,,T,,3,,0.5,,W,,HD-A,,2,,,|
+|,349,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16402,,5,,0.7,,0.9,,0.8,,0.8,,NR,,I-S,,T,,3,,0.2,,W,,PD,,4.6,,,|
+|,350,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16403,,1,,0.5,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.4,,W,,DL,,4.2,,,|
+|,351,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16404,,2.2,,0.5,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.2,,W,,DL,,3.5,,,|
+|,352,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16405,,0.8,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,0.4,,W,,DL,,2.4,,,|
+|,353,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16406,,1,,0.5,,0.9,,0.8,,0.8,,NR,,S-P,,W,,3,,0.4,,W,,DL,,0.5,,,|
+|,354,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16407,,1,,0.7,,0.9,,0.8,,0.8,,NR,,I,,W,,3,,0.2,,W,,PD,,2.1,,,|
+|,355,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16408,,1.6,,1,,0.9,,0.8,,0.8,,NR,,I,,W,,3,,1.4,,W,,PD,,1.7,,,|
+|,356,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16409,,P,,0.3,,0.9,,0.8,,0.8,,NR,,P,,P,,3,,0.1,,W,,P,,NR,,,|
+|,357,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16410,,1.5,,0.5,,0.9,,0.8,,0.8,,NR,,S,,T,,3,,0.5,,W,,DL,,1.8,,,|
+|,358,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16411,,9.8,,0.7,,0.9,,0.8,,0.8,,NR,,S-N,,T,,3,,0.1,,W,,DL,,2.3,,,|
+|,359,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16412,,0.3,,0.3,,0.9,,0.8,,0.8,,NR,,I,,T,,3,,1.1,,W,,PD,,2.3,,,|
+|,360,|,Saar (Lorraine) Campaign,,US 4th Armored Division,,16413,,2.4,,0.5,,0.9,,0.8,,0.8,,NR,,I-S,,W,,3,,0.4,,W,,PD,,2.3,,,|
++,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+,-,+
+,,,NOTE 0:,"P = Pause, Y = Yes, U = Unknown, NA = Not applicable, NU = Not used,",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,NR = Not recorded in the ORALFORE report,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 1:,WEATHER ARMOR = Judgment of suitability of weather for armor operations,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 2:,WEATHER AIR = Judgment of suitability of weather for air operations,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 3:,TERRAIN = Judgment of terrain mobility,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 4:,ROADNET = Judgment of roadnet suitability for mobility,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 5:,"OBSTACLES = Obstacles to advance, coded as follows.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"DM = Exceptionally effective demolitions, DS = Desert, FL = Flooded area,",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"FZ= Fortified zone, R = River, SA = Sabotage by local populace, UR = Urban",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,area,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 6:,"OPP'N INT'Y = Intensity of opposition to advance, coded as follows.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"I = Intense, M = Moderate, S = Slight, N = Negligible",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 7:,"ATK COND'N = Attacker's readiness condition, coded as follows.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"FR = Fresh, T = Tired, W = Weary, E = Exhausted",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 8:,"ATK MISS'N = Attacker's posture/mission, coded as follows. (Mixed entries",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"in ORALFORE coded as fractions. I.e., ORALFORE entry 2-3 coded as 2.5.)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"1 = Unlimited, 2 = Related to specific objectives or contingencies,",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"3 = Related to adjacent unit's advance, 4 = Limited by higher",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"authority control, 5 = Other",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,NOTE 9:,ATK CAS% = Attacker's losses in percent.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,, NOTE 10:,"DEF COND'N = Defender's readiness conditin, coded as follows.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"FR = Fresh, T = Tired, W = Weary, E = Exhausted",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,, NOTE 11:,"DEF MISS'N = Defender's posture/mission, coded as follows.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"WD = Withdrawal, HD = Hasty defense, FD = Fortified defense,",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,"PD = Position defense, DL = Delay",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,, NOTE 12:,DEF CAS% = Defender's casualties in percent,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
