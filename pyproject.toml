@@ -5,7 +5,10 @@ description = "A tidier and open-data version of CDB90 (CAA Database of Battles,
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
-dependencies = ["pyyaml"]
+dependencies = [
+    "pyyaml",
+    "requests>=2.34.2",
+]
 
 [dependency-groups]
 dev = [

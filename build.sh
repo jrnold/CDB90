@@ -10,7 +10,7 @@ SRC_DIR=src-data
 if [[ -d "${DATA_DIR}" ]]; then
   read -r -p "Delete contents of directory \"${DATA_DIR}\" (y/n)?" yn
   case "${yn}" in
-    [Yy]*) rm -rf "${DATA_DIR:?}"/* ;;
+    [Yy]*) find "${DATA_DIR}" -mindepth 1 ! -name LICENSE.md -delete ;;
     [Nn]*)
       echo "exiting"
       exit 1
@@ -24,6 +24,9 @@ fi
 
 # create files in ./data
 "${RSCRIPT}" create_data.R
+
+# download battle coordinates (needs network access)
+"${PYTHON}" scripts/coordinates.py
 
 # rebuild datapackage.json
 echo "rebuilding datapackage.json"
