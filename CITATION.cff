@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: If you use this dataset, please cite it as below.
 title: "CDB90: A tidy, open-data version of the CAA Database of Battles (1990)"
 type: dataset
-version: 10.6.0
+version: 10.7.0
 date-released: 2026-11-03
 authors:
   - family-names: Arnold
