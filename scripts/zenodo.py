@@ -26,7 +26,11 @@ METADATA = Path("zenodo/metadata.json")
 CODEBOOK = Path("docs/codebook.md")
 ORIGINAL_DOCS = Path("src-data/M000121/README.TXT")
 DOCS_DIR = Path("src-data/docs")
-FLAT_FILES = [FLAT / f"{name}.{ext}" for name in ("battles", "sides") for ext in ("csv", "parquet")]
+FLAT_FILES = [
+    FLAT / f"{name}.{ext}"
+    for name in ("battles", "sides", "narratives")
+    for ext in ("csv", "parquet")
+]
 ZIP_TIME = (1980, 1, 1, 0, 0, 0)  # a fixed time, so the zip is the same on every build
 SANDBOX_API = "https://sandbox.zenodo.org/api"
 API = "https://zenodo.org/api"

@@ -6,7 +6,7 @@ stages:
     deps:
     - path: uv.lock
       hash: md5
-      md5: 8a8e11bae652cd13aad7a1a59865a0b8
+      md5: 506c95b051b4463765bf76c0d145ff36
       size: 432694
     outs:
     - path: requirements.lock
@@ -59,7 +59,7 @@ stages:
       size: 3614
     - path: src-data/version.txt
       hash: md5
-      md5: 2dd0e2e47830e928bfcb0e158f7a491b
+      md5: d804e59502b5b91d4bec5cdb2539efa0
       size: 7
     outs:
     - path: data/relational/active_periods.csv
@@ -172,7 +172,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 9d486f2bd06bf7f784a88c05e55f9dea
+      md5: 29492647f0a9952ac9b3d806f38f4519
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -245,6 +245,10 @@ stages:
       hash: md5
       md5: 6d74fb41ff7970d49217b9da8e6db50e
       size: 72366
+    - path: data/relational/battle_narratives.csv
+      hash: md5
+      md5: a278b983735857faf7b1120a27239d39
+      size: 1183294
     - path: data/relational/battles.csv
       hash: md5
       md5: d559a7530c3607e853ab711598cf8d15
@@ -267,8 +271,8 @@ stages:
       size: 25442
     - path: scripts/flat.py
       hash: md5
-      md5: c5502f3d0cbb698bcf58820a918d7afb
-      size: 4687
+      md5: 017f9ea49c584914e4aef45349f1a71c
+      size: 5141
     outs:
     - path: data/flat/battles.csv
       hash: md5
@@ -278,6 +282,14 @@ stages:
       hash: md5
       md5: 69120821e3f31b60a2ebc236cc29208c
       size: 74599
+    - path: data/flat/narratives.csv
+      hash: md5
+      md5: 4358f95094e0bd337b5578295ba5335e
+      size: 1191042
+    - path: data/flat/narratives.parquet
+      hash: md5
+      md5: e8a07599d8e7b1059042debe37ebf7c8
+      size: 329341
     - path: data/flat/sides.csv
       hash: md5
       md5: 7278699885ff134c3879261cdcc3fe9f
@@ -293,6 +305,10 @@ stages:
       hash: md5
       md5: 69120821e3f31b60a2ebc236cc29208c
       size: 74599
+    - path: data/flat/narratives.parquet
+      hash: md5
+      md5: e8a07599d8e7b1059042debe37ebf7c8
+      size: 329341
     - path: data/flat/sides.parquet
       hash: md5
       md5: ed9dba431a7e283527ebd43efed1f3f8
@@ -311,22 +327,22 @@ stages:
       size: 1313
     - path: src-data/datapackage/flat.yaml
       hash: md5
-      md5: c011a229f24bfa2323e9babd34146625
-      size: 3522
+      md5: 46d01960b3d56129d1449b7696a60d36
+      size: 4692
     - path: src-data/datapackage/resources
       hash: md5
-      md5: 69a958d301b39ab6032f003004d0d563.dir
-      size: 17340
-      nfiles: 12
+      md5: 86dd1c4f21f2349da77648abe9a981d2.dir
+      size: 18570
+      nfiles: 13
     - path: src-data/version.txt
       hash: md5
-      md5: 2dd0e2e47830e928bfcb0e158f7a491b
+      md5: d804e59502b5b91d4bec5cdb2539efa0
       size: 7
     outs:
     - path: datapackage.json
       hash: md5
-      md5: cdcfaec781bb3ec97199de289867b700
-      size: 20977
+      md5: ac8a4c65640950ad43ad83676088ad17
+      size: 23180
   sqlite:
     cmd: uv run --frozen python -m scripts.sqlite
     deps:
@@ -354,6 +370,10 @@ stages:
       hash: md5
       md5: 6d74fb41ff7970d49217b9da8e6db50e
       size: 72366
+    - path: data/relational/battle_narratives.csv
+      hash: md5
+      md5: a278b983735857faf7b1120a27239d39
+      size: 1183294
     - path: data/relational/battles.csv
       hash: md5
       md5: d559a7530c3607e853ab711598cf8d15
@@ -448,7 +468,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 9d486f2bd06bf7f784a88c05e55f9dea
+      md5: 29492647f0a9952ac9b3d806f38f4519
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -464,14 +484,14 @@ stages:
       size: 3006
     - path: src-data/datapackage
       hash: md5
-      md5: b1c7f4199f1ed8287582778e6d19d72f.dir
-      size: 23764
-      nfiles: 15
+      md5: d99691258e6c97dc73daacc9cdff9fac.dir
+      size: 26164
+      nfiles: 16
     outs:
     - path: cdb90.sqlite3
       hash: md5
-      md5: 307840c5aaf198b94e22aed411def6d7
-      size: 851968
+      md5: 5d18df87d4368d4b8d5456ade4dbaa1a
+      size: 2461696
   diff:
     cmd: uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
       src-data/CDB90/CDB90-orig.csv src-data/CDB90/CDB90-patched.csv && uv run
@@ -504,13 +524,13 @@ stages:
     deps:
     - path: data/relational
       hash: md5
-      md5: 7aa46a4437088bd065b9b01649c34e5d.dir
-      size: 775916
-      nfiles: 31
+      md5: 118e9597b04c62c3ff7bbc142c76fd71.dir
+      size: 1959210
+      nfiles: 32
     - path: datapackage.json
       hash: md5
-      md5: cdcfaec781bb3ec97199de289867b700
-      size: 20977
+      md5: ac8a4c65640950ad43ad83676088ad17
+      size: 23180
     - path: requirements.lock
       hash: md5
       md5: 9e07315ebff00f3ff3045aae7f6d9a20
@@ -521,14 +541,14 @@ stages:
       size: 3994
     - path: src-data/datapackage
       hash: md5
-      md5: b1c7f4199f1ed8287582778e6d19d72f.dir
-      size: 23764
-      nfiles: 15
+      md5: d99691258e6c97dc73daacc9cdff9fac.dir
+      size: 26164
+      nfiles: 16
     outs:
     - path: docs/codebook.md
       hash: md5
-      md5: 3a12d68782a53bbbdbef92fe09227fb6
-      size: 27708
+      md5: efa386a812ac72f354a6d4c29cfe118f
+      size: 30020
   ocr:
     cmd: uv run --frozen python -m scripts.ocr
     deps:
@@ -549,3 +569,36 @@ stages:
       hash: md5
       md5: 72fa31a7730ef91e36ee0823a1d1aca2
       size: 4480
+  narratives:
+    cmd: uv run --frozen python -m scripts.narratives
+    deps:
+    - path: data/relational/battle_durations.csv
+      hash: md5
+      md5: 7f57b529ca3b2581fece0e74899df989
+      size: 51777
+    - path: data/relational/battles.csv
+      hash: md5
+      md5: d559a7530c3607e853ab711598cf8d15
+      size: 196922
+    - path: requirements.lock
+      hash: md5
+      md5: 9e07315ebff00f3ff3045aae7f6d9a20
+      size: 25442
+    - path: scripts/narratives.py
+      hash: md5
+      md5: a2a2f55e89614107532f62e440a678a3
+      size: 14486
+    - path: src-data/docs/hero
+      hash: md5
+      md5: 72e47a34f284852e00090ddc8bb06429.dir
+      size: 5327902
+      nfiles: 12
+    - path: src-data/local/narrative_matches.csv
+      hash: md5
+      md5: 7d094c42ed2c9233cd45c8d64d1b9ed3
+      size: 360
+    outs:
+    - path: data/relational/battle_narratives.csv
+      hash: md5
+      md5: a278b983735857faf7b1120a27239d39
+      size: 1183294

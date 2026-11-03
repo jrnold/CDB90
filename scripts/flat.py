@@ -7,6 +7,8 @@ or per battle side, so this writes two flat tables to ``data/flat/``, each as CS
 
 - ``battles``: one row per battle, with its dates and duration, first front width, coordinates,
   most specific Wikipedia link and per-side totals.
+- ``narratives``: one row per battle that has a HERO narrative, with the narrative, its
+  significance and its sources.
 - ``sides``: one row per battle and side (attacker or defender), with the side's forces,
   commanders and outcome, and the battle's name, war, year and coordinates.
 """
@@ -112,6 +114,21 @@ ORDER BY bl.isqno, bl.attacker DESC
 """
 
 
+NARRATIVES_SQL = """
+SELECT
+    n.isqno,
+    b.name,
+    n.hero_volume,
+    n.hero_title,
+    n.narrative,
+    n.significance,
+    n.sources
+FROM read_csv('data/relational/battle_narratives.csv') AS n
+JOIN read_csv('data/relational/battles.csv') AS b USING (isqno)
+ORDER BY n.isqno
+"""
+
+
 def write_table(query: str, name: str) -> None:
     """Run ``query`` and write the result to ``data/flat/<name>`` as zstd Parquet and as CSV."""
     relation = duckdb.sql(query)
@@ -130,6 +147,7 @@ def main() -> None:
     OUTPUT.mkdir(exist_ok=True)
     write_table(BATTLES_SQL, "battles")
     write_table(SIDES_SQL, "sides")
+    write_table(NARRATIVES_SQL, "narratives")
 
 
 if __name__ == "__main__":

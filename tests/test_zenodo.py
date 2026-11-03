@@ -33,6 +33,8 @@ def test_bundle_holds_the_data_files(bundle: Path) -> None:
         "battles.parquet",
         "sides.csv",
         "sides.parquet",
+        "narratives.csv",
+        "narratives.parquet",
         "cdb90.sqlite3",
         "relational-csv.zip",
         "datapackage.json",
@@ -137,7 +139,7 @@ def test_deposit_leaves_a_draft_by_default(monkeypatch: pytest.MonkeyPatch, bund
     uploads = [
         url for method, url in recorder.calls if url.startswith("https://zenodo.test/bucket")
     ]
-    assert len(uploads) == 13
+    assert len(uploads) == 15
     assert ("PUT", "https://sandbox.zenodo.org/api/deposit/depositions/7") in recorder.calls
 
 

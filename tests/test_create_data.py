@@ -16,7 +16,11 @@ SRC_DIR = ROOT / "src-data"
 DATA_DIR = ROOT / "data" / "relational"
 
 #: Files in data/relational/ that create_data.py does not write.
-NOT_BUILT = {"battle_coordinates.csv", "battle_links.csv"}  # built by scripts/
+NOT_BUILT = {
+    "battle_coordinates.csv",
+    "battle_links.csv",
+    "battle_narratives.csv",
+}  # built by scripts/
 
 
 def utc(*args: int) -> datetime:
