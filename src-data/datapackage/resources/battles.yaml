@@ -173,9 +173,10 @@ schema:
 
   - description: >
 
-       URI for associated `dbpedia <http://dbpedia.org>`__ resource.
-       These are easy to find for battles in the wars prior to WWI. It was harder to
-       find these for WWI and later wars, and especially for the Arab-Israeli wars.
+       Deprecated: use the table `battle_links`, which links every battle to Wikidata and
+       Wikipedia. URI for associated `dbpedia <http://dbpedia.org>`__ resource. These are
+       easy to find for battles in the wars prior to WWI. It was harder to find these for
+       WWI and later wars, and especially for the Arab-Israeli wars.
 
     label: Dbpedia URI
     id: dbpedia

@@ -1,0 +1,719 @@
+isqno,wikipedia_title,match,note
+1,Battle of Nieuwpoort,battle,existing dbpedia link
+2,Battle of White Mountain,battle,existing dbpedia link
+3,Battle of Wimpfen,battle,existing dbpedia link
+4,Battle of Dessau Bridge,battle,existing dbpedia link
+5,Battle of Lutter,battle,existing dbpedia link
+6,Battle of Breitenfeld (1631),battle,existing dbpedia link
+7,Battle of Rain,battle,existing dbpedia link
+8,Battle of the Alte Veste,battle,existing dbpedia link
+9,Battle of Lützen (1632),battle,existing dbpedia link
+10,Battle of Nördlingen (1634),battle,existing dbpedia link
+11,Battle of Wittstock,battle,existing dbpedia link
+12,Battle of Breitenfeld (1642),battle,existing dbpedia link
+13,Battle of Rocroi,battle,existing dbpedia link
+14,Battle of Tuttlingen,battle,existing dbpedia link
+15,Battle of Freiburg,battle,existing dbpedia link
+16,Battle of Jankau,battle,existing dbpedia link
+17,Battle of Herbsthausen,battle,existing dbpedia link
+18,Battle of Nördlingen (1645),battle,existing dbpedia link
+19,Battle of Lens,battle,existing dbpedia link
+20,Battle of Edgehill,battle,existing dbpedia link
+21,Battle of Marston Moor,battle,existing dbpedia link
+22,Battle of Tippermuir,battle,existing dbpedia link
+23,Battle of Kilsyth,battle,existing dbpedia link
+24,Second Battle of Newbury,battle,existing dbpedia link
+25,Battle of Naseby,battle,existing dbpedia link
+26,Battle of Preston (1648),battle,existing dbpedia link
+27,Battle of Dunbar (1650),battle,existing dbpedia link
+28,Battle of Worcester,battle,existing dbpedia link
+29,Battle of the Faubourg St Antoine,battle,existing dbpedia link
+30,Battle of the Dunes (1658),battle,existing dbpedia link
+31,Battle of Saint Gotthard (1664),battle,existing dbpedia link
+32,Battle of Vienna,battle,existing dbpedia link
+33,Battle of Khotyn (1673),battle,existing dbpedia link
+34,Battle of Sinsheim,battle,existing dbpedia link
+35,Battle of Seneffe,battle,existing dbpedia link
+36,Battle of Enzheim,battle,existing dbpedia link
+37,Battle of Turckheim,battle,existing dbpedia link
+38,Battle of Fehrbellin,battle,existing dbpedia link
+39,Battle of Sedgemoor,battle,existing dbpedia link
+40,Battle of Killiecrankie,battle,existing dbpedia link
+41,Battle of Walcourt,battle,existing dbpedia link
+42,Battle of Fleurus (1690),battle,existing dbpedia link
+43,Battle of the Boyne,battle,existing dbpedia link
+44,Battle of Aughrim,battle,existing dbpedia link
+45,Battle of Steenkerque,battle,existing dbpedia link
+46,Battle of Landen,battle,existing dbpedia link
+47,Battle of Marsaglia,battle,existing dbpedia link
+48,Battle of Zenta,battle,existing dbpedia link
+49,Battle of Poltava,battle,existing dbpedia link
+50,Battle of Blenheim,battle,existing dbpedia link
+51,Battle of Ramillies,battle,existing dbpedia link
+52,Battle of Oudenarde,battle,existing dbpedia link
+53,Battle of Malplaquet,battle,existing dbpedia link
+54,Battle of Petrovaradin,battle,existing dbpedia link
+55,Battle of Mollwitz,battle,existing dbpedia link
+56,Battle of Chotusitz,battle,existing dbpedia link
+57,Battle of Dettingen,battle,existing dbpedia link
+58,Battle of Fontenoy,battle,existing dbpedia link
+59,Battle of Hohenfriedberg,battle,existing dbpedia link
+60,Battle of Soor,battle,existing dbpedia link
+61,Battle of Kesselsdorf,battle,existing dbpedia link
+62,Battle of Prestonpans,battle,existing dbpedia link
+63,Battle of Culloden,battle,existing dbpedia link
+64,Battle of Lobositz,battle,existing dbpedia link
+65,Battle of Prague (1757),battle,existing dbpedia link
+66,Battle of Plassey,battle,existing dbpedia link
+67,Battle of Kolín,battle,existing dbpedia link
+68,Battle of Hastenbeck,battle,existing dbpedia link
+69,Battle of Rossbach,battle,existing dbpedia link
+70,Battle of Leuthen,battle,existing dbpedia link
+71,Battle of Krefeld,battle,existing dbpedia link
+72,Battle of Zorndorf,battle,existing dbpedia link
+73,Battle of Hochkirch,battle,existing dbpedia link
+74,Battle of Bergen (1759),battle,existing dbpedia link
+75,Battle of Minden,battle,existing dbpedia link
+76,Battle of Kunersdorf,battle,existing dbpedia link
+77,Battle of the Plains of Abraham,battle,existing dbpedia link
+78,Battle of Maxen,battle,existing dbpedia link
+79,Battle of Warburg,battle,existing dbpedia link
+80,Battle of Liegnitz (1760),battle,existing dbpedia link
+81,Battle of Torgau,battle,existing dbpedia link
+82,Battle of Bunker Hill,battle,existing dbpedia link
+83,Battle of Quebec (1775),battle,existing dbpedia link
+84,Battle of White Plains,battle,existing dbpedia link
+85,Battle of Trenton,battle,existing dbpedia link
+86,Battle of Princeton,battle,existing dbpedia link
+87,Battles of Saratoga,battle,existing dbpedia link
+88,Battle of Germantown,battle,existing dbpedia link
+89,Battles of Saratoga,battle,existing dbpedia link
+90,Battle of Monmouth,battle,existing dbpedia link
+91,Battle of Camden,battle,existing dbpedia link
+92,Battle of Cowpens,battle,existing dbpedia link
+93,Battle of Guilford Court House,battle,existing dbpedia link
+94,Battle of Hobkirk's Hill,battle,existing dbpedia link
+95,Battle of Eutaw Springs,battle,existing dbpedia link
+96,Battle of Valmy,battle,existing dbpedia link
+97,Battle of Jemappes,battle,existing dbpedia link
+98,Battle of Neerwinden (1793),battle,existing dbpedia link
+99,Battle of Hondshoote (1793),battle,existing dbpedia link
+100,Battle of Wattignies,battle,existing dbpedia link
+101,Battle of Fleurus (1794),battle,existing dbpedia link
+102,Battle of Lodi,battle,existing dbpedia link
+103,Battle of Castiglione,battle,existing dbpedia link
+104,Battle of Neresheim,battle,existing dbpedia link
+105,Battle of Würzburg,battle,existing dbpedia link
+106,Battle of the Bridge of Arcole,battle,existing dbpedia link
+107,Battle of Rivoli,battle,existing dbpedia link
+108,Battle of the Pyramids,battle,existing dbpedia link
+109,Battle of Stockach (1799),battle,existing dbpedia link
+110,Battle of Mount Tabor (1799),battle,existing dbpedia link
+111,First Battle of Zurich,battle,existing dbpedia link
+112,Battle of Novi (1799),battle,existing dbpedia link
+113,Second Battle of Zurich,battle,existing dbpedia link
+114,Battle of Messkirch,battle,existing dbpedia link
+115,Battle of Marengo,battle,existing dbpedia link
+116,Battle of Hohenlinden,battle,existing dbpedia link
+117,Battle of Austerlitz,battle,existing dbpedia link
+118,Battle of Jena-Auerstedt,battle,existing dbpedia link
+119,Battle of Jena-Auerstedt,battle,existing dbpedia link
+120,Battle of Eylau,battle,existing dbpedia link
+121,Battle of Friedland,battle,existing dbpedia link
+122,Battle of Vimeiro,battle,existing dbpedia link
+123,Battle of Corunna,battle,existing dbpedia link
+124,Battle of Eckmühl,battle,existing dbpedia link
+125,Battle of Aspern-Essling,battle,existing dbpedia link
+126,Battle of Raab,battle,existing dbpedia link
+127,Battle of Wagram,battle,existing dbpedia link
+128,Battle of Talavera,battle,existing dbpedia link
+129,Battle of Bussaco,battle,existing dbpedia link
+130,Battle of Fuentes de Oñoro,battle,existing dbpedia link
+131,Battle of Albuera,battle,existing dbpedia link
+132,Battle of Salamanca,battle,existing dbpedia link
+133,Battle of Vitoria,battle,existing dbpedia link
+134,Battle of Borodino,battle,existing dbpedia link
+135,Battle of Lützen (1813),battle,existing dbpedia link
+136,Battle of Bautzen (1813),battle,existing dbpedia link
+137,Battle of Dresden,battle,existing dbpedia link
+138,Battle of Leipzig,battle,existing dbpedia link
+139,Battle of Hanau,battle,existing dbpedia link
+140,Battle of La Rothière,battle,existing dbpedia link
+141,Battle of Laon,battle,existing dbpedia link
+142,Battle of Arcis-sur-Aube,battle,existing dbpedia link
+143,Battle of Ligny,battle,existing dbpedia link
+144,Battle of Quatre Bras,battle,existing dbpedia link
+145,Battle of Waterloo,battle,existing dbpedia link
+146,Battle of the Thames,battle,existing dbpedia link
+147,Battle of Chippawa,battle,existing dbpedia link
+148,Battle of Lundy's Lane,battle,existing dbpedia link
+149,Battle of New Orleans,battle,existing dbpedia link
+150,Battle of Boyacá,battle,existing dbpedia link
+151,Battle of Carabobo,battle,existing dbpedia link
+152,Pasto Campaign,campaign,Battle of Bomboná redirects here; Bomboná is part of the Pasto campaign
+153,Battle of Pichincha,battle,existing dbpedia link
+154,Battle of Junín,battle,existing dbpedia link
+155,Battle of Ayacucho,battle,existing dbpedia link
+156,Battle of San Jacinto,battle,existing dbpedia link
+157,Battle of Palo Alto,battle,existing dbpedia link
+158,Battle of Resaca de la Palma,battle,existing dbpedia link
+159,Battle of Buena Vista,battle,existing dbpedia link
+160,Battle of Cerro Gordo,battle,existing dbpedia link
+161,Battle of Contreras,battle,existing dbpedia link
+162,Battle of Churubusco,battle,existing dbpedia link
+163,Battle of Molino del Rey,battle,existing dbpedia link
+164,Battle of Chapultepec,battle,existing dbpedia link
+165,Battle of Alma,battle,existing dbpedia link
+166,Battle of Inkerman,battle,existing dbpedia link
+167,Battle of Magenta,battle,existing dbpedia link
+168,Battle of Solferino,battle,existing dbpedia link
+169,Battle of Königgrätz,battle,existing dbpedia link
+170,Battle of Custoza (1866),battle,existing dbpedia link
+171,First Battle of Bull Run,battle,existing dbpedia link
+172,Battle of Wilson's Creek,battle,existing dbpedia link
+173,Battle of Belmont,battle,existing dbpedia link
+174,Battle of Mill Springs,battle,existing dbpedia link
+175,Battle of Fort Donelson,battle,existing dbpedia link
+176,Battle of Pea Ridge,battle,existing dbpedia link
+177,First Battle of Kernstown,battle,existing dbpedia link
+178,Battle of Shiloh,battle,existing dbpedia link
+179,Battle of Front Royal,battle,existing dbpedia link
+180,First Battle of Winchester,battle,existing dbpedia link
+181,Battle of Cross Keys,battle,existing dbpedia link
+182,Battle of Port Republic,battle,existing dbpedia link
+183,Battle of Seven Pines,battle,existing dbpedia link
+184,Battle of Beaver Dam Creek,battle,existing dbpedia link
+185,Battle of Gaines's Mill,battle,existing dbpedia link
+186,Battle of Savage's Station,battle,existing dbpedia link
+186,Battle of White Oak Swamp,battle,existing dbpedia link
+186,Battle of Glendale,battle,existing dbpedia link
+187,Battle of Malvern Hill,battle,existing dbpedia link
+188,Battle of Cedar Mountain,battle,existing dbpedia link
+189,Second Battle of Bull Run,battle,existing dbpedia link
+190,Battle of South Mountain,battle,existing dbpedia link
+191,Battle of Antietam,battle,existing dbpedia link
+192,Second Battle of Corinth,battle,existing dbpedia link
+193,Battle of Perryville,battle,existing dbpedia link
+194,Battle of Fredericksburg,battle,existing dbpedia link
+195,Battle of Stones River,battle,existing dbpedia link
+196,Battle of Chancellorsville,battle,existing dbpedia link
+197,Battle of Champion Hill,battle,existing dbpedia link
+198,Battle of Brandy Station,battle,existing dbpedia link
+199,Battle of Gettysburg,battle,existing dbpedia link
+200,Battle of Chickamauga,battle,existing dbpedia link
+201,Chattanooga Campaign,battle,existing dbpedia link
+202,Battle of the Wilderness,battle,existing dbpedia link
+203,Battle of Spotsylvania Court House,battle,existing dbpedia link
+204,Battle of New Market,battle,existing dbpedia link
+205,Battle of Cold Harbor,battle,existing dbpedia link
+206,Battle of Kennesaw Mountain,battle,existing dbpedia link
+207,Battle of Peachtree Creek,battle,existing dbpedia link
+208,Battle of Atlanta,battle,existing dbpedia link
+209,Second Battle of Petersburg,battle,existing dbpedia link
+210,Battle of Globe Tavern,battle,existing dbpedia link
+211,Battle of Opequon,battle,existing dbpedia link
+212,Battle of Cedar Creek,battle,existing dbpedia link
+213,Battle of Franklin (1864),battle,existing dbpedia link
+214,Battle of Nashville,battle,existing dbpedia link
+215,Battle of Bentonville,battle,existing dbpedia link
+216,Battle of Dinwiddie Court House,battle,existing dbpedia link
+217,Battle of Five Forks,battle,existing dbpedia link
+218,Battle of Selma,battle,existing dbpedia link
+219,Battle of Sayler's Creek,battle,existing dbpedia link
+220,Battle of Wissembourg (1870),battle,existing dbpedia link
+221,Battle of Wörth (1870),battle,existing dbpedia link
+222,Battle of Spicheren,battle,existing dbpedia link
+223,Battle of Mars-la-Tour,battle,existing dbpedia link
+224,Battle of Gravelotte,battle,existing dbpedia link
+225,Battle of Sedan (1870),battle,existing dbpedia link
+226,Battle of Coulmiers,battle,existing dbpedia link
+227,Second Battle of Orléans (1870),battle,existing dbpedia link
+228,Battle of Le Mans,battle,existing dbpedia link
+229,Siege of Belfort,battle,existing dbpedia link
+230,Battle of Isandlwana,battle,existing dbpedia link
+231,Battle of Ulundi,battle,existing dbpedia link
+232,Battle of Majuba Hill,battle,existing dbpedia link
+233,Battle of Tel el-Kebir,battle,existing dbpedia link
+234,Battle of Omdurman,battle,existing dbpedia link
+235,Battle of Adwa,battle,existing dbpedia link
+236,Battle of Modder River,battle,existing dbpedia link
+237,Battle of Magersfontein,battle,existing dbpedia link
+238,Battle of Colenso,battle,existing dbpedia link
+239,Battle of Spion Kop,battle,existing dbpedia link
+240,Battle of Paardeberg,battle,existing dbpedia link
+241,Battle of San Juan Hill,battle,existing dbpedia link
+242,Battle of Yalu River (1904),battle,existing dbpedia link
+243,Battle of Te-li-Ssu,battle,existing dbpedia link
+244,Battle of Liaoyang,battle,existing dbpedia link
+245,Battle of Shaho,battle,existing dbpedia link
+246,Battle of Sandepu,battle,existing dbpedia link
+247,Battle of Mukden,battle,existing dbpedia link
+248,Battle of Kumanovo,battle,existing dbpedia link
+249,Battle of Lule Burgas,battle,existing dbpedia link
+250,Battle of Prilep,battle,existing dbpedia link
+251,Battle of Monastir,battle,existing dbpedia link
+252,Battle of Adrianople (1913),battle,existing dbpedia link
+253,Battle of Warsaw (1920),battle,existing dbpedia link
+254,Battle of the Niemen River,battle,existing dbpedia link
+255,Battle of Guadalajara,battle,existing dbpedia link
+256,Battle of Lake Khasan,battle,existing dbpedia link
+257,Battle of Lake Khasan,battle,existing dbpedia link
+258,Battle of Lake Khasan,battle,existing dbpedia link
+259,Battles of Khalkhin Gol,battle,existing dbpedia link
+260,Battles of Khalkhin Gol,battle,existing dbpedia link
+261,Battle of Suomussalmi,battle,existing dbpedia link
+262,Invasion of Lorraine,battle,existing dbpedia link
+263,Invasion of Lorraine,battle,existing dbpedia link
+264,Battle of the Ardennes,battle,existing dbpedia link
+265,Battle of Charleroi,battle,existing dbpedia link
+266,Battle of Mons,battle,existing dbpedia link
+267,Battle of Le Cateau,battle,existing dbpedia link
+268,Battle of St. Quentin (1914),battle,existing dbpedia link
+269,Battle of Grand Couronné,battle,"Nancy heights, Sept 1914"
+269,First Battle of the Marne,campaign,Broader Marne 1914 battle
+270,First Battle of the Marne,battle,existing dbpedia link
+271,First Battle of the Marne,battle,existing dbpedia link
+272,First Battle of the Marne,battle,existing dbpedia link
+273,First Battle of the Marne,battle,existing dbpedia link
+274,First Battle of the Marne,battle,existing dbpedia link
+275,First Battle of the Marne,battle,existing dbpedia link
+276,First Battle of the Marne,battle,existing dbpedia link
+277,First Battle of the Aisne,battle,existing dbpedia link
+278,Battle of Stalluponen,battle,existing dbpedia link
+279,Battle of Gumbinnen,battle,existing dbpedia link
+280,Battle of Tannenberg (1914),battle,existing dbpedia link
+281,First Battle of the Masurian Lakes,battle,existing dbpedia link
+282,Battle of Kraśnik,battle,existing dbpedia link
+283,Battle of Komarów (1914),battle,existing dbpedia link
+284,Battle of Gnila Lipa,battle,existing dbpedia link
+285,Battle of Rawa,battle,existing dbpedia link
+286,Battle of Łódź (1914),battle,existing dbpedia link
+287,Battle of Cer,battle,existing dbpedia link
+288,Battle of Kolubara,battle,existing dbpedia link
+289,First Battle of Champagne,battle,existing dbpedia link
+290,Battle of Neuve Chapelle,battle,existing dbpedia link
+291,Second Battle of Ypres,battle,existing dbpedia link
+292,Battle of Festubert,battle,existing dbpedia link
+293,Battle of Loos,battle,existing dbpedia link
+294,Second Battle of the Masurian Lakes,battle,existing dbpedia link
+295,Gorlice–Tarnów Offensive,battle,existing dbpedia link
+296,First Battle of the Isonzo,battle,existing dbpedia link
+297,Second Battle of the Isonzo,battle,existing dbpedia link
+298,Third Battle of the Isonzo,battle,existing dbpedia link
+299,Fourth Battle of the Isonzo,battle,existing dbpedia link
+300,Landing at Cape Helles,battle,existing dbpedia link
+301,Landing at Suvla Bay,battle,existing dbpedia link
+302,Battle of Es Sinn,battle,existing dbpedia link
+303,Battle of Ctesiphon (1915),battle,existing dbpedia link
+304,Battle of the Somme,battle,existing dbpedia link
+305,Battle of the Somme,battle,existing dbpedia link
+306,Battle of the Somme,battle,existing dbpedia link
+307,Battle of the Somme,battle,existing dbpedia link
+308,Battle of the Somme,battle,existing dbpedia link
+309,Battle of Koprukoy,battle,Jan 1916 Russian offensive vs Ottomans
+309,Erzurum offensive,campaign,Parent offensive
+310,Battle of Lake Naroch,battle,existing dbpedia link
+311,Brusilov Offensive,battle,existing dbpedia link
+312,Fifth Battle of the Isonzo,battle,existing dbpedia link
+313,Battle of Asiago,battle,existing dbpedia link
+314,Battle of Asiago,campaign,Covers Strafexpedition and Italian counteroffensive June-July 1916
+315,Sixth Battle of the Isonzo,battle,existing dbpedia link
+316,Battle of Arras (1917),battle,existing dbpedia link
+317,Second Battle of the Aisne,battle,existing dbpedia link
+318,Battle of Messines (1917),battle,existing dbpedia link
+319,Battle of Passchendaele,battle,existing dbpedia link
+320,Battle of Cambrai (1917),battle,existing dbpedia link
+321,Battle of Cambrai (1917),battle,existing dbpedia link
+322,Tenth Battle of the Isonzo,battle,existing dbpedia link
+323,Eleventh Battle of the Isonzo,battle,existing dbpedia link
+324,Twelfth Battle of the Isonzo,battle,existing dbpedia link
+325,Second Battle of Kut,battle,existing dbpedia link
+326,First Battle of Gaza,battle,existing dbpedia link
+327,Second Battle of Gaza,battle,existing dbpedia link
+328,Third Battle of Gaza,battle,existing dbpedia link
+329,Battle of Jerusalem (1917),battle,existing dbpedia link
+330,Operation Michael,campaign,German March 1918 offensive; no separate Somme-Peronne article
+331,Operation Michael,campaign,Covers to 5 Apr 1918
+331,Battle of the Avre,campaign,Later phase 4-5 Apr near Montdidier; partial overlap
+332,Battle of the Lys (1918),battle,existing dbpedia link
+334,Third Battle of the Aisne,battle,existing dbpedia link
+335,Third Battle of the Aisne,battle,existing dbpedia link
+336,Battle of Belleau Wood,battle,existing dbpedia link
+337,Battle of Belleau Wood,battle,existing dbpedia link
+338,Battle of Belleau Wood,battle,existing dbpedia link
+339,Battle of Belleau Wood,battle,existing dbpedia link
+340,Battle of Belleau Wood,battle,existing dbpedia link
+341,Battle of Belleau Wood,battle,existing dbpedia link
+342,Battle of Belleau Wood,battle,existing dbpedia link
+343,Battle of Belleau Wood,battle,existing dbpedia link
+344,Battle of Belleau Wood,battle,existing dbpedia link
+345,Battle of Belleau Wood,battle,existing dbpedia link
+346,Battle of Belleau Wood,battle,existing dbpedia link
+347,Battle of Belleau Wood,battle,existing dbpedia link
+348,Battle of Belleau Wood,battle,existing dbpedia link
+349,Battle of Belleau Wood,battle,existing dbpedia link
+350,Battle of Belleau Wood,battle,existing dbpedia link
+351,Second Battle of the Marne,battle,Champagne-Marne/Aisne-Marne phase
+352,Second Battle of the Marne,battle,"Aisne-Marne I, French counterattack"
+353,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+354,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+355,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+356,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+357,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+358,Battle of Soissons (1918),campaign,US 1st/2nd Div action in Soissons counterattack 18 Jul
+359,Second Battle of the Marne,campaign,Aisne-Marne II is later phase of Second Marne
+360,Battle of Soissons (1918),campaign,"US 1st Div action 21-22 Jul, Soissons phase"
+361,Battle of Soissons (1918),campaign,"US 1st Div action 21-22 Jul, Soissons phase"
+362,Battle of Amiens (1918),campaign,Picardy 8 Aug 1918
+363,Hundred Days Offensive,campaign,UNSURE: Aug-Sep 1918 Allied advance in Picardy
+363,Second Battle of Bapaume,campaign,Partial overlap 31 Aug-3 Sep
+364,Battle of Saint-Mihiel,battle,
+365,Battle of Saint-Mihiel,campaign,Local action on first day of St. Mihiel
+366,Meuse–Argonne offensive,battle,Phase I
+367,Battle of Blanc Mont Ridge,battle,Blanc Mont phase
+368,Battle of Blanc Mont Ridge,campaign,Blanc Mont local action 3 Oct 1918
+369,Battle of Blanc Mont Ridge,campaign,Blanc Mont local action 3 Oct 1918
+370,Battle of Blanc Mont Ridge,campaign,Blanc Mont local action 3 Oct 1918
+371,Battle of Blanc Mont Ridge,campaign,Blanc Mont local action 3 Oct 1918
+372,Battle of Blanc Mont Ridge,battle,Blanc Mont phase
+373,Meuse–Argonne offensive,battle,Phase II
+374,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+375,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+376,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+377,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+378,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+379,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+380,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase II
+381,Meuse–Argonne offensive,battle,Phase III
+382,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase III
+383,Meuse–Argonne offensive,campaign,Local action within Meuse-Argonne phase III
+384,Battle of the Piave River,battle,existing dbpedia link
+385,Battle of Megiddo (1918),battle,existing dbpedia link
+386,Battle of Alam el Halfa,battle,
+387,Second Battle of El Alamein,battle,
+388,Second Battle of El Alamein,campaign,"Phase of El Alamein (Operation Lightfoot, 23-26 Oct); no standalone article"
+389,Second Battle of El Alamein,campaign,Phase of El Alamein (crumbling); no standalone article
+390,Second Battle of El Alamein,campaign,Operation Supercharge is a disambig; covered in main Alamein article
+391,Run for Tunis,campaign,Chouigui Pass fought during Run for Tunis; no own article
+391,Tunisian campaign,campaign,Broader campaign
+392,Battle of El Guettar,battle,
+393,Operation Vulcan,campaign,"II US Corps advance on Bizerte, Apr-May 1943"
+394,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+395,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+396,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+397,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+398,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+399,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+400,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+401,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+402,Operation Avalanche,campaign,Salerno landings; no standalone article for this action
+403,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+404,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+405,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+406,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+407,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+408,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+409,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+410,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+411,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+412,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+413,Volturno Line,campaign,Volturno crossing Oct 1943; no standalone article
+414,Volturno Line,campaign,Nov 1943 Volturno/Winter Line fighting; unsure which broader article fits
+415,Bernhardt Line,campaign,Monte Camino named in Bernhardt Line article
+416,Bernhardt Line,campaign,Monte Lungo named in Bernhardt Line article; unsure
+417,Volturno Line,campaign,Nov 1943 Volturno/Winter Line fighting; unsure which broader article fits
+418,Bernhardt Line,campaign,Monte Camino named in Bernhardt Line article
+419,Volturno Line,campaign,Nov 1943 Volturno/Winter Line fighting; unsure which broader article fits
+420,Bernhardt Line,campaign,Calabritto during Monte Camino battle; Bernhardt Line
+421,Bernhardt Line,campaign,Monte Camino named in Bernhardt Line article
+422,Bernhardt Line,campaign,Monte Maggiore named in Bernhardt Line article
+423,Battle of Anzio,campaign,Anzio beachhead fighting; no standalone article
+424,Battle of Anzio,campaign,Anzio beachhead fighting; no standalone article
+425,Battle of Anzio,campaign,Anzio beachhead fighting; no standalone article
+426,Battle of Anzio,campaign,Anzio beachhead fighting; no standalone article
+427,Battle of Anzio,campaign,Anzio beachhead fighting; no standalone article
+428,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+429,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+430,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+431,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+432,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+433,Battle of Anzio,campaign,Anzio beachhead Feb 1944; no separate article
+434,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+435,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+436,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+437,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+438,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+439,Operation Diadem,campaign,Spring 1944 Gustav Line breakthrough; no article for action
+440,Itri,campaign,Town article only; place of action
+440,Operation Diadem,campaign,
+441,Operation Diadem,campaign,
+441,Terracina,campaign,Town article only; place of action
+442,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+442,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+443,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+443,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+444,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+444,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+445,Battle of Cisterna,campaign,Cisterna Jan 1944 differs from May 23-25 breakout; unsure
+445,Operation Diadem,campaign,
+446,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+446,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+447,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+447,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+448,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+448,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+449,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+449,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+450,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+450,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+451,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+451,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+452,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+452,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+453,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+453,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+454,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+454,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+455,Operation Diadem,campaign,"Valmontone Gap action, Operation Diadem; no article"
+456,Battle of Anzio,campaign,Anzio beachhead; unsure of specific article
+456,Operation Diadem,campaign,"Breakout from Anzio, May-Jun 1944; no article for action"
+457,Gothic Line,campaign,Il Giogo Pass part of Gothic Line offensive
+458,Battle of Saint-Lô,battle,
+459,Operation Goodwood,battle,
+460,Operation Cobra,battle,
+461,Operation Lüttich,battle,German counteroffensive at Mortain
+462,Operation Overlord,campaign,No Chartres 1944 article found (Siege of Chartres is disambig); unsure
+463,Operation Overlord,campaign,No specific article verified; Seine crossing at Melun; unsure
+464,Operation Overlord,campaign,No specific article verified for Seine crossing; unsure
+465,Battle of Metz,campaign,Moselle crossings preceding Metz; Sept 1944
+465,Lorraine campaign,campaign,
+466,Battle of Metz,battle,Sept 1944 Metz fighting; unsure of exact scope
+466,Lorraine campaign,campaign,
+467,Battle of Arracourt,battle,
+468,Battle of Aachen,campaign,Westwall breach near Aachen Oct 1944; Siegfried Line campaign broader
+468,Siegfried Line campaign,campaign,
+469,Battle of Hürtgen Forest,campaign,Schmidt fought within Hürtgen Forest battle; no standalone article
+470,Lorraine campaign,campaign,No article for Seille-Nied action; Lorraine campaign covers it
+471,Lorraine campaign,campaign,No article for Forêt de Château-Salins; Lorraine campaign covers it
+472,Battle of Morhange,campaign,Article is mainly 1914; 1944 action only part of Lorraine campaign - unsure
+472,Lorraine campaign,campaign,Covers Morhange Nov 1944
+473,Lorraine campaign,campaign,No article for Morhange-Faulquemont; Lorraine campaign covers it
+474,Lorraine campaign,campaign,No article for Bourgaltroff; Lorraine campaign covers it
+475,Lorraine campaign,campaign,No article for Sarre-St. Avold; Lorraine campaign covers it
+476,Lorraine campaign,campaign,No article for Baerendorf; Lorraine campaign covers it
+477,Lorraine campaign,campaign,No article for Baerendorf II; Lorraine campaign covers it
+478,Lorraine campaign,campaign,No article for Burbach-Durstel; Lorraine campaign covers it
+479,Lorraine campaign,campaign,No article for Durstel-Faerbersviller; Lorraine campaign covers it
+480,Lorraine campaign,campaign,No article for Sarre-Union; Lorraine campaign covers it
+481,Lorraine campaign,campaign,No article for Sarre-Singling; Lorraine campaign covers it
+482,Lorraine campaign,campaign,No article for Singling-Bining; Lorraine campaign covers it
+483,Battle of the Bulge,campaign,Sauer River crossings by Germans were part of the Bulge opening
+484,Battle of St. Vith,battle,Dec 17-23 1944 Belgium; matches
+485,Siege of Bastogne,battle,Dec 1944 Bastogne; article spans to Dec 27
+486,Battle of Sedan (1940),battle,existing dbpedia link
+487,Battle of Jitra,battle,existing dbpedia link
+488,Rovno–Lutsk offensive,campaign,Rovno June 1941 fighting; article on the Rovno-Lutsk offensive
+488,Battle of Brody (1941),campaign,Border battle in same region and dates; broader tank battle
+489,Battle of Moscow,battle,existing dbpedia link
+490,Battle of Moscow,battle,existing dbpedia link
+491,Battles of Rzhev,campaign,Pogorelo-Gorodishche Aug 1942 part of Rzhev-Sychevka operation
+492,Operation Iskra,battle,Jan 1943 Leningrad breakthrough
+493,Operation Citadel,campaign,Oboyan axis Jul 4-7; part of Citadel southern thrust
+493,Battle of Kursk,campaign,Broader article
+494,Operation Citadel,campaign,Southern sector; no separate article
+494,Battle of Kursk,campaign,Broader article
+495,Operation Citadel,campaign,Oboyan axis phase II; no separate article
+495,Battle of Kursk,campaign,Broader article
+496,Operation Citadel,campaign,Oboyan axis phase III; no separate article
+496,Battle of Kursk,campaign,Broader article
+497,Battle of Prokhorovka,battle,Jul 12 1943; dataset dates 12-14
+498,Belgorod–Kharkov offensive operation,battle,Operation Rumyantsev Aug 3-23 1943
+499,Belgorod–Bogodukhov offensive operation,campaign,Belgorod phase of Rumyantsev; Aug 3-6
+499,Belgorod–Kharkov offensive operation,campaign,Parent operation
+500,Melitopol offensive,battle,Sep 26-Nov 5 1943
+501,Battle of Korsun–Cherkassy,battle,Jan 24-Feb 17 1944
+502,Nikopol–Krivoi Rog offensive,campaign,Nikopol bridgehead Jan 30-Feb 1944 part of it
+503,Crimean offensive,campaign,Article covers Apr-May 1944 Sevastopol; dates 5-10 May fall inside
+504,Operation Bagration,campaign,Berezina crossing part of Bagration (Minsk offensive phase)
+504,Minsk offensive,campaign,Berezina crossing during Minsk phase; unsure which fits better
+505,Lvov-Sandomierz Offensive,battle,Jul 13-Aug 29 1944
+506,Lvov-Sandomierz Offensive,campaign,No separate Brody 1944 article
+507,Lvov-Sandomierz Offensive,campaign,No separate Brody 1944 article
+508,Lvov-Sandomierz Offensive,campaign,Vistula crossing at Sandomierz; unsure of exact operation
+509,Lublin–Brest offensive,campaign,Pulawy/Magnuszew fighting Aug 1944; unsure
+509,Magnuszew,campaign,Magnuszew bridgehead fighting near Pulawy; unsure
+510,Second Jassy–Kishinev offensive,battle,Aug 20-29 1944
+511,Vistula–Oder offensive,battle,Jan 12-Feb 2 1945
+512,East Prussian offensive,battle,Jan 13-Apr 1945
+513,Vistula–Oder offensive,campaign,Ciechanow Jan 14 1945 part of it
+514,Vistula–Oder offensive,campaign,No dedicated Ciechanow article; part of Vistula-Oder offensive
+515,Battle of the Seelow Heights,battle,
+516,Battle of Mutanchiang,battle,Aug 12-16 1945; dataset dates slightly wider
+516,Soviet invasion of Manchuria,campaign,
+517,Battle of Tarawa,battle,existing dbpedia link
+518,Battle of Iwo Jima,battle,existing dbpedia link
+519,Battle of Iwo Jima,battle,existing dbpedia link
+520,Battle of Iwo Jima,battle,existing dbpedia link
+521,Battle of Okinawa,battle,existing dbpedia link
+522,Battle of Okinawa,battle,existing dbpedia link
+523,Battle of Okinawa,battle,existing dbpedia link
+524,Battle of Okinawa,battle,existing dbpedia link
+525,Battle of Okinawa,battle,existing dbpedia link
+526,Battle of Okinawa,battle,existing dbpedia link
+527,Battle of Okinawa,battle,existing dbpedia link
+528,Battle of Okinawa,battle,existing dbpedia link
+529,Battle of Okinawa,battle,existing dbpedia link
+530,Battle of Okinawa,battle,existing dbpedia link
+531,Battle of Okinawa,battle,existing dbpedia link
+532,Battle of Okinawa,battle,existing dbpedia link
+533,Battle of Okinawa,battle,existing dbpedia link
+534,Battle of Okinawa,battle,existing dbpedia link
+535,Battle of Okinawa,battle,existing dbpedia link
+536,Battle of Okinawa,battle,existing dbpedia link
+537,Battle of Okinawa,battle,existing dbpedia link
+538,Battle of Okinawa,battle,existing dbpedia link
+539,Battle of Okinawa,battle,existing dbpedia link
+540,Battle of Okinawa,battle,existing dbpedia link
+541,Battle of Okinawa,battle,existing dbpedia link
+542,Battle of Okinawa,battle,existing dbpedia link
+543,Battle of Okinawa,battle,existing dbpedia link
+544,Battle of Okinawa,battle,existing dbpedia link
+545,Battle of Okinawa,battle,existing dbpedia link
+546,Battle of Okinawa,battle,existing dbpedia link
+547,Battle of Okinawa,battle,existing dbpedia link
+548,Battle of Okinawa,battle,existing dbpedia link
+549,Jordanian campaign (1967),campaign,No article for this action; West Bank front of Six-Day War
+550,Battle of Ammunition Hill,campaign,Part of Jerusalem fighting; no separate battle of Jerusalem article
+550,Jordanian campaign (1967),campaign,
+551,Jordanian campaign (1967),campaign,No article for this action; West Bank front of Six-Day War
+552,Jordanian campaign (1967),campaign,No article for this action; West Bank front of Six-Day War
+553,Jordanian campaign (1967),campaign,No article for this action; West Bank front of Six-Day War
+554,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+555,Battle of Abu-Ageila,campaign,"Bir Lahfan on Abu-Ageila axis; loose fit, unsure"
+555,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+556,Battle of Abu-Ageila (1967),battle,existing dbpedia link
+557,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+558,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+559,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+560,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+561,Mitla Pass,campaign,Place article covering 1967 fighting; weak fit
+561,Six-Day War,war,
+562,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+563,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+564,Six-Day War,war,No article for this Sinai/Gaza action; only war-level
+565,Battle of Tel Faher,battle,Tel Fahar/Banias Golan 1967; fit reasonable
+566,Six-Day War,war,No article for this Golan action
+567,Six-Day War,war,No article for this Golan action
+568,Battle of Karameh,battle,existing dbpedia link
+569,Operation Badr (1973),battle,existing dbpedia link
+570,Operation Badr (1973),battle,existing dbpedia link
+571,Operation Badr (1973),battle,existing dbpedia link
+572,Operation Badr (1973),battle,existing dbpedia link
+573,Operation Badr (1973),battle,existing dbpedia link
+574,Battle of the Sinai,battle,existing dbpedia link
+575,Battle of the Sinai,battle,existing dbpedia link
+576,Battle of the Chinese Farm,battle,existing dbpedia link
+577,Battle of the Chinese Farm,battle,existing dbpedia link
+578,Battle of the Chinese Farm,battle,existing dbpedia link
+579,Battle of Ismailia,battle,existing dbpedia link
+580,Yom Kippur War,war,No article for this 1973 action; only war-level
+581,Battle of Suez,battle,existing dbpedia link
+582,Battle of Suez,battle,existing dbpedia link
+583,Battle of Suez,battle,existing dbpedia link
+584,Yom Kippur War,war,No article for this 1973 action; only war-level
+585,Valley of Tears,battle,existing dbpedia link
+586,Valley of Tears,battle,existing dbpedia link
+587,Valley of Tears,battle,existing dbpedia link
+588,Valley of Tears,battle,existing dbpedia link
+589,First Battle of Mount Hermon,battle,existing dbpedia link
+590,Valley of Tears,battle,existing dbpedia link
+591,Valley of Tears,battle,existing dbpedia link
+592,Valley of Tears,battle,existing dbpedia link
+593,Second Battle of Mount Hermon,battle,existing dbpedia link
+594,Yom Kippur War,war,No article for this 1973 action; only war-level
+595,Yom Kippur War,war,No article for this 1973 action; only war-level
+596,Yom Kippur War,war,No article for this 1973 action; only war-level
+597,Yom Kippur War,war,No article for this 1973 action; only war-level
+598,Yom Kippur War,war,No article for this 1973 action; only war-level
+599,Yom Kippur War,war,No article for this 1973 action; only war-level
+600,Third Battle of Mount Hermon,battle,existing dbpedia link
+601,Third Battle of Mount Hermon,battle,existing dbpedia link
+602,Battle of Sidi Bou Zid,battle,
+603,Battle of Sidi Bou Zid,campaign,Counterattack Feb 15-16; covered within the article
+604,Battle of Kasserine Pass,battle,
+605,Battle of Rapido River,battle,Jan 20-22 1944 crossing; no separate north/south articles
+605,Battle of Monte Cassino,campaign,
+606,Battle of Rapido River,battle,Jan 20-22 1944 crossing; no separate north/south articles
+606,Battle of Monte Cassino,campaign,
+607,Battle of Rapido River,battle,Jan 20-22 1944 crossing; no separate north/south articles
+607,Battle of Monte Cassino,campaign,
+608,Battle of Rapido River,battle,Jan 20-22 1944 crossing; no separate north/south articles
+608,Battle of Monte Cassino,campaign,
+609,Battle of Anzio,campaign,Bowling Alley counteroffensive covered in Anzio article
+610,Battle of Anzio,campaign,Bowling Alley counteroffensive covered in Anzio article
+611,Battle of Anzio,campaign,Bowling Alley counteroffensive covered in Anzio article
+612,Operation Lüttich,battle,Battle of Mortain redirects here
+613,Operation Lüttich,battle,Battle of Mortain redirects here
+614,Battle of Hürtgen Forest,campaign,Schmidt was fought within the Hürtgen Forest battle; no separate article
+615,Battle of Hürtgen Forest,campaign,Schmidt was fought within the Hürtgen Forest battle; no separate article
+616,Battle of Hürtgen Forest,campaign,Schmidt was fought within the Hürtgen Forest battle; no separate article
+617,Battle of Heartbreak Crossroads,battle,Wahlerscheid; Dec 13-16 1944
+617,Battle of Hürtgen Forest,campaign,
+618,Battle of Elsenborn Ridge,campaign,Krinkelt-Rocherath twin villages fought for; covered here
+618,Battle of the Bulge,campaign,
+619,Battle of Elsenborn Ridge,campaign,Krinkelt-Rocherath twin villages fought for; covered here
+619,Battle of the Bulge,campaign,
+620,Battle of St. Vith,campaign,Schnee Eifel encirclement of 106th Div; part of St. Vith/Bulge
+620,Battle of the Bulge,campaign,
+621,Battle of St. Vith,campaign,Schnee Eifel encirclement of 106th Div; part of St. Vith/Bulge
+621,Battle of the Bulge,campaign,
+622,Battle of St. Vith,campaign,Schnee Eifel encirclement of 106th Div; part of St. Vith/Bulge
+622,Battle of the Bulge,campaign,
+623,Battle of St. Vith,campaign,Schnee Eifel encirclement of 106th Div; part of St. Vith/Bulge
+623,Battle of the Bulge,campaign,
+624,Battle of the Bulge,campaign,Our River line (28th Div sector); no specific article found
+625,Battle of the Bulge,campaign,Our River line (28th Div sector); no specific article found
+626,Battle of Pusan Perimeter,battle,existing dbpedia link
+627,UN Forces September 1950 counteroffensive,campaign,Breakout from Pusan Perimeter
+627,Battle of the Pusan Perimeter,campaign,
+628,Battle of Nam River,battle,existing dbpedia link
+629,UN Forces September 1950 counteroffensive,campaign,Kunsan area advance after breakout; unsure of specificity
+630,Operation Roundup (1951),campaign,"Butte Line; Feb 1951 advance, dates roughly match"
+630,Operation Thunderbolt (1951),campaign,
+631,Operation Ripper,campaign,"Han River crossing, Mar 1951"
+632,Operation Rugged,campaign,"Chan River, early Apr 1951"
+632,Operation Dauntless,campaign,
+633,Chinese spring offensive,campaign,"Pierce Line, Apr 22 1951 offensive; unsure"
+633,Battle of Kapyong,campaign,Unsure; overlapping dates only
+634,Battle of the Imjin River,battle,existing dbpedia link
+635,Iron Triangle (Korea),campaign,Region article; Jun 1951
+635,UN May–June 1951 counteroffensive,campaign,
+636,UN May–June 1951 counteroffensive,campaign,Bayonette Line; Jun 1951 advance
+637,First Battle of Târgu Frumos,battle,2-5 May 1944
+638,Mishmar HaYarden (moshava),campaign,"Settlement article, not battle"
+638,1948 Arab–Israeli War,war,No battle article; Mishmar HaYarden Syrian attack Jun 1948
+639,Mishmar HaYarden (moshava),campaign,"Settlement article, not battle"
+639,1948 Arab–Israeli War,war,No battle article; Mishmar HaYarden Jul 1948
+640,Operation Hiram,battle,Oct 1948 Galilee operation; location listed Golan but is Galilee
+641,Golan Heights,campaign,Region article
+641,Six-Day War,war,No Banias battle article found; Golan Heights front Jun 10-11 1967
+642,Golan Heights,campaign,Region article
+642,Six-Day War,war,No Boutmiya battle article found; Golan Heights front Jun 10-11 1967
+643,Golan Heights,campaign,Region article
+643,Six-Day War,war,No Kuneitra battle article found; Golan Heights front Jun 10-11 1967
+645,Operation Mole Cricket 19,campaign,Bekaa air battle Jun 9-11 1982; ground fighting also
+645,1982 Lebanon War,war,
+647,Operation Death to the Invader,battle,Jul 16-18 1948
+648,Operation Horev,campaign,"El Auja, Dec 1948"
+649,Operation Horev,campaign,Ayin/Horev Dec 1948-Jan 1949
+650,Operation Kadesh,campaign,1956 Sinai campaign; no separate article found (Abu-Ageila article is 1967)
+651,Operation Kadesh,campaign,1956 Sinai campaign; no separate article found (Abu-Ageila article is 1967)
+652,Operation Kadesh,campaign,1956 Sinai campaign; no separate article found (Abu-Ageila article is 1967)
+653,Operation Kadesh,campaign,1956 Sinai campaign; no separate article found (Abu-Ageila article is 1967)
+654,Battle of Quang Tri (1968),battle,existing dbpedia link
+655,Operation Yevusi,battle,existing dbpedia link
+656,Operation Danny,battle,existing dbpedia link
+657,Battle of Sedan (1940),campaign,Ardennes/Meuse crossing; unsure
+657,Battle of France,war,
+658,Battle of France,campaign,Cambrai May 1940; no specific article
+659,Battle of Arras (1940),battle,21-23 May 1940
