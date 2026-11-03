@@ -11,7 +11,7 @@ from scripts import coordinates, links
 DATA = Path("data/relational")
 VALID_MATCH = {"battle", "campaign", "war"}
 VALID_PRECISION = {"battle", "place", "area", "campaign", "region", "war"}
-# battles for which no credible link or coordinates were found
+# battles for which no credible link was found
 NO_LINK = {646, 660}
 
 
@@ -99,12 +99,11 @@ def test_link_table_is_well_formed() -> None:
 
 
 def test_coordinates_are_valid() -> None:
-    """Coordinates are in range, one per battle, with a known precision."""
+    """Every battle has one in-range point with a known precision."""
     rows = read(DATA / "battle_coordinates.csv")
     battles = {r["isqno"] for r in read(DATA / "battles.csv")}
     assert len({r["isqno"] for r in rows}) == len(rows)
-    assert {r["isqno"] for r in rows} <= battles
+    assert {r["isqno"] for r in rows} == battles
     assert {r["precision"] for r in rows} <= VALID_PRECISION
     assert all(-90 <= float(r["latitude"]) <= 90 for r in rows)
     assert all(-180 <= float(r["longitude"]) <= 180 for r in rows)
-    assert len(rows) >= 640
