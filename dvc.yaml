@@ -198,6 +198,19 @@ stages:
       - cdb90.sqlite3:
           cache: false
 
+  # OCR of the original documentation PDF with LlamaParse. Frozen (a live API call): to rerun,
+  # `dvc unfreeze ocr && dvc repro ocr && dvc freeze ocr`, with LLAMA_CLOUD_API_KEY set.
+  ocr:
+    frozen: true
+    cmd: uv run --frozen python -m scripts.ocr
+    deps:
+      - scripts/ocr.py
+      - requirements.lock
+      - src-data/docs/AD1038724.pdf
+    outs:
+      - src-data/docs/AD1038724.md:
+          cache: false
+
   # Codebook of the tables, columns and codes (part of the Zenodo deposit).
   codebook:
     cmd: uv run --frozen python -m scripts.codebook
