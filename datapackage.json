@@ -23,7 +23,7 @@
     }
   ],
   "profile": "tabular-data-package",
-  "version": "10.0.0",
+  "version": "10.1.0",
   "resources": [
     {
       "name": "battles",
@@ -313,12 +313,12 @@
           {
             "name": "latitude",
             "type": "number",
-            "description": "Latitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles."
+            "description": "Latitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles."
           },
           {
             "name": "longitude",
             "type": "number",
-            "description": "Longitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles."
+            "description": "Longitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles."
           },
           {
             "name": "coordinate_precision",

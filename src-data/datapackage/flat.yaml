@@ -18,8 +18,8 @@ battles:
       (`duration2` in `battle_durations`).
     front_width_attacker: Width of the attacker's front at the start of the battle (km).
     front_width_defender: Width of the defender's front at the start of the battle (km).
-    latitude: Latitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles.
-    longitude: Longitude (WGS 84, decimal degrees) from Wikidata; empty for 12 battles.
+    latitude: Latitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles.
+    longitude: Longitude (WGS 84, decimal degrees) from Wikidata; empty for 11 battles.
     coordinate_precision: >-
       What the coordinates are: `battle` (the battle's own Wikidata item), `place` (the place it
       is named after), `campaign` (an operation or campaign it was part of), `region` (a larger
