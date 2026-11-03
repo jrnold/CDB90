@@ -1,8 +1,8 @@
 "name": "CDB90"
 "title": "CDB90 Battle Dataset"
 "licenses":
-  - "id": "odc-by"
-    "url": "http://opendatacommons.org/licenses/by/"
+  - "id": "CC0-1.0"
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
 "maintainers":
   - "name": "Jeffrey B. Arnold"
     "email": "jeffrey.arnold@gmail.com"

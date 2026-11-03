@@ -49,6 +49,7 @@ $ ./build.sh
 
 # Licenses
 
-- Code is [BSD-3](http://opensource.org/licenses/BSD-3-Clause) unless otherwise noted.
-- Data is [odc-by](http://opendatacommons.org/licenses/by/).
-- The original CDB90 data in `src-data/M000121` is Public Domain.
+- Code is [MIT](LICENSE), unless otherwise noted. `load-sqlite.py` is vendored from
+  [okfn/dptools](https://github.com/okfn/dptools); upstream gave no license.
+- The derived data in `data/` and `datapackage.json` is [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+- The original CDB90 data in `src-data/M000121` is in the public domain.
