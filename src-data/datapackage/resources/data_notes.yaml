@@ -1,0 +1,27 @@
+description: >-
+  Notes on values in the source data that are wrong or that disagree with another source. The
+  values themselves are kept as they are in CDB90. Curated in `src-data/local/data_notes.csv`.
+path: data/relational/data_notes.csv
+schema:
+  fields:
+  - id: isqno
+    description: Battle sequence number.
+    type: integer
+  - id: attacker
+    description: Attacker or defender the note applies to; empty if it applies to the battle.
+    type: boolean
+  - id: table_name
+    description: Relational table that holds the value.
+    type: string
+  - id: column_name
+    description: Column that holds the value.
+    type: string
+  - id: value
+    description: The value as it is in the table.
+    type: string
+  - id: note
+    description: What is wrong with the value, or how it differs from the source.
+    type: string
+  - id: source
+    description: The source of the correction or the disagreement.
+    type: string

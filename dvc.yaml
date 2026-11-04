@@ -1,7 +1,7 @@
 # CDB90 build. All outputs are small and published from git, so every output is `cache: false`
 # (exception to baseline rule L1, see AGENTS.md); there is no DVC remote.
-# Run the whole build with `uv run dvc repro`. The `links` and `coordinates` stages query the
-# Wikipedia and Wikidata APIs, so they need network access.
+# Run the whole build with `uv run dvc repro`. The `links`, `coordinates` and `commander-links`
+# stages query the Wikipedia and Wikidata APIs, so they need network access.
 #
 # Outputs: relational tables (data/relational/, loaded into SQLite), flat analysis tables
 # (data/flat/, CSV and Parquet) and the Data Package for the flat CSVs (datapackage.json).
@@ -117,6 +117,32 @@ stages:
       - data/relational/battle_coordinates.csv:
           cache: false
 
+  # Commander links (Wikidata API).
+  commander-links:
+    cmd: uv run --frozen python -m scripts.commander_links
+    deps:
+      - scripts/commander_links.py
+      - requirements.lock
+      - src-data/local/commander_links.csv
+      - data/relational/commanders.csv
+    outs:
+      - data/relational/commander_links.csv:
+          cache: false
+
+  # Notes on wrong or disputed values in the source data, which are kept as they are.
+  data-notes:
+    cmd: uv run --frozen python -m scripts.data_notes
+    deps:
+      - scripts/data_notes.py
+      - src-data/local/data_notes.csv
+      - data/relational/battles.csv
+      - data/relational/battle_durations.csv
+      - data/relational/belligerents.csv
+      - data/relational/commanders.csv
+    outs:
+      - data/relational/data_notes.csv:
+          cache: false
+
   # The HERO narratives (OCR text of CAA-SR-84-6): narrative, significance and sources by battle.
   narratives:
     cmd: uv run --frozen python -m scripts.narratives
@@ -193,7 +219,9 @@ stages:
       - data/relational/battle_narratives.csv
       - data/relational/battles.csv
       - data/relational/belligerents.csv
+      - data/relational/commander_links.csv
       - data/relational/commanders.csv
+      - data/relational/data_notes.csv
       - data/relational/enum_aeroa.csv
       - data/relational/enum_cea.csv
       - data/relational/enum_codead.csv

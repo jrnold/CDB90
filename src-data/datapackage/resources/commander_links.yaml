@@ -1,0 +1,37 @@
+description: >-
+  Links from commanders to Wikidata items and, where there is one, English Wikipedia articles. One
+  row for each named commander of a battle whose identity could be established; commanders who
+  could not be identified or have no item have no row. Each link was checked against the side,
+  date and role in that battle, so use this table in place of the `uri` column of `commanders`,
+  which has known errors (see `data_notes`). Curated in `src-data/local/commander_links.csv`;
+  resolved by `scripts/commander_links.py`.
+path: data/relational/commander_links.csv
+schema:
+  fields:
+  - id: isqno
+    description: Battle sequence number.
+    type: integer
+  - id: attacker
+    description: Attacker or defender in the battle.
+    type: boolean
+  - id: commanders
+    description: Commander's name, as in `commanders`.
+    type: string
+  - id: wikidata_id
+    description: Wikidata item of the person (Q number).
+    type: string
+  - id: wikidata_label
+    description: English label of the Wikidata item.
+    type: string
+  - id: wikipedia_title
+    description: Title of the English Wikipedia article, if the item has one.
+    type: string
+  - id: wikipedia_url
+    description: URL of the English Wikipedia article, if the item has one.
+    type: string
+  - id: confidence
+    description: >-
+      How sure the identification is: `high` (side, date and role confirmed), `medium` (a strong
+      inference, such as the only general of that name on that side at the time) or `low`
+      (plausible but unconfirmed).
+    type: string

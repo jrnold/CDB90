@@ -18,4 +18,5 @@ schema:
   - id: uri
     type: string
     description: >-
-      URL of the commander's article in Wikipedia (if any). This column is incomplete.
+      URL of the commander's article in Wikipedia (if any), as in the source data. This column is
+      incomplete and has errors: use `commander_links`, and see `data_notes`.

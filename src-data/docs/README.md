@@ -9,9 +9,10 @@ Documents about the CDB90 data, with OCR text. The OCR is made with LlamaParse b
 | CAA-SR-84-6, *Analysis of Factors That Have Influenced Outcomes of Battles and Wars: A Data Base of Battles and Engagements* (HERO, 1983-1984), six volumes | AD-B086 797 (Vol. I), AD-B087 718 to 722 (Vols. II to VI) | `hero/caa-sr-84-6-vol-N.md` and `.json` |
 | Independent Review/Reassessment of Anomalous Data (IR/RAD), LFW Management Associates, 22 June 1987, four volumes | AD-A195 381 (Vol. 1), AD-A195 726 (Vol. 2), AD-A195 382 (Vol. 3), AD-A195 383 (Vol. 4) | `irrad/irrad-vol-N-ADAxxxxxx.pdf`, `.md` and `.json` |
 | *New Engagement Data for the Breakpoints Data Base*, Richard C. Anderson, HERO / Data Memory Systems, 30 September 1988 (the source of battles 602 to 625) | AD-A201 404 | `hero-1988/new-engagement-data-ADA201404.pdf`, `.md` and `.json` |
+| *Comparative Analysis of Armored Conflict Experience*, HERO, draft final report, 17 March 1967 | AD-873 137 to 139 (final report, not this draft) | `hero-1967/comparative-analysis-armored-conflict-1967.pdf`, `.md` and `.json` |
 | *Forced Changes of Combat Posture*, Fain, Anderson, Dupuy, Hammerman and Hawkins, HERO / Data Memory Systems, 30 September 1988 (the study the new engagement data was made for) | AD-A201 405 | `hero-1988/forced-changes-of-combat-posture-ADA201405.pdf`, `.md` and `.json` |
 
-All of them are marked "approved for public release". In the HERO volumes, DTIC's cover page
+All of them are marked "approved for public release", apart from the 1967 HERO draft, which is marked "Official Use Only" and is published by the Dupuy Institute (see [below](#the-1967-armored-conflict-study)). In the HERO volumes, DTIC's cover page
 changed the distribution statement from B to A; the original limited-distribution markings
 are still printed inside.
 
@@ -69,6 +70,15 @@ substantially" from those of the original data base, and the README does not say
 The volumes are campaign-level reassessments with many tables of daily strengths and casualties, not
 battle-by-battle narratives like the HERO volumes.
 
+## The 1967 armored conflict study
+
+`hero-1967/` holds a 43-page draft of *Comparative Analysis of Armored Conflict Experience* (HERO, 17 March
+1967), from the [Dupuy Institute](https://www.dupuyinstitute.org/pdf/020.pdf), which lists it as report 20. The
+final report's AD numbers come from CAA-RP-93-2 (HERO-1967b), and no copy of it was found on the Internet Archive.
+The draft has the summaries of the tank actions but not the appendix of engagements its contents page lists, and
+printed page 5 of Section IV is missing. The text was transcribed from the page images by Claude Sonnet 5.5,
+not by LlamaParse. It keeps the original spelling and errors. Check numbers against the PDF before relying on them.
+
 ## The annotated bibliography
 
 `bibliography/` holds the OCR text (`.md`, one section per page, and `.json`) of CAA-RP-93-2,
@@ -100,6 +110,18 @@ records (record group 407 at the Washington National Records Center, "T" records
 the National Archives, "R" records at the Bundesarchiv-Militararchiv in Freiburg), manuscripts and published
 works that the report lists for each operation, so the engagements of an operation share one list.
 AD-A201 404 also has a data sheet of 96 fields for each engagement; they are not in the data.
-- 626 to 660 (Korea, Targul Frumos, the 1948, 1956, 1967 and 1982 Israeli battles, Quang Tri, France 1940): no
+- 657 to 660 (France 1940): *Historical Characteristics of Combat for Wargames (Benchmarks)* (DTIC AD-A200 036)
+  lists these battles and cites the 1967 armored conflict study as its source for France 1940, and the study's
+  figures agree in part. Allied tanks and losses in 657, and the losses of 658, match. German tanks and losses
+  in 657 do not (2,439 and 980 in CDB90, 2,683 and 1,080 in the study). 660 (Boos) matches "A Group Franc South
+  of the Somme", with the two sides' tanks swapped in CDB90. The study has no section on 659 (Arras).
+- 641 to 643 (Golan, 10 June 1967): their casualties and tank losses match figures 13 and 14 of *Comparative
+  Analysis: Arab and Israeli Combat Performance, 1967 and 1973 Wars* (HERO, June 1976; [Dupuy Institute report
+  54](https://www.dupuyinstitute.org/pdf/054.pdf); not in this repository). The same report lists most of 549 to
+  601. Those battles have narratives in HERO Vol. VI, and the casualties of the ones compared (Rafah, Abu Ageila,
+  El Arish, Bir Lahfan, Zaoura-Kala, Ahmadiyeh) differ from the report's, so they do not simply copy it, although
+  Rafah's strengths and tank losses agree. Its scope is 1967 and 1973 only, so it is not the source of the 1948,
+  1956, 1968 or 1982 battles.
+- The rest of 626 to 660 (Korea, Targul Frumos, the 1948, 1956 and 1982 Israeli battles, Quang Tri): no
   documentation has been found. They are probably the result of McQuie's independent research, which the
   README does not cite a report for.
