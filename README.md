@@ -41,11 +41,11 @@ The flat CSV tables are described by a [Data Package](https://datapackage.org) (
 
 There are three ways to get the data, all in version 10.0.0 and later (from the GitHub release and Zenodo).
 
-  | Format               | Files                                                              | For                                                                                                                                                      |
-  | -------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | Flat CSV and Parquet | `data/flat/battles.{csv,parquet}`, `data/flat/sides.{csv,parquet}` | Analysis: one row per battle, or per battle and side, with the tables already joined.                                                                    |
-  | SQLite               | `cdb90.sqlite3` (release asset)                                    | The relational tables: battles, belligerents, commanders, active periods, weather, terrain, front widths, battle links, coordinates and the code tables. |
-  | Relational CSV       | `data/relational/*.csv`                                            | The inputs of the SQLite database, one csv per table.                                                                                                    |
+  | Format               | Files                                                              | For                                                                                                                                                                                               |
+  | -------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Flat CSV and Parquet | `data/flat/battles.{csv,parquet}`, `data/flat/sides.{csv,parquet}` | Analysis: one row per battle, or per battle and side, with the tables already joined.                                                                                                             |
+  | SQLite               | `cdb90.sqlite3` (release asset)                                    | The relational tables: battles, belligerents, commanders, active periods, weather, terrain, front widths, battle links, commander links, coordinates, notes on source values and the code tables. |
+  | Relational CSV       | `data/relational/*.csv`                                            | The inputs of the SQLite database, one csv per table.                                                                                                                                             |
 
 `datapackage.json` is a [Frictionless](https://frictionlessdata.io) Data Package for the flat CSV tables.
 
@@ -53,6 +53,10 @@ There are three ways to get the data, all in version 10.0.0 and later (from the 
 - `sides`: one row per battle and side, with forces, commanders and the outcome from that side's point of view (1 win, 0 draw, -1 loss).
 
 All 660 battles are linked to one or more Wikidata items and Wikipedia articles (a battle's own article where there is one, otherwise the smallest campaign or war article that covers it) (`battle_links` in SQLite, `wikidata_id` and `wikipedia_title` in the flat `battles` table), and all 660 battles have coordinates from Wikidata (`coordinate_precision` says whether the point is the battle, the place where it took place, a town or district beside the action, or only its campaign or region). Two points are best guesses because the engagement could not be identified: Chan River (`isqno` 632) and Bayonette Line (636).
+
+1,158 of the 1,263 named commanders are linked to a Wikidata item that identifies the person CDB90 lists (`commander_links`). A link says who the name refers to, not that the person really held the command. The other 105 have no link because they could not be identified or have no item, mostly colonels and majors.
+
+Values in the source data are kept as they are. Where another source shows one to be wrong, `data_notes` records the value, the problem and the source, including wrong Wikipedia links in `commanders.uri`.
 
 The narratives of the HERO volumes (the short account of each battle in CAA-SR-84-6) and of the 1988 report *New Engagement Data for the Breakpoints Data Base* (battles 602 to 625) are parsed from the OCR text into `data/flat/narratives` and the `battle_narratives` table: for 610 battles, the `narrative`, its `significance` and its `sources`, with each source code of the volumes replaced by the full citation (the 1988 report lists its sources by operation) and a `document` column that says which report each narrative is from. The OCR is not perfect, so check a name or a number against the PDF (`src-data/docs/README.md`).
 

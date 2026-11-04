@@ -6,7 +6,7 @@ stages:
     deps:
     - path: uv.lock
       hash: md5
-      md5: d8159e22c36acf7674070f6eabc1eaa0
+      md5: 36589f2da0d8174b79b8be14b7fef2fe
       size: 432694
     outs:
     - path: requirements.lock
@@ -59,7 +59,7 @@ stages:
       size: 3614
     - path: src-data/version.txt
       hash: md5
-      md5: 2d8baf4701d5850cad26f5475e15a27e
+      md5: 1679869bb43f734d3c585dba4558ed34
       size: 7
     outs:
     - path: data/relational/active_periods.csv
@@ -172,7 +172,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 0783e3d8a2949c47f6364cda1374617e
+      md5: e597ed1db4b829019f954599637c6206
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -331,17 +331,17 @@ stages:
       size: 5167
     - path: src-data/datapackage/resources
       hash: md5
-      md5: 5a2e15282125a8286170c6f5a3a485ab.dir
-      size: 19392
-      nfiles: 13
+      md5: ee59ca9f1f9db749b2123e21f5bd0c94.dir
+      size: 21960
+      nfiles: 15
     - path: src-data/version.txt
       hash: md5
-      md5: 2d8baf4701d5850cad26f5475e15a27e
+      md5: 1679869bb43f734d3c585dba4558ed34
       size: 7
     outs:
     - path: datapackage.json
       hash: md5
-      md5: 6b484f2514fed888946b7bdc08c2d2d6
+      md5: e520c1389954e4e47040282fb0afa66b
       size: 23923
   sqlite:
     cmd: uv run --frozen python -m scripts.sqlite
@@ -382,10 +382,18 @@ stages:
       hash: md5
       md5: f65725d18d91c75c9f6e861d29d07275
       size: 176505
+    - path: data/relational/commander_links.csv
+      hash: md5
+      md5: ef48b33410f2996bb96ef636123ae9e5
+      size: 153786
     - path: data/relational/commanders.csv
       hash: md5
       md5: 4fd38601c9980f87ea966e2080affcf2
       size: 61468
+    - path: data/relational/data_notes.csv
+      hash: md5
+      md5: 08d08744201d7ed6b611246eaedcf838
+      size: 18485
     - path: data/relational/enum_aeroa.csv
       hash: md5
       md5: 21deab48dba50e0dd46887070f06132c
@@ -468,7 +476,7 @@ stages:
       size: 11734
     - path: data/relational/version.csv
       hash: md5
-      md5: 0783e3d8a2949c47f6364cda1374617e
+      md5: e597ed1db4b829019f954599637c6206
       size: 19
     - path: data/relational/weather.csv
       hash: md5
@@ -484,14 +492,14 @@ stages:
       size: 3006
     - path: src-data/datapackage
       hash: md5
-      md5: e9c01ec77c18cb2fb566b05a18d9b9b4.dir
-      size: 27461
-      nfiles: 16
+      md5: 3202d9d1d4e5735f5869995400d8c1ee.dir
+      size: 30029
+      nfiles: 18
     outs:
     - path: cdb90.sqlite3
       hash: md5
-      md5: 0eacb18f3090dfa3fa0e6577eb3abbf6
-      size: 2560000
+      md5: 0ab650bff89cc71f908b291b1a91d0fd
+      size: 2736128
   diff:
     cmd: uv run --frozen daff diff --output src-data/CDB90/diff.csv --context 0
       src-data/CDB90/CDB90-orig.csv src-data/CDB90/CDB90-patched.csv && uv run
@@ -524,12 +532,12 @@ stages:
     deps:
     - path: data/relational
       hash: md5
-      md5: aba24869d989c90e973994687105ec7c.dir
-      size: 2029523
-      nfiles: 32
+      md5: feca8e561721a1e4110725e1c14dff2c.dir
+      size: 2201794
+      nfiles: 34
     - path: datapackage.json
       hash: md5
-      md5: 6b484f2514fed888946b7bdc08c2d2d6
+      md5: e520c1389954e4e47040282fb0afa66b
       size: 23923
     - path: requirements.lock
       hash: md5
@@ -541,14 +549,14 @@ stages:
       size: 3994
     - path: src-data/datapackage
       hash: md5
-      md5: e9c01ec77c18cb2fb566b05a18d9b9b4.dir
-      size: 27461
-      nfiles: 16
+      md5: 3202d9d1d4e5735f5869995400d8c1ee.dir
+      size: 30029
+      nfiles: 18
     outs:
     - path: docs/codebook.md
       hash: md5
-      md5: 5355990183749ff37d20fb1399df8384
-      size: 31409
+      md5: ed03571265ebd4086c68ed42c7744ca1
+      size: 33549
   ocr:
     cmd: uv run --frozen python -m scripts.ocr
     deps:
@@ -607,3 +615,59 @@ stages:
       hash: md5
       md5: f9e41fa575e6b9421759679bdebdbfad
       size: 1253066
+  commander-links:
+    cmd: uv run --frozen python -m scripts.commander_links
+    deps:
+    - path: data/relational/commanders.csv
+      hash: md5
+      md5: 4fd38601c9980f87ea966e2080affcf2
+      size: 61468
+    - path: requirements.lock
+      hash: md5
+      md5: 9e07315ebff00f3ff3045aae7f6d9a20
+      size: 25442
+    - path: scripts/commander_links.py
+      hash: md5
+      md5: 04452d9b7b618e0506042721d7bcd3f1
+      size: 4930
+    - path: src-data/local/commander_links.csv
+      hash: md5
+      md5: c793d6286015a483b268955a3c838db7
+      size: 67783
+    outs:
+    - path: data/relational/commander_links.csv
+      hash: md5
+      md5: ef48b33410f2996bb96ef636123ae9e5
+      size: 153786
+  data-notes:
+    cmd: uv run --frozen python -m scripts.data_notes
+    deps:
+    - path: data/relational/battle_durations.csv
+      hash: md5
+      md5: 7f57b529ca3b2581fece0e74899df989
+      size: 51777
+    - path: data/relational/battles.csv
+      hash: md5
+      md5: d559a7530c3607e853ab711598cf8d15
+      size: 196922
+    - path: data/relational/belligerents.csv
+      hash: md5
+      md5: f65725d18d91c75c9f6e861d29d07275
+      size: 176505
+    - path: data/relational/commanders.csv
+      hash: md5
+      md5: 4fd38601c9980f87ea966e2080affcf2
+      size: 61468
+    - path: scripts/data_notes.py
+      hash: md5
+      md5: c078199455043a0f4cf7601e9da28ea8
+      size: 2310
+    - path: src-data/local/data_notes.csv
+      hash: md5
+      md5: faf0a143b90adc04f3af7712d2c3d17b
+      size: 17813
+    outs:
+    - path: data/relational/data_notes.csv
+      hash: md5
+      md5: 08d08744201d7ed6b611246eaedcf838
+      size: 18485

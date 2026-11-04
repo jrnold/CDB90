@@ -20,6 +20,8 @@ NOT_BUILT = {
     "battle_coordinates.csv",
     "battle_links.csv",
     "battle_narratives.csv",
+    "commander_links.csv",
+    "data_notes.csv",
 }  # built by scripts/
 
 

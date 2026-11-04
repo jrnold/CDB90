@@ -17,8 +17,13 @@ root, through `uv run dvc`.
 - Zenodo gets the data only, through `scripts/zenodo.py` (metadata in `zenodo/metadata.json`), not
   the GitHub-Zenodo integration, so do not add a `.zenodo.json`. Never run `deposit --publish`
   without the user asking: a DOI is permanent.
-- `links` and `coordinates` query the Wikipedia and Wikidata APIs. The curated inputs are
-  `src-data/local/battle_links.csv` and `src-data/local/coordinates_places.csv`.
+- `links`, `coordinates` and `commander-links` query the Wikipedia and Wikidata APIs. The curated
+  inputs are `src-data/local/battle_links.csv`, `src-data/local/coordinates_places.csv` and
+  `src-data/local/commander_links.csv`.
+- Do not correct a value that is what the source says. Add a row to `src-data/local/data_notes.csv`
+  with the value, the problem and the source.
+- A commander link identifies the person CDB90 lists. It does not correct who held the command, so
+  never link whoever really commanded the unit in place of the listed person.
 
 Exception to L1: the published tables in `data/` are about 1 MB and people use them straight from GitHub and Zenodo, so every output is `cache: false` and stays in git.
 Exception to L2: `data/` holds the published tables (`data/relational/` csv, `data/flat/` csv and parquet) in git, for the same reason. `cdb90.sqlite3` is built by the pipeline and not tracked; it is a release asset.

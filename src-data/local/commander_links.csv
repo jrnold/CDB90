@@ -1,0 +1,1264 @@
+isqno,attacker,commanders,wikidata_id,confidence,note
+1,0,MAURICE OF NASSAU,Q164062,high,
+1,1,ALBERT OF AUSTRIA,Q311452,high,
+2,0,CHRISTIAN OF ANHALT-BERNBERG,Q63024,high,
+2,1,BUCQUOI,Q695234,high,
+3,0,BADEN-DURLACH,Q65236,high,
+3,1,CORDOVA,Q1537353,high,
+3,1,TILLY,Q155534,high,
+4,0,WALLENSTEIN,Q153545,high,existing link; full name in the narrative
+4,1,MANSFIELD,Q441405,high,
+5,0,CHRISTIAN IV,Q153586,high,
+5,1,TILLY,Q155534,high,
+6,0,GUSTAVUS ADOLPHUS,Q52938,high,
+6,1,TILLY,Q155534,high,
+7,0,TILLY,Q155534,high,
+7,1,GUSTAVUS ADOLPHUS,Q52938,high,
+8,0,WALLENSTEIN,Q153545,high,
+8,1,GUSTAVUS ADOLPHUS,Q52938,high,
+9,0,WALLENSTEIN,Q153545,high,
+9,1,GUSTAVUS ADOLPHUS,Q52938,high,
+10,0,CARDINAL-INFANTE,Q559041,high,
+10,0,FERDINAND,Q150575,high,
+10,1,HORN,Q550657,high,"Current is Bernard of Saxe-Weimar; Horn is Gustav Horn, Swedish co-commander at Nordlingen."
+10,1,SAXE-WEIMAR,Q61118,high,Current is Gustav Horn; Saxe-Weimar is Bernard of Saxe-Weimar.
+11,0,HATZFELD,Q78305,high,
+11,0,JOHN GEORGE,Q366652,high,
+11,1,BANER,Q498046,high,existing link; full name in the narrative
+12,0,LEOPOLD WILLIAM,Q437295,high,
+12,1,TORTENSSON,Q316816,high,
+13,0,MELLO,Q252902,high,
+13,1,ENGHIEN,Q310837,high,
+14,0,RANTZAU,Q896755,high,
+14,1,MERCY,Q644425,high,existing link; full name in the narrative
+15,0,MERCY,Q644425,high,existing link; full name in the narrative
+15,1,CONDE,Q310837,high,
+15,1,TURENNE,Q303216,medium,Enghien commanded at Freiburg 1644; Turenne led the Bavarian-front army as co-commander.
+16,0,TORSTENSSON,Q316816,high,
+16,1,HATZFELD,Q78305,high,
+17,0,TURENNE,Q303216,high,
+17,1,MERCY,Q644425,high,
+17,1,WERTH,Q63850,high,
+18,0,MERCY,Q644425,high,
+18,0,WERTH,Q63850,high,
+18,1,CONDE,Q310837,high,
+19,0,LEOPOLD WILLIAM,Q437295,high,
+19,1,CONDE,Q310837,high,
+20,0,ESSEX,Q2701696,high,
+20,1,CHARLES I,Q81506,high,
+21,0,RUPERT,Q76930,high,existing link; full name in the narrative
+21,1,MANCHESTER,Q2702018,high,
+22,0,MONTROSE,Q979180,high,
+22,1,ELCHO,Q5240961,medium,Current is the earldom title (not human); Lord Elcho led Covenanters at Tippermuir.
+23,0,BAILLIE,Q4081211,high,
+23,1,MONTROSE,Q979180,high,
+24,0,CHARLES I,Q81506,high,existing link; full name in the narrative
+24,1,MANCHESTER,Q2702018,high,
+25,0,FAIRFAX,Q550612,high,
+25,1,CHARLES I,Q81506,high,
+26,0,HAMILTON,Q336106,high,
+26,1,CROMWELL,Q44279,high,
+27,0,LESLIE,Q4259456,high,
+27,1,CROMWELL,Q44279,high,
+28,0,CHARLES II,Q122553,high,existing link; full name in the narrative
+28,1,CROMWELL,Q44279,high,
+29,0,CONDE,Q310837,high,
+29,1,TURENNE,Q303216,high,
+30,0,DON JUAN,Q442594,high,
+30,1,TURENNE,Q303216,high,
+31,0,MONTECUCCOLI,Q454789,high,existing link; full name in the narrative
+31,1,AHMED KOPRULU,Q510679,high,
+32,0,KARA MUSTAFA,Q334140,high,
+32,1,LORRAINE,Q156949,high,"Current is Sobieski; Lorraine at Vienna 1683 is Charles V, Duke of Lorraine."
+32,1,SOBIESKI,Q53454,high,Current is Charles of Lorraine; Sobieski is John III Sobieski.
+33,0,HUSSEIN PASHA,,,"Husein Pasha at Khotyn 1673; Wikidata variants searched, no item."
+33,1,SOBIESKI,Q53454,high,
+34,0,CAPARA,Q255150,high,
+34,1,TURENNE,Q303216,high,
+35,0,ORANGE,Q129987,high,
+35,1,CONDE,Q310837,high,
+36,0,BOURNONVILLE,Q686601,high,
+36,1,TURENNE,Q303216,high,
+37,0,BOURNONVILLE,Q686601,high,
+37,1,TURENNE,Q303216,high,
+38,0,WRANGEL,Q836183,high,
+38,1,FREDERICK WILLIAM,Q152727,high,
+39,0,FEVERSHAM,Q2915948,high,existing link; full name in the narrative
+39,1,MONMOUTH,Q140235,high,
+40,0,MACKAY,Q5931614,high,
+40,1,DUNDEE,Q892818,high,existing link; full name in the narrative
+41,0,WALDECK,Q62507,high,
+41,1,D'HUMIERES,Q1872081,high,
+42,0,WALDECK,Q62507,high,
+42,1,LUXEMBOURG,Q357136,high,
+43,0,JAMES II,Q126188,high,
+43,1,WILLIAM III,Q129987,high,
+44,0,ST. RUTH,Q2750100,high,existing link; full name in the narrative
+44,1,GINCKEL,Q1910657,high,
+45,0,LUXEMBOURG,Q357136,high,
+45,1,WILLIAM III,Q129987,high,
+46,0,WILLIAM III,Q129987,high,
+46,1,LUXEMBOURG,Q357136,high,
+47,0,DUKE OF SAVOY,Q209579,high,existing link; full name in the narrative
+47,1,CATINAT,Q315308,high,existing link; full name in the narrative
+48,0,MUSTAFA II,Q199659,high,
+48,1,EUGENE,Q152428,high,existing link; full name in the narrative
+49,0,PETER THE GREAT,Q8479,high,existing link; full name in the narrative
+49,1,CHARLES XII,Q52934,high,
+50,0,MARSIN,Q614104,high,
+50,0,MAX EMMANUEL OF BAVARIA,Q57628,high,
+50,0,TALLARD,Q112932,high,
+50,1,EUGENE,Q152428,high,existing link; full name in the narrative
+50,1,MARLBOROUGH,Q153803,high,
+51,0,MAX EMMANUEL OF BAVARIA,Q57628,high,
+51,0,VILLEROY,Q453571,high,
+51,1,MARLBOROUGH,Q153803,high,
+52,0,BURGUNDY,Q1127505,high,
+52,0,VENDOME,Q315513,high,
+52,1,EUGENE,Q152428,high,existing link; full name in the narrative
+52,1,MARLBOROUGH,Q153803,high,
+53,0,BOUFFLERS,Q316827,high,existing link; full name in the narrative
+53,0,VILLARS,Q158654,high,
+53,1,EUGENE,Q152428,high,existing link; full name in the narrative
+53,1,MARLBOROUGH,Q153803,high,
+54,0,ALI PASHA,Q1189261,high,
+54,1,EUGENE,Q152428,high,existing link; full name in the narrative
+55,0,FREDERICK II,Q33550,high,existing link; full name in the narrative
+55,1,NEIPPERG,Q112124,high,
+56,0,FREDERICK II,Q33550,high,existing link; full name in the narrative
+56,1,LORRAINE,Q158232,high,
+57,0,NOAILLES,Q376707,high,
+57,1,GEORGE II,Q131981,high,
+58,0,SAXE,Q76723,high,existing link; full name in the narrative
+58,1,CUMBERLAND,Q378088,high,existing link; full name in the narrative
+59,0,LORRAINE,Q158232,high,
+59,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+60,0,LORRAINE,Q158232,high,
+60,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+61,0,RUTKOWSKI,Q70885,high,
+61,1,ANHALT-DESSAU,Q61695,high,existing link; full name in the narrative
+62,0,COPE,Q333803,high,existing link; full name in the narrative
+62,1,PRINCE CHARLES EDWARD,Q312581,high,existing link; full name in the narrative
+63,0,CUMBERLAND,Q378088,high,
+63,1,PRINCE CHARLES EDWARD,Q312581,high,
+64,0,BROWNE,Q112039,high,
+64,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+65,0,LORRAINE,Q158232,high,
+65,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+66,0,CLIVE,Q162296,high,existing link; full name in the narrative
+66,1,SIRAJ UD-DAULA,Q1998495,high,
+67,0,DAUN,Q93365,high,
+67,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+68,0,DUKE OF CUMBERLAND,Q378088,high,
+68,1,ESTREES,Q563371,high,
+69,0,FREDERICK II,Q33550,high,existing link; full name in the narrative
+69,1,SAXE-HILDBURGHAUSEN,Q213998,high,
+69,1,SOUBISE,Q658916,high,
+70,0,LORRAINE,Q158232,high,
+70,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+71,0,CLERMONT,Q537780,high,
+71,1,FERDINAND,Q215480,high,
+72,0,FERMOR,Q180806,high,
+72,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+73,0,FREDERICK II,Q33550,high,existing link; full name in the narrative
+73,1,DAUN,Q93365,high,
+74,0,BROGLIE,Q695929,high,
+74,1,BRUNSWICK,Q215480,high,
+75,0,CONTADES,Q454837,high,
+75,1,BRUNSWICK,Q215480,high,
+76,0,SALTYKOV,Q663376,high,
+76,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+77,0,WOLFE,Q379812,high,existing link; full name in the narrative
+77,1,MONTCALM,Q453589,high,
+78,0,FINCK,Q72350,high,
+78,1,DAUN,Q93365,high,
+79,0,MUY,Q1185569,medium,Chevalier du Muy commanded French at Warburg; identified from battle knowledge.
+79,1,BRUNSWICK,Q215480,high,
+80,0,FREDERICK II,Q33550,high,existing link; full name in the narrative
+80,1,DAUN,Q93365,high,Current is Laudon; Daun at Liegnitz 1760 is Leopold von Daun (Austrian marshal).
+80,1,LAUDON,Q440276,high,Current is Daun; Laudon is Ernst Gideon von Laudon.
+81,0,DAUN,Q93365,high,
+81,1,FREDERICK II,Q33550,high,existing link; full name in the narrative
+82,0,PRESCOTT,Q2141930,high,existing link; full name in the narrative
+82,1,GAGE,Q581935,high,existing link; full name in the narrative
+83,0,CARLETON,Q335163,high,existing link; full name in the narrative
+83,1,MONTGOMERY,Q444947,high,
+84,0,WASHINGTON,Q23,high,"Current is William Howe, the British opponent; Washington is George Washington."
+84,1,HOWE,Q333422,high,existing link; full name in the narrative
+85,0,RALL,Q875270,high,existing link; full name in the narrative
+85,1,WASHINGTON,Q23,high,"Current is William Howe, the British opponent; Washington is George Washington."
+86,0,MAWHOOD,Q5080744,high,existing link; full name in the narrative
+86,1,WASHINGTON,Q23,high,"Current is William Howe, the British opponent; Washington is George Washington."
+87,0,GATES,Q365124,high,existing link; full name in the narrative
+87,1,BURGOYNE,Q436775,high,existing link; full name in the narrative
+88,0,HOWE,Q333422,high,existing link; full name in the narrative
+88,1,WASHINGTON,Q23,high,"Current is William Howe, the British opponent; Washington is George Washington."
+89,0,GATES,Q365124,high,existing link; full name in the narrative
+89,1,BURGOYNE,Q436775,high,existing link; full name in the narrative
+90,0,WASHINGTON,Q23,high,"Current is William Howe, the British opponent; Washington is George Washington."
+90,1,CLINTON,Q450734,high,existing link; full name in the narrative
+91,0,GATES,Q365124,high,existing link; full name in the narrative
+91,1,CORNWALLIS,Q164723,high,
+92,0,MORGAN,Q2767,high,
+92,1,TARLETON,Q332464,high,existing link; full name in the narrative
+93,0,GREENE,Q366113,high,existing link; full name in the narrative
+93,1,CORNWALLIS,Q164723,high,
+94,0,GREENE,Q366113,high,existing link; full name in the narrative
+94,1,RAWDON,Q692434,high,
+95,0,STEWART,Q17318963,high,
+95,1,GREENE,Q366113,high,existing link; full name in the narrative
+96,0,DUMOURIEZ,Q378572,high,existing link; full name in the narrative
+96,1,BRUNSWICK,Q58773,high,
+97,0,TESCHEN,Q60657,high,
+97,1,DUMOURIEZ,Q378572,high,
+98,0,SAXE-COBURG,Q68771,high,existing link; full name in the narrative
+98,1,DUMOURIEZ,Q378572,high,
+99,0,YORK,Q213573,high,
+99,1,HOUCHARD,Q1685098,high,existing link; full name in the narrative
+100,0,SAXE-COBURG,Q68771,high,
+100,1,JOURDAN,Q250003,high,existing link; full name in the narrative
+101,0,JOURDAN,Q250003,high,
+101,1,SAXE-COBURG,Q68771,high,
+102,0,BEAULIEU,Q563424,high,
+102,1,BONAPARTE,Q517,high,
+103,0,WURMSER,Q78691,high,
+103,1,BONAPARTE,Q517,high,
+104,0,MOREAU,Q333806,high,
+104,1,ARCHDUKE CHARLES,Q84201,high,
+105,0,JOURDAN,Q250003,high,
+105,1,ARCHDUKE CHARLES,Q84201,high,
+106,0,ALVINTZI,Q608030,high,
+106,1,BONAPARTE,Q517,high,
+107,0,BONAPARTE,Q517,high,
+107,1,ALVINTZI,Q608030,high,
+108,0,MURAD BEY,Q715652,high,existing link; full name in the narrative
+108,1,BONAPARTE,Q517,high,
+109,0,ARCHDUKE CHARLES,Q84201,high,
+109,1,JOURDAN,Q250003,high,
+110,0,BONAPARTE,Q517,high,
+110,1,ABDALLAH PASHA,Q16155015,medium,Current is Jezzar Pasha (Acre); Mount Tabor Ottoman force was led by Abdullah Pasha al-Azm of Damascus.
+111,0,MASSENA,Q242609,high,existing link; full name in the narrative
+111,1,ARCHDUKE CHARLES,Q84201,high,
+112,0,JOUBERT,Q128743,high,
+112,0,MOREAU,Q333806,medium,"Moreau had just handed Italy army to Joubert at Novi; present, nominal command uncertain."
+112,1,SUVAROV,Q154232,high,
+113,0,KORSAKOV,Q1376893,high,
+113,1,MASSENA,Q242609,high,existing link; full name in the narrative
+114,0,KRAY,Q78695,high,
+114,1,MOREAU,Q333806,high,
+115,0,BONAPARTE,Q517,high,
+115,1,MELAS,Q112009,high,existing link; full name in the narrative
+116,0,MOREAU,Q333806,high,
+116,1,ARCHDUKE JOHN,Q93427,high,existing link; full name in the narrative
+117,0,NAPOLEON I,Q517,high,
+117,1,KUTUZOV,Q185801,high,
+118,0,HOHENLOHE,Q696782,medium,
+118,1,NAPOLEON I,Q517,high,
+119,0,DAVOUT,Q158778,high,
+119,1,BRUNSWICK,Q58773,high,
+120,0,BENNIGSEN,Q57777,high,
+120,1,NAPOLEON I,Q517,high,
+121,0,BENNIGSEN,Q57777,high,
+121,1,NAPOLEON I,Q517,high,
+122,0,WELLESLEY,Q131691,high,
+122,1,JUNOT,Q353907,high,
+123,0,MOORE,Q711378,high,existing link; full name in the narrative
+123,1,SOULT,Q296023,high,
+124,0,NAPOLEON I,Q517,high,
+124,1,ARCHDUKE CHARLES,Q84201,high,
+125,0,NAPOLEON I,Q517,high,
+125,1,ARCHDUKE CHARLES,Q84201,high,
+126,0,JOHN,Q93427,high,existing link; full name in the narrative
+126,1,EUGENE,Q155545,high,existing link; full name in the narrative
+127,0,ARCHDUKE CHARLES,Q84201,high,
+127,1,NAPOLEON I,Q517,high,
+128,0,CUESTA,Q603213,high,
+128,0,WELLESLLEY,Q131691,high,
+128,1,JOSEPH BONAPARTE,Q7726,high,existing link; full name in the narrative
+129,0,WELLINGTON,Q131691,high,
+129,1,MASSENA,Q242609,high,existing link; full name in the narrative
+130,0,WELLINGTON,Q131691,high,
+130,1,MASSENA,Q242609,high,existing link; full name in the narrative
+131,0,BERESFORD,Q332633,high,existing link; full name in the narrative
+131,1,SOULT,Q296023,high,
+132,0,MARMONT,Q312676,high,"Current link is the Battle of Salamanca, not the commander."
+132,1,WELLINGTON,Q131691,high,
+133,0,JOSEPH BONAPARTE,Q7726,high,existing link; full name in the narrative
+133,0,JOURDAN,Q250003,medium,"Jourdan was Joseph Bonaparte chief of staff at Vittoria, effectively army commander."
+133,1,WELLINGTON,Q131691,high,
+134,0,KUTUSOV,Q185801,high,
+134,1,NAPOLEON I,Q517,high,
+135,0,NAPOLEON I,Q517,high,
+135,1,BLUECHER,Q153522,medium,Current link is Wittgenstein; swapped. Blücher commanded Prussian forces at Lützen.
+135,1,WITTGENSTEIN,Q432580,high,Current link is Blücher; Wittgenstein was allied commander at Lützen.
+136,0,BLUECHER,Q153522,medium,Current link is Wittgenstein; swapped with Wittgenstein record. Blücher commanded Prussian forces at Bautzen.
+136,0,WITTGENSTEIN,Q432580,high,Current link is Blücher; Wittgenstein was Russian-Prussian commander at Bautzen.
+136,1,NAPOLEON I,Q517,high,
+137,0,NAPOLEON I,Q517,high,
+137,1,SCHWARZENBERG,Q163755,high,
+138,0,NAPOLEON I,Q517,high,
+138,1,SCHWARZENBERG,Q163755,high,existing link; full name in the narrative
+139,0,WREDE,Q64759,high,
+139,1,NAPOLEON I,Q517,high,
+140,0,NAPOLEON I,Q517,high,
+140,1,BLUECHER,Q153522,high,
+141,0,BLUECHER,Q153522,high,
+141,1,NAPOLEON I,Q517,high,
+142,0,NAPOLEON I,Q517,high,
+142,1,SCHWARZENBERG,Q163755,high,existing link; full name in the narrative
+143,0,BLUECHER,Q153522,high,
+143,1,NAPOLEON I,Q517,high,
+144,0,WELLINGTON,Q131691,high,
+144,1,NEY,Q40756,high,
+145,0,BLUECHER,Q153522,high,
+145,0,WELLINGTON,Q131691,high,
+145,1,NAPOLEON I,Q517,high,
+146,0,PROCTOR,Q1599723,high,
+146,1,HARRISON,Q11869,high,"Current link is the Battle of the Thames, not the commander."
+147,0,BROWN,Q11122898,high,
+147,1,RIALL,Q1265505,high,existing link; full name in the narrative
+148,0,DRUMMOND,Q543131,high,existing link; full name in the narrative
+148,1,BROWN,Q11122898,high,
+149,0,JACKSON,Q11817,high,existing link; full name in the narrative
+149,1,PAKENHAM,Q1293005,high,existing link; full name in the narrative
+150,0,BARREIRO,Q3186437,high,
+150,1,BOLIVAR,Q8605,high,
+151,0,LA TORRE,Q204946,high,
+151,1,BOLIVAR,Q8605,high,
+152,0,GARCIA,Q5721773,low,Bombona royalist; items for Basilio Garcia are hard to separate.
+152,1,BOLIVAR,Q8605,high,
+153,0,SUCRE,Q189779,high,
+153,1,AYMERICH,Q3305004,high,
+154,0,CANTERAC,Q3486430,high,
+154,1,BOLIVAR,Q8605,high,
+155,0,SUCRE,Q189779,high,
+155,1,LA SERNA,Q1394060,high,
+156,0,SANTA ANNA,Q189145,high,
+156,1,HOUSTON,Q216547,high,existing link; full name in the narrative
+157,0,ARISTA,Q431576,high,existing link; full name in the narrative
+157,1,TAYLOR,Q11896,high,existing link; full name in the narrative
+158,0,ARISTA,Q431576,high,existing link; full name in the narrative
+158,1,TAYLOR,Q11896,high,existing link; full name in the narrative
+159,0,TAYLOR,Q11896,high,existing link; full name in the narrative
+159,1,SANTA ANNA,Q189145,high,
+160,0,SANTA ANNA,Q189145,high,
+160,1,SCOTT,Q354759,high,existing link; full name in the narrative
+161,0,VALENCIA,Q1208779,high,existing link; full name in the narrative
+161,1,PILLOW,Q2603914,high,
+162,0,SANTA ANNA,Q189145,high,
+162,1,SCOTT,Q354759,high,existing link; full name in the narrative
+163,0,SANTA ANNA,Q189145,high,
+163,1,WORTH,Q3568734,high,existing link; full name in the narrative
+164,0,SANTA ANNA,Q189145,high,
+164,1,SCOTT,Q354759,high,existing link; full name in the narrative
+165,0,MENSHIKOV,Q374393,high,
+165,1,RAGLAN,Q335138,high,"Current link is Saint-Arnaud (died 29 Sept 1854, before Inkerman); swapped with Saint-Arnaud record."
+165,1,SAINT-ARNAUD,Q115687,high,Current link is Raglan; swapped. Saint-Arnaud commanded the French at the Alma.
+166,0,CANROBERT,Q551525,high,
+166,0,RAGLAN,Q335138,high,"Current link is Saint-Arnaud (died 29 Sept 1854, before Inkerman); swapped with Saint-Arnaud record."
+166,1,MENSHIKOV,Q374393,high,
+167,0,GYULAI,Q698020,high,
+167,1,NAPOLEON III,Q7721,high,
+168,0,FRANZ JOSEPH I,Q51056,high,
+168,1,NAPOLEON III,Q7721,high,existing link; full name in the narrative
+169,0,BENEDEK,Q78563,high,existing link; full name in the narrative
+169,1,MOLTKE,Q44205,high,
+170,0,ARCHDUKE ALBERT,Q310807,high,
+170,1,LA MARMORA,Q471272,high,
+171,0,BEAUREGARD,Q313976,high,
+171,0,JOHNSTON,Q439669,high,existing link; full name in the narrative
+171,1,MACDOWELL,Q707558,high,
+172,0,MCCULLOCH,Q2008915,high,
+172,1,LYON,Q517116,high,existing link; full name in the narrative
+173,0,POLK,Q1368292,high,
+173,1,GRANT,Q34836,high,
+174,0,THOMAS,Q740330,high,"Current link is Crittenden, a Confederate opponent; Thomas commanded Union forces at Mill Springs."
+174,1,ZOLLICOFFER,Q1403915,high,existing link; full name in the narrative
+175,0,GRANT,Q34836,high,
+175,1,FLOYD,Q542938,high,existing link; full name in the narrative
+176,0,CURTIS,Q197539,high,existing link; full name in the narrative
+176,1,VAN DORN,Q1246956,high,
+177,0,SHIELDS,Q923522,high,
+177,1,JACKSON,Q216124,high,existing link; full name in the narrative
+178,0,GRANT,Q34836,high,
+178,1,A. S. JOHNSTON,Q361140,high,existing link; full name in the narrative
+179,0,KENLY,Q6254485,high,
+179,1,JACKSON,Q216124,high,Current link is Robert E. Lee; Jackson led the Valley Army at Front Royal.
+180,0,BANKS,Q714106,high,
+180,1,JACKSON,Q216124,high,
+181,0,EWELL,Q431200,high,existing link; full name in the narrative
+181,1,FREMONT,Q169011,high,existing link; full name in the narrative
+182,0,TYLER,Q5384999,high,
+182,1,JACKSON,Q216124,high,existing link; full name in the narrative
+183,0,MCCLELLAN,Q310192,high,
+183,1,J. E. JOHNSTON,Q439669,high,existing link; full name in the narrative
+183,1,SMITH,Q1556831,high,
+184,0,PORTER,Q1421282,high,existing link; full name in the narrative
+184,1,LEE,Q165557,high,existing link; full name in the narrative
+185,0,PORTER,Q1421282,high,
+185,1,LEE,Q165557,high,
+186,0,HEINTZELMAN,Q1594218,high,
+186,0,PORTER,Q1421282,high,
+186,0,SUMNER,Q887218,high,
+186,1,LEE,Q165557,high,
+187,0,MCCLELLAN,Q310192,high,
+187,1,LEE,Q165557,high,
+188,0,JACKSON,Q216124,high,
+188,1,BANKS,Q714106,high,
+189,0,LEE,Q165557,high,
+189,1,POPE,Q465291,high,
+190,0,D. H. HILL,Q1161058,high,
+190,1,MCCLELLAN,Q310192,high,
+191,0,LEE,Q165557,high,
+191,1,MCCLELLAN,Q310192,high,
+192,0,VAN DORN,Q1246956,high,
+192,1,ROSECRANS,Q541708,high,existing link; full name in the narrative
+193,0,BRAGG,Q380562,high,existing link; full name in the narrative
+193,1,BUELL,Q724339,high,"Current link is the Battle of Perryville, not the commander."
+194,0,LEE,Q165557,high,
+194,1,BURNSIDE,Q355444,high,existing link; full name in the narrative
+195,0,ROSECRANS,Q541708,high,existing link; full name in the narrative
+195,1,BRAGG,Q380562,high,existing link; full name in the narrative
+196,0,LEE,Q165557,high,existing link; full name in the narrative
+196,1,HOOKER,Q315597,high,existing link; full name in the narrative
+197,0,PEMBERTON,Q731456,high,existing link; full name in the narrative
+197,1,GRANT,Q34836,high,
+198,0,STUART,Q313583,high,
+198,1,PLEASANTON,Q2520510,high,
+199,0,MEADE,Q297121,high,existing link; full name in the narrative
+199,1,LEE,Q165557,high,
+200,0,ROSECRANS,Q541708,high,
+200,1,BRAGG,Q380562,high,existing link; full name in the narrative
+201,0,BRAGG,Q380562,high,existing link; full name in the narrative
+201,1,GRANT,Q34836,high,existing link; full name in the narrative
+202,0,LEE,Q165557,high,existing link; full name in the narrative
+202,1,GRANT,Q34836,high,existing link; full name in the narrative
+203,0,LEE,Q165557,high,existing link; full name in the narrative
+203,1,GRANT,Q34836,high,existing link; full name in the narrative
+204,0,SIGEL,Q63190,high,existing link; full name in the narrative
+204,1,BRECKINRIDGE,Q273212,high,existing link; full name in the narrative
+205,0,LEE,Q165557,high,existing link; full name in the narrative
+205,1,GRANT,Q34836,high,existing link; full name in the narrative
+206,0,JOHNSTON,Q439669,high,existing link; full name in the narrative
+206,1,SHERMAN,Q188936,high,
+207,0,THOMAS,Q740330,high,
+207,1,HOOD,Q553533,high,
+208,0,MCPHERSON,Q1354905,high,existing link; full name in the narrative
+208,1,HOOD,Q553533,high,
+209,0,BEAUREGARD,Q313976,high,
+209,1,BUTLER,Q817488,high,
+210,0,HILL,Q358391,high,
+210,1,WARREN,Q1460144,high,
+211,0,EARLY,Q257497,high,existing link; full name in the narrative
+211,1,SHERIDAN,Q355452,high,existing link; full name in the narrative
+212,0,SHERIDAN,Q355452,high,existing link; full name in the narrative
+212,1,EARLY,Q257497,high,existing link; full name in the narrative
+213,0,SCHOFIELD,Q996047,high,existing link; full name in the narrative
+213,1,HOOD,Q553533,high,
+214,0,HOOD,Q553533,high,
+214,1,THOMAS,Q740330,high,
+215,0,SHERMAN,Q188936,high,
+215,1,JOHNSTON,Q439669,high,existing link; full name in the narrative
+216,0,PICKETT,Q454069,high,existing link; full name in the narrative
+216,1,SHERIDAN,Q355452,high,existing link; full name in the narrative
+217,0,PICKETT,Q454069,high,existing link; full name in the narrative
+217,1,SHERIDAN,Q355452,high,existing link; full name in the narrative
+218,0,FORREST,Q366102,high,
+218,1,WILSON,Q3806582,high,existing link; full name in the narrative
+219,0,ANDERSON,Q1344911,medium,Anderson commanded the Confederate force at Sailor's Creek; no snippet to confirm.
+219,0,EWELL,Q431200,high,
+219,1,SHERIDAN,Q355452,high,
+219,1,WRIGHT,Q2744270,high,
+220,0,DOUAY,Q318402,high,existing link; full name in the narrative
+220,1,FRIEDRICH WILHELM,Q58600,high,
+221,0,MACMAHON,Q158838,high,
+221,1,FRIEDRICH WILHELM,Q58600,high,
+222,0,FROSSARD,Q573644,high,
+222,1,STEINMETZ,Q61474,high,existing link; full name in the narrative
+223,0,BAZAINE,Q81518,high,
+223,1,MOLTKE,Q44205,high,
+224,0,BAZAINE,Q81518,high,
+224,1,MOLTKE,Q44205,high,
+225,0,MACMAHON (WIMPFEN),Q158838,medium,Wimpffen replaced wounded MacMahon during Sedan; MacMahon opened as army commander. Wimpffen not linked.
+225,1,MOLTKE,Q44205,high,
+226,0,VON DER TANN,Q76454,high,
+226,1,AURELLE,Q567331,high,existing link; full name in the narrative
+227,0,AURELLE,Q567331,high,
+227,1,FRIEDRICH KARL,Q60505,high,
+228,0,CHANZY,Q239760,high,existing link; full name in the narrative
+228,1,FRIEDRICK KARL,Q60505,high,
+229,0,WERDER,Q64634,high,existing link; full name in the narrative
+229,1,BOURBAKI,Q249976,high,
+230,0,PULLEINE,Q5727281,high,
+230,1,MAVUMENGWANA,,,Was linked to his co-commander Ntshingwayo Khoza; a distinct person. Wikidata/enwiki searches found no separate item.
+230,1,TSHINGWAYO,Q1477522,high,
+231,0,CHELMSFORD,Q336300,high,
+231,1,CETEWAYO,Q380403,high,
+232,0,COLLEY,Q679286,high,
+232,1,SMIDT,Q13035631,high,
+233,0,ARABI,Q365919,high,
+233,1,WOLSELEY,Q336077,high,existing link; full name in the narrative
+234,0,KITCHENER,Q216129,high,existing link; full name in the narrative
+234,1,ABDULLAHINI,Q307678,high,
+235,0,BARATIERI,Q733360,high,existing link; full name in the narrative
+235,1,MENELIK II,Q244748,high,
+236,0,CRONJE,Q591879,high,
+236,0,DE LA REY,Q380938,high,
+236,1,METHUEN,Q336745,high,existing link; full name in the narrative
+237,0,CRONJE,Q591879,high,existing link; full name in the narrative
+237,1,METHUEN,Q336745,high,existing link; full name in the narrative
+238,0,BOTHA,Q159397,high,existing link; full name in the narrative
+238,1,BULLER,Q726293,high,existing link; full name in the narrative
+239,0,JOUBERT,Q469797,medium,CDB90 names Joubert as overall Boer commander; Louis Botha led the field action at Spion Kop.
+239,1,BULLER,Q726293,high,existing link; full name in the narrative
+240,0,CRONJE,Q591879,high,existing link; full name in the narrative
+240,1,ROBERTS,Q335008,high,existing link; full name in the narrative
+241,0,LINARES,Q4796482,high,
+241,1,SHAFTER,Q582285,high,
+242,0,ZASULICH,Q887944,high,
+242,1,TAMEMOTO KUROKI,Q1319672,high,existing link; full name in the narrative
+243,0,STAKELBERG,Q444008,high,
+243,1,OKU,Q968012,high,
+244,0,KUROPATKIN,Q527156,high,existing link; full name in the narrative
+244,1,OYAMA,Q359819,high,existing link; full name in the narrative
+245,0,OYAMA,Q359819,high,existing link; full name in the narrative
+245,1,KUROPATKIN,Q527156,high,existing link; full name in the narrative
+246,0,OYAMA,Q359819,high,
+246,1,GRIPPENBERG,Q2995312,high,
+247,0,KUROPATKIN,Q527156,high,
+247,1,OYAMA,Q359819,high,
+248,0,ZEHKI PASHA,Q27883,high,
+248,1,GEN PUTNIK,Q313133,medium,Putnik was Serbian chief of staff; 1st Army was led by Petar Bojovic. Kept as CDB90 names Putnik.
+249,0,ABDALLA PASHA,Q3656768,high,
+249,1,GEN DIMITRIEV,Q2620533,high,existing link; full name in the narrative
+250,1,GEN PUTNIK,Q313133,medium,Putnik was Serbian chief of staff; 1st Army was led by Petar Bojovic. Kept as CDB90 names Putnik.
+251,0,KARA SAID PASHA,,,Searched Wikidata and enwiki; no matching item.
+251,1,GEN PUTNIK,Q313133,high,existing link; full name in the narrative
+252,0,SHUKRI PASHA,Q4548295,high,
+252,1,GEN IVANHOFF,Q7035541,high,
+253,0,TUKHACHEVSKI,Q142141,high,
+253,1,PILSUDSKI,Q885,high,
+254,0,TUKHACHEVSKI,Q142141,high,
+254,1,PILSUDSKI,Q885,high,
+255,0,GEN MIAJA,Q1659005,high,
+255,1,GEN ROATTA,Q165220,high,existing link; full name in the narrative
+256,0,COL GREBENNIK,Q4148253,high,Commanded 59th Border Detachment at Khasan 1938.
+256,1,COL SATO,Q571045,medium,Sato led 75th Inf Rgt; inferred
+257,0,LG SUETAKA,Q11042064,high,Commanded Japanese 19th Division at Khasan.
+257,1,MARSHAL BLUCHER,Q48129,high,
+258,0,LG SUETAKA,Q11042064,high,Commanded Japanese 19th Division at Khasan.
+258,1,MARSHAL BLUCHER,Q48129,high,
+259,0,MAJ BYKOV,,,Searched Wikidata and enwiki; no matching item.
+259,1,COL YAMAGATA,Q112240171,high,"Commanded 64th Inf Rgt, killed at Nomonhan 1939."
+260,0,LG OGISU,Q11618991,high,Commanded Japanese 6th Army at Nomonhan.
+260,1,GEN ZHUKOV,Q124617,high,
+261,0,GEN SELENTSOV,Q502124,medium,Commanded Soviet 163rd Division at Suomussalmi; CDB90 spelling Selentsov.
+261,1,COL SIILASVUO,Q442464,high,
+262,0,GEN MOLTKE,Q57130,high,Current is the Elder (d.1891); 1914 chief of staff was the Younger.
+262,1,GEN JOFFRE,Q207958,high,
+263,0,GEN JOFFRE,Q207958,high,existing link; full name in the narrative
+263,1,GEN MOLTKE,Q57130,high,Current is the Elder (d.1891); 1914 chief of staff was the Younger.
+264,0,GEN MOLTKE,Q57130,high,Current is the Elder (d.1891); 1914 chief of staff was the Younger.
+264,1,GEN JOFFRE,Q207958,high,existing link; full name in the narrative
+265,0,GEN LANREZAC,Q725621,high,existing link; full name in the narrative
+265,1,GEN BUELOW,Q61030,high,
+266,0,FM FRENCH,Q335059,high,
+266,1,GEN KLUCK,Q60252,high,existing link; full name in the narrative
+267,0,FM FRENCH,Q335059,high,
+267,1,GEN KLUCK,Q60252,high,existing link; full name in the narrative
+268,0,GEN LANREZAC,Q725621,high,existing link; full name in the narrative
+268,1,GEN BUELOW,Q61030,high,
+269,0,GEN JOFFRE,Q207958,high,
+269,1,GEN MOLTKE,Q57130,high,Current is the Elder (d.1891); 1914 chief of staff was the Younger.
+270,0,GEN GRONAU,Q78160,high,existing link; full name in the narrative
+270,1,GEN MOUNOURY,Q81042,high,
+271,0,GEN KLUCK,Q60252,high,existing link; full name in the narrative
+271,1,GEN MAUNOURY,Q81042,high,existing link; full name in the narrative
+272,0,GEN BUELOW,Q61030,high,
+272,1,GEN FRANCHET D'ESPEREY,Q360859,high,
+273,0,GEN KLUCK,Q60252,high,existing link; full name in the narrative
+273,1,FM FRENCH,Q335059,high,
+274,0,GEN FOCH,Q192615,high,existing link; full name in the narrative
+274,1,GEN HAUSEN,Q67160,high,existing link; full name in the narrative
+275,0,GEN LANGLE DE CARY,Q1224806,high,existing link; full name in the narrative
+275,1,DK OF WUERTTEMBURG,Q60504,high,
+276,0,GEN SARRAIL,Q176522,high,existing link; full name in the narrative
+276,1,CR PR WILHELM,Q57621,high,existing link; full name in the narrative
+277,0,GEN FALKENHAYN,Q57153,high,Current is Ludwig von Falkenhausen; Aisne 1914 Falkenhayn took over as chief of staff.
+277,1,GEN JOFFRE,Q207958,high,existing link; full name in the narrative
+278,0,GEN VON FRANCOIS,Q63715,high,existing link; full name in the narrative
+278,1,GEN RENNENKAMPF,Q4012,medium,Army commander inferred for 3rd Corps action
+279,0,GEN RENNENKAMPF,Q4012,high,
+279,1,GEN VON PRITTWITZ,Q61022,high,
+280,0,GEN SAMSONOV,Q504378,high,existing link; full name in the narrative
+280,1,GEN VON HINDENBURG,Q2667,high,
+281,0,GEN RENNENKAMPF,Q4012,high,
+281,1,GEN VON HINDENBURG,Q2667,high,
+282,0,GEN SALZA,Q1985942,high,
+282,1,GEN DANKL,Q78781,high,
+283,0,GEN PLEHVE,Q1858607,high,
+283,1,GEN AUFFENBERG,Q78790,high,
+284,0,GEN IVANOV,Q1190083,high,
+284,1,GEN BRUDERMAN,Q3445409,high,
+285,0,GEN IVANOV,Q1190083,high,
+285,1,GEN CONRAD,Q78521,medium,Listed person; he was not at Caporetto.
+286,0,GRAND DK NICHOLAS,Q160869,high,
+286,1,GEN MACKENSEN,Q76909,high,
+287,0,FM PUTNIK,Q313133,high,existing link; full name in the narrative
+287,1,GEN POTIAREK,Q93364,high,
+288,0,GEN POTIOREK,Q93364,high,
+288,1,FM PUTNIK,Q313133,high,
+289,0,GEN HAUSEN,Q67160,high,existing link; full name in the narrative
+289,1,GEN LANGLE DE CARY,Q1224806,high,existing link; full name in the narrative
+290,0,CR PR RUPPRECHT,Q44893,high,existing link; full name in the narrative
+290,1,GEN HAIG,Q312564,high,existing link; full name in the narrative
+291,0,GEN SMITH-DORRIEN,Q532574,high,existing link; full name in the narrative
+291,1,DK OF WUERTTEMBERG,Q60504,high,
+292,0,CR PR RUPPRECHT,Q44893,high,existing link; full name in the narrative
+292,1,GEN HAIG,Q312564,high,existing link; full name in the narrative
+293,0,CR PR RUPPRECHT,Q44893,high,
+293,1,GEN HAIG,Q312564,high,existing link; full name in the narrative
+294,0,GEN SIEVERS,Q551287,high,
+294,1,GEN HINDENBURG,Q2667,high,existing link; full name in the narrative
+295,0,GEN DIMITRIEV,Q2620533,high,
+295,1,GEN MACKENSEN,Q76909,high,existing link; full name in the narrative
+296,0,GEN BOROJEVIC,Q93363,high,
+296,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+297,0,GEN BOROJEVIC,Q93363,high,
+297,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+298,0,GEN BOROJEVIC,Q93363,high,
+298,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+299,0,GEN BOROJEVIC,Q93363,high,
+299,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+300,0,GEN LIMAN VON SANDERS,Q57470,high,existing link; full name in the narrative
+300,1,GEN HAMILTON,Q699617,high,existing link; full name in the narrative
+301,0,GEN LIMAN VON SANDERS,Q57470,medium,Liman von Sanders led 5th Army; inferred for divs
+301,1,LG STOPFORD,Q3087170,high,existing link; full name in the narrative
+302,0,NUR-UD-DIN PASHA,Q982721,high,
+302,1,MG TOWNSHEND,Q333688,high,existing link; full name in the narrative
+303,0,NUR-UD-DIN PASHA,Q982721,high,
+303,1,MG TOWNSHEND,Q333688,high,existing link; full name in the narrative
+304,0,GEN BELOW,Q77414,high,existing link; full name in the narrative
+304,1,GEN FAYOLLE,Q81184,high,existing link; full name in the narrative
+304,1,GEN RAWLINSON,Q958348,high,existing link; full name in the narrative
+305,0,GEN BELOW,Q77414,high,existing link; full name in the narrative
+305,1,GEN RAWLINSON,Q958348,high,existing link; full name in the narrative
+306,1,MG HUDSON,Q3783704,high,
+307,0,GEN BELOW,Q77414,medium,"Fritz von Below army cmdr; 3rd Guards Div action, inferred"
+307,1,GEN RAWLINSON,Q958348,high,
+308,0,GEN BELOW,Q77414,high,
+308,1,GEN HAIG,Q312564,high,
+309,0,ABDUL KERIM PASHA,Q318076,high,existing link; full name in the narrative
+309,1,GEN YUDENICH,Q261965,high,
+310,0,GEN EICHHORN,Q61023,high,existing link; full name in the narrative
+310,1,GEN SMIRNOV,Q4424633,high,
+311,0,GEN CONRAD,Q78521,medium,Listed person; he was not at Caporetto.
+311,1,GEN BRUSILOV,Q207738,high,
+312,0,GEN BOROJEVIC,Q93363,high,
+312,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+313,0,GEN PECORI-GIRALDI,Q1443863,high,
+313,1,GEN CONRAD,Q78521,medium,Listed person; he was not at Caporetto.
+314,0,GEN CONRAD,Q78521,medium,Listed person; he was not at Caporetto.
+314,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+315,0,GEN BOROJEVIC,Q93363,high,
+315,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+316,0,GEN FALKENHAUSEN,Q73415,high,
+316,1,FM HAIG,Q312564,high,existing link; full name in the narrative
+317,0,BELOW,Q77414,high,Current is Karl von Buelow; 1st Army at Aisne 1917 was Fritz von Below.
+317,0,GENS BOEHN,Q73402,high,
+317,1,GEN NIVELLE,Q49448,high,existing link; full name in the narrative
+318,0,GEN ARNIM,Q73384,high,
+318,1,GEN PLUMER,Q336040,high,existing link; full name in the narrative
+319,0,GEN ARNIM,Q73384,high,
+319,1,FM HAIG,Q312564,high,
+320,0,GEN MARWITZ,Q62476,high,
+320,1,GEN BYNG,Q334974,high,
+321,0,GEN BYNG,Q334974,high,
+321,1,GEN MARWITZ,Q62476,high,
+322,0,GEN BOROJEVIC,Q93363,high,
+322,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+323,0,GEN BOROJEVIC,Q93363,high,
+323,1,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+324,0,GEN CADORNA,Q333809,high,existing link; full name in the narrative
+324,1,GEN CONRAD,Q78521,medium,Listed person; he was not at Caporetto.
+325,0,NUR-UD-DIN PASHA,Q982721,medium,Khalil Pasha led 1917; snippet names Nur-ud-Din
+325,1,GEN MAUDE,Q1320918,high,
+326,0,GEN KRESS VON KRESSENSTEIN,Q61808,high,
+326,1,GEN MURRAY,Q2668631,high,
+327,0,GEN KRESS VON KRESSENSTEIN,Q61808,high,
+327,1,GEN MURRAY,Q2668631,high,
+328,0,GEN KRESS VON KRESSENSTEIN,Q61808,high,
+328,1,GEN ALLENBY,Q334846,high,existing link; full name in the narrative
+329,0,GEN KRESS VON KRESSENSTEIN,Q61808,high,
+329,1,GEN ALLENBY,Q334846,high,existing link; full name in the narrative
+330,0,FM HAIG,Q312564,high,
+330,1,GEN LUDENDORFF,Q58579,high,
+331,0,FM HAIG,Q312564,high,
+331,1,GEN LUDENDORFF,Q58579,high,
+332,0,FM HAIG,Q312564,high,
+332,1,GEN LUDENDORFF,Q58579,high,
+333,0,COL UPTON,,,"Emory Upton (Q3724772) d.1881, rejected; 1918 namesake unidentified."
+333,1,MAJ GROTHE,,,Searched Wikidata and enwiki; no matching item.
+334,0,GEN DOUCHENE,Q3022525,high,
+334,1,CR PR WILHELM,Q57621,high,
+335,0,COL FREDERICHS,,,Searched Wikidata and enwiki; no matching item.
+335,1,COL ELY,Q55264611,high,Commanded 28th Infantry at Cantigny.
+336,0,GEN CONTA,Q106849,high,
+336,1,BG HARBORD,Q3161134,high,
+337,1,MAJ TURRILL,Q117290034,high,"USMC 1876-1943; led 1/5 Marines at Hill 142, 6 Jun 1918 (DSC citation)."
+338,0,MAJ HARTLIEB,,,Searched Wikidata and enwiki; no matching item.
+338,1,MAJ BERRY,,,Searched Wikidata and enwiki; no matching item.
+339,0,MAJ BISCHOFF,,,Searched Wikidata and enwiki; no matching item.
+339,1,MAJ SIBLEY,Q131605454,medium,"Marine major, 6th Marines at Bouresches; item has no enwiki page."
+340,0,LCOL ROTENBUCHER,,,Searched Wikidata and enwiki; no matching item.
+340,1,COL MALONE,Q18331356,high,
+341,0,MAJ HARTLIEB,,,Searched Wikidata and enwiki; no matching item.
+341,1,MAJ WISE,,,"Frederic M. Wise likely; searched Wikidata/enwiki variants, no item."
+342,0,MAJ HARTLIEB,,,Searched Wikidata and enwiki; no matching item.
+342,1,MAJ WISE,,,"Frederic M. Wise likely; searched Wikidata/enwiki variants, no item."
+343,0,MAJ SHEARER,Q6793045,medium,Bn cmdr inferred from unit
+344,1,LCOL ADAMS,,,Searched Wikidata and enwiki; no matching item.
+345,0,CPT KARLBERG,,,Searched Wikidata and enwiki; no matching item.
+345,1,MAJ SHEARER,Q6793045,medium,Bn cmdr inferred from unit
+346,0,CPT KARLBERG,,,Searched Wikidata and enwiki; no matching item.
+346,1,MAJ SHEARER,Q6793045,medium,Bn cmdr inferred from unit
+347,1,BG LEWIS,Q17626937,medium,"3rd Bde, 2nd Div commander in 1918, from memory of command history."
+348,1,MAJ BOUTON,,,Searched Wikidata and enwiki; no matching item.
+349,1,MAJ ELLIOT,,,Searched Wikidata and enwiki; no matching item.
+350,0,GEN FRANCHET D'ESPEREY,Q360859,high,
+350,1,CR PR WILHELM,Q57621,high,
+351,0,GEN FRANCHET D'ESPEREY,Q360859,high,
+351,1,CR PR WILHELM,Q57621,high,
+352,0,GEN EBEN,Q125845,high,
+352,1,GEN MANGIN,Q508659,high,
+353,0,LG KNEUSSL,Q125799,low,"Listed name; Bavarian general alive 1918, but his command in Soissons sector unconfirmed."
+353,1,COL SMITH,,,Searched Wikidata and enwiki; no matching item.
+354,0,COL CARL,,,Searched Wikidata and enwiki; no matching item.
+354,1,COL BABCOCK,,,Searched Wikidata and enwiki; no matching item.
+355,0,LG KNEUSSL,Q125799,low,"Listed name; Bavarian general alive 1918, but his command in Soissons sector unconfirmed."
+355,1,MAJ HUEBNER,Q2975571,high,Huebner commanded 2/28th Inf at Soissons.
+356,0,CPT STOCKMAR,,,Searched Wikidata and enwiki; no matching item.
+356,1,MAJ WADDILL,,,Searched Wikidata and enwiki; no matching item.
+357,0,COL STENGEL,,,Searched Wikidata and enwiki; no matching item.
+357,1,BG HINES,Q6243604,high,
+358,0,COL BUCHHOLTZ,,,Searched Wikidata and enwiki; no matching item.
+358,1,COL PARKER,Q5488889,medium,Colonel Parker led 18th Infantry at Soissons; battalion-level row.
+359,0,CR PR WILHELM,Q57621,high,
+359,1,GEN FOCH,Q192615,high,
+360,0,BARON VON TOLL,,,Searched Wikidata and enwiki; no matching item.
+360,1,GEN SUMMERALL,Q5081580,high,
+361,0,COL OTTO,,,Searched Wikidata and enwiki; no matching item.
+361,1,GEN SUMMERALL,Q5081580,high,
+362,0,CR PR RUPPRECHT,Q44893,high,
+362,1,FM HAIG,Q312564,high,
+363,0,CR PR RUPPRECHT,Q44893,high,
+363,1,FM HAIG,Q312564,high,
+364,0,GEN FUCHS,Q125840,high,
+364,1,GEN PERSHING,Q272383,high,
+365,0,CPT GERLACH,,,Searched Wikidata and enwiki; no matching item.
+365,1,BG BAMFORD,Q26258801,high,
+366,0,GEN EINEM,Q62716,high,
+366,1,GEN PERSHING,Q272383,high,
+367,0,GEN NIDDA,Q1580875,medium,"General der Kavallerie, commanded XII Saxon Corps from 8 Sep 1917; Wikidata item has no enwiki page."
+367,1,MG LEJEUNE,Q4591657,high,Commanded US 2nd Div at Blanc Mont.
+368,0,MAJ DOERSTLING,,,Searched Wikidata and enwiki; no matching item.
+368,1,LCOL ARNOLD,,,Searched Wikidata and enwiki; no matching item.
+369,0,MAJ WEBENDOERFER,,,Searched Wikidata and enwiki; no matching item.
+369,1,COL HUNT,,,Searched Wikidata and enwiki; no matching item.
+370,0,MAJ GRUNDELL,,,Searched Wikidata and enwiki; no matching item.
+370,1,COL LEE,Q5670514,medium,Harry Lee led 6th Marines units in 1918; Blanc Mont command not confirmed.
+371,0,MAJ DOERSTLING,,,Searched Wikidata and enwiki; no matching item.
+372,0,MG HAMMERSTEIN,Q1583412,low,"Listed name; Hammerstein-Gesmold listed among 213th Div commanders by French wiki, dates unconfirmed."
+372,1,MG SMITH,Q8017877,medium,Commanded US 36th Division in 1918.
+373,0,GEN LUDENDORFF,Q58579,medium,Ludendorff as OHL head; army-level cmd uncertain
+373,1,GEN FOCH,Q192615,medium,4th Army at Meuse-Argonne was Gouraud; kept Foch as named
+374,0,COL SCHONSTADT,,,Searched Wikidata and enwiki; no matching item.
+374,1,COL HUNT,,,Searched Wikidata and enwiki; no matching item.
+375,0,CPT KAESBACH,,,Searched Wikidata and enwiki; no matching item.
+375,1,COL ERICKSON,,,Searched Wikidata and enwiki; no matching item.
+376,0,CPT GACKENHOLZ,,,Searched Wikidata and enwiki; no matching item.
+376,1,COL BARNHARDT,Q26263350,medium,Commanded 28th Infantry; dates in Oct 1918 not independently confirmed.
+377,0,MAJ PLEHWE,,,Searched Wikidata and enwiki; no matching item.
+377,1,LCOL COPPOCK,,,Searched Wikidata and enwiki; no matching item.
+378,0,LCOL IHLENFELD,,,Searched Wikidata and enwiki; no matching item.
+378,1,COL ERICKSON,,,Searched Wikidata and enwiki; no matching item.
+379,0,MAJ BRUNS,,,Searched Wikidata and enwiki; no matching item.
+379,1,COL HUNT,,,Searched Wikidata and enwiki; no matching item.
+380,0,MAJ KRAUSE,,,Searched Wikidata and enwiki; no matching item.
+380,1,MAJ RYDER,Q371724,high,Ryder commanded 1/16th Inf 1918.
+381,0,GEN GALLWITZ,Q62428,high,
+381,1,GEN PERSHING,Q272383,high,
+382,0,LG LEWINSKI,Q1733634,medium,Karl von Lewinski commanded jaeger-battalion 195th Div Oct-Nov 1918; fits Remilly-Aillicourt. Unit link inferred.
+382,1,MAJ RYDER,Q371724,high,Ryder commanded 1/16th Inf 1918.
+383,0,GEN HANSTEIN,,,"Searched, no item."
+383,1,COL HARREL,,,Searched Wikidata and enwiki; no matching item.
+384,0,GEN DIEZ,Q333778,high,
+384,1,ARCHDUKE EUGENE,Q78578,high,
+385,0,GEN LIMAN VON SANDERS,Q57470,high,
+385,1,GEN ALLENBY,Q334846,high,
+386,0,LG MONTGOMERY,Q152025,high,existing link; full name in the narrative
+386,1,GFM ROMMEL,Q14060,high,existing link; full name in the narrative
+387,0,GFM ROMMEL,Q14060,high,existing link; full name in the narrative
+387,1,LG MONTGOMERY,Q152025,high,existing link; full name in the narrative
+388,0,GENS STUMM,Q58745,medium,Commanded Panzer Army Africa at start of Lightfoot (Oct 1942); CDB90 spelling Stumm.
+388,0,THOMA,Q60566,high,Commanded Afrika Korps at Lightfoot 1942.
+388,1,LG MONTGOMERY,Q152025,high,
+389,0,FM ROMMEL,Q14060,high,
+389,1,LG MONTGOMERY,Q152025,high,
+390,0,FM ROMMEL,Q14060,high,
+390,1,LG MONTGOMERY,Q152025,high,
+391,0,LCOL WATERS,Q6242412,medium,Led Task Force Waters at Chouigui Pass Dec 1942; rank/battalion inferred.
+391,1,COL BROICH,Q95191,high,
+392,0,MG ALLEN,Q716991,high,
+392,1,GEN BROICH,Q95191,medium,Broich took over 10th Pz Div in 1943; inferred
+393,0,LG BULOVIUS,Q930250,medium,"German general commanding forces at Sedjenane, Tunisia 1943; CDB90 spelling Bulovius."
+393,1,MG EDDY,Q323514,high,
+394,0,MG SIKENIUS,Q7377322,high,
+394,1,MG GRAHAM,Q5301198,high,
+395,0,MG SIKENIUS,Q7377322,high,
+395,1,MG HAWKESWORTH,Q3809321,high,
+396,0,MG SIKENIUS,Q7377322,high,
+396,1,MG MIDDLETON,Q665616,high,
+397,0,MG GRAHAM,Q5301198,high,
+397,1,MG SICKENIUS,Q7377322,high,
+398,0,MG HAWKESWORTH,Q3809321,high,
+398,1,MG SCHMALTZ,Q2564387,medium,Listed person; he took the HG Division only in Apr 1944 per other sources.
+399,0,MG MIDDLETON,Q665616,high,
+399,1,MG SICKENIUS,Q7377322,high,
+400,0,MG LUETTWITZ,Q63845,medium,26th Pz Div commander to Jan 1944; Heinrich von Lüttwitz is a different man.
+400,1,MG TEMPLER,Q2531866,low,"Listed person; 56th Div GOC in 1943 was Douglas Graham (Q5301198), Templer from Jan 1944."
+401,0,MG LUETTWITZ,Q63845,medium,26th Pz Div commander to Jan 1944; Heinrich von Lüttwitz is a different man.
+401,1,MG MIDDLETON,Q665616,high,
+402,0,MG HAWKESWORTH,Q3809321,high,
+402,1,MG SCHMALTZ,Q2564387,medium,Listed person; he took the HG Division only in Apr 1944 per other sources.
+403,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+403,1,MG ERSKINE,Q2092845,high,
+404,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+404,1,MG RYDER,Q371724,high,
+405,0,MG SCHMALTZ,Q2564387,medium,Listed person; he took the HG Division only in Apr 1944 per other sources.
+405,1,BG LYNE,Q6536811,high,"Brigadier, 169th Bde / acting GOC 56th Div Oct 1943."
+406,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+406,1,MG HAWKESWORTH,Q3809321,high,
+407,0,MG LUETTWITZ,Q63845,low,"Unit listed as 3rd PzGr Div, which Lüttwitz did not command; uncertain."
+407,1,MG MIDDLETON,Q665616,high,
+408,0,MG SCHMALTZ,Q2564387,medium,Listed person; he took the HG Division only in Apr 1944 per other sources.
+408,1,MG TRUSCOTT,Q2626460,high,
+409,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+409,1,MG RYDER,Q371724,high,
+410,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+410,1,MG ERSKINE,Q2092845,high,
+411,0,MG SCHMALTZ,Q2564387,medium,Listed person; he took the HG Division only in Apr 1944 per other sources.
+411,1,MG TEMPLER,Q2531866,low,"Listed person; 56th Div GOC in 1943 was Douglas Graham (Q5301198), Templer from Jan 1944."
+412,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+412,1,MG HAWKESWORTH,Q3809321,high,
+413,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+413,1,MG ERSKINE,Q2092845,high,
+414,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+414,1,MG RYDER,Q371724,high,
+415,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+415,1,MG TEMPLER,Q2531866,low,"Listed person; 56th Div GOC in 1943 was Douglas Graham (Q5301198), Templer from Jan 1944."
+416,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+416,1,MG TRUSCOTT,Q2626460,high,
+417,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+417,1,MG MIDDLETON,Q665616,high,
+418,0,MG TEMPLER,Q2531866,high,Took 56th Div from Graham 15 Oct 1943.
+418,1,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+419,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+419,1,MG TRUSCOTT,Q2626460,high,
+420,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+420,1,MG HAWKESWORTH,Q3809321,high,
+421,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+421,1,MG TEMPLER,Q2531866,low,"Listed person; 56th Div GOC in 1943 was Douglas Graham (Q5301198), Templer from Jan 1944."
+422,0,MG RODT,Q96893,medium,"15th PzGr Div; Baade commanded it Oct-20 Nov 1943, so Oct rows may be Baade."
+422,1,MG WALKER,Q15300213,high,
+423,0,LG GRAESER,Q69630,high,
+423,1,MG PENNEY,Q7365168,high,
+424,0,MG PENNEY,Q7365168,high,
+424,1,LG GRAESER,Q69630,high,
+425,0,LG GRAESER,Q69630,high,
+425,1,MG PENNEY,Q7365168,high,
+426,0,MG PENNEY,Q7365168,high,
+426,1,LG GRAESER,Q69630,high,
+427,0,MG PENNEY,Q7365168,high,
+427,1,LG GRAESER,Q69630,high,
+428,0,MG EAGLES,Q67153718,high,
+428,1,LG PFEIFFER,Q3129878,high,Kampfgruppe Pfeifer of 65th ID; CDB90 spelling Pfeiffer.
+429,0,MG PENNEY,Q7365168,high,
+429,1,LG GRAESER,Q69630,high,
+430,0,LG HILDEBRANDT,Q3783113,medium,"Commanded 715th ID Jan-Jul 1944; item lacks description, matched by birth/death years."
+430,1,MG EAGLES,Q67153718,high,
+431,0,MG EAGLES,Q67153718,high,
+431,1,GEN MACKENSEN,Q60899,high,Current is August von Mackensen; 1944 Anzio Fourteenth Army cmdr was Eberhard.
+432,0,MG TEMPLER,Q2531866,medium,
+432,1,GEN PFEIFFER,Q3129878,high,65th Inf Div commander Dec 1943-1945.
+433,0,MG EAGLES,Q67153718,high,
+433,1,LG BOURQUIN,,,Searched Wikidata and enwiki; no matching item.
+434,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+434,1,MG SLOAN,Q134112638,high,
+435,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+435,1,MG COULTER,Q15439328,high,
+436,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+436,1,MG COULTER,Q15439328,high,
+437,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+437,1,MG SLOAN,Q134112638,high,
+438,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+438,1,MG COULTER,Q15439328,high,
+439,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+439,1,MG SLOAN,Q134112638,high,
+440,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+440,1,MG SLOAN,Q134112638,high,
+441,0,MG STEINMETZ,Q61125729,medium,"Commanded 94th ID; item lacks description, matched by name and 1896-1981 dates."
+441,1,MG COULTER,Q15439328,high,
+442,0,COL TRETTNER,Q569380,high,
+442,1,MG GREGSON-ELLIS,Q7183649,high,
+443,0,MG ZIEHLBERG,Q92327,low,"Listed person; he left 65th ID Dec 1943, Pfeifer (Q3129878) commanded it in 1944."
+443,1,MG PENNEY,Q7365168,high,
+444,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+444,1,MG HARMON,Q5393596,medium,Unit given as 1st Inf Div but Harmon led 1st Armd Div
+445,0,LG GREINER,Q3129536,high,
+445,1,MG O'DANIEL,Q456657,high,
+446,0,MG FRIES,Q67427,high,
+446,1,MG COULTER,Q15439328,high,
+447,0,LG GREINER,Q3129536,high,
+447,1,MG HARMON,Q5393596,high,
+448,0,MG ZIEHLBERG,Q92327,low,"Listed person; he left 65th ID Dec 1943, Pfeifer (Q3129878) commanded it in 1944."
+448,1,MG EAGLES,Q67153718,high,
+449,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+449,1,MG RYDER,Q371724,high,
+450,0,COL TRETTNER,Q569380,high,
+450,1,MG GREGSON-ELLIS,Q7183649,high,
+451,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+451,1,MG HARMON,Q5393596,high,
+452,0,MG BAADE,Q66251,medium,"Listed person; unit label is the 3rd PzGr Div, which other sources give to another commander."
+452,1,MG RYDER,Q371724,high,
+453,0,MG SCHMALTZ,Q2564387,medium,HG Div commander from 16 Apr 1944.
+453,1,MG COULTER,Q15439328,high,
+454,0,MG ZIEHLBERG,Q92327,low,"Listed person; he left 65th ID Dec 1943, Pfeifer (Q3129878) commanded it in 1944."
+454,1,MG EAGLES,Q67153718,high,
+455,0,MG SCHMALTZ,Q2564387,medium,HG Div commander from 16 Apr 1944.
+455,1,MG O'DANIEL,Q456657,high,
+456,0,COL TRETTNER,Q569380,high,
+456,1,MG PENNEY,Q7365168,high,
+457,0,GEN SCHLEMM,Q71119,medium,I Para Corps commander in Italy 1944; 12th Para Rgt unit fits his corps.
+457,1,MG COULTER,Q15439328,high,
+458,0,GEN MEINDL,Q62768,high,
+458,1,MG GERHARDT,Q5078568,high,existing link; full name in the narrative
+459,0,GEN EBERBACH,Q60885,medium,Panzer Group West commander from 5 Jul 1944; unit listed as 86th Corps.
+459,1,LG DEMPSEY,Q540593,high,
+460,0,LG CHOLITZ,Q61222,high,
+460,1,MG COLLINS,Q301853,high,
+461,0,MG HOBBS,Q821183,high,
+461,1,GEN FUNCK,Q63830,high,
+462,0,GEN CHEVALLERIE,Q68452,high,
+462,1,MG SILVESTER,Q126051522,high,Item has no description.
+463,0,GEN MACHOLZ,Q3483402,medium,48th Inf Div commander 1944; not fully confirmed.
+463,1,MG SILVESTER,Q126051522,high,Item has no description.
+464,0,GEN CHEVALLERIE,Q68452,high,
+464,1,MG WALKER,Q484690,high,existing link; full name in the narrative
+465,0,GEN KNOBELSDORF,Q62764,high,
+465,1,MG WALKER,Q484690,high,
+466,0,GEN KNOBELSDORF,Q62764,high,
+466,1,MG WALKER,Q484690,high,
+467,0,MG WOOD,Q2729755,high,
+467,1,GEN KRUEGER,Q63320,medium,LVIII Pz Corps commander; not the SS general of the same name.
+468,0,GEN KOECHLING,Q693082,high,
+468,1,MG CORLETT,Q5078551,high,
+469,0,GEN STRAUBE,Q3056491,high,
+469,1,MG COTA,Q768816,high,
+470,0,GEN BALCK,Q61239,medium,Army Group G commander Sept-Dec 1944; unit 84th Corps looks wrong.
+470,1,MG EDDY,Q323514,high,existing link; full name in the narrative
+471,0,LG PRIESS,Q66693,high,XIII SS Corps commander Aug-Oct 1944.
+471,1,MG WOOD,Q2729755,high,
+472,0,LG WIETERSHEIM,Q63331,high,
+472,1,BG DAGER,Q124574351,high,
+473,0,LG PRIESS,Q66693,high,XIII SS Corps commander Aug-Oct 1944.
+473,1,MG EDDY,Q323514,high,
+474,0,LG WIETERSHEIM,Q63331,high,
+474,1,LCOL ABRAMS,Q280290,high,
+475,0,LG SIMON,Q63952,high,XIII SS Corps commander from 1 Nov 1944.
+475,1,MG EDDY,Q323514,high,existing link; full name in the narrative
+476,0,LG BAYERLEIN,Q60973,high,
+476,1,BG DAGER,Q124574351,high,
+477,0,LG BAYERLEIN,Q60973,high,
+477,1,MG WOOD,Q2729755,high,
+478,0,LG BAYERLEIN,Q60973,high,
+478,1,MG WOOD,Q2729755,high,
+479,0,LG SIMON,Q63952,high,XIII SS Corps commander from 1 Nov 1944.
+479,1,MG EDDY,Q323514,high,
+480,0,COL BURMEISTER,Q2863350,medium,Identified as 25th PzGr Div commander late 1944; dates not fully confirmed.
+480,1,MG WOOD,Q2729755,high,
+481,0,LG SIMON,Q63952,high,XIII SS Corps commander from 1 Nov 1944.
+481,1,MG EDDY,Q323514,high,
+482,0,COL BURMEISTER,Q2863350,medium,Identified as 25th PzGr Div commander late 1944; dates not fully confirmed.
+482,1,MG GAFFEY,Q5931325,medium,Wood vs Gaffey in 4th Armd Div around Dec 1944; inferred
+483,0,MG BARTON,Q3421072,high,
+483,1,MG SENSFUSS,Q19840709,high,
+484,0,BG HASBROUCK,Q94532747,medium,7th Armd Div commander; CCB itself was led by Bruce Clarke.
+484,1,GEN LUCHT,Q71718,high,
+485,0,COL ROBERTS,Q124608089,medium,"CCB 10th Armd Div at Bastogne; item has no description, matched on birth/death years."
+485,1,GEN VON LUETTWITZ,Q64291,high,XLVII Pz Corps at Bastogne; unit text garbled.
+486,0,GEN BILLOTTE,Q940480,medium,Listed person. Gaston Billotte led Army Group 1; 2nd Army at Sedan was Huntziger.
+486,1,GEN GUDERIAN,Q70560,high,Commanded XIX Panzer Corps at Sedan.
+487,0,MG MURRAY-LYON,Q5237837,high,Commanded 11th Indian Div at Jitra.
+487,1,LG MATSUI,Q1909098,high,Commanded Japanese 5th Division at Jitra.
+488,0,GEN KIRPONOS,Q390171,high,Commanded Southwestern Front 1941.
+488,1,GEN VON KLEIST,Q57137,high,Commanded 1st Panzer Group 1941.
+489,0,MARSHAL STALIN,Q855,medium,Supreme commander; actual front commanders were Zhukov/Konev. Taken literally from CDB90.
+489,1,FM VON BOCK,Q70534,high,Commanded Army Group Center 1941.
+490,0,FM VON BOCK,Q70534,high,Commanded Army Group Center 1941.
+490,1,MARSHAL STALIN,Q855,medium,Supreme commander; actual front commanders were Zhukov/Konev. Taken literally from CDB90.
+491,0,GEN MODEL,Q70536,high,Commanded 9th Army 1942.
+491,1,GEN REYTER,Q2991756,high,Commanded Soviet 20th Army Mar-Sep 1942.
+492,0,GEN LINDEMANN,Q60994,high,Commanded 18th Army.
+492,1,GEN ROMANOVSKIY,Q4397351,high,"Commanded 2nd Shock Army, Operation Spark."
+493,0,GEN CHISTYAKOV,Q4516618,high,Commanded 6th Guards Army.
+493,1,GEN KNOBELSDORFF,Q62764,high,Commanded XXXXVIII Panzer Corps.
+494,0,LG CHISTYAKOV,Q4516618,high,Commanded 6th Guards Army at Kursk.
+494,1,GEN HOTH,Q57150,high,Commanded 4th Panzer Army.
+495,0,GEN CHISTYAKOV,Q4516618,high,Commanded 6th Guards Army.
+495,1,GEN KNOBELSDORFF,Q62764,high,Commanded XXXXVIII Panzer Corps.
+496,0,GEN CHISTYAKOV,Q4516618,high,Commanded 6th Guards Army.
+496,1,GEN KNOBELSDORFF,Q62764,high,Commanded XXXXVIII Panzer Corps.
+497,0,GEN HAUSSER,Q57181,high,Commanded II SS Panzer Corps.
+497,1,GEN KONEV,Q185024,high,Commanded Steppe Front.
+498,0,GEN HOTH,Q57150,high,Commanded 4th Panzer Army.
+498,1,GEN VATUTIN,Q299364,high,Commanded Voronezh and 1st Ukrainian Fronts.
+499,0,LG TRIERENBERG,Q8029779,high,Commanded 167th Inf Div 11 Aug 1941-25 Nov 1943 per enwiki.
+499,1,GEN MANAGOROV,Q4280118,high,Commanded 53rd Army.
+500,0,GEN HOLLIDT,Q62758,high,Commanded 6th Army 1943.
+500,1,GEN TOLBUKHIN,Q48149,high,Commanded 4th Ukrainian Front.
+501,0,GEN STEMMERMAN,Q2568377,high,XI Corps commander encircled at Korsun; unit listed wrongly as 1st Pz Army.
+501,1,GEN VATUTIN,Q299364,high,Commanded Voronezh and 1st Ukrainian Fronts.
+503,0,GEN ALLMENDINGER,Q66230,high,
+503,1,GEN TOLBUKHIN,Q48149,high,Commanded 4th Ukrainian Front.
+504,1,LG OBUKHOV,Q2570051,high,
+505,0,GEN HARPE,Q57927,high,
+505,1,MARSHAL KONEV,Q185024,high,
+506,1,MG TERTISHNIY,Q4456335,high,Commanded 15th Rifle Corps from 7 Jun 1944.
+507,1,MG TERTISHNIY,Q4456335,high,Commanded 15th Rifle Corps from 7 Jun 1944.
+508,1,MG VOLKOV,Q4123355,high,Commanded 91st Rifle Corps from Aug 1943.
+509,1,MG VOLKOV,Q4123355,high,Commanded 91st Rifle Corps from Aug 1943.
+510,0,GEN FRIESSNER,Q60400,high,
+510,1,GEN MALINOVSKY,Q204338,high,
+511,0,GFM HARPE,Q57927,high,
+511,1,MARSHAL ZHUKOV,Q124617,high,
+512,0,GEN REINHARDT,Q60552,high,Commanded Army Group Center until 26 Jan 1945.
+512,1,MARSHAL ROKOSSOVSKIY,Q40482,high,
+513,1,GEN LYASHCHENKO,Q953245,high,Commanded 90th Rifle Div 1943-46; item described as politician but is the general.
+514,1,GEN LYASHCHENKO,Q953245,high,Commanded 90th Rifle Div 1943-46; item described as politician but is the general.
+515,1,MG ZALIZYUK,,,Searched Wikidata and enwiki; no matching item.
+516,0,GEN SELICHI,,,Not identified; Seiichi Kita matches only a guessed given name.
+516,1,COL GEN KRYLOV,Q48100,high,Commanded Soviet 5th Army in Manchuria 1945.
+517,0,ADM SHIBASAKI,Q164472,high,"Commanded Betio garrison, Tarawa."
+517,1,MG SMITH,Q3100137,high,Current is Holland Smith; Tarawa 2nd Marine Div commanded by Julian Smith.
+518,0,GEN KURIBAYASHI,Q297013,high,existing link; full name in the narrative
+518,1,MG SCHMIDT,Q5672232,high,existing link; full name in the narrative
+519,0,GEN KURIBAYASHI,Q297013,high,
+519,1,COL LIVERSEDGE,Q1280926,high,
+520,0,GEN KURIBAYASHI,Q297013,high,
+520,1,GEN SMITH,Q528235,medium,3rd Mar Div under Erskine; Holland Smith led corps; kept as named
+521,0,LCOL AOYANAGI,,,Searched Wikidata and enwiki; no matching item.
+521,1,MG ARNOLD,Q1045773,high,
+522,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+522,1,MG ARNOLD,Q1045773,high,
+523,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+523,1,MG ARNOLD,Q1045773,high,
+524,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+524,1,MG ARNOLD,Q1045773,high,
+525,0,LCOL YOSHIDA,,,Searched Wikidata and enwiki; no matching item.
+525,1,MG ARNOLD,Q1045773,high,
+526,0,LCOL YOSHIDA,,,Searched Wikidata and enwiki; no matching item.
+526,1,MG ARNOLD,Q1045773,high,
+527,0,LCOL YOSHIDA,,,Searched Wikidata and enwiki; no matching item.
+527,1,MG ARNOLD,Q1045773,high,
+528,0,MG ARNOLD,Q1045773,high,
+528,1,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+529,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+529,1,MG ARNOLD,Q1045773,high,
+530,0,LG USHIJIMA,Q1050388,high,
+530,1,MG ARNOLD,Q1045773,high,
+531,0,MG ARNOLD,Q1045773,high,
+531,1,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+532,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+532,1,MG ARNOLD,Q1045773,high,
+533,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+533,1,MG ARNOLD,Q1045773,high,
+534,0,LG USHIJIMA,Q1050388,high,
+534,1,MG ARNOLD,Q1045773,high,
+535,0,LG USHIJIMA,Q1050388,high,
+535,1,MG ARNOLD,Q1045773,high,
+536,0,LG USHIJIMA,Q1050388,high,
+536,1,MG ARNOLD,Q1045773,high,
+537,0,LG USHIJIMA,Q1050388,high,
+537,1,MG ARNOLD,Q1045773,high,
+538,0,LCOL AOYANAGI,,,Searched Wikidata and enwiki; no matching item.
+538,1,MG BRADLEY,Q108808230,high,96th Division commander.
+539,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+539,1,MG BRADLEY,Q108808230,high,96th Division commander.
+540,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+540,1,MG BRADLEY,Q108808230,high,96th Division commander.
+541,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+541,1,MG BRADLEY,Q108808230,high,96th Division commander.
+542,0,LG FUJIOKA,Q11032490,high,62nd Division commander on Okinawa.
+542,1,MG BRADLEY,Q108808230,high,96th Division commander.
+543,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+543,1,MG BRADLEY,Q108808230,high,96th Division commander.
+544,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+544,1,MG BRADLEY,Q108808230,high,96th Division commander.
+545,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+545,1,MG BRADLEY,Q108808230,high,96th Division commander.
+546,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+546,1,MG BRADLEY,Q108808230,high,96th Division commander.
+547,0,LG AMAMIYA,Q63972946,high,24th Division commander on Okinawa.
+547,1,MG BRADLEY,Q108808230,high,96th Division commander.
+548,0,LG USHIJIMA,Q1050388,high,
+548,1,MG BRADLEY,Q108808230,high,96th Division commander.
+549,0,LCOL EL KHALIDI,,,Searched Wikidata and enwiki; no matching item.
+549,1,BG PELED,Q2904594,high,
+550,0,BG ATA AL,,,Searched Wikidata and enwiki; no matching item.
+550,1,BG NARKISS,Q448886,high,
+551,0,LCOL EL KHALIDI,,,Searched Wikidata and enwiki; no matching item.
+551,1,BG PELED,Q2904594,medium,Bar Kochva's bde within Peled div; inferred
+552,0,LCOL EL KHALIDI,,,Searched Wikidata and enwiki; no matching item.
+552,1,COL RAM,,,"Only item Uri Ram Q21401981 born 1948, too young for 1967 colonel; rejected."
+553,0,LCOL EL KHALIDI,,,Searched Wikidata and enwiki; no matching item.
+553,1,BG PELED,Q2904594,high,
+554,0,MG SOLIMAN,,,Searched Wikidata and enwiki; no matching item.
+554,1,BG TAL,Q371935,high,existing link; full name in the narrative
+555,0,MG NASSER,,,Searched Wikidata and enwiki; no matching item.
+555,1,BG YOFFE,Q791344,high,existing link; full name in the narrative
+556,0,MG NAGUIB,,,"Searched Wikidata/enwiki variants, no item."
+556,1,BG SHARON,Q60206,high,existing link; full name in the narrative
+557,0,MG SOLIMAN,,,Searched Wikidata and enwiki; no matching item.
+557,1,BG TAL,Q371935,high,existing link; full name in the narrative
+558,0,MG NASSER,,,Searched Wikidata and enwiki; no matching item.
+558,1,BG YOFFE,Q791344,high,
+559,0,MG HASNI,,,Searched Wikidata and enwiki; no matching item.
+559,1,BG TAL,Q371935,high,
+560,0,MG GHOUL,,,"Searched variants, no item."
+560,1,BG YOFFE,Q791344,high,
+561,0,BG YOFFE,Q791344,high,
+562,0,MG GHOUL,,,"Searched variants, no item."
+562,1,BG TAL,Q371935,high,existing link; full name in the narrative
+563,0,MG HASSAN,,,Searched Wikidata and enwiki; no matching item.
+563,1,BG SHARON,Q60206,high,existing link; full name in the narrative
+564,0,COL GONEN,Q2915878,high,existing link; full name in the narrative
+565,0,COL AMIR,,,Searched Wikidata and enwiki; no matching item.
+565,1,COL EFRAT,Q6956673,high,Golani Brigade commander 1966-67.
+566,0,BG TAYAN,,,Searched Wikidata and enwiki; no matching item.
+566,1,COL RAM,,,"Only item Uri Ram Q21401981 born 1948, too young for 1967 colonel; rejected."
+567,0,COL AMIR,,,Searched Wikidata and enwiki; no matching item.
+567,1,COL MENDLER,Q1133532,high,
+568,0,MG HADITHA,Q12243230,medium,Jordanian commander at Karameh 1968; not independently confirmed at division level.
+568,1,BG GONEN,Q2915878,high,
+569,0,MG MENDLER,Q1133532,high,
+569,1,MG MAMOUN,Q3460404,high,
+570,0,MG MENDLER,Q1133532,high,
+570,1,MG WASSEL,Q2821420,high,
+571,0,MG MENDLER,Q1133532,high,
+571,1,MG MAMOUN,Q3460404,high,
+572,0,MG MENDLER,Q1133532,high,
+572,1,MG WASSEL,Q2821420,high,
+573,0,MG MAMOUN,Q3460404,high,
+573,1,MG ADAN,Q2624233,high,
+574,0,MG GONEN,Q2915878,high,
+574,1,MG MAMOUN,Q3460404,high,
+575,0,BG MAGEN,Q7053771,high,Commanded Sinai division in 1973.
+575,1,MG WASSEL,Q2821420,high,
+576,0,BG HAFIZ,Q12224134,high,Commanded Egyptian 16th Division in 1973.
+576,0,BG OWBY,Q12181626,medium,"Owby = Oraby, commanded Egyptian 21st Armoured Division in 1973."
+576,1,MG SHARON,Q60206,high,
+577,0,BG HAFIZ,Q12224134,high,Commanded Egyptian 16th Division in 1973.
+577,1,MG ADAN,Q2624233,high,
+578,0,MG KALIL,Q4664515,high,
+578,1,MG ADAN,Q2624233,high,
+579,0,MG KALIL,Q4664515,high,
+579,1,MG SHARON,Q60206,high,
+580,0,MG WASSEL,Q2821420,high,
+580,1,MG ADAN,Q2624233,high,
+581,0,MG WASSEL,Q2821420,high,
+581,1,MG ADAN,Q2624233,high,
+582,0,MG WASSEL,Q2821420,high,
+582,1,MG ADAN,Q2624233,high,
+583,0,MG WASSEL,Q2821420,high,
+583,1,MG ADAN,Q2624233,high,
+584,0,MG WASSEL,Q2821420,high,
+584,1,BG MAGEN,Q7053771,high,Commanded Sinai division in 1973.
+585,0,COL BEN GAL,Q958368,high,
+585,1,COL TOURKMANI,Q1588608,high,Commanded Syrian 9th Division in 1973.
+586,0,COL BEN GAL,Q958368,high,
+586,1,BG ABRASH,,,Searched Wikidata and enwiki; no matching item.
+587,0,COL BEN SHOHAM,Q2903595,high,"Commanded 188th Armored Brigade, killed 1973."
+587,1,BG ASLAN,Q2836110,high,Commanded Syrian 5th Division in 1973.
+588,0,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+588,1,BG ASLAN,Q2836110,high,Commanded Syrian 5th Division in 1973.
+589,0,COL OR,Q2777873,medium,Commanded 679th Reserve Armd Bde in 1973; CDB90 says 79th.
+589,1,COL JUHNI,,,Searched Wikidata and enwiki; no matching item.
+590,0,BG ASLAN,Q2836110,high,Commanded Syrian 5th Division in 1973.
+590,1,MG PELED,Q12409614,medium,"Moshe Peled, 146th Div on the Golan in 1973; Elad Peled was the 1967 commander."
+591,0,COL TOURKMANI,Q1588608,high,Commanded Syrian 9th Division in 1973.
+591,1,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+592,0,COL BEN GAL,Q958368,high,
+592,1,BG ABRASH,,,Searched Wikidata and enwiki; no matching item.
+593,1,COL DRORI,Q2910092,high,
+594,0,BG BERAKDAR,,,Searched Wikidata and enwiki; no matching item.
+594,1,BG EITAN,Q365524,high,Commanded 36th Division in 1973.
+595,0,COL JUHNI,,,Searched Wikidata and enwiki; no matching item.
+595,1,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+596,0,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+596,1,BG LAFTA,,,Searched Wikidata and enwiki; no matching item.
+597,0,BG LAFTA,,,Searched Wikidata and enwiki; no matching item.
+597,1,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+598,0,MG LANER,Q6993894,high,Commanded 240th Armored Division.
+598,1,BG EL MAJALI,,,Searched Wikidata and enwiki; no matching item.
+599,0,MG PELED,Q12409614,medium,"Moshe Peled, 146th Div on the Golan in 1973; Elad Peled was the 1967 commander."
+599,1,COL TOURKMANI,Q1588608,high,Commanded Syrian 9th Division in 1973.
+600,1,COL DRORI,Q2910092,high,
+601,1,COL DRORI,Q2910092,high,
+602,0,BG MCQUILLION,,,Searched Wikidata and enwiki; no matching item.
+602,1,GEN ZIEGLER,Q1982316,high,
+603,0,GEN ZIEGLER,Q1982316,high,
+603,1,COL STACK,Q76431173,medium,"Item labelled BG Robert Stack, born 1896, WWI/WWII; led CC C at Sidi Bou Zid. No label or enwiki on item."
+604,0,COL STARK,,,Searched Wikidata and enwiki; no matching item.
+604,1,FM ROMMEL,Q14060,high,
+605,0,GEN RODT,Q96893,high,
+605,1,COL WYATT,,,Searched Wikidata and enwiki; no matching item.
+606,0,GEN RODT,Q96893,high,
+606,1,COL WYATT,,,Searched Wikidata and enwiki; no matching item.
+607,0,GEN RODT,Q96893,high,
+607,1,COL MARTIN,,,Searched Wikidata and enwiki; no matching item.
+608,0,GEN RODT,Q96893,high,
+608,1,COL MARTIN,,,Searched Wikidata and enwiki; no matching item.
+609,0,COL BROWN,,,Searched Wikidata and enwiki; no matching item.
+609,1,GEN MACKENSON,Q60899,medium,14th Army commander at Anzio Feb 1944; unit listed as LXXVI Pz Corps (Herr).
+610,0,COL KAMMERER,,,Searched Wikidata and enwiki; no matching item.
+610,1,GEN MACKENSON,Q60899,medium,14th Army commander at Anzio Feb 1944; unit listed as LXXVI Pz Corps (Herr).
+611,0,COL DULANEY,,,Searched Wikidata and enwiki; no matching item.
+611,1,GEN MACKENSON,Q60899,medium,14th Army commander at Anzio Feb 1944; unit listed as LXXVI Pz Corps (Herr).
+612,0,COL JOHNSON,,,Searched Wikidata and enwiki; no matching item.
+612,1,GEN LUETTWITZ,Q64291,high,Commanded 2nd Pz Div at Mortain Aug 1944.
+613,0,COL BIRKS,,,Searched Wikidata and enwiki; no matching item.
+613,1,COL BAUM,Q62759,high,
+614,0,GEN STRAUBE,Q3056491,high,
+614,1,COL PETERSON,,,Searched Wikidata and enwiki; no matching item.
+615,0,GEN STRAUBE,Q3056491,high,
+615,1,COL SEELY,,,Searched Wikidata and enwiki; no matching item.
+616,0,GEN STRAUBE,Q3056491,high,
+616,1,COL STRICKLER,Q5216465,high,"Commanded 109th Infantry, 28th ID, from Sept 1944 per enwiki."
+617,1,COL HIRSCHFELDER,Q130176222,high,
+618,0,COL TUTTLE,,,Searched Wikidata and enwiki; no matching item.
+618,1,COL KRAAS,Q67186,high,
+619,0,COL BOOS,,,Searched Wikidata and enwiki; no matching item.
+619,1,COL KRAAS,Q67186,high,
+620,0,COL CAVENDER,,,Searched Wikidata and enwiki; no matching item.
+620,1,COL HOFFMAN-SCHONBORN,Q1561525,low,293rd VGR regiment commander may be someone else; he led 18th VGD.
+621,0,COL REID,,,Searched Wikidata and enwiki; no matching item.
+621,1,GEN KITTEL,Q5503855,high,
+622,0,COL DEVINE,,,Searched Wikidata and enwiki; no matching item.
+622,1,COL HOFFMAN-SCHONBORN,Q1561525,medium,18th VGD commander; 293rd VGR rows may be a regiment commander.
+623,0,COL DESCHENNEUX,,,Searched Wikidata and enwiki; no matching item.
+623,1,COL HOFFMAN-SCHONBORN,Q1561525,medium,18th VGD commander; 293rd VGR rows may be a regiment commander.
+624,0,COL FULLER,Q109932441,high,
+624,1,GEN LUETTWITZ,Q64291,high,
+625,0,COL NELSON,,,Searched Wikidata and enwiki; no matching item.
+625,1,GEN KRUEGER,Q63320,medium,LVIII Pz Corps commander; not the SS general of the same name.

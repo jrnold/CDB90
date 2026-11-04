@@ -340,6 +340,21 @@ CDB90 battles' belligerents (attacker, defender)
 | `attacker` | boolean | Attacker or defender in the battle |
 | `actors` | string | Actor(s), state or nonstate, of the belligerent. If more than one actor, actors are separated by " & ". |
 
+### `commander_links`
+
+Links from commanders to Wikidata items and, where there is one, English Wikipedia articles. One row for each named commander of a battle whose identity could be established; commanders who could not be identified or have no item have no row. Each link was checked against the side, date and role in that battle, so use this table in place of the `uri` column of `commanders`, which has known errors (see `data_notes`). Curated in `src-data/local/commander_links.csv`; resolved by `scripts/commander_links.py`.
+
+| Column | Type | Description |
+|---|---|---|
+| `isqno` | integer | Battle sequence number. |
+| `attacker` | boolean | Attacker or defender in the battle. |
+| `commanders` | string | Commander's name, as in `commanders`. |
+| `wikidata_id` | string | Wikidata item of the person (Q number). |
+| `wikidata_label` | string | English label of the Wikidata item. |
+| `wikipedia_title` | string | Title of the English Wikipedia article, if the item has one. |
+| `wikipedia_url` | string | URL of the English Wikipedia article, if the item has one. |
+| `confidence` | string | How sure the identification is: `high` (side, date and role confirmed), `medium` (a strong inference, such as the only general of that name on that side at the time) or `low` (plausible but unconfirmed). |
+
 ### `commanders`
 
 CDB90 battles' commanders
@@ -350,7 +365,21 @@ CDB90 battles' commanders
 | `attacker` | boolean | Attacker or defender in the battle |
 | `actors` | string | Actor(s), state or nonstate, of the belligerent. If more than one actor, actors are separated by " & ". |
 | `commanders` | string | Commander's name. |
-| `uri` | string | URL of the commander's article in Wikipedia (if any). This column is incomplete. |
+| `uri` | string | URL of the commander's article in Wikipedia (if any), as in the source data. This column is incomplete and has errors: use `commander_links`, and see `data_notes`. |
+
+### `data_notes`
+
+Notes on values in the source data that are wrong or that disagree with another source. The values themselves are kept as they are in CDB90. Curated in `src-data/local/data_notes.csv`.
+
+| Column | Type | Description |
+|---|---|---|
+| `isqno` | integer | Battle sequence number. |
+| `attacker` | boolean | Attacker or defender the note applies to; empty if it applies to the battle. |
+| `table_name` | string | Relational table that holds the value. |
+| `column_name` | string | Column that holds the value. |
+| `value` | string | The value as it is in the table. |
+| `note` | string | What is wrong with the value, or how it differs from the source. |
+| `source` | string | The source of the correction or the disagreement. |
 
 ### `front_widths`
 
